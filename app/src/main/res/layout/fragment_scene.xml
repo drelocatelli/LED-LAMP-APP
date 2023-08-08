@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@+id/srlComment" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.common.view.DragGridView android:gravity="center" android:id="@+id/gvScenes" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:numColumns="4" app:drag_last_position="true" app:drag_scale="1.05" app:drag_start_position="0" app:scale_mill="200" app:vibrator="true"/>
+            <TextView android:textSize="@dimen/dp_24" android:gravity="center" android:id="@+id/textview" android:background="@android:color/darker_gray" android:visibility="gone" android:layout_width="match_parent" android:layout_height="120dp" android:text="@string/deletthis" android:layout_alignParentBottom="true"/>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_NoScene" android:background="@color/transparent" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/transparent" android:visibility="visible" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/no_service" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/no_service"/>
+                        <TextView android:textSize="@dimen/dp_20" android:textStyle="bold" android:textColor="#437ed3" android:gravity="center" android:id="@+id/tvNoScene" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft_big" android:layout_marginTop="-100dp" android:layout_marginRight="@dimen/marginRight_big" android:text="@string/No_Equipment" android:layout_below="@+id/no_service"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.5" android:layout_alignParentBottom="true">
+                    <TextView android:textSize="@dimen/dp_18" android:textColor="#4a82d2" android:ellipsize="end" android:gravity="center" android:id="@+id/img_account" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:text="@string/Crash_Tip" android:lines="3"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</FrameLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/relativeLayoutHeader" android:background="@drawable/tab_bg" android:layout_width="match_parent" android:layout_height="@dimen/tab_height">
+        <ImageView android:id="@+id/buttonCancell" android:background="@drawable/arrow_left" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_30" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/text_size7" android:textColor="@color/blue" android:gravity="center" android:id="@+id/textViewID" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/channelset" android:layout_centerHorizontal="true"/>
+        <Button android:textSize="@dimen/text_size6" android:textColor="@color/blue" android:id="@+id/buttonSave" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_mid" android:text="@string/save" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/height_100">
+            <TextView android:textColor="@color/white" android:gravity="center" android:tag="viewColor1" android:background="@android:color/transparent" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="@dimen/margin_50" android:layout_marginRight="@dimen/margin_50" android:text="R"/>
+            <TextView android:textColor="@color/white" android:gravity="center" android:tag="viewColor2" android:background="@android:color/transparent" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="@dimen/margin_50" android:layout_marginRight="@dimen/margin_50" android:text="G"/>
+            <TextView android:textColor="@color/white" android:gravity="center" android:tag="viewColor3" android:background="@android:color/transparent" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="@dimen/margin_50" android:layout_marginRight="@dimen/margin_50" android:text="B"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/height_100">
+            <com.home.view.wheel.WheelView android:id="@+id/listViewModel31" android:tag="viewColor1" android:background="@drawable/color_block_bright_red" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <com.home.view.wheel.WheelView android:id="@+id/listViewModel32" android:tag="viewColor2" android:background="@drawable/color_block_bright_green" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <com.home.view.wheel.WheelView android:id="@+id/listViewModel33" android:tag="viewColor3" android:background="@drawable/color_block_bright_lightblue" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/height_100">
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@+id/viewColor34" android:tag="viewColor4" android:background="@android:color/transparent" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="@dimen/margin_50" android:layout_marginRight="@dimen/margin_50" android:text="W"/>
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@+id/viewColor35" android:tag="viewColor5" android:background="@android:color/transparent" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="@dimen/margin_50" android:layout_marginRight="@dimen/margin_50" android:text="Y"/>
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@+id/viewColor36" android:tag="viewColor6" android:background="@android:color/transparent" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="@dimen/margin_50" android:layout_marginRight="@dimen/margin_50" android:text="P"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/height_100">
+            <com.home.view.wheel.WheelView android:id="@+id/listViewModel34" android:tag="viewColor4" android:background="@drawable/color_block_bright_white" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <com.home.view.wheel.WheelView android:id="@+id/listViewModel35" android:tag="viewColor5" android:background="@drawable/color_block_bright_crystal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <com.home.view.wheel.WheelView android:id="@+id/listViewModel36" android:tag="viewColor6" android:background="@drawable/color_block_bright_pink" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/black" android:padding="@dimen/dp_2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/iv_video" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+    <ImageView android:id="@+id/backgr" android:background="@color/gray" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dp_60" android:layout_alignParentBottom="true"/>
+    <com.common.view.selectabletext.SelectableTextView android:textSize="16sp" android:textColor="@color/white" android:ellipsize="end" android:id="@+id/tv_title1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_35" android:maxLines="1" android:layout_alignParentBottom="true" android:lineSpacingExtra="2dp" app:cursor_handle_color="@color/holo_blue_bright" app:selected_color="#add8e6"/>
+    <TextView android:textSize="14sp" android:textColor="@color/white" android:id="@+id/tv_time1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_35" android:maxLines="1" android:layout_alignParentBottom="true"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/dp_30" android:layout_alignParentBottom="true">
+        <com.video.CircleImageView android:id="@+id/iv_headVideo" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30"/>
+        <TextView android:textSize="14sp" android:textColor="@color/white" android:id="@+id/tv_Author1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_40" android:layout_centerVertical="true"/>
+        <Button android:textColor="@color/white" android:id="@+id/bt_delete" android:background="#710000" android:visibility="visible" android:layout_width="@dimen/dp_50" android:layout_height="@dimen/dp_30" android:layout_marginRight="@dimen/dp_5" android:text="@string/delete" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</RelativeLayout>

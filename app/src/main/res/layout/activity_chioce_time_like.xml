@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@color/blue" android:layout_width="match_parent" android:layout_height="50dp">
+        <ImageView android:id="@+id/no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/no"/>
+        <TextView android:textSize="@dimen/dp_24" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/editTimer" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/yes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yes" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/dp_250">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/tab_height">
+            <com.common.view.TextViewBorder android:textSize="@dimen/text_size6" android:textColor="@color/blue" android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/hour" android:layout_weight="1"/>
+            <com.common.view.TextViewBorder android:textSize="@dimen/text_size6" android:textColor="@color/blue" android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/minute" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.home.view.wheel.WheelView android:id="@+id/listHour" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <com.home.view.wheel.WheelView android:id="@+id/listMinute" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:background="@color/light_gray_1" android:layout_width="match_parent" android:layout_height="2dp"/>
+    <RelativeLayout android:background="@color/light_gray_1" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginTop="5dp"/>
+    <RelativeLayout android:id="@+id/rl_mode" android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/dp_150">
+        <TextView android:textSize="24dp" android:id="@+id/modetv" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/choosemode" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+        <com.home.view.SelectMultiCheckGroup android:id="@+id/checkGroupSingle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_20" android:layout_alignParentBottom="true" app:column="4" app:isSingleSelected="true" app:row="2"/>
+    </RelativeLayout>
+    <RelativeLayout android:background="@color/light_gray_1" android:layout_width="match_parent" android:layout_height="2dp"/>
+    <RelativeLayout android:id="@+id/rl_week" android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/dp_150">
+        <TextView android:textSize="24dp" android:id="@+id/weektv" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/choose" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+        <com.home.view.SelectMultiCheckGroup android:id="@+id/checkGroupMulti" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_20" android:layout_below="@+id/weektv" android:layout_alignParentBottom="true" app:column="4" app:row="2"/>
+    </RelativeLayout>
+</LinearLayout>

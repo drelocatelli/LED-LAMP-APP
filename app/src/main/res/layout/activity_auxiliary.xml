@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|center_horizontal" android:orientation="vertical" android:background="@drawable/bg_all" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@color/blue" android:layout_width="match_parent" android:layout_height="@dimen/tab_height">
+        <ImageView android:id="@+id/backcode" android:background="@drawable/arrow_left" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_30" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="20sp" android:textColor="@color/white" android:gravity="center" android:id="@+id/tvTitle" android:layout_width="match_parent" android:layout_height="@dimen/tab_height" android:text="@string/Auxiliary_function"/>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:textColor="@color/white" android:gravity="center" android:id="@+id/button_KEY1" android:background="@drawable/bottom_border" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="KEY1"/>
+            <TextView android:layout_width="@dimen/dp_100" android:layout_height="@dimen/tab_height"/>
+            <Button android:textColor="@color/white" android:id="@+id/button_KEY2" android:background="@drawable/bottom_border" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="KEY2"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_80">
+            <Button android:textColor="@color/white" android:id="@+id/button_KEY3" android:background="@drawable/bottom_border" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="KEY3"/>
+            <TextView android:layout_width="@dimen/dp_100" android:layout_height="@dimen/tab_height"/>
+            <Button android:textColor="@color/white" android:id="@+id/button_KEY4" android:background="@drawable/bottom_border" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="KEY4"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

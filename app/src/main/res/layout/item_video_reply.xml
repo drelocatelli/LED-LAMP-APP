@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/dp_30">
+            <ImageView android:id="@+id/ci_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_my_default"/>
+            <TextView android:textSize="16sp" android:textColor="@color/colorPrimaryDark" android:id="@+id/tvAuthor9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_8"/>
+            <TextView android:textSize="10sp" android:textColor="@color/white" android:id="@+id/tvFloorHost9" android:background="@color/colorPrimary" android:padding="1dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/floor_host"/>
+            <TextView android:textSize="16sp" android:textColor="@color/grayDark" android:gravity="right" android:id="@+id/tvFloorNo9" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView android:textSize="14sp" android:textColor="@color/grayDark" android:id="@+id/tvDate9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp"/>
+        <TextView android:textSize="20sp" android:textColor="@color/black" android:id="@+id/tvContent9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp"/>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@+id/tv_say9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:layout_marginRight="@dimen/dp_20" android:text="回复" android:layout_alignParentRight="true"/>
+            <TextView android:id="@+id/tv_comment9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:layout_marginRight="@dimen/dp_100" android:text="所有评论" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView android:background="@color/gray_line_bg" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+</LinearLayout>

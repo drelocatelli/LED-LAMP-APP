@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ble_mode">
+        <item>Salto a tre colori, 135</item>
+        <item>Salto a sette colori, 136</item>
+        <item>Sfumatura a tre colori, 137</item>
+        <item>Sfumatura di sette colori, 138</item>
+        <item>Gradiente rosso, 139</item>
+        <item>Gradiente verde, 140</item>
+        <item>Gradiente blu, 141</item>
+        <item>Gradiente giallo, 142</item>
+        <item>ciano gradiente, 143</item>
+        <item>Gradiente viola, 144</item>
+        <item>Gradiente bianco, 145</item>
+        <item>Gradiente rosso e verde, 146</item>
+        <item>Gradiente rosso e blu, 147</item>
+        <item>Sfumatura verde-blu, 148</item>
+        <item>Strobo a sette colori, 149</item>
+        <item>Strobo rosso, 150</item>
+        <item>Strobo verde, 151</item>
+        <item>Strobo blu, 152</item>
+        <item>Strobo giallo, 153</item>
+        <item>ciano strobo, 154</item>
+        <item>Purple Strobe, 155</item>
+        <item>Strobo bianco, 156</item>
+        <item>Rosso statico, 128</item>
+        <item>Blu statico, 129</item>
+        <item>Verde statico, 130</item>
+        <item>Ciano statico, 131</item>
+        <item>Giallo statico, 132</item>
+        <item>Viola statico, 133</item>
+        <item>Bianco statico, 134</item>
+    </array>
+    <array name="chip_model">
+        <item>UCS512C, 2</item>
+        <item>UCS512A, 1</item>
+    </array>
+    <array name="ct_mode">
+        <item>caldo 0% freddo 100%, 128</item>
+        <item>caldo 10% freddo 90%, 129</item>
+        <item>caldo 20% freddo 80%, 130</item>
+        <item>caldo 30% freddo 70%, 131</item>
+        <item>40% caldo e 60% freddo, 132</item>
+        <item>caldo 50% freddo 50%, 133</item>
+        <item>caldo 60% freddo 40%, 134</item>
+        <item>caldo 70% freddo 30%, 135</item>
+        <item>caldo 80% freddo 20%, 136</item>
+        <item>Caldo 90%, freddo 10%, 137</item>
+        <item>caldo 100% freddo 0%, 138</item>
+    </array>
+    <array name="custom_model">
+        <item>1: gradiente, 0</item>
+        <item>2: trailing, 1</item>
+        <item>3: acqua corrente, 2</item>
+        <item>4: Segui la luce, 3</item>
+        <item>5: in pila, 4</item>
+        <item>6: bianco x bianco che scorre, 5</item>
+        <item>7: corsa di cavalli a punto singolo, 6</item>
+        <item>8: Ippica a punti multipli, 7</item>
+        <item>9: tirare / chiudere, 8</item>
+        <item>10: gradiente di luce singolo, 9</item>
+        <item>11: transizione lampada singola, 10</item>
+        <item>12: Strobo a luce singola, 11</item>
+    </array>
+    <array name="dm_mode">
+        <item>0%, 128</item>
+        <item>10%, 129</item>
+        <item>20%, 130</item>
+        <item>30%, 131</item>
+        <item>40%, 132</item>
+        <item>50%, 133</item>
+        <item>60%, 134</item>
+        <item>70%, 135</item>
+        <item>80%, 136</item>
+        <item>90%, 137</item>
+        <item>100%, 138</item>
+    </array>
+    <array name="dmx_model">
+        <item>Auto loop, 255</item>
+        <item>1: Positive Symphony, 1</item>
+        <item>2: Reverse Symphony, 2</item>
+        <item>3: positivo alla transizione chiara e scura a sette colori, 3</item>
+        <item>4: invertire la transizione chiara e scura a sette colori, 4</item>
+        <item>5: transizione positiva verso rosso, verde e blu, 5</item>
+        <item>6: Inversione rossa, verde e blu luce e transizione oscura, 6</item>
+        <item>7: transizione positiva da blu scuro e viola, 7</item>
+        <item>8: inversione della luce viola blu e giallo scuro e transizione scura, 8</item>
+        <item>9: la transizione da sei colori al rosso, 9</item>
+        <item>10: inversione del passaggio di sei colori rosso, 10</item>
+        <item>11: Verde di transizione a sei colori positivo, 11</item>
+        <item>12: inverti la transizione di sei colori verde, 12</item>
+        <item>13: Transizione positiva a sei colori blu, 13</item>
+        <item>14: inversione di sei colori blu di transizione, 14</item>
+        <item>15: transizione positiva a sei colori al ciano, 15</item>
+        <item>16: inversione ciano a sei colori di transizione, 16</item>
+        <item>17: transizione positiva a sei colori giallo, 17</item>
+        <item>18: inversione del passaggio di sei colori giallo, 18</item>
+        <item>19: Viola di transizione a sei colori positivo, 19</item>
+        <item>20: inversione viola a sei colori di transizione, 20</item>
+        <item>21: bianco di transizione a sei colori positivo, 21</item>
+        <item>22: bianco di transizione a sei colori inverso, 22</item>
+        <item>23: Trailing colorato in direzione positiva, 23</item>
+        <item>24: retromarcia colorata inversa, 24</item>
+        <item>25: Forward red tail, 25</item>
+        <item>26: coda rossa inversa, 26</item>
+        <item>27: Forward green tail, 27</item>
+        <item>28: coda verde inversa, 28</item>
+        <item>29: Forward blue tail, 29</item>
+        <item>30: coda blu inversa, 30</item>
+        <item>31: coda gialla positiva, 31</item>
+        <item>32: coda gialla inversa, 32</item>
+        <item>33: Forward cyan tail, 33</item>
+        <item>34: coda ciano inversa, 34</item>
+        <item>35: Coda viola in avanti, 35</item>
+        <item>36: Comunque coda viola, 36</item>
+        <item>37: Coda bianca in avanti, 37</item>
+        <item>38: coda bianca inversa, 38</item>
+        <item>39: Acqua corrente colorata positiva, 39</item>
+        <item>40: acqua corrente colorata inversa, 40</item>
+        <item>41: acqua corrente rossa, verde e blu positiva, 41</item>
+        <item>42: acqua corrente rossa, verde e blu inversa, 42</item>
+        <item>43: acqua corrente positiva gialla, blu e viola, 43</item>
+        <item>44: acqua corrente viola blu gialla inversa, 44</item>
+        <item>45: acqua corrente rossa e verde positiva, 45</item>
+        <item>46: acqua corrente rossa e verde inversa, 46</item>
+        <item>47: acqua corrente verde e blu positiva, 47</item>
+        <item>48: acqua corrente verde e blu inversa, 48</item>
+        <item>49: acqua corrente gialla e blu positiva, 49</item>
+        <item>50: acqua corrente gialla e blu inversa, 50</item>
+        <item>51: acqua corrente gialla e verde positiva, 51</item>
+        <item>52: acqua corrente gialla e verde inversa, 52</item>
+        <item>53: acqua corrente blu e viola positiva, 53</item>
+        <item>54: acqua corrente blu e viola inversa, 54</item>
+        <item>55: avanti acqua corrente in bianco e nero, 55</item>
+        <item>56: invertire l&apos;acqua corrente in bianco e nero, 56</item>
+        <item>57: tenda colorata, 57</item>
+        <item>58: chiusura colorata, 58</item>
+        <item>59: tenda rossa, verde e blu, 59</item>
+        <item>60: chiusura di rosso, verde e blu, 60</item>
+        <item>61: tenda gialla, blu e viola, 61</item>
+        <item>62: la chiusura di giallo, blu e viola, 62</item>
+        <item>63: inseguimento colorato in avanti, 63</item>
+        <item>64: inversione dell&apos;inseguimento colorato, 64</item>
+        <item>65: Avanti rosso, verde e blu seguono la luce, 65</item>
+        <item>66: luce rossa, verde e blu inversa seguono, 66</item>
+        <item>67: Avanti giallo, blu e viola seguono la luce, 67</item>
+        <item>68: luce di retromarcia gialla, blu e viola, 68</item>
+        <item>69: flutter colorato in avanti, 69</item>
+        <item>70: Flutter colorato inverso, 70</item>
+        <item>71: flutter positivo rosso, verde e blu, 71</item>
+        <item>72: Flutter rosso, verde e blu inverso, 72</item>
+        <item>73: flutter positivo giallo, blu e viola, 73</item>
+        <item>74: Fluttuante viola blu giallo inverso, 74</item>
+        <item>75: salto a sette colori, 75</item>
+        <item>76: salto rosso, verde e blu, 76</item>
+        <item>77: salto giallo, blu e viola, 77</item>
+        <item>78: Strobo a sette colori, 78</item>
+        <item>79: strobo rosso, verde e blu, 79</item>
+        <item>80: strobo viola blu giallo, 80</item>
+        <item>81: gradiente di sette colori, 81</item>
+        <item>82: gradiente rosso e giallo, 82</item>
+        <item>83: gradiente rosso e viola, 83</item>
+        <item>84: gradiente verde e blu, 84</item>
+        <item>85: gradiente giallo-verde, 85</item>
+        <item>86: gradiente blu-viola, 86</item>
+        <item>87: chiusura rossa, 87</item>
+        <item>88: chiusura verde, 88</item>
+        <item>89: Chiusura in blu, 89</item>
+        <item>90: chiusura gialla, 90</item>
+        <item>91: Chiusura in ciano, 91</item>
+        <item>92: chiusura viola, 92</item>
+        <item>93: chiusura bianca, 93</item>
+        <item>94: tenda rossa, 94</item>
+        <item>95: tenda verde, 95</item>
+        <item>96: tenda blu, 96</item>
+        <item>97: tenda gialla, 97</item>
+        <item>98: tenda ciano, 98</item>
+        <item>99: tenda viola, 99</item>
+        <item>100: tenda bianca, 100</item>
+        <item>101: Red horse race, 101</item>
+        <item>102: Green Horse Race, 102</item>
+        <item>103: corsa di cavalli blu, 103</item>
+        <item>104: Ippica gialla, 104</item>
+        <item>105: corsa di cavalli ciano, 105</item>
+        <item>106: corsa di cavalli viola, 106</item>
+        <item>107: White Horse Race, 107</item>
+        <item>108: correre avanti in rosso, 108</item>
+        <item>109: in esecuzione in rosso inverso, 109</item>
+        <item>110: correre avanti in verde, 110</item>
+        <item>111: reverse green running, 111</item>
+        <item>112: correre avanti in blu, 112</item>
+        <item>113: in esecuzione in blu inverso, 113</item>
+        <item>114: correre avanti in giallo, 114</item>
+        <item>115: in esecuzione in giallo inverso, 115</item>
+        <item>116: correre avanti in ciano, 116</item>
+        <item>117: in esecuzione in ciano inverso, 117</item>
+        <item>118: correre avanti in viola, 118</item>
+        <item>119: in esecuzione in viola inverso, 119</item>
+        <item>120: corsa verso il bianco, 120</item>
+        <item>121: in esecuzione in bianco inverso, 121</item>
+        <item>122: correre avanti in sette colori, 122</item>
+        <item>123: retromarcia a sette colori, 123</item>
+        <item>124: correre avanti in rosso, verde e blu, 124</item>
+        <item>125: retromarcia rossa, verde e blu in esecuzione, 125</item>
+        <item>126: corsa verso il giallo, viola e viola, 126</item>
+        <item>127: reverse giallo, viola e viola in esecuzione, 127</item>
+        <item>128: correre avanti in blu, giallo e viola, 128</item>
+        <item>129: corsa verso il verde, blu e giallo, 129</item>
+        <item>130: retromarcia blu, gialla e verde in esecuzione, 130</item>
+        <item>131: corsa verso punti rossi su bianco, 131</item>
+        <item>132: in esecuzione con punti rossi su sfondo bianco inverso, 132</item>
+        <item>133: correre verso il punto verde su sfondo rosso, 133</item>
+        <item>134: In esecuzione con punti verdi in rosso inverso, 134</item>
+        <item>135: correre verso il punto blu su sfondo verde, 135</item>
+        <item>136: in esecuzione con punti blu in verde inverso, 136</item>
+        <item>137: corsa verso il punto giallo su sfondo blu, 137</item>
+        <item>138: in esecuzione con punti gialli su sfondo blu inverso, 138</item>
+        <item>139: correre verso il punto verde su sfondo giallo, 139</item>
+        <item>140: in esecuzione con punti blu su sfondo giallo inverso, 140</item>
+        <item>141: correre in avanti con punti viola su sfondo blu, 141</item>
+        <item>142: punto viola inverso in esecuzione su sfondo blu, 142</item>
+        <item>143: correre verso i punti viola sullo sfondo viola, 143</item>
+        <item>144: in esecuzione con punti bianchi in viola inverso, 144</item>
+        <item>145: corsa verso il punto bianco su sfondo rosso, 145</item>
+        <item>146: in esecuzione con punti bianchi in rosso inverso, 146</item>
+        <item>147: Forward in esecuzione in sette colori su uno sfondo rosso, 147</item>
+        <item>148: esecuzione a sette colori con sfondo rosso inverso, 148</item>
+        <item>149: esecuzione in sette colori su uno sfondo verde, 149</item>
+        <item>150: esecuzione a sette colori con sfondo verde inverso, 150</item>
+        <item>151: Forward in esecuzione in sette colori su sfondo blu, 151</item>
+        <item>152: esecuzione a sette colori con sfondo blu inverso, 152</item>
+        <item>153: Forward in esecuzione in sette colori su sfondo giallo, 153</item>
+        <item>154: esecuzione a sette colori con sfondo giallo inverso, 154</item>
+        <item>155: Forward in esecuzione con sette colori su sfondo blu, 155</item>
+        <item>156: esecuzione a sette colori con sfondo blu inverso, 156</item>
+        <item>157: avanti in esecuzione in sette colori su sfondo viola, 157</item>
+        <item>158: esecuzione a sette colori con sfondo viola inverso, 158</item>
+        <item>159: Forward in esecuzione in sette colori su bianco, 159</item>
+        <item>160: retro-colore in esecuzione su bianco, 160</item>
+        <item>161: flusso positivo bianco-rosso-bianco, 161</item>
+        <item>162: flusso bianco rosso bianco inverso, 162</item>
+        <item>163: flusso positivo bianco-verde-bianco, 163</item>
+        <item>164: flusso inverso bianco-verde-bianco, 164</item>
+        <item>165: flusso bianco, blu e bianco positivo, 165</item>
+        <item>166: flusso inverso bianco-blu-bianco, 166</item>
+        <item>167: flusso positivo bianco, giallo e bianco, 167</item>
+        <item>168: flusso inverso bianco-giallo-bianco, 168</item>
+        <item>169: positivo bianco e bianco che scorre, 169</item>
+        <item>170: flusso bianco, blu e bianco inverso, 170</item>
+        <item>171: flusso bianco bianco e viola positivo, 171</item>
+        <item>172: flusso bianco viola bianco inverso, 172</item>
+        <item>173: flusso positivo rosso, bianco e rosso, 173</item>
+        <item>174: flusso rosso bianco rosso inverso, 174</item>
+        <item>175: flusso positivo verde-bianco-verde, 175</item>
+        <item>176: flusso verde, bianco e verde inverso, 176</item>
+        <item>177: flusso positivo blu-bianco-blu, 177</item>
+        <item>178: flusso blu, bianco e blu inverso, 178</item>
+        <item>179: flusso positivo giallo-bianco-giallo, 179</item>
+        <item>180: flusso giallo bianco giallo inverso, 180</item>
+        <item>181: flusso positivo di blu e bianco, 181</item>
+        <item>182: flusso inverso blu e bianco, 182</item>
+        <item>183: flusso positivo di viola, bianco e viola, 183</item>
+        <item>184: flusso viola bianco viola inverso, 184</item>
+        <item>185: corsa verso il punto blu e il punto verde, 185</item>
+        <item>186: ippica a punti blu e verde al contrario, 186</item>
+        <item>187: corsa verso il punto rosso e il punto verde, 187</item>
+        <item>188: sfondo rosso inverso e corsa di cavalli con punto verde, 188</item>
+        <item>189: correre verso il punto rosso su sfondo blu, 189</item>
+        <item>190: corsa di cavalli a punto rosso con sfondo blu inverso, 190</item>
+        <item>191: in avanti verso la corsa di cavalli punto blu punto blu, 191</item>
+        <item>192: Ippica a punto blu con sfondo giallo inverso, 192</item>
+        <item>193: corsa verso il punto giallo sul davanti viola, 193</item>
+        <item>194: corsa di cavalli a punto giallo con sfondo viola inverso, 194</item>
+        <item>195: corsa verso il punto bianco su sfondo giallo, 195</item>
+        <item>196: corsa di cavalli a punto bianco con sfondo giallo inverso, 196</item>
+        <item>197: corre verso il punto giallo su uno sfondo bianco, 197</item>
+        <item>198: corsa di cavalli a punto giallo su sfondo bianco inverso, 198</item>
+        <item>199: sette colori positivi, 199</item>
+        <item>200: Inverti colore pennello a sette colori, 200</item>
+        <item>201: colore rosso, verde e blu positivo, 201</item>
+        <item>202: colore rosso, verde e blu inverso, 202</item>
+        <item>203: positivo colore giallo blu viola, 203</item>
+        <item>204: colore del pennello viola blu blu giallo inverso, 204</item>
+        <item>205: tenda spazzolata a sette colori, 205</item>
+        <item>206: chiusura a sette colori del pennello, 206</item>
+        <item>207: Cortina di pennello rossa, verde e blu, 207</item>
+        <item>208: chiusura di colore rosso, verde e blu, 208</item>
+        <item>209: tenda spazzolata gialla, blu e viola, 209</item>
+        <item>210: chiusura colore pennello giallo, blu e viola, 210</item>
+    </array>
+    <array name="light_banner">
+        <item>LPD6803,1</item>
+        <item>TM1803,2</item>
+        <item>UCS1903,3</item>
+        <item>WS2811,4</item>
+        <item>TM1812,5</item>
+        <item>TM1809,6</item>
+        <item>WS2801,7</item>
+        <item>TLS3001,8</item>
+        <item>TLS3008,9</item>
+        <item>P9813,10</item>
+        <item>UCS8806,11</item>
+        <item>TM1829,12</item>
+        <item>TM1909,13</item>
+    </array>
+    <array name="light_mode">
+        <item>Spegni la luce</item>
+        <item>Rosso statico</item>
+        <item>Blu statico</item>
+        <item>Verde statico</item>
+        <item>Ciano statico</item>
+        <item>Giallo statico</item>
+        <item>Viola statico</item>
+        <item>Bianco statico</item>
+        <item>Salto a tre colori</item>
+        <item>Salto a sette colori</item>
+        <item>Sfumatura a tre colori</item>
+        <item>Sfumatura di sette colori</item>
+        <item>Gradiente rosso</item>
+        <item>Gradiente verde</item>
+        <item>Gradiente blu</item>
+        <item>Gradiente giallo</item>
+        <item>ciano gradiente</item>
+        <item>Gradiente viola</item>
+        <item>Gradiente bianco</item>
+        <item>Gradiente rosso e verde</item>
+        <item>Gradiente rosso e blu</item>
+        <item>Sfumatura verde-blu</item>
+        <item>Strobo a sette colori</item>
+        <item>Strobo rosso</item>
+        <item>Strobo verde</item>
+        <item>Strobo blu</item>
+        <item>strobo giallo</item>
+        <item>ciano strobo</item>
+        <item>Purple Strobe</item>
+        <item>Strobo bianco</item>
+        <item>MODE30</item>
+        <item>MODE31</item>
+        <item>MODE32</item>
+        <item>MODE33</item>
+        <item>MODE34</item>
+        <item>MODE35</item>
+        <item>MODE36</item>
+        <item>MODE37</item>
+        <item>MODE38</item>
+        <item>MODE39</item>
+        <item>MODE40</item>
+        <item>MODE41</item>
+        <item>MODE42</item>
+        <item>MODE43</item>
+        <item>MODE44</item>
+        <item>MODE45</item>
+        <item>MODE46</item>
+        <item>MODE47</item>
+        <item>MODE48</item>
+        <item>MODE49</item>
+        <item>MODE50</item>
+        <item>MODE51</item>
+        <item>MODE52</item>
+        <item>MODE53</item>
+        <item>MODE54</item>
+        <item>MODE55</item>
+        <item>MODE56</item>
+        <item>MODE57</item>
+        <item>MODE58</item>
+        <item>MODE59</item>
+        <item>MODE60</item>
+        <item>MODE61</item>
+        <item>MODE62</item>
+        <item>MODE63</item>
+        <item>MODE64</item>
+        <item>MODE65</item>
+        <item>MODE66</item>
+        <item>MODE67</item>
+        <item>MODE68</item>
+        <item>MODE69</item>
+        <item>MODE70</item>
+        <item>MODE71</item>
+        <item>MODE72</item>
+        <item>MODE73</item>
+        <item>MODE74</item>
+        <item>MODE75</item>
+        <item>MODE76</item>
+        <item>MODE77</item>
+        <item>MODE78</item>
+        <item>MODE79</item>
+        <item>MODE80</item>
+        <item>MODE81</item>
+        <item>MODE82</item>
+        <item>MODE83</item>
+        <item>MODE84</item>
+        <item>MODE85</item>
+        <item>MODE86</item>
+        <item>MODE87</item>
+        <item>MODE88</item>
+        <item>MODE89</item>
+        <item>MODE90</item>
+        <item>MODE91</item>
+        <item>MODE92</item>
+        <item>MODE93</item>
+        <item>MODE94</item>
+        <item>MODE95</item>
+        <item>MODE96</item>
+        <item>MODE97</item>
+        <item>MODE98</item>
+        <item>MODE99</item>
+        <item>MODE100</item>
+        <item>MODE101</item>
+        <item>MODE102</item>
+        <item>MODE103</item>
+        <item>MODE104</item>
+        <item>MODE105</item>
+        <item>MODE106</item>
+        <item>MODE107</item>
+        <item>MODE108</item>
+        <item>MODE109</item>
+        <item>MODE110</item>
+        <item>MODE111</item>
+        <item>MODE112</item>
+        <item>MODE113</item>
+        <item>MODE114</item>
+        <item>MODE115</item>
+        <item>MODE116</item>
+        <item>MODE117</item>
+        <item>MODE118</item>
+        <item>MODE119</item>
+        <item>MODE120</item>
+        <item>MODE121</item>
+        <item>MODE122</item>
+        <item>MODE123</item>
+        <item>MODE124</item>
+        <item>MODE125</item>
+        <item>MODE126</item>
+        <item>MODE127</item>
+        <item>MODE128</item>
+        <item>MODE129</item>
+        <item>MODE130</item>
+        <item>MODE131</item>
+        <item>MODE132</item>
+        <item>MODE133</item>
+        <item>MODE134</item>
+        <item>MODE135</item>
+        <item>MODE136</item>
+        <item>MODE137</item>
+        <item>MODE138</item>
+        <item>MODE139</item>
+        <item>MODE140</item>
+        <item>MODE141</item>
+        <item>MODE142</item>
+        <item>MODE143</item>
+        <item>MODE144</item>
+        <item>MODE145</item>
+        <item>MODE146</item>
+        <item>MODE147</item>
+        <item>MODE148</item>
+        <item>MODE149</item>
+        <item>MODE150</item>
+        <item>MODE151</item>
+        <item>MODE152</item>
+        <item>MODE153</item>
+        <item>MODE154</item>
+        <item>MODE155</item>
+        <item>MODE156</item>
+        <item>MODE157</item>
+        <item>MODE158</item>
+        <item>MODE159</item>
+        <item>MODE160</item>
+        <item>MODE161</item>
+        <item>MODE162</item>
+        <item>MODE163</item>
+        <item>MODE164</item>
+        <item>MODE165</item>
+        <item>MODE166</item>
+        <item>MODE167</item>
+        <item>MODE168</item>
+        <item>MODE169</item>
+        <item>MODE170</item>
+        <item>MODE171</item>
+        <item>MODE172</item>
+        <item>MODE173</item>
+        <item>MODE174</item>
+        <item>MODE175</item>
+        <item>MODE176</item>
+        <item>MODE177</item>
+        <item>MODE178</item>
+        <item>MODE179</item>
+        <item>MODE180</item>
+        <item>MODE181</item>
+        <item>MODE182</item>
+        <item>MODE183</item>
+        <item>MODE184</item>
+        <item>MODE185</item>
+        <item>MODE186</item>
+        <item>MODE187</item>
+        <item>MODE188</item>
+        <item>MODE189</item>
+        <item>MODE190</item>
+        <item>MODE191</item>
+        <item>MODE192</item>
+        <item>MODE193</item>
+        <item>MODE194</item>
+        <item>MODE195</item>
+        <item>MODE196</item>
+        <item>MODE197</item>
+        <item>MODE198</item>
+        <item>MODE199</item>
+        <item>MODE200</item>
+        <item>MODE201</item>
+        <item>MODE202</item>
+        <item>MODE203</item>
+        <item>MODE204</item>
+        <item>MODE205</item>
+        <item>MODE206</item>
+        <item>MODE207</item>
+        <item>MODE208</item>
+        <item>MODE209</item>
+        <item>MODE210</item>
+        <item>MODE211</item>
+    </array>
+    <array name="modelble">
+        <item>Spegni la luce</item>
+        <item>Accendi la luce</item>
+        <item>Rosso statico</item>
+        <item>Verde statico</item>
+        <item>Blu statico</item>
+        <item>Giallo statico</item>
+        <item>Viola statico</item>
+        <item>Ciano statico</item>
+        <item>Bianco statico</item>
+        <item>Salto a tre colori</item>
+        <item>Salto a sette colori</item>
+        <item>Sfumatura a tre colori</item>
+        <item>Sfumatura di sette colori</item>
+        <item>bianco freddo</item>
+        <item>Bianco caldo</item>
+        <item>Monochrome</item>
+    </array>
+    <array name="modelsun">
+        <item>Spegni le luci</item>
+        <item>Accendi la luce</item>
+        <item>Colori freddi</item>
+        <item>Colore caldo</item>
+        <item>Colore naturale</item>
+        <item>Cambio salto caldo bianco</item>
+        <item>Gradiente bianco</item>
+        <item>Gradiente di colore caldo</item>
+        <item>Gradiente di colore naturale</item>
+        <item>Gradiente bianco caldo</item>
+        <item>Strobo caldo bianco</item>
+        <item>Strobo bianco</item>
+        <item>Strobo a colori caldi</item>
+        <item>Strobo a colori naturali</item>
+    </array>
+    <array name="rgb_model">
+        <item>RGB, 1</item>
+        <item>RBG, 2</item>
+        <item>GRB, 3</item>
+        <item>GBR, 4</item>
+        <item>BRG, 5</item>
+        <item>BGR, 6</item>
+        <item>RGBW, 7</item>
+        <item>RBGW, 8</item>
+        <item>GRBW, 9</item>
+        <item>GBRW, 10</item>
+        <item>BRGW, 11</item>
+        <item>BGRW, 12</item>
+    </array>
+    <array name="rgb_sort_ble">
+        <item>RGB, 1</item>
+        <item>RBG, 2</item>
+        <item>GRB, 3</item>
+        <item>GBR, 4</item>
+        <item>BRG, 5</item>
+        <item>BGR, 6</item>
+    </array>
+    <array name="select_mode">
+        <item>W, 0</item>
+        <item>BW, 1</item>
+        <item>RGB, 2</item>
+        <item>RGBW, 3</item>
+        <item>RGBWCP, 4</item>
+    </array>
+    <array name="timer_model_dmx">
+        <item>Spegni la luce</item>
+        <item>Accendi la luce</item>
+        <item>Auto loop</item>
+        <item>1: Positive Symphony</item>
+        <item>2: Reverse Symphony</item>
+        <item>3: positivo alla transizione chiara e scura a sette colori</item>
+        <item>4: inverti la transizione di sette colori chiara e scura</item>
+        <item>5: transizione positiva da rosso scuro, verde e blu</item>
+        <item>6: inversione di luce rossa, verde e blu inversa e transizione scura</item>
+        <item>7: transizione positiva da blu scuro e viola</item>
+        <item>8: Inverti la luce viola blu gialla e la transizione scura</item>
+        <item>9: rosso positivo a sei colori di transizione</item>
+        <item>10: Inverti il ​​colore rosso di transizione a sei colori</item>
+        <item>11: Verde di transizione a sei colori positivo</item>
+        <item>12: Inverti il ​​verde di transizione a sei colori</item>
+        <item>13: blu di transizione a sei colori positivo</item>
+        <item>14: Blu di transizione a sei colori inverso</item>
+        <item>15: transizione positiva di sei colori al ciano</item>
+        <item>16: Ciano di transizione inversa a sei colori</item>
+        <item>17: Transizione positiva a sei colori giallo</item>
+        <item>18: giallo di transizione a sei colori inverso</item>
+        <item>19: Viola di transizione a sei colori positivo</item>
+        <item>20: inversione viola a sei colori di transizione</item>
+        <item>21: bianco di transizione a sei colori positivo</item>
+        <item>22: bianco di transizione a sei colori inverso</item>
+        <item>23: Forward trailing colorato</item>
+        <item>24: retro colorato trailing</item>
+        <item>25: Forward red tailing</item>
+        <item>26: Coda rossa inversa</item>
+        <item>27: Forward green tailing</item>
+        <item>28: coda verde inversa</item>
+        <item>29: Forward blue tail</item>
+        <item>30: coda blu inversa</item>
+        <item>31: Coda finale gialla positiva</item>
+        <item>32: coda gialla inversa</item>
+        <item>33: Forward cyan tailing</item>
+        <item>34: reverse cyan tailing</item>
+        <item>35: Forward purple tail</item>
+        <item>36: Purple trailing comunque</item>
+        <item>37: Forward white tailing</item>
+        <item>38: coda bianca inversa</item>
+        <item>39: Acqua corrente colorata positiva</item>
+        <item>40: inverti l&apos;acqua corrente colorata</item>
+        <item>41: Acqua corrente rossa, verde e blu positiva</item>
+        <item>42: acqua corrente rossa, verde e blu inversa</item>
+        <item>43: Acqua corrente positiva gialla, blu e viola</item>
+        <item>44: acqua corrente viola blu gialla inversa</item>
+        <item>45: acqua corrente rossa e verde positiva</item>
+        <item>46: acqua corrente rossa e verde inversa</item>
+        <item>47: Acqua corrente verde e blu positiva</item>
+        <item>48: acqua corrente verde e blu inversa</item>
+        <item>49: Acqua corrente gialla e blu positiva</item>
+        <item>50: acqua corrente gialla e blu inversa</item>
+        <item>51: Acqua corrente gialla e verde positiva</item>
+        <item>52: acqua corrente gialla e verde inversa</item>
+        <item>53: Acqua corrente blu e viola positiva</item>
+        <item>54: acqua corrente blu e viola inversa</item>
+        <item>55: acqua corrente in bianco e nero positiva</item>
+        <item>56: acqua corrente in bianco e nero inversa</item>
+        <item>57: Tendina colorata</item>
+        <item>58: Chiusura colorata</item>
+        <item>59: tenda rossa, verde e blu</item>
+        <item>60: chiusura di rosso, verde e blu</item>
+        <item>61: tenda gialla, blu e viola</item>
+        <item>62: la chiusura di giallo, blu e viola</item>
+        <item>63: Avanti inseguendo luce colorata</item>
+        <item>64: luce di inseguimento colorata inversa</item>
+        <item>65: luce rossa, verde e blu positiva seguono</item>
+        <item>66: luce rossa, verde e blu inversa seguono</item>
+        <item>67: luce a inseguimento positiva gialla, viola e viola</item>
+        <item>68: la luce di retromarcia gialla, blu e viola segue la luce</item>
+        <item>69: Flutter colorato positivo</item>
+        <item>70: Flutter colorato inverso</item>
+        <item>71: Flutter rosso, verde e blu positivo</item>
+        <item>72: Flutter rosso, verde e blu inverso</item>
+        <item>73: flutter positivo giallo, blu e viola</item>
+        <item>74: Flutter giallo, blu e viola inverso</item>
+        <item>75: salto a sette colori</item>
+        <item>76: transizione rossa, verde e blu</item>
+        <item>77: salto giallo-blu-viola</item>
+        <item>78: Strobo a sette colori</item>
+        <item>79: strobo rosso, verde e blu</item>
+        <item>80: strobo viola blu giallo</item>
+        <item>81: gradiente di sette colori</item>
+        <item>82: gradiente rosso e giallo</item>
+        <item>83: gradiente rosso e viola</item>
+        <item>84: sfumatura verde e blu</item>
+        <item>85: gradiente giallo-verde</item>
+        <item>86: gradiente blu e viola</item>
+        <item>87: Chiusura rossa</item>
+        <item>88: Chiusura verde</item>
+        <item>89: Chiusura in blu</item>
+        <item>90: chiusura in giallo</item>
+        <item>91: Chiusura in ciano</item>
+        <item>92: Chiusura viola</item>
+        <item>93: chiusura bianca</item>
+        <item>94: tenda rossa</item>
+        <item>95: La tenda verde</item>
+        <item>96: tenda blu</item>
+        <item>97: tendina gialla</item>
+        <item>98: tenda ciano</item>
+        <item>99: tenda viola</item>
+        <item>100: tendina bianca</item>
+        <item>101: Red horse race</item>
+        <item>102: Ippica verde</item>
+        <item>103: Ippica blu</item>
+        <item>104: Ippica gialla</item>
+        <item>105: corsa di cavalli ciano</item>
+        <item>106: corsa di cavalli viola</item>
+        <item>107: White horse race</item>
+        <item>108: correre avanti in rosso</item>
+        <item>109: in esecuzione in rosso inverso</item>
+        <item>110: correre avanti in verde</item>
+        <item>111: Reverse green running</item>
+        <item>112: correre avanti in blu</item>
+        <item>113: in esecuzione in blu inverso</item>
+        <item>114: correre avanti in giallo</item>
+        <item>115: in esecuzione in giallo inverso</item>
+        <item>116: correre avanti in ciano</item>
+        <item>117: in esecuzione in ciano inverso</item>
+        <item>118: correre avanti in viola</item>
+        <item>119: in esecuzione in viola inverso</item>
+        <item>120: corsa verso il bianco</item>
+        <item>121: in esecuzione in bianco inverso</item>
+        <item>122: correre avanti di sette colori</item>
+        <item>123: esecuzione in ordine inverso di sette colori</item>
+        <item>124: correre avanti in rosso, verde e blu</item>
+        <item>125: inversione di marcia rossa, verde e blu</item>
+        <item>126: correre avanti in giallo, viola e viola</item>
+        <item>127: Reverse giallo blu viola in esecuzione</item>
+        <item>128: correre avanti in blu, giallo e viola</item>
+        <item>129: corsa verso il verde, il blu e il giallo</item>
+        <item>130: Inverti blu, giallo e verde in esecuzione</item>
+        <item>131: corsa verso punti rossi su bianco</item>
+        <item>132: esecuzione con punti rossi su sfondo bianco inverso</item>
+        <item>133: corsa verso il punto rosso e il punto verde</item>
+        <item>134: inverti i punti verdi in esecuzione su sfondo rosso</item>
+        <item>135: correre verso il punto blu su sfondo verde</item>
+        <item>136: esecuzione con punti blu su sfondo verde inverso</item>
+        <item>137: correre verso il punto giallo su sfondo blu</item>
+        <item>138: punto giallo in esecuzione su sfondo blu inverso</item>
+        <item>139: correre verso il punto verde su sfondo giallo</item>
+        <item>140: esecuzione con punti blu su sfondo giallo inverso</item>
+        <item>141: correre verso punti viola su sfondo blu</item>
+        <item>142: punto viola inverso in esecuzione su sfondo blu</item>
+        <item>143: correre verso i punti bianchi sullo sfondo viola</item>
+        <item>144: esecuzione con punti bianchi su sfondo viola inverso</item>
+        <item>145: correre verso i punti rossi su sfondo bianco</item>
+        <item>146: esecuzione con punti bianchi su sfondo rosso inverso</item>
+        <item>147: correre avanti di sette colori su uno sfondo rosso</item>
+        <item>148: esecuzione a sette colori con sfondo rosso inverso</item>
+        <item>149: Forward in esecuzione in sette colori su sfondo verde</item>
+        <item>150: esecuzione a sette colori con sfondo verde inverso</item>
+        <item>151: Forward in esecuzione in sette colori su sfondo blu</item>
+        <item>152: esecuzione a sette colori con sfondo blu inverso</item>
+        <item>153: Forward in esecuzione in sette colori su sfondo giallo</item>
+        <item>154: esecuzione a sette colori con sfondo giallo inverso</item>
+        <item>155: Forward in esecuzione con sette colori su sfondo blu</item>
+        <item>156: esecuzione a sette colori con sfondo blu inverso</item>
+        <item>157: Forward in esecuzione in sette colori su sfondo viola</item>
+        <item>158: esecuzione a sette colori con sfondo viola inverso</item>
+        <item>159: Forward in esecuzione in sette colori su sfondo bianco</item>
+        <item>160: esecuzione a sette colori con sfondo bianco inverso</item>
+        <item>161: flusso positivo bianco-rosso-bianco</item>
+        <item>162: flusso bianco rosso bianco inverso</item>
+        <item>163: flusso positivo bianco-verde-bianco</item>
+        <item>164: flusso inverso bianco-verde-bianco</item>
+        <item>165: flusso positivo bianco-blu-bianco</item>
+        <item>166: flusso inverso bianco-blu-bianco</item>
+        <item>167: flusso bianco, giallo e bianco positivo</item>
+        <item>168: flusso inverso bianco-giallo-bianco</item>
+        <item>169: positivo bianco e bianco che scorre</item>
+        <item>170: flusso bianco, blu e bianco inverso</item>
+        <item>171: flusso bianco bianco e viola positivo</item>
+        <item>172: flusso bianco viola bianco inverso</item>
+        <item>173: flusso rosso, bianco e rosso positivo</item>
+        <item>174: flusso rosso bianco rosso inverso</item>
+        <item>175: flusso positivo di verde, bianco e verde</item>
+        <item>176: flusso verde, bianco e verde inverso</item>
+        <item>177: flusso positivo blu-bianco-blu</item>
+        <item>178: flusso inverso blu bianco bianco blu</item>
+        <item>179: flusso positivo giallo-bianco-giallo</item>
+        <item>180: flusso giallo bianco giallo inverso</item>
+        <item>181: flusso blu e bianco positivo</item>
+        <item>182: flusso inverso blu e bianco</item>
+        <item>183: flusso positivo di viola, bianco e viola</item>
+        <item>184: flusso inverso viola bianco viola</item>
+        <item>185: corsa verso il punto blu e il punto verde</item>
+        <item>186: ippica a punti blu e verde al contrario</item>
+        <item>187: corsa verso il punto rosso e il punto verde</item>
+        <item>188: ippica rossa a punti rossi e puntini verdi</item>
+        <item>189: correre verso il punto rosso su sfondo blu</item>
+        <item>190: ippica a punti rossi con sfondo blu inverso</item>
+        <item>191: correre verso il punto giallo con un punto giallo sul davanti</item>
+        <item>192: Ippica blu punto blu al contrario</item>
+        <item>193: corsa verso il punto giallo sul fronte viola</item>
+        <item>194: Ippica a punto giallo con sfondo viola inverso</item>
+        <item>195: correre verso i punti bianchi su sfondo giallo</item>
+        <item>196: cavalli bianchi che corrono con sfondo giallo inverso</item>
+        <item>197: corre verso il punto giallo su sfondo bianco</item>
+        <item>198: Ippica a punto giallo su sfondo bianco inverso</item>
+        <item>199: spazzolatura a sette colori positiva</item>
+        <item>200: Inverti colore pennello a sette colori</item>
+        <item>201: colore rosso, verde e blu positivo</item>
+        <item>202: Inverti colore pennello rosso, verde e blu</item>
+        <item>203: Colore viola blu blu positivo</item>
+        <item>204: colore del pennello viola blu blu inverso</item>
+        <item>205: tenda per spazzolatura a sette colori</item>
+        <item>206: chiusura del colore del pennello a sette colori</item>
+        <item>207: tenda pennello rosso, verde e blu</item>
+        <item>208: Chiusura del colore rosso, verde e blu</item>
+        <item>209: tenda spazzolata gialla, blu e viola</item>
+        <item>210: chiusura di colore giallo, blu e viola</item>
+    </array>
+    <array name="week">
+        <item>Lunedi</item>
+        <item>Martedì</item>
+        <item>Mercoledì</item>
+        <item>Giovedi</item>
+        <item>Venerdì</item>
+        <item>Sabato</item>
+        <item>Domenica</item>
+    </array>
+    <array name="weekday">
+        <item>Lunedi</item>
+        <item>Martedì</item>
+        <item>Mercoledì</item>
+        <item>Giovedi</item>
+        <item>Venerdì</item>
+        <item>Sabato</item>
+        <item>Domenica</item>
+    </array>
+</resources>

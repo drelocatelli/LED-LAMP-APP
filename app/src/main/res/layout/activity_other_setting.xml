@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@color/blue" android:layout_width="match_parent" android:layout_height="@dimen/dp_45">
+        <Button android:id="@+id/buttonCancell" android:background="@drawable/back_nomal" android:layout_width="@dimen/dp_45" android:layout_height="@dimen/dp_40" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/text_size7" android:textColor="@color/white" android:gravity="center" android:id="@+id/textViewID" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/base_setting" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/linearLayoutContainer" android:layout_width="match_parent" android:layout_height="400dp" android:layout_marginTop="@dimen/dp_150">
+        <TextView android:textSize="@dimen/text_size6" android:textColor="@color/white" android:gravity="center" android:background="@color/translucence" android:visibility="gone" android:layout_width="match_parent" android:layout_height="45dp" android:text="@string/fan_rotational_temperature"/>
+        <com.home.view.wheel.WheelView android:id="@+id/listViewModel1" android:tag="viewColor1" android:background="@drawable/color_block_bright_red" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dp_50" android:layout_marginTop="@dimen/dp_20" android:layout_marginRight="@dimen/dp_50"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/linearTimeSet" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:id="@+id/linearTime" android:layout_width="match_parent" android:layout_height="@dimen/tab_height">
+                <com.common.view.TextViewBorder android:textSize="@dimen/text_size6" android:textColor="@color/text_color_blue" android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/hour" android:layout_weight="1"/>
+                <com.common.view.TextViewBorder android:textSize="@dimen/text_size6" android:textColor="@color/text_color_blue" android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/minute" android:layout_weight="1"/>
+                <com.common.view.TextViewBorder android:textSize="@dimen/text_size6" android:textColor="@color/text_color_blue" android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/second" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.home.view.wheel.WheelView android:id="@+id/listViewHour" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+                <com.home.view.wheel.WheelView android:id="@+id/listViewMinute" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+                <com.home.view.wheel.WheelView android:id="@+id/listViewSecond" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:textSize="@dimen/text_size5" android:textColor="@color/white" android:id="@+id/textViewOKButton" android:background="@drawable/bottom_border" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_10" android:text="OK" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

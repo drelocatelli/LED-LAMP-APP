@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|center_horizontal" android:orientation="vertical" android:id="@+id/ll_dmx02_chip_select" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/relativeLayoutHeader" android:background="@color/black" android:layout_width="match_parent" android:layout_height="@dimen/tab_height">
+        <ImageView android:id="@+id/Back" android:background="@drawable/arrow_left" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_30" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/dp_18" android:textColor="@color/white" android:gravity="center" android:id="@+id/tvTitle" android:layout_width="match_parent" android:layout_height="@dimen/tab_height" android:text="@string/rgb_sort"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dp_20" android:layout_marginRight="@dimen/dp_20" android:layout_weight="2.5">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="@dimen/dp_25" android:layout_weight="1">
+                <TextView android:textSize="@dimen/dp_18" android:textColor="#ff454444" android:id="@+id/tvSortRGB" android:tag="viewSort1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RGB" android:layout_centerVertical="true"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="@dimen/dp_25" android:layout_weight="1">
+                <TextView android:textSize="@dimen/dp_18" android:textColor="#ff454444" android:id="@+id/tvSortRBG" android:tag="viewSort2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RBG" android:layout_centerVertical="true"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="@dimen/dp_25" android:layout_weight="1">
+                <TextView android:textSize="@dimen/dp_18" android:textColor="#ffffffff" android:id="@+id/tvSortGRB" android:tag="viewSort3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GRB" android:layout_centerVertical="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="@dimen/dp_25" android:layout_weight="1">
+                <TextView android:textSize="@dimen/dp_18" android:textColor="#ff454444" android:id="@+id/tvSortGBR" android:tag="viewSort4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GBR" android:layout_centerVertical="true"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="@dimen/dp_25" android:layout_weight="1">
+                <TextView android:textSize="@dimen/dp_18" android:textColor="#ff454444" android:id="@+id/tvSortBRG" android:tag="viewSort5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BRG" android:layout_centerVertical="true"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="@dimen/dp_25" android:layout_weight="1">
+                <TextView android:textSize="@dimen/dp_18" android:textColor="#ff454444" android:id="@+id/tvSortBGR" android:tag="viewSort6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BGR" android:layout_centerVertical="true"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/dp_18" android:textColor="@color/white" android:gravity="center" android:id="@+id/tvWiring" android:layout_width="match_parent" android:layout_height="@dimen/tab_height" android:layout_marginTop="@dimen/dp_20" android:text="@string/Wiring"/>
+    <LinearLayout android:gravity="center" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dp_15" android:layout_marginRight="@dimen/dp_15" android:layout_weight="2">
+        <GridView android:layout_gravity="center" android:id="@+id/gridView" android:scrollbars="none" android:fadingEdge="none" android:fadingEdgeLength="1dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:horizontalSpacing="1dp" android:verticalSpacing="1dp" android:stretchMode="columnWidth" android:columnWidth="0dp" android:numColumns="4" android:fastScrollEnabled="true" android:fadeScrollbars="true"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/dp_18" android:textColor="@color/white" android:gravity="center" android:id="@+id/tvPixel" android:layout_width="match_parent" android:layout_height="@dimen/tab_height" android:layout_marginTop="@dimen/dp_20" android:text="@string/Pixel"/>
+    <LinearLayout android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dp_20" android:layout_marginRight="@dimen/dp_20" android:layout_weight="1">
+        <Button android:textColor="@color/white" android:gravity="center" android:id="@+id/btnSetPixLong" android:background="@drawable/dmx02_buttom_border" android:layout_width="0dp" android:layout_height="@dimen/dp_50" android:text="16" android:layout_weight="1"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.8"/>
+        <Button android:textColor="@color/white" android:gravity="center" android:id="@+id/btnSetPixWidth" android:background="@drawable/dmx02_buttom_border" android:layout_width="0dp" android:layout_height="@dimen/dp_50" android:text="16" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.4"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <Button android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@+id/button_chipselect_ok" android:background="@drawable/bottom_border" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:layout_marginRight="@dimen/dp_20" android:text="@string/ok"/>
+    </LinearLayout>
+</LinearLayout>

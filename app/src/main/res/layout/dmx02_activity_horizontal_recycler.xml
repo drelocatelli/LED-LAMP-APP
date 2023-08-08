@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.yzl.lib.PullLeftToRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/plrl" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" app:footerBgColor="@color/transparent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.android.yzl.lib.PullLeftToRefreshLayout>

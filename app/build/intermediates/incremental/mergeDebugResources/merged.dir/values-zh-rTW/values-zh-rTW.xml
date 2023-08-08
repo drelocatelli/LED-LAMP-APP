@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="app_service">
+        <item>七彩</item>
+        <item>幻彩</item>
+        <item>汽車</item>
+        <item>水族</item>
+        <item>舞台</item>
+        <item>色溫</item>
+        <item>單色</item>
+        <item>廣播</item>
+        <item>WIFI</item>
+    </array>
+    <array name="ble_mode">
+        <item>三色跳變,135</item>
+        <item>七色跳變,136</item>
+        <item>三色漸變,137</item>
+        <item>七色漸變,138</item>
+        <item>紅色漸變,139</item>
+        <item>綠色漸變,140</item>
+        <item>藍色漸變,141</item>
+        <item>黃色漸變,142</item>
+        <item>青色漸變,143</item>
+        <item>紫色漸變,144</item>
+        <item>白色漸變,145</item>
+        <item>紅綠漸變,146</item>
+        <item>紅藍漸變,147</item>
+        <item>綠藍漸變,148</item>
+        <item>七色頻閃,149</item>
+        <item>紅色頻閃,150</item>
+        <item>綠色頻閃,151</item>
+        <item>藍色頻閃,152</item>
+        <item>黃色頻閃,153</item>
+        <item>青色頻閃,154</item>
+        <item>紫色頻閃,155</item>
+        <item>白色頻閃,156</item>
+        <item>靜態紅色,128</item>
+        <item>靜態藍色,129</item>
+        <item>靜態綠色,130</item>
+        <item>靜態青色,131</item>
+        <item>靜態黃色,132</item>
+        <item>靜態紫色,133</item>
+        <item>靜態白色,134</item>
+    </array>
+    <array name="car_mode">
+        <item>三色跳變,135</item>
+        <item>七色跳變,136</item>
+        <item>三色漸變,137</item>
+        <item>七色漸變,138</item>
+        <item>紅色漸變,139</item>
+        <item>綠色漸變,140</item>
+        <item>藍色漸變,141</item>
+        <item>黃色漸變,142</item>
+        <item>青色漸變,143</item>
+        <item>紫色漸變,144</item>
+        <item>白色漸變,145</item>
+        <item>紅綠漸變,146</item>
+        <item>紅藍漸變,147</item>
+        <item>綠藍漸變,148</item>
+        <item>七色頻閃,149</item>
+        <item>紅色頻閃,150</item>
+        <item>綠色頻閃,151</item>
+        <item>藍色頻閃,152</item>
+        <item>黃色頻閃,153</item>
+        <item>青色頻閃,154</item>
+        <item>紫色頻閃,155</item>
+        <item>白色頻閃,156</item>
+        <item>七色呼吸,157</item>
+    </array>
+    <array name="chip_model">
+        <item>SM16512,1</item>
+        <item>UCS512C,2</item>
+    </array>
+    <array name="ct_mode">
+        <item>暖 0% 冷 100%,128</item>
+        <item>暖 10% 冷 90%,129</item>
+        <item>暖 20% 冷 80%,130</item>
+        <item>暖 30% 冷 70%,131</item>
+        <item>暖 40% 冷 60%,132</item>
+        <item>暖 50% 冷 50%,133</item>
+        <item>暖 60% 冷 40%,134</item>
+        <item>暖 70% 冷 30%,135</item>
+        <item>暖 80% 冷 20%,136</item>
+        <item>暖 90% 冷 10%,137</item>
+        <item>暖 100% 冷 0%,138</item>
+    </array>
+    <array name="custom_model">
+        <item>1:漸變,0</item>
+        <item>2:拖尾,1</item>
+        <item>3:流水,2</item>
+        <item>4:追光,3</item>
+        <item>5:堆積,4</item>
+        <item>6:白x白流動,5</item>
+        <item>7:單點跑馬,6</item>
+        <item>8:多點跑馬,7</item>
+        <item>9:拉/閉幕,8</item>
+        <item>10:單燈漸變,9</item>
+        <item>11:單燈跳變,10</item>
+        <item>12:單燈頻閃,11</item>
+    </array>
+    <array name="dm_mode">
+        <item>0%,128</item>
+        <item>10%,129</item>
+        <item>20%,130</item>
+        <item>30%,131</item>
+        <item>40%,132</item>
+        <item>50%,133</item>
+        <item>60%,134</item>
+        <item>70%,135</item>
+        <item>80%,136</item>
+        <item>90%,137</item>
+        <item>100%,138</item>
+    </array>
+    <array name="dmx_model">
+        <item>自動循環,255</item>
+        <item>1:正向幻彩,1</item>
+        <item>2:反向幻彩,2</item>
+        <item>3:正向七色明暗過渡,3</item>
+        <item>4:反向七色明暗過渡,4</item>
+        <item>5:正向紅綠藍明暗過渡,5</item>
+        <item>6:反向紅綠藍明暗過渡,6</item>
+        <item>7:正向黃青紫明暗過渡,7</item>
+        <item>8:反向黃青紫明暗過渡,8</item>
+        <item>9:正向六色過渡紅色,9</item>
+        <item>10:反向六色過渡紅色,10</item>
+        <item>11:正向六色過渡綠色,11</item>
+        <item>12:反向六色過渡綠色,12</item>
+        <item>13:正向六色過渡藍色,13</item>
+        <item>14:反向六色過渡藍色,14</item>
+        <item>15:正向六色過渡青色,15</item>
+        <item>16:反向六色過渡青色,16</item>
+        <item>17:正向六色過渡黃色,17</item>
+        <item>18:反向六色過渡黃色,18</item>
+        <item>19:正向六色過渡紫色,19</item>
+        <item>20:反向六色過渡紫色,20</item>
+        <item>21:正向六色過渡白色,21</item>
+        <item>22:反向六色過渡白色,22</item>
+        <item>23:正向七彩拖尾,23</item>
+        <item>24:反向七彩拖尾,24</item>
+        <item>25:正向紅色拖尾,25</item>
+        <item>26:反向紅色拖尾,26</item>
+        <item>27:正向綠色拖尾,27</item>
+        <item>28:反向綠色拖尾,28</item>
+        <item>29:正向藍色拖尾,29</item>
+        <item>30:反向藍色拖尾,30</item>
+        <item>31:正向黃色拖尾,31</item>
+        <item>32:反向黃色拖尾,32</item>
+        <item>33:正向青色拖尾,33</item>
+        <item>34:反向青色拖尾,34</item>
+        <item>35:正向紫色拖尾,35</item>
+        <item>36:反向紫色拖尾,36</item>
+        <item>37:正向白色拖尾,37</item>
+        <item>38:反向白色拖尾,38</item>
+        <item>39:正向七彩流水,39</item>
+        <item>40:反向七彩流水,40</item>
+        <item>41:正向紅綠藍流水,41</item>
+        <item>42:反向紅綠藍流水,42</item>
+        <item>43:正向黃青紫流水,43</item>
+        <item>44:反向黃青紫流水,44</item>
+        <item>45:正向紅綠流水,45</item>
+        <item>46:反向紅綠流水,46</item>
+        <item>47:正向綠藍流水,47</item>
+        <item>48:反向綠藍流水,48</item>
+        <item>49:正向黃藍流水,49</item>
+        <item>50:反向黃藍流水,50</item>
+        <item>51:正向黃青流水,51</item>
+        <item>52:反向黃青流水,52</item>
+        <item>53:正向青紫流水,53</item>
+        <item>54:反向青紫流水,54</item>
+        <item>55:正向黑白流水,55</item>
+        <item>56:反向黑白流水,56</item>
+        <item>57:七彩拉幕,57</item>
+        <item>58:七彩閉幕,58</item>
+        <item>59:紅綠藍拉幕,59</item>
+        <item>60:紅綠藍閉幕,60</item>
+        <item>61:黃青紫拉幕,61</item>
+        <item>62:黃青紫閉幕,62</item>
+        <item>63:正向七彩追光,63</item>
+        <item>64:反向七彩追光,64</item>
+        <item>65:正向紅綠藍追光,65</item>
+        <item>66:反向紅綠藍追光,66</item>
+        <item>67:正向黃青紫追光,67</item>
+        <item>68:反向黃青紫追光,68</item>
+        <item>69:正向七彩飄動,69</item>
+        <item>70:反向七彩飄動,70</item>
+        <item>71:正向紅綠藍飄動,71</item>
+        <item>72:反向紅綠藍飄動,72</item>
+        <item>73:正向黃青紫飄動,73</item>
+        <item>74:反向黃青紫飄動,74</item>
+        <item>75:七色跳變,75</item>
+        <item>76:紅綠藍跳變,76</item>
+        <item>77:黃青紫跳變,77</item>
+        <item>78:七色頻閃,78</item>
+        <item>79:紅綠藍頻閃,79</item>
+        <item>80:黃青紫頻閃,80</item>
+        <item>81:七色漸變,81</item>
+        <item>82:紅黃漸變,82</item>
+        <item>83:紅紫漸變,83</item>
+        <item>84:綠青漸變,84</item>
+        <item>85:綠黃漸變,85</item>
+        <item>86:藍紫漸變,86</item>
+        <item>87:紅色閉幕,87</item>
+        <item>88:綠色閉幕,88</item>
+        <item>89:藍色閉幕,89</item>
+        <item>90:黃色閉幕,90</item>
+        <item>91:青色閉幕,91</item>
+        <item>92:紫色閉幕,92</item>
+        <item>93:白色閉幕,93</item>
+        <item>94:紅色拉幕,94</item>
+        <item>95:綠色拉幕,95</item>
+        <item>96:藍色拉幕,96</item>
+        <item>97:黃色拉幕,97</item>
+        <item>98:青色拉幕,98</item>
+        <item>99:紫色拉幕,99</item>
+        <item>100:白色拉幕,100</item>
+        <item>101:紅色跑馬,101</item>
+        <item>102:綠色跑馬,102</item>
+        <item>103:藍色跑馬,103</item>
+        <item>104:黃色跑馬,104</item>
+        <item>105:青色跑馬,105</item>
+        <item>106:紫色跑馬,106</item>
+        <item>107:白色跑馬,107</item>
+        <item>108:正向紅色跑動,108</item>
+        <item>109:反向紅色跑動,109</item>
+        <item>110:正向綠色跑動,110</item>
+        <item>111:反向綠色跑動,111</item>
+        <item>112:正向藍色跑動,112</item>
+        <item>113:反向藍色跑動,113</item>
+        <item>114:正向黃色跑動,114</item>
+        <item>115:反向黃色跑動,115</item>
+        <item>116:正向青色跑動,116</item>
+        <item>117:反向青色跑動,117</item>
+        <item>118:正向紫色跑動,118</item>
+        <item>119:反向紫色跑動,119</item>
+        <item>120:正向白色跑動,120</item>
+        <item>121:反向白色跑動,121</item>
+        <item>122:正向七色跑動,122</item>
+        <item>123:反向七色跑動,123</item>
+        <item>124:正向紅綠藍跑動,124</item>
+        <item>125:反向紅綠藍跑動,125</item>
+        <item>126:正向黃青紫跑動,126</item>
+        <item>127:反向黃青紫跑動,127</item>
+        <item>128:正向藍黃紫跑動,128</item>
+        <item>129:正向綠藍黃跑動,129</item>
+        <item>130:反向藍黃青跑動,130</item>
+        <item>131:正向白底紅點跑動,131</item>
+        <item>132:反向白底紅點跑動,132</item>
+        <item>133:正向紅底綠點跑動,133</item>
+        <item>134:反向紅底綠點跑動,134</item>
+        <item>135:正向綠底藍點跑動,135</item>
+        <item>136:反向綠底藍點跑動,136</item>
+        <item>137:正向藍底黃點跑動,137</item>
+        <item>138:反向藍底黃點跑動,138</item>
+        <item>139:正向黃底青點跑動,139</item>
+        <item>140:反向黃底青點跑動,140</item>
+        <item>141:正向青底紫點跑動,141</item>
+        <item>142:反向青底紫點跑動,142</item>
+        <item>143:正向紫底白點跑動,143</item>
+        <item>144:反向紫底白點跑動,144</item>
+        <item>145:正向紅底白點跑動,145</item>
+        <item>146:反向紅底白點跑動,146</item>
+        <item>147:正向紅底七色跑動,147</item>
+        <item>148:反向紅底七色跑動,148</item>
+        <item>149:正向綠底七色跑動,149</item>
+        <item>150:反向綠底七色跑動,150</item>
+        <item>151:正向藍底七色跑動,151</item>
+        <item>152:反向藍底七色跑動,152</item>
+        <item>153:正向黃底七色跑動,153</item>
+        <item>154:反向黃底七色跑動,154</item>
+        <item>155:正向青底七色跑動,155</item>
+        <item>156:反向青底七色跑動,156</item>
+        <item>157:正向紫底七色跑動,157</item>
+        <item>158:反向紫底七色跑動,158</item>
+        <item>159:正向白底七色跑動,159</item>
+        <item>160:反向白底七色跑動,160</item>
+        <item>161:正向白紅白流動,161</item>
+        <item>162:反向白紅白流動,162</item>
+        <item>163:正向白綠白流動,163</item>
+        <item>164:反向白綠白流動,164</item>
+        <item>165:正向白藍白流動,165</item>
+        <item>166:反向白藍白流動,166</item>
+        <item>167:正向白黃白流動,167</item>
+        <item>168:反向白黃白流動,168</item>
+        <item>169:正向白青白流動,169</item>
+        <item>170:反向白青白流動,170</item>
+        <item>171:正向白紫白流動,171</item>
+        <item>172:反向白紫白流動,172</item>
+        <item>173:正向紅白紅流動,173</item>
+        <item>174:反向紅白紅流動,174</item>
+        <item>175:正向綠白綠流動,175</item>
+        <item>176:反向綠白綠流動,176</item>
+        <item>177:正向藍白藍流動,177</item>
+        <item>178:反向藍白藍流動,178</item>
+        <item>179:正向黃白黃流動,179</item>
+        <item>180:反向黃白黃流動,180</item>
+        <item>181:正向青白青流動,181</item>
+        <item>182:反向青白青流動,182</item>
+        <item>183:正向紫白紫流動,183</item>
+        <item>184:反向紫白紫流動,184</item>
+        <item>185:正向藍底綠點跑馬,185</item>
+        <item>186:反向藍底綠點跑馬,186</item>
+        <item>187:正向紅底綠點跑馬,187</item>
+        <item>188:反向紅底綠點跑馬,188</item>
+        <item>189:正向藍底紅點跑馬,189</item>
+        <item>190:反向藍底紅點跑馬,190</item>
+        <item>191:正向黃底青點跑馬,191</item>
+        <item>192:反向黃底青點跑馬,192</item>
+        <item>193:正向紫底黃點跑馬,193</item>
+        <item>194:反向紫底黃點跑馬,194</item>
+        <item>195:正向黃底白點跑馬,195</item>
+        <item>196:反向黃底白點跑馬,196</item>
+        <item>197:正向白底黃點跑馬,197</item>
+        <item>198:反向白底黃點跑馬,198</item>
+        <item>199:正向七色刷色,199</item>
+        <item>200:反向七色刷色,200</item>
+        <item>201:正向紅綠藍刷色,201</item>
+        <item>202:反向紅綠藍刷色,202</item>
+        <item>203:正向黃青紫刷色,203</item>
+        <item>204:反向黃青紫刷色,204</item>
+        <item>205:七色刷色拉幕,205</item>
+        <item>206:七色刷色閉幕,206</item>
+        <item>207:紅綠藍刷色拉幕,207</item>
+        <item>208:紅綠藍刷色閉幕,208</item>
+        <item>209:黃青紫刷色拉幕,209</item>
+        <item>210:黃青紫刷色閉幕,210</item>
+    </array>
+    <array name="forum_tab_titles">
+        <item>其他</item>
+        <item>連接</item>
+        <item>諮詢</item>
+        <item>建議</item>
+        <item>熱點</item>
+    </array>
+    <array name="light_banner">
+        <item>LPD6803,1</item>
+        <item>TM1803,2</item>
+        <item>UCS1903,3</item>
+        <item>WS2811,4</item>
+        <item>TM1812,5</item>
+        <item>TM1809,6</item>
+        <item>WS2801,7</item>
+        <item>TLS3001,8</item>
+        <item>TLS3008,9</item>
+        <item>P9813,10</item>
+        <item>UCS8806,11</item>
+        <item>TM1829,12</item>
+        <item>TM1909,13</item>
+    </array>
+    <array name="light_mode">
+        <item>關燈</item>
+        <item>靜態紅色</item>
+        <item>靜態藍色</item>
+        <item>靜態綠色</item>
+        <item>靜態青色</item>
+        <item>靜態黃色</item>
+        <item>靜態紫色</item>
+        <item>靜態白色</item>
+        <item>三色跳變</item>
+        <item>七色跳變</item>
+        <item>三色漸變</item>
+        <item>七色漸變</item>
+        <item>紅色漸變</item>
+        <item>綠色漸變</item>
+        <item>藍色漸變</item>
+        <item>黃色漸變</item>
+        <item>青色漸變</item>
+        <item>紫色漸變</item>
+        <item>白色漸變</item>
+        <item>紅綠漸變</item>
+        <item>紅藍漸變</item>
+        <item>綠藍漸變</item>
+        <item>七色頻閃</item>
+        <item>紅色頻閃</item>
+        <item>綠色頻閃</item>
+        <item>藍色頻閃</item>
+        <item>黃色頻閃</item>
+        <item>青色頻閃</item>
+        <item>紫色頻閃</item>
+        <item>白色頻閃</item>
+        <item>MODE30</item>
+        <item>MODE31</item>
+        <item>MODE32</item>
+        <item>MODE33</item>
+        <item>MODE34</item>
+        <item>MODE35</item>
+        <item>MODE36</item>
+        <item>MODE37</item>
+        <item>MODE38</item>
+        <item>MODE39</item>
+        <item>MODE40</item>
+        <item>MODE41</item>
+        <item>MODE42</item>
+        <item>MODE43</item>
+        <item>MODE44</item>
+        <item>MODE45</item>
+        <item>MODE46</item>
+        <item>MODE47</item>
+        <item>MODE48</item>
+        <item>MODE49</item>
+        <item>MODE50</item>
+        <item>MODE51</item>
+        <item>MODE52</item>
+        <item>MODE53</item>
+        <item>MODE54</item>
+        <item>MODE55</item>
+        <item>MODE56</item>
+        <item>MODE57</item>
+        <item>MODE58</item>
+        <item>MODE59</item>
+        <item>MODE60</item>
+        <item>MODE61</item>
+        <item>MODE62</item>
+        <item>MODE63</item>
+        <item>MODE64</item>
+        <item>MODE65</item>
+        <item>MODE66</item>
+        <item>MODE67</item>
+        <item>MODE68</item>
+        <item>MODE69</item>
+        <item>MODE70</item>
+        <item>MODE71</item>
+        <item>MODE72</item>
+        <item>MODE73</item>
+        <item>MODE74</item>
+        <item>MODE75</item>
+        <item>MODE76</item>
+        <item>MODE77</item>
+        <item>MODE78</item>
+        <item>MODE79</item>
+        <item>MODE80</item>
+        <item>MODE81</item>
+        <item>MODE82</item>
+        <item>MODE83</item>
+        <item>MODE84</item>
+        <item>MODE85</item>
+        <item>MODE86</item>
+        <item>MODE87</item>
+        <item>MODE88</item>
+        <item>MODE89</item>
+        <item>MODE90</item>
+        <item>MODE91</item>
+        <item>MODE92</item>
+        <item>MODE93</item>
+        <item>MODE94</item>
+        <item>MODE95</item>
+        <item>MODE96</item>
+        <item>MODE97</item>
+        <item>MODE98</item>
+        <item>MODE99</item>
+        <item>MODE100</item>
+        <item>MODE101</item>
+        <item>MODE102</item>
+        <item>MODE103</item>
+        <item>MODE104</item>
+        <item>MODE105</item>
+        <item>MODE106</item>
+        <item>MODE107</item>
+        <item>MODE108</item>
+        <item>MODE109</item>
+        <item>MODE110</item>
+        <item>MODE111</item>
+        <item>MODE112</item>
+        <item>MODE113</item>
+        <item>MODE114</item>
+        <item>MODE115</item>
+        <item>MODE116</item>
+        <item>MODE117</item>
+        <item>MODE118</item>
+        <item>MODE119</item>
+        <item>MODE120</item>
+        <item>MODE121</item>
+        <item>MODE122</item>
+        <item>MODE123</item>
+        <item>MODE124</item>
+        <item>MODE125</item>
+        <item>MODE126</item>
+        <item>MODE127</item>
+        <item>MODE128</item>
+        <item>MODE129</item>
+        <item>MODE130</item>
+        <item>MODE131</item>
+        <item>MODE132</item>
+        <item>MODE133</item>
+        <item>MODE134</item>
+        <item>MODE135</item>
+        <item>MODE136</item>
+        <item>MODE137</item>
+        <item>MODE138</item>
+        <item>MODE139</item>
+        <item>MODE140</item>
+        <item>MODE141</item>
+        <item>MODE142</item>
+        <item>MODE143</item>
+        <item>MODE144</item>
+        <item>MODE145</item>
+        <item>MODE146</item>
+        <item>MODE147</item>
+        <item>MODE148</item>
+        <item>MODE149</item>
+        <item>MODE150</item>
+        <item>MODE151</item>
+        <item>MODE152</item>
+        <item>MODE153</item>
+        <item>MODE154</item>
+        <item>MODE155</item>
+        <item>MODE156</item>
+        <item>MODE157</item>
+        <item>MODE158</item>
+        <item>MODE159</item>
+        <item>MODE160</item>
+        <item>MODE161</item>
+        <item>MODE162</item>
+        <item>MODE163</item>
+        <item>MODE164</item>
+        <item>MODE165</item>
+        <item>MODE166</item>
+        <item>MODE167</item>
+        <item>MODE168</item>
+        <item>MODE169</item>
+        <item>MODE170</item>
+        <item>MODE171</item>
+        <item>MODE172</item>
+        <item>MODE173</item>
+        <item>MODE174</item>
+        <item>MODE175</item>
+        <item>MODE176</item>
+        <item>MODE177</item>
+        <item>MODE178</item>
+        <item>MODE179</item>
+        <item>MODE180</item>
+        <item>MODE181</item>
+        <item>MODE182</item>
+        <item>MODE183</item>
+        <item>MODE184</item>
+        <item>MODE185</item>
+        <item>MODE186</item>
+        <item>MODE187</item>
+        <item>MODE188</item>
+        <item>MODE189</item>
+        <item>MODE190</item>
+        <item>MODE191</item>
+        <item>MODE192</item>
+        <item>MODE193</item>
+        <item>MODE194</item>
+        <item>MODE195</item>
+        <item>MODE196</item>
+        <item>MODE197</item>
+        <item>MODE198</item>
+        <item>MODE199</item>
+        <item>MODE200</item>
+        <item>MODE201</item>
+        <item>MODE202</item>
+        <item>MODE203</item>
+        <item>MODE204</item>
+        <item>MODE205</item>
+        <item>MODE206</item>
+        <item>MODE207</item>
+        <item>MODE208</item>
+        <item>MODE209</item>
+        <item>MODE210</item>
+        <item>MODE211</item>
+    </array>
+    <array name="modelble">
+        <item>關燈</item>
+        <item>開燈</item>
+        <item>靜態紅色</item>
+        <item>靜態綠色</item>
+        <item>靜態藍色</item>
+        <item>靜態黃色</item>
+        <item>靜態紫色</item>
+        <item>靜態青色</item>
+        <item>靜態白色</item>
+        <item>三色跳變</item>
+        <item>七色跳變</item>
+        <item>三色漸變</item>
+        <item>七色漸變</item>
+        <item>冷白</item>
+        <item>暖白</item>
+        <item>單色</item>
+    </array>
+    <array name="modelike">
+        <item>關燈</item>
+        <item>開燈</item>
+        <item>全亮</item>
+        <item>半亮</item>
+        <item>微亮</item>
+        <item>呼吸</item>
+        <item>頻閃</item>
+        <item>爆閃</item>
+    </array>
+    <array name="modelsun">
+        <item>關燈</item>
+        <item>開燈</item>
+        <item>冷色</item>
+        <item>暖色</item>
+        <item>自然色</item>
+        <item>白暖跳變</item>
+        <item>白色漸變</item>
+        <item>暖色漸變</item>
+        <item>自然色漸變</item>
+        <item>白暖漸變</item>
+        <item>白暖頻閃</item>
+        <item>白色頻閃</item>
+        <item>暖色頻閃</item>
+        <item>自然色頻閃</item>
+    </array>
+    <array name="rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+        <item>RGBW,7</item>
+        <item>RBGW,8</item>
+        <item>GRBW,9</item>
+        <item>GBRW,10</item>
+        <item>BRGW,11</item>
+        <item>BGRW,12</item>
+    </array>
+    <array name="rgb_sort_ble">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+    </array>
+    <array name="select_mode">
+        <item>W,0</item>
+        <item>BW,1</item>
+        <item>RGB,2</item>
+        <item>RGBW,3</item>
+        <item>RGBWCP,4</item>
+    </array>
+    <array name="timer_model_dmx">
+        <item>關燈</item>
+        <item>開燈</item>
+        <item>自動循環</item>
+        <item>1:正向幻彩</item>
+        <item>2:反向幻彩</item>
+        <item>3:正向七色明暗過渡</item>
+        <item>4:反向七色明暗過渡</item>
+        <item>5:正向紅綠藍明暗過渡</item>
+        <item>6:反向紅綠藍明暗過渡</item>
+        <item>7:正向黃青紫明暗過渡</item>
+        <item>8:反向黃青紫明暗過渡</item>
+        <item>9:正向六色過渡紅色</item>
+        <item>10:反向六色過渡紅色</item>
+        <item>11:正向六色過渡綠色</item>
+        <item>12:反向六色過渡綠色</item>
+        <item>13:正向六色過渡藍色</item>
+        <item>14:反向六色過渡藍色</item>
+        <item>15:正向六色過渡青色</item>
+        <item>16:反向六色過渡青色</item>
+        <item>17:正向六色過渡黃色</item>
+        <item>18:反向六色過渡黃色</item>
+        <item>19:正向六色過渡紫色</item>
+        <item>20:反向六色過渡紫色</item>
+        <item>21:正向六色過渡白色</item>
+        <item>22:反向六色過渡白色</item>
+        <item>23:正向七彩拖尾</item>
+        <item>24:反向七彩拖尾</item>
+        <item>25:正向紅色拖尾</item>
+        <item>26:反向紅色拖尾</item>
+        <item>27:正向綠色拖尾</item>
+        <item>28:反向綠色拖尾</item>
+        <item>29:正向藍色拖尾</item>
+        <item>30:反向藍色拖尾</item>
+        <item>31:正向黃色拖尾</item>
+        <item>32:反向黃色拖尾</item>
+        <item>33:正向青色拖尾</item>
+        <item>34:反向青色拖尾</item>
+        <item>35:正向紫色拖尾</item>
+        <item>36:反向紫色拖尾</item>
+        <item>37:正向白色拖尾</item>
+        <item>38:反向白色拖尾</item>
+        <item>39:正向七彩流水</item>
+        <item>40:反向七彩流水</item>
+        <item>41:正向紅綠藍流水</item>
+        <item>42:反向紅綠藍流水</item>
+        <item>43:正向黃青紫流水</item>
+        <item>44:反向黃青紫流水</item>
+        <item>45:正向紅綠流水</item>
+        <item>46:反向紅綠流水</item>
+        <item>47:正向綠藍流水</item>
+        <item>48:反向綠藍流水</item>
+        <item>49:正向黃藍流水</item>
+        <item>50:反向黃藍流水</item>
+        <item>51:正向黃青流水</item>
+        <item>52:反向黃青流水</item>
+        <item>53:正向青紫流水</item>
+        <item>54:反向青紫流水</item>
+        <item>55:正向黑白流水</item>
+        <item>56:反向黑白流水</item>
+        <item>57:七彩拉幕</item>
+        <item>58:七彩閉幕</item>
+        <item>59:紅綠藍拉幕</item>
+        <item>60:紅綠藍閉幕</item>
+        <item>61:黃青紫拉幕</item>
+        <item>62:黃青紫閉幕</item>
+        <item>63:正向七彩追光</item>
+        <item>64:反向七彩追光</item>
+        <item>65:正向紅綠藍追光</item>
+        <item>66:反向紅綠藍追光</item>
+        <item>67:正向黃青紫追光</item>
+        <item>68:反向黃青紫追光</item>
+        <item>69:正向七彩飄動</item>
+        <item>70:反向七彩飄動</item>
+        <item>71:正向紅綠藍飄動</item>
+        <item>72:反向紅綠藍飄動</item>
+        <item>73:正向黃青紫飄動</item>
+        <item>74:反向黃青紫飄動</item>
+        <item>75:七色跳變</item>
+        <item>76:紅綠藍跳變</item>
+        <item>77:黃青紫跳變</item>
+        <item>78:七色頻閃</item>
+        <item>79:紅綠藍頻閃</item>
+        <item>80:黃青紫頻閃</item>
+        <item>81:七色漸變</item>
+        <item>82:紅黃漸變</item>
+        <item>83:紅紫漸變</item>
+        <item>84:綠青漸變</item>
+        <item>85:綠黃漸變</item>
+        <item>86:藍紫漸變</item>
+        <item>87:紅色閉幕</item>
+        <item>88:綠色閉幕</item>
+        <item>89:藍色閉幕</item>
+        <item>90:黃色閉幕</item>
+        <item>91:青色閉幕</item>
+        <item>92:紫色閉幕</item>
+        <item>93:白色閉幕</item>
+        <item>94:紅色拉幕</item>
+        <item>95:綠色拉幕</item>
+        <item>96:藍色拉幕</item>
+        <item>97:黃色拉幕</item>
+        <item>98:青色拉幕</item>
+        <item>99:紫色拉幕</item>
+        <item>100:白色拉幕</item>
+        <item>101:紅色跑馬</item>
+        <item>102:綠色跑馬</item>
+        <item>103:藍色跑馬</item>
+        <item>104:黃色跑馬</item>
+        <item>105:青色跑馬</item>
+        <item>106:紫色跑馬</item>
+        <item>107:白色跑馬</item>
+        <item>108:正向紅色跑動</item>
+        <item>109:反向紅色跑動</item>
+        <item>110:正向綠色跑動</item>
+        <item>111:反向綠色跑動</item>
+        <item>112:正向藍色跑動</item>
+        <item>113:反向藍色跑動</item>
+        <item>114:正向黃色跑動</item>
+        <item>115:反向黃色跑動</item>
+        <item>116:正向青色跑動</item>
+        <item>117:反向青色跑動</item>
+        <item>118:正向紫色跑動</item>
+        <item>119:反向紫色跑動</item>
+        <item>120:正向白色跑動</item>
+        <item>121:反向白色跑動</item>
+        <item>122:正向七色跑動</item>
+        <item>123:反向七色跑動</item>
+        <item>124:正向紅綠藍跑動</item>
+        <item>125:反向紅綠藍跑動</item>
+        <item>126:正向黃青紫跑動</item>
+        <item>127:反向黃青紫跑動</item>
+        <item>128:正向藍黃紫跑動</item>
+        <item>129:正向綠藍黃跑動</item>
+        <item>130:反向藍黃青跑動</item>
+        <item>131:正向白底紅點跑動</item>
+        <item>132:反向白底紅點跑動</item>
+        <item>133:正向紅底綠點跑動</item>
+        <item>134:反向紅底綠點跑動</item>
+        <item>135:正向綠底藍點跑動</item>
+        <item>136:反向綠底藍點跑動</item>
+        <item>137:正向藍底黃點跑動</item>
+        <item>138:反向藍底黃點跑動</item>
+        <item>139:正向黃底青點跑動</item>
+        <item>140:反向黃底青點跑動</item>
+        <item>141:正向青底紫點跑動</item>
+        <item>142:反向青底紫點跑動</item>
+        <item>143:正向紫底白點跑動</item>
+        <item>144:反向紫底白點跑動</item>
+        <item>145:正向紅底白點跑動</item>
+        <item>146:反向紅底白點跑動</item>
+        <item>147:正向紅底七色跑動</item>
+        <item>148:反向紅底七色跑動</item>
+        <item>149:正向綠底七色跑動</item>
+        <item>150:反向綠底七色跑動</item>
+        <item>151:正向藍底七色跑動</item>
+        <item>152:反向藍底七色跑動</item>
+        <item>153:正向黃底七色跑動</item>
+        <item>154:反向黃底七色跑動</item>
+        <item>155:正向青底七色跑動</item>
+        <item>156:反向青底七色跑動</item>
+        <item>157:正向紫底七色跑動</item>
+        <item>158:反向紫底七色跑動</item>
+        <item>159:正向白底七色跑動</item>
+        <item>160:反向白底七色跑動</item>
+        <item>161:正向白紅白流動</item>
+        <item>162:反向白紅白流動</item>
+        <item>163:正向白綠白流動</item>
+        <item>164:反向白綠白流動</item>
+        <item>165:正向白藍白流動</item>
+        <item>166:反向白藍白流動</item>
+        <item>167:正向白黃白流動</item>
+        <item>168:反向白黃白流動</item>
+        <item>169:正向白青白流動</item>
+        <item>170:反向白青白流動</item>
+        <item>171:正向白紫白流動</item>
+        <item>172:反向白紫白流動</item>
+        <item>173:正向紅白紅流動</item>
+        <item>174:反向紅白紅流動</item>
+        <item>175:正向綠白綠流動</item>
+        <item>176:反向綠白綠流動</item>
+        <item>177:正向藍白藍流動</item>
+        <item>178:反向藍白藍流動</item>
+        <item>179:正向黃白黃流動</item>
+        <item>180:反向黃白黃流動</item>
+        <item>181:正向青白青流動</item>
+        <item>182:反向青白青流動</item>
+        <item>183:正向紫白紫流動</item>
+        <item>184:反向紫白紫流動</item>
+        <item>185:正向藍底綠點跑馬</item>
+        <item>186:反向藍底綠點跑馬</item>
+        <item>187:正向紅底綠點跑馬</item>
+        <item>188:反向紅底綠點跑馬</item>
+        <item>189:正向藍底紅點跑馬</item>
+        <item>190:反向藍底紅點跑馬</item>
+        <item>191:正向黃底青點跑馬</item>
+        <item>192:反向黃底青點跑馬</item>
+        <item>193:正向紫底黃點跑馬</item>
+        <item>194:反向紫底黃點跑馬</item>
+        <item>195:正向黃底白點跑馬</item>
+        <item>196:反向黃底白點跑馬</item>
+        <item>197:正向白底黃點跑馬</item>
+        <item>198:反向白底黃點跑馬</item>
+        <item>199:正向七色刷色</item>
+        <item>200:反向七色刷色</item>
+        <item>201:正向紅綠藍刷色</item>
+        <item>202:反向紅綠藍刷色</item>
+        <item>203:正向黃青紫刷色</item>
+        <item>204:反向黃青紫刷色</item>
+        <item>205:七色刷色拉幕</item>
+        <item>206:七色刷色閉幕</item>
+        <item>207:紅綠藍刷色拉幕</item>
+        <item>208:紅綠藍刷色閉幕</item>
+        <item>209:黃青紫刷色拉幕</item>
+        <item>210:黃青紫刷色閉幕</item>
+    </array>
+    <array name="week">
+        <item>週一</item>
+        <item>週二</item>
+        <item>週三</item>
+        <item>週四</item>
+        <item>週五</item>
+        <item>週六</item>
+        <item>週日</item>
+    </array>
+    <array name="weekday">
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期天</item>
+    </array>
+    <string name="Add_Picture">添加圖片</string>
+    <string name="Advisory">諮詢</string>
+    <string name="Alignment">對齊方式</string>
+    <string name="Animation">動畫</string>
+    <string name="Auxiliary_function">按鍵</string>
+    <string name="Background">背景</string>
+    <string name="Bubble">氣泡</string>
+    <string name="ButtonEight">跑馬</string>
+    <string name="ButtonFive">堆積</string>
+    <string name="ButtonSeven">流動</string>
+    <string name="ButtonSix">拉幕</string>
+    <string name="Closetiming">關閉定時</string>
+    <string name="Code">編碼</string>
+    <string name="Connect">連接</string>
+    <string name="Crash_Tip">*近期遇到閃退問題的\n請先卸載APP，然後重新下載</string>
+    <string name="Experience_Now">立即體驗</string>
+    <string name="FD">拖尾</string>
+    <string name="FS">追光</string>
+    <string name="FW">流水</string>
+    <string name="Font_Size">字體大小</string>
+    <string name="Forward">正向</string>
+    <string name="Get_GIF_From_Album">從相冊獲取GIF</string>
+    <string name="Get_Pictures_From_Album">從相冊獲取圖片</string>
+    <string name="Graffiti">塗鴉</string>
+    <string name="Hot">熱點</string>
+    <string name="Language">語言</string>
+    <string name="Material_Library">素材庫</string>
+    <string name="No_Equipment">暫無設備 請先下拉刷新</string>
+    <string name="Other">其他</string>
+    <string name="Pixel">像素點</string>
+    <string name="Pull_down_to_refresh_device">下拉刷新設備</string>
+    <string name="RandomPlay">隨機播放</string>
+    <string name="Reverse">反向</string>
+    <string name="Send_Failed">發送失敗</string>
+    <string name="Sending">正在發送</string>
+    <string name="Sendtiming">發送定時</string>
+    <string name="SequentialPlay">順序播放</string>
+    <string name="SinglePlay">單曲循環</string>
+    <string name="Suggest">建議</string>
+    <string name="Tab_Effect">效果</string>
+    <string name="Text">文字</string>
+    <string name="Text_Color">字顏色</string>
+    <string name="Tutorial">教程</string>
+    <string name="Values_can_be_the_same">值不能一樣</string>
+    <string name="Voicecontrol">聲控</string>
+    <string name="Wiring">佈線方式</string>
+    <string name="abc_action_bar_home_description">瀏覽首頁</string>
+    <string name="abc_action_bar_up_description">向上瀏覽</string>
+    <string name="abc_action_menu_overflow_description">更多選項</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">選擇應用程式</string>
+    <string name="abc_capital_off">關閉</string>
+    <string name="abc_capital_on">開啟</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete 鍵</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 鍵</string>
+    <string name="abc_menu_function_shortcut_label">Fn +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">空格鍵</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menu +</string>
+    <string name="abc_search_hint">搜尋…</string>
+    <string name="abc_searchview_description_clear">清除查詢</string>
+    <string name="abc_searchview_description_query">搜尋查詢</string>
+    <string name="abc_searchview_description_search">搜尋</string>
+    <string name="abc_searchview_description_submit">提交查詢</string>
+    <string name="abc_searchview_description_voice">語音搜尋</string>
+    <string name="abc_shareactionprovider_share_with">分享對象</string>
+    <string name="abc_shareactionprovider_share_with_application">與「%s」分享</string>
+    <string name="abc_toolbar_collapse_description">收合</string>
+    <string name="ablum_title">歌名:%1$s 藝術家:%2$s 專輯: %3$s</string>
+    <string name="about_us_and_help">關於我們</string>
+    <string name="access_request">權限申請</string>
+    <string name="access_request_description">從Android 6.0之後，想要掃描低功率藍牙設備，應用需要擁有訪問設備位置的權限。這是因為Bluetooth beacons藍牙信標，可用於確定手機和用戶的位置。但本應用不會使用到您的位置信息，開啟此權限只是為了掃描到藍牙設備。 【點擊查看Google官方文檔說明】</string>
+    <string name="access_request_description1">從Android 6.0之後，想要掃描低功率藍牙設備，應用需要擁有訪問設備位置的權限。這是因為Bluetooth beacons藍牙信標，可用於確定手機和用戶的位置。但本應用不會使用到您的位置信息，開啟此權限只是為了掃描到藍牙設備。</string>
+    <string name="access_request_description2">【點擊查看Google官方文檔說明】</string>
+    <string name="account_format_error">驗證方式格式不正確</string>
+    <string name="accumulation">堆積</string>
+    <string name="action_settings">設置</string>
+    <string name="add2lib">確定選擇</string>
+    <string name="add2lib_all">選擇全部</string>
+    <string name="addTimer">添加定時器</string>
+    <string name="add_device">添加控制設備</string>
+    <string name="add_device_successfully">添加設備成功</string>
+    <string name="add_group">添加新組</string>
+    <string name="adding_device">正在添加設備</string>
+    <string name="agree">同意</string>
+    <string name="aisle_a">通道A</string>
+    <string name="aisle_b">通道B</string>
+    <string name="aisle_c">通道C</string>
+    <string name="all_off">全關</string>
+    <string name="all_on">全開</string>
+    <string name="allcomment">全部評論</string>
+    <string name="app_name">LED LAMP</string>
+    <string name="aquatic_mode">水草模式</string>
+    <string name="authorization_alert">從安卓6.0開始,應用程序必須開啟【定位服務】才能掃描到藍牙設備!</string>
+    <string name="authorization_title">提示:</string>
+    <string name="b">藍色</string>
+    <string name="back">返回</string>
+    <string name="base_setting">設置</string>
+    <string name="battery">電池</string>
+    <string name="bind_end">確定</string>
+    <string name="ble_connect">藍牙配網</string>
+    <string name="ble_not_supported">不支持該設備</string>
+    <string name="blue">%1$s</string>
+    <string name="breathe">呼吸</string>
+    <string name="brightness">亮度</string>
+    <string name="brightness_set">亮度: %1$s</string>
+    <string name="btn_pix_number">點數</string>
+    <string name="btn_set_pix_number">設置像素點(0-1024)</string>
+    <string name="btquery">溫度電池查詢</string>
+    <string name="busy_wait">我正忙著呢,等等</string>
+    <string name="c">青色</string>
+    <string name="camera_permissions_disabled">相機權限禁用了,請務必開啟相機權!</string>
+    <string name="can_not_connect">WIFI可能不對，3秒後重新連接或者選擇新Wifi重試!</string>
+    <string name="cancel">取消</string>
+    <string name="cancell">取消</string>
+    <string name="cancell_dialog">取消</string>
+    <string name="change_color">換色</string>
+    <string name="change_skin">更換皮膚</string>
+    <string name="channelset">顏色通道設置</string>
+    <string name="charts">圖文論壇</string>
+    <string name="check_network_connection">請檢查網絡連接!!!</string>
+    <string name="chiptypevaluetip">請選擇芯片類類型 !</string>
+    <string name="choose">選擇星期</string>
+    <string name="choosemode">選擇模式</string>
+    <string name="chose">請選擇短視頻</string>
+    <string name="chose_list">請從播放列表中選擇播放內容</string>
+    <string name="chose_picthor">只能選擇一張圖片</string>
+    <string name="chose_video">只能選擇一個視頻</string>
+    <string name="circulation">循環</string>
+    <string name="clear">清除</string>
+    <string name="close">關閉</string>
+    <string name="colorful_mode">多彩模式</string>
+    <string name="colour">顏色</string>
+    <string name="comment">評論</string>
+    <string name="comment_content">正文</string>
+    <string name="comment_detail">評論詳情</string>
+    <string name="comment_publish">發表</string>
+    <string name="comment_publish_success">發表成功</string>
+    <string name="comment_title">標題</string>
+    <string name="common_words">常用語</string>
+    <string name="conenct_device">%1$s設備，已連接:%2$s</string>
+    <string name="confirm">確認</string>
+    <string name="confirm_light_flash_slowly">確認燈慢閃狀態</string>
+    <string name="confirm_the_light_flash">確認燈快閃狀態</string>
+    <string name="confirmation_light_flash_ble">3 > 確認燈快閃(白光)</string>
+    <string name="confirmation_light_flash_hotspot">3 > 確認燈慢閃(紅光)</string>
+    <string name="confirmation_light_flash_wifi">3 > 確認燈快閃(藍光)</string>
+    <string name="connect_count">%1$s設備</string>
+    <string name="connect_success">連接成功!</string>
+    <string name="connected_to_the_hotspot_shown">1.請將手機連接到下圖所示熱點</string>
+    <string name="connecting">開始連接...</string>
+    <string name="control">控制</string>
+    <string name="cool_warm">冷色:%1$s 暖色:%2$s</string>
+    <string name="copy">複製</string>
+    <string name="coral_artistic_conception">珊瑚意境</string>
+    <string name="current_mode">當前模式</string>
+    <string name="current_mode_format">%1$s</string>
+    <string name="current_rgb_format">當前RGB排序: %1$s</string>
+    <string name="current_version">當前版本</string>
+    <string name="currentquery">靜態查詢</string>
+    <string name="custom">自定義</string>
+    <string name="cycle">循環</string>
+    <string name="database_error">數據庫錯誤</string>
+    <string name="deep_sea_mode">深海意境</string>
+    <string name="define_system">用戶自定義</string>
+    <string name="delete">刪除</string>
+    <string name="delete_group">刪除組 %1$s</string>
+    <string name="deletthis">拖入這裡刪除</string>
+    <string name="device_has_restarted">1. 確認設備已重啟，燈在快閃</string>
+    <string name="device_list">設備列表</string>
+    <string name="devices_all">所有設備</string>
+    <string name="disconnect">斷開藍牙中...</string>
+    <string name="disconnect_bluetooth">即將斷開藍牙...</string>
+    <string name="download_center">下載中心</string>
+    <string name="editTimer">編輯定時器</string>
+    <string name="edit_group_please">請先選擇組中的設備</string>
+    <string name="enter">請輸入模式星期</string>
+    <string name="fan_rotational_temperature">風扇轉動溫度設置</string>
+    <string name="file_size_exceeds_limit">文件大小超出限制</string>
+    <string name="filesize">視頻文件不能大於20MB</string>
+    <string name="firstlogin">請先登錄</string>
+    <string name="five">五</string>
+    <string name="flash">頻閃</string>
+    <string name="floor">樓</string>
+    <string name="floor_host">樓主</string>
+    <string name="flow">白x白流動</string>
+    <string name="forget_password">忘記密碼?</string>
+    <string name="forum">論壇</string>
+    <string name="four">四</string>
+    <string name="g">綠色</string>
+    <string name="get_checkcode">獲取驗證碼</string>
+    <string name="goodbye">再見！</string>
+    <string name="gpsNotifyMsg">當前應用需要打開定位功能。 \n請點擊\"設置\"-\"定位服務\"-打開定位功能。</string>
+    <string name="gradient">漸變</string>
+    <string name="green">%1$s</string>
+    <string name="group_ble_device">分組</string>
+    <string name="groupname_cannot_same">組名不能相同 !</string>
+    <string name="have_time_to_talk">有時間聊聊嗎</string>
+    <string name="hello_there">你好！</string>
+    <string name="help">幫助</string>
+    <string name="home">首頁</string>
+    <string name="home_page">圖文</string>
+    <string name="hotspot_connect">熱點配網</string>
+    <string name="hour">小時</string>
+    <string name="input_account">請輸入賬號</string>
+    <string name="input_content">輸入內容...</string>
+    <string name="input_length_error">輸入長度錯誤</string>
+    <string name="input_not_null">輸入不能為空</string>
+    <string name="input_password">請輸入密碼</string>
+    <string name="invalid_verification_code">無效的驗證碼</string>
+    <string name="is_it_2_4">2. 檢查 Wi-Fi 是否為 2.4GHz</string>
+    <string name="is_the_password_correct">3. 核對 Wi-Fi 密碼是否正確</string>
+    <string name="jump">跳變</string>
+    <string name="jump_over">跳過</string>
+    <string name="keyStr">1234567890abcdef</string>
+    <string name="key_in_numbers">請輸入數字!</string>
+    <string name="led_like">LED LIKE</string>
+    <string name="light_code">地址碼數</string>
+    <string name="lightning_mode">閃電模式</string>
+    <string name="loading">加載中...</string>
+    <string name="login">登錄</string>
+    <string name="loginapp">請先登陸論壇</string>
+    <string name="logon_agree_policy1">登錄即代表閱讀並同意</string>
+    <string name="logon_agree_policy2">服務協議</string>
+    <string name="logout">退出登錄</string>
+    <string name="long_press_the_controller_colorbtn">2 > 長按控制器顏色鍵5s</string>
+    <string name="long_press_the_controller_muscibtn">2 > 長按控制器音樂鍵5s</string>
+    <string name="long_press_the_controller_onoffbtn">2 > 長按控制器開關鍵5s</string>
+    <string name="look">查看此評論</string>
+    <string name="looking">預覽中...</string>
+    <string name="main_tab_text_service">LED LAMP</string>
+    <string name="marine_mode">海洋模式</string>
+    <string name="micro_authorized">麥克風已授權</string>
+    <string name="minute">分鐘</string>
+    <string name="mode">模式</string>
+    <string name="mode_select">模式切換</string>
+    <string name="mode_set">模式: %1$s</string>
+    <string name="model">模式</string>
+    <string name="msg_no_add_scene">未選擇內容，此操作無效</string>
+    <string name="msg_not_empty">數據未保存，確定要退出嗎</string>
+    <string name="msg_sending_online">正在掃描...</string>
+    <string name="multipoint_fast_running">多點跑馬</string>
+    <string name="music_lib">樂庫</string>
+    <string name="music_style_pop">流行</string>
+    <string name="music_style_rock">搖滾</string>
+    <string name="music_style_soft">柔和</string>
+    <string name="my_personal">我的</string>
+    <string name="natural_light">自然色</string>
+    <string name="nei_mai">內麥</string>
+    <string name="network_timeout">設備連接網絡超時</string>
+    <string name="new_password">新密碼：</string>
+    <string name="next_step">下一步</string>
+    <string name="no_account">沒有賬號？</string>
+    <string name="no_data">沒有數據</string>
+    <string name="no_device_found">沒有搜索到藍牙設備！</string>
+    <string name="no_more_data">沒有更多的數據</string>
+    <string name="normal">按住 說話</string>
+    <string name="not_used">暫不使用</string>
+    <string name="nothing">暫無數據</string>
+    <string name="ok">OK</string>
+    <string name="old_password">舊密碼：</string>
+    <string name="one">一</string>
+    <string name="online_service">在線客服</string>
+    <string name="open">開啟</string>
+    <string name="open_album">打開相冊</string>
+    <string name="open_close">拉/閉幕</string>
+    <string name="openapp">請點擊右上角⊕添加軟件,首次使用請點擊右下角幫助查看操作指南</string>
+    <string name="p">紫色</string>
+    <string name="p_explain">圖文講解</string>
+    <string name="pair_code">對碼</string>
+    <string name="pair_code_set">當前碼: %1$s</string>
+    <string name="parameter_error">參數錯誤</string>
+    <string name="password">密碼</string>
+    <string name="pecent_photos">最近照片</string>
+    <string name="phone_connected_to_hotspot">將手機 WiFi 連接到設備熱點</string>
+    <string name="phone_or_email">手機號碼或電子郵箱</string>
+    <string name="picture">圖片不能大於1MB請重新選擇</string>
+    <string name="picture_all_audio">所有音頻</string>
+    <string name="picture_audio">獲取系統錄音權限被拒絕</string>
+    <string name="picture_audio_empty">妳可以使用系統錄音錄制音頻</string>
+    <string name="picture_audio_error">音頻已損壞</string>
+    <string name="picture_camera">獲取系統相機權限被拒絕</string>
+    <string name="picture_camera_roll">相機膠卷</string>
+    <string name="picture_camera_roll_num">%1$s (%2$d)</string>
+    <string name="picture_cancel">取消</string>
+    <string name="picture_completed">已完成</string>
+    <string name="picture_confirm">確定</string>
+    <string name="picture_done">完成</string>
+    <string name="picture_done_front_num">%1$d/%2$d 完成</string>
+    <string name="picture_empty">妳可以使用相機拍攝照片或視頻</string>
+    <string name="picture_empty_audio_title">無音頻文件\n</string>
+    <string name="picture_empty_title">無視頻或照片\n</string>
+    <string name="picture_error">圖片已損壞</string>
+    <string name="picture_gif_tag">動圖</string>
+    <string name="picture_jurisdiction">讀取內存卡權限被拒絕</string>
+    <string name="picture_long_chart">長圖</string>
+    <string name="picture_message_audio_max_num">妳最多可以選擇%1$s個音頻</string>
+    <string name="picture_message_max_num">妳最多可以選擇%1$s張圖片</string>
+    <string name="picture_message_video_max_num">妳最多可以選擇%1$s個視頻</string>
+    <string name="picture_min_img_num">圖片最低選擇不能少於%1$s張</string>
+    <string name="picture_min_video_num">視頻最低選擇不能少於%1$s個</string>
+    <string name="picture_pause_audio">暫停</string>
+    <string name="picture_photograph">拍照</string>
+    <string name="picture_play_audio">播放</string>
+    <string name="picture_please">請稍候...</string>
+    <string name="picture_please_select">請選擇</string>
+    <string name="picture_preview">預覽</string>
+    <string name="picture_preview_image_num">%1$d / %2$d</string>
+    <string name="picture_prompt">提示</string>
+    <string name="picture_prompt_content">是否保存圖片至手機？</string>
+    <string name="picture_quit_audio">退出</string>
+    <string name="picture_record_video">錄視頻</string>
+    <string name="picture_rule">不能同時選擇圖片或視頻</string>
+    <string name="picture_save_error">圖片保存失敗</string>
+    <string name="picture_save_success">圖片保存成功至</string>
+    <string name="picture_stop_audio">停止</string>
+    <string name="picture_take_picture">拍攝</string>
+    <string name="picture_tape">錄音</string>
+    <string name="picture_video_error">視頻已損壞</string>
+    <string name="picture_video_toast">視頻不可預覽</string>
+    <string name="picture_warning">暫無媒體文件！</string>
+    <string name="playvideo">播放</string>
+    <string name="please_describe_your_problem">您好，請描述您的問題，我會盡快幫您解決喲~</string>
+    <string name="please_enter_again">請重新輸入</string>
+    <string name="please_input">新組名稱</string>
+    <string name="please_use_the_verification_code_sent">請用已發送的驗證碼</string>
+    <string name="position_closed">定位已關閉</string>
+    <string name="position_service">定位服務</string>
+    <string name="position_service_info">您的手機可能需要開啟定位服務才能搜索到藍牙設備。如果您確定身邊有藍牙設備，卻無法搜索到設備，請開啟定位服務。</string>
+    <string name="power_on">1 > 連接電源</string>
+    <string name="preview">預覽</string>
+    <string name="privacy_policy">服務協議和隱私政策</string>
+    <string name="privacy_policy_content">請你務必審慎閱讀、充分理解“服務協議”和“隱私政策”各條款，包括但不限於：為了向你提供數據、分享等服務所要獲取的權限信息。你可閱讀《服務協議》和《隱私政策》了解詳細信息。如你同意，請點擊“同意”開始接受我們的服務。</string>
+    <string name="privacy_policy_content1">請你務必審慎閱讀、充分理解“服務協議”和“隱私政策”各條款，包括但不限於：為了向你提供數據、分享等服務所要獲取的權限信息。你可閱讀</string>
+    <string name="privacy_policy_content2">《服務協議》</string>
+    <string name="privacy_policy_content3">和</string>
+    <string name="privacy_policy_content4">《隱私政策》</string>
+    <string name="publish_comment">視頻</string>
+    <string name="query">查詢</string>
+    <string name="r">紅色</string>
+    <string name="r_g_b">R:%1$s G:%2$s B:%3$s</string>
+    <string name="rationale_ask_again">如果沒有請求的權限，這個應用程序可能無法正常工作。打開應用程序設置界面修改應用程序權限。</string>
+    <string name="reason">原因</string>
+    <string name="recording">鬆開 結束</string>
+    <string name="red">%1$s</string>
+    <string name="regist_agree_policy">註冊即代表閱讀並同意服務協議和隱私政策</string>
+    <string name="regist_agree_policy1">註冊即代表閱讀並同意</string>
+    <string name="regist_agree_policy2">服務協議</string>
+    <string name="regist_agree_policy3">和</string>
+    <string name="regist_agree_policy4">隱私政策</string>
+    <string name="register">註冊</string>
+    <string name="register_account">賬號：</string>
+    <string name="register_checkcode">驗證碼：</string>
+    <string name="register_email">驗證方式：</string>
+    <string name="register_password">密碼：</string>
+    <string name="register_success">註冊成功</string>
+    <string name="replacement">重置</string>
+    <string name="reply">回复</string>
+    <string name="request_failed">請求失敗,請稍後重試</string>
+    <string name="reset_device">請先重置設備</string>
+    <string name="reset_message">重置後數據將清除，確定要重置嗎？</string>
+    <string name="reset_password">重置密碼</string>
+    <string name="reset_password_success">重置密碼成功，請重新登陸!</string>
+    <string name="retrieve">找回</string>
+    <string name="retrieve_password">找回密碼</string>
+    <string name="return_to_this_app_to_continue_adding_device">2.返回本應用，繼續添加設備</string>
+    <string name="rgb_sort">RGB 排序</string>
+    <string name="rgb_sort_set">當前排序: %1$s</string>
+    <string name="ring">色環</string>
+    <string name="run">運行</string>
+    <string name="save">保存</string>
+    <string name="saveSuccessfully">保存成功</string>
+    <string name="savefailed">保存失敗</string>
+    <string name="scan_dev_info">掃描到 %1$s 設備，請返回首頁打開 %2$s 應用</string>
+    <string name="scan_dev_info_wifi">掃描到 %1$s 個設備，已添加成功 %2$s 個</string>
+    <string name="scan_failed_with_missing_permissions">掃描失敗，缺少權限</string>
+    <string name="scan_to">掃描到</string>
+    <string name="sdded_successfully">添加成功</string>
+    <string name="search_menu_title">搜尋</string>
+    <string name="second">秒鐘</string>
+    <string name="select_all">全選</string>
+    <string name="select_chip">選擇芯片</string>
+    <string name="send">發送</string>
+    <string name="sendSccess">發送成功,斷電之後定時設置無效</string>
+    <string name="send_checkcode">驗證碼已發送</string>
+    <string name="sendcharts">發貼</string>
+    <string name="sendtie">發送中...</string>
+    <string name="sendvideo">發視頻</string>
+    <string name="sensitivity">靈敏度</string>
+    <string name="sensitivity_set">靈敏度: %1$s</string>
+    <string name="sent_success">發送成功</string>
+    <string name="set_focus">設置</string>
+    <string name="set_pix_number">設置地址碼(0-512)</string>
+    <string name="setting">Wifi Connection -></string>
+    <string name="seven">日</string>
+    <string name="shake">搖一搖</string>
+    <string name="shouzhishanghua">手指上滑，取消發送</string>
+    <string name="single_click_select_color">單擊選擇顏色, 長按刪除顏色</string>
+    <string name="single_lamp_jump">單燈跳變</string>
+    <string name="single_lamp_strobe">單燈頻閃</string>
+    <string name="single_light_gradient">單燈漸變</string>
+    <string name="singlepoint_fast_running">單點跑馬</string>
+    <string name="six">六</string>
+    <string name="six_eighteen_length">6~18位數字字母</string>
+    <string name="six_number">6位數字</string>
+    <string name="skin_restoration">皮膚還原</string>
+    <string name="skip_reset_step_ble">若燈快閃白光，請跳過重置步驟</string>
+    <string name="skip_reset_step_hotspot">若燈慢閃紅光，請跳過重置步驟</string>
+    <string name="skip_reset_step_wifi">若燈快閃藍光，請跳過重置步驟</string>
+    <string name="sleep_mode">睡眠模式</string>
+    <string name="spacercode">間隔碼</string>
+    <string name="spacercodevaluetip">請輸入間隔碼 !</string>
+    <string name="speed">速度</string>
+    <string name="speed_set">速度: %1$s</string>
+    <string name="startcode">起始碼</string>
+    <string name="startcodevaluetip">請輸入起始碼 !</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="step_1">第一步\n點擊底部導航\n“視頻”圖標</string>
+    <string name="step_2">如遇APP閃退\n\n請先卸載APP\n\n重新下載</string>
+    <string name="step_3">第三步\n點擊視頻教程</string>
+    <string name="strobe">爆閃</string>
+    <string name="sun_a">冷暖跳變</string>
+    <string name="sun_b">冷色呼吸</string>
+    <string name="sun_c">暖色呼吸</string>
+    <string name="sun_d">自然呼吸</string>
+    <string name="sun_e">冷暖呼吸</string>
+    <string name="sun_f">冷暖頻閃</string>
+    <string name="sun_g">冷色頻閃</string>
+    <string name="sun_h">暖色頻閃</string>
+    <string name="sun_sei">冷色:100 暖色:0</string>
+    <string name="sunrise_mode">日出模式</string>
+    <string name="sunset_mode">日落模式</string>
+    <string name="sunshine_mode">日陽高照</string>
+    <string name="supported">抱歉,支持最多16個定時</string>
+    <string name="supportedlight">抱歉,支持最多10個定時</string>
+    <string name="sure">確定</string>
+    <string name="switch_distribution_mode">請嘗試切換配網模式</string>
+    <string name="switch_to_the_distribution_network">切換配網方式</string>
+    <string name="system_device">系統</string>
+    <string name="system_error">系統錯誤</string>
+    <string name="tab_aisle">通道</string>
+    <string name="tab_brightness">亮度</string>
+    <string name="tab_ct">色溫</string>
+    <string name="tab_custom">自定義</string>
+    <string name="tab_dm">單色</string>
+    <string name="tab_mode">模式</string>
+    <string name="tab_music">音樂</string>
+    <string name="tab_record">麥克風</string>
+    <string name="tab_reg">彩色</string>
+    <string name="tab_scene">情景</string>
+    <string name="tab_timer">定時</string>
+    <string name="table1">表一</string>
+    <string name="table2">表二</string>
+    <string name="take_video">最近視頻</string>
+    <string name="temperature">溫度</string>
+    <string name="text">請輸入正文</string>
+    <string name="text_addname">添加(修改)名字</string>
+    <string name="text_addscene_new">添加新服務</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_custom">用戶自定義</string>
+    <string name="text_edit">編輯</string>
+    <string name="text_empty_name">名字不能為空</string>
+    <string name="text_empty_service">服務不能為空</string>
+    <string name="text_exit">再按一次退出LED LAMP</string>
+    <string name="text_input_name">1至16個字母、數字或下劃線組合</string>
+    <string name="text_ledble">LED BLE</string>
+    <string name="text_leddmx">LED DMX</string>
+    <string name="text_ledlight">LED LIGHT</string>
+    <string name="text_ledline">LED LINE</string>
+    <string name="text_ledsmart">LED SMART</string>
+    <string name="text_ledspi">LED SPI</string>
+    <string name="text_ledstage">LED STAGE</string>
+    <string name="text_ledstrip">LED STRIP</string>
+    <string name="text_ledsun">LED SUN</string>
+    <string name="text_ledwifi">LED WiFi</string>
+    <string name="text_ok">確定</string>
+    <string name="text_over">完成</string>
+    <string name="text_pic">圖片</string>
+    <string name="text_pick_camera">拍照</string>
+    <string name="text_pick_local">圖庫</string>
+    <string name="text_relaxation">休閒</string>
+    <string name="text_romance">浪漫</string>
+    <string name="text_selectdevice">選擇設備</string>
+    <string name="text_sport">運動</string>
+    <string name="text_storage">保存</string>
+    <string name="text_str">名字</string>
+    <string name="text_system">系統</string>
+    <string name="text_warm_content">確定要刪除此服務嗎？</string>
+    <string name="text_warm_content1">請在下方輸入框中輸入：</string>
+    <string name="text_warming">溫馨提示</string>
+    <string name="the_parameter_is_empty">參數為空</string>
+    <string name="the_verification_code_is_sent_abnormally_please_try_again">驗證碼發送異常,請重試</string>
+    <string name="three">三</string>
+    <string name="thunderstorm_mode">雷雨模式</string>
+    <string name="tiele">請輸入標題</string>
+    <string name="time">時間</string>
+    <string name="timeSize">定時器個數最多為24個</string>
+    <string name="time_set">定時校正</string>
+    <string name="timeday">定時器時間不能相同</string>
+    <string name="timelow">電量過低，可能會影響APP的正常使用</string>
+    <string name="timer">確定刪除這個定時器嗎?</string>
+    <string name="timingquery">定時查詢</string>
+    <string name="tip_istribution_network">注意：重置設備後，請在三分鐘內完成配網操作</string>
+    <string name="tips">提示</string>
+    <string name="title_settings_dialog">權限要求</string>
+    <string name="to_connect">去連接</string>
+    <string name="toast_scene_exist">該服務已存在</string>
+    <string name="token_error">令牌錯誤</string>
+    <string name="toolong">錄音時間過長</string>
+    <string name="tooshort">錄音時間過短</string>
+    <string name="turn_on_the_camera">打開相機</string>
+    <string name="tv_chip_set">設置</string>
+    <string name="two">二</string>
+    <string name="ucrop_gif_tag">動圖</string>
+    <string name="ucrop_label_edit_photo">裁剪</string>
+    <string name="ucrop_label_original">原始比例</string>
+    <string name="ucrop_menu_crop">裁剪</string>
+    <string name="un_known_artist">未知藝術家</string>
+    <string name="update">修改</string>
+    <string name="update_password">修改密碼</string>
+    <string name="update_password_success">修改密碼成功</string>
+    <string name="username_already_exists">用戶名已存在</string>
+    <string name="valuetip">請輸入大於0的值!</string>
+    <string name="video">視頻</string>
+    <string name="video_explain">視頻講解</string>
+    <string name="video_operation_tutorial">視頻操作教程</string>
+    <string name="w">白色</string>
+    <string name="wai_mai">外麥</string>
+    <string name="want_to_cancle">鬆開手指，取消發送</string>
+    <string name="warm_light">暖色</string>
+    <string name="what_the_matter">有啥事嗎？</string>
+    <string name="white_light">冷色</string>
+    <string name="wifi_connect">WiFi快連</string>
+    <string name="wifi_network">當前在2.4GHz Wi-Fi 網絡並輸入密碼</string>
+    <string name="wifi_network_not_2_4">如果你的Wi-Fi是5GHz的，請先設置成2.4GHz</string>
+    <string name="wifi_signal_is_good">確保 Wi-Fi 信號良好</string>
+    <string name="write">我們需要訪問您的照片、媒體內容和文件才可以展示照片。</string>
+    <string name="wrong_old_password">舊密碼錯誤</string>
+    <string name="wrong_user_name_or_password">用戶名或密碼錯誤</string>
+</resources>

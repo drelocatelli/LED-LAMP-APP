@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.common.view.TempControlView android:id="@+id/temp_control" android:layout_width="260dp" android:layout_height="260dp" android:layout_marginTop="0dp" android:layout_centerInParent="true"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.5">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_whitelight" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:tag="viewColor1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/colour_whitelight"/>
+            <TextView android:textSize="@dimen/text_size4" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/tv_whitelight" android:layout_width="wrap_content" android:layout_height="@dimen/dp_50" android:text="@string/white_light"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_naturallight" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:tag="viewColor1" android:background="@drawable/colour_naturallight" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="@dimen/text_size4" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/tv_naturallight" android:layout_width="wrap_content" android:layout_height="@dimen/dp_50" android:text="@string/natural_light"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_warmlight" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:tag="viewColor1" android:background="@drawable/colour_warmlight" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="@dimen/text_size4" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/tv_warmlight" android:layout_width="wrap_content" android:layout_height="@dimen/dp_50" android:text="@string/warm_light"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/one" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dp_35" android:layout_marginRight="@dimen/dp_35" android:layout_weight="0.1">
+        <View android:tag="viewColor1" android:background="@drawable/icon_dark" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginLeft="@dimen/dp_30" android:layout_marginRight="0dp"/>
+        <SeekBar android:id="@+id/seekBarBrightNess_sun" android:paddingLeft="@dimen/dp_18" android:paddingRight="@dimen/dp_18" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/dp_5" android:max="100" android:progress="100" android:progressDrawable="@drawable/seekbar_normal" android:minHeight="@dimen/dp_5" android:thumb="@drawable/slider_thumb" android:splitTrack="false"/>
+        <View android:tag="viewColor1" android:background="@drawable/icon_bright" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginRight="@dimen/dp_30"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size4" android:textColor="@android:color/white" android:id="@+id/textViewBrightNess_sun" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brightness"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.1"/>
+</LinearLayout>

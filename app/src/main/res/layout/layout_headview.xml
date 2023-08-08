@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="@dimen/dp_8" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/dp_30">
+            <com.video.CircleImageView android:id="@+id/iv_head" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:src="@drawable/user_pic"/>
+            <TextView android:textSize="14sp" android:textColor="@color/colorPrimaryDark" android:id="@+id/tvAuthor3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_8"/>
+            <TextView android:textSize="14sp" android:textColor="@color/grayDark" android:gravity="right" android:id="@+id/tvFloorHost3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView android:textSize="10sp" android:textColor="@color/grayDark" android:id="@+id/tvDate3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp"/>
+        <TextView android:textSize="16sp" android:textColor="@color/black" android:id="@+id/tvContent3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp"/>
+        <GridView android:id="@+id/gvImage_review" android:visibility="gone" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="5dp" android:horizontalSpacing="@dimen/dp_5" android:verticalSpacing="@dimen/dp_5" android:numColumns="3"/>
+        <TextView android:background="@color/gray_line_bg" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/dp_5"/>
+    </LinearLayout>
+</RelativeLayout>

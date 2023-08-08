@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Dmx02TextColorArray">
+        <item>Màu đỏ</item>
+        <item>màu xanh lá cây</item>
+        <item>Màu xanh lam</item>
+        <item>màu trắng</item>
+        <item>Màu vàng</item>
+        <item>Màu tím</item>
+    </array>
+    <array name="app_service">
+        <item>Nhiều màu sắc</item>
+        <item>Symphony</item>
+        <item>Xe hơi</item>
+        <item>Thủy cung</item>
+        <item>Stage</item>
+        <item>Nhiệt độ màu</item>
+        <item>Đơn sắc</item>
+        <item>Phát sóng</item>
+        <item>WIFI</item>
+    </array>
+    <array name="ble_mode">
+        <item>Bước nhảy ba màu, 135</item>
+        <item>Bước nhảy bảy màu, 136</item>
+        <item>Gradient ba màu, 137</item>
+        <item>Gradient bảy màu, 138</item>
+        <item>Gradient màu đỏ, 139</item>
+        <item>Gradient màu xanh lá cây, 140</item>
+        <item>Màu xanh lam, 141</item>
+        <item>Gradient màu vàng, 142</item>
+        <item>Gradient màu lục lam, 143</item>
+        <item>Gradient màu tím, 144</item>
+        <item>Gradient màu trắng, 145</item>
+        <item>Gradient màu đỏ và xanh lục, 146</item>
+        <item>Gradient màu đỏ và xanh lam, 147</item>
+        <item>Màu xanh lá cây và màu xanh lam, 148</item>
+        <item>Đèn nhấp nháy bảy màu, 149</item>
+        <item>Màu đỏ nhấp nháy, 150</item>
+        <item>Màu xanh lá cây nhấp nháy, 151</item>
+        <item>Màu xanh lam Strobe, 152</item>
+        <item>Đèn nhấp nháy màu vàng, 153</item>
+        <item>nhấp nháy màu lục lam, 154</item>
+        <item>Màu tím nhấp nháy, 155</item>
+        <item>Màu trắng nhấp nháy, 156</item>
+        <item>Màu đỏ tĩnh, 128</item>
+        <item>Màu xanh lam tĩnh, 129</item>
+        <item>Màu xanh lá cây tĩnh, 130</item>
+        <item>Màu lục lam tĩnh, 131</item>
+        <item>Màu vàng tĩnh, 132</item>
+        <item>Màu tím tĩnh, 133</item>
+        <item>Màu trắng tĩnh, 134</item>
+    </array>
+    <array name="car_mode">
+        <item>Bước nhảy ba màu, 135</item>
+        <item>Bước nhảy bảy màu, 136</item>
+        <item>Gradient ba màu, 137</item>
+        <item>Gradient bảy màu, 138</item>
+        <item>Gradient màu đỏ, 139</item>
+        <item>Gradient màu xanh lá cây, 140</item>
+        <item>Màu xanh lam, 141</item>
+        <item>Gradient màu vàng, 142</item>
+        <item>Gradient màu lục lam, 143</item>
+        <item>Gradient màu tím, 144</item>
+        <item>Gradient màu trắng, 145</item>
+        <item>Gradient màu đỏ và xanh lục, 146</item>
+        <item>Gradient màu đỏ và xanh lam, 147</item>
+        <item>Màu xanh lá cây và màu xanh lam, 148</item>
+        <item>Ánh sáng nhấp nháy bảy màu, 149</item>
+        <item>Màu đỏ nhấp nháy, 150</item>
+        <item>Đèn nhấp nháy màu xanh lá cây, 151</item>
+        <item>Màu xanh lam Strobe, 152</item>
+        <item>Đèn nhấp nháy màu vàng, 153</item>
+        <item>Strobe màu lục lam, 154</item>
+        <item>Màu tím nhấp nháy, 155</item>
+        <item>Đèn nhấp nháy màu trắng, 156</item>
+        <item>Hơi thở bảy màu, 157</item>
+    </array>
+    <array name="chip_model">
+        <item>SM16512,1</item>
+        <item>UCS512C,2</item>
+    </array>
+    <array name="ct_mode">
+        <item>ấm 0% lạnh 100%, 128</item>
+        <item>ấm 10% lạnh 90%, 129</item>
+        <item>Ấm 20% Lạnh 80%, 130</item>
+        <item>ấm 30% lạnh 70%, 131</item>
+        <item>ấm 40% lạnh 60%, 132</item>
+        <item>ấm 50% lạnh 50%, 133</item>
+        <item>ấm 60% lạnh 40%, 134</item>
+        <item>Ấm 70% Lạnh 30%, 135</item>
+        <item>Ấm 80% Lạnh 20%, 136</item>
+        <item>ấm 90% lạnh 10%, 137</item>
+        <item>ấm 100% lạnh 0%, 138</item>
+    </array>
+    <array name="custom_model">
+        <item>1: gradient, 0</item>
+        <item>2: Đuôi, 1</item>
+        <item>3: nước chảy, 2</item>
+        <item>4: Đèn đuổi bắt, 3</item>
+        <item>5: ngăn xếp, 4</item>
+        <item>6: trắng x trắng chảy, 5</item>
+        <item>7: Đua ngựa một điểm, 6</item>
+        <item>8: Đua ngựa đa điểm, 7</item>
+        <item>9: Kéo / Đóng, 8</item>
+        <item>10: Gradient ánh sáng đơn, 9</item>
+        <item>11: Nhảy một lần nhẹ, 10</item>
+        <item>12: Đèn nhấp nháy đơn, 11</item>
+    </array>
+    <array name="dm_mode">
+        <item>0%,128</item>
+        <item>10%,129</item>
+        <item>20%,130</item>
+        <item>30%,131</item>
+        <item>40%,132</item>
+        <item>50%,133</item>
+        <item>60%,134</item>
+        <item>70%,135</item>
+        <item>80%,136</item>
+        <item>90%,137</item>
+        <item>100%,138</item>
+    </array>
+    <array name="dmx02_rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+    </array>
+    <array name="dmx_model">
+        <item>Vòng lặp tự động, 255</item>
+        <item>1: Giao hưởng tích cực, 1</item>
+        <item>2: Reverse Symphony, 2</item>
+        <item>3: Chuyển đổi ánh sáng và bóng tối bảy màu tích cực, 3</item>
+        <item>4: chuyển đổi ánh sáng và bóng tối bảy màu đảo ngược, 4</item>
+        <item>5: Sự chuyển đổi tích cực của ánh sáng đỏ, xanh lá cây và xanh lam và tối, 5</item>
+        <item>6: Đảo ngược ánh sáng đỏ, xanh lá cây và xanh lam và chuyển tiếp sáng tối, 6</item>
+        <item>7: Nó đang chuyển sang ánh sáng và tối màu vàng, xanh lam và tím, 7</item>
+        <item>8: chuyển đổi ngược sáng-tối màu vàng-lục lam-tím, 8</item>
+        <item>9: Chuyển đổi sáu màu tích cực sang màu đỏ, 9</item>
+        <item>10: màu đỏ chuyển tiếp sáu màu đảo ngược, 10</item>
+        <item>11: Chuyển đổi sáu màu tích cực sang màu xanh lục, 11</item>
+        <item>12: xanh lục chuyển tiếp sáu màu đảo ngược, 12</item>
+        <item>13: Chuyển đổi sáu màu tích cực sang màu xanh lam, 13</item>
+        <item>14: màu xanh chuyển tiếp sáu màu đảo ngược, 14</item>
+        <item>15: Tích cực chuyển đổi sang lục lam sáu màu, 15</item>
+        <item>16: lục lam chuyển tiếp sáu màu đảo ngược, 16</item>
+        <item>17: Chuyển đổi sáu màu tích cực sang màu vàng, 17</item>
+        <item>18: màu vàng chuyển tiếp sáu màu đảo ngược, 18</item>
+        <item>19: Sự chuyển đổi sáu màu sang màu tím, 19</item>
+        <item>20: màu tím chuyển tiếp sáu màu đảo ngược, 20</item>
+        <item>21: Chuyển đổi sáu màu tích cực sang màu trắng, 21</item>
+        <item>22: màu trắng chuyển tiếp sáu màu đảo ngược, 22</item>
+        <item>23: Dấu vết đầy màu sắc tích cực, 23</item>
+        <item>24: Dấu gạch ngang đầy màu sắc đảo ngược, 24</item>
+        <item>25: đuôi màu đỏ, 25</item>
+        <item>26: Dấu gạch ngang màu đỏ ngược, 26</item>
+        <item>27: Dấu vết màu xanh lá cây, 27</item>
+        <item>28: đường mòn màu xanh lá cây ngược lại, 28</item>
+        <item>29: Đuôi về phía màu xanh lam, 29</item>
+        <item>30: Vệt màu xanh ngược, 30</item>
+        <item>31: Dấu gạch ngang màu vàng, 31</item>
+        <item>32: Dấu gạch ngang màu vàng ngược, 32</item>
+        <item>33: Đuôi theo hướng lục lam, 33</item>
+        <item>34: dấu vết màu lục lam ngược, 34</item>
+        <item>35: Dấu vết màu tím tích cực, 35</item>
+        <item>36: dấu vết màu tím ngược, 36</item>
+        <item>37: Dấu gạch ngang màu trắng, 37</item>
+        <item>38: Dấu gạch ngang màu trắng đảo ngược, 38</item>
+        <item>39: Nước chảy đầy màu sắc tích cực, 39</item>
+        <item>40: Dòng nước chảy đầy màu sắc ngược, 40</item>
+        <item>41: Nước màu đỏ, xanh lục và xanh dương tích cực, 41</item>
+        <item>42: Nước màu đỏ, xanh lục và xanh lam ngược, 42</item>
+        <item>43: Nước chảy màu vàng, xanh lam và tím dương, 43</item>
+        <item>44: Nước chảy ngược màu vàng, xanh lam và tím, 44</item>
+        <item>45: Chuyển tiếp nước màu đỏ và xanh lục, 45</item>
+        <item>46: Nước chảy ngược màu đỏ và xanh lục, 46</item>
+        <item>47: Màu xanh lục và nước trong xanh dương, 47</item>
+        <item>48: màu xanh lục ngược và nước trong xanh, 48</item>
+        <item>49: Nước màu vàng và xanh dương, 49</item>
+        <item>50: Nước màu vàng và xanh lam ngược, 50</item>
+        <item>51: Nước màu vàng và màu xanh lá cây tích cực, 51</item>
+        <item>52: Nước chảy ngược màu vàng xanh, 52</item>
+        <item>53: Nước chảy màu xanh lam và tím tích cực, 53</item>
+        <item>54: Nước màu xanh lam và màu tím ngược, 54</item>
+        <item>55: Nước chảy màu đen và trắng tích cực, 55</item>
+        <item>56: Nước chảy ngược màu đen và trắng, 56</item>
+        <item>57: Rèm đầy màu sắc, 57</item>
+        <item>58: Đóng cửa đầy màu sắc, 58</item>
+        <item>59: Rèm màu đỏ, xanh lá cây và xanh lam, 59</item>
+        <item>60: Đóng cửa màu đỏ, xanh lá cây và xanh lam, 60</item>
+        <item>61: Rèm màu xanh lam và tím màu vàng, 61</item>
+        <item>62: Sự đóng cửa của màu vàng xanh tím, 62</item>
+        <item>63: Đuổi theo ánh sáng với nhiều màu sắc sặc sỡ, 63</item>
+        <item>64: Ánh sáng đuổi theo nhiều màu sắc đảo ngược, 64</item>
+        <item>65: Chuyển tiếp ánh sáng đuổi theo màu đỏ, xanh lục và xanh lam, 65</item>
+        <item>66: Đèn đuổi theo màu đỏ, xanh lục và xanh lam ngược, 66</item>
+        <item>67: Đuổi ánh sáng theo hướng vàng, xanh lam và tím, 67</item>
+        <item>68: Ánh sáng đuổi theo màu vàng, xanh lam và tím ngược, 68</item>
+        <item>69: Bay đầy màu sắc, 69</item>
+        <item>70: Lấp lánh đầy màu sắc đảo ngược, 70</item>
+        <item>71: có màu đỏ, xanh lục và xanh lam, 71</item>
+        <item>72: Đảo ngược màu đỏ, xanh lá cây và xanh lam rung chuyển, 72</item>
+        <item>73: rung chuyển về phía màu vàng, xanh lam và tím, 73</item>
+        <item>74: Màu vàng đảo ngược, màu xanh lam và màu tím rung động, 74</item>
+        <item>75: Bước nhảy bảy màu, 75</item>
+        <item>76: bước nhảy màu đỏ, xanh lục và xanh lam, 76</item>
+        <item>77: Bước nhảy màu vàng xanh và tím, 77</item>
+        <item>78: Nhấp nháy bảy màu, 78</item>
+        <item>79: nhấp nháy màu đỏ, xanh lục và xanh lam, 79</item>
+        <item>80: nhấp nháy màu vàng, xanh lam và tím, 80</item>
+        <item>81: Độ dốc bảy màu, 81</item>
+        <item>82: Màu đỏ và màu vàng, 82</item>
+        <item>83: Gradient màu đỏ và tím, 83</item>
+        <item>84: màu xanh lục-xanh lục, 84</item>
+        <item>85: gradient xanh lục-vàng, 85</item>
+        <item>86: Màu xanh lam-tím, 86</item>
+        <item>87: Đóng cửa màu đỏ, 87</item>
+        <item>88: Màu xanh lá cây đóng cửa, 88</item>
+        <item>89: Kết thúc màu xanh lam, 89</item>
+        <item>90: đóng cửa màu vàng, 90</item>
+        <item>91: Đóng cửa màu lục lam, 91</item>
+        <item>92: Kết thúc màu tím, 92</item>
+        <item>93: đóng cửa màu trắng, 93</item>
+        <item>94: Màn đỏ, 94</item>
+        <item>95: Rèm màu xanh lá cây, 95</item>
+        <item>96: Bức màn màu xanh lam, 96</item>
+        <item>97: Rèm màu vàng, 97</item>
+        <item>98: Rèm màu lục lam, 98</item>
+        <item>99: Rèm màu tím, 99</item>
+        <item>100: Màn trắng, 100</item>
+        <item>101: ngăn xếp màu đỏ, 101</item>
+        <item>102: Ngăn xếp màu xanh lá cây, 102</item>
+        <item>103: Ngăn xếp màu xanh lam, 103</item>
+        <item>104: Xếp chồng màu vàng, 104</item>
+        <item>105: ngăn xếp màu lục lam, 105</item>
+        <item>106: Xếp chồng màu tím, 106</item>
+        <item>107: ngăn xếp màu trắng, 107</item>
+        <item>108: Chạy về phía màu đỏ, 108</item>
+        <item>109: Chạy ngược màu đỏ, 109</item>
+        <item>110: Chạy về phía màu xanh lá cây, 110</item>
+        <item>111: Chạy ngược màu xanh lá cây, 111</item>
+        <item>112: Chạy về phía màu xanh lam, 112</item>
+        <item>113: Chạy ngược màu xanh lam, 113</item>
+        <item>114: Chạy về phía màu vàng, 114</item>
+        <item>115: Chạy ngược màu vàng, 115</item>
+        <item>116: Chạy về phía lục lam, 116</item>
+        <item>117: chạy màu lục lam ngược, 117</item>
+        <item>118: Chạy về phía màu tím, 118</item>
+        <item>119: Chạy ngược màu tím, 119</item>
+        <item>120: Chạy về phía màu trắng, 120</item>
+        <item>121: Chạy ngược màu trắng, 121</item>
+        <item>122: Chạy trong bảy màu, 122</item>
+        <item>123: Chạy ngược bảy màu, 123</item>
+        <item>124: Chạy về phía đỏ, xanh lá cây và xanh lam, 124</item>
+        <item>125: Chạy ngược màu đỏ, xanh lục và xanh lam, 125</item>
+        <item>126: Chạy về phía màu vàng, xanh lam và tím, 126</item>
+        <item>127: Chạy ngược màu vàng và xanh lam, 127</item>
+        <item>128: Chạy về phía xanh lam, vàng và tím, 128</item>
+        <item>129: Chạy về phía xanh lục, xanh lam và vàng, 129</item>
+        <item>130: Chạy ngược màu xanh lam-vàng-xanh lục, 130</item>
+        <item>131: Chạy về phía chấm đỏ trên nền trắng, 131</item>
+        <item>132: Chạy ngược lại với các chấm đỏ trên nền trắng, 132</item>
+        <item>133: Chạy về phía chấm màu xanh lục trên nền đỏ, 133</item>
+        <item>134: Chấm màu đỏ và xanh lá cây đảo ngược chạy, 134</item>
+        <item>135: Chạy về phía chấm màu xanh lam trên nền xanh lục, 135</item>
+        <item>136: Chấm màu xanh lam nền xanh lá cây đảo ngược đang chạy, 136</item>
+        <item>137: Chạy về phía chấm màu vàng trên nền màu xanh lam, 137</item>
+        <item>138: Chạy chấm tròn màu xanh lam và màu vàng đảo ngược, 138</item>
+        <item>139: Chạy về phía chấm màu xanh lam trên nền màu vàng, 139</item>
+        <item>140: Chạy ngược với các chấm màu xanh lam trên nền màu vàng, 140</item>
+        <item>141: Chạy về phía điểm dưới cùng màu lục lam, 141</item>
+        <item>142: Chạy ngược màu lục lam ở đáy, 142</item>
+        <item>143: Chạy về phía chấm trắng trên nền tím, 143</item>
+        <item>144: Chạy với các chấm trắng trên nền màu tím ngược, 144</item>
+        <item>145: Chạy về phía chấm trắng trên nền đỏ, 145</item>
+        <item>146: Chạy với các chấm trắng trên nền đỏ, 146</item>
+        <item>147: Chạy với bảy màu trên nền đỏ, 147</item>
+        <item>148: Đảo ngược bảy màu chạy trên nền đỏ, 148</item>
+        <item>149: Chạy với bảy màu trên nền xanh lục, 149</item>
+        <item>150: Nền màu xanh lá cây đảo ngược bảy màu đang chạy, 150</item>
+        <item>151: Chạy với bảy màu trên nền xanh lam, 151</item>
+        <item>152: Chạy bảy màu trên nền xanh lam ngược, 152</item>
+        <item>153: Chạy về phía trước với bảy màu trên nền vàng, 153</item>
+        <item>154: Chạy bảy màu trên nền màu vàng ngược, 154</item>
+        <item>155: Chạy với bảy màu trên nền xanh lam, 155</item>
+        <item>156: Chạy bảy màu trên nền xanh lam ngược, 156</item>
+        <item>157: Chạy với bảy màu trên nền tím, 157</item>
+        <item>158: Chạy bảy màu trên nền màu tím ngược, 158</item>
+        <item>159: Chạy với bảy màu trên nền trắng, 159</item>
+        <item>160: Bảy màu chạy ngược lại trên nền trắng, 160</item>
+        <item>161: Luồng trắng, đỏ và trắng tích cực, 161</item>
+        <item>162: Dòng chảy ngược trắng, đỏ và trắng, 162</item>
+        <item>163: Dòng chảy tích cực màu trắng, xanh lá cây và trắng, 163</item>
+        <item>164: Dòng chảy ngược màu trắng, xanh lục và trắng, 164</item>
+        <item>165: Dòng chảy tích cực màu trắng, xanh lam và trắng, 165</item>
+        <item>166: Dòng chảy ngược màu trắng, xanh lam và trắng, 166</item>
+        <item>167: Chảy về phía trắng, vàng và trắng, 167</item>
+        <item>168: Dòng chảy ngược trắng-vàng-trắng, 168</item>
+        <item>169: Chảy về phía trắng, xanh lam và trắng, 169</item>
+        <item>170: Dòng chảy ngược trắng-xanh-trắng, 170</item>
+        <item>171: Chảy về phía trắng, tím và trắng, 171</item>
+        <item>172: dòng chảy ngược trắng-tím-trắng, 172</item>
+        <item>173: Luồng đỏ, trắng và đỏ tích cực, 173</item>
+        <item>174: Luồng màu đỏ, trắng và đỏ ngược, 174</item>
+        <item>175: Luồng xanh lục-trắng-xanh lục tích cực, 175</item>
+        <item>176: dòng chảy ngược xanh lục-trắng-xanh lục, 176</item>
+        <item>177: Chảy về phía xanh lam, trắng và xanh lam, 177</item>
+        <item>178: Luồng ngược màu xanh lam-trắng-xanh lam, 178</item>
+        <item>179: Chảy về phía màu vàng, trắng và vàng, 179</item>
+        <item>180: Luồng ngược màu vàng-trắng-vàng, 180</item>
+        <item>181: Nó đang chảy về phía xanh lam, trắng và xanh lục, 181</item>
+        <item>182: Luồng màu xanh lam-trắng-xanh lục ngược, 182</item>
+        <item>183: Chảy sang màu tím, trắng và tím, 183</item>
+        <item>184: dòng chảy ngược màu tím-trắng-tím, 184</item>
+        <item>185: Chạy về phía một chấm màu xanh lục trên nền xanh lam, 185</item>
+        <item>186: Nền màu xanh lam đảo ngược với các chấm màu xanh lá cây, 186</item>
+        <item>187: Cưỡi với các chấm xanh trên nền đỏ, 187</item>
+        <item>188: Nền màu đỏ đảo ngược với các chấm màu xanh lá cây, 188</item>
+        <item>189: Đua một chấm đỏ trên nền xanh lam, 189</item>
+        <item>190: Đua xe chấm màu xanh và đỏ đảo ngược, 190</item>
+        <item>191: Con ngựa đang chạy với một chấm màu xanh lam trên nền màu vàng, 191</item>
+        <item>192: Đua ngựa chấm màu vàng và xanh lam ngược, 192</item>
+        <item>193: Đua ngựa với các chấm vàng trên nền tím, 193</item>
+        <item>194: Nền màu tím đảo ngược với các chấm màu vàng, 194</item>
+        <item>195: Ngựa chạy với các chấm trắng trên nền vàng, 195</item>
+        <item>196: Nền màu vàng đảo ngược với các chấm trắng, 196</item>
+        <item>197: Đua ngựa với các chấm vàng trên nền trắng, 197</item>
+        <item>198: Nền trắng đảo ngược với các chấm màu vàng, 198</item>
+        <item>199: Bàn chải bảy màu tích cực, 199</item>
+        <item>200: Bàn chải bảy màu đảo ngược, 200</item>
+        <item>201: Màu bàn chải đỏ, xanh lá cây và xanh dương tích cực, 201</item>
+        <item>202: Màu bàn chải ngược đỏ, xanh lá cây và xanh lam, 202</item>
+        <item>203: Màu bàn chải tích cực màu vàng, xanh lam và tím, 203</item>
+        <item>204: Màu bàn chải màu vàng lục lam-tím đảo ngược, 204</item>
+        <item>205: Rèm màu cọ bảy màu, 205</item>
+        <item>206: Màu bàn chải bảy màu đóng lại, 206</item>
+        <item>207: Rèm màu đỏ, xanh lá cây và xanh lam, 207</item>
+        <item>208: Đóng màu đỏ, xanh lục và xanh lam, 208</item>
+        <item>209: Tấm phủ salad bàn chải màu xanh lam tím vàng, 209</item>
+        <item>210: Đóng màu bàn chải vàng, xanh lam và tím, 210</item>
+    </array>
+    <array name="forum_tab_titles">
+        <item>Khác</item>
+        <item>kết nối</item>
+        <item>Lời khuyên</item>
+        <item>Gợi ý</item>
+        <item>Điểm nổi bật</item>
+    </array>
+    <array name="light_banner">
+        <item>LPD6803,1</item>
+        <item>TM1803,2</item>
+        <item>UCS1903,3</item>
+        <item>WS2811,4</item>
+        <item>TM1812,5</item>
+        <item>TM1809,6</item>
+        <item>WS2801,7</item>
+        <item>TLS3001,8</item>
+        <item>TLS3008,9</item>
+        <item>P9813,10</item>
+        <item>UCS8806,11</item>
+        <item>TM1829,12</item>
+        <item>TM1909,13</item>
+    </array>
+    <array name="light_mode">
+        <item>Tắt đèn</item>
+        <item>Màu đỏ tĩnh</item>
+        <item>Màu xanh lam tĩnh</item>
+        <item>Màu xanh lá cây tĩnh</item>
+        <item>Màu lục lam tĩnh</item>
+        <item>màu vàng tĩnh</item>
+        <item>Màu tím tĩnh</item>
+        <item>Màu trắng tĩnh</item>
+        <item>Bước nhảy ba màu</item>
+        <item>Bước nhảy bảy màu</item>
+        <item>Gradient ba màu</item>
+        <item>Gradient bảy màu</item>
+        <item>Gradient màu đỏ</item>
+        <item>Gradient màu xanh lá cây</item>
+        <item>Gradient màu xanh lam</item>
+        <item>Gradient màu vàng</item>
+        <item>Gradient màu lục lam</item>
+        <item>Gradient màu tím</item>
+        <item>Gradient màu trắng</item>
+        <item>Gradient màu đỏ và xanh lá cây</item>
+        <item>Gradient màu đỏ và xanh lam</item>
+        <item>Màu xanh lá cây và màu xanh lam</item>
+        <item>Ánh sáng nhấp nháy bảy màu</item>
+        <item>Đèn nhấp nháy màu đỏ</item>
+        <item>Đèn nhấp nháy màu xanh lá cây</item>
+        <item>Đèn nhấp nháy màu xanh lam</item>
+        <item>Đèn nhấp nháy màu vàng</item>
+        <item>nhấp nháy màu lục lam</item>
+        <item>Màu tím nhấp nháy</item>
+        <item>Đèn nhấp nháy màu trắng</item>
+        <item>MODE30</item>
+        <item>MODE31</item>
+        <item>MODE32</item>
+        <item>MODE33</item>
+        <item>MODE34</item>
+        <item>MODE35</item>
+        <item>MODE36</item>
+        <item>MODE37</item>
+        <item>MODE38</item>
+        <item>MODE39</item>
+        <item>MODE40</item>
+        <item>MODE41</item>
+        <item>MODE42</item>
+        <item>MODE43</item>
+        <item>MODE44</item>
+        <item>MODE45</item>
+        <item>MODE46</item>
+        <item>MODE47</item>
+        <item>MODE48</item>
+        <item>MODE49</item>
+        <item>MODE50</item>
+        <item>MODE51</item>
+        <item>MODE52</item>
+        <item>MODE53</item>
+        <item>MODE54</item>
+        <item>MODE55</item>
+        <item>MODE56</item>
+        <item>MODE57</item>
+        <item>MODE58</item>
+        <item>MODE59</item>
+        <item>MODE60</item>
+        <item>MODE61</item>
+        <item>MODE62</item>
+        <item>MODE63</item>
+        <item>MODE64</item>
+        <item>MODE65</item>
+        <item>MODE66</item>
+        <item>MODE67</item>
+        <item>MODE68</item>
+        <item>MODE69</item>
+        <item>MODE70</item>
+        <item>MODE71</item>
+        <item>MODE72</item>
+        <item>MODE73</item>
+        <item>MODE74</item>
+        <item>MODE75</item>
+        <item>MODE76</item>
+        <item>MODE77</item>
+        <item>MODE78</item>
+        <item>MODE79</item>
+        <item>MODE80</item>
+        <item>MODE81</item>
+        <item>MODE82</item>
+        <item>MODE83</item>
+        <item>MODE84</item>
+        <item>MODE85</item>
+        <item>MODE86</item>
+        <item>MODE87</item>
+        <item>MODE88</item>
+        <item>MODE89</item>
+        <item>MODE90</item>
+        <item>MODE91</item>
+        <item>MODE92</item>
+        <item>MODE93</item>
+        <item>MODE94</item>
+        <item>MODE95</item>
+        <item>MODE96</item>
+        <item>MODE97</item>
+        <item>MODE98</item>
+        <item>MODE99</item>
+        <item>MODE100</item>
+        <item>MODE101</item>
+        <item>MODE102</item>
+        <item>MODE103</item>
+        <item>MODE104</item>
+        <item>MODE105</item>
+        <item>MODE106</item>
+        <item>MODE107</item>
+        <item>MODE108</item>
+        <item>MODE109</item>
+        <item>MODE110</item>
+        <item>MODE111</item>
+        <item>MODE112</item>
+        <item>MODE113</item>
+        <item>MODE114</item>
+        <item>MODE115</item>
+        <item>MODE116</item>
+        <item>MODE117</item>
+        <item>MODE118</item>
+        <item>MODE119</item>
+        <item>MODE120</item>
+        <item>MODE121</item>
+        <item>MODE122</item>
+        <item>MODE123</item>
+        <item>MODE124</item>
+        <item>MODE125</item>
+        <item>MODE126</item>
+        <item>MODE127</item>
+        <item>MODE128</item>
+        <item>MODE129</item>
+        <item>MODE130</item>
+        <item>MODE131</item>
+        <item>MODE132</item>
+        <item>MODE133</item>
+        <item>MODE134</item>
+        <item>MODE135</item>
+        <item>MODE136</item>
+        <item>MODE137</item>
+        <item>MODE138</item>
+        <item>MODE139</item>
+        <item>MODE140</item>
+        <item>MODE141</item>
+        <item>MODE142</item>
+        <item>MODE143</item>
+        <item>MODE144</item>
+        <item>MODE145</item>
+        <item>MODE146</item>
+        <item>MODE147</item>
+        <item>MODE148</item>
+        <item>MODE149</item>
+        <item>MODE150</item>
+        <item>MODE151</item>
+        <item>MODE152</item>
+        <item>MODE153</item>
+        <item>MODE154</item>
+        <item>MODE155</item>
+        <item>MODE156</item>
+        <item>MODE157</item>
+        <item>MODE158</item>
+        <item>MODE159</item>
+        <item>MODE160</item>
+        <item>MODE161</item>
+        <item>MODE162</item>
+        <item>MODE163</item>
+        <item>MODE164</item>
+        <item>MODE165</item>
+        <item>MODE166</item>
+        <item>MODE167</item>
+        <item>MODE168</item>
+        <item>MODE169</item>
+        <item>MODE170</item>
+        <item>MODE171</item>
+        <item>MODE172</item>
+        <item>MODE173</item>
+        <item>MODE174</item>
+        <item>MODE175</item>
+        <item>MODE176</item>
+        <item>MODE177</item>
+        <item>MODE178</item>
+        <item>MODE179</item>
+        <item>MODE180</item>
+        <item>MODE181</item>
+        <item>MODE182</item>
+        <item>MODE183</item>
+        <item>MODE184</item>
+        <item>MODE185</item>
+        <item>MODE186</item>
+        <item>MODE187</item>
+        <item>MODE188</item>
+        <item>MODE189</item>
+        <item>MODE190</item>
+        <item>MODE191</item>
+        <item>MODE192</item>
+        <item>MODE193</item>
+        <item>MODE194</item>
+        <item>MODE195</item>
+        <item>MODE196</item>
+        <item>MODE197</item>
+        <item>MODE198</item>
+        <item>MODE199</item>
+        <item>MODE200</item>
+        <item>MODE201</item>
+        <item>MODE202</item>
+        <item>MODE203</item>
+        <item>MODE204</item>
+        <item>MODE205</item>
+        <item>MODE206</item>
+        <item>MODE207</item>
+        <item>MODE208</item>
+        <item>MODE209</item>
+        <item>MODE210</item>
+        <item>MODE211</item>
+    </array>
+    <array name="modelble">
+        <item>Tắt đèn</item>
+        <item>Bật đèn</item>
+        <item>Màu đỏ tĩnh</item>
+        <item>Màu xanh lá cây tĩnh</item>
+        <item>Màu xanh lam tĩnh</item>
+        <item>màu vàng tĩnh</item>
+        <item>Màu tím tĩnh</item>
+        <item>Màu lục lam tĩnh</item>
+        <item>Màu trắng tĩnh</item>
+        <item>Bước nhảy ba màu</item>
+        <item>Bước nhảy bảy màu</item>
+        <item>Gradient ba màu</item>
+        <item>Gradient bảy màu</item>
+        <item>Màu trắng mát mẻ</item>
+        <item>Màu trắng ấm</item>
+        <item>Đơn sắc</item>
+    </array>
+    <array name="modelike">
+        <item>Tắt đèn</item>
+        <item>Bật đèn</item>
+        <item>đầy đủ sáng</item>
+        <item>Nửa sáng</item>
+        <item>Hơi sáng</item>
+        <item>Hít thở</item>
+        <item>Strobe</item>
+        <item>Flash</item>
+    </array>
+    <array name="modelsun">
+        <item>Tắt đèn</item>
+        <item>Bật đèn</item>
+        <item>Màu sắc mát mẻ</item>
+        <item>Màu ấm</item>
+        <item>Màu sắc tự nhiên</item>
+        <item>Cú nhảy ấm màu trắng</item>
+        <item>Gradient màu trắng</item>
+        <item>Gradient ấm áp</item>
+        <item>Gradient màu tự nhiên</item>
+        <item>Gradient ấm áp màu trắng</item>
+        <item>Đèn nhấp nháy màu trắng ấm</item>
+        <item>Đèn nhấp nháy màu trắng</item>
+        <item>Ánh sáng nhấp nháy ấm áp</item>
+        <item>Độ nhấp nháy màu tự nhiên</item>
+    </array>
+    <array name="rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+        <item>RGBW,7</item>
+        <item>RBGW,8</item>
+        <item>GRBW,9</item>
+        <item>GBRW,10</item>
+        <item>BRGW,11</item>
+        <item>BGRW,12</item>
+    </array>
+    <array name="rgb_sort_ble">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+    </array>
+    <array name="select_mode">
+        <item>W,0</item>
+        <item>BW,1</item>
+        <item>RGB,2</item>
+        <item>RGBW,3</item>
+        <item>RGBWCP,4</item>
+    </array>
+    <array name="timer_model_dmx">
+        <item>Tắt đèn</item>
+        <item>Bật đèn</item>
+        <item>Vòng lặp tự động</item>
+        <item>1: Forward Symphony</item>
+        <item>2: Màu ma thuật đảo ngược</item>
+        <item>3: Chuyển đổi ánh sáng và bóng tối bảy màu tích cực</item>
+        <item>4: Chuyển đổi ánh sáng và bóng tối bảy màu đảo ngược</item>
+        <item>5: Chuyển tiếp ánh sáng đỏ, xanh lá cây và xanh lam và chuyển tiếp bóng tối</item>
+        <item>6: Đảo ngược ánh sáng đỏ, xanh lá cây và xanh lam và chuyển tiếp tối</item>
+        <item>7: Sự chuyển đổi ánh sáng và tối sang màu vàng, xanh lam và tím</item>
+        <item>8: Đảo ngược chuyển đổi ánh sáng-tối màu vàng-lục lam-tím</item>
+        <item>9: Chuyển đổi sáu màu tích cực sang màu đỏ</item>
+        <item>10: Màu đỏ chuyển tiếp sáu màu đảo ngược</item>
+        <item>11: Chuyển đổi sáu màu tích cực sang màu xanh lá cây</item>
+        <item>12: màu xanh lục chuyển tiếp sáu màu đảo ngược</item>
+        <item>13: Chuyển đổi sáu màu tích cực sang màu xanh lam</item>
+        <item>14: màu xanh lam chuyển tiếp sáu màu đảo ngược</item>
+        <item>15: Chuyển đổi sáu màu tích cực sang màu lục lam</item>
+        <item>16: lục lam chuyển tiếp sáu màu đảo ngược</item>
+        <item>17: Chuyển đổi sáu màu tích cực sang màu vàng</item>
+        <item>18: màu vàng chuyển tiếp sáu màu đảo ngược</item>
+        <item>19: Chuyển đổi sáu màu tích cực sang màu tím</item>
+        <item>20: màu tím chuyển tiếp sáu màu đảo ngược</item>
+        <item>21: Chuyển đổi sáu màu tích cực sang màu trắng</item>
+        <item>22: Màu trắng chuyển tiếp sáu màu đảo ngược</item>
+        <item>23: Chuyển tiếp dấu chấm đầy màu sắc</item>
+        <item>24: Dấu gạch ngang đầy màu sắc đảo ngược</item>
+        <item>25: Dấu gạch ngang màu đỏ chuyển tiếp</item>
+        <item>26: Dấu gạch ngang màu đỏ đảo ngược</item>
+        <item>27: Dấu gạch ngang màu xanh lá cây chuyển tiếp</item>
+        <item>28: Dấu gạch ngang màu xanh lá cây đảo ngược</item>
+        <item>29: Dấu gạch ngang màu xanh chuyển tiếp</item>
+        <item>30: Dấu gạch ngang màu xanh lam ngược</item>
+        <item>31: Dấu gạch ngang màu vàng tích cực</item>
+        <item>32: Dấu gạch ngang màu vàng ngược</item>
+        <item>33: Chuyển tiếp dấu lục lam</item>
+        <item>34: Trailing Cyan Đảo ngược</item>
+        <item>35: Dấu vết màu tím tích cực</item>
+        <item>36: Dấu gạch ngang màu tím ngược</item>
+        <item>37: Dấu gạch ngang màu trắng chuyển tiếp</item>
+        <item>38: Dấu gạch ngang màu trắng đảo ngược</item>
+        <item>39: Nước chảy đầy màu sắc tích cực</item>
+        <item>40: Dòng nước chảy đầy màu sắc đảo ngược</item>
+        <item>41: Nước có màu đỏ, xanh lá cây và xanh dương tích cực</item>
+        <item>42: Nước màu đỏ, xanh lục và xanh lam đảo ngược</item>
+        <item>43: Nước chảy màu vàng, xanh lam và tím dương</item>
+        <item>44: Nước chảy ngược màu vàng, xanh lam và tím</item>
+        <item>45: Chuyển tiếp nước màu đỏ và xanh lá cây</item>
+        <item>46: Luồng màu đỏ và xanh lục ngược lại</item>
+        <item>47: Chuyển tiếp nước xanh lục và xanh lam</item>
+        <item>48: Màu xanh lá cây và màu xanh nước biển đảo ngược</item>
+        <item>49: Nước có màu vàng và xanh dương</item>
+        <item>50: Nước màu vàng và màu xanh lam đảo ngược</item>
+        <item>51: Nước chảy tích cực màu vàng xanh</item>
+        <item>52: Nước chảy ngược màu vàng xanh</item>
+        <item>53: Nước chảy màu xanh lam và màu tím tích cực</item>
+        <item>54: Nước màu lục lam đảo ngược</item>
+        <item>55: Nước chảy màu đen và trắng tích cực</item>
+        <item>56: Nước chảy ngược màu đen và trắng</item>
+        <item>57: Màn cửa đầy màu sắc</item>
+        <item>58: Đóng cửa đầy màu sắc</item>
+        <item>59: Rèm cửa màu đỏ, xanh lá cây và xanh lam</item>
+        <item>60: Màu đỏ Màu xanh lá cây Màu xanh Màu xanh Đóng cửa</item>
+        <item>61: Rèm kéo màu xanh lam và tím vàng</item>
+        <item>62: Đóng cửa màu vàng, xanh lam và tím</item>
+        <item>63: Đuổi theo ánh sáng với nhiều màu sắc sặc sỡ</item>
+        <item>64: Ánh sáng đuổi theo nhiều màu sắc đảo ngược</item>
+        <item>65: Chuyển tiếp ánh sáng đuổi theo màu đỏ, xanh lục và xanh lam</item>
+        <item>66: Đèn đuổi theo màu đỏ, xanh lục và xanh lam ngược lại</item>
+        <item>67: Đuổi ánh sáng về phía màu vàng, xanh lam và tím</item>
+        <item>68: Ánh sáng đuổi theo màu vàng, xanh lam và tím đảo ngược</item>
+        <item>69: Bay đầy màu sắc</item>
+        <item>70: Lấp lánh đầy màu sắc đảo ngược</item>
+        <item>71: Bay sang màu đỏ, xanh lục và xanh lam</item>
+        <item>72: Đảo ngược màu đỏ, xanh lá cây và xanh lam rung chuyển</item>
+        <item>73: Nó đang bay về phía màu vàng, xanh lam và tím</item>
+        <item>74: Đảo ngược màu vàng-lục lam-tím rung chuyển</item>
+        <item>75: Bước nhảy bảy màu</item>
+        <item>76: Các bước nhảy màu đỏ, xanh lá cây và xanh lam</item>
+        <item>77: Bước nhảy màu vàng xanh tím</item>
+        <item>78: Nhấp nháy bảy màu</item>
+        <item>79: Nhấp nháy màu đỏ, xanh lá cây và xanh lam</item>
+        <item>80: Màu xanh lam vàng và ánh sáng tím</item>
+        <item>81: Độ dốc bảy màu</item>
+        <item>82: Gradient màu đỏ và vàng</item>
+        <item>83: Gradient màu đỏ và tím</item>
+        <item>84: Màu xanh lục-xanh lá cây</item>
+        <item>85: Gradient xanh lục-vàng</item>
+        <item>86: Gradient xanh lam và tím</item>
+        <item>87: Đóng cửa màu đỏ</item>
+        <item>88: Màu xanh lá cây đóng cửa</item>
+        <item>89: Màu xanh lam đóng cửa</item>
+        <item>90: Màu vàng đóng cửa</item>
+        <item>91: Đóng cửa màu lục lam</item>
+        <item>92: Màu tím đóng cửa</item>
+        <item>93: Đóng cửa màu trắng</item>
+        <item>94: Bức màn màu đỏ</item>
+        <item>95: Bức màn màu xanh lá cây</item>
+        <item>96: Bức màn màu xanh lam</item>
+        <item>97: Bức màn màu vàng</item>
+        <item>98: Rèm màu lục lam</item>
+        <item>99: Bức màn màu tím</item>
+        <item>100: Rèm màu trắng</item>
+        <item>101: Ngựa màu đỏ</item>
+        <item>102: Ngựa màu xanh lá cây</item>
+        <item>103: Ngựa màu xanh lam</item>
+        <item>104: Ngựa vàng</item>
+        <item>105: Ngựa màu lục lam</item>
+        <item>106: Đua ngựa màu tím</item>
+        <item>107: Ngựa trắng</item>
+        <item>108: Chạy về phía màu đỏ</item>
+        <item>109: Chạy ngược lại màu đỏ</item>
+        <item>110: Chạy về phía màu xanh lá cây</item>
+        <item>111: Chạy ngược màu xanh lá cây</item>
+        <item>112: Chạy về phía màu xanh lam</item>
+        <item>113: Chạy ngược màu xanh lam</item>
+        <item>114: Chạy về phía màu vàng</item>
+        <item>115: Chạy ngược màu vàng</item>
+        <item>116: Chạy về phía màu lục lam</item>
+        <item>117: Chạy màu lục lam ngược</item>
+        <item>118: Chạy về phía màu tím</item>
+        <item>119: Chạy ngược màu tím</item>
+        <item>120: Chạy về phía màu trắng</item>
+        <item>121: Chạy ngược màu trắng</item>
+        <item>122: Chạy về phía trước với bảy màu sắc</item>
+        <item>123: Chạy bảy màu đảo ngược</item>
+        <item>124: Chạy về phía đỏ, xanh lá cây và xanh lam</item>
+        <item>125: Chạy ngược màu đỏ, xanh lục và xanh lam</item>
+        <item>126: Chạy về phía màu vàng, xanh lam và tím</item>
+        <item>127: Chạy ngược màu vàng và xanh lam</item>
+        <item>128: Chạy về phía xanh lam, vàng và tím</item>
+        <item>129: Chạy về phía màu xanh lá cây, xanh lam và vàng</item>
+        <item>130: Chạy ngược màu xanh lam-vàng-xanh lá cây</item>
+        <item>131: Chạy về phía chấm đỏ trên nền trắng</item>
+        <item>132: Chấm đỏ chạy ngược trên nền trắng màu đỏ đang chạy</item>
+        <item>133: Chạy về phía chấm màu xanh lá cây trên nền màu đỏ</item>
+        <item>134: Chấm màu đỏ và xanh lục đảo ngược đang chạy</item>
+        <item>135: Chạy về phía chấm màu xanh lam trên nền xanh lá cây</item>
+        <item>136: Nền màu xanh lá cây đảo ngược chấm màu xanh lam đang chạy</item>
+        <item>137: Chạy về phía chấm màu vàng trên nền màu xanh lam</item>
+        <item>138: Chấm màu xanh lam và màu vàng đảo ngược đang chạy</item>
+        <item>139: Chạy về phía chấm màu xanh lam trên nền màu vàng</item>
+        <item>140: Chấm màu vàng và xanh lam đảo ngược đang chạy</item>
+        <item>141: Chạy về phía điểm dưới cùng màu lục lam</item>
+        <item>142: Chạy dấu chấm màu lục lam-tím đảo ngược</item>
+        <item>143: Chạy về phía chấm trắng trên nền tím</item>
+        <item>144: Chấm màu trắng nền tím đảo ngược đang chạy</item>
+        <item>145: Chạy về phía một chấm trắng trên nền đỏ</item>
+        <item>146: Nền đỏ đảo ngược và chấm trắng đang chạy</item>
+        <item>147: Chạy với bảy màu trên nền đỏ</item>
+        <item>148: Chạy bảy màu nền đỏ đảo ngược</item>
+        <item>149: Chạy với bảy màu trên nền xanh lá cây</item>
+        <item>150: chạy bảy màu nền xanh lục ngược</item>
+        <item>151: Chạy với bảy màu trên nền xanh lam</item>
+        <item>152: Bảy màu chạy trên nền màu xanh lam ngược</item>
+        <item>153: Chạy về phía trước với bảy màu trên nền vàng</item>
+        <item>154: Chạy bảy màu trên nền màu vàng ngược</item>
+        <item>155: Chạy với bảy màu trên nền xanh lam</item>
+        <item>156: Chạy bảy màu trên nền màu xanh lam ngược</item>
+        <item>157: Chạy với bảy màu trên nền tím</item>
+        <item>158: Chạy bảy màu trên nền màu tím ngược</item>
+        <item>159: Chạy với bảy màu trên nền trắng</item>
+        <item>160: Bảy màu chạy trên nền trắng đảo ngược</item>
+        <item>161: Luồng màu trắng, đỏ và trắng tích cực</item>
+        <item>162: Dòng chảy ngược trắng, đỏ và trắng</item>
+        <item>163: Dòng chảy tích cực màu trắng, xanh lá cây và trắng</item>
+        <item>164: Dòng chảy ngược màu trắng, xanh lá cây và trắng</item>
+        <item>165: Dòng chảy tích cực màu trắng, xanh lam và trắng</item>
+        <item>166: Dòng chảy ngược màu trắng, xanh lam và trắng</item>
+        <item>167: Chảy về phía trắng, vàng và trắng</item>
+        <item>168: Dòng chảy ngược trắng-vàng-trắng</item>
+        <item>169: Chảy màu trắng, xanh lam và trắng</item>
+        <item>170: Dòng chảy ngược trắng-xanh-trắng</item>
+        <item>171: Chảy sang màu trắng, tím và trắng</item>
+        <item>172: Dòng chảy ngược trắng-tím-trắng</item>
+        <item>173: Luồng màu đỏ, trắng và đỏ tích cực</item>
+        <item>174: Luồng đỏ-trắng-đỏ ngược lại</item>
+        <item>175: Luồng màu xanh lá cây, trắng và xanh lá cây tích cực</item>
+        <item>176: Luồng màu xanh lá cây-trắng-xanh lá cây đảo ngược</item>
+        <item>177: Chảy về phía xanh lam, trắng và xanh lam</item>
+        <item>178: Luồng màu xanh lam-trắng-xanh dương ngược lại</item>
+        <item>179: Luồng tích cực màu vàng, trắng và vàng</item>
+        <item>180: Luồng màu vàng-trắng-vàng ngược lại</item>
+        <item>181: Chảy về phía xanh lam, trắng và xanh lá cây</item>
+        <item>182: Luồng màu xanh lam-trắng-xanh lục ngược lại</item>
+        <item>183: Luồng tích cực của màu tím, trắng và tím</item>
+        <item>184: Dòng chảy ngược màu tím-trắng-tím</item>
+        <item>185: Chạy về phía chấm màu xanh lá cây trên nền màu xanh lam</item>
+        <item>186: Đua xe chấm màu xanh lam và xanh lục ngược</item>
+        <item>187: Cưỡi với các chấm màu xanh lá cây trên nền màu đỏ</item>
+        <item>188: Đua xe chấm màu đỏ và xanh lá cây đảo ngược</item>
+        <item>189: Chạy về phía chấm đỏ trên nền xanh lam</item>
+        <item>190: Đua xe chấm màu xanh và đỏ đảo ngược</item>
+        <item>191: Ngựa chạy với các chấm màu xanh lam trên nền màu vàng</item>
+        <item>192: Cuộc đua chấm màu vàng và xanh lam ngược lại</item>
+        <item>193: Đua ngựa với các chấm vàng trên nền tím</item>
+        <item>194: Đua ngựa chấm màu tím và vàng ngược</item>
+        <item>195: Chạy với các chấm trắng trên nền vàng</item>
+        <item>196: Nền màu vàng đảo ngược và cuộc đua ngựa chấm trắng</item>
+        <item>197: Đua ngựa với các chấm vàng trên nền trắng</item>
+        <item>198: Nền trắng đảo ngược với các chấm màu vàng</item>
+        <item>199: Đánh răng bảy màu tích cực</item>
+        <item>200: Bàn chải bảy màu đảo ngược</item>
+        <item>201: Màu bàn chải đỏ, xanh lá cây và xanh dương tích cực</item>
+        <item>202: Màu bàn chải đảo ngược màu đỏ, xanh lá cây và xanh lam</item>
+        <item>203: Màu bàn chải tích cực màu vàng, xanh lam và tím</item>
+        <item>204: Màu bàn chải màu vàng lục lam-tím đảo ngược</item>
+        <item>205: Màn hình salad bàn chải bảy màu</item>
+        <item>206: Màu bàn chải bảy màu đóng lại</item>
+        <item>207: Rèm màu bàn chải đỏ, xanh lá cây và xanh lam</item>
+        <item>208: Màu bàn chải đỏ, xanh lá cây và xanh lam đóng lại</item>
+        <item>209: Tấm phủ salad bàn chải màu xanh lam tím vàng</item>
+        <item>210: Có các màu vàng, xanh lam và tím</item>
+    </array>
+    <array name="week">
+        <item>Ngày</item>
+        <item>một</item>
+        <item>hai</item>
+        <item>Ba</item>
+        <item>Bốn</item>
+        <item>Năm</item>
+        <item>Sáu</item>
+    </array>
+    <array name="weekday">
+        <item>Thứ Hai</item>
+        <item>Thứ Ba</item>
+        <item>Thứ Tư</item>
+        <item>Thứ Năm</item>
+        <item>Thứ Sáu</item>
+        <item>Thứ Bảy</item>
+        <item>Chủ nhật</item>
+    </array>
+    <string name="Account_security">Bảo mật tài khoản</string>
+    <string name="Add_Picture">Thêm hình ảnh</string>
+    <string name="Advisory">Lời khuyên</string>
+    <string name="Alignment">Căn chỉnh</string>
+    <string name="Animation">Hoạt ảnh</string>
+    <string name="Are_you_sure_delete_this_account">Bạn có chắc chắn muốn xóa tài khoản này không?</string>
+    <string name="Auxiliary_function">Phím</string>
+    <string name="Background">​​Nền</string>
+    <string name="Bubble">Bong bóng</string>
+    <string name="ButtonEight">Ngựa</string>
+    <string name="ButtonFive">Xếp chồng lên nhau</string>
+    <string name="ButtonSeven">Luồng</string>
+    <string name="ButtonSix">Màn hình kéo</string>
+    <string name="Closetiming">Thời gian đóng</string>
+    <string name="Code">Mã</string>
+    <string name="Connect">Kết nối</string>
+    <string name="Crash_Tip">* Nếu bạn gặp sự cố gần đây  nVui lòng gỡ cài đặt APP trước rồi tải xuống lại</string>
+    <string name="Delete_account_succeeded">Xóa tài khoản thành công</string>
+    <string name="Delete_this_account">Xóa tài khoản</string>
+    <string name="Experience_Now">Trải nghiệm ngay bây giờ</string>
+    <string name="FD">Theo dõi</string>
+    <string name="FS">Đuổi theo ánh sáng</string>
+    <string name="FW">Nước chảy</string>
+    <string name="Font_Size">Kích thước phông chữ</string>
+    <string name="Forward">Chuyển tiếp</string>
+    <string name="GD">Các màn</string>
+    <string name="Get_GIF_From_Album">Nhận GIF từ album</string>
+    <string name="Get_Pictures_From_Album">Lấy ảnh từ anbom</string>
+    <string name="Graffiti">Graffiti</string>
+    <string name="Hot">Điểm nổi bật</string>
+    <string name="Language">Chuyển đổi ngôn ngữ</string>
+    <string name="Material_Library">Thư viện vật liệu</string>
+    <string name="No_Equipment">Không có thiết bị, vui lòng kéo xuống để làm mới trước</string>
+    <string name="Other">Khác</string>
+    <string name="Pixel">Pixel</string>
+    <string name="Pull_down_to_refresh_device"> Pull_down_to_refresh_device > Pull_down_to_refresh_device </string>
+    <string name="RandomPlay">Chơi ngẫu nhiên</string>
+    <string name="Repeat">Lặp lại</string>
+    <string name="Reverse">Đảo ngược</string>
+    <string name="Send_Failed">Gửi không thành công</string>
+    <string name="Sending">Đang gửi</string>
+    <string name="Sendtiming">Gửi thời gian</string>
+    <string name="SequentialPlay">Phát tuần tự</string>
+    <string name="SinglePlay">Chơi một lần</string>
+    <string name="Style">Kiểu</string>
+    <string name="Suggest">Gợi ý</string>
+    <string name="Tab_Effect">Hiệu ứng</string>
+    <string name="Text">Văn bản</string>
+    <string name="Text_Color">Màu từ</string>
+    <string name="Turn_Off">Tắt đèn</string>
+    <string name="Turn_On">Bật đèn thường xuyên</string>
+    <string name="Tutorial">Hướng dẫn</string>
+    <string name="Values_can_be_the_same">Các giá trị không được giống nhau</string>
+    <string name="Voicecontrol">Tiếng nói</string>
+    <string name="Wiring">Đấu dây</string>
+    <string name="ablum_title">Tên bài hát:%1$s Nghệ sĩ:%2$s Album:%3$s</string>
+    <string name="about_us_and_help">Giới thiệu về chúng tôi</string>
+    <string name="access_request">Yêu cầu quyền</string>
+    <string name="access_request_description">Từ Android 6.0 trở đi, để quét các thiết bị Bluetooth năng lượng thấp, ứng dụng cần có quyền truy cập vào vị trí của thiết bị. Điều này là do đèn hiệu Bluetooth có thể được sử dụng để xác định vị trí của điện thoại và người dùng. Tuy nhiên, ứng dụng này sẽ không sử dụng thông tin vị trí của bạn và quyền này chỉ để quét các thiết bị bluetooth. 【Nhấp để xem tài liệu chính thức của Google】</string>
+    <string name="access_request_description1">Từ Android 6.0 trở đi, để quét các thiết bị Bluetooth Low Power, ứng dụng cần có quyền truy cập vào vị trí của thiết bị. Điều này là do đèn hiệu Bluetooth có thể được sử dụng để xác định vị trí của điện thoại và người dùng. Tuy nhiên, ứng dụng này sẽ không sử dụng thông tin vị trí của bạn và quyền này chỉ để quét các thiết bị bluetooth.</string>
+    <string name="access_request_description2">[Nhấp để xem mô tả tài liệu chính thức của Google]</string>
+    <string name="account_format_error">Định dạng của phương thức xác thực không chính xác</string>
+    <string name="accumulation">tích lũy</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="add2lib">OK lựa chọn</string>
+    <string name="add2lib_all">chọn tất cả</string>
+    <string name="addTimer">Thêm bộ hẹn giờ</string>
+    <string name="add_device">Thêm thiết bị điều khiển</string>
+    <string name="add_device_successfully">Thêm thiết bị thành công</string>
+    <string name="add_group">Thêm nhóm mới</string>
+    <string name="adding_device">Thêm thiết bị</string>
+    <string name="agree">Đồng ý</string>
+    <string name="aisle_a">Kênh A</string>
+    <string name="aisle_b">Kênh B</string>
+    <string name="aisle_c">Kênh C</string>
+    <string name="all_off">Tất cả đều giảm</string>
+    <string name="all_on">Bật đầy đủ</string>
+    <string name="allcomment">Tất cả nhận xét</string>
+    <string name="app_name">ĐÈN LED</string>
+    <string name="aquatic_mode">Chế độ dưới nước</string>
+    <string name="authorization_alert">Bắt đầu từ Android 6.0, ứng dụng phải bật [Dịch vụ vị trí] để quét các thiết bị Bluetooth!</string>
+    <string name="authorization_title">Gợi ý:</string>
+    <string name="b">da trời</string>
+    <string name="back">quay lại</string>
+    <string name="base_setting">cài đặt</string>
+    <string name="battery">pin</string>
+    <string name="bind_end">OK</string>
+    <string name="ble_connect">Mạng phân phối Bluetooth</string>
+    <string name="ble_not_supported">Thiết bị này không được hỗ trợ</string>
+    <string name="blue">%1$s</string>
+    <string name="breathe">Thở</string>
+    <string name="brightness">độ sáng</string>
+    <string name="brightness_set">Độ sáng: %1$s</string>
+    <string name="btn_pix_number">điểm</string>
+    <string name="btn_set_pix_number">Điểm ảnh</string>
+    <string name="btquery">Truy vấn nhiệt độ pin</string>
+    <string name="busy_wait">Tôi đang bận, đợi đã</string>
+    <string name="c">lục lam</string>
+    <string name="camera_permissions_disabled">Quyền đối với máy ảnh bị tắt, hãy nhớ bật quyền đối với máy ảnh!</string>
+    <string name="can_not_connect">WIFI có thể bị sai, hãy kết nối lại sau 3 giây hoặc chọn một Wifi mới để thử lại!</string>
+    <string name="cancel">Huỷ</string>
+    <string name="cancell">Huỷ</string>
+    <string name="cancell_dialog">Huỷ</string>
+    <string name="change_color">Thay đổi màu</string>
+    <string name="change_skin">Thay đổi giao diện</string>
+    <string name="channelset">tập hợp kênh màu</string>
+    <string name="charts">Diễn đàn đồ họa</string>
+    <string name="check_network_connection">Vui lòng kiểm tra kết nối mạng !!!</string>
+    <string name="chiptypevaluetip">Vui lòng chọn loại chip!</string>
+    <string name="choose">Chọn tuần</string>
+    <string name="choosemode">Chọn chế độ</string>
+    <string name="chose">Vui lòng chọn một video ngắn</string>
+    <string name="chose_list">Vui lòng chọn từ danh sách phát</string>
+    <string name="chose_picthor">Chỉ chọn một ảnh</string>
+    <string name="chose_video">Chỉ có thể chọn một video</string>
+    <string name="circulation">Vòng tuần hoàn</string>
+    <string name="clear">clear</string>
+    <string name="close">Đóng</string>
+    <string name="colorful_mode">Chế độ đầy màu sắc</string>
+    <string name="colour">color</string>
+    <string name="comment">Nhận xét</string>
+    <string name="comment_content">Văn bản</string>
+    <string name="comment_detail">chi tiết nhận xét</string>
+    <string name="comment_publish">Xuất bản</string>
+    <string name="comment_publish_success">Đã xuất bản thành công</string>
+    <string name="comment_title">Tiêu đề</string>
+    <string name="common_words">Các từ thông dụng</string>
+    <string name="conenct_device">%1$s thiết bị, được kết nối:%2$s</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="confirm_light_flash_slowly">Xác nhận trạng thái nhấp nháy của đèn</string>
+    <string name="confirm_the_light_flash">Xác nhận trạng thái nhấp nháy của đèn</string>
+    <string name="confirmation_light_flash_ble">3> Đèn xác nhận nhấp nháy nhanh (ánh sáng trắng)</string>
+    <string name="confirmation_light_flash_hotspot">3> Đèn xác nhận nhấp nháy chậm (đèn đỏ)</string>
+    <string name="confirmation_light_flash_wifi">3> Đèn xác nhận nhấp nháy nhanh (ánh sáng xanh lam)</string>
+    <string name="connect_count">%1$s thiết bị</string>
+    <string name="connect_success">Kết nối thành công!</string>
+    <string name="connected_to_the_hotspot_shown">1. Vui lòng kết nối điện thoại của bạn với điểm phát sóng được hiển thị bên dưới</string>
+    <string name="connecting">Bắt đầu kết nối ...</string>
+    <string name="control">Kiểm soát</string>
+    <string name="cool_warm">Tuyệt vời:%1$s Ấm áp:%2$s</string>
+    <string name="copy">sao chép</string>
+    <string name="coral_artistic_conception">Quan niệm nghệ thuật san hô</string>
+    <string name="current_mode">Chế độ hiện tại</string>
+    <string name="current_mode_format">%1$s</string>
+    <string name="current_rgb_format">Sắp xếp RGB hiện tại:%1$s</string>
+    <string name="current_version">Phiên bản hiện tại</string>
+    <string name="currentquery">Truy vấn tĩnh</string>
+    <string name="custom">tuỳ chỉnh</string>
+    <string name="cycle">chu kỳ</string>
+    <string name="database_error">Lỗi cơ sở dữ liệu</string>
+    <string name="deep_sea_mode">Tâm trạng biển sâu</string>
+    <string name="define_system">Người dùng xác định</string>
+    <string name="delete">Xóa</string>
+    <string name="delete_group">Xóa nhóm %1$s</string>
+    <string name="delete_message_success">Xóa thành công</string>
+    <string name="deletthis">Kéo vào đây để xóa</string>
+    <string name="device_has_restarted">1. Xác nhận rằng thiết bị đã được khởi động lại và đèn nhấp nháy nhanh</string>
+    <string name="device_list">Danh sách thiết bị</string>
+    <string name="devices_all">Tất cả các thiết bị</string>
+    <string name="disconnect">Đang ngắt kết nối bluetooth ...</string>
+    <string name="disconnect_bluetooth">Bluetooth sắp ngắt kết nối ...</string>
+    <string name="dmx02_r_g_b">R:%1$s \nG:%2$s \nB:%3$s</string>
+    <string name="download_center">Trung tâm Tải xuống</string>
+    <string name="editTimer">Chỉnh sửa bộ hẹn giờ</string>
+    <string name="edit_group_please">Vui lòng chọn một thiết bị trong nhóm trước</string>
+    <string name="enter">Vui lòng nhập tuần mẫu</string>
+    <string name="fan_rotational_temperature">Cài đặt nhiệt độ quay của quạt</string>
+    <string name="file_size_exceeds_limit">Kích thước tệp vượt quá giới hạn</string>
+    <string name="filesize">Tệp video không được lớn hơn 20MB</string>
+    <string name="firstlogin">Vui lòng đăng nhập trước</string>
+    <string name="five">Năm</string>
+    <string name="flash">Chớp nhoáng</string>
+    <string name="floor">tầng</string>
+    <string name="floor_host">Chủ nhà</string>
+    <string name="flow">white x white flow</string>
+    <string name="forget_password">Quên mật khẩu?</string>
+    <string name="forum">Diễn đàn</string>
+    <string name="four">bốn</string>
+    <string name="g">Xanh</string>
+    <string name="get_checkcode">Lấy mã xác minh</string>
+    <string name="goodbye">Tạm biệt!</string>
+    <string name="gpsNotifyMsg"> Ứng dụng hiện tại cần bật chức năng định vị.  nVui lòng nhấp vào  Cài đặt \" -  Dịch vụ Vị trí \" - để bật chức năng định vị. </string>
+    <string name="gradient">Các màn</string>
+    <string name="green">%1$s</string>
+    <string name="group_ble_device">Nhóm</string>
+    <string name="groupname_cannot_same">Tên nhóm không được giống nhau!</string>
+    <string name="have_time_to_talk">Có thời gian để nói chuyện</string>
+    <string name="hello_there">Xin chào!</string>
+    <string name="help">Trợ giúp</string>
+    <string name="home">Trang chủ</string>
+    <string name="home_page">Đồ họa</string>
+    <string name="hotspot_connect">mạng điểm phát sóng</string>
+    <string name="hour">giờ</string>
+    <string name="input_account">Vui lòng nhập số tài khoản</string>
+    <string name="input_content">Nội dung đầu vào ...</string>
+    <string name="input_format_error">lỗi định dạng đầu vào</string>
+    <string name="input_length_error">Lỗi độ dài đầu vào</string>
+    <string name="input_not_null">đầu vào không được rỗng</string>
+    <string name="input_password">Vui lòng nhập mật khẩu</string>
+    <string name="invalid_verification_code">Mã xác minh không hợp lệ</string>
+    <string name="is_it_2_4">2. Kiểm tra xem Wi-Fi có phải là 2,4 GHz không</string>
+    <string name="is_the_password_correct">3. Xác minh rằng mật khẩu Wi-Fi là chính xác</string>
+    <string name="jump">Nhảy đi</string>
+    <string name="jump_over">Nhảy</string>
+    <string name="keyStr">1234567890abcdef</string>
+    <string name="key_in_numbers">Vui lòng nhập số!</string>
+    <string name="led_like">GIỐNG LED</string>
+    <string name="light_code">mã địa chỉ</string>
+    <string name="lightning_mode">Chế độ sét</string>
+    <string name="loading">Đang tải ...</string>
+    <string name="login">Đăng nhập</string>
+    <string name="loginapp">Vui lòng đăng nhập vào diễn đàn trước</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="long_press_the_controller_colorbtn">2> nhấn và giữ phím màu của bộ điều khiển trong 5 giây</string>
+    <string name="long_press_the_controller_muscibtn">2> nhấn và giữ phím nhạc của bộ điều khiển trong 5 giây</string>
+    <string name="long_press_the_controller_onoffbtn">2> nhấn và giữ phím điều khiển trong 5 giây</string>
+    <string name="look">Xem bài đánh giá này</string>
+    <string name="looking">Đang xem trước ...</string>
+    <string name="main_tab_text_service">ĐÈN LED</string>
+    <string name="marine_mode">Chế độ hàng hải</string>
+    <string name="micro_authorized">Micrô được ủy quyền</string>
+    <string name="minute">phút</string>
+    <string name="mode">người mẫu</string>
+    <string name="mode_select">Chuyển đổi chế độ</string>
+    <string name="mode_set">Chế độ:%1$s</string>
+    <string name="model">kiểu mẫu</string>
+    <string name="msg_no_add_scene">Không có nội dung nào được chọn, hành động này không hợp lệ</string>
+    <string name="msg_not_empty">Dữ liệu chưa được lưu, bạn có chắc chắn muốn thoát không</string>
+    <string name="msg_sending_online">Đang quét ...</string>
+    <string name="multipoint_fast_running">Chạy đa điểm</string>
+    <string name="music_lib">Thư viện nhạc</string>
+    <string name="music_style_pop">pop</string>
+    <string name="music_style_rock">Rock</string>
+    <string name="music_style_soft">soft</string>
+    <string name="my_personal">của tôi</string>
+    <string name="natural_light">màu tự nhiên</string>
+    <string name="nei_mai">Nei Mai</string>
+    <string name="network_timeout">Hết thời gian chờ mạng kết nối thiết bị</string>
+    <string name="new_password">Mật khẩu mới:</string>
+    <string name="next_step">Bước tiếp theo</string>
+    <string name="no_account">Bạn chưa có tài khoản?</string>
+    <string name="no_data">Không có dữ liệu</string>
+    <string name="no_device_found">​​Không tìm thấy thiết bị Bluetooth nào!</string>
+    <string name="no_more_data">Không còn dữ liệu nào nữa</string>
+    <string name="normal">Giữ để nói</string>
+    <string name="not_used">Hiện không được sử dụng</string>
+    <string name="nothing">Chưa có dữ liệu</string>
+    <string name="ok">OK</string>
+    <string name="old_password">Mật khẩu cũ:</string>
+    <string name="one">một</string>
+    <string name="online_service">Dịch vụ khách hàng trực tuyến</string>
+    <string name="open">Mở</string>
+    <string name="open_album">Mở album</string>
+    <string name="open_close">kéo / đóng</string>
+    <string name="openapp">Vui lòng nhấp vào ⊕ ở góc trên bên phải để thêm phần mềm. Lần đầu tiên, vui lòng nhấp vào Trợ giúp ở góc dưới bên phải để xem hướng dẫn hoạt động</string>
+    <string name="p">Màu tím</string>
+    <string name="p_explain">Giải thích về hình ảnh</string>
+    <string name="pair_code">mã cặp</string>
+    <string name="pair_code_set">Mã hiện tại:%1$s</string>
+    <string name="parameter_error">Lỗi tham số</string>
+    <string name="password">Mật khẩu</string>
+    <string name="password_edit">Mật khẩu bao gồm 8 chữ số 0-F</string>
+    <string name="pecent_photos">Ảnh gần đây</string>
+    <string name="phone_connected_to_hotspot">Kết nối WiFi của điện thoại với điểm phát sóng của thiết bị</string>
+    <string name="phone_or_email">Số điện thoại hoặc email</string>
+    <string name="picture">Hình ảnh không được lớn hơn 1MB, vui lòng chọn lại</string>
+    <string name="playvideo">Phát</string>
+    <string name="please_describe_your_problem">Xin chào, vui lòng mô tả vấn đề của bạn và tôi sẽ giúp bạn giải quyết nó sớm nhất có thể ~</string>
+    <string name="please_enter_again">Vui lòng nhập lại</string>
+    <string name="please_input">Tên nhóm mới</string>
+    <string name="please_use_the_verification_code_sent">Vui lòng sử dụng mã xác minh đã gửi</string>
+    <string name="position_closed">Vị trí đã đóng</string>
+    <string name="position_service">Dịch vụ định vị</string>
+    <string name="position_service_info">Điện thoại của bạn có thể cần bật dịch vụ định vị để khám phá các thiết bị Bluetooth. Nếu bạn chắc chắn rằng bạn có thiết bị Bluetooth ở gần nhưng bạn không thể tìm thấy thiết bị, hãy bật dịch vụ định vị.</string>
+    <string name="power_on">1> Kết nối nguồn</string>
+    <string name="preview">Xem trước</string>
+    <string name="privacy_policy">Thỏa thuận Dịch vụ và Chính sách Bảo mật</string>
+    <string name="privacy_policy_content"> Vui lòng đọc cẩn thận và hiểu đầy đủ các điều khoản của Thỏa thuận dịch vụ và Chính sách quyền riêng tư, bao gồm nhưng không giới hạn ở: thông tin cho phép để cung cấp cho bạn các dịch vụ như dữ liệu và sự chia sẻ. Bạn có thể đọc Thỏa thuận dịch vụ và Chính sách quyền riêng tư để biết thêm chi tiết. Nếu bạn đồng ý, vui lòng nhấp vào Đồng ý để bắt đầu chấp nhận các dịch vụ của chúng tôi. </string>
+    <string name="privacy_policy_content1"> Vui lòng đọc cẩn thận và hiểu đầy đủ các điều khoản của Thỏa thuận dịch vụ và Chính sách quyền riêng tư, bao gồm nhưng không giới hạn ở: thông tin cho phép để cung cấp cho bạn các dịch vụ như dữ liệu và sự chia sẻ. bạn có thể đọc </string>
+    <string name="privacy_policy_content2">Thỏa thuận dịch vụ</string>
+    <string name="privacy_policy_content3">và</string>
+    <string name="privacy_policy_content4">Chính sách Bảo mật</string>
+    <string name="publish_comment">băng hình</string>
+    <string name="query">truy vấn</string>
+    <string name="r">đỏ</string>
+    <string name="r_g_b">R:%1$s G:%2$s B:%3$s</string>
+    <string name="rationale_ask_again">Ứng dụng này có thể không hoạt động bình thường nếu không có quyền được yêu cầu. Mở giao diện cài đặt ứng dụng để sửa đổi quyền ứng dụng.</string>
+    <string name="reason">lý do</string>
+    <string name="recording">phát hành kết thúc</string>
+    <string name="red">%1$s</string>
+    <string name="register">đăng ký</string>
+    <string name="register_account">Tài khoản:</string>
+    <string name="register_checkcode">Mã xác minh:</string>
+    <string name="register_email">Phương thức xác thực:</string>
+    <string name="register_password">Mật khẩu:</string>
+    <string name="register_success">Đăng ký thành công</string>
+    <string name="replacement">đặt lại</string>
+    <string name="reply">Trả lời</string>
+    <string name="request_failed">Yêu cầu không thành công, vui lòng thử lại sau</string>
+    <string name="reset_device">Vui lòng đặt lại thiết bị trước</string>
+    <string name="reset_message">Dữ liệu sẽ bị xóa sau khi đặt lại, bạn có chắc chắn muốn đặt lại không?</string>
+    <string name="reset_password">Đặt lại mật khẩu</string>
+    <string name="reset_password_success">Đặt lại mật khẩu thành công, vui lòng đăng nhập lại!</string>
+    <string name="retrieve">truy xuất</string>
+    <string name="retrieve_password">lấy lại mật khẩu</string>
+    <string name="return_to_this_app_to_continue_adding_device">2. Quay lại ứng dụng này và tiếp tục thêm thiết bị</string>
+    <string name="rgb_sort">Sắp xếp RGB</string>
+    <string name="rgb_sort_set">Sắp xếp hiện tại:%1$s</string>
+    <string name="ring">vòng màu</string>
+    <string name="run">Chạy</string>
+    <string name="save">Lưu</string>
+    <string name="saveSuccessfully">Lưu thành công</string>
+    <string name="saved_to_local_album">Đã lưu vào anbom cục bộ</string>
+    <string name="savefailed">Lưu không thành công</string>
+    <string name="scan_dev_info">Đã quét đến thiết bị %1$s, vui lòng quay lại trang chủ để mở ứng dụng %2$s</string>
+    <string name="scan_dev_info_wifi">Đã quét% 1$s thiết bị, đã thêm %2$s thành công</string>
+    <string name="scan_failed_with_missing_permissions">Quét không thành công, thiếu quyền</string>
+    <string name="scan_to">Quét tới</string>
+    <string name="sdded_successfully">Đã thêm thành công</string>
+    <string name="second">giây</string>
+    <string name="select_all">Chọn tất cả</string>
+    <string name="select_chip">Chọn chip</string>
+    <string name="send">Gửi</string>
+    <string name="sendSccess">Đã gửi thành công, cài đặt thời gian không hợp lệ sau khi tắt nguồn</string>
+    <string name="send_checkcode">Đã gửi mã xác minh</string>
+    <string name="sendcharts">Đăng</string>
+    <string name="sendtie">Đang gửi ...</string>
+    <string name="sendvideo">Gửi video</string>
+    <string name="sensitivity">Độ nhạy</string>
+    <string name="sensitivity_set">Độ nhạy:%1$s</string>
+    <string name="sent_success">Gửi thành công</string>
+    <string name="set_focus">Thiết lập</string>
+    <string name="set_pix_number">Đặt mã địa chỉ (0-512)</string>
+    <string name="setting">Kết nối Wifi -></string>
+    <string name="seven">Ngày</string>
+    <string name="shake">Lắc</string>
+    <string name="shouzhishanghua">Vuốt lên để hủy gửi</string>
+    <string name="single_click_select_color">Nhấp để chọn màu, nhấn và giữ để xóa màu</string>
+    <string name="single_lamp_jump">Nhảy đèn đơn</string>
+    <string name="single_lamp_strobe">Đèn nhấp nháy đơn</string>
+    <string name="single_light_gradient">Gradient ánh sáng đơn</string>
+    <string name="singlepoint_fast_running">Đang chạy một điểm</string>
+    <string name="six">Sáu</string>
+    <string name="six_eighteen_length">6 ~ 18 ký tự chữ và số</string>
+    <string name="six_number">6 chữ số</string>
+    <string name="skin_restoration">phục hồi da</string>
+    <string name="skip_reset_step_ble">Nếu đèn nhanh chóng nhấp nháy màu trắng, hãy bỏ qua bước đặt lại</string>
+    <string name="skip_reset_step_hotspot">Nếu đèn nhấp nháy màu đỏ từ từ, hãy bỏ qua bước đặt lại</string>
+    <string name="skip_reset_step_wifi">Nếu đèn nhấp nháy nhanh màu xanh lam, hãy bỏ qua bước đặt lại</string>
+    <string name="sleep_mode">Chế độ ngủ</string>
+    <string name="spacercode">spacercode</string>
+    <string name="spacercodevaluetip">Vui lòng nhập mã đệm!</string>
+    <string name="speed">tốc độ</string>
+    <string name="speed_set">Tốc độ:%1$s</string>
+    <string name="startcode">Mã bắt đầu</string>
+    <string name="startcodevaluetip">Vui lòng nhập mã bắt đầu!</string>
+    <string name="step_1">Bước đầu tiên  nNhấp vào điều hướng dưới cùng  n Biểu tượng video</string>
+    <string name="step_2">Nếu ứng dụng bị lỗi  n  n, trước tiên hãy gỡ cài đặt ứng dụng  n  ndownload lại</string>
+    <string name="step_3">Bước 3  nNhấp để xem hướng dẫn bằng video</string>
+    <string name="strobe">Strobe</string>
+    <string name="sun_a">Thay đổi lạnh và ấm</string>
+    <string name="sun_b">Hơi thở thơm mát</string>
+    <string name="sun_c">Hơi thở ấm áp</string>
+    <string name="sun_d">Thở tự nhiên</string>
+    <string name="sun_e">Hơi thở lạnh và ấm</string>
+    <string name="sun_f">Nhấp nháy lạnh và ấm</string>
+    <string name="sun_g">Nhấp nháy tuyệt vời</string>
+    <string name="sun_h">Ánh sáng ấm áp</string>
+    <string name="sun_sei">Mát: 100 Ấm: 0</string>
+    <string name="sunrise_mode">chế độ mặt trời mọc</string>
+    <string name="sunset_mode">Chế độ Hoàng hôn</string>
+    <string name="sunshine_mode">Ánh sáng mặt trời cao</string>
+    <string name="supported">Xin lỗi, tối đa 16 bộ hẹn giờ được hỗ trợ</string>
+    <string name="supportedlight">Xin lỗi, tối đa 10 bộ hẹn giờ được hỗ trợ</string>
+    <string name="sure">OK</string>
+    <string name="switch_distribution_mode">Vui lòng thử chuyển chế độ phân phối</string>
+    <string name="switch_to_the_distribution_network">Chuyển chế độ mạng phân phối</string>
+    <string name="system_device">Hệ thống</string>
+    <string name="system_error">Lỗi hệ thống</string>
+    <string name="tab_aisle">Kênh</string>
+    <string name="tab_brightness">độ sáng</string>
+    <string name="tab_ct">Nhiệt độ màu</string>
+    <string name="tab_custom">tùy chỉnh</string>
+    <string name="tab_dm">Đơn sắc</string>
+    <string name="tab_mode">chế độ</string>
+    <string name="tab_music">Nhạc</string>
+    <string name="tab_record">Micrô</string>
+    <string name="tab_reg">Màu sắc</string>
+    <string name="tab_scene">Tình huống</string>
+    <string name="tab_timer">Hẹn giờ</string>
+    <string name="table1">Bảng 1</string>
+    <string name="table2">Bảng 2</string>
+    <string name="take_video">Video gần đây</string>
+    <string name="temperature">nhiệt độ</string>
+    <string name="text">Vui lòng nhập văn bản</string>
+    <string name="text_addname">Thêm (sửa đổi) tên</string>
+    <string name="text_addscene_new">Thêm dịch vụ mới</string>
+    <string name="text_cancel">Huỷ</string>
+    <string name="text_custom">Người dùng tùy chỉnh</string>
+    <string name="text_edit">Chỉnh sửa</string>
+    <string name="text_empty_name">Tên không được để trống</string>
+    <string name="text_empty_service">Không được để trống dịch vụ</string>
+    <string name="text_exit">Nhấn lại để thoát ĐÈN LED</string>
+    <string name="text_input_name">1 đến 16 chữ cái, số hoặc dấu gạch dưới</string>
+    <string name="text_ledble">LED BLE</string>
+    <string name="text_leddmx">LED DMX</string>
+    <string name="text_ledlight">LED LIGHT</string>
+    <string name="text_ledline">DÒNG LED</string>
+    <string name="text_ledsmart">LED SMART</string>
+    <string name="text_ledspi">LED SPI</string>
+    <string name="text_ledstage">LED STAGE</string>
+    <string name="text_ledstrip">LED STRIP</string>
+    <string name="text_ledsun">LED SUN</string>
+    <string name="text_ledwifi">LED WiFi</string>
+    <string name="text_ok">OK</string>
+    <string name="text_over">Đã xong</string>
+    <string name="text_pic">ảnh</string>
+    <string name="text_pick_camera">Ảnh</string>
+    <string name="text_pick_local">Thư viện</string>
+    <string name="text_relaxation">Thư giãn</string>
+    <string name="text_romance">Lãng mạn</string>
+    <string name="text_selectdevice">Chọn thiết bị</string>
+    <string name="text_sport">Thể thao</string>
+    <string name="text_storage">Lưu</string>
+    <string name="text_str">Tên</string>
+    <string name="text_system">Hệ thống</string>
+    <string name="text_warm_content">Bạn có chắc chắn muốn xóa dịch vụ này không?</string>
+    <string name="text_warm_content1">Vui lòng nhập vào ô nhập bên dưới:</string>
+    <string name="text_warming">Lời nhắc ấm áp</string>
+    <string name="the_parameter_is_empty">Tham số trống</string>
+    <string name="the_verification_code_is_sent_abnormally_please_try_again">Mã xác minh được gửi bất thường, vui lòng thử lại</string>
+    <string name="three">ba</string>
+    <string name="thunderstorm_mode">Chế độ sấm sét</string>
+    <string name="tiele">Vui lòng nhập tiêu đề</string>
+    <string name="time">time</string>
+    <string name="timeSize">Số bộ hẹn giờ tối đa là 24</string>
+    <string name="time_set">Chỉnh sửa thời gian</string>
+    <string name="timeday">Thời gian hẹn giờ không được giống nhau</string>
+    <string name="timelow">Pin quá yếu, có thể ảnh hưởng đến việc sử dụng bình thường của APP</string>
+    <string name="timer">Bạn có chắc chắn muốn xóa bộ hẹn giờ này không?</string>
+    <string name="timingquery">Truy vấn định thời gian</string>
+    <string name="tip_istribution_network">Lưu ý: Sau khi đặt lại thiết bị, vui lòng hoàn tất cấu hình mạng trong vòng ba phút</string>
+    <string name="tips">Mẹo</string>
+    <string name="title_settings_dialog">Yêu cầu quyền</string>
+    <string name="to_connect">để kết nối</string>
+    <string name="toast_scene_exist">Dịch vụ đã tồn tại</string>
+    <string name="token_error">Lỗi mã thông báo</string>
+    <string name="toolong">Thời gian ghi quá lâu</string>
+    <string name="tooshort">Thời gian ghi quá ngắn</string>
+    <string name="turn_on_the_camera">bật máy ảnh</string>
+    <string name="tv_chip_set">Thiết lập</string>
+    <string name="two">hai</string>
+    <string name="un_known_artist">Nghệ sĩ không xác định</string>
+    <string name="update">Sửa đổi</string>
+    <string name="update_password">Thay đổi mật khẩu</string>
+    <string name="update_password_success">Thay đổi mật khẩu thành công</string>
+    <string name="username_already_exists">Tên người dùng đã tồn tại</string>
+    <string name="valuetip">Vui lòng nhập giá trị lớn hơn 0!</string>
+    <string name="video">băng hình</string>
+    <string name="video_explain">giải thích video</string>
+    <string name="video_operation_tutorial">Hướng dẫn thao tác bằng video</string>
+    <string name="w">trắng</string>
+    <string name="wai_mai">Wai Mai</string>
+    <string name="want_to_cancle">Bỏ ngón tay để hủy gửi</string>
+    <string name="warm_light">màu ấm</string>
+    <string name="what_the_matter">Có vấn đề gì không?</string>
+    <string name="white_light">màu lạnh</string>
+    <string name="wifi_connect">Kết nối nhanh WiFi</string>
+    <string name="wifi_network">Hiện đang sử dụng mạng Wi-Fi 2,4GHz và nhập mật khẩu</string>
+    <string name="wifi_network_not_2_4">Nếu Wi-Fi của bạn là 5GHz, trước tiên hãy đặt nó thành 2,4GHz</string>
+    <string name="wifi_signal_is_good">Đảm bảo tín hiệu Wi-Fi tốt</string>
+    <string name="write">Chúng tôi cần quyền truy cập vào ảnh, nội dung phương tiện và tệp của bạn để hiển thị ảnh.</string>
+    <string name="wrong_old_password">Mật khẩu cũ không chính xác</string>
+    <string name="wrong_user_name_or_password">sai tên người dùng hoặc mật khẩu</string>
+</resources>

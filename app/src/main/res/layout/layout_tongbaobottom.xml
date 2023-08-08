@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/image_bottom_group" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/tb_bottom_images" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="图像"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/camera_group" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/tb_bottom_take_photo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="照相"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/phrase_group" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/tb_bottom_offen" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_words"/>
+    </LinearLayout>
+</LinearLayout>

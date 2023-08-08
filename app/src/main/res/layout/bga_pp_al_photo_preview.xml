@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/iv_photo_preview_download" android:paddingLeft="@dimen/bga_pp_size_level3" android:paddingRight="@dimen/bga_pp_size_level3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@mipmap/bga_pp_ic_download" android:layout_alignParentRight="true"/>
+    <TextView android:textColor="#ffff" android:gravity="center" android:paddingRight="@dimen/bga_pp_size_level3" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="保存" android:layout_alignParentRight="true"/>
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/tv_photo_preview_title" android:paddingRight="@dimen/bga_pp_size_level1" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/bga_pp_view_photo" android:maxEms="7" android:singleLine="true" style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+</RelativeLayout>

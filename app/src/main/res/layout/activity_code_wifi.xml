@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@color/blue" android:layout_width="match_parent" android:layout_height="@dimen/dp_50">
+        <ImageView android:id="@+id/backwifi" android:layout_width="@dimen/dp_45" android:layout_height="@dimen/dp_45" android:src="@drawable/back_nomal" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/dp_24" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Code" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@+id/tvQuerywifi" android:background="@drawable/color_block_bright_red" android:layout_width="80dp" android:layout_height="40dp" android:text="@string/query" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="16sp" android:textColor="@color/black" android:id="@+id/tvcodewifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_30" android:text="@string/light_code"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <Button android:gravity="center" android:id="@+id/btn_pix_set_wifi" android:background="#00ff00" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/set_pix_number" android:layout_weight="1"/>
+            <Button android:textColor="#ffffff" android:gravity="center" android:id="@+id/tv_pix_num_wifi" android:background="#000000" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/btn_pix_number" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <Button android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@+id/button_chipselect_wifi" android:background="@drawable/bottom_border" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ok"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

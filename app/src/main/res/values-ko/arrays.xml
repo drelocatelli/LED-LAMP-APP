@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ble_mode">
+        <item>3 색 점프, 135</item>
+        <item>7 색 점프, 136</item>
+        <item>3 색 그라디언트, 137</item>
+        <item>7 색 그라디언트, 138</item>
+        <item>빨간 그라디언트, 139</item>
+        <item>녹색 그라디언트, 140</item>
+        <item>파랑 그라디언트, 141</item>
+        <item>노란색 그라디언트, 142</item>
+        <item>시안 그라디언트, 143</item>
+        <item>자주색 그라디언트, 144</item>
+        <item>흰색 그라디언트, 145</item>
+        <item>빨강 및 녹색 그라디언트, 146</item>
+        <item>빨강 및 파랑 그라디언트, 147</item>
+        <item>녹색 및 파란색 그라디언트, 148</item>
+        <item>7 색 스트로브, 149</item>
+        <item>빨간색 스트로브, 150</item>
+        <item>녹색 스트로브, 151</item>
+        <item>파란색 스트로브, 152</item>
+        <item>노란색 스트로브, 153</item>
+        <item>시안 색 스트로브, 154</item>
+        <item>보라색 스트로브, 155</item>
+        <item>흰색 스트로브, 156</item>
+        <item>정적 빨강, 128</item>
+        <item>정적 파란색, 129</item>
+        <item>정적 녹색, 130</item>
+        <item>정적 청록색, 131</item>
+        <item>노란색, 132</item>
+        <item>정적 보라색, 133</item>
+        <item>정적 흰색, 134</item>
+    </array>
+    <array name="chip_model">
+        <item>UCS512C,2</item>
+        <item>UCS512A,1</item>
+    </array>
+    <array name="ct_mode">
+        <item>暖 0% 冷 100%,128</item>
+        <item>暖 10% 冷 90%,129</item>
+        <item>暖 20% 冷 80%,130</item>
+        <item>暖 30% 冷 70%,131</item>
+        <item>暖 40% 冷 60%,132</item>
+        <item>暖 50% 冷 50%,133</item>
+        <item>暖 60% 冷 40%,134</item>
+        <item>暖 70% 冷 30%,135</item>
+        <item>暖 80% 冷 20%,136</item>
+        <item>暖 90% 冷 10%,137</item>
+        <item>暖 100% 冷 0%,138</item>
+    </array>
+    <array name="custom_model">
+        <item>1:기울기,0</item>
+        <item>2:후행,1</item>
+        <item>3:흐르는 물,2</item>
+        <item>4:빛을 따라라.,3</item>
+        <item>5:누적 된,4</item>
+        <item>6:흰색 x 흰색 흐름,5</item>
+        <item>7:단일 포인트 말,6</item>
+        <item>8:더 많은 경마,7</item>
+        <item>9:당기기 / 닫기,8</item>
+        <item>10:단색 그라데이션,9</item>
+        <item>11:단일 램프 점프,10</item>
+        <item>12:단일 램프 스트로브,11</item>
+    </array>
+    <array name="dm_mode">
+        <item>0%,128</item>
+        <item>10%,129</item>
+        <item>20%,130</item>
+        <item>30%,131</item>
+        <item>40%,132</item>
+        <item>50%,133</item>
+        <item>60%,134</item>
+        <item>70%,135</item>
+        <item>80%,136</item>
+        <item>90%,137</item>
+        <item>100%,138</item>
+    </array>
+    <array name="dmx_model">
+        <item>자동 루프, 255</item>
+        <item>1 : 긍정적 착시, 1</item>
+        <item>2 : 환상 반전, 2</item>
+        <item>3 : 전방 7 색 명암 전이, 3</item>
+        <item>4 : 7 색 명암 반전, 4</item>
+        <item>5 : 적색 녹색 및 청색 전환, 5</item>
+        <item>6 : 적색 녹색, 청색의 명암 천이를 역전시킵니다,6</item>
+        <item>7 : 노란색 - 파랑 - 보라색 양극 천이, 7</item>
+        <item>8 : 황색 - 파랑 - 보라색 전환을 역전시킵니다,8</item>
+        <item>9 : 6 색 전이 적색, 9</item>
+        <item>10 : 역방향 6 색 전환 빨간색, 10</item>
+        <item>11 : 전진 6 색 녹색, 11</item>
+        <item>12 : 역방향 6 색 전환 녹색, 12</item>
+        <item>13 : 전방 6 색 전이 파랑, 13</item>
+        <item>14 : 6 색 전이 파란 반전, 14</item>
+        <item>15 : 전방 6 색 천이 시안 색, 15</item>
+        <item>16 : 역방향 6 색 천이 시안, 16</item>
+        <item>17 : 황색 6 색 전진, 17</item>
+        <item>18 : 6 색 전환 황색 반전, 18</item>
+        <item>19 : Forward 6 색 전환 보라색, 19</item>
+        <item>20 : 역방향 6 색 전환 보라색, 20</item>
+        <item>21 : 전이 6 색 흰색 ,21</item>
+        <item>22 : 역방향 6 색 전환 흰색, 22</item>
+        <item>23 : 앞으로가는 다채로운 꼬리, 23</item>
+        <item>24 : 꼬리표 뒤를 반대로, 24</item>
+        <item>25 : 빨간색 후행, 25</item>
+        <item>26 : 후미 빨간색 후행, 26</item>
+        <item>27 : 녹색 후행, 27</item>
+        <item>28 : 녹색 후행, 28</item>
+        <item>29 : 푸른 꼬리 앞으로, 29</item>
+        <item>30 : 후행 파란색 후행, 30</item>
+        <item>31 : 앞으로가는 노란색 후행, 31</item>
+        <item>32 : 뒤쪽 노란색 후행, 32</item>
+        <item>33 : 양의 시안 색 꼬리, 33</item>
+        <item>34 : 역 시안 꼬리, 34</item>
+        <item>35 : 긍정적 인 자색 후행, 35</item>
+        <item>36 : 어쨌든 자주색 후행, 36</item>
+        <item>37 : 흰색 후행, 37</item>
+        <item>38 : 역행하는 흰색, 38</item>
+        <item>39 : 긍정적 인 다채로운 물, 39</item>
+        <item>40 : 역동적 인 물, 40</item>
+        <item>41 : 적색 녹색 및 청색 양수, 41</item>
+        <item>42 : 붉은 색 녹색 및 푸른 색 물, 42</item>
+        <item>43 : 옐로우 - 파랑 양수, 43</item>
+        <item>44 : 노란색과 푸른 물을 뒤집는다, 44</item>
+        <item>45 : 적색과 녹색의 양수, 45</item>
+        <item>46 : 붉은 색과 녹색 물을 뒤집는다, 46</item>
+        <item>47 : 녹색과 푸른 색 물, 47</item>
+        <item>48 : 푸른 물과 푸른 물을 뒤집습니다, 48</item>
+        <item>49 : 노란색과 푸른 물이 긍정적 인, 49</item>
+        <item>50 : 노란색과 파란색 물을 역전시킵니다., 50</item>
+        <item>51 : 양수 황색 물, 51</item>
+        <item>52 : 노란색과 푸른 물을 뒤집는다, 52</item>
+        <item>53 : 맑은 푸른 물, 53</item>
+        <item>54 : 역청 청수, 54</item>
+        <item>55 : 흑백, 55</item>
+        <item>56 : 검은 색과 흰색의 물을 역방향으로 번,56</item>
+        <item>57 : 다채로운 화면, 57</item>
+        <item>58 : 색상 마감, 58</item>
+        <item>59 : 빨강 초록 및 파랑 화면, 59</item>
+        <item>60 : 빨강 초록 및 파랑 마감, 60</item>
+        <item>61 : 황 청계 커튼, 61</item>
+        <item>62 :황 시안 폐쇄, 62</item>
+        <item>63 : 다채로운 체이스 앞으로, 63</item>
+        <item>64 : 역동적 인 추적, 64</item>
+        <item>65 : 빨강 초록 파랑 ​​앞으로, 65</item>
+        <item>66 : 빨강 녹색 및 파랑 쫓는 빛의 역전, 66</item>
+        <item>67 : 옐로우와 퍼플 쫓는 긍정적 인 빛, 67</item>
+        <item>68 : 옐로우 블루와 바이어스를 뒤집는 빛을 반전시킵니다, 68</item>
+        <item>69 : 컬러 풀 한, 69</item>
+        <item>70 : 거꾸로 화려한 흔들기, 70</item>
+        <item>71 : 빨강 초록 파랑 ​​앞으로, 71</item>
+        <item>72 : 빨간색 녹색 파란색으로 뒤 틀림, 72</item>
+        <item>73 : 긍정적 인 노란색과 파란색 팔딱, 73</item>
+        <item>74 : 옐로우 블루와 퍼플, 74</item>
+        <item>75 : 7 색 점프, 75</item>
+        <item>76 : 빨강 초록 파랑 ​​점프, 76</item>
+        <item>77 : 옐로우 블루 퍼플 점프, 77</item>
+        <item>78 : 7 색 스트로브, 78</item>
+        <item>79 : 적색 녹색 파란색 스트로브, 79</item>
+        <item>80 : 노란색과 파란색 스트로브, 80</item>
+        <item>81 : 7 색 그라데이션, 81</item>
+        <item>82 : 빨간색과 노란색 그라디언트, 82</item>
+        <item>83 : 붉은 색과 보라색 그라디언트, 83</item>
+        <item>84 : 녹색 녹색 그라데이션, 84</item>
+        <item>85 : 녹색과 노란색 그라디언트, 85</item>
+        <item>86 : 블루 바이올렛 그라디언트, 86</item>
+        <item>87 : 적색 마감, 87</item>
+        <item>88 : 녹색 마감, 88</item>
+        <item>89 : 파란색 마감, 89</item>
+        <item>90 : 노란색 마감, 90</item>
+        <item>91 : 청록색 마감, 91</item>
+        <item>92 : 보라색 닫기, 92</item>
+        <item>93 : 화이트 마감, 93</item>
+        <item>94 : 빨간색 화면, 94</item>
+        <item>95 : 녹색 화면, 95</item>
+        <item>96 : 블루 스크린, 96</item>
+        <item>97 : 노란색 화면, 97</item>
+        <item>98 : 시안 화면, 98</item>
+        <item>99 : 자주색 커튼, 99</item>
+        <item>100 : 흰색 화면, 100</item>
+        <item>101 : 빨간 말, 101</item>
+        <item>102 : 녹색 말, 102</item>
+        <item>103 : 푸른 말, 103</item>
+        <item>104 : 황색 말, 104</item>
+        <item>105 : 시안 경마, 105</item>
+        <item>106 : 보라색 말 경주, 106</item>
+        <item>107 : 흰 말, 107</item>
+        <item>108 : 빨강 앞으로, 108</item>
+        <item>109 : 역행 적색, 109</item>
+        <item>110 : 녹색 실행, 110</item>
+        <item>111 : 녹색으로 돌아 가기, 111</item>
+        <item>112 : 파란색 순방향 실행, 112</item>
+        <item>113 : 파란색으로 돌아 가기, 113</item>
+        <item>114 : 앞으로 노란색, 114</item>
+        <item>115 : 황색 반전, 115</item>
+        <item>116 : 앞으로 시안, 116</item>
+        <item>117 : 시안 색 반전, 117</item>
+        <item>118 : 보라색으로 달리다, 118</item>
+        <item>119 : 역방향 자주색 실행, 119</item>
+        <item>120 : 순 흰색 실행, 120</item>
+        <item>121 : 역행 흰색, 121</item>
+        <item>122 : 7 가지 색상으로 실행, 122</item>
+        <item>123 : 7 색 달리기, 123</item>
+        <item>124 : 빨강 초록 파랑 ​​앞으로, 124</item>
+        <item>125 : 빨간색 녹색 및 파란색의 역방향 실행, 125</item>
+        <item>126 : 노란색과 보라색으로 달리며, 126</item>
+        <item>127 : 노란색과 파란색으로 역방향 실행, 127</item>
+        <item>128 : 파란색 노란색 보라색 앞으로 진행, 128</item>
+        <item>129 : 녹색 파란색 노란색, 129</item>
+        <item>130 : 파란색과 노란색의 역방향 실행, 130</item>
+        <item>131 : 흰색으로 빨간 점을 앞으로, 131</item>
+        <item>132 : 역행 흰색 빨간색 점 실행, 132</item>
+        <item>133 : 빨간색 점 녹색 점으로 이동, 133</item>
+        <item>134 : 역방향 빨간색 점 녹색 점, 134</item>
+        <item>135 : 푸른 색 푸른 점, 135</item>
+        <item>136 : 푸른 색 점을 역방향으로 역방향으로 진행, 136</item>
+        <item>137 : 앞으로 파란색 점 노란색 점 실행, 137</item>
+        <item>138 : 역전 파란색 배경 노란색 점 실행, 138</item>
+        <item>139 : 노란색 바닥으로 앞으로, 139</item>
+        <item>140 : 황색 바닥을 뒤집음, 140</item>
+        <item>141 : 보라색 점의 아래쪽으로 앞으로, 141</item>
+        <item>142 : 파란색으로 자색 반전, 142</item>
+        <item>143 : 보라색 점 순 흰색 점 실행, 143</item>
+        <item>144 : 역 자주포 흰색 실행, 144</item>
+        <item>145 : 빨간 점 백색 점, 145</item>
+        <item>146 : 역점 적색 점 흰색 점 실행, 146</item>
+        <item>147 : 빨간색 바탕에 7 가지 색상으로 실행, 147</item>
+        <item>148 : 역방향 빨강 7 색 실행, 148</item>
+        <item>149 : 녹색 7 색 앞으로, 149</item>
+        <item>150 : 역행하는 녹색 7 색 달리기, 150</item>
+        <item>151 : 파란색 배경 앞으로, 151</item>
+        <item>152 : 역방향 파란색 7 색 실행, 152</item>
+        <item>153 : 노란색 배경에 7 가지 색상으로 실행, 153</item>
+        <item>154 : 노란색 옐로우 하단 7 색 실행, 154</item>
+        <item>155 : 7 가지 색의 맨 아래로 달리기 ,155</item>
+        <item>156 : 역방향 녹색 7 색 실행, 156</item>
+        <item>157 : 자주색 의 바닥으로 앞으로,157</item>
+        <item>158 : 역 자주색 하단 7 색 실행, 158</item>
+        <item>159 : 흰색 바탕에 7 가지 색상으로 실행, 159</item>
+        <item>160 : 역방향 흰색 7 색 실행, 160</item>
+        <item>161 : 긍정적 인 흰색 빨간색과 흰색 흐름, 161</item>
+        <item>162 : 붉은 색과 흰색의 역방향 흐름, 162</item>
+        <item>163 : 긍정적 인 흰색 녹색 및 흰색 흐름, 163</item>
+        <item>164 : 흰색의 녹색과 흰색의 역 흐름, 164</item>
+        <item>165 : 긍정적 인 흰색 파란색 및 흰색 흐름, 165</item>
+        <item>166 : 역방향의 흰색 파란색 및 흰색 흐름, 166</item>
+        <item>167 : 긍정적 인 흰색 노란색 및 흰색 흐름, 167</item>
+        <item>168 : 흰색 노란색과 흰색의 역 흐름, 168</item>
+        <item>169 : 긍정적 인 흰색 파란색과 흰색 흐름, 169</item>
+        <item>170 : 역전 된 흰색 파란색과 흰색 흐름, 170</item>
+        <item>171 : 긍정적 인 흰색 자주색 및 흰색 흐름, 171</item>
+        <item>172 : 역 흰색 자주색 흰색 흐름, 172</item>
+        <item>173 : 빨강 흰색 빨강 앞으로, 173</item>
+        <item>174 : 빨강 흰색 및 적색 흐름을 역전시킵니다, 174</item>
+        <item>175 : 녹색 녹색 및 녹색 앞으로, 175</item>
+        <item>176 : 녹색 흰색 녹색 흐름 역전, 176</item>
+        <item>177 : 파란색 흰색 및 파란색 앞으로, 177</item>
+        <item>178 : 파란색 흰색 및 파란색의 역방향 흐름, 178</item>
+        <item>179 : 노란색 노란색 노란색 순방향 흐름, 179</item>
+        <item>180 : 노란색 흰색 및 노란색 흐름을 뒤집습니다, 180</item>
+        <item>181 : 긍정적 인 녹색 흰색 흐름, 181</item>
+        <item>182 : 역방향 청록색 흐름, 182</item>
+        <item>183 : 긍정적 인 보라색 흰색 자주색 흐름, 183</item>
+        <item>184 : 역 자주색 및 흰색 보라색 흐름, 184</item>
+        <item>185 : 파란색 녹색 점 앞으로, 185</item>
+        <item>186 : 파란색 바탕에 녹색 점 줄이기, 186</item>
+        <item>187 : 빨강 점 녹색 점, 187</item>
+        <item>188 : 붉은 색 점 녹색 점 말 점,188</item>
+        <item>189 : 빨간색 점 적색 말, 189</item>
+        <item>190 : 푸른 색 빨간색 점 말, 190</item>
+        <item>191 : 노란색 바닥으로 앞으로, 191</item>
+        <item>192 : 옐로우 하단의 녹색 말, 192</item>
+        <item>193 : 보라색 점 노란색 포인트 경주, 193</item>
+        <item>194 : 역 자주색 노란색 점 경주, 194</item>
+        <item>195 : 노란색과 흰색 점으로 전달, 195</item>
+        <item>196 : 역 백백색 흰 ​​말, 196</item>
+        <item>197 : 전방 백색 점 번 ,197</item>
+        <item>198 : 역 백점 노란 점 경마, 198</item>
+        <item>199 : 긍정적 인 7 가지 색상, 199</item>
+        <item>200 : 7 색 브러쉬, 200</item>
+        <item>201 : 적색 녹색 청색 브러시, 201</item>
+        <item>202 : 빨강 초록 및 파랑 브러시 색상을 뒤집습니다, 202</item>
+        <item>203 : 노란색 및 파란색 브러시 색상이 긍정적입니다, 203</item>
+        <item>204 : 옐로우 시안 색 브러시 색상을 뒤집습니다, 204</item>
+        <item>205 : 7 색 브러시 컬러 스크린, 205</item>
+        <item>206 : 7 색 브러쉬 색상 마감, 206</item>
+        <item>207 : 빨강 초록 파랑 ​​닦은 화면, 207</item>
+        <item>208 : 빨강 녹색 및 파랑 색 브러쉬 마감, 208</item>
+        <item>209 : 옐로우와 블루 브러시 컬러 스크린, 209</item>
+        <item>210 : 노란색과 보라색 브러시 마감, 210</item>
+    </array>
+    <array name="light_banner">
+        <item>LPD6803,1</item>
+        <item>TM1803,2</item>
+        <item>UCS1903,3</item>
+        <item>WS2811,4</item>
+        <item>TM1812,5</item>
+        <item>TM1809,6</item>
+        <item>WS2801,7</item>
+        <item>TLS3001,8</item>
+        <item>TLS3008,9</item>
+        <item>P9813,10</item>
+        <item>UCS8806,11</item>
+        <item>TM1829,12</item>
+        <item>TM1909,13</item>
+    </array>
+    <array name="light_mode">
+        <item>빛을 끄십시오.</item>
+        <item>정적 빨강</item>
+        <item>정적 파란색</item>
+        <item>정적 녹색</item>
+        <item>정적 청록색</item>
+        <item>노란색</item>
+        <item>정적 보라색</item>
+        <item>정적 흰색</item>
+        <item>3 색 점프</item>
+        <item>7 색 점프</item>
+        <item>3 색 그라디언트</item>
+        <item>7 색 그라디언트</item>
+        <item>빨간 그라디언트</item>
+        <item>녹색 그라디언트</item>
+        <item>파랑 그라디언트</item>
+        <item>노란색 그라디언트</item>
+        <item>시안 그라디언트</item>
+        <item>자주색 그라디언트</item>
+        <item>흰색 그라디언트</item>
+        <item>빨강 및 녹색 그라디언트</item>
+        <item>빨강 및 파랑 그라디언트</item>
+        <item>녹색 및 파란색 그라디언트</item>
+        <item>7 색 스트로브</item>
+        <item>빨간색 스트로브</item>
+        <item>녹색 스트로브</item>
+        <item>파란색 스트로브</item>
+        <item>노란색 스트로브</item>
+        <item>시안 색 스트로브</item>
+        <item>보라색 스트로브</item>
+        <item>흰색 스트로브</item>
+        <item>MODE30</item>
+        <item>MODE31</item>
+        <item>MODE32</item>
+        <item>MODE33</item>
+        <item>MODE34</item>
+        <item>MODE35</item>
+        <item>MODE36</item>
+        <item>MODE37</item>
+        <item>MODE38</item>
+        <item>MODE39</item>
+        <item>MODE40</item>
+        <item>MODE41</item>
+        <item>MODE42</item>
+        <item>MODE43</item>
+        <item>MODE44</item>
+        <item>MODE45</item>
+        <item>MODE46</item>
+        <item>MODE47</item>
+        <item>MODE48</item>
+        <item>MODE49</item>
+        <item>MODE50</item>
+        <item>MODE51</item>
+        <item>MODE52</item>
+        <item>MODE53</item>
+        <item>MODE54</item>
+        <item>MODE55</item>
+        <item>MODE56</item>
+        <item>MODE57</item>
+        <item>MODE58</item>
+        <item>MODE59</item>
+        <item>MODE60</item>
+        <item>MODE61</item>
+        <item>MODE62</item>
+        <item>MODE63</item>
+        <item>MODE64</item>
+        <item>MODE65</item>
+        <item>MODE66</item>
+        <item>MODE67</item>
+        <item>MODE68</item>
+        <item>MODE69</item>
+        <item>MODE70</item>
+        <item>MODE71</item>
+        <item>MODE72</item>
+        <item>MODE73</item>
+        <item>MODE74</item>
+        <item>MODE75</item>
+        <item>MODE76</item>
+        <item>MODE77</item>
+        <item>MODE78</item>
+        <item>MODE79</item>
+        <item>MODE80</item>
+        <item>MODE81</item>
+        <item>MODE82</item>
+        <item>MODE83</item>
+        <item>MODE84</item>
+        <item>MODE85</item>
+        <item>MODE86</item>
+        <item>MODE87</item>
+        <item>MODE88</item>
+        <item>MODE89</item>
+        <item>MODE90</item>
+        <item>MODE91</item>
+        <item>MODE92</item>
+        <item>MODE93</item>
+        <item>MODE94</item>
+        <item>MODE95</item>
+        <item>MODE96</item>
+        <item>MODE97</item>
+        <item>MODE98</item>
+        <item>MODE99</item>
+        <item>MODE100</item>
+        <item>MODE101</item>
+        <item>MODE102</item>
+        <item>MODE103</item>
+        <item>MODE104</item>
+        <item>MODE105</item>
+        <item>MODE106</item>
+        <item>MODE107</item>
+        <item>MODE108</item>
+        <item>MODE109</item>
+        <item>MODE110</item>
+        <item>MODE111</item>
+        <item>MODE112</item>
+        <item>MODE113</item>
+        <item>MODE114</item>
+        <item>MODE115</item>
+        <item>MODE116</item>
+        <item>MODE117</item>
+        <item>MODE118</item>
+        <item>MODE119</item>
+        <item>MODE120</item>
+        <item>MODE121</item>
+        <item>MODE122</item>
+        <item>MODE123</item>
+        <item>MODE124</item>
+        <item>MODE125</item>
+        <item>MODE126</item>
+        <item>MODE127</item>
+        <item>MODE128</item>
+        <item>MODE129</item>
+        <item>MODE130</item>
+        <item>MODE131</item>
+        <item>MODE132</item>
+        <item>MODE133</item>
+        <item>MODE134</item>
+        <item>MODE135</item>
+        <item>MODE136</item>
+        <item>MODE137</item>
+        <item>MODE138</item>
+        <item>MODE139</item>
+        <item>MODE140</item>
+        <item>MODE141</item>
+        <item>MODE142</item>
+        <item>MODE143</item>
+        <item>MODE144</item>
+        <item>MODE145</item>
+        <item>MODE146</item>
+        <item>MODE147</item>
+        <item>MODE148</item>
+        <item>MODE149</item>
+        <item>MODE150</item>
+        <item>MODE151</item>
+        <item>MODE152</item>
+        <item>MODE153</item>
+        <item>MODE154</item>
+        <item>MODE155</item>
+        <item>MODE156</item>
+        <item>MODE157</item>
+        <item>MODE158</item>
+        <item>MODE159</item>
+        <item>MODE160</item>
+        <item>MODE161</item>
+        <item>MODE162</item>
+        <item>MODE163</item>
+        <item>MODE164</item>
+        <item>MODE165</item>
+        <item>MODE166</item>
+        <item>MODE167</item>
+        <item>MODE168</item>
+        <item>MODE169</item>
+        <item>MODE170</item>
+        <item>MODE171</item>
+        <item>MODE172</item>
+        <item>MODE173</item>
+        <item>MODE174</item>
+        <item>MODE175</item>
+        <item>MODE176</item>
+        <item>MODE177</item>
+        <item>MODE178</item>
+        <item>MODE179</item>
+        <item>MODE180</item>
+        <item>MODE181</item>
+        <item>MODE182</item>
+        <item>MODE183</item>
+        <item>MODE184</item>
+        <item>MODE185</item>
+        <item>MODE186</item>
+        <item>MODE187</item>
+        <item>MODE188</item>
+        <item>MODE189</item>
+        <item>MODE190</item>
+        <item>MODE191</item>
+        <item>MODE192</item>
+        <item>MODE193</item>
+        <item>MODE194</item>
+        <item>MODE195</item>
+        <item>MODE196</item>
+        <item>MODE197</item>
+        <item>MODE198</item>
+        <item>MODE199</item>
+        <item>MODE200</item>
+        <item>MODE201</item>
+        <item>MODE202</item>
+        <item>MODE203</item>
+        <item>MODE204</item>
+        <item>MODE205</item>
+        <item>MODE206</item>
+        <item>MODE207</item>
+        <item>MODE208</item>
+        <item>MODE209</item>
+        <item>MODE210</item>
+        <item>MODE211</item>
+    </array>
+    <array name="modelble">
+        <item>빛을 끄십시오.</item>
+        <item>불을 켜</item>
+        <item>정적 빨강</item>
+        <item>정적 파란색</item>
+        <item>정적 녹색</item>
+        <item>정적 청록색</item>
+        <item>노란색</item>
+        <item>정적 보라색</item>
+        <item>정적 흰색</item>
+        <item>3 색 점프</item>
+        <item>7 색 점프</item>
+        <item>3 색 그라디언트</item>
+        <item>7 색 그라디언트</item>
+        <item>시원한 흰색</item>
+        <item>따뜻한 흰색</item>
+        <item>단색</item>
+    </array>
+    <array name="modelsun">
+        <item>조명 끄기</item>
+        <item>조명 켜기</item>
+        <item>멋진 색상</item>
+        <item>따뜻한 색</item>
+        <item>자연색</item>
+        <item>흰색 웜 점프 변화</item>
+        <item>흰색 그라디언트</item>
+        <item>따뜻한 색상 그라데이션</item>
+        <item>자연색 그라데이션</item>
+        <item>흰색 따뜻한 그라데이션</item>
+        <item>흰색 따뜻한 스트로브</item>
+        <item>화이트 스트로브</item>
+        <item>따뜻한 컬러 스트로브</item>
+        <item>내추럴 컬러 스트로브</item>
+    </array>
+    <array name="rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+        <item>RGBW,7</item>
+        <item>RBGW,8</item>
+        <item>GRBW,9</item>
+        <item>GBRW,10</item>
+        <item>BRGW,11</item>
+        <item>BGRW,12</item>
+    </array>
+    <array name="timer_model_dmx">
+        <item>빛을 끄십시오.</item>
+        <item>불을 켜</item>
+        <item>자동 루프</item>
+        <item>1 : 긍정적 착시</item>
+        <item>2 : 환상 반전</item>
+        <item>3 : 전방 7 색 명암 전이</item>
+        <item>4 : 7 색 명암 반전</item>
+        <item>5 : 적색 녹색 및 청색 전환</item>
+        <item>6 : 적색 녹색, 청색의 명암 천이를 역전시킵니다</item>
+        <item>7 : 노란색 - 파랑 - 보라색 양극 천이</item>
+        <item>8 : 황색 - 파랑 - 보라색 전환을 역전시킵니다</item>
+        <item>9 : 6 색 전이 적색</item>
+        <item>10 : 역방향 6 색 전환 빨간색</item>
+        <item>11 : 전진 6 색 녹색</item>
+        <item>12 : 역방향 6 색 전환 녹색</item>
+        <item>13 : 전방 6 색 전이 파랑</item>
+        <item>14 : 6 색 전이 파란 반전</item>
+        <item>15 : 전방 6 색 천이 시안 색</item>
+        <item>16 : 역방향 6 색 천이 시안</item>
+        <item>17 : 황색 6 색 전진</item>
+        <item>18 : 6 색 전환 황색 반전</item>
+        <item>19 : Forward 6 색 전환 보라색</item>
+        <item>20 : 역방향 6 색 전환 보라색</item>
+        <item>21 : 전이 6 색 흰색</item>
+        <item>22 : 역방향 6 색 전환 흰색</item>
+        <item>23 : 앞으로가는 다채로운 꼬리</item>
+        <item>24 : 꼬리표 뒤를 반대로</item>
+        <item>25 : 빨간색 후행</item>
+        <item>26 : 후미 빨간색 후행</item>
+        <item>27 : 녹색 후행</item>
+        <item>28 : 녹색 후행</item>
+        <item>29 : 푸른 꼬리 앞으로</item>
+        <item>30 : 후행 파란색 후행</item>
+        <item>31 : 앞으로가는 노란색 후행</item>
+        <item>32 : 뒤쪽 노란색 후행</item>
+        <item>33 : 양의 시안 색 꼬리</item>
+        <item>34 : 역 시안 꼬리</item>
+        <item>35 : 긍정적 인 자색 후행</item>
+        <item>36 : 어쨌든 자주색 후행</item>
+        <item>37 : 흰색 후행</item>
+        <item>38 : 역행하는 흰색</item>
+        <item>39 : 긍정적 인 다채로운 물</item>
+        <item>40 : 역동적 인 물</item>
+        <item>41 : 적색 녹색 및 청색 양수</item>
+        <item>42 : 붉은 색 녹색 및 푸른 색 물</item>
+        <item>43 : 옐로우 - 파랑 양수</item>
+        <item>44 : 노란색과 푸른 물을 뒤집는다</item>
+        <item>45 : 적색과 녹색의 양수</item>
+        <item>46 : 붉은 색과 녹색 물을 뒤집는다</item>
+        <item>47 : 녹색과 푸른 색 물</item>
+        <item>48 : 푸른 물과 푸른 물을 뒤집습니다</item>
+        <item>49 : 노란색과 푸른 물이 긍정적 인</item>
+        <item>50 : 노란색과 파란색 물을 역전시킵니다</item>
+        <item>51 : 양수 황색 물</item>
+        <item>52 : 노란색과 푸른 물을 뒤집는다</item>
+        <item>53 : 맑은 푸른 물</item>
+        <item>54 : 역청 청수</item>
+        <item>55 : 흑백</item>
+        <item>56 : 검은 색과 흰색의 물을 역방향으로 번</item>
+        <item>57 : 다채로운 화면</item>
+        <item>58 : 색상 마감</item>
+        <item>59 : 빨강 초록 및 파랑 화면</item>
+        <item>60 : 빨강 초록 및 파랑 마감</item>
+        <item>61 : 황 청계 커튼</item>
+        <item>62 :황 시안 폐쇄</item>
+        <item>63 : 다채로운 체이스 앞으로</item>
+        <item>64 : 역동적 인 추적</item>
+        <item>65 : 빨강 초록 파랑 ​​앞으로</item>
+        <item>66 : 빨강 녹색 및 파랑 쫓는 빛의 역전</item>
+        <item>67 : 옐로우와 퍼플 쫓는 긍정적 인 빛</item>
+        <item>68 : 옐로우 블루와 바이어스를 뒤집는 빛을 반전시킵니다</item>
+        <item>69 : 컬러 풀 한</item>
+        <item>70 : 거꾸로 화려한 흔들기</item>
+        <item>71 : 빨강 초록 파랑 ​​앞으로</item>
+        <item>72 : 빨간색 녹색 파란색으로 뒤 틀림</item>
+        <item>73 : 긍정적 인 노란색과 파란색 팔딱</item>
+        <item>74 : 옐로우 블루와 퍼플</item>
+        <item>75 : 7 색 점프</item>
+        <item>76 : 빨강 초록 파랑 ​​점프</item>
+        <item>77 : 옐로우 블루 퍼플 점프</item>
+        <item>78 : 7 색 스트로브</item>
+        <item>79 : 적색 녹색 파란색 스트로브</item>
+        <item>80 : 노란색과 파란색 스트로브</item>
+        <item>81 : 7 색 그라데이션</item>
+        <item>82 : 빨간색과 노란색 그라디언트</item>
+        <item>83 : 붉은 색과 보라색 그라디언트</item>
+        <item>84 : 녹색 녹색 그라데이션</item>
+        <item>85 : 녹색과 노란색 그라디언트</item>
+        <item>86 : 블루 바이올렛 그라디언트</item>
+        <item>87 : 적색 마감</item>
+        <item>88 : 녹색 마감</item>
+        <item>89 : 파란색 마감</item>
+        <item>90 : 노란색 마감</item>
+        <item>91 : 청록색 마감</item>
+        <item>92 : 보라색 닫기</item>
+        <item>93 : 화이트 마감</item>
+        <item>94 : 빨간색 화면</item>
+        <item>95 : 녹색 화면</item>
+        <item>96 : 블루 스크린</item>
+        <item>97 : 노란색 화면</item>
+        <item>98 : 시안 화면</item>
+        <item>99 : 자주색 커튼</item>
+        <item>100 : 흰색 화면</item>
+        <item>101 : 빨간 말</item>
+        <item>102 : 녹색 말</item>
+        <item>103 : 푸른 말</item>
+        <item>104 : 황색 말</item>
+        <item>105 : 시안 경마</item>
+        <item>106 : 보라색 말 경주</item>
+        <item>107 : 흰 말</item>
+        <item>108 : 빨강 앞으로</item>
+        <item>109 : 역행 적색</item>
+        <item>110 : 녹색 실행</item>
+        <item>111 : 녹색으로 돌아 가기</item>
+        <item>112 : 파란색 순방향 실행</item>
+        <item>113 : 파란색으로 돌아 가기</item>
+        <item>114 : 앞으로 노란색</item>
+        <item>115 : 황색 반전</item>
+        <item>116 : 앞으로 시안</item>
+        <item>117 : 시안 색 반전</item>
+        <item>118 : 보라색으로 달리다</item>
+        <item>119 : 역방향 자주색 실행</item>
+        <item>120 : 순 흰색 실행</item>
+        <item>121 : 역행 흰색</item>
+        <item>122 : 7 가지 색상으로 실행</item>
+        <item>123 : 7 색 달리기</item>
+        <item>124 : 빨강 초록 파랑 ​​앞으로</item>
+        <item>125 : 빨간색 녹색 및 파란색의 역방향 실행</item>
+        <item>126 : 노란색과 보라색으로 달리며</item>
+        <item>127 : 노란색과 파란색으로 역방향 실행</item>
+        <item>128 : 파란색 노란색 보라색 앞으로 진행</item>
+        <item>129 : 녹색 파란색 노란색</item>
+        <item>130 : 파란색과 노란색의 역방향 실행</item>
+        <item>131 : 흰색으로 빨간 점을 앞으로</item>
+        <item>132 : 역행 흰색 빨간색 점 실행</item>
+        <item>133 : 빨간색 점 녹색 점으로 이동</item>
+        <item>134 : 역방향 빨간색 점 녹색 점</item>
+        <item>135 : 푸른 색 푸른 점</item>
+        <item>136 : 푸른 색 점을 역방향으로 역방향으로 진행</item>
+        <item>137 : 앞으로 파란색 점 노란색 점 실행</item>
+        <item>138 : 역전 파란색 배경 노란색 점 실행</item>
+        <item>139 : 노란색 바닥으로 앞으로</item>
+        <item>140 : 황색 바닥을 뒤집음</item>
+        <item>141 : 보라색 점의 아래쪽으로 앞으로</item>
+        <item>142 : 파란색으로 자색 반전</item>
+        <item>143 : 보라색 점 순 흰색 점 실행</item>
+        <item>144 : 역 자주포 흰색 실행</item>
+        <item>145 : 빨간 점 백색 점</item>
+        <item>146 : 역점 적색 점 흰색 점 실행</item>
+        <item>147 : 빨간색 바탕에 7 가지 색상으로 실행</item>
+        <item>148 : 역방향 빨강 7 색 실행</item>
+        <item>149 : 녹색 7 색 앞으로</item>
+        <item>150 : 역행하는 녹색 7 색 달리기</item>
+        <item>151 : 파란색 배경 앞으로</item>
+        <item>152 : 역방향 파란색 7 색 실행</item>
+        <item>153 : 노란색 배경에 7 가지 색상으로 실행</item>
+        <item>154 : 노란색 옐로우 하단 7 색 실행</item>
+        <item>155 : 7 가지 색의 맨 아래로 달리기</item>
+        <item>156 : 역방향 녹색 7 색 실행</item>
+        <item>157 : 자주색 의 바닥으로 앞으로</item>
+        <item>158 : 역 자주색 하단 7 색 실행</item>
+        <item>159 : 흰색 바탕에 7 가지 색상으로 실행</item>
+        <item>160 : 역방향 흰색 7 색 실행</item>
+        <item>161 : 긍정적 인 흰색 빨간색과 흰색 흐름</item>
+        <item>162 : 붉은 색과 흰색의 역방향 흐름</item>
+        <item>163 : 긍정적 인 흰색 녹색 및 흰색 흐름</item>
+        <item>164 : 흰색의 녹색과 흰색의 역 흐름</item>
+        <item>165 : 긍정적 인 흰색 파란색 및 흰색 흐름</item>
+        <item>166 : 역방향의 흰색 파란색 및 흰색 흐름</item>
+        <item>167 : 긍정적 인 흰색 노란색 및 흰색 흐름</item>
+        <item>168 : 흰색 노란색과 흰색의 역 흐름</item>
+        <item>169 : 긍정적 인 흰색 파란색과 흰색 흐름</item>
+        <item>170 : 역전 된 흰색 파란색과 흰색 흐름</item>
+        <item>171 : 긍정적 인 흰색 자주색 및 흰색 흐름</item>
+        <item>172 : 역 흰색 자주색 흰색 흐름</item>
+        <item>173 : 빨강 흰색 빨강 앞으로</item>
+        <item>174 : 빨강 흰색 및 적색 흐름을 역전시킵니다</item>
+        <item>175 : 녹색 녹색 및 녹색 앞으로</item>
+        <item>176 : 녹색 흰색 녹색 흐름 역전</item>
+        <item>177 : 파란색 흰색 및 파란색 앞으로</item>
+        <item>178 : 파란색 흰색 및 파란색의 역방향 흐름</item>
+        <item>179 : 노란색 노란색 노란색 순방향 흐름</item>
+        <item>180 : 노란색 흰색 및 노란색 흐름을 뒤집습니다</item>
+        <item>181 : 긍정적 인 녹색 흰색 흐름</item>
+        <item>182 : 역방향 청록색 흐름</item>
+        <item>183 : 긍정적 인 보라색 흰색 자주색 흐름</item>
+        <item>184 : 역 자주색 및 흰색 보라색 흐름</item>
+        <item>185 : 파란색 녹색 점 앞으로</item>
+        <item>186 : 파란색 바탕에 녹색 점 줄이기</item>
+        <item>187 : 빨강 점 녹색 점</item>
+        <item>188 : 붉은 색 점 녹색 점 말 점</item>
+        <item>189 : 빨간색 점 적색 말</item>
+        <item>190 : 푸른 색 빨간색 점 말</item>
+        <item>191 : 노란색 바닥으로 앞으로</item>
+        <item>192 : 옐로우 하단의 녹색 말</item>
+        <item>193 : 보라색 점 노란색 포인트 경주</item>
+        <item>194 : 역 자주색 노란색 점 경주</item>
+        <item>195 : 노란색과 흰색 점으로 전달</item>
+        <item>196 : 역 백백색 흰 ​​말</item>
+        <item>197 : 전방 백색 점 번</item>
+        <item>198 : 역 백점 노란 점 경마</item>
+        <item>199 : 긍정적 인 7 가지 색상</item>
+        <item>200 : 7 색 브러쉬</item>
+        <item>201 : 적색 녹색 청색 브러시</item>
+        <item>202 : 빨강 초록 및 파랑 브러시 색상을 뒤집습니다</item>
+        <item>203 : 노란색 및 파란색 브러시 색상이 긍정적입니다</item>
+        <item>204 : 옐로우 시안 색 브러시 색상을 뒤집습니다</item>
+        <item>205 : 7 색 브러시 컬러 스크린</item>
+        <item>206 : 7 색 브러쉬 색상 마감</item>
+        <item>207 : 빨강 초록 파랑 ​​닦은 화면</item>
+        <item>208 : 빨강 녹색 및 파랑 색 브러쉬 마감</item>
+        <item>209 : 옐로우와 블루 브러시 컬러 스크린</item>
+        <item>210 : 노란색과 보라색 브러시 마감</item>
+    </array>
+    <array name="week">
+        <item>하나</item>
+        <item>두 개</item>
+        <item>세</item>
+        <item>네 개의</item>
+        <item>다섯</item>
+        <item>여섯 개</item>
+        <item>세븐</item>
+    </array>
+    <array name="weekday">
+        <item>월요일</item>
+        <item>화요일</item>
+        <item>수요일</item>
+        <item>목요일</item>
+        <item>금요일</item>
+        <item>토요일</item>
+        <item>일요일</item>
+    </array>
+</resources>

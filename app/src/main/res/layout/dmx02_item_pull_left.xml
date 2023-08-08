@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <FrameLayout android:orientation="horizontal" android:id="@+id/backLinearLayout" android:layout_width="@dimen/dp_90" android:layout_height="@dimen/dp_90" android:layout_marginRight="10dp" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/ivItem" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+        <RelativeLayout android:orientation="horizontal" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/ivDelete" android:background="@color/translucence" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" android:src="@drawable/delete" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

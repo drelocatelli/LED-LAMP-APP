@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@color/blue" android:layout_width="match_parent" android:layout_height="@dimen/dp_48">
+        <ImageView android:id="@+id/iv_Back75" android:layout_width="48dp" android:layout_height="match_parent" android:src="@drawable/back" android:scaleType="centerInside"/>
+        <TextView android:textSize="18sp" android:textColor="@color/white" android:id="@+id/tv_Title75" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <TextView android:background="@color/gray_line_bg" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="99dp"/>
+    <EditText android:textColor="@color/black" android:textColorHint="@color/grayDark" android:id="@+id/et_Content75" android:background="@null" android:padding="@dimen/dp_16" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_100" android:hint="@string/comment_content" android:maxLines="8" android:lines="6"/>
+    <TextView android:background="@color/gray_line_bg" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_below="@+id/et_Content75"/>
+    <Button android:id="@+id/btn_Publish75" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/comment_publish" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

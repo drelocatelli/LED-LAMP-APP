@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/fGifImageView" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/llGifIVBoder" android:background="@drawable/dmx02_boder" android:visibility="gone" android:layout_width="61dp" android:layout_height="61dp" android:layout_marginTop="@dimen/dp_12" android:layout_centerHorizontal="true"/>
+        <LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_15" android:layout_centerHorizontal="true">
+            <pl.droidsonroids.gif.GifImageView android:layout_gravity="center" android:id="@+id/gifImv" android:layout_width="@dimen/dp_55" android:layout_height="@dimen/dp_55" android:scaleType="center"/>
+            <TextView android:textSize="@dimen/text_size2" android:textColor="#ffffff" android:gravity="center" android:id="@+id/tv_name" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5" android:text="..."/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

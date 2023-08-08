@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/relativeLayoutHeader" android:background="@drawable/tab_bg" android:layout_width="match_parent" android:layout_height="@dimen/tab_height">
+        <Button android:textSize="@dimen/text_size6" android:textColor="@color/text_color_blue" android:id="@+id/buttonCancell" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_mid" android:text="@string/cancell_dialog" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/text_size7" android:textColor="@color/red" android:gravity="center" android:id="@+id/textViewID" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="ID:1" android:layout_centerHorizontal="true"/>
+        <Button android:textSize="@dimen/text_size6" android:textColor="@color/text_color_blue" android:id="@+id/buttonSave" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_mid" android:text="@string/save" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <View android:layout_width="match_parent" android:layout_height="@dimen/tab_height"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/relativeLayout3" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/relativeLayoutHeader">
+        <LinearLayout android:orientation="vertical" android:id="@+id/linearTimeSet" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:id="@+id/linearTime" android:layout_width="match_parent" android:layout_height="@dimen/tab_height">
+                <com.common.view.TextViewBorder android:textSize="@dimen/text_size6" android:textColor="@color/text_color_blue" android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/hour" android:layout_weight="1"/>
+                <com.common.view.TextViewBorder android:textSize="@dimen/text_size6" android:textColor="@color/text_color_blue" android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/minute" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.home.view.wheel.WheelView android:id="@+id/listViewH3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+                <com.home.view.wheel.WheelView android:id="@+id/listViewM3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1.5">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/tab_height">
+                <View android:id="@+id/viewColorRed" android:tag="viewColor1" android:background="@drawable/color_block_bright_red" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="@dimen/margin_50" android:layout_marginRight="@dimen/margin_50"/>
+                <View android:id="@+id/viewColorGreen" android:tag="viewColor2" android:background="@drawable/color_block_bright_green" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="@dimen/margin_50" android:layout_marginRight="@dimen/margin_50"/>
+                <View android:id="@+id/viewColorBlue" android:tag="viewColor3" android:background="@drawable/color_block_bright_lightblue" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="@dimen/margin_50" android:layout_marginRight="@dimen/margin_50"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="100dp">
+                <com.home.view.wheel.WheelView android:id="@+id/listViewModel31" android:tag="viewColor1" android:background="@drawable/color_block_bright_red" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+                <com.home.view.wheel.WheelView android:id="@+id/listViewModel32" android:tag="viewColor2" android:background="@drawable/color_block_bright_green" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+                <com.home.view.wheel.WheelView android:id="@+id/listViewModel33" android:tag="viewColor3" android:background="@drawable/color_block_bright_lightblue" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/tab_height">
+                <View android:id="@+id/viewColorWhite" android:tag="viewColor4" android:background="@drawable/color_block_bright_white" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="@dimen/margin_50" android:layout_marginRight="@dimen/margin_50"/>
+                <View android:id="@+id/viewColorCyan" android:tag="viewColor5" android:background="@drawable/color_block_bright_crystal" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="@dimen/margin_50" android:layout_marginRight="@dimen/margin_50"/>
+                <View android:id="@+id/viewColorPurple" android:tag="viewColor6" android:background="@drawable/color_block_bright_pink" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="@dimen/margin_50" android:layout_marginRight="@dimen/margin_50"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="100dp">
+                <com.home.view.wheel.WheelView android:id="@+id/listViewModel34" android:tag="viewColor4" android:background="@drawable/color_block_bright_white" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+                <com.home.view.wheel.WheelView android:id="@+id/listViewModel35" android:tag="viewColor5" android:background="@drawable/color_block_bright_crystal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+                <com.home.view.wheel.WheelView android:id="@+id/listViewModel36" android:tag="viewColor6" android:background="@drawable/color_block_bright_pink" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_width="match_parent" android:layout_height="10dp"/>
+    </LinearLayout>
+</RelativeLayout>

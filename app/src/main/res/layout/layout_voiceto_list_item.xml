@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="10sp" android:textColor="@color/light_gray_6" android:id="@+id/mychat_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <ImageView android:id="@+id/tb_my_user_icon" android:layout_width="50dp" android:layout_height="50dp" android:layout_below="@+id/mychat_time" android:layout_alignParentRight="true"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/tb_my_user_icon" android:layout_below="@+id/mychat_time">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/mysend_fail_img" android:background="@drawable/msg_state_fail_resend_pressed" android:layout_width="25dp" android:layout_height="25dp"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/voice_group" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp">
+            <TextView android:textColor="@color/middle_gray_1" android:layout_gravity="center_vertical" android:id="@+id/voice_time" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <FrameLayout android:layout_gravity="center" android:id="@+id/voice_image" android:background="@drawable/chatto_bg_focused" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:layout_gravity="center" android:id="@+id/id_recorder_anim" android:background="@drawable/adj" android:layout_width="15dp" android:layout_height="15dp"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

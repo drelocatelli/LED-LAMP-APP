@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="#303d42" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ccr.achenglibrary.photopicker.widget.CCRImageView android:id="@+id/iv_item_photo_picker_photo" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" app:bga_iv_square="true"/>
+    <ImageView android:id="@+id/iv_item_photo_picker_flag" android:paddingLeft="@dimen/bga_pp_size_level2" android:paddingTop="@dimen/bga_pp_size_level1" android:paddingRight="@dimen/bga_pp_size_level1" android:paddingBottom="@dimen/bga_pp_size_level2" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/bga_pp_ic_cb_normal" android:layout_alignParentRight="true"/>
+</RelativeLayout>

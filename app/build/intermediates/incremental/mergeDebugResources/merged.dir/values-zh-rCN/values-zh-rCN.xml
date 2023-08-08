@@ -1,0 +1,1622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Dmx02TextColorArray">
+        <item>红</item>
+        <item>绿</item>
+        <item>蓝</item>
+        <item>白</item>
+        <item>黄</item>
+        <item>紫</item>
+    </array>
+    <array name="app_service">
+        <item>七彩</item>
+        <item>幻彩</item>
+        <item>汽车</item>
+        <item>水族</item>
+        <item>舞台</item>
+        <item>色温</item>
+        <item>单色</item>
+        <item>广播</item>
+        <item>WIFI</item>
+    </array>
+    <array name="ble_mode">
+        <item>三色跳变,135</item>
+        <item>七色跳变,136</item>
+        <item>三色渐变,137</item>
+        <item>七色渐变,138</item>
+        <item>红色渐变,139</item>
+        <item>绿色渐变,140</item>
+        <item>蓝色渐变,141</item>
+        <item>黄色渐变,142</item>
+        <item>青色渐变,143</item>
+        <item>紫色渐变,144</item>
+        <item>白色渐变,145</item>
+        <item>红绿渐变,146</item>
+        <item>红蓝渐变,147</item>
+        <item>绿蓝渐变,148</item>
+        <item>七色频闪,149</item>
+        <item>红色频闪,150</item>
+        <item>绿色频闪,151</item>
+        <item>蓝色频闪,152</item>
+        <item>黄色频闪,153</item>
+        <item>青色频闪,154</item>
+        <item>紫色频闪,155</item>
+        <item>白色频闪,156</item>
+        <item>七色呼吸,157</item>
+    </array>
+    <array name="car_mode">
+        <item>三色跳变,135</item>
+        <item>七色跳变,136</item>
+        <item>三色渐变,137</item>
+        <item>七色渐变,138</item>
+        <item>红色渐变,139</item>
+        <item>绿色渐变,140</item>
+        <item>蓝色渐变,141</item>
+        <item>黄色渐变,142</item>
+        <item>青色渐变,143</item>
+        <item>紫色渐变,144</item>
+        <item>白色渐变,145</item>
+        <item>红绿渐变,146</item>
+        <item>红蓝渐变,147</item>
+        <item>绿蓝渐变,148</item>
+        <item>七色频闪,149</item>
+        <item>红色频闪,150</item>
+        <item>绿色频闪,151</item>
+        <item>蓝色频闪,152</item>
+        <item>黄色频闪,153</item>
+        <item>青色频闪,154</item>
+        <item>紫色频闪,155</item>
+        <item>白色频闪,156</item>
+        <item>七色呼吸,157</item>
+    </array>
+    <array name="chip_model">
+        <item>SM16512,1</item>
+        <item>UCS512C,2</item>
+    </array>
+    <array name="ct_mode">
+        <item>暖 0% 冷 100%,128</item>
+        <item>暖 10% 冷 90%,129</item>
+        <item>暖 20% 冷 80%,130</item>
+        <item>暖 30% 冷 70%,131</item>
+        <item>暖 40% 冷 60%,132</item>
+        <item>暖 50% 冷 50%,133</item>
+        <item>暖 60% 冷 40%,134</item>
+        <item>暖 70% 冷 30%,135</item>
+        <item>暖 80% 冷 20%,136</item>
+        <item>暖 90% 冷 10%,137</item>
+        <item>暖 100% 冷 0%,138</item>
+    </array>
+    <array name="custom_model">
+        <item>1:渐变,0</item>
+        <item>2:拖尾,1</item>
+        <item>3:流水,2</item>
+        <item>4:追光,3</item>
+        <item>5:堆积,4</item>
+        <item>6:白x白流动,5</item>
+        <item>7:单点跑马,6</item>
+        <item>8:多点跑马,7</item>
+        <item>9:拉/闭幕,8</item>
+        <item>10:单灯渐变,9</item>
+        <item>11:单灯跳变,10</item>
+        <item>12:单灯频闪,11</item>
+    </array>
+    <array name="dm_mode">
+        <item>0%,128</item>
+        <item>10%,129</item>
+        <item>20%,130</item>
+        <item>30%,131</item>
+        <item>40%,132</item>
+        <item>50%,133</item>
+        <item>60%,134</item>
+        <item>70%,135</item>
+        <item>80%,136</item>
+        <item>90%,137</item>
+        <item>100%,138</item>
+    </array>
+    <array name="dmx02_rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+    </array>
+    <array name="dmx03_model">
+        <item>自动循环,255</item>
+        <item>1:正向幻彩,1</item>
+        <item>2:反向幻彩,2</item>
+        <item>3:正向七色明暗过渡,3</item>
+        <item>4:反向七色明暗过渡,4</item>
+        <item>5:正向红绿蓝明暗过渡,5</item>
+        <item>6:反向红绿蓝明暗过渡,6</item>
+        <item>7:正向黄青紫明暗过渡,7</item>
+        <item>8:反向黄青紫明暗过渡,8</item>
+        <item>9:正向六色过渡红色,9</item>
+        <item>10:反向六色过渡红色,10</item>
+        <item>11:正向六色过渡绿色,11</item>
+        <item>12:反向六色过渡绿色,12</item>
+        <item>13:正向六色过渡蓝色,13</item>
+        <item>14:反向六色过渡蓝色,14</item>
+        <item>15:正向六色过渡青色,15</item>
+        <item>16:反向六色过渡青色,16</item>
+        <item>17:正向六色过渡黄色,17</item>
+        <item>18:反向六色过渡黄色,18</item>
+        <item>19:正向六色过渡紫色,19</item>
+        <item>20:反向六色过渡紫色,20</item>
+        <item>21:正向六色过渡白色,21</item>
+        <item>22:反向六色过渡白色,22</item>
+        <item>23:正向七彩拖尾,23</item>
+        <item>24:反向七彩拖尾,24</item>
+        <item>25:正向红色拖尾,25</item>
+        <item>26:反向红色拖尾,26</item>
+        <item>27:正向绿色拖尾,27</item>
+        <item>28:反向绿色拖尾,28</item>
+        <item>29:正向蓝色拖尾,29</item>
+        <item>30:反向蓝色拖尾,30</item>
+        <item>31:正向黄色拖尾,31</item>
+        <item>32:反向黄色拖尾,32</item>
+        <item>33:正向青色拖尾,33</item>
+        <item>34:反向青色拖尾,34</item>
+        <item>35:正向紫色拖尾,35</item>
+        <item>36:反向紫色拖尾,36</item>
+        <item>37:正向白色拖尾,37</item>
+        <item>38:反向白色拖尾,38</item>
+        <item>39:正向七彩流水,39</item>
+        <item>40:反向七彩流水,40</item>
+        <item>41:正向红绿蓝流水,41</item>
+        <item>42:反向红绿蓝流水,42</item>
+        <item>43:正向黄青紫流水,43</item>
+        <item>44:反向黄青紫流水,44</item>
+        <item>45:正向红绿流水,45</item>
+        <item>46:反向红绿流水,46</item>
+        <item>47:正向绿蓝流水,47</item>
+        <item>48:反向绿蓝流水,48</item>
+        <item>49:正向黄蓝流水,49</item>
+        <item>50:反向黄蓝流水,50</item>
+        <item>51:正向黄青流水,51</item>
+        <item>52:反向黄青流水,52</item>
+        <item>53:正向青紫流水,53</item>
+        <item>54:反向青紫流水,54</item>
+        <item>55:正向黑白流水,55</item>
+        <item>56:反向黑白流水,56</item>
+        <item>57:七彩拉幕,57</item>
+        <item>58:七彩闭幕,58</item>
+        <item>59:红绿蓝拉幕,59</item>
+        <item>60:红绿蓝闭幕,60</item>
+        <item>61:黄青紫拉幕,61</item>
+        <item>62:黄青紫闭幕,62</item>
+        <item>63:正向七彩追光,63</item>
+        <item>64:反向七彩追光,64</item>
+        <item>65:正向红绿蓝追光,65</item>
+        <item>66:反向红绿蓝追光,66</item>
+        <item>67:正向黄青紫追光,67</item>
+        <item>68:反向黄青紫追光,68</item>
+        <item>69:正向七彩飘动,69</item>
+        <item>70:反向七彩飘动,70</item>
+        <item>71:正向红绿蓝飘动,71</item>
+        <item>72:反向红绿蓝飘动,72</item>
+        <item>73:正向蓝黄青飘动,73</item>
+        <item>74:反向蓝黄青飘动,74</item>
+        <item>75:正向青紫白飘动,75</item>
+        <item>76:反向青紫白飘动,76</item>
+        <item>77:七色跳变,77</item>
+        <item>78:红绿蓝跳变,78</item>
+        <item>79:黄青紫跳变,79</item>
+        <item>80:白色频闪,80</item>
+        <item>81:正向七彩堆积,81</item>
+        <item>82:反向七彩堆积,82</item>
+        <item>83:正向红绿蓝堆积,83</item>
+        <item>84:反向红绿蓝堆积,84</item>
+        <item>85:正向黄青紫堆积,85</item>
+        <item>86:反向黄青紫堆积,86</item>
+        <item>87:正向黄色堆积,87</item>
+        <item>88:反向黄色堆积,88</item>
+        <item>89:正向青色堆积,89</item>
+        <item>90:反向青色堆积,90</item>
+        <item>91:正向紫色堆积,91</item>
+        <item>92:反向紫色堆积,92</item>
+        <item>93:正向白色堆积,93</item>
+        <item>94:反向白色堆积,94</item>
+        <item>95:正向七色跑动,95</item>
+        <item>96:反向七色跑动,96</item>
+        <item>97:正向红色跑动,97</item>
+        <item>98:反向红色跑动,98</item>
+        <item>99:正向绿色跑动,99</item>
+        <item>100:反向绿色跑动,100</item>
+        <item>101:正向蓝色跑动,101</item>
+        <item>102:反向蓝色跑动,102</item>
+        <item>103:正向黄色跑动,103</item>
+        <item>104:反向黄色跑动,104</item>
+        <item>105:正向青色跑动,105</item>
+        <item>106:反向青色跑动,106</item>
+        <item>107:正向紫色跑动,107</item>
+        <item>108:反向紫色跑动,108</item>
+        <item>109:正向白色跑动,109</item>
+        <item>110:反向白色跑动,110</item>
+        <item>111:正向红绿跑动,111</item>
+        <item>112:反向红绿跑动,112</item>
+        <item>113:正向绿蓝跑动,113</item>
+        <item>114:反向绿蓝跑动,114</item>
+        <item>115:正向蓝黄跑动,115</item>
+        <item>116:反向蓝黄跑动,116</item>
+        <item>117:正向黄青跑动,117</item>
+        <item>118:反向黄青跑动,118</item>
+        <item>119:正向青紫跑动,119</item>
+        <item>120:反向青紫跑动,120</item>
+        <item>121:正向紫白跑动,121</item>
+        <item>122:反向紫白跑动,122</item>
+        <item>123:正向七色流动,123</item>
+        <item>124:反向七色流动,124</item>
+        <item>125:正向红绿红流动,125</item>
+        <item>126:反向红绿红流动,126</item>
+        <item>127:正向蓝绿蓝流动,127</item>
+        <item>128:反向蓝绿蓝流动,128</item>
+        <item>129:正向黄绿黄流动,129</item>
+        <item>130:反向黄绿黄流动,130</item>
+        <item>131:正向黄青黄流动,131</item>
+        <item>132:反向黄青黄流动,132</item>
+        <item>133:正向紫青紫流动,133</item>
+        <item>134:反向紫青紫流动,134</item>
+        <item>135:正向白紫白流动,135</item>
+        <item>136:反向白紫白流动,136</item>
+        <item>137:正向白底七色跑马,137</item>
+        <item>138:反向白底七色跑马,138</item>
+        <item>139:正向白底红点跑马,139</item>
+        <item>140:反向白底红点跑马,140</item>
+        <item>141:正向白底绿点跑马,141</item>
+        <item>142:反向白底绿点跑动,142</item>
+        <item>143:正向白底蓝点跑马,143</item>
+        <item>144:反向白底蓝点跑马,144</item>
+        <item>145:正向绿底黄点跑马,145</item>
+        <item>146:反向绿底黄点跑马,146</item>
+        <item>147:正向红底青点跑马,147</item>
+        <item>148:反向红底青点跑马,148</item>
+        <item>149:正向蓝底紫点跑马,149</item>
+        <item>150:反向蓝底紫点跑马,150</item>
+        <item>151:正向黄底白点跑马,151</item>
+        <item>152:反向黄底白点跑马,152</item>
+        <item>153:七色跑动闭幕,153</item>
+        <item>154:七色跑动拉幕,154</item>
+        <item>155:红色跑动闭幕,155</item>
+        <item>156:红色跑动拉幕,156</item>
+        <item>157:绿色跑动闭幕,157</item>
+        <item>158:绿色跑动拉幕,158</item>
+        <item>159:蓝色跑动闭幕,159</item>
+        <item>160:蓝色跑动拉幕,160</item>
+        <item>161:黄色跑动闭幕,161</item>
+        <item>162:黄色跑动拉幕,162</item>
+        <item>163:青色跑动闭幕,163</item>
+        <item>164:青色跑动拉幕,164</item>
+        <item>165:紫色跑动闭幕,165</item>
+        <item>166:紫色跑动拉幕,166</item>
+        <item>167:白色跑动闭幕,167</item>
+        <item>168:白色跑动拉幕,168</item>
+        <item>169:黄底七色闭幕,169</item>
+        <item>170:黄底七色拉幕,170</item>
+        <item>171:青底红绿蓝闭幕,171</item>
+        <item>172:青底红绿蓝拉幕,172</item>
+        <item>173:紫底黄青紫闭幕,173</item>
+        <item>174:紫底黄青紫拉幕,174</item>
+        <item>175:正向红绿蓝黄流动,175</item>
+        <item>176:反向红绿蓝黄流动,176</item>
+        <item>177:正向绿蓝黄青流动,177</item>
+        <item>178:反向绿蓝黄青流动,178</item>
+        <item>179:正向蓝黄青紫流动,179</item>
+        <item>180:反向蓝黄青紫流动,180</item>
+        <item>181:正向黄青紫白流动,181</item>
+        <item>182:反向黄青紫白流动,182</item>
+        <item>183:正向七色刷色,183</item>
+        <item>184:反向七色刷色,184</item>
+        <item>185:正向红绿蓝刷色,185</item>
+        <item>186:反向红绿蓝刷色,186</item>
+        <item>187:正向黄青紫刷色,187</item>
+        <item>188:反向黄青紫刷色,188</item>
+        <item>189:正向红色刷色,189</item>
+        <item>190:反向红色刷色,190</item>
+        <item>191:正向绿色刷色,191</item>
+        <item>192:反向绿色刷色,192</item>
+        <item>193:正向蓝色刷色,193</item>
+        <item>194:反向蓝色刷色,194</item>
+        <item>195:正向黄色刷色,195</item>
+        <item>196:反向黄色刷色,196</item>
+        <item>197:正向青色刷色,197</item>
+        <item>198:反向青色刷色,198</item>
+        <item>199:正向紫色刷色,199</item>
+        <item>200:反向紫色刷色,200</item>
+        <item>201:正向白色刷色,201</item>
+        <item>202:反向白色刷色,202</item>
+        <item>203:七色刷色拉幕,203</item>
+        <item>204:七色刷色闭幕,204</item>
+        <item>205:红绿蓝刷色拉幕,205</item>
+        <item>206:红绿蓝刷色闭幕,206</item>
+        <item>207:蓝黄刷色拉幕,207</item>
+        <item>208:蓝黄刷色闭幕,208</item>
+        <item>209:青紫刷色拉幕,209</item>
+        <item>210:青紫刷色闭幕,210</item>
+    </array>
+    <array name="dmx_model">
+        <item>自动循环,255</item>
+        <item>1:正向幻彩,1</item>
+        <item>2:反向幻彩,2</item>
+        <item>3:正向七色明暗过渡,3</item>
+        <item>4:反向七色明暗过渡,4</item>
+        <item>5:正向红绿蓝明暗过渡,5</item>
+        <item>6:反向红绿蓝明暗过渡,6</item>
+        <item>7:正向黄青紫明暗过渡,7</item>
+        <item>8:反向黄青紫明暗过渡,8</item>
+        <item>9:正向六色过渡红色,9</item>
+        <item>10:反向六色过渡红色,10</item>
+        <item>11:正向六色过渡绿色,11</item>
+        <item>12:反向六色过渡绿色,12</item>
+        <item>13:正向六色过渡蓝色,13</item>
+        <item>14:反向六色过渡蓝色,14</item>
+        <item>15:正向六色过渡青色,15</item>
+        <item>16:反向六色过渡青色,16</item>
+        <item>17:正向六色过渡黄色,17</item>
+        <item>18:反向六色过渡黄色,18</item>
+        <item>19:正向六色过渡紫色,19</item>
+        <item>20:反向六色过渡紫色,20</item>
+        <item>21:正向六色过渡白色,21</item>
+        <item>22:反向六色过渡白色,22</item>
+        <item>23:正向七彩拖尾,23</item>
+        <item>24:反向七彩拖尾,24</item>
+        <item>25:正向红色拖尾,25</item>
+        <item>26:反向红色拖尾,26</item>
+        <item>27:正向绿色拖尾,27</item>
+        <item>28:反向绿色拖尾,28</item>
+        <item>29:正向蓝色拖尾,29</item>
+        <item>30:反向蓝色拖尾,30</item>
+        <item>31:正向黄色拖尾,31</item>
+        <item>32:反向黄色拖尾,32</item>
+        <item>33:正向青色拖尾,33</item>
+        <item>34:反向青色拖尾,34</item>
+        <item>35:正向紫色拖尾,35</item>
+        <item>36:反向紫色拖尾,36</item>
+        <item>37:正向白色拖尾,37</item>
+        <item>38:反向白色拖尾,38</item>
+        <item>39:正向七彩流水,39</item>
+        <item>40:反向七彩流水,40</item>
+        <item>41:正向红绿蓝流水,41</item>
+        <item>42:反向红绿蓝流水,42</item>
+        <item>43:正向黄青紫流水,43</item>
+        <item>44:反向黄青紫流水,44</item>
+        <item>45:正向红绿流水,45</item>
+        <item>46:反向红绿流水,46</item>
+        <item>47:正向绿蓝流水,47</item>
+        <item>48:反向绿蓝流水,48</item>
+        <item>49:正向黄蓝流水,49</item>
+        <item>50:反向黄蓝流水,50</item>
+        <item>51:正向黄青流水,51</item>
+        <item>52:反向黄青流水,52</item>
+        <item>53:正向青紫流水,53</item>
+        <item>54:反向青紫流水,54</item>
+        <item>55:正向黑白流水,55</item>
+        <item>56:反向黑白流水,56</item>
+        <item>57:七彩拉幕,57</item>
+        <item>58:七彩闭幕,58</item>
+        <item>59:红绿蓝拉幕,59</item>
+        <item>60:红绿蓝闭幕,60</item>
+        <item>61:黄青紫拉幕,61</item>
+        <item>62:黄青紫闭幕,62</item>
+        <item>63:正向七彩追光,63</item>
+        <item>64:反向七彩追光,64</item>
+        <item>65:正向红绿蓝追光,65</item>
+        <item>66:反向红绿蓝追光,66</item>
+        <item>67:正向黄青紫追光,67</item>
+        <item>68:反向黄青紫追光,68</item>
+        <item>69:正向七彩飘动,69</item>
+        <item>70:反向七彩飘动,70</item>
+        <item>71:正向红绿蓝飘动,71</item>
+        <item>72:反向红绿蓝飘动,72</item>
+        <item>73:正向黄青紫飘动,73</item>
+        <item>74:反向黄青紫飘动,74</item>
+        <item>75:七色跳变,75</item>
+        <item>76:红绿蓝跳变,76</item>
+        <item>77:黄青紫跳变,77</item>
+        <item>78:七色频闪,78</item>
+        <item>79:红绿蓝频闪,79</item>
+        <item>80:黄青紫频闪,80</item>
+        <item>81:七色渐变,81</item>
+        <item>82:红黄渐变,82</item>
+        <item>83:红紫渐变,83</item>
+        <item>84:绿青渐变,84</item>
+        <item>85:绿黄渐变,85</item>
+        <item>86:蓝紫渐变,86</item>
+        <item>87:红色闭幕,87</item>
+        <item>88:绿色闭幕,88</item>
+        <item>89:蓝色闭幕,89</item>
+        <item>90:黄色闭幕,90</item>
+        <item>91:青色闭幕,91</item>
+        <item>92:紫色闭幕,92</item>
+        <item>93:白色闭幕,93</item>
+        <item>94:红色拉幕,94</item>
+        <item>95:绿色拉幕,95</item>
+        <item>96:蓝色拉幕,96</item>
+        <item>97:黄色拉幕,97</item>
+        <item>98:青色拉幕,98</item>
+        <item>99:紫色拉幕,99</item>
+        <item>100:白色拉幕,100</item>
+        <item>101:红色堆积,101</item>
+        <item>102:绿色堆积,102</item>
+        <item>103:蓝色堆积,103</item>
+        <item>104:黄色堆积,104</item>
+        <item>105:青色堆积,105</item>
+        <item>106:紫色堆积,106</item>
+        <item>107:白色堆积,107</item>
+        <item>108:正向红色跑动,108</item>
+        <item>109:反向红色跑动,109</item>
+        <item>110:正向绿色跑动,110</item>
+        <item>111:反向绿色跑动,111</item>
+        <item>112:正向蓝色跑动,112</item>
+        <item>113:反向蓝色跑动,113</item>
+        <item>114:正向黄色跑动,114</item>
+        <item>115:反向黄色跑动,115</item>
+        <item>116:正向青色跑动,116</item>
+        <item>117:反向青色跑动,117</item>
+        <item>118:正向紫色跑动,118</item>
+        <item>119:反向紫色跑动,119</item>
+        <item>120:正向白色跑动,120</item>
+        <item>121:反向白色跑动,121</item>
+        <item>122:正向七色跑动,122</item>
+        <item>123:反向七色跑动,123</item>
+        <item>124:正向红绿蓝跑动,124</item>
+        <item>125:反向红绿蓝跑动,125</item>
+        <item>126:正向黄青紫跑动,126</item>
+        <item>127:反向黄青紫跑动,127</item>
+        <item>128:正向蓝黄紫跑动,128</item>
+        <item>129:正向绿蓝黄跑动,129</item>
+        <item>130:反向蓝黄青跑动,130</item>
+        <item>131:正向白底红点跑动,131</item>
+        <item>132:反向白底红点跑动,132</item>
+        <item>133:正向红底绿点跑动,133</item>
+        <item>134:反向红底绿点跑动,134</item>
+        <item>135:正向绿底蓝点跑动,135</item>
+        <item>136:反向绿底蓝点跑动,136</item>
+        <item>137:正向蓝底黄点跑动,137</item>
+        <item>138:反向蓝底黄点跑动,138</item>
+        <item>139:正向黄底青点跑动,139</item>
+        <item>140:反向黄底青点跑动,140</item>
+        <item>141:正向青底紫点跑动,141</item>
+        <item>142:反向青底紫点跑动,142</item>
+        <item>143:正向紫底白点跑动,143</item>
+        <item>144:反向紫底白点跑动,144</item>
+        <item>145:正向红底白点跑动,145</item>
+        <item>146:反向红底白点跑动,146</item>
+        <item>147:正向红底七色跑动,147</item>
+        <item>148:反向红底七色跑动,148</item>
+        <item>149:正向绿底七色跑动,149</item>
+        <item>150:反向绿底七色跑动,150</item>
+        <item>151:正向蓝底七色跑动,151</item>
+        <item>152:反向蓝底七色跑动,152</item>
+        <item>153:正向黄底七色跑动,153</item>
+        <item>154:反向黄底七色跑动,154</item>
+        <item>155:正向青底七色跑动,155</item>
+        <item>156:反向青底七色跑动,156</item>
+        <item>157:正向紫底七色跑动,157</item>
+        <item>158:反向紫底七色跑动,158</item>
+        <item>159:正向白底七色跑动,159</item>
+        <item>160:反向白底七色跑动,160</item>
+        <item>161:正向白红白流动,161</item>
+        <item>162:反向白红白流动,162</item>
+        <item>163:正向白绿白流动,163</item>
+        <item>164:反向白绿白流动,164</item>
+        <item>165:正向白蓝白流动,165</item>
+        <item>166:反向白蓝白流动,166</item>
+        <item>167:正向白黄白流动,167</item>
+        <item>168:反向白黄白流动,168</item>
+        <item>169:正向白青白流动,169</item>
+        <item>170:反向白青白流动,170</item>
+        <item>171:正向白紫白流动,171</item>
+        <item>172:反向白紫白流动,172</item>
+        <item>173:正向红白红流动,173</item>
+        <item>174:反向红白红流动,174</item>
+        <item>175:正向绿白绿流动,175</item>
+        <item>176:反向绿白绿流动,176</item>
+        <item>177:正向蓝白蓝流动,177</item>
+        <item>178:反向蓝白蓝流动,178</item>
+        <item>179:正向黄白黄流动,179</item>
+        <item>180:反向黄白黄流动,180</item>
+        <item>181:正向青白青流动,181</item>
+        <item>182:反向青白青流动,182</item>
+        <item>183:正向紫白紫流动,183</item>
+        <item>184:反向紫白紫流动,184</item>
+        <item>185:正向蓝底绿点跑马,185</item>
+        <item>186:反向蓝底绿点跑马,186</item>
+        <item>187:正向红底绿点跑马,187</item>
+        <item>188:反向红底绿点跑马,188</item>
+        <item>189:正向蓝底红点跑马,189</item>
+        <item>190:反向蓝底红点跑马,190</item>
+        <item>191:正向黄底青点跑马,191</item>
+        <item>192:反向黄底青点跑马,192</item>
+        <item>193:正向紫底黄点跑马,193</item>
+        <item>194:反向紫底黄点跑马,194</item>
+        <item>195:正向黄底白点跑马,195</item>
+        <item>196:反向黄底白点跑马,196</item>
+        <item>197:正向白底黄点跑马,197</item>
+        <item>198:反向白底黄点跑马,198</item>
+        <item>199:正向七色刷色,199</item>
+        <item>200:反向七色刷色,200</item>
+        <item>201:正向红绿蓝刷色,201</item>
+        <item>202:反向红绿蓝刷色,202</item>
+        <item>203:正向黄青紫刷色,203</item>
+        <item>204:反向黄青紫刷色,204</item>
+        <item>205:七色刷色拉幕,205</item>
+        <item>206:七色刷色闭幕,206</item>
+        <item>207:红绿蓝刷色拉幕,207</item>
+        <item>208:红绿蓝刷色闭幕,208</item>
+        <item>209:黄青紫刷色拉幕,209</item>
+        <item>210:黄青紫刷色闭幕,210</item>
+    </array>
+    <array name="forum_tab_titles">
+        <item>其他</item>
+        <item>连接</item>
+        <item>咨询</item>
+        <item>建议</item>
+        <item>热点</item>
+    </array>
+    <array name="light_banner">
+        <item>LPD6803,1</item>
+        <item>TM1803,2</item>
+        <item>UCS1903,3</item>
+        <item>WS2811,4</item>
+        <item>TM1812,5</item>
+        <item>TM1809,6</item>
+        <item>WS2801,7</item>
+        <item>TLS3001,8</item>
+        <item>TLS3008,9</item>
+        <item>P9813,10</item>
+        <item>UCS8806,11</item>
+        <item>TM1829,12</item>
+        <item>TM1909,13</item>
+    </array>
+    <array name="light_mode">
+        <item>关灯</item>
+        <item>静态红色</item>
+        <item>静态蓝色</item>
+        <item>静态绿色</item>
+        <item>静态青色</item>
+        <item>静态黄色</item>
+        <item>静态紫色</item>
+        <item>静态白色</item>
+        <item>三色跳变</item>
+        <item>七色跳变</item>
+        <item>三色渐变</item>
+        <item>七色渐变</item>
+        <item>红色渐变</item>
+        <item>绿色渐变</item>
+        <item>蓝色渐变</item>
+        <item>黄色渐变</item>
+        <item>青色渐变</item>
+        <item>紫色渐变</item>
+        <item>白色渐变</item>
+        <item>红绿渐变</item>
+        <item>红蓝渐变</item>
+        <item>绿蓝渐变</item>
+        <item>七色频闪</item>
+        <item>红色频闪</item>
+        <item>绿色频闪</item>
+        <item>蓝色频闪</item>
+        <item>黄色频闪</item>
+        <item>青色频闪</item>
+        <item>紫色频闪</item>
+        <item>白色频闪</item>
+        <item>MODE30</item>
+        <item>MODE31</item>
+        <item>MODE32</item>
+        <item>MODE33</item>
+        <item>MODE34</item>
+        <item>MODE35</item>
+        <item>MODE36</item>
+        <item>MODE37</item>
+        <item>MODE38</item>
+        <item>MODE39</item>
+        <item>MODE40</item>
+        <item>MODE41</item>
+        <item>MODE42</item>
+        <item>MODE43</item>
+        <item>MODE44</item>
+        <item>MODE45</item>
+        <item>MODE46</item>
+        <item>MODE47</item>
+        <item>MODE48</item>
+        <item>MODE49</item>
+        <item>MODE50</item>
+        <item>MODE51</item>
+        <item>MODE52</item>
+        <item>MODE53</item>
+        <item>MODE54</item>
+        <item>MODE55</item>
+        <item>MODE56</item>
+        <item>MODE57</item>
+        <item>MODE58</item>
+        <item>MODE59</item>
+        <item>MODE60</item>
+        <item>MODE61</item>
+        <item>MODE62</item>
+        <item>MODE63</item>
+        <item>MODE64</item>
+        <item>MODE65</item>
+        <item>MODE66</item>
+        <item>MODE67</item>
+        <item>MODE68</item>
+        <item>MODE69</item>
+        <item>MODE70</item>
+        <item>MODE71</item>
+        <item>MODE72</item>
+        <item>MODE73</item>
+        <item>MODE74</item>
+        <item>MODE75</item>
+        <item>MODE76</item>
+        <item>MODE77</item>
+        <item>MODE78</item>
+        <item>MODE79</item>
+        <item>MODE80</item>
+        <item>MODE81</item>
+        <item>MODE82</item>
+        <item>MODE83</item>
+        <item>MODE84</item>
+        <item>MODE85</item>
+        <item>MODE86</item>
+        <item>MODE87</item>
+        <item>MODE88</item>
+        <item>MODE89</item>
+        <item>MODE90</item>
+        <item>MODE91</item>
+        <item>MODE92</item>
+        <item>MODE93</item>
+        <item>MODE94</item>
+        <item>MODE95</item>
+        <item>MODE96</item>
+        <item>MODE97</item>
+        <item>MODE98</item>
+        <item>MODE99</item>
+        <item>MODE100</item>
+        <item>MODE101</item>
+        <item>MODE102</item>
+        <item>MODE103</item>
+        <item>MODE104</item>
+        <item>MODE105</item>
+        <item>MODE106</item>
+        <item>MODE107</item>
+        <item>MODE108</item>
+        <item>MODE109</item>
+        <item>MODE110</item>
+        <item>MODE111</item>
+        <item>MODE112</item>
+        <item>MODE113</item>
+        <item>MODE114</item>
+        <item>MODE115</item>
+        <item>MODE116</item>
+        <item>MODE117</item>
+        <item>MODE118</item>
+        <item>MODE119</item>
+        <item>MODE120</item>
+        <item>MODE121</item>
+        <item>MODE122</item>
+        <item>MODE123</item>
+        <item>MODE124</item>
+        <item>MODE125</item>
+        <item>MODE126</item>
+        <item>MODE127</item>
+        <item>MODE128</item>
+        <item>MODE129</item>
+        <item>MODE130</item>
+        <item>MODE131</item>
+        <item>MODE132</item>
+        <item>MODE133</item>
+        <item>MODE134</item>
+        <item>MODE135</item>
+        <item>MODE136</item>
+        <item>MODE137</item>
+        <item>MODE138</item>
+        <item>MODE139</item>
+        <item>MODE140</item>
+        <item>MODE141</item>
+        <item>MODE142</item>
+        <item>MODE143</item>
+        <item>MODE144</item>
+        <item>MODE145</item>
+        <item>MODE146</item>
+        <item>MODE147</item>
+        <item>MODE148</item>
+        <item>MODE149</item>
+        <item>MODE150</item>
+        <item>MODE151</item>
+        <item>MODE152</item>
+        <item>MODE153</item>
+        <item>MODE154</item>
+        <item>MODE155</item>
+        <item>MODE156</item>
+        <item>MODE157</item>
+        <item>MODE158</item>
+        <item>MODE159</item>
+        <item>MODE160</item>
+        <item>MODE161</item>
+        <item>MODE162</item>
+        <item>MODE163</item>
+        <item>MODE164</item>
+        <item>MODE165</item>
+        <item>MODE166</item>
+        <item>MODE167</item>
+        <item>MODE168</item>
+        <item>MODE169</item>
+        <item>MODE170</item>
+        <item>MODE171</item>
+        <item>MODE172</item>
+        <item>MODE173</item>
+        <item>MODE174</item>
+        <item>MODE175</item>
+        <item>MODE176</item>
+        <item>MODE177</item>
+        <item>MODE178</item>
+        <item>MODE179</item>
+        <item>MODE180</item>
+        <item>MODE181</item>
+        <item>MODE182</item>
+        <item>MODE183</item>
+        <item>MODE184</item>
+        <item>MODE185</item>
+        <item>MODE186</item>
+        <item>MODE187</item>
+        <item>MODE188</item>
+        <item>MODE189</item>
+        <item>MODE190</item>
+        <item>MODE191</item>
+        <item>MODE192</item>
+        <item>MODE193</item>
+        <item>MODE194</item>
+        <item>MODE195</item>
+        <item>MODE196</item>
+        <item>MODE197</item>
+        <item>MODE198</item>
+        <item>MODE199</item>
+        <item>MODE200</item>
+        <item>MODE201</item>
+        <item>MODE202</item>
+        <item>MODE203</item>
+        <item>MODE204</item>
+        <item>MODE205</item>
+        <item>MODE206</item>
+        <item>MODE207</item>
+        <item>MODE208</item>
+        <item>MODE209</item>
+        <item>MODE210</item>
+        <item>MODE211</item>
+    </array>
+    <array name="modelble">
+        <item>关灯</item>
+        <item>开灯</item>
+        <item>静态红色</item>
+        <item>静态绿色</item>
+        <item>静态蓝色</item>
+        <item>静态黄色</item>
+        <item>静态紫色</item>
+        <item>静态青色</item>
+        <item>静态白色</item>
+        <item>三色跳变</item>
+        <item>七色跳变</item>
+        <item>三色渐变</item>
+        <item>七色渐变</item>
+        <item>冷白</item>
+        <item>暖白</item>
+        <item>单色</item>
+    </array>
+    <array name="modelike">
+        <item>关灯</item>
+        <item>开灯</item>
+        <item>全亮</item>
+        <item>半亮</item>
+        <item>微亮</item>
+        <item>呼吸</item>
+        <item>频闪</item>
+        <item>爆闪</item>
+    </array>
+    <array name="modelsun">
+        <item>关灯</item>
+        <item>开灯</item>
+        <item>冷色</item>
+        <item>暖色</item>
+        <item>自然色</item>
+        <item>白暖跳变</item>
+        <item>白色渐变</item>
+        <item>暖色渐变</item>
+        <item>自然色渐变</item>
+        <item>白暖渐变</item>
+        <item>白暖频闪</item>
+        <item>白色频闪</item>
+        <item>暖色频闪</item>
+        <item>自然色频闪</item>
+    </array>
+    <array name="rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+        <item>RGBW,7</item>
+        <item>RBGW,8</item>
+        <item>GRBW,9</item>
+        <item>GBRW,10</item>
+        <item>BRGW,11</item>
+        <item>BGRW,12</item>
+    </array>
+    <array name="rgb_sort_ble">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+    </array>
+    <array name="select_mode">
+        <item>W,0</item>
+        <item>BW,1</item>
+        <item>RGB,2</item>
+        <item>RGBW,3</item>
+        <item>RGBWCP,4</item>
+    </array>
+    <array name="timer_model_dmx">
+        <item>关灯</item>
+        <item>开灯</item>
+        <item>自动循环</item>
+        <item>1:正向幻彩</item>
+        <item>2:反向幻彩</item>
+        <item>3:正向七色明暗过渡</item>
+        <item>4:反向七色明暗过渡</item>
+        <item>5:正向红绿蓝明暗过渡</item>
+        <item>6:反向红绿蓝明暗过渡</item>
+        <item>7:正向黄青紫明暗过渡</item>
+        <item>8:反向黄青紫明暗过渡</item>
+        <item>9:正向六色过渡红色</item>
+        <item>10:反向六色过渡红色</item>
+        <item>11:正向六色过渡绿色</item>
+        <item>12:反向六色过渡绿色</item>
+        <item>13:正向六色过渡蓝色</item>
+        <item>14:反向六色过渡蓝色</item>
+        <item>15:正向六色过渡青色</item>
+        <item>16:反向六色过渡青色</item>
+        <item>17:正向六色过渡黄色</item>
+        <item>18:反向六色过渡黄色</item>
+        <item>19:正向六色过渡紫色</item>
+        <item>20:反向六色过渡紫色</item>
+        <item>21:正向六色过渡白色</item>
+        <item>22:反向六色过渡白色</item>
+        <item>23:正向七彩拖尾</item>
+        <item>24:反向七彩拖尾</item>
+        <item>25:正向红色拖尾</item>
+        <item>26:反向红色拖尾</item>
+        <item>27:正向绿色拖尾</item>
+        <item>28:反向绿色拖尾</item>
+        <item>29:正向蓝色拖尾</item>
+        <item>30:反向蓝色拖尾</item>
+        <item>31:正向黄色拖尾</item>
+        <item>32:反向黄色拖尾</item>
+        <item>33:正向青色拖尾</item>
+        <item>34:反向青色拖尾</item>
+        <item>35:正向紫色拖尾</item>
+        <item>36:反向紫色拖尾</item>
+        <item>37:正向白色拖尾</item>
+        <item>38:反向白色拖尾</item>
+        <item>39:正向七彩流水</item>
+        <item>40:反向七彩流水</item>
+        <item>41:正向红绿蓝流水</item>
+        <item>42:反向红绿蓝流水</item>
+        <item>43:正向黄青紫流水</item>
+        <item>44:反向黄青紫流水</item>
+        <item>45:正向红绿流水</item>
+        <item>46:反向红绿流水</item>
+        <item>47:正向绿蓝流水</item>
+        <item>48:反向绿蓝流水</item>
+        <item>49:正向黄蓝流水</item>
+        <item>50:反向黄蓝流水</item>
+        <item>51:正向黄青流水</item>
+        <item>52:反向黄青流水</item>
+        <item>53:正向青紫流水</item>
+        <item>54:反向青紫流水</item>
+        <item>55:正向黑白流水</item>
+        <item>56:反向黑白流水</item>
+        <item>57:七彩拉幕</item>
+        <item>58:七彩闭幕</item>
+        <item>59:红绿蓝拉幕</item>
+        <item>60:红绿蓝闭幕</item>
+        <item>61:黄青紫拉幕</item>
+        <item>62:黄青紫闭幕</item>
+        <item>63:正向七彩追光</item>
+        <item>64:反向七彩追光</item>
+        <item>65:正向红绿蓝追光</item>
+        <item>66:反向红绿蓝追光</item>
+        <item>67:正向黄青紫追光</item>
+        <item>68:反向黄青紫追光</item>
+        <item>69:正向七彩飘动</item>
+        <item>70:反向七彩飘动</item>
+        <item>71:正向红绿蓝飘动</item>
+        <item>72:反向红绿蓝飘动</item>
+        <item>73:正向黄青紫飘动</item>
+        <item>74:反向黄青紫飘动</item>
+        <item>75:七色跳变</item>
+        <item>76:红绿蓝跳变</item>
+        <item>77:黄青紫跳变</item>
+        <item>78:七色频闪</item>
+        <item>79:红绿蓝频闪</item>
+        <item>80:黄青紫频闪</item>
+        <item>81:七色渐变</item>
+        <item>82:红黄渐变</item>
+        <item>83:红紫渐变</item>
+        <item>84:绿青渐变</item>
+        <item>85:绿黄渐变</item>
+        <item>86:蓝紫渐变</item>
+        <item>87:红色闭幕</item>
+        <item>88:绿色闭幕</item>
+        <item>89:蓝色闭幕</item>
+        <item>90:黄色闭幕</item>
+        <item>91:青色闭幕</item>
+        <item>92:紫色闭幕</item>
+        <item>93:白色闭幕</item>
+        <item>94:红色拉幕</item>
+        <item>95:绿色拉幕</item>
+        <item>96:蓝色拉幕</item>
+        <item>97:黄色拉幕</item>
+        <item>98:青色拉幕</item>
+        <item>99:紫色拉幕</item>
+        <item>100:白色拉幕</item>
+        <item>101:红色跑马</item>
+        <item>102:绿色跑马</item>
+        <item>103:蓝色跑马</item>
+        <item>104:黄色跑马</item>
+        <item>105:青色跑马</item>
+        <item>106:紫色跑马</item>
+        <item>107:白色跑马</item>
+        <item>108:正向红色跑动</item>
+        <item>109:反向红色跑动</item>
+        <item>110:正向绿色跑动</item>
+        <item>111:反向绿色跑动</item>
+        <item>112:正向蓝色跑动</item>
+        <item>113:反向蓝色跑动</item>
+        <item>114:正向黄色跑动</item>
+        <item>115:反向黄色跑动</item>
+        <item>116:正向青色跑动</item>
+        <item>117:反向青色跑动</item>
+        <item>118:正向紫色跑动</item>
+        <item>119:反向紫色跑动</item>
+        <item>120:正向白色跑动</item>
+        <item>121:反向白色跑动</item>
+        <item>122:正向七色跑动</item>
+        <item>123:反向七色跑动</item>
+        <item>124:正向红绿蓝跑动</item>
+        <item>125:反向红绿蓝跑动</item>
+        <item>126:正向黄青紫跑动</item>
+        <item>127:反向黄青紫跑动</item>
+        <item>128:正向蓝黄紫跑动</item>
+        <item>129:正向绿蓝黄跑动</item>
+        <item>130:反向蓝黄青跑动</item>
+        <item>131:正向白底红点跑动</item>
+        <item>132:反向白底红点跑动</item>
+        <item>133:正向红底绿点跑动</item>
+        <item>134:反向红底绿点跑动</item>
+        <item>135:正向绿底蓝点跑动</item>
+        <item>136:反向绿底蓝点跑动</item>
+        <item>137:正向蓝底黄点跑动</item>
+        <item>138:反向蓝底黄点跑动</item>
+        <item>139:正向黄底青点跑动</item>
+        <item>140:反向黄底青点跑动</item>
+        <item>141:正向青底紫点跑动</item>
+        <item>142:反向青底紫点跑动</item>
+        <item>143:正向紫底白点跑动</item>
+        <item>144:反向紫底白点跑动</item>
+        <item>145:正向红底白点跑动</item>
+        <item>146:反向红底白点跑动</item>
+        <item>147:正向红底七色跑动</item>
+        <item>148:反向红底七色跑动</item>
+        <item>149:正向绿底七色跑动</item>
+        <item>150:反向绿底七色跑动</item>
+        <item>151:正向蓝底七色跑动</item>
+        <item>152:反向蓝底七色跑动</item>
+        <item>153:正向黄底七色跑动</item>
+        <item>154:反向黄底七色跑动</item>
+        <item>155:正向青底七色跑动</item>
+        <item>156:反向青底七色跑动</item>
+        <item>157:正向紫底七色跑动</item>
+        <item>158:反向紫底七色跑动</item>
+        <item>159:正向白底七色跑动</item>
+        <item>160:反向白底七色跑动</item>
+        <item>161:正向白红白流动</item>
+        <item>162:反向白红白流动</item>
+        <item>163:正向白绿白流动</item>
+        <item>164:反向白绿白流动</item>
+        <item>165:正向白蓝白流动</item>
+        <item>166:反向白蓝白流动</item>
+        <item>167:正向白黄白流动</item>
+        <item>168:反向白黄白流动</item>
+        <item>169:正向白青白流动</item>
+        <item>170:反向白青白流动</item>
+        <item>171:正向白紫白流动</item>
+        <item>172:反向白紫白流动</item>
+        <item>173:正向红白红流动</item>
+        <item>174:反向红白红流动</item>
+        <item>175:正向绿白绿流动</item>
+        <item>176:反向绿白绿流动</item>
+        <item>177:正向蓝白蓝流动</item>
+        <item>178:反向蓝白蓝流动</item>
+        <item>179:正向黄白黄流动</item>
+        <item>180:反向黄白黄流动</item>
+        <item>181:正向青白青流动</item>
+        <item>182:反向青白青流动</item>
+        <item>183:正向紫白紫流动</item>
+        <item>184:反向紫白紫流动</item>
+        <item>185:正向蓝底绿点跑马</item>
+        <item>186:反向蓝底绿点跑马</item>
+        <item>187:正向红底绿点跑马</item>
+        <item>188:反向红底绿点跑马</item>
+        <item>189:正向蓝底红点跑马</item>
+        <item>190:反向蓝底红点跑马</item>
+        <item>191:正向黄底青点跑马</item>
+        <item>192:反向黄底青点跑马</item>
+        <item>193:正向紫底黄点跑马</item>
+        <item>194:反向紫底黄点跑马</item>
+        <item>195:正向黄底白点跑马</item>
+        <item>196:反向黄底白点跑马</item>
+        <item>197:正向白底黄点跑马</item>
+        <item>198:反向白底黄点跑马</item>
+        <item>199:正向七色刷色</item>
+        <item>200:反向七色刷色</item>
+        <item>201:正向红绿蓝刷色</item>
+        <item>202:反向红绿蓝刷色</item>
+        <item>203:正向黄青紫刷色</item>
+        <item>204:反向黄青紫刷色</item>
+        <item>205:七色刷色拉幕</item>
+        <item>206:七色刷色闭幕</item>
+        <item>207:红绿蓝刷色拉幕</item>
+        <item>208:红绿蓝刷色闭幕</item>
+        <item>209:黄青紫刷色拉幕</item>
+        <item>210:黄青紫刷色闭幕</item>
+    </array>
+    <array name="week">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>日</item>
+    </array>
+    <array name="weekday">
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期天</item>
+    </array>
+    <string name="Account_security">账号安全</string>
+    <string name="Add_Picture">添加图片</string>
+    <string name="Advisory">咨询</string>
+    <string name="Alignment">对齐方式</string>
+    <string name="Animation">动画</string>
+    <string name="Are_you_sure_delete_this_account">确定要删除此账户吗?</string>
+    <string name="Auxiliary_function">按键</string>
+    <string name="Background">背景</string>
+    <string name="Bubble">气泡</string>
+    <string name="ButtonEight">跑马</string>
+    <string name="ButtonFive">堆积</string>
+    <string name="ButtonSeven">流动</string>
+    <string name="ButtonSix">拉幕</string>
+    <string name="Closetiming">关闭定时</string>
+    <string name="Code">编码</string>
+    <string name="Connect">连接</string>
+    <string name="Crash_Tip">*近期遇到闪退问题的\n请先卸载APP，然后重新下载</string>
+    <string name="DMX">幻彩</string>
+    <string name="Delete_account_succeeded">注销账户成功</string>
+    <string name="Delete_this_account">注销账户</string>
+    <string name="Emoticons_are_not_supported">不支持输入表情</string>
+    <string name="Experience_Now">立即体验</string>
+    <string name="FD">拖尾</string>
+    <string name="FS">追光</string>
+    <string name="FW">流水</string>
+    <string name="Font_Size">字体大小</string>
+    <string name="Forward">正向</string>
+    <string name="GD">渐变</string>
+    <string name="Get_GIF_From_Album">从相册获取GIF</string>
+    <string name="Get_Pictures_From_Album">从相册获取图片</string>
+    <string name="Graffiti">涂鸦</string>
+    <string name="Hot">热点</string>
+    <string name="LED">同步</string>
+    <string name="Language">切换语言</string>
+    <string name="Material_Library">素材库</string>
+    <string name="No_Equipment">暂无设备 请先下拉刷新</string>
+    <string name="No_Style">无样式</string>
+    <string name="Other">其他</string>
+    <string name="Pixel">像素点</string>
+    <string name="Pull_down_to_refresh_device">下拉刷新设备</string>
+    <string name="RGB">七彩</string>
+    <string name="RandomPlay">随机播放</string>
+    <string name="Read_Write_Failed">读写权限申请失败</string>
+    <string name="Read_Write_Required">需要读写权限，请打开设置开启对应的权限</string>
+    <string name="Read_Write_Success">读写权限申请成功</string>
+    <string name="Repeat">重复</string>
+    <string name="Reverse">反向</string>
+    <string name="Send_Failed">发送失败</string>
+    <string name="Sending">正在发送</string>
+    <string name="Sendtiming">发送定时</string>
+    <string name="SequentialPlay">顺序播放</string>
+    <string name="SinglePlay">单曲循环</string>
+    <string name="Style">样式</string>
+    <string name="Suggest">建议</string>
+    <string name="Tab_Effect">效果</string>
+    <string name="Text">文字</string>
+    <string name="Text_Color">字颜色</string>
+    <string name="The_password_cannot_be_the_ame_number_or_letter">密码不能是一样的数字或字母</string>
+    <string name="The_system_is_not_in_breathing_mode_yet">系统还没进入呼吸模式</string>
+    <string name="Turn_Off">定时关灯</string>
+    <string name="Turn_On">定时开灯</string>
+    <string name="Tutorial">教程</string>
+    <string name="Values_can_be_the_same">值不能一样</string>
+    <string name="Voicecontrol">声控</string>
+    <string name="Wiring">布线方式</string>
+    <string name="abc_action_bar_home_description">转到首页</string>
+    <string name="abc_action_bar_up_description">转到上一层级</string>
+    <string name="abc_action_menu_overflow_description">更多选项</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">选择应用</string>
+    <string name="abc_capital_off">关闭</string>
+    <string name="abc_capital_on">开启</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete 键</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 键</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">空格键</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">搜索…</string>
+    <string name="abc_searchview_description_clear">清除查询</string>
+    <string name="abc_searchview_description_query">搜索查询</string>
+    <string name="abc_searchview_description_search">搜索</string>
+    <string name="abc_searchview_description_submit">提交查询</string>
+    <string name="abc_searchview_description_voice">语音搜索</string>
+    <string name="abc_shareactionprovider_share_with">分享对象</string>
+    <string name="abc_shareactionprovider_share_with_application">与%s分享</string>
+    <string name="abc_toolbar_collapse_description">收起</string>
+    <string name="ablum_title">歌名:%1$s 艺术家:%2$s 专辑: %3$s</string>
+    <string name="about_us_and_help">关于我们</string>
+    <string name="access_request">权限申请</string>
+    <string name="access_request_description">从Android 6.0之后，想要扫描低功率蓝牙设备，应用需要拥有访问设备位置的权限。这是因为Bluetooth beacons蓝牙信标，可用于确定手机和用户的位置。但本应用不会使用到您的位置信息，开启此权限只是为了扫描到蓝牙设备。【点击查看Google官方文档说明】</string>
+    <string name="access_request_description1">从Android 6.0之后，想要扫描低功率蓝牙设备，应用需要拥有访问设备位置的权限。这是因为Bluetooth beacons蓝牙信标，可用于确定手机和用户的位置。但本应用不会使用到您的位置信息，开启此权限只是为了扫描到蓝牙设备。</string>
+    <string name="access_request_description2">【点击查看Google官方文档说明】</string>
+    <string name="account_format_error">验证方式格式不正确</string>
+    <string name="accumulation">堆积</string>
+    <string name="action_settings">设置</string>
+    <string name="add2lib">确定选择</string>
+    <string name="add2lib_all">选择全部</string>
+    <string name="addTimer">添加定时器</string>
+    <string name="add_device">添加控制设备</string>
+    <string name="add_device_successfully">添加设备成功</string>
+    <string name="add_group">添加新组</string>
+    <string name="adding_device">正在添加设备</string>
+    <string name="agree">同意</string>
+    <string name="aisle_a">通道A</string>
+    <string name="aisle_b">通道B</string>
+    <string name="aisle_c">通道C</string>
+    <string name="all_off">全关</string>
+    <string name="all_on">全开</string>
+    <string name="allcomment">全部评论</string>
+    <string name="app_name">LED LAMP</string>
+    <string name="aquatic_mode">水草模式</string>
+    <string name="authorization_alert">从安卓6.0开始,应用程序必须开启【定位服务】才能扫描到蓝牙设备!</string>
+    <string name="authorization_title">提示:</string>
+    <string name="b">蓝色</string>
+    <string name="back">返回</string>
+    <string name="base_setting">设置</string>
+    <string name="battery">电池</string>
+    <string name="bind_end">确定</string>
+    <string name="ble_connect">蓝牙配网</string>
+    <string name="ble_not_supported">不支持该设备</string>
+    <string name="blue">%1$s</string>
+    <string name="breathe">呼吸</string>
+    <string name="brightness">亮度</string>
+    <string name="brightness_set">亮度: %1$s</string>
+    <string name="btn_pix_number">点数</string>
+    <string name="btn_set_pix_number">像素点</string>
+    <string name="btquery">温度电池查询</string>
+    <string name="busy_wait">我正忙着呢,等等</string>
+    <string name="c">青色</string>
+    <string name="camera_permissions_disabled">相機權限禁用了,請務必開啟相機權!</string>
+    <string name="can_not_connect">WIFI可能不对，3秒后重新连接或者选择新Wifi重试!</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_welcome">取消迎宾</string>
+    <string name="cancell">取消</string>
+    <string name="cancell_dialog">取消</string>
+    <string name="change_color">换色</string>
+    <string name="change_skin">更换皮肤</string>
+    <string name="channelset">颜色通道设置</string>
+    <string name="charts">图文论坛</string>
+    <string name="check_network_connection">请检查网络连接!!!</string>
+    <string name="chiptypevaluetip">请选择芯片类类型 !</string>
+    <string name="choose">选择星期</string>
+    <string name="choosemode">选择模式</string>
+    <string name="chose">请选择短视频</string>
+    <string name="chose_list">请从播放列表中选择播放内容</string>
+    <string name="chose_picthor">只能选择一张图片</string>
+    <string name="chose_video">只能选择一个视频</string>
+    <string name="circulation">循环</string>
+    <string name="clear">清除</string>
+    <string name="close">关闭</string>
+    <string name="colorful_mode">多彩模式</string>
+    <string name="colour">颜色</string>
+    <string name="comment">评论</string>
+    <string name="comment_content">正文</string>
+    <string name="comment_detail">评论详情</string>
+    <string name="comment_publish">发表</string>
+    <string name="comment_publish_success">发表成功</string>
+    <string name="comment_title">标题</string>
+    <string name="common_words">常用语</string>
+    <string name="conenct_device">%1$s设备，已连接:%2$s</string>
+    <string name="confirm">确认</string>
+    <string name="confirm_light_flash_slowly">确认灯慢闪状态</string>
+    <string name="confirm_the_light_flash">确认灯快闪状态</string>
+    <string name="confirmation_light_flash_ble">3 > 确认灯快闪(白光)</string>
+    <string name="confirmation_light_flash_hotspot">3 > 确认灯慢闪(红光)</string>
+    <string name="confirmation_light_flash_wifi">3 > 确认灯快闪(蓝光)</string>
+    <string name="connect_count">%1$s设备</string>
+    <string name="connect_success">连接成功!</string>
+    <string name="connected_to_the_hotspot_shown">1.请将手机连接到下图所示热点</string>
+    <string name="connecting">开始连接...</string>
+    <string name="control">控制</string>
+    <string name="cool_warm">冷色:%1$s 暖色:%2$s</string>
+    <string name="copy">复制</string>
+    <string name="coral_artistic_conception">珊瑚意境</string>
+    <string name="current_mode">当前模式</string>
+    <string name="current_mode_format">%1$s</string>
+    <string name="current_rgb_format">当前RGB排序: %1$s</string>
+    <string name="current_version">当前版本</string>
+    <string name="currentquery">静态查询</string>
+    <string name="custom">自定义</string>
+    <string name="cycle">循环</string>
+    <string name="database_error">数据库错误</string>
+    <string name="deep_sea_mode">深海意境</string>
+    <string name="define_system">用户自定义</string>
+    <string name="delete">删除</string>
+    <string name="delete_group">删除组 %1$s</string>
+    <string name="delete_message_success">删除成功</string>
+    <string name="deletthis">拖入这里删除</string>
+    <string name="device_has_restarted">1. 确认设备已重启，灯在快闪</string>
+    <string name="device_list">设备列表</string>
+    <string name="devices_all">所有设备</string>
+    <string name="disconnect">断开蓝牙中...</string>
+    <string name="disconnect_bluetooth">即将断开蓝牙...</string>
+    <string name="dmx02_r_g_b">R:%1$s\nG:%2$s\nB:%3$s</string>
+    <string name="download_center">下载中心</string>
+    <string name="editTimer">编辑定时器</string>
+    <string name="edit_group_please">请先选择组中的设备</string>
+    <string name="enter">请输入模式星期</string>
+    <string name="fan_rotational_temperature">风扇转动温度设置</string>
+    <string name="file_size_exceeds_limit">文件大小超出限制</string>
+    <string name="filesize">视频文件不能大于20MB</string>
+    <string name="firstlogin">请先登录</string>
+    <string name="five">五</string>
+    <string name="flash">频闪</string>
+    <string name="floor">楼</string>
+    <string name="floor_host">楼主</string>
+    <string name="flow">白x白流动</string>
+    <string name="forget_password">忘记密码?</string>
+    <string name="forum">论坛</string>
+    <string name="four">四</string>
+    <string name="g">绿色</string>
+    <string name="get_checkcode">获取验证码</string>
+    <string name="goodbye">再见！</string>
+    <string name="gpsNotifyMsg">当前应用需要打开定位功能。\n请点击\"设置\"-\"定位服务\"-打开定位功能。</string>
+    <string name="gradient">渐变</string>
+    <string name="green">%1$s</string>
+    <string name="group_ble_device">分组</string>
+    <string name="groupname_cannot_same">组名不能相同 !</string>
+    <string name="have_time_to_talk">有时间聊聊吗</string>
+    <string name="hello_there">你好！</string>
+    <string name="help">帮助</string>
+    <string name="home">首页</string>
+    <string name="home_page">图文</string>
+    <string name="hotspot_connect">热点配网</string>
+    <string name="hour">小时</string>
+    <string name="input_account">请输入账号</string>
+    <string name="input_content">输入内容...</string>
+    <string name="input_format_error">输入格式错误</string>
+    <string name="input_length_error">输入长度错误</string>
+    <string name="input_not_null">输入不能为空</string>
+    <string name="input_password">请输入密码</string>
+    <string name="invalid_verification_code">无效的验证码</string>
+    <string name="is_it_2_4">2. 检查 Wi-Fi 是否为 2.4GHz</string>
+    <string name="is_the_password_correct">3. 核对 Wi-Fi 密码是否正确</string>
+    <string name="jump">跳变</string>
+    <string name="jump_over">跳过</string>
+    <string name="keyStr">1234567890abcdef</string>
+    <string name="key_in_numbers">请输入数字!</string>
+    <string name="led_like">LED LIKE</string>
+    <string name="left_front_door">左前门</string>
+    <string name="left_rear_door">左后门</string>
+    <string name="light_code">地址码数</string>
+    <string name="lightning_mode">闪电模式</string>
+    <string name="loading">加载中...</string>
+    <string name="login">登录</string>
+    <string name="loginapp">请先登陆论坛</string>
+    <string name="logon_agree_policy1">登录即代表阅读并同意</string>
+    <string name="logon_agree_policy2">服务协议</string>
+    <string name="logout">退出登录</string>
+    <string name="long_press_the_controller_colorbtn">2 > 长按控制器颜色键5s</string>
+    <string name="long_press_the_controller_muscibtn">2 > 长按控制器音乐键5s</string>
+    <string name="long_press_the_controller_onoffbtn">2 > 长按控制器开关键5s</string>
+    <string name="look">查看此评论</string>
+    <string name="looking">预览中...</string>
+    <string name="main_tab_text_service">LED LAMP</string>
+    <string name="marine_mode">海洋模式</string>
+    <string name="materialcolorpicker__app_name">Android Material Color Picker Dialog</string>
+    <string name="materialcolorpicker__btnSelectColor">取消</string>
+    <string name="materialcolorpicker__descLib">Material Color Picker Dialog</string>
+    <string name="materialcolorpicker__errHex">Hex Code Format incorrect</string>
+    <string name="materialcolorpicker__hash">#</string>
+    <string name="materialcolorpicker__inputColor">确定</string>
+    <string name="micro_authorized">麦克风已授权</string>
+    <string name="minute">分钟</string>
+    <string name="mode">模式</string>
+    <string name="mode_select">模式切换</string>
+    <string name="mode_set">模式: %1$s</string>
+    <string name="model">模式</string>
+    <string name="msg_no_add_scene">未选择内容，此操作无效</string>
+    <string name="msg_not_empty">数据未保存，确定要退出吗</string>
+    <string name="msg_sending_online">正在扫描...</string>
+    <string name="multipoint_fast_running">多点跑马</string>
+    <string name="music_lib">乐库</string>
+    <string name="my_personal">我的</string>
+    <string name="natural_light">自然色</string>
+    <string name="nei_mai">内麦</string>
+    <string name="network_timeout">设备连接网络超时</string>
+    <string name="new_password">新密码：</string>
+    <string name="next_step">下一步</string>
+    <string name="no_account">没有账号？</string>
+    <string name="no_data">没有数据</string>
+    <string name="no_device_found">没有搜索到蓝牙设备！</string>
+    <string name="no_more_data">没有更多的数据</string>
+    <string name="normal">按住 说话</string>
+    <string name="not_used">暂不使用</string>
+    <string name="nothing">暂无数据</string>
+    <string name="ok">OK</string>
+    <string name="old_password">旧密码：</string>
+    <string name="one">一</string>
+    <string name="online_service">在线客服</string>
+    <string name="open">开启</string>
+    <string name="open_album">打开相册</string>
+    <string name="open_close">拉/闭幕</string>
+    <string name="openapp">请点击右上角⊕添加软件,首次使用请点击右下角帮助查看操作指南</string>
+    <string name="p">紫色</string>
+    <string name="p_explain">图文讲解</string>
+    <string name="pair_code">对码</string>
+    <string name="pair_code_set">当前码: %1$s</string>
+    <string name="parameter_error">参数错误</string>
+    <string name="password">密码</string>
+    <string name="password_edit">密码由8位数字或者字母组成 (0~9,A~F)</string>
+    <string name="password_error">密码错误</string>
+    <string name="pecent_photos">最近照片</string>
+    <string name="phone_connected_to_hotspot">将手机 WiFi 连接到设备热点</string>
+    <string name="phone_or_email">手机号码或电子邮箱</string>
+    <string name="picture">图片不能大于1MB请重新选择</string>
+    <string name="playvideo">播放</string>
+    <string name="please_describe_your_problem">您好，请描述您的问题，我会尽快帮您解决哟~</string>
+    <string name="please_enter_again">请重新输入</string>
+    <string name="please_input">新组名称</string>
+    <string name="please_use_the_verification_code_sent">请用已发送的验证码</string>
+    <string name="position_closed">定位已关闭</string>
+    <string name="position_service">定位服务</string>
+    <string name="position_service_info">您的手机可能需要开启定位服务才能搜索到蓝牙设备。如果您确定身边有蓝牙设备，却无法搜索到设备，请开启定位服务。</string>
+    <string name="power_on">1 > 连接电源</string>
+    <string name="preview">预览</string>
+    <string name="privacy_policy">服务协议和隐私政策</string>
+    <string name="privacy_policy_content">请你务必审慎阅读、充分理解“服务协议”和“隐私政策”各条款，包括但不限于：为了向你提供数据、分享等服务所要获取的权限信息。你可阅读《服务协议》和《隐私政策》了解详细信息。如你同意，请点击“同意”开始接受我们的服务。</string>
+    <string name="privacy_policy_content1">请你务必审慎阅读、充分理解“服务协议”和“隐私政策”各条款，包括但不限于：为了向你提供数据、分享等服务所要获取的权限信息。你可阅读</string>
+    <string name="privacy_policy_content2">《服务协议》</string>
+    <string name="privacy_policy_content3">和</string>
+    <string name="privacy_policy_content4">《隐私政策》</string>
+    <string name="publish_comment">视频</string>
+    <string name="query">查询</string>
+    <string name="r">红色</string>
+    <string name="r_g_b">R:%1$s G:%2$s B:%3$s</string>
+    <string name="rationale_ask_again">如果没有请求的权限，这个应用程序可能无法正常工作。打开应用程序设置界面修改应用程序权限。</string>
+    <string name="reason">原因</string>
+    <string name="recording">松开 结束</string>
+    <string name="red">%1$s</string>
+    <string name="regist_agree_policy">注册即代表阅读并同意服务协议和隐私政策</string>
+    <string name="regist_agree_policy1">注册即代表阅读并同意</string>
+    <string name="regist_agree_policy2">服务协议</string>
+    <string name="regist_agree_policy3">和</string>
+    <string name="regist_agree_policy4">隐私政策</string>
+    <string name="register">注册</string>
+    <string name="register_account">账号：</string>
+    <string name="register_checkcode">验证码：</string>
+    <string name="register_email">验证方式：</string>
+    <string name="register_password">密码：</string>
+    <string name="register_success">注册成功</string>
+    <string name="replacement">重置</string>
+    <string name="reply">回复</string>
+    <string name="request_failed">请求失败,请稍后重试</string>
+    <string name="reset_device">请先重置设备</string>
+    <string name="reset_message">重置后数据将清除，确定要重置吗？</string>
+    <string name="reset_password">重置密码</string>
+    <string name="reset_password_success">重置密码成功，请重新登陆!</string>
+    <string name="retrieve">找回</string>
+    <string name="retrieve_password">找回密码</string>
+    <string name="return_to_this_app_to_continue_adding_device">2.返回本应用，继续添加设备</string>
+    <string name="rgb_sort">RGB 排序</string>
+    <string name="rgb_sort_set">当前排序: %1$s</string>
+    <string name="right_front_door">右前门</string>
+    <string name="right_rear_door">右后门</string>
+    <string name="ring">色环</string>
+    <string name="run">运行</string>
+    <string name="save">保存</string>
+    <string name="saveSuccessfully">保存成功</string>
+    <string name="saved_to_local_album">已保存到本地相册</string>
+    <string name="savefailed">保存失败</string>
+    <string name="scan_dev_info">扫描到 %1$s 设备，请返回首页打开 %2$s 应用</string>
+    <string name="scan_dev_info_wifi">扫描到 %1$s 个设备，已添加成功 %2$s 个</string>
+    <string name="scan_failed_with_missing_permissions">扫描失败，缺少权限</string>
+    <string name="scan_to">扫描到</string>
+    <string name="sdded_successfully">添加成功</string>
+    <string name="search_menu_title">搜索</string>
+    <string name="second">秒钟</string>
+    <string name="select_all">全选</string>
+    <string name="select_chip">选择芯片</string>
+    <string name="send">发送</string>
+    <string name="sendSccess">发送成功,断电之后定时设置无效</string>
+    <string name="send_checkcode">验证码已发送</string>
+    <string name="sendcharts">发贴</string>
+    <string name="sendtie">发送中...</string>
+    <string name="sendvideo">发视频</string>
+    <string name="sensitivity">灵敏度</string>
+    <string name="sensitivity_set">灵敏度: %1$s</string>
+    <string name="sent_success">发送成功</string>
+    <string name="set_focus">设置</string>
+    <string name="set_pix_number">设置地址码(0-512)</string>
+    <string name="setting">Wifi Connection -></string>
+    <string name="seven">日</string>
+    <string name="shake">摇一摇</string>
+    <string name="shouzhishanghua">手指上滑，取消发送</string>
+    <string name="single_click_select_color">单击选择颜色, 长按删除颜色</string>
+    <string name="single_lamp_jump">单灯跳变</string>
+    <string name="single_lamp_strobe">单灯频闪</string>
+    <string name="single_light_gradient">单灯渐变</string>
+    <string name="singlepoint_fast_running">单点跑马</string>
+    <string name="six">六</string>
+    <string name="six_eighteen_length">6~18位数字字母</string>
+    <string name="six_number">6位数字</string>
+    <string name="skin_restoration">皮肤还原</string>
+    <string name="skip_reset_step_ble">若灯快闪白光，请跳过重置步骤</string>
+    <string name="skip_reset_step_hotspot">若灯慢闪红光，请跳过重置步骤</string>
+    <string name="skip_reset_step_wifi">若灯快闪蓝光，请跳过重置步骤</string>
+    <string name="sleep_mode">睡眠模式</string>
+    <string name="spacercode">间隔码</string>
+    <string name="spacercodevaluetip">请输入间隔码 !</string>
+    <string name="speed">速度</string>
+    <string name="speed_set">速度: %1$s</string>
+    <string name="startcode">起始码</string>
+    <string name="startcodevaluetip">请输入起始码 !</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="step_1">第一步\n点击底部导航\n“视频”图标</string>
+    <string name="step_2">如遇APP闪退\n\n请先卸载APP\n\n重新下载</string>
+    <string name="step_3">第三步\n点击视频教程</string>
+    <string name="strobe">爆闪</string>
+    <string name="sun_a">冷暖跳变</string>
+    <string name="sun_b">冷色呼吸</string>
+    <string name="sun_c">暖色呼吸</string>
+    <string name="sun_d">自然呼吸</string>
+    <string name="sun_e">冷暖呼吸</string>
+    <string name="sun_f">冷暖频闪</string>
+    <string name="sun_g">冷色频闪</string>
+    <string name="sun_h">暖色频闪</string>
+    <string name="sun_sei">冷色:100 暖色:0</string>
+    <string name="sunrise_mode">日出模式</string>
+    <string name="sunset_mode">日落模式</string>
+    <string name="sunshine_mode">日阳高照</string>
+    <string name="supported">抱歉,支持最多16个定时</string>
+    <string name="supportedlight">抱歉,支持最多10个定时</string>
+    <string name="sure">确定</string>
+    <string name="switch_distribution_mode">请尝试切换配网模式</string>
+    <string name="switch_to_the_distribution_network">切换配网方式</string>
+    <string name="system_device">系统</string>
+    <string name="system_error">系统错误</string>
+    <string name="tab_aisle">通道</string>
+    <string name="tab_brightness">亮度</string>
+    <string name="tab_ct">色温</string>
+    <string name="tab_custom">自定义</string>
+    <string name="tab_dm">单色</string>
+    <string name="tab_mode">模式</string>
+    <string name="tab_music">音乐</string>
+    <string name="tab_record">麦克风</string>
+    <string name="tab_reg">彩色</string>
+    <string name="tab_scene">情景</string>
+    <string name="tab_timer">定时</string>
+    <string name="table1">表一</string>
+    <string name="table2">表二</string>
+    <string name="take_video">最近视频</string>
+    <string name="temperature">温度</string>
+    <string name="text">请输入正文</string>
+    <string name="text_addname">添加(修改)名字</string>
+    <string name="text_addscene_new">添加新服务</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_custom">用户自定义</string>
+    <string name="text_edit">编辑</string>
+    <string name="text_empty_name">名字不能为空</string>
+    <string name="text_empty_service">服务不能为空</string>
+    <string name="text_exit">再按一次退出LED LAMP</string>
+    <string name="text_input_name">1至16个字母、数字或下划线组合</string>
+    <string name="text_ledble">LED BLE</string>
+    <string name="text_leddmx">LED DMX</string>
+    <string name="text_ledlight">LED LIGHT</string>
+    <string name="text_ledline">LED LINE</string>
+    <string name="text_ledsmart">LED SMART</string>
+    <string name="text_ledspi">LED SPI</string>
+    <string name="text_ledstage">LED STAGE</string>
+    <string name="text_ledstrip">LED STRIP</string>
+    <string name="text_ledsun">LED SUN</string>
+    <string name="text_ledwifi">LED WiFi</string>
+    <string name="text_ok">确定</string>
+    <string name="text_over">完成</string>
+    <string name="text_pic">图片</string>
+    <string name="text_pick_camera">拍照</string>
+    <string name="text_pick_local">图库</string>
+    <string name="text_relaxation">休闲</string>
+    <string name="text_romance">浪漫</string>
+    <string name="text_selectdevice">选择设备</string>
+    <string name="text_sport">运动</string>
+    <string name="text_storage">保存</string>
+    <string name="text_str">名字</string>
+    <string name="text_system">系统</string>
+    <string name="text_warm_content">确定要删除此服务吗？</string>
+    <string name="text_warm_content1">请在下方输入框中输入：</string>
+    <string name="text_warming">温馨提示</string>
+    <string name="the_parameter_is_empty">参数为空</string>
+    <string name="the_verification_code_is_sent_abnormally_please_try_again">验证码发送异常,请重试</string>
+    <string name="three">三</string>
+    <string name="thunderstorm_mode">雷雨模式</string>
+    <string name="tiele">请输入标题</string>
+    <string name="time">时间</string>
+    <string name="timeSize">定时器个数最多为24个</string>
+    <string name="time_set">定时校正</string>
+    <string name="timeday">定时器时间不能相同</string>
+    <string name="timelow">电量过低，可能会影响APP的正常使用</string>
+    <string name="timer">确定删除这个定时器吗?</string>
+    <string name="timingquery">定时查询</string>
+    <string name="tip_istribution_network">注意：重置设备后，请在三分钟内完成配网操作</string>
+    <string name="tips">提示</string>
+    <string name="title_settings_dialog">权限要求</string>
+    <string name="to_connect">去连接</string>
+    <string name="toast_scene_exist">该服务已存在</string>
+    <string name="token_error">令牌错误</string>
+    <string name="toolong">录音时间过长</string>
+    <string name="tooshort">录音时间过短</string>
+    <string name="turn_on_the_camera">打开相机</string>
+    <string name="tv_chip_set">设置</string>
+    <string name="two">二</string>
+    <string name="un_known_artist">未知艺术家</string>
+    <string name="update">修改</string>
+    <string name="update_password">修改密码</string>
+    <string name="update_password_success">修改密码成功</string>
+    <string name="username_already_exists">用户名已存在</string>
+    <string name="valuetip">请输入大于0的值!</string>
+    <string name="video">视频</string>
+    <string name="video_explain">视频讲解</string>
+    <string name="video_operation_tutorial">视频操作教程</string>
+    <string name="w">白色</string>
+    <string name="wai_mai">外麦</string>
+    <string name="want_to_cancle">松开手指，取消发送</string>
+    <string name="warm_light">暖色</string>
+    <string name="welcome_mode">迎宾模式</string>
+    <string name="what_the_matter">有啥事吗？</string>
+    <string name="white_light">冷色</string>
+    <string name="wifi_connect">WiFi快连</string>
+    <string name="wifi_network">当前在2.4GHz Wi-Fi 网络并输入密码</string>
+    <string name="wifi_network_not_2_4">如果你的Wi-Fi是5GHz的，请先设置成2.4GHz</string>
+    <string name="wifi_signal_is_good">确保 Wi-Fi 信号良好</string>
+    <string name="write">我们需要访问您的照片、媒体内容和文件才可以展示照片。</string>
+    <string name="wrong_old_password">旧密码错误</string>
+    <string name="wrong_user_name_or_password">用户名或密码错误</string>
+</resources>

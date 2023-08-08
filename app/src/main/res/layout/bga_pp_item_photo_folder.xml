@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bga_pp_selector_item_folder" android:padding="@dimen/bga_pp_size_level2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.ccr.achenglibrary.photopicker.widget.CCRImageView android:id="@+id/iv_item_photo_folder_photo" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginRight="@dimen/bga_pp_size_level2" android:src="@mipmap/bga_pp_ic_holder_dark" android:scaleType="centerCrop"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/bga_pp_textSize_level1" android:textColor="#747b83" android:id="@+id/tv_item_photo_folder_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/bga_pp_textSize_level1" android:textColor="#747b83" android:id="@+id/tv_item_photo_folder_count" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bga_pp_size_level2" android:singleLine="true"/>
+    </LinearLayout>
+</LinearLayout>

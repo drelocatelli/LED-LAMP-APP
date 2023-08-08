@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="center_vertical" android:background="@color/blue" android:layout_width="match_parent" android:layout_height="@dimen/tab_hight">
+        <TextView android:textSize="@dimen/textsize_nav_bar" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/textViewNavCenter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/download_center" android:layout_centerInParent="true"/>
+        <TextView android:textSize="@dimen/textsize_nav_bar" android:id="@+id/textViewNavLeft" android:background="@drawable/back_nomal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/navbar_marginLeft" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <ImageButton android:gravity="center" android:id="@+id/imageViewNavRight" android:background="@drawable/refresh_icon_black" android:layout_width="@dimen/nav_img_size" android:layout_height="@dimen/nav_img_size" android:layout_marginRight="@dimen/navbar_marginRight" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@+id/wv_oauth" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:gravity="center_vertical" android:id="@+id/blank" android:background="#dcdbdb" android:paddingLeft="20dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="35dp" android:text="@string/app_name"/>
+    <com.home.activity.service.category.GridViewForScrollView android:id="@+id/gridView" android:layout_width="match_parent" android:layout_height="wrap_content" android:numColumns="3"/>
+</LinearLayout>

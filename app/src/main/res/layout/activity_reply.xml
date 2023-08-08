@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/layout_title_back"/>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@+id/srl_Comment" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/dp_48" android:layout_above="@+id/rl_bottom111">
+        <ListView android:id="@+id/lv_Reply" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" android:layout_above="@+id/btnReply" android:overScrollMode="never"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <Button android:id="@+id/btnReply" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/comment" android:layout_alignParentBottom="true"/>
+    <RelativeLayout android:id="@+id/rl_bottom111" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <EditText android:textSize="14sp" android:textColor="#ff151515" android:gravity="center_vertical" android:id="@+id/et_context111" android:background="@drawable/shape_gray" android:clickable="true" android:layout_width="match_parent" android:layout_height="35dp" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_10" android:layout_marginRight="@dimen/dp_10" android:hint="@string/comment" android:layout_toLeftOf="@+id/tv_send111"/>
+        <TextView android:textSize="14dp" android:textColor="@color/white" android:gravity="center" android:id="@+id/tv_send111" android:background="@drawable/bottom_border" android:clickable="true" android:layout_width="50dp" android:layout_height="35dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp" android:layout_marginBottom="5dp" android:text="@string/comment_publish" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</RelativeLayout>

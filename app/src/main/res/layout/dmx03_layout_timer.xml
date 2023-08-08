@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/dp_250" android:layout_marginLeft="20dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <TextView android:textSize="@dimen/dp_16" android:textColor="@color/white" android:id="@+id/tvMode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Turn_On" android:layout_centerVertical="true"/>
+            <ImageView android:id="@+id/image" android:layout_width="@dimen/dp_70" android:layout_height="@dimen/dp_40" android:layout_marginRight="@dimen/dp_20" android:src="@drawable/butn_open" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="10dp">
+            <TextView android:background="@color/light_gray_1" android:layout_width="match_parent" android:layout_height="0.3dp" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/rlTime" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <TextView android:textSize="@dimen/dp_16" android:textColor="@color/white" android:id="@+id/tvTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/time" android:layout_centerVertical="true"/>
+            <TextView android:textSize="@dimen/dp_16" android:textColor="@color/white" android:id="@+id/tvTimeValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_20" android:text="00:00" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="20dp">
+            <TextView android:background="@color/light_gray_1" android:layout_width="match_parent" android:layout_height="0.3dp" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <TextView android:textSize="@dimen/dp_16" android:textColor="@color/white" android:id="@+id/tvRepeat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Repeat" android:layout_centerVertical="true"/>
+            <com.home.view.SelectMultiCheckGroup android:gravity="center" android:id="@+id/checkGroup" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dp_5" android:layout_marginRight="@dimen/dp_5" android:layout_toRightOf="@+id/tvRepeat" android:layout_centerVertical="true" app:column="7" app:row="1"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1.5"/>
+    </LinearLayout>
+</LinearLayout>

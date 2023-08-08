@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/ivAdvertImage" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/llSkip" android:background="#80000000" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp" android:layout_alignParentRight="true">
+        <TextView android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/jump_over"/>
+        <TextView android:textColor="@android:color/white" android:id="@+id/tvText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5S"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/dp_8" android:paddingRight="@dimen/dp_8" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/llReply" android:layout_width="match_parent" android:layout_height="@dimen/dp_26" android:layout_marginStart="@dimen/dp_20">
+        <com.video.CircleImageView android:id="@+id/iv_contenthead" android:layout_width="@dimen/dp_26" android:layout_height="@dimen/dp_26" android:src="@drawable/user_pic"/>
+        <TextView android:textSize="14sp" android:textColor="@color/black" android:id="@+id/tvAuthor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp"/>
+        <TextView android:textSize="14sp" android:textColor="@color/blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:text="@string/comment"/>
+        <TextView android:textSize="14sp" android:textColor="@color/black" android:id="@+id/tvTarget" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView android:textSize="16sp" android:textColor="@color/grayDark" android:id="@+id/tvContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_26" android:layout_marginStart="@dimen/dp_50"/>
+    <TextView android:textColor="@color/blue" android:id="@+id/tv_con" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_20" android:text="@string/reply" android:layout_below="@+id/tvContent" android:layout_alignParentRight="true"/>
+    <TextView android:background="@color/gray_line_bg" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/dp_5" android:layout_below="@+id/tvContent"/>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="10sp" android:textColor="@color/light_gray_6" android:id="@+id/chat_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <ImageView android:id="@+id/tb_other_user_icon" android:layout_width="50dp" android:layout_height="50dp" android:layout_below="@+id/chat_time" android:layout_alignParentLeft="true"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/tb_other_user_icon" android:layout_below="@+id/chat_time">
+        <com.forum.im.widget.GifTextView android:textSize="16sp" android:id="@+id/content" android:background="@drawable/chatfrom_bg_focused" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+    </LinearLayout>
+</RelativeLayout>

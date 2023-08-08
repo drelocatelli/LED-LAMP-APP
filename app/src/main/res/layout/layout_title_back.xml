@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/blue" android:layout_width="match_parent" android:layout_height="48dp">
+    <ImageView android:id="@+id/ivBack" android:layout_width="48dp" android:layout_height="match_parent" android:src="@drawable/back_nomal" android:scaleType="centerInside"/>
+    <TextView android:textSize="@dimen/text_size4" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/ivTutorial" android:paddingLeft="10dp" android:visibility="gone" android:layout_width="@dimen/dp_120" android:layout_height="match_parent" android:drawableLeft="@drawable/tutorial" android:drawablePadding="5dp"/>
+    <TextView android:textSize="18sp" android:textColor="@color/white" android:id="@+id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/main_tab_text_service" android:layout_centerInParent="true"/>
+    <ImageView android:id="@+id/imageViewAdd" android:layout_width="@dimen/dp_35" android:layout_height="match_parent" android:layout_marginRight="@dimen/dp_10" android:src="@drawable/abcd" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_tab_item" android:visibility="gone" android:layout_width="match_parent" android:layout_height="48dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="40dp">
+            <TextView android:gravity="center" android:visibility="gone" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:id="@+id/imageViewIM" android:layout_width="@dimen/dp_45" android:layout_height="@dimen/dp_45" android:layout_marginLeft="@dimen/dp_5" android:layout_marginTop="@dimen/dp_5" android:src="@drawable/im_icon" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@+id/tvOther" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/Other" android:layout_weight="1"/>
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@+id/tvConnect" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/Connect" android:layout_weight="1"/>
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@+id/tvAdvisory" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/Advisory" android:layout_weight="1"/>
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@+id/tvSuggest" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/Suggest" android:layout_weight="1"/>
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@+id/tvHot" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/Hot" android:layout_weight="1"/>
+            <TextView android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="2dp">
+            <TextView android:background="@color/transparent" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <TextView android:id="@+id/tvOtherLine" android:background="@color/white" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <TextView android:id="@+id/tvConnectLine" android:background="@color/transparent" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <TextView android:id="@+id/tvAdvisoryLine" android:background="@color/transparent" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <TextView android:id="@+id/tvSuggestLine" android:background="@color/transparent" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <TextView android:id="@+id/tvHotLine" android:background="@color/transparent" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            <TextView android:background="@color/transparent" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

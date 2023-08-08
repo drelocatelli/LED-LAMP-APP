@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/titleViewBg" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="48dp"/>
+    <TextView android:textSize="17sp" android:textColor="?attr/res_0x7f0401f8_title_textcolor" android:ellipsize="end" android:gravity="center" android:id="@+id/picture_title" android:layout_width="wrap_content" android:layout_height="48dp" android:text="@string/picture_camera_roll" android:maxEms="11" android:layout_centerHorizontal="true"/>
+    <ImageView android:id="@+id/ivArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?attr/res_0x7f0401e6_arrow_down_icon" android:scaleType="centerInside" android:layout_toRightOf="@+id/picture_title" android:layout_alignTop="@+id/picture_title" android:layout_alignBottom="@+id/picture_title"/>
+    <TextView android:textSize="14sp" android:textColor="?attr/res_0x7f0401f3_right_textcolor" android:gravity="center" android:id="@+id/picture_right" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="48dp" android:text="@string/picture_cancel" android:layout_alignParentRight="true"/>
+    <ImageView android:id="@+id/picture_left_back" android:padding="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?attr/res_0x7f0401ef_leftback_icon" android:layout_alignTop="@+id/picture_title" android:layout_alignBottom="@+id/picture_title"/>
+    <TextView android:background="@color/picture_color_e" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="10dp" android:layout_below="@+id/picture_title"/>
+</merge>

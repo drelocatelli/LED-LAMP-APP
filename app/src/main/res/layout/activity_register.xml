@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/background_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/layout_title_back"/>
+    <LinearLayout android:orientation="vertical" android:padding="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_50">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/dp_45">
+            <TextView android:textSize="@dimen/dp_20" android:gravity="right" android:layout_width="@dimen/dp_100" android:layout_height="wrap_content" android:text="@string/register_account"/>
+            <EditText android:textSize="@dimen/dp_16" android:textColor="@android:color/black" android:textColorHint="@color/tv_gray_deep" android:layout_gravity="center" android:id="@+id/clearEtName" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_normal" android:hint="@string/six_eighteen_length" android:maxLines="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/dp_45" android:layout_marginTop="@dimen/dp_10">
+            <TextView android:textSize="@dimen/dp_20" android:gravity="right" android:id="@+id/tvPassWord" android:layout_width="100dp" android:layout_height="wrap_content" android:text="@string/register_password"/>
+            <EditText android:textSize="@dimen/dp_16" android:textColor="@android:color/black" android:textColorHint="@color/tv_gray_deep" android:layout_gravity="center" android:id="@+id/clearEtPassWord" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_normal" android:hint="@string/six_eighteen_length" android:maxLines="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/dp_45" android:layout_marginTop="@dimen/dp_10">
+            <TextView android:textSize="@dimen/dp_20" android:gravity="right" android:layout_width="@dimen/dp_100" android:layout_height="wrap_content" android:text="@string/register_email"/>
+            <EditText android:textSize="@dimen/dp_16" android:textColor="@android:color/black" android:textColorHint="@color/tv_gray_deep" android:layout_gravity="center" android:id="@+id/clearEtCheckMode" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_normal" android:hint="@string/phone_or_email" android:maxLines="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/dp_45" android:layout_marginTop="@dimen/dp_10">
+            <TextView android:textSize="@dimen/dp_20" android:gravity="right" android:layout_width="@dimen/dp_100" android:layout_height="wrap_content" android:text="@string/register_checkcode"/>
+            <EditText android:textSize="@dimen/dp_16" android:textColor="@android:color/black" android:textColorHint="@color/tv_gray_deep" android:layout_gravity="center" android:id="@+id/clearEtCheckCode" android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_normal" android:hint="@string/six_number" android:maxLines="1" android:layout_weight="1"/>
+            <TextView android:textSize="@dimen/dp_16" android:textColor="@color/white" android:gravity="center" android:id="@+id/tvCheckcode" android:background="@color/T_99" android:padding="2dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="8dp" android:text="@string/get_checkcode" android:layout_weight="1"/>
+        </LinearLayout>
+        <Button android:textColor="@color/white" android:id="@+id/btnRegister" android:background="@drawable/bottom_border" android:layout_width="match_parent" android:layout_height="@dimen/dp_40" android:layout_marginTop="100dp" android:text="@string/register"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/llCheckAgreement" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20">
+            <CheckBox android:id="@+id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+            <TextView android:textColor="@color/gray" android:id="@+id/tvSpan" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

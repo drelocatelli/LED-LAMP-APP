@@ -1,0 +1,1200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ble_mode">
+        <item>三色ジャンプ,135</item>
+        <item>7色ジャンプ,136</item>
+        <item>三色グラデーション,137</item>
+        <item>7色グラデーション,138</item>
+        <item>赤のグラデーション,139</item>
+        <item>グリーングラデーション,140</item>
+        <item>ブルーグラデーション,141</item>
+        <item>黄色のグラデーション,142</item>
+        <item>シアングラデーション,143</item>
+        <item>紫色のグラデーション,144</item>
+        <item>白グラデーション,145</item>
+        <item>赤と緑のグラデーション,146</item>
+        <item>赤と青のグラデーション,147</item>
+        <item>グリーンブルーグラデーション,148</item>
+        <item>7色ストロボ,149</item>
+        <item>赤いストロボ,150</item>
+        <item>グリーンストロボ,151</item>
+        <item>ブルーストロボ,152</item>
+        <item>黄色いストロボ,153</item>
+        <item>シアンストロボ,154</item>
+        <item>紫色のストロボ,155</item>
+        <item>白いストロボ,156</item>
+        <item>スタティックレッド,128</item>
+        <item>スタティックブルー,129</item>
+        <item>スタティックグリーン,130</item>
+        <item>静的シアン,131</item>
+        <item>スタティックイエロー,132</item>
+        <item>スタティックパープル,133</item>
+        <item>スタティックホワイト,134</item>
+    </array>
+    <array name="chip_model">
+        <item>UCS512C,2</item>
+        <item>UCS512A,1</item>
+    </array>
+    <array name="ct_mode">
+        <item>暖かい 0% 寒い 100%,128</item>
+        <item>暖かい 10% 寒い 90%,129</item>
+        <item>暖かい 20% 寒い 80%,130</item>
+        <item>暖かい 30% 寒い 70%,131</item>
+        <item>暖かい 40% 寒い 60%,132</item>
+        <item>暖かい 50% 寒い 50%,133</item>
+        <item>暖かい 60% 寒い 40%,134</item>
+        <item>暖かい 70% 寒い 30%,135</item>
+        <item>暖かい 80% 寒い 20%,136</item>
+        <item>暖かい 90% 寒い 10%,137</item>
+        <item>暖かい 100% 寒い 0%,138</item>
+    </array>
+    <array name="custom_model">
+        <item>1:グラデーション,0</item>
+        <item>2:末尾,1</item>
+        <item>3:流水,2</item>
+        <item>4:光に従ってください,3</item>
+        <item>5:積み上げ,4</item>
+        <item>6:ホワイト×ホワイトフロー,5</item>
+        <item>7:一点馬,6</item>
+        <item>8:もっと競馬,7</item>
+        <item>9:引く/閉じる,8</item>
+        <item>10:単一光グラデーション,9</item>
+        <item>11:シングルランプジャンプ,10</item>
+        <item>12:単灯ストロボ,11</item>
+    </array>
+    <array name="dm_mode">
+        <item>0%,128</item>
+        <item>10%,129</item>
+        <item>20%,130</item>
+        <item>30%,131</item>
+        <item>40%,132</item>
+        <item>50%,133</item>
+        <item>60%,134</item>
+        <item>70%,135</item>
+        <item>80%,136</item>
+        <item>90%,137</item>
+        <item>100%,138</item>
+    </array>
+    <array name="dmx_model">
+        <item>自動サイクル,255</item>
+        <item>1:ポジティブイリュージョン,1</item>
+        <item>2:逆錯覚,2</item>
+        <item>3:ポジティブ7色の明暗変換,3</item>
+        <item>4:7色の明暗反転を反転させる,4</item>
+        <item>5:赤、緑、青のポジティブトランジション,5</item>
+        <item>6:赤、緑、青の明暗の反転,6</item>
+        <item>7:ポジティブイエロー、ブルー、パープルトランジション,7</item>
+        <item>8:黄 - 青 - 紫の逆転移,8</item>
+        <item>9:前方6色のトランジションレッド,9</item>
+        <item>10:逆6色のトランジションレッド,10</item>
+        <item>11:ポジティブ6色トランジショングリーン,11</item>
+        <item>12:逆6色のトランジショングリーン,12</item>
+        <item>13:フォワード6色トランジションブルー,13</item>
+        <item>14:逆6色トランジションブルー,14</item>
+        <item>15:順方向6色遷移シアン,15</item>
+        <item>16:シアン反転6色トランジション,16</item>
+        <item>17:フォワード6色トランジションイエロー,17</item>
+        <item>18:逆6色トランジションイエロー,18</item>
+        <item>19:ポジティブ6色トランジションパープル,19</item>
+        <item>20:逆6色トランジションパープル,20</item>
+        <item>21:フォワード6色トランジションホワイト,21</item>
+        <item>22:逆6色のトランジションホワイト,22</item>
+        <item>23:ポジティブカラフルテール,23</item>
+        <item>24:カラフルな尾を反転,24</item>
+        <item>25:正の赤い尾,25</item>
+        <item>26:逆の赤の後尾,26</item>
+        <item>27:ポジティブグリーンテール,27</item>
+        <item>28:逆グリーントレーリング,28</item>
+        <item>29:ポジティブブルーテール,29</item>
+        <item>30:逆ブルーテール,30</item>
+        <item>31:正の黄色い尾,31</item>
+        <item>32:逆の黄色い尾,32</item>
+        <item>33:ポジティブシアンテール,33</item>
+        <item>34:逆シアンテール,34</item>
+        <item>35:ポジティブパープルテール,35</item>
+        <item>36:とにかく、紫色の末尾,36</item>
+        <item>37:ポジティブホワイトトレーリング,37</item>
+        <item>38:逆の白い尾,38</item>
+        <item>39:ポジティブなカラフルな水,39</item>
+        <item>40:カラフルな水を反転,40</item>
+        <item>41:赤、緑、青のプラスの水,41</item>
+        <item>42:赤、緑、青の水を逆にする,42</item>
+        <item>43：黄褐色の水,43</item>
+        <item>44：黄色と青の逆の水,44</item>
+        <item>45：赤と緑の水,45</item>
+        <item>46：赤と緑を逆にした水,46</item>
+        <item>47：緑と青の水,47</item>
+        <item>48：緑と青の逆の水,48</item>
+        <item>49：黄色と青の陽の水,49</item>
+        <item>50：黄色と青の逆の水,50</item>
+        <item>51：プラスの黄色い水,51</item>
+        <item>52：黄色と青の逆の水,52</item>
+        <item>53：ポジティブブルーウォーター,53</item>
+        <item>54：逆シアン水,54</item>
+        <item>55：白黒の前方へ,55</item>
+        <item>56：白黒の逆の水,56</item>
+        <item>57：カラフルな画面,57</item>
+        <item>58：カラフルな閉幕,58</item>
+        <item>59：赤、緑、青の画面,59</item>
+        <item>60：赤、緑、青の終わり,60</item>
+        <item>61：黄Qingzi幕,61</item>
+        <item>62：黄Qingzi休業,62</item>
+        <item>63：多彩な追跡へ,63</item>
+        <item>64：カラフルな逆追跡,64</item>
+        <item>65：赤、緑、青の前方,65</item>
+        <item>66：赤、緑、青の逆光,66</item>
+        <item>67：黄色と紫のプラスの追跡光,67</item>
+        <item>68：黄、青、紫の逆追跡ライト,68</item>
+        <item>69：カラフルなへ進む,69</item>
+        <item>70：カラフルな逆フラッター,70</item>
+        <item>71：赤、緑、青の前方,71</item>
+        <item>72：赤、緑、青の反転,72</item>
+        <item>73：黄色と青の明滅,73</item>
+        <item>74：黄青と紫の逆,74</item>
+        <item>75：7色ジャンプ,75</item>
+        <item>76：赤、緑、青のジャンプ,76</item>
+        <item>77：黄Qingzi,77</item>
+        <item>78：7色ストロボ,78</item>
+        <item>79：赤、緑、青のストロボ,79</item>
+        <item>80：黄色と青のストロボ,80</item>
+        <item>81：7色グラデーション,81</item>
+        <item>82：赤と黄色のグラデーション,82</item>
+        <item>83：赤と紫のグラデーション,83</item>
+        <item>84：グリーングリーングラデーション,84</item>
+        <item>85：緑と黄色のグラデーション,85</item>
+        <item>86：青紫のグラデーション,86</item>
+        <item>87：レッドクロージング,87</item>
+        <item>88：グリーンクロージング,88</item>
+        <item>89：ブルークロージング,89</item>
+        <item>90：黄色のクロージング,90</item>
+        <item>91：シアンクロージング,91</item>
+        <item>92：パープルクロージング,92</item>
+        <item>93：クロージングホワイト,93</item>
+        <item>94：赤いスクリーン,94</item>
+        <item>95：緑色の画面,95</item>
+        <item>96：ブルースクリーン,96</item>
+        <item>97：黄色の画面,97</item>
+        <item>98：シアン画面,98</item>
+        <item>99：紫色のカーテン,99</item>
+        <item>100：白い画面,100</item>
+        <item>101：赤い馬,101</item>
+        <item>102：緑の馬,102</item>
+        <item>103：ブルー競馬,103</item>
+        <item>104：黄色い馬,104</item>
+        <item>105：シアン競馬,105</item>
+        <item>106：パープル競馬,106</item>
+        <item>107：白い馬,107</item>
+        <item>108：真っ赤,108</item>
+        <item>109：逆走赤,109</item>
+        <item>110：ランニンググリーン,110</item>
+        <item>111：逆グリーンランニング,111</item>
+        <item>112：青の前走り,112</item>
+        <item>113：リバースブルー,113</item>
+        <item>114：黄色,114</item>
+        <item>115：黄色の逆ランニング,115</item>
+        <item>116：フォワードシアン,116</item>
+        <item>117：逆シアン,117</item>
+        <item>118：紫色で走る,118</item>
+        <item>119：パープルリバースランニング,119</item>
+        <item>120：フォワードホワイトランニング,120</item>
+        <item>121：逆転白,121</item>
+        <item>122：7色のランニング,122</item>
+        <item>123：7色反転,123</item>
+        <item>124：赤、緑、青の前方,124</item>
+        <item>125：赤、緑、青の逆,125</item>
+        <item>126：黄色と紫が走っています,126</item>
+        <item>127：黄色と青の逆転,127</item>
+        <item>128：青、黄、紫の順方向,128</item>
+        <item>129：緑、青、黄の順方向,129</item>
+        <item>130：青黄色の逆ランニング,130</item>
+        <item>131：白地に赤い赤い点,131</item>
+        <item>132：白赤ドットの逆転,132</item>
+        <item>133：赤い点がある緑色の点に進む,133</item>
+        <item>134：赤のドットと緑のドットが反転しています,134</item>
+        <item>135：下の緑色の青い点へ進む,135</item>
+        <item>136：逆の緑色の下の青い点が走っている,136</item>
+        <item>137：前方に黄色のドットが走っています,137</item>
+        <item>138：青い背景に黄色のドットが反転,138</item>
+        <item>139：黄色の底へ,139</item>
+        <item>140：イエローの逆ランニング,140</item>
+        <item>141：紫色の点の一番下,141</item>
+        <item>142：逆パープルランニング,142</item>
+        <item>143：前方の紫色のポイントホワイトポイントランニング,143</item>
+        <item>144：パープルホワイトのランニング,144</item>
+        <item>145：前方に赤いドットの白い点,145</item>
+        <item>146：赤丸の白点が逆転,146</item>
+        <item>147：赤い背景の上に7色のランニング,147</item>
+        <item>148：赤逆7色,148</item>
+        <item>149：緑色の7色へ,149</item>
+        <item>150：グリーン7色反転,150</item>
+        <item>151：青い背景へ,151</item>
+        <item>152：青7色反転,152</item>
+        <item>153：黄色の背景の上に7色のランニング,153</item>
+        <item>154：7色が逆になっている黄色の底,154</item>
+        <item>155：7色のうち、一番下まで走っている,155</item>
+        <item>156：7色の逆グリーンランニング,156</item>
+        <item>157：紫の一番下,157</item>
+        <item>158：逆パープルボトム7色,158</item>
+        <item>159：白地に7色のランニング,159</item>
+        <item>160：白地反転、7色ランニング,160</item>
+        <item>161：赤と白の正の流れ,161</item>
+        <item>162：赤と白の逆の流れ,162</item>
+        <item>163：白緑と白​​の陽の流れ,163</item>
+        <item>164：白と緑の逆流,164</item>
+        <item>165：白、青、白のプラスの流れ,165</item>
+        <item>166：白、青、白の逆流,166</item>
+        <item>167：黄色と白のプラスの流れ,167</item>
+        <item>168：黄色と白の逆の流れ,168</item>
+        <item>169：白と青の正の流れ,169</item>
+        <item>170：白と青の逆の流れ,170</item>
+        <item>171：白紫と白のポジティブフロー,171</item>
+        <item>172：白紫色の逆流,172</item>
+        <item>173：赤、白、赤の順,173</item>
+        <item>174：赤、白、赤の逆の流れ,174</item>
+        <item>175：グリーン、グリーン、グリーン,175</item>
+        <item>176：逆の緑、白、緑の流れ,176</item>
+        <item>177：青、白、青の順方向,177</item>
+        <item>178：青、白、青の逆の流れ,178</item>
+        <item>179：黄色、黄色、黄色の順方向の流れ,179</item>
+        <item>180：黄色、白、黄色の逆の流れ,180</item>
+        <item>181：白緑の陽の流れ,181</item>
+        <item>182：青緑色の逆流,182</item>
+        <item>183：正、紫、白、紫,183</item>
+        <item>184：紫と白の紫の逆流,184</item>
+        <item>185：青緑色のドット,185</item>
+        <item>186：青の背景に緑色のドットの馬を反転,186</item>
+        <item>187：前方に赤いドット、緑色のドット,187</item>
+        <item>188：赤いドットの緑のドットの馬の逆,188</item>
+        <item>189：青い背景の赤い点,189</item>
+        <item>190：リバースブルードットレッドドット競馬, 190</item>
+        <item>191：黄色のドットと緑色のドットで実行, 191</item>
+        <item>192：リバースイエロードットグリーンドット競馬,192</item>
+        <item>193：黄色のドットのある紫色のドットで実行,193</item>
+        <item>194：パープルドットイエロードットホースレースを逆にします,194</item>
+        <item>195：黄色のドットが付いた白い背景で実行,195</item>
+        <item>196：リバースイエロードットホワイトドットホースレース,196</item>
+        <item>197：黄色の点のある白い背景で実行,197</item>
+        <item>198：白の逆に黄色のドット競馬,198</item>
+        <item>199：正の7色,199</item>
+        <item>200：7色のカラーブラシを反転,200</item>
+        <item>201：赤、緑、青のプラスのブラシ,201</item>
+        <item>202：赤、緑、青のブラシカラーを反転,202</item>
+        <item>203：黄色と青のプラスのブラシ色,203</item>
+        <item>204：シアンの逆の黄色のブラシ色,204</item>
+        <item>205：7色ブラシカラースクリーン,205</item>
+        <item>206：7色のブラシカラークロージング,206</item>
+        <item>207：赤、緑、青のブラシスクリーン,207</item>
+        <item>208：赤、緑、青のブラシカラークロージング,208</item>
+        <item>209：黄色と青のブラシカラースクリーン,209</item>
+        <item>210：黄色と紫のブラシカラークロージング,210</item>
+    </array>
+    <array name="light_banner">
+        <item>LPD6803,1</item>
+        <item>TM1803,2</item>
+        <item>UCS1903,3</item>
+        <item>WS2811,4</item>
+        <item>TM1812,5</item>
+        <item>TM1809,6</item>
+        <item>WS2801,7</item>
+        <item>TLS3001,8</item>
+        <item>TLS3008,9</item>
+        <item>P9813,10</item>
+        <item>UCS8806,11</item>
+        <item>TM1829,12</item>
+        <item>TM1909,13</item>
+    </array>
+    <array name="light_mode">
+        <item>ライトを消す</item>
+        <item>スタティックレッド</item>
+        <item>スタティックブルー</item>
+        <item>スタティックグリーン</item>
+        <item>静的シアン</item>
+        <item>スタティックイエロー</item>
+        <item>スタティックパープル</item>
+        <item>スタティックホワイト</item>
+        <item>三色ジャンプ</item>
+        <item>7色ジャンプ</item>
+        <item>三色グラデーション</item>
+        <item>7色グラデーション</item>
+        <item>赤のグラデーション</item>
+        <item>グリーングラデーション</item>
+        <item>ブルーグラデーション</item>
+        <item>黄色のグラデーション</item>
+        <item>シアングラデーション</item>
+        <item>紫色のグラデーション</item>
+        <item>白グラデーション</item>
+        <item>赤と緑のグラデーション</item>
+        <item>赤と青のグラデーション</item>
+        <item>グリーンブルーグラデーション</item>
+        <item>7色ストロボ</item>
+        <item>赤いストロボ</item>
+        <item>グリーンストロボ</item>
+        <item>ブルーストロボ</item>
+        <item>黄色いストロボ</item>
+        <item>シアンストロボ</item>
+        <item>紫色のストロボ</item>
+        <item>白いストロボ</item>
+        <item>MODE30</item>
+        <item>MODE31</item>
+        <item>MODE32</item>
+        <item>MODE33</item>
+        <item>MODE34</item>
+        <item>MODE35</item>
+        <item>MODE36</item>
+        <item>MODE37</item>
+        <item>MODE38</item>
+        <item>MODE39</item>
+        <item>MODE40</item>
+        <item>MODE41</item>
+        <item>MODE42</item>
+        <item>MODE43</item>
+        <item>MODE44</item>
+        <item>MODE45</item>
+        <item>MODE46</item>
+        <item>MODE47</item>
+        <item>MODE48</item>
+        <item>MODE49</item>
+        <item>MODE50</item>
+        <item>MODE51</item>
+        <item>MODE52</item>
+        <item>MODE53</item>
+        <item>MODE54</item>
+        <item>MODE55</item>
+        <item>MODE56</item>
+        <item>MODE57</item>
+        <item>MODE58</item>
+        <item>MODE59</item>
+        <item>MODE60</item>
+        <item>MODE61</item>
+        <item>MODE62</item>
+        <item>MODE63</item>
+        <item>MODE64</item>
+        <item>MODE65</item>
+        <item>MODE66</item>
+        <item>MODE67</item>
+        <item>MODE68</item>
+        <item>MODE69</item>
+        <item>MODE70</item>
+        <item>MODE71</item>
+        <item>MODE72</item>
+        <item>MODE73</item>
+        <item>MODE74</item>
+        <item>MODE75</item>
+        <item>MODE76</item>
+        <item>MODE77</item>
+        <item>MODE78</item>
+        <item>MODE79</item>
+        <item>MODE80</item>
+        <item>MODE81</item>
+        <item>MODE82</item>
+        <item>MODE83</item>
+        <item>MODE84</item>
+        <item>MODE85</item>
+        <item>MODE86</item>
+        <item>MODE87</item>
+        <item>MODE88</item>
+        <item>MODE89</item>
+        <item>MODE90</item>
+        <item>MODE91</item>
+        <item>MODE92</item>
+        <item>MODE93</item>
+        <item>MODE94</item>
+        <item>MODE95</item>
+        <item>MODE96</item>
+        <item>MODE97</item>
+        <item>MODE98</item>
+        <item>MODE99</item>
+        <item>MODE100</item>
+        <item>MODE101</item>
+        <item>MODE102</item>
+        <item>MODE103</item>
+        <item>MODE104</item>
+        <item>MODE105</item>
+        <item>MODE106</item>
+        <item>MODE107</item>
+        <item>MODE108</item>
+        <item>MODE109</item>
+        <item>MODE110</item>
+        <item>MODE111</item>
+        <item>MODE112</item>
+        <item>MODE113</item>
+        <item>MODE114</item>
+        <item>MODE115</item>
+        <item>MODE116</item>
+        <item>MODE117</item>
+        <item>MODE118</item>
+        <item>MODE119</item>
+        <item>MODE120</item>
+        <item>MODE121</item>
+        <item>MODE122</item>
+        <item>MODE123</item>
+        <item>MODE124</item>
+        <item>MODE125</item>
+        <item>MODE126</item>
+        <item>MODE127</item>
+        <item>MODE128</item>
+        <item>MODE129</item>
+        <item>MODE130</item>
+        <item>MODE131</item>
+        <item>MODE132</item>
+        <item>MODE133</item>
+        <item>MODE134</item>
+        <item>MODE135</item>
+        <item>MODE136</item>
+        <item>MODE137</item>
+        <item>MODE138</item>
+        <item>MODE139</item>
+        <item>MODE140</item>
+        <item>MODE141</item>
+        <item>MODE142</item>
+        <item>MODE143</item>
+        <item>MODE144</item>
+        <item>MODE145</item>
+        <item>MODE146</item>
+        <item>MODE147</item>
+        <item>MODE148</item>
+        <item>MODE149</item>
+        <item>MODE150</item>
+        <item>MODE151</item>
+        <item>MODE152</item>
+        <item>MODE153</item>
+        <item>MODE154</item>
+        <item>MODE155</item>
+        <item>MODE156</item>
+        <item>MODE157</item>
+        <item>MODE158</item>
+        <item>MODE159</item>
+        <item>MODE160</item>
+        <item>MODE161</item>
+        <item>MODE162</item>
+        <item>MODE163</item>
+        <item>MODE164</item>
+        <item>MODE165</item>
+        <item>MODE166</item>
+        <item>MODE167</item>
+        <item>MODE168</item>
+        <item>MODE169</item>
+        <item>MODE170</item>
+        <item>MODE171</item>
+        <item>MODE172</item>
+        <item>MODE173</item>
+        <item>MODE174</item>
+        <item>MODE175</item>
+        <item>MODE176</item>
+        <item>MODE177</item>
+        <item>MODE178</item>
+        <item>MODE179</item>
+        <item>MODE180</item>
+        <item>MODE181</item>
+        <item>MODE182</item>
+        <item>MODE183</item>
+        <item>MODE184</item>
+        <item>MODE185</item>
+        <item>MODE186</item>
+        <item>MODE187</item>
+        <item>MODE188</item>
+        <item>MODE189</item>
+        <item>MODE190</item>
+        <item>MODE191</item>
+        <item>MODE192</item>
+        <item>MODE193</item>
+        <item>MODE194</item>
+        <item>MODE195</item>
+        <item>MODE196</item>
+        <item>MODE197</item>
+        <item>MODE198</item>
+        <item>MODE199</item>
+        <item>MODE200</item>
+        <item>MODE201</item>
+        <item>MODE202</item>
+        <item>MODE203</item>
+        <item>MODE204</item>
+        <item>MODE205</item>
+        <item>MODE206</item>
+        <item>MODE207</item>
+        <item>MODE208</item>
+        <item>MODE209</item>
+        <item>MODE210</item>
+        <item>MODE211</item>
+    </array>
+    <array name="modelble">
+        <item>ライトを消す</item>
+        <item>ライトをオンにします</item>
+        <item>スタティックレッド</item>
+        <item>スタティックブルー</item>
+        <item>スタティックグリーン</item>
+        <item>静的シアン</item>
+        <item>スタティックイエロー</item>
+        <item>スタティックパープル</item>
+        <item>スタティックホワイト</item>
+        <item>三色ジャンプ</item>
+        <item>7色ジャンプ</item>
+        <item>三色グラデーション</item>
+        <item>7色グラデーション</item>
+        <item>クールホワイト</item>
+        <item>暖かい白</item>
+        <item>モノクロ</item>
+    </array>
+    <array name="modelsun">
+        <item>電気を消す</item>
+        <item>ライトをオンにする</item>
+        <item>クールな色</item>
+        <item>暖かい色</item>
+        <item>ナチュラルカラー</item>
+        <item>ホワイトウォームジャンプチェンジ</item>
+        <item>白いグラデーション</item>
+        <item>暖かい色のグラデーション</item>
+        <item>自然な色のグラデーション</item>
+        <item>白の暖かいグラデーション</item>
+        <item>白い暖かいストロボ</item>
+        <item>白いストロボ</item>
+        <item>暖かい色のストロボ</item>
+        <item>ナチュラルカラーストロボ</item>
+    </array>
+    <array name="rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+        <item>RGBW,7</item>
+        <item>RBGW,8</item>
+        <item>GRBW,9</item>
+        <item>GBRW,10</item>
+        <item>BRGW,11</item>
+        <item>BGRW,12</item>
+    </array>
+    <array name="timer_model_dmx">
+        <item>ライトを消す</item>
+        <item>ライトをオンにします</item>
+        <item>自動サイクル</item>
+        <item>1:ポジティブイリュージョン</item>
+        <item>2:逆錯覚</item>
+        <item>3:ポジティブ7色の明暗変換</item>
+        <item>4:7色の明暗反転を反転させる</item>
+        <item>5:赤、緑、青のポジティブトランジション</item>
+        <item>6:赤、緑、青の明暗の反転</item>
+        <item>7:ポジティブイエロー、ブルー、パープルトランジション</item>
+        <item>8:黄 - 青 - 紫の逆転移</item>
+        <item>9:前方6色のトランジションレッド</item>
+        <item>10:逆6色のトランジションレッド</item>
+        <item>11:ポジティブ6色トランジショングリーン</item>
+        <item>12:逆6色のトランジショングリーン</item>
+        <item>13:フォワード6色トランジションブルー</item>
+        <item>14:逆6色トランジションブルー</item>
+        <item>15:順方向6色遷移シアン</item>
+        <item>16:シアン反転6色トランジション</item>
+        <item>17:フォワード6色トランジションイエロー</item>
+        <item>18:逆6色トランジションイエロー</item>
+        <item>19:ポジティブ6色トランジションパープル</item>
+        <item>20:逆6色トランジションパープル</item>
+        <item>21:フォワード6色トランジションホワイト</item>
+        <item>22:逆6色のトランジションホワイト</item>
+        <item>23:ポジティブカラフルテール</item>
+        <item>24:カラフルな尾を反転</item>
+        <item>25:正の赤い尾</item>
+        <item>26:逆の赤の後尾</item>
+        <item>27:ポジティブグリーンテール</item>
+        <item>28:逆グリーントレーリング</item>
+        <item>29:ポジティブブルーテール</item>
+        <item>30:逆ブルーテール</item>
+        <item>31:正の黄色い尾</item>
+        <item>32:逆の黄色い尾</item>
+        <item>33:ポジティブシアンテール</item>
+        <item>34:逆シアンテール</item>
+        <item>35:ポジティブパープルテール</item>
+        <item>36:とにかく、紫色の末尾</item>
+        <item>37:ポジティブホワイトトレーリング</item>
+        <item>38:逆の白い尾</item>
+        <item>39:ポジティブなカラフルな水</item>
+        <item>40:カラフルな水を反転</item>
+        <item>41:赤、緑、青のプラスの水</item>
+        <item>42:赤、緑、青の水を逆にする</item>
+        <item>43：黄褐色の水</item>
+        <item>44：黄色と青の逆の水</item>
+        <item>45：赤と緑の水</item>
+        <item>46：赤と緑を逆にした水</item>
+        <item>47：緑と青の水</item>
+        <item>48：緑と青の逆の水</item>
+        <item>49：黄色と青の陽の水</item>
+        <item>50：黄色と青の逆の水</item>
+        <item>51：プラスの黄色い水</item>
+        <item>52：黄色と青の逆の水</item>
+        <item>53：ポジティブブルーウォーター</item>
+        <item>54：逆シアン水</item>
+        <item>55：白黒の前方へ</item>
+        <item>56：白黒の逆の水</item>
+        <item>57：カラフルな画面</item>
+        <item>58：カラフルな閉幕</item>
+        <item>59：赤、緑、青の画面</item>
+        <item>60：赤、緑、青の終わり</item>
+        <item>61：黄Qingzi幕</item>
+        <item>62：黄Qingzi休業</item>
+        <item>63：多彩な追跡へ</item>
+        <item>64：カラフルな逆追跡</item>
+        <item>65：赤、緑、青の前方</item>
+        <item>66：赤、緑、青の逆光</item>
+        <item>67：黄色と紫のプラスの追跡光</item>
+        <item>68：黄、青、紫の逆追跡ライト</item>
+        <item>69：カラフルなへ進む</item>
+        <item>70：カラフルな逆フラッター</item>
+        <item>71：赤、緑、青の前方</item>
+        <item>72：赤、緑、青の反転</item>
+        <item>73：黄色と青の明滅</item>
+        <item>74：黄青と紫の逆</item>
+        <item>75：7色ジャンプ</item>
+        <item>76：赤、緑、青のジャンプ</item>
+        <item>77：黄Qingzi</item>
+        <item>78：7色ストロボ</item>
+        <item>79：赤、緑、青のストロボ</item>
+        <item>80：黄色と青のストロボ</item>
+        <item>81：7色グラデーション</item>
+        <item>82：赤と黄色のグラデーション</item>
+        <item>83：赤と紫のグラデーション</item>
+        <item>84：グリーングリーングラデーション</item>
+        <item>85：緑と黄色のグラデーション</item>
+        <item>86：青紫のグラデーション</item>
+        <item>87：閉幕</item>
+        <item>88：閉会</item>
+        <item>89：閉幕</item>
+        <item>90：終値90</item>
+        <item>91：シアンクロージング</item>
+        <item>92：紫色の終値</item>
+        <item>93：閉幕</item>
+        <item>94：赤いスクリーン</item>
+        <item>95：緑色の画面</item>
+        <item>96：ブルースクリーン</item>
+        <item>97：黄色の画面</item>
+        <item>98：シアン画面</item>
+        <item>99：紫色のカーテン</item>
+        <item>100：白い画面</item>
+        <item>101：赤い馬</item>
+        <item>102：緑の馬</item>
+        <item>103：ブルー競馬</item>
+        <item>104：黄色い馬</item>
+        <item>105：シアン競馬</item>
+        <item>106：パープル競馬</item>
+        <item>107：白い馬</item>
+        <item>108：真っ赤</item>
+        <item>109：逆走赤</item>
+        <item>110：ランニンググリーン</item>
+        <item>111：逆グリーンランニング</item>
+        <item>112：青の前走り</item>
+        <item>113：リバースブルー</item>
+        <item>114：黄色</item>
+        <item>115：黄色の逆ランニング</item>
+        <item>116：フォワードシアン</item>
+        <item>117：逆シアン</item>
+        <item>118：紫色で走る</item>
+        <item>119：パープルリバースランニング</item>
+        <item>120：フォワードホワイトランニング</item>
+        <item>121：逆転白</item>
+        <item>122：7色のランニング</item>
+        <item>123：7色反転</item>
+        <item>124：赤、緑、青の前方</item>
+        <item>125：赤、緑、青の逆</item>
+        <item>126：黄色と紫が走っています</item>
+        <item>127：黄色と青の逆転</item>
+        <item>128：青、黄、紫の順方向</item>
+        <item>129：緑、青、黄の順方向</item>
+        <item>130：青黄色の逆ランニング</item>
+        <item>131：白地に赤い赤い点</item>
+        <item>132：白赤ドットの逆転</item>
+        <item>133：赤い点がある緑色の点に進む</item>
+        <item>134：赤のドットと緑のドットが反転しています</item>
+        <item>135：下の緑色の青い点へ進む</item>
+        <item>136：逆の緑色の下の青い点が走っている</item>
+        <item>137：前方に黄色のドットが走っています</item>
+        <item>138：青い背景に黄色のドットが反転</item>
+        <item>139：黄色の底へ</item>
+        <item>140：イエローの逆ランニング</item>
+        <item>141：紫色の点の一番下</item>
+        <item>142：逆パープルランニング</item>
+        <item>143：前方の紫色のポイントホワイトポイントランニング</item>
+        <item>144：パープルホワイトのランニング</item>
+        <item>145：前方に赤いドットの白い点</item>
+        <item>146：赤丸の白点が逆転</item>
+        <item>147：赤い背景の上に7色のランニング</item>
+        <item>148：赤逆7色</item>
+        <item>149：緑色の7色へ</item>
+        <item>150：グリーン7色反転</item>
+        <item>151：青い背景へ</item>
+        <item>152：青7色反転</item>
+        <item>153：黄色の背景の上に7色のランニング</item>
+        <item>154：7色が逆になっている黄色の底</item>
+        <item>155：7色のうち、一番下まで走っている</item>
+        <item>156：7色の逆グリーンランニング</item>
+        <item>157：紫の一番下</item>
+        <item>158：逆パープルボトム7色</item>
+        <item>159：白地に7色のランニング</item>
+        <item>160：白地反転、7色ランニング</item>
+        <item>161：赤と白の正の流れ</item>
+        <item>162：赤と白の逆の流れ</item>
+        <item>163：白緑と白​​の陽の流れ</item>
+        <item>164：白と緑の逆流</item>
+        <item>165：白、青、白のプラスの流れ</item>
+        <item>166：白、青、白の逆流</item>
+        <item>167：黄色と白のプラスの流れ</item>
+        <item>168：黄色と白の逆の流れ</item>
+        <item>169：白と青の正の流れ</item>
+        <item>170：白と青の逆の流れ</item>
+        <item>171：白紫と白のポジティブフロー</item>
+        <item>172：白紫色の逆流</item>
+        <item>173：赤、白、赤の順</item>
+        <item>174：赤、白、赤の逆の流れ</item>
+        <item>175：グリーン、グリーン、グリーン</item>
+        <item>176：逆の緑、白、緑の流れ</item>
+        <item>177：青、白、青の順方向</item>
+        <item>178：青、白、青の逆の流れ</item>
+        <item>179：黄色、黄色、黄色の順方向の流れ</item>
+        <item>180：黄色、白、黄色の逆の流れ</item>
+        <item>181：白緑の陽の流れ</item>
+        <item>182：青緑色の逆流</item>
+        <item>183：正、紫、白、紫</item>
+        <item>184：紫と白の紫の逆流</item>
+        <item>185：青緑色のドット</item>
+        <item>186：青の背景に緑色のドットの馬を反転</item>
+        <item>187：前方に赤いドット、緑色のドット</item>
+        <item>188：赤いドットの緑のドットの馬の逆</item>
+        <item>189：青い背景の赤い点</item>
+        <item>199：正の7色</item>
+        <item>200：7色のカラーブラシを反転</item>
+        <item>201：赤、緑、青のプラスのブラシ</item>
+        <item>202：赤、緑、青のブラシカラーを反転</item>
+        <item>203：黄色と青のプラスのブラシ色</item>
+        <item>204：シアンの逆の黄色のブラシ色</item>
+        <item>205：7色ブラシカラースクリーン</item>
+        <item>206：7色のブラシカラークロージング</item>
+        <item>207：赤、緑、青のブラシスクリーン</item>
+        <item>208：赤、緑、青のブラシカラークロージング</item>
+        <item>209：黄色と青のブラシカラースクリーン</item>
+        <item>210：黄色と紫のブラシカラークロージング</item>
+    </array>
+    <array name="week">
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+        <item>土曜日</item>
+        <item>日曜日</item>
+    </array>
+    <array name="weekday">
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+        <item>土曜日</item>
+        <item>日曜日</item>
+    </array>
+    <string name="Auxiliary_function">ボタン</string>
+    <string name="Bubble">泡</string>
+    <string name="ButtonEight">馬</string>
+    <string name="ButtonFive">スタック</string>
+    <string name="ButtonSeven">フロー</string>
+    <string name="ButtonSix">画面をプル</string>
+    <string name="Closetiming">終了タイミング</string>
+    <string name="Code">エンコード</string>
+    <string name="FD">末尾</string>
+    <string name="FS">光に従ってください</string>
+    <string name="FW">流水</string>
+    <string name="Forward">ポジティブ</string>
+    <string name="Language">言語</string>
+    <string name="RandomPlay">ランダム再生</string>
+    <string name="Reverse">反転する</string>
+    <string name="Sendtiming">タイミングを送信</string>
+    <string name="SequentialPlay">順次再生</string>
+    <string name="SinglePlay">シングルループ</string>
+    <string name="Values_can_be_the_same">Values cannot be the same</string>
+    <string name="Voicecontrol">音声</string>
+    <string name="abc_action_bar_home_description">ホームに戻る</string>
+    <string name="abc_action_bar_up_description">前に戻る</string>
+    <string name="abc_action_menu_overflow_description">その他のオプション</string>
+    <string name="abc_action_mode_done">完了</string>
+    <string name="abc_activity_chooser_view_see_all">すべて表示</string>
+    <string name="abc_activitychooserview_choose_application">アプリの選択</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">Space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">検索…</string>
+    <string name="abc_searchview_description_clear">検索キーワードを削除</string>
+    <string name="abc_searchview_description_query">検索キーワード</string>
+    <string name="abc_searchview_description_search">検索</string>
+    <string name="abc_searchview_description_submit">検索キーワードを送信</string>
+    <string name="abc_searchview_description_voice">音声検索</string>
+    <string name="abc_shareactionprovider_share_with">共有</string>
+    <string name="abc_shareactionprovider_share_with_application">%sと共有</string>
+    <string name="abc_toolbar_collapse_description">折りたたむ</string>
+    <string name="ablum_title">曲名:%1$s アーティスト:%2$s アルバム: %3$s</string>
+    <string name="about_us_and_help">私たちに関しては</string>
+    <string name="account_format_error">認証方法が正しくフォーマットされていません</string>
+    <string name="accumulation">AC</string>
+    <string name="action_settings">設定</string>
+    <string name="add2lib">選択を決定する</string>
+    <string name="add2lib_all">すべて選択</string>
+    <string name="addTimer">タイミングを追加</string>
+    <string name="add_device">制御装置を追加します</string>
+    <string name="add_device_successfully">デバイスを正常に追加します</string>
+    <string name="add_group">新しいグループを追加する</string>
+    <string name="adding_device">は機器を追加しています</string>
+    <string name="agree">Agree</string>
+    <string name="all_off">フルクリアランス</string>
+    <string name="all_on">全開</string>
+    <string name="allcomment">すべてのコメント</string>
+    <string name="app_name">LED LAMP</string>
+    <string name="aquatic_mode">水草パターン</string>
+    <string name="authorization_alert">Android 6.0以降では、アプリケーションは[位置情報サービス]を有効にしてBluetoothデバイスをスキャンする必要があります。!</string>
+    <string name="authorization_title">プロンプト:</string>
+    <string name="b">B</string>
+    <string name="back">戻る</string>
+    <string name="base_setting">設定</string>
+    <string name="battery">電池</string>
+    <string name="bind_end">決定する</string>
+    <string name="ble_not_supported">このデバイスはサポートされていません</string>
+    <string name="blue">%1$s</string>
+    <string name="breathe">呼吸</string>
+    <string name="brightness">明るさ</string>
+    <string name="brightness_set">明るさ: %1$s</string>
+    <string name="btn_pix_number">ポイント数</string>
+    <string name="btn_set_pix_number">ピクセルポイント（0〜1024）を設定します。</string>
+    <string name="btquery">温度電池のお問い合わせ</string>
+    <string name="c">C</string>
+    <string name="camera_permissions_disabled">Camera permissions are disabled, please be sure to enable camera permissions!</string>
+    <string name="can_not_connect">WIFIが正しくない、3秒後に再接続する、または新しいWifiを選択してやり直してください。!</string>
+    <string name="cancel">キャンセル</string>
+    <string name="cancell">キャンセル</string>
+    <string name="cancell_dialog">キャンセル</string>
+    <string name="change_skin">肌を変える</string>
+    <string name="channelset">カラーチャンネル設定</string>
+    <string name="charts">グラフィックフォーラム</string>
+    <string name="chiptypevaluetip">チップクラスの種類を選択してください。</string>
+    <string name="choose">週を選択してください</string>
+    <string name="choosemode">選択モード</string>
+    <string name="chose">短いビデオを選択してください</string>
+    <string name="chose_list">プレイリストから再生コンテンツを選択してください</string>
+    <string name="chose_picthor">は1枚の画像しか選択できません</string>
+    <string name="chose_video">は1つの動画しか選択できません</string>
+    <string name="circulation">ループ</string>
+    <string name="clear">クリア</string>
+    <string name="close">閉じる</string>
+    <string name="colorful_mode">カラフルな模様</string>
+    <string name="colour">色</string>
+    <string name="comment">コメント</string>
+    <string name="comment_content">本文</string>
+    <string name="comment_detail">コメントの詳細</string>
+    <string name="comment_publish">公開</string>
+    <string name="comment_publish_success">正常に公開されました</string>
+    <string name="comment_title">タイトル</string>
+    <string name="conenct_device">%1$s 設備，接続済み:%2$s</string>
+    <string name="confirm">確認する</string>
+    <string name="confirm_light_flash_slowly">ライトがゆっくり点滅することを確認します</string>
+    <string name="confirm_the_light_flash">ライトの点滅状態を確認します</string>
+    <string name="confirmation_light_flash_ble">3 > 確認ライトがすばやく点滅します（白色ライト）</string>
+    <string name="confirmation_light_flash_hotspot">3 > 確認ライトがゆっくり点滅します（赤色のライト）</string>
+    <string name="confirmation_light_flash_wifi">3 > 確認ライトがすばやく点滅します（青色のライト）</string>
+    <string name="connect_count">%1$s設備</string>
+    <string name="connect_success">成功した接続!</string>
+    <string name="connected_to_the_hotspot_shown">1。下の図に示すホットスポットに電話を接続してください</string>
+    <string name="connecting">つなぐ...</string>
+    <string name="control">コントロール</string>
+    <string name="cool_warm">白\n暖かい色: %1$s クールカラー: %2$s</string>
+    <string name="copy">コピー</string>
+    <string name="coral_artistic_conception">サンゴ</string>
+    <string name="current_mode">現在のモード</string>
+    <string name="current_mode_format">%1$s</string>
+    <string name="current_rgb_format">現在のRGBソート：%1$s</string>
+    <string name="current_version">現行版</string>
+    <string name="currentquery">現在のデータクエリ</string>
+    <string name="custom">習慣</string>
+    <string name="deep_sea_mode">深海の気分</string>
+    <string name="define_system">ユーザー定義</string>
+    <string name="delete">削除する</string>
+    <string name="delete_group">グループを削除 %1$s</string>
+    <string name="deletthis">ここにドラッグして削除します</string>
+    <string name="device_has_restarted">1.デバイスが再起動し、ライトがすばやく点滅していることを確認します</string>
+    <string name="device_list">機器リスト</string>
+    <string name="devices_all">すべての機器</string>
+    <string name="disconnect">Disconnect Bluetooth...</string>
+    <string name="disconnect_bluetooth">Bluetoothが切断されます...</string>
+    <string name="download_center">ダウンロードセンター</string>
+    <string name="editTimer">タイミングを編集</string>
+    <string name="edit_group_please">まずグループ内のデバイスを選択してください</string>
+    <string name="enter">モード週を入力してください</string>
+    <string name="fan_rotational_temperature">ファン回転温度設定</string>
+    <string name="filesize">動画ファイルは20MB以下にする必要があります。</string>
+    <string name="firstlogin">最初にログインしてください</string>
+    <string name="five">Fri</string>
+    <string name="flash">ストロボ</string>
+    <string name="floor">フロア</string>
+    <string name="floor_host">土地</string>
+    <string name="flow">WxWflow</string>
+    <string name="forum">フォーラム</string>
+    <string name="four">Thu</string>
+    <string name="g">G</string>
+    <string name="get_checkcode">確認コードを取得します</string>
+    <string name="gpsNotifyMsg">現在のアプリは場所をオンにする必要があります。  n  設定\"  -   位置情報サービス\" - をクリックして位置情報機能を開いてください。</string>
+    <string name="gradient">グラデーション</string>
+    <string name="green">%1$s</string>
+    <string name="group_ble_device">グルーピング</string>
+    <string name="groupname_cannot_same">グループ名は同じにできません !</string>
+    <string name="help">ヘルプ</string>
+    <string name="home">ホーム</string>
+    <string name="home_page">ホームページ</string>
+    <string name="hour">時</string>
+    <string name="input_account">アカウントを入力してください。</string>
+    <string name="input_length_error">入力長さエラー</string>
+    <string name="input_not_null">入力は空にできません</string>
+    <string name="input_password">パスワードを入力してください。</string>
+    <string name="is_it_2_4">2.Wi-Fiが2.4GHzかどうかを確認します</string>
+    <string name="is_the_password_correct">3.Wi-Fiパスワードが正しいかどうかを確認します</string>
+    <string name="jump">ジャンプ</string>
+    <string name="jump_over">スキップする</string>
+    <string name="keyStr">1234567890abcdef</string>
+    <string name="key_in_numbers">番号を入力してください!</string>
+    <string name="light_code">アドレスコードの数</string>
+    <string name="lightning_mode">雷モード</string>
+    <string name="loading">読み込み中...</string>
+    <string name="login">ログイン</string>
+    <string name="loginapp">Please login to the forum first</string>
+    <string name="logon_agree_policy1">Sign in to read and agree to the</string>
+    <string name="logon_agree_policy2">service agreement</string>
+    <string name="logout">ログアウト</string>
+    <string name="long_press_the_controller_colorbtn">2>コントローラーのカラーキーを5秒間長押しします</string>
+    <string name="long_press_the_controller_muscibtn">2>コントローラーの音楽キーを5秒間長押しします</string>
+    <string name="long_press_the_controller_onoffbtn">2>コントローラースイッチキーを5秒間長押しします</string>
+    <string name="look">このコメントを見る</string>
+    <string name="looking">Preview...</string>
+    <string name="main_tab_text_service">LED LAMP</string>
+    <string name="marine_mode">マリンモード</string>
+    <string name="micro_authorized">マイクが認証されている</string>
+    <string name="minute">分</string>
+    <string name="mode">モード</string>
+    <string name="mode_select">モード選択</string>
+    <string name="mode_set">モード: %1$s</string>
+    <string name="model">モード</string>
+    <string name="msg_no_add_scene">コンテンツが選択されていません。この操作は無効です。</string>
+    <string name="msg_not_empty">データが保存されていません。終了してもよろしいですか？</string>
+    <string name="msg_sending_online">スキャンしています...</string>
+    <string name="multipoint_fast_running">MR</string>
+    <string name="music_lib">レク</string>
+    <string name="music_style_pop">人気のある</string>
+    <string name="music_style_rock">ロック</string>
+    <string name="music_style_soft">柔らかい</string>
+    <string name="my_personal">私の</string>
+    <string name="natural_light">自然な色</string>
+    <string name="network_timeout">デバイス接続ネットワークタイムアウト</string>
+    <string name="new_password">新しいパスワード：</string>
+    <string name="next_step">次のステップ</string>
+    <string name="no_account">アカウントがありませんか？</string>
+    <string name="no_device_found">Bluetoothデバイスが見つかりませんでした！</string>
+    <string name="no_more_data">これ以上データがない</string>
+    <string name="not_used">Not Used</string>
+    <string name="nothing">データなし</string>
+    <string name="ok">OK</string>
+    <string name="old_password">古いパスワード：</string>
+    <string name="one">Mon</string>
+    <string name="open_album">オープンアルバム</string>
+    <string name="open_close">O/C</string>
+    <string name="openapp">右上隅をクリックしてソフトウェアを追加してください。はじめて、右下隅のヘルプボタンをクリックして操作ガイドを表示してください</string>
+    <string name="p">P</string>
+    <string name="p_explain">グラフィックの説明</string>
+    <string name="pair_code">ペアコード</string>
+    <string name="pair_code_set">Current Code: %1$s</string>
+    <string name="password">パスワード</string>
+    <string name="pecent_photos">最近の写真</string>
+    <string name="phone_connected_to_hotspot">携帯電話のWiFiをデバイスのホットスポットに接続します</string>
+    <string name="phone_or_email">携帯電話番号または電子メール</string>
+    <string name="picture">写真は1MB以下にする必要があります。もう一度選択してください</string>
+    <string name="playvideo">再生</string>
+    <string name="please_enter_again">再入力してください</string>
+    <string name="please_input">新しいグループ名</string>
+    <string name="power_on">1 > 電源を接続します</string>
+    <string name="preview">プレビュー</string>
+    <string name="privacy_policy">Service Agreement and Privacy Policy</string>
+    <string name="privacy_policy_content">Please be sure to carefully read and fully understand the terms of the Service Agreement and Privacy Policy, including but not limited to: the authority information you need to obtain in order to provide you with data, sharing and other services. You can read the Service Agreement and Privacy Policy for details. If you agree, please click Agree to start accepting our service.</string>
+    <string name="privacy_policy_content1">Please be sure to carefully read and fully understand the terms of the Service Agreement and Privacy Policy, including but not limited to: the authority information you need to obtain in order to provide you with data, sharing and other services. You can read the </string>
+    <string name="privacy_policy_content2">Service Agreement</string>
+    <string name="privacy_policy_content3">and</string>
+    <string name="privacy_policy_content4">Privacy Policy</string>
+    <string name="publish_comment">投稿</string>
+    <string name="query">問い合わせ</string>
+    <string name="r">R</string>
+    <string name="r_g_b">R:%1$s G:%2$s B:%3$s</string>
+    <string name="rationale_ask_again">このアプリケーションは、要求された権限がないと正しく動作しない可能性があります。 アプリケーション設定インターフェイスを開いて、アプリケーションの権限を変更します。</string>
+    <string name="red">%1$s</string>
+    <string name="regist_agree_policy">By signing up, you read and agree to the service agreement and privacy policy</string>
+    <string name="regist_agree_policy1">By signing up, you read and agree to the</string>
+    <string name="regist_agree_policy2">service agreement</string>
+    <string name="regist_agree_policy3">and</string>
+    <string name="regist_agree_policy4">privacy policy</string>
+    <string name="register">登録</string>
+    <string name="register_account">アカウント：</string>
+    <string name="register_checkcode">確認コード：</string>
+    <string name="register_email">確認方法：</string>
+    <string name="register_password">パスワード：</string>
+    <string name="register_success">登録成功</string>
+    <string name="replacement">リセット</string>
+    <string name="reply">返信</string>
+    <string name="request_failed">リクエストが失敗しました。しばらくしてからもう一度お試しください</string>
+    <string name="reset_device">最初にデバイスをリセットしてください</string>
+    <string name="reset_message">データはリセット後に消去されます。リセットしてもよろしいですか？</string>
+    <string name="return_to_this_app_to_continue_adding_device">2.このアプリケーションに戻り、引き続き機器を追加します</string>
+    <string name="rgb_sort">RGBの並べ替え</string>
+    <string name="rgb_sort_set">現在の並べ替え：%1$s</string>
+    <string name="ring">カラーサークル</string>
+    <string name="run">ランニング</string>
+    <string name="save">保存する</string>
+    <string name="saveSuccessfully">保存成功</string>
+    <string name="savefailed">保存に失敗しました</string>
+    <string name="scan_dev_info">%1$s デバイスにスキャンしました。ホームページに戻って %2$s アプリを開いてください</string>
+    <string name="scan_dev_info_wifi">スキャンされた %1$s デバイス、%2$s デバイスが正常に追加されました</string>
+    <string name="scan_to">スキャン先</string>
+    <string name="sdded_successfully">正常に追加されました</string>
+    <string name="search_menu_title">検索</string>
+    <string name="second">第二</string>
+    <string name="select_all">すべて選択</string>
+    <string name="select_chip">チップの選択</string>
+    <string name="sendSccess">送信に成功しました。電源を切った後のタイミング設定は無効です。</string>
+    <string name="send_checkcode">送信された確認コード</string>
+    <string name="sendcharts">テキストを送信</string>
+    <string name="sendtie">Sending...</string>
+    <string name="sendvideo">ビデオを送信</string>
+    <string name="sensitivity">感度</string>
+    <string name="sensitivity_set">感度: %1$s</string>
+    <string name="sent_success">Sent successfully</string>
+    <string name="set_focus">設定センター</string>
+    <string name="set_pix_number">Set the address code (0-512)</string>
+    <string name="setting">無線LAN接続</string>
+    <string name="seven">Sun</string>
+    <string name="shake">振る</string>
+    <string name="single_click_select_color">クリックして色を選択し、長押しで色を削除します</string>
+    <string name="single_lamp_jump">SJ</string>
+    <string name="single_lamp_strobe">SS</string>
+    <string name="single_light_gradient">SG</string>
+    <string name="singlepoint_fast_running">SR</string>
+    <string name="six">Sta</string>
+    <string name="six_eighteen_length">6〜18桁</string>
+    <string name="six_number">6桁</string>
+    <string name="skin_restoration">皮膚の回復</string>
+    <string name="skip_reset_step_ble">ライトが白くすばやく点滅する場合は、リセット手順をスキップしてください</string>
+    <string name="skip_reset_step_hotspot">ライトがゆっくりと赤く点滅する場合は、リセット手順をスキップしてください</string>
+    <string name="skip_reset_step_wifi">ライトが青色のライトですばやく点滅する場合は、リセット手順をスキップしてください</string>
+    <string name="sleep_mode">スリープモード</string>
+    <string name="spacercode">インターバルコード</string>
+    <string name="spacercodevaluetip">インターバルコードを入力してください。</string>
+    <string name="speed">スピード</string>
+    <string name="speed_set">スピード: %1$s</string>
+    <string name="startcode">開始コード</string>
+    <string name="startcodevaluetip">スタートコードを入力してください。</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="sun_a">寒さと暖かさの変化</string>
+    <string name="sun_b">涼しい息</string>
+    <string name="sun_c">温かい息</string>
+    <string name="sun_d">自然呼吸</string>
+    <string name="sun_e">温かい呼吸と冷たい呼吸</string>
+    <string name="sun_f">冷たくて暖かいストロボ</string>
+    <string name="sun_g">コールドカラーストロボ</string>
+    <string name="sun_h">暖かい色のストロボ</string>
+    <string name="sun_sei">クールカラー：100ウォームカラー：0</string>
+    <string name="sunrise_mode">日の出</string>
+    <string name="sunset_mode">夕焼け</string>
+    <string name="sunshine_mode">太陽</string>
+    <string name="supported">Sorry, up to 16 times are supported</string>
+    <string name="supportedlight">Sorry, up to 10 times are supported</string>
+    <string name="sure">決定する</string>
+    <string name="switch_distribution_mode">ネットワーク配信モードを切り替えてみてください</string>
+    <string name="switch_to_the_distribution_network">配信ネットワークモードに切り替えます</string>
+    <string name="system_device">システム</string>
+    <string name="tab_aisle">Aisle</string>
+    <string name="tab_brightness">明るさ</string>
+    <string name="tab_ct">色温度</string>
+    <string name="tab_custom">習慣</string>
+    <string name="tab_dm">モノクロ</string>
+    <string name="tab_mode">モード</string>
+    <string name="tab_music">音楽</string>
+    <string name="tab_record">マイク</string>
+    <string name="tab_reg">色</string>
+    <string name="tab_scene">情景</string>
+    <string name="tab_timer">タイマー</string>
+    <string name="table1">表1</string>
+    <string name="table2">表2</string>
+    <string name="take_video">最近の動画</string>
+    <string name="temperature">気温</string>
+    <string name="text">本文を入力してください。</string>
+    <string name="text_addname">名前を追加（変更）します。</string>
+    <string name="text_addscene_new">新しいシーンを追加する</string>
+    <string name="text_cancel">キャンセル</string>
+    <string name="text_custom">ユーザー定義</string>
+    <string name="text_edit">編集</string>
+    <string name="text_empty_name">名前を空にすることはできません</string>
+    <string name="text_empty_service">Service cannot be empty</string>
+    <string name="text_exit">もう一度クリックしてLED LAMPを終了します。</string>
+    <string name="text_input_name">1〜16文字の英数字またはアンダースコアの組み合わせ</string>
+    <string name="text_ledble">LED BLE</string>
+    <string name="text_leddmx">LED DMX</string>
+    <string name="text_ledlight">LED LIGHT</string>
+    <string name="text_ledsmart">LED SMART</string>
+    <string name="text_ledspi">LED SPI</string>
+    <string name="text_ledstage">LED STAGE</string>
+    <string name="text_ledstrip">LED STRIP</string>
+    <string name="text_ledsun">LED SUN</string>
+    <string name="text_ok">OK</string>
+    <string name="text_over">完了</string>
+    <string name="text_pic">画像</string>
+    <string name="text_pick_camera">写真</string>
+    <string name="text_pick_local">ギャラリー</string>
+    <string name="text_relaxation">レジャー</string>
+    <string name="text_romance">ロマンチック</string>
+    <string name="text_selectdevice">デバイスを選択</string>
+    <string name="text_sport">スポーツ</string>
+    <string name="text_storage">保存容量</string>
+    <string name="text_str">テキスト</string>
+    <string name="text_system">システム</string>
+    <string name="text_warm_content">このシーンを削除してもよろしいですか？</string>
+    <string name="text_warm_content1">下の入力ボックスに入力してください。</string>
+    <string name="text_warming">暖かいヒント</string>
+    <string name="three">Wed</string>
+    <string name="thunderstorm_mode">雷雨モード</string>
+    <string name="tiele">タイトルを入力してください。</string>
+    <string name="time">時間</string>
+    <string name="timeSize">最大タイマー数は24です。</string>
+    <string name="time_set">タイミング補正</string>
+    <string name="timeday">タイマーの時間を同じにすることはできません</string>
+    <string name="timelow">バッテリーが低すぎるため、APPの通常の使用に影響を及ぼす可能性があります</string>
+    <string name="timer">このタイマーを削除してもよろしいですか？</string>
+    <string name="timingquery">時限クエリ</string>
+    <string name="tip_istribution_network">注：デバイスをリセットした後、3分以内にネットワーク構成操作を完了してください</string>
+    <string name="tips">プロンプト</string>
+    <string name="title_settings_dialog">アクセス許可の要件</string>
+    <string name="to_connect">接続する</string>
+    <string name="toast_scene_exist">このシーンは既に存在します</string>
+    <string name="turn_on_the_camera">カメラの電源を入れます</string>
+    <string name="tv_chip_set">チップ設定</string>
+    <string name="two">Tue</string>
+    <string name="un_known_artist">不明なアーティスト</string>
+    <string name="update">変更</string>
+    <string name="update_password">パスワードの変更</string>
+    <string name="update_password_success">パスワードの変更に成功しました</string>
+    <string name="valuetip">0より大きい値を入力してください。</string>
+    <string name="video">ビデオ</string>
+    <string name="video_explain">動画の説明</string>
+    <string name="video_operation_tutorial">ビデオ操作チュートリアル</string>
+    <string name="w">W</string>
+    <string name="warm_light">暖かい色</string>
+    <string name="white_light">クールな色</string>
+    <string name="wifi_network">現在2.4GHzWi-Fiネットワークにあり、パスワードを入力します</string>
+    <string name="wifi_network_not_2_4">Wi-Fiが5GHzの場合は、最初に2.4GHzに設定してください</string>
+    <string name="wifi_signal_is_good">良好なWi-Fi信号を確保する</string>
+    <string name="write">写真、メディアコンテンツ、およびファイルにアクセスしてそれらを表示する必要があります。</string>
+</resources>

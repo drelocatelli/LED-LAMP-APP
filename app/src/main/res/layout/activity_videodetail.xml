@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.common.view.videoplayer.view.SimpleVideoView android:id="@+id/ijk_player" android:layout_width="match_parent" android:layout_height="match_parent" app:renderType="2"/>
+    <com.common.view.videoplayer.view.SimplerPlayerControllerLayout android:id="@+id/ijk_player_controller" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/relativeLayoutHeader" android:layout_width="match_parent" android:layout_height="@dimen/tab_height" android:layout_alignParentTop="true">
+        <ImageView android:id="@+id/ivBack" android:background="@drawable/arrow_left" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_20" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="16sp" android:textColor="#fff" android:gravity="center" android:id="@+id/title_tv" android:layout_width="wrap_content" android:layout_height="50dp" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</FrameLayout>

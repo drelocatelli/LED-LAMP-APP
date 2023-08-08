@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.itheima.wheelpicker.widgets.WheelYearPicker android:id="@+id/wheel_date_picker_year" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textColor="#536d8a" android:id="@+id/wheel_date_picker_year_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Year" android:layout_marginStart="@dimen/WheelMargins" android:layout_marginEnd="@dimen/WheelMargins"/>
+    <com.itheima.wheelpicker.widgets.WheelMonthPicker android:id="@+id/wheel_date_picker_month" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textColor="#536d8a" android:id="@+id/wheel_date_picker_month_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Month" android:layout_marginStart="@dimen/WheelMargins" android:layout_marginEnd="@dimen/WheelMargins"/>
+    <com.itheima.wheelpicker.widgets.WheelDayPicker android:id="@+id/wheel_date_picker_day" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textColor="#536d8a" android:id="@+id/wheel_date_picker_day_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Day" android:layout_marginStart="@dimen/WheelMargins"/>
+</LinearLayout>

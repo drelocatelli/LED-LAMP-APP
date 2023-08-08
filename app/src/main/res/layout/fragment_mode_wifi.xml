@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:id="@+id/relativeTab2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/margin_content" android:layout_marginRight="@dimen/margin_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="6">
+                <com.itheima.wheelpicker.WheelPicker android:id="@+id/wheelPicker_stage" android:layout_width="match_parent" android:layout_height="match_parent" app:wheel_atmospheric="true" app:wheel_curved="true" app:wheel_item_text_color="#ffffff" app:wheel_selected_item_position="9" app:wheel_selected_item_text_color="#feffffff"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dp_10" android:paddingRight="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="4">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                    <SeekBar android:id="@+id/seekBarMode" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="16dp" android:max="210" android:progressDrawable="@drawable/seekbar_mode" android:minHeight="16dp" android:thumb="@drawable/painttwo"/>
+                    <TextView android:textSize="@dimen/text_size6" android:textColor="@color/white" android:gravity="center" android:id="@+id/textViewMode" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mode"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                    <SeekBar android:id="@+id/seekBarSpeed" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="16dp" android:max="100" android:progressDrawable="@drawable/seekbar_speed" android:minHeight="16dp" android:thumb="@drawable/painttwo"/>
+                    <TextView android:textSize="@dimen/text_size6" android:textColor="@color/white" android:gravity="center" android:id="@+id/textViewSpeed" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/speed"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                    <SeekBar android:id="@+id/seekBarBrightNess" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="16dp" android:max="100" android:progressDrawable="@drawable/seekbar_prog" android:minHeight="16dp" android:thumb="@drawable/painttwo"/>
+                    <TextView android:textSize="@dimen/text_size6" android:textColor="@color/white" android:gravity="center" android:id="@+id/textViewBrightNess" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/brightness"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

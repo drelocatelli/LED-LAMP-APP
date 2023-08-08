@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="app_service">
+        <item>RGB</item>
+        <item>Dazzle RGB</item>
+        <item>MAȘINĂ</item>
+        <item>Acvariu</item>
+        <item>Stage</item>
+        <item>CT</item>
+        <item>WHI DIM</item>
+        <item>Difuzare</item>
+        <item>WIFI</item>
+    </array>
+    <array name="ble_mode">
+        <item>Salt tricolor, 135</item>
+        <item>Săritură în șapte culori, 136</item>
+        <item>Degradat tricolor, 137</item>
+        <item>Gradient de șapte culori, 138</item>
+        <item>Degradat roșu, 139</item>
+        <item>Degradat verde, 140</item>
+        <item>Degradat albastru, 141</item>
+        <item>Degradat galben, 142</item>
+        <item>Gradient de cyan, 143</item>
+        <item>Degradat violet, 144</item>
+        <item>Degradat alb, 145</item>
+        <item>Degradat roșu-verde, 146</item>
+        <item>Degradat roșu-albastru, 147</item>
+        <item>Degradat verde-albastru, 148</item>
+        <item>Bliț cu șapte culori,149</item>
+        <item>Bliț roșu, 150</item>
+        <item>Bliț verde,151</item>
+        <item>Bliț albastru, 152</item>
+        <item>Bliț galben, 153</item>
+        <item>Bliț cyan,154</item>
+        <item>Bliț violet, 155</item>
+        <item>Bliț alb,156</item>
+        <item>Roșu static, 128</item>
+        <item>Albastru static, 129</item>
+        <item>Verde static, 130</item>
+        <item>Cyan static, 131</item>
+        <item>Galben static, 132</item>
+        <item>Violet static, 133</item>
+        <item>Alb static, 134</item>
+    </array>
+    <array name="car_mode">
+        <item>Salt tricolor, 135</item>
+        <item>Săritură în șapte culori, 136</item>
+        <item>Degradat tricolor, 137</item>
+        <item>Gradient de șapte culori, 138</item>
+        <item>Degradat roșu, 139</item>
+        <item>Degradat verde, 140</item>
+        <item>Degradat albastru, 141</item>
+        <item>Degradat galben, 142</item>
+        <item>Gradient de cyan, 143</item>
+        <item>Degradat violet, 144</item>
+        <item>Degradat alb, 145</item>
+        <item>Degradat roșu-verde, 146</item>
+        <item>Degradat roșu-albastru, 147</item>
+        <item>Degradat verde-albastru, 148</item>
+        <item>Bliț cu șapte culori,149</item>
+        <item>Bliț roșu, 150</item>
+        <item>Bliț verde,151</item>
+        <item>Bliț albastru, 152</item>
+        <item>Bliț galben, 153</item>
+        <item>Bliț cyan,154</item>
+        <item>Bliț violet, 155</item>
+        <item>Bliț alb,156</item>
+        <item>Respirația cu șapte culori,157</item>
+    </array>
+    <array name="channel_set_model">
+        <item>NC,255</item>
+        <item>1,1</item>
+        <item>2,2</item>
+        <item>3,3</item>
+        <item>4,4</item>
+        <item>5,5</item>
+        <item>6,6</item>
+        <item>7,7</item>
+        <item>8,8</item>
+        <item>9,9</item>
+        <item>10,10</item>
+        <item>11,11</item>
+        <item>12,12</item>
+        <item>13,13</item>
+        <item>14,14</item>
+        <item>15,15</item>
+        <item>16,16</item>
+        <item>17,17</item>
+        <item>18,18</item>
+        <item>19,19</item>
+        <item>20,20</item>
+        <item>21,21</item>
+        <item>22,22</item>
+        <item>23,23</item>
+        <item>24,24</item>
+        <item>25,25</item>
+        <item>26,26</item>
+        <item>27,27</item>
+        <item>28,28</item>
+        <item>29,29</item>
+        <item>30,30</item>
+    </array>
+    <array name="chip_model">
+        <item>UCS512A,1</item>
+        <item>UCS512C,2</item>
+    </array>
+    <array name="ct_mode">
+        <item>Călduță 0% Rece 100%,128</item>
+        <item>Călduță 10% Rece 90%,129</item>
+        <item>Călduță 20% Rece 80%,130</item>
+        <item>Călduță 30% Rece 70%,131</item>
+        <item>Călduță 40% Rece 60%,132</item>
+        <item>Călduță 50% Rece 50%,133</item>
+        <item>Călduță 60% Rece 40%,134</item>
+        <item>Călduță 70% Rece 30%,135</item>
+        <item>Călduță 80% Rece 20%,136</item>
+        <item>Călduță 90% Rece 10%,137</item>
+        <item>Călduță 100% Rece 0%,138</item>
+    </array>
+    <array name="custom_model">
+        <item>1:Modificare treptată,0</item>
+        <item>2:Trailing,1</item>
+        <item>3:Apă curgătoare,2</item>
+        <item>4:Alungire,3</item>
+        <item>5:Acumulare,4</item>
+        <item>6: Flux alb x alb,6</item>
+        <item>7: Running rapid într-un singur punct,7</item>
+        <item>8:Multipoint Fast Running,8</item>
+        <item>9:Periere și închidere,9</item>
+        <item>10: Gradient cu o singură lampă, 10</item>
+        <item>11: Salt cu o singură lampă,11</item>
+        <item>12: Strobe cu o singură lampă,12</item>
+    </array>
+    <array name="dm_mode">
+        <item>0%,128</item>
+        <item>10%,129</item>
+        <item>20%,130</item>
+        <item>30%,131</item>
+        <item>40%,132</item>
+        <item>50%,133</item>
+        <item>60%,134</item>
+        <item>70%,135</item>
+        <item>80%,136</item>
+        <item>90%,137</item>
+        <item>100%,138</item>
+    </array>
+    <array name="dmx_model">
+        <item>AUTO,255</item>
+        <item>1: Forward Dreaming,1</item>
+        <item>2:Backward Dreaming,2</item>
+        <item>3: Redirecționați 7 culori,3</item>
+        <item>4:Înapoi 7 culori,4</item>
+        <item>5: Redirecționează RD/GN/BU,5</item>
+        <item>6:Înapoi RD/GN/BU,6</item>
+        <item>7:Înainte YE/CN/VT,7</item>
+        <item>8:Înapoi YE/CN/VT,8</item>
+        <item>9:Înainte 6 culori RD,9</item>
+        <item>10: Înapoi 6 culori RD,10</item>
+        <item>11:Înainte 6 culori GN,11</item>
+        <item>12: Înapoi 6 culori GN,12</item>
+        <item>13: Redirecționează 6 culori BU,13</item>
+        <item>14:Înapoi 6 culori BU,14</item>
+        <item>15:Înainte 6 culori CN,15</item>
+        <item>16:Înapoi 6 culori CN,16</item>
+        <item>17:Înainte 6 culori YE,17</item>
+        <item>18:Înapoi 6 culori YE,18</item>
+        <item>19:Înainte 6 culori VT,19</item>
+        <item>20:Înapoi 6 culori VT,20</item>
+        <item>21:Înainte 6 culori WH,21</item>
+        <item>22: Înapoi 6 culori WH,22</item>
+        <item>23:Forward Trailing 7 Colors,23</item>
+        <item>24: Înapoi 7 culori, 24</item>
+        <item>25:Forward Trailing RD,25</item>
+        <item>26:Backward Trailing RD,26</item>
+        <item>27:Forward Trailing GN,27</item>
+        <item>28:Backward Trailing GN,28</item>
+        <item>29:Forward Trailing BU,29</item>
+        <item>30:Backward Trailing BU,30</item>
+        <item>31:Înainte după YE,31</item>
+        <item>32:Backward Trailing YE,32</item>
+        <item>33:Forward Trailing CN,33</item>
+        <item>34:Backward Trailing CN,34</item>
+        <item>35:Forward Trailing VT,35</item>
+        <item>36:Backward Trailing VT,36</item>
+        <item>37:Forward Trailing WH,37</item>
+        <item>38:Backward Trailing WH,38</item>
+        <item>39: Streaming înainte 7 culori,39</item>
+        <item>40: Streaming înapoi 7 culori, 40</item>
+        <item>41: Redirecționare în flux RD/GN/BU,41</item>
+        <item>42: Streaming înapoi RD/GN/BU,42</item>
+        <item>43: Redirecționare în flux YE/CN/VT,43</item>
+        <item>44: Streaming înapoi YE/CN/VT,44</item>
+        <item>45: Redirecționare în flux RD/GN,45</item>
+        <item>46: Streaming înapoi RD/GN,46</item>
+        <item>47: Redirecționare în flux GN/BU,47</item>
+        <item>48: Streaming înapoi GN/BU,48</item>
+        <item>49: Transmitere în flux YE/BU,49</item>
+        <item>50: Streaming înapoi YE/BU,50</item>
+        <item>51: Transmitere în flux YE/CN, 51</item>
+        <item>52: Streaming înapoi YE/CN,52</item>
+        <item>53: Redirecționare în flux CN/VT,53</item>
+        <item>54: Streaming înapoi CN/VT,54</item>
+        <item>55: Transmitere în flux BK/WH,55</item>
+        <item>56: Streaming înapoi BK/WH,56</item>
+        <item>57: Cortina deschisă 7 culori,57</item>
+        <item>58: Închide cortina 7 culori,58</item>
+        <item>59: Cortina deschisă RD/GN/BU,59</item>
+        <item>60: Închide cortina RD/GN/BU,60</item>
+        <item>61: Cortina deschisă YE/CN/VT,61</item>
+        <item>62: Închide cortina YE/CN/VT, 62</item>
+        <item>63:Forward Follow Spot 7 Colors,63</item>
+        <item>64: Urmărire înapoi Spot 7 Culori, 64</item>
+        <item>65: Înainte Urmăriți Spot RD/GN/BU,65</item>
+        <item>66:Urmărire înapoi Spot RD/GN/BU,66</item>
+        <item>67: Înainte Urmăriți Spot YE/CN/VT, 67</item>
+        <item>68:Urmărire înapoi Spot YE/CN/VT,68</item>
+        <item>69:Forward Flutter 7 Culori,69</item>
+        <item>70:Backward Flutter 7 Culori,70</item>
+        <item>71: Flutter înainte RD/GN/BU, 71</item>
+        <item>72:Backward Flutter RD/GN/BU,72</item>
+        <item>73: Flutter înainte YE/CN/VT, 73</item>
+        <item>74:Backward Flutter YE/CN/VT,74</item>
+        <item>75:Hop 7 Colors,75</item>
+        <item>76:Hop RD/GN/BU,76</item>
+        <item>77:Hop RD/GN/BU,77</item>
+        <item>78:Strobe 7 Colors,78</item>
+        <item>79:Strobe RD/GN/BU,79</item>
+        <item>80:Strobe YE/CN/VT,80</item>
+        <item>81: 7 culori graduale, 81</item>
+        <item>82:Gradual RD/E,82</item>
+        <item>83: RD/VT gradat, 83</item>
+        <item>84: GN/CN gradual, 84</item>
+        <item>85: GN/YE graduală, 85</item>
+        <item>86: BU/VT gradat, 86</item>
+        <item>87:Închide cortina RD,87</item>
+        <item>88: Închide cortina GN,88</item>
+        <item>89:Închide cortina BU,89</item>
+        <item>90: Închide cortina YE ,90</item>
+        <item>91: Închide cortina CN, 91</item>
+        <item>92: Închide cortina VT, 92</item>
+        <item>93:Închide cortina WH,93</item>
+        <item>94:Open Curtain RD,94</item>
+        <item>95: Cortina deschisă GN,95</item>
+        <item>96:Open Curtain BU,96</item>
+        <item>97: Cortina deschisă YE,97</item>
+        <item>98: Cortina deschisă CN, 98</item>
+        <item>99:Open Curtain VT,99</item>
+        <item>100: Cortina deschisă WH,100</item>
+        <item>101: Cursa de cai RD,101</item>
+        <item>102: Cursa de cai GN,102</item>
+        <item>103:Cursa de cai BU,103</item>
+        <item>104:Cursa de cai YE,104</item>
+        <item>105:Cursa de cai CN,105</item>
+        <item>106:Cursa de cai VT,106</item>
+        <item>107: Cursa de cai WH,107</item>
+        <item>108:Forward Run RD,108</item>
+        <item>109:Backward Run RD,109</item>
+        <item>110:Forward Run GN,110</item>
+        <item>111:Backward Run GN,111</item>
+        <item>112:Forward Run BU,112</item>
+        <item>113:Backward Run BU,113</item>
+        <item>114:Forward Run YE,114</item>
+        <item>115:Backward Run YE,115</item>
+        <item>116:Forward Run CN,116</item>
+        <item>117:Backward Run CN,117</item>
+        <item>118:Forward Run VT,118</item>
+        <item>119:Backward Run VT,119</item>
+        <item>120:Forward Run WH,120</item>
+        <item>121:Backward Run WH,121</item>
+        <item>122:Forward Run 7 Colors,122</item>
+        <item>123:Backward Run 7 Colors,123</item>
+        <item>124:Forward Run RD/GN/BU,124</item>
+        <item>125:Backward Run RD/GN/BU,125</item>
+        <item>126:Forward Run YE/CN/VT,126</item>
+        <item>127:Backward Run YE/CN/VT,127</item>
+        <item>128:Forward Run BU/YE/VT,128</item>
+        <item>129:Forward Run GN/BU/YE,129</item>
+        <item>130:Backward Run BU/YE/VT,130</item>
+        <item>131:Forward Run RD/ON/WH,131</item>
+        <item>132:Backward Run RD/ON/WH,132</item>
+        <item>133:Forward Run GN ON RD,133</item>
+        <item>134:Backward Run GN ON RD,134</item>
+        <item>135:Forward Run BU PE GN,135</item>
+        <item>136:Backward Run BU PE GN,136</item>
+        <item>137:Forward Run YE ON BU,137</item>
+        <item>138:Backward Run YE ON BU,138</item>
+        <item>139:Forward Run CN ON YE,139</item>
+        <item>140:Backward Run CN ON YE,140</item>
+        <item>141:Forward Run VT ON CN,141</item>
+        <item>142:Backward Run VT ON CN,142</item>
+        <item>143:Forward Run WH ON VT,143</item>
+        <item>144:Backward Run WH ON VT,144</item>
+        <item>145:Forward Run WH ON RD,145</item>
+        <item>146:Backward Run WH ON RD,146</item>
+        <item>147:Forward Run 7 COLOR ON RD,147</item>
+        <item>148:Backward Run 7 CULOARE PE RD,148</item>
+        <item>149:Forward Run 7 COLOR ON GN,149</item>
+        <item>150:Backward Run 7 CULORI PE GN,150</item>
+        <item>151:Forward Run 7 COLOR ON BU,151</item>
+        <item>152:Backward Run 7 CULOARE PE BU,152</item>
+        <item>153:Forward Run 7 COLOR ON YE,153</item>
+        <item>154:Backward Run 7 COLOR ON YE,154</item>
+        <item>155: Forward Run 7 COLOR ON CN,155</item>
+        <item>156:Backward Run 7 COLOR ON CN,156</item>
+        <item>157:Forward Run 7 COLOR ON VT,157</item>
+        <item>158:Backward Run 7 COLOR ON VT,158</item>
+        <item>159:Forward Run 7 COLOR ON WH,159</item>
+        <item>160:Backward Run 7 CULORES PE WH,160</item>
+        <item>161:Forward Flow WH RD WH,161</item>
+        <item>162:Backward Flow WH RD WH,162</item>
+        <item>163:Flux înainte WH GN WH,163</item>
+        <item>164:Backward Flow WH GN WH,164</item>
+        <item>165:Forward Flow WH BU WH,165</item>
+        <item>166:Backward Flow WH BU WH,166</item>
+        <item>167:Flux înainte WH YE WH,167</item>
+        <item>168:Backward Flow WH YE WH,168</item>
+        <item>169:Flux înainte WH CN WH,169</item>
+        <item>170:Flux înapoi WH CN WH,170</item>
+        <item>171:Forward Flow WH VT WH,171</item>
+        <item>172:Backward Flow WH VT WH,172</item>
+        <item>173:Forward Flow RD WH RD,173</item>
+        <item>174:Backward Flow RD WH RD,174</item>
+        <item>175:Flux înainte GN WH GN,175</item>
+        <item>176:Backward Flow GN WH GN,176</item>
+        <item>177:Forward Flow BU WH BU,177</item>
+        <item>178:Backward Flow BU WH BU,178</item>
+        <item>179:Flux înainte YE WH YE,179</item>
+        <item>180:Backward Flow YE WH YE,180</item>
+        <item>181:Flux direct CN WH CN,181</item>
+        <item>182:Flux înapoi CN WH CN,182</item>
+        <item>183:Forward Flow VT WH VT,183</item>
+        <item>184:Backward Flow VT WH VT,184</item>
+        <item>185:Forward Run GN ON BU,185</item>
+        <item>186:Backward Run GN ON BU,186</item>
+        <item>187:Apel înainte GN PE RD,187</item>
+        <item>188:Backward Run GN ON RD,188</item>
+        <item>189:Forward Run RD ON BU,189</item>
+        <item>190:Backward Run RD ON BU,190</item>
+        <item>191:Forward Run CN ON YE,191</item>
+        <item>192:Backward Run CN ON YE,192</item>
+        <item>193:Forward Run YE ON VT,193</item>
+        <item>194:Backward Run YE ON VT,194</item>
+        <item>195:Forward Run WH ON YE,195</item>
+        <item>196:Backward Run WH ON YE,196</item>
+        <item>197:Forward Run YE ON WH,197</item>
+        <item>198:Backward Run YE ON WH,198</item>
+        <item>199: Forward Swab 7 CULORI, 199</item>
+        <item>200:Backward Swab 7 CULORI,200</item>
+        <item>201: Forward Swab RD GN BU,201</item>
+        <item>202:Backward Swab RD GN BU,202</item>
+        <item>203:Tampon înainte YE CN VT,203</item>
+        <item>204:Backward Swab YE CN VT,204</item>
+        <item>205:Open Curtain Swab 7 COLORS,205</item>
+        <item>206:Tampon închidere cortină 7 CULORI, 206</item>
+        <item>207:Tampon pentru cortină deschisă R G B ,207</item>
+        <item>208:Tampon închidere cortină R G B ,208</item>
+        <item>209:Tampon de cortină deschisă Y C P,209</item>
+        <item>210:Tampon închidere cortină Y C P,210</item>
+    </array>
+    <array name="forum_tab_titles">
+        <item>Altele</item>
+        <item>Conectare</item>
+        <item>Consiliere</item>
+        <item>Sugerează</item>
+        <item>Fierbinte</item>
+    </array>
+    <array name="light_banner">
+        <item>LPD6803,1</item>
+        <item>TM1803,2</item>
+        <item>UCS1903,3</item>
+        <item>WS2811,4</item>
+        <item>TM1812,5</item>
+        <item>TM1809,6</item>
+        <item>WS2801,7</item>
+        <item>TLS3001,8</item>
+        <item>TLS3008,9</item>
+        <item>P9813,10</item>
+        <item>UCS8806,11</item>
+        <item>TM1829,12</item>
+        <item>TM1909,13</item>
+    </array>
+    <array name="light_mode">
+        <item>Stinge lumina</item>
+        <item>Roșu static</item>
+        <item>Albastru static</item>
+        <item>Verde static</item>
+        <item>Cyan static</item>
+        <item>Galben static</item>
+        <item>Mov static</item>
+        <item>Alb static</item>
+        <item>Salt tricolor</item>
+        <item>Săritură în șapte culori</item>
+        <item>Degradat tricolor</item>
+        <item>Gradient cu șapte culori</item>
+        <item>Degradat roșu</item>
+        <item>Degradat verde</item>
+        <item>Degradat albastru</item>
+        <item>Degradat galben</item>
+        <item>Gradient de cyan</item>
+        <item>Degradat violet</item>
+        <item>Gradient alb</item>
+        <item>Degradat roșu-verde</item>
+        <item>Degradat roșu-albastru</item>
+        <item>Degradat verde-albastru</item>
+        <item>Bliț cu șapte culori</item>
+        <item>Bliț roșu</item>
+        <item>Bliț verde</item>
+        <item>Bliț albastru</item>
+        <item>Bliț galben</item>
+        <item>Bliț cyan</item>
+        <item>Bliț violet</item>
+        <item>Bliț alb</item>
+        <item>MOD30</item>
+        <item>MOD31</item>
+        <item>MODE32</item>
+        <item>MOD33</item>
+        <item>MODE34</item>
+        <item>MOD35</item>
+        <item>MOD36</item>
+        <item>MODE37</item>
+        <item>MODE38</item>
+        <item>MODE39</item>
+        <item>MODE40</item>
+        <item>MOD41</item>
+        <item>MODE42</item>
+        <item>MODE43</item>
+        <item>MODE44</item>
+        <item>MODE45</item>
+        <item>MODE46</item>
+        <item>MODE47</item>
+        <item>MOD48</item>
+        <item>MODE49</item>
+        <item>MOD50</item>
+        <item>MOD51</item>
+        <item>MOD52</item>
+        <item>MOD53</item>
+        <item>MOD54</item>
+        <item>MOD55</item>
+        <item>MOD56</item>
+        <item>MOD57</item>
+        <item>MOD58</item>
+        <item>MODE59</item>
+        <item>MODE60</item>
+        <item>MODE61</item>
+        <item>MODE62</item>
+        <item>MODE63</item>
+        <item>MODE64</item>
+        <item>MODE65</item>
+        <item>MODE66</item>
+        <item>MODE67</item>
+        <item>MODE68</item>
+        <item>MODE69</item>
+        <item>MODE70</item>
+        <item>MODE71</item>
+        <item>MODE72</item>
+        <item>MODE73</item>
+        <item>MODE74</item>
+        <item>MODE75</item>
+        <item>MODE76</item>
+        <item>MODE77</item>
+        <item>MODE78</item>
+        <item>MODE79</item>
+        <item>MODE80</item>
+        <item>MODE81</item>
+        <item>MODE82</item>
+        <item>MODE83</item>
+        <item>MODE84</item>
+        <item>MODE85</item>
+        <item>MODE86</item>
+        <item>MODE87</item>
+        <item>MODE88</item>
+        <item>MODE89</item>
+        <item>MODE90</item>
+        <item>MODE91</item>
+        <item>MODE92</item>
+        <item>MODE93</item>
+        <item>MODE94</item>
+        <item>MODE95</item>
+        <item>MODE96</item>
+        <item>MODE97</item>
+        <item>MODE98</item>
+        <item>MODE99</item>
+        <item>MODE100</item>
+        <item>MOD101</item>
+        <item>MOD102</item>
+        <item>MODE103</item>
+        <item>MOD104</item>
+        <item>MODE105</item>
+        <item>MOD106</item>
+        <item>MOD107</item>
+        <item>MODE108</item>
+        <item>MOD109</item>
+        <item>MODE110</item>
+        <item>MOD111</item>
+        <item>MOD112</item>
+        <item>MOD113</item>
+        <item>MODE114</item>
+        <item>MOD115</item>
+        <item>MODE116</item>
+        <item>MOD117</item>
+        <item>MODE118</item>
+        <item>MODE119</item>
+        <item>MOD120</item>
+        <item>MODE121</item>
+        <item>MOD122</item>
+        <item>MOD123</item>
+        <item>MODE124</item>
+        <item>MOD125</item>
+        <item>MODE126</item>
+        <item>MODE127</item>
+        <item>MODE128</item>
+        <item>MOD129</item>
+        <item>MODE130</item>
+        <item>MOD131</item>
+        <item>MODE132</item>
+        <item>MODE133</item>
+        <item>MODE134</item>
+        <item>MODE135</item>
+        <item>MODE136</item>
+        <item>MOD137</item>
+        <item>MOD138</item>
+        <item>MODE139</item>
+        <item>MOD140</item>
+        <item>MODE141</item>
+        <item>MOD142</item>
+        <item>MODE143</item>
+        <item>MODE144</item>
+        <item>MODE145</item>
+        <item>MODE146</item>
+        <item>MOD147</item>
+        <item>MODE148</item>
+        <item>MODE149</item>
+        <item>MODE150</item>
+        <item>MOD151</item>
+        <item>MODE152</item>
+        <item>MODE153</item>
+        <item>MODE154</item>
+        <item>MODE155</item>
+        <item>MOD156</item>
+        <item>MOD157</item>
+        <item>MODE158</item>
+        <item>MODE159</item>
+        <item>MODE160</item>
+        <item>MOD161</item>
+        <item>MODE162</item>
+        <item>MODE163</item>
+        <item>MODE164</item>
+        <item>MODE165</item>
+        <item>MODE166</item>
+        <item>MODE167</item>
+        <item>MODE168</item>
+        <item>MODE169</item>
+        <item>MODE170</item>
+        <item>MODE171</item>
+        <item>MODE172</item>
+        <item>MODE173</item>
+        <item>MODE174</item>
+        <item>MODE175</item>
+        <item>MODE176</item>
+        <item>MODE177</item>
+        <item>MODE178</item>
+        <item>MODE179</item>
+        <item>MODE180</item>
+        <item>MODE181</item>
+        <item>MODE182</item>
+        <item>MODE183</item>
+        <item>MODE184</item>
+        <item>MODE185</item>
+        <item>MODE186</item>
+        <item>MODE187</item>
+        <item>MODE188</item>
+        <item>MODE189</item>
+        <item>MODE190</item>
+        <item>MODE191</item>
+        <item>MODE192</item>
+        <item>MODE193</item>
+        <item>MODE194</item>
+        <item>MODE195</item>
+        <item>MODE196</item>
+        <item>MODE197</item>
+        <item>MODE198</item>
+        <item>MODE199</item>
+        <item>MODE200</item>
+        <item>MODE201</item>
+        <item>MODE202</item>
+        <item>MODE203</item>
+        <item>MODE204</item>
+        <item>MODE205</item>
+        <item>MODE206</item>
+        <item>MODE207</item>
+        <item>MODE208</item>
+        <item>MODE209</item>
+        <item>MODE210</item>
+        <item>MODE211</item>
+    </array>
+    <array name="modelble">
+        <item>Stinge lumina</item>
+        <item>Aprindeți lumina</item>
+        <item>Roșu static</item>
+        <item>Albastru static</item>
+        <item>Verde static</item>
+        <item>Cyan static</item>
+        <item>Galben static</item>
+        <item>Mov static</item>
+        <item>Alb static</item>
+        <item>Salt tricolor</item>
+        <item>Săritură în șapte culori</item>
+        <item>Degradat tricolor</item>
+        <item>Gradient cu șapte culori</item>
+        <item>Alb rece</item>
+        <item>Alb cald</item>
+        <item>Monocrom</item>
+    </array>
+    <array name="modelike">
+        <item>Opriți</item>
+        <item>Activați</item>
+        <item>Toate luminoase</item>
+        <item>Jumătate luminos</item>
+        <item>Puțin strălucitor</item>
+        <item>respirație</item>
+        <item>Stroboscop</item>
+        <item>Intermitent</item>
+    </array>
+    <array name="modelsun">
+        <item>lumina stinsă</item>
+        <item>lumină aprinsă</item>
+        <item>cool</item>
+        <item>cald</item>
+        <item>Natural</item>
+        <item>salt cald la rece</item>
+        <item>gradient rece</item>
+        <item>gradient cald</item>
+        <item>Gradient de lumină naturală</item>
+        <item>gradient cald cald</item>
+        <item>stroboscop cald cald</item>
+        <item>stroboscop cool</item>
+        <item>stroboscop cald</item>
+        <item>Stroboscop cu lumină naturală</item>
+    </array>
+    <array name="rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+        <item>RGBW,7</item>
+        <item>RBGW,8</item>
+        <item>GRBW,9</item>
+        <item>GBRW,10</item>
+        <item>BRGW,11</item>
+        <item>BGRW,12</item>
+    </array>
+    <array name="rgb_sort_ble">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+    </array>
+    <array name="select_mode">
+        <item>W,0</item>
+        <item>BW,1</item>
+        <item>RGB,2</item>
+        <item>RGBW,3</item>
+        <item>RGBWCP,4</item>
+    </array>
+    <array name="timer_model_dmx">
+        <item>Dezactivați</item>
+        <item>Activați</item>
+        <item>AUTO,255</item>
+        <item>1: Vise înainte</item>
+        <item>2:Vise înapoi</item>
+        <item>3: Redirecționați 7 culori</item>
+        <item>4:Înapoi 7 culori</item>
+        <item>5:Înainte ROȘU VERDE ALBASTRU</item>
+        <item>6:Înapoi ROȘU VERDE ALBASTRU</item>
+        <item>7:Înainte GALBEN CYAN MOV</item>
+        <item>8:Înapoi GALBEN CYAN MOV</item>
+        <item>9:Redirecționați 6 culori plus ROȘU</item>
+        <item>10: Înapoi 6 culori plus ROȘU</item>
+        <item>11:Înainte 6 culori plus VERDE</item>
+        <item>12: Înapoi 6 culori plus VERDE</item>
+        <item>13: Redirecționați 6 culori plus ALBASTRU</item>
+        <item>14: Înapoi 6 culori plus ALBASTRU</item>
+        <item>15:Înainte 6 culori plus CYAN</item>
+        <item>16: Înapoi 6 culori plus CYAN</item>
+        <item>17:Înainte 6 culori plus GALBEN</item>
+        <item>18: Înapoi 6 culori plus GALBEN</item>
+        <item>19:Înainte 6 culori plus MOV</item>
+        <item>20: Înapoi 6 culori plus MOVOL</item>
+        <item>21:Înainte 6 culori plus ALB</item>
+        <item>22: Înapoi 6 culori plus ALB</item>
+        <item>23:Înainte, 7 culori</item>
+        <item>24: Înapoi 7 culori</item>
+        <item>25:Înainte în urmă ROȘU</item>
+        <item>26: Înapoi roșu</item>
+        <item>27Forward Trailing VERDE</item>
+        <item>28: Înapoi VERDE</item>
+        <item>29:Înainte trase ALBASTRU</item>
+        <item>30:Backward Trailing BLUE</item>
+        <item>31:Galben înainte înainte</item>
+        <item>32: Înapoi GALBEN</item>
+        <item>33:Forward Trailing CYAN</item>
+        <item>34:Backward Trailing CYAN</item>
+        <item>35:Forward Trailing PURPLE</item>
+        <item>36:Backward Trailing PURPLE</item>
+        <item>37:Forward Trailing ALB</item>
+        <item>38:Backward Trailing ALB</item>
+        <item>39:Redirecționare în flux în 7 culori</item>
+        <item>40: Streaming înapoi în 7 culori</item>
+        <item>41:Redirecționare în flux ROȘU VERDE ALBASTRU</item>
+        <item>42: Streaming înapoi ROȘU VERDE ALBASTRU</item>
+        <item>43:Transmitere în flux YELLOW CYAN PURPLE</item>
+        <item>44: Streaming înapoi YELLOW CYAN PURPLE</item>
+        <item>45:Redirecționare în flux ROȘU VERDE</item>
+        <item>46: Streaming înapoi ROȘU VERDE</item>
+        <item>47:Redirecționare în flux VERDE ALBASTRU</item>
+        <item>48: Streaming înapoi VERDE ALBASTRU</item>
+        <item>49:Redirecționare în flux GALBEN ALBASTRU</item>
+        <item>50: Streaming înapoi GALBEN ALBASTRU</item>
+        <item>51:Redirecționare în flux CIAN GALBEN</item>
+        <item>52: Streaming înapoi CYAN GALBEN</item>
+        <item>53:Transmitere în flux CYAN PURPLE</item>
+        <item>54: Streaming înapoi CYAN PURPLE</item>
+        <item>55:Redirecționare în flux alb-negru</item>
+        <item>56: Streaming înapoi ALB NEGRU</item>
+        <item>57: Cortina deschisă 7 culori</item>
+        <item>58: Închide cortina 7 culori</item>
+        <item>59: Cortina deschisă ROȘU VERDE ALBASTRU</item>
+        <item>60:Închide cortina ROȘU VERDE ALBASTRU</item>
+        <item>61: Cortina deschisă GALBEN CYAN MOV</item>
+        <item>62:Închide cortina GALBEN CYAN MOV</item>
+        <item>63:Forward Follow Spot 7 Colors</item>
+        <item>64:Urmărire înapoi Spot 7 Culori</item>
+        <item>65:Înainte Urmărire punct ROȘU VERDE ALBASTRU</item>
+        <item>66:Urmărire înapoi Spot ROȘU VERDE ALBASTRU</item>
+        <item>67:Forward Follow Spot GALBEN CYAN PURPLE</item>
+        <item>68:Pata de urmărire înapoi GALBEN CYAN MOV</item>
+        <item>69:Forward Flutter 7 Culori</item>
+        <item>70:Backward Flutter 7 Culori</item>
+        <item>71: Flutter înainte ROȘU VERDE ALBASTRU</item>
+        <item>72: Flutter înapoi ROȘU VERDE ALBASTRU</item>
+        <item>73: Flutter înainte GALBEN CYAN MOV</item>
+        <item>74:Backward Flutter GALBEN CYAN MOV</item>
+        <item>75:Hop 7 Culori</item>
+        <item>76:Hamei ROSU VERDE ALBASTRU</item>
+        <item>77:Hamei ROSU VERDE ALBASTRU</item>
+        <item>78:Strobe 7 Culori</item>
+        <item>79:Stroboscop ROSU VERDE ALBASTRU</item>
+        <item>80:Stroboscop GALBEN CYAN MOV</item>
+        <item>81: 7 culori graduale</item>
+        <item>82:ROȘU GALBEN gradual</item>
+        <item>83:ROȘU MOVULUI gradual</item>
+        <item>84:CIAN VERDE gradual</item>
+        <item>85:GALBEN VERDE gradual</item>
+        <item>86: BLUE PURPLE gradual</item>
+        <item>87:Închide cortina ROȘU</item>
+        <item>88:Închide cortina VERDE</item>
+        <item>89:Închide cortina ALBASTRĂ</item>
+        <item>90:Închide cortina GALBEN</item>
+        <item>91:Închide cortina CYAN</item>
+        <item>92:Închide cortina PURPLE</item>
+        <item>93:Închide cortina ALB</item>
+        <item>94: Cortina deschisă ROȘU</item>
+        <item>95: Cortina deschisă VERDE</item>
+        <item>96: Cortina deschisă ALBASTRĂ</item>
+        <item>97: Cortina deschisă GALBEN</item>
+        <item>98: Cortina deschisă CYAN</item>
+        <item>99: Cortina deschisă PURPLE</item>
+        <item>100: Cortina deschisă ALB</item>
+        <item>101:Cursa de cai ROȘU</item>
+        <item>102: Cursa de cai VERDE</item>
+        <item>103:Cursa de cai ALBASTRU</item>
+        <item>104:Cursa de cai GALBEN</item>
+        <item>105:Cursa de cai CYAN</item>
+        <item>106:Cursa de cai PURPLE</item>
+        <item>107:Cursa de cai ALB</item>
+        <item>108:Forward Run RED</item>
+        <item>109:Backward Run RED</item>
+        <item>110:Forward Run VERDE</item>
+        <item>111:Backward Run VERDE</item>
+        <item>112:Forward Run BLUE</item>
+        <item>113:Backward Run BLUE</item>
+        <item>114:Forward Run GALBEN</item>
+        <item>115:Backward Run GALBEN</item>
+        <item>116:Forward Run CYAN</item>
+        <item>117:Backward Run CYAN</item>
+        <item>118:Forward Run PURPLE</item>
+        <item>119:Backward Run PURPLE</item>
+        <item>120:Forward Run WHITE</item>
+        <item>121:Backward Run ALB</item>
+        <item>122:Forward Run 7 Colors</item>
+        <item>123:Backward Run 7 Colors</item>
+        <item>124:Alerează înainte ROȘU VERDE ALBASTRU</item>
+        <item>125:Răspuns înapoi ROȘU VERDE ALBASTRU</item>
+        <item>126:Alerare înainte GALBEN CYAN MOV</item>
+        <item>127:Backward Run GALBEN CYAN MOV</item>
+        <item>128:Forward Run ALBASTRU GALBEN MOV</item>
+        <item>129:Forward Run VERDE ALBASTRU GALBEN</item>
+        <item>130:Backward Run ALBASTRU GALBEN MOV</item>
+        <item>131:Forward Run ROȘU PE ALB</item>
+        <item>132:Răspuns înapoi ROȘU PE ALB</item>
+        <item>133:Forward Run VERDE PE ROȘU</item>
+        <item>134:Rulare înapoi VERDE PE ROȘU</item>
+        <item>135:Înainte alergați ALBASTRU PE VERDE</item>
+        <item>136:Alerta înapoi ALBASTRU PE VERDE</item>
+        <item>137:Forward Run GALBEN PE ALBASTRU</item>
+        <item>138:Alergare înapoi GALBEN PE ALBASTRU</item>
+        <item>139:Forward Run CYAN ON GALBEN</item>
+        <item>140:Backward Run CYAN PE GALBEN</item>
+        <item>141:Forward Run PURPLE ON CYAN</item>
+        <item>142:Backward Run PURPLE ON CYAN</item>
+        <item>143:Forward Run ALB PE MOV</item>
+        <item>144:Backward Run ALB PE MOV</item>
+        <item>145:Forward Run ALB PE ROȘU</item>
+        <item>146:Backward Run ALB PE RED</item>
+        <item>147:Forward Run 7 CULOARE PE RED</item>
+        <item>148:Backward Run 7 CULOARE PE RED</item>
+        <item>149:Forward Run 7 CULOARE PE VERDE</item>
+        <item>150:Backward Run 7 CULOARE PE VERDE</item>
+        <item>151:Forward Run 7 CULOARE PE ALBASTRU</item>
+        <item>152:Backward Run 7 CULORI PE ALBASTRU</item>
+        <item>153:Forward Run 7 CULOARE PE GALBEN</item>
+        <item>154:Backward Run 7 CULOARE PE GALBEN</item>
+        <item>155:Forward Run 7 CULOARE PE CYAN</item>
+        <item>156:Backward Run 7 CULOARE PE CYAN</item>
+        <item>157:Forward Run 7 CULOARE PE MOV</item>
+        <item>158:Backward Run 7 CULOARE PE MOV</item>
+        <item>159:Forward Run 7 CULOARE PE ALB</item>
+        <item>160:Backward Run 7 CULOARE PE ALB</item>
+        <item>161:Forward Flow ALB ROȘU ALB</item>
+        <item>162:Backward Flow ALB ROȘU ALB</item>
+        <item>163:Forward Flow ALB VERDE ALB</item>
+        <item>164:Backward Flow ALB VERDE ALB</item>
+        <item>165:Forward Flow ALB ALBASTRU ALB</item>
+        <item>166:Backward Flow ALB ALBASTRU ALB</item>
+        <item>167:Forward Flow ALB GALBEN ALB</item>
+        <item>168:Backward Flow ALB GALBEN ALB</item>
+        <item>169:Forward Flow ALB CIAN ALB</item>
+        <item>170:Backward Flow ALB CIAN ALB</item>
+        <item>171:Forward Flow WHITE PURPLE WHITE</item>
+        <item>172:Backward Flow WHITE PURPLE WHITE</item>
+        <item>173:Flux înainte ROȘU ALB ROȘU</item>
+        <item>174:Flux înapoi ROȘU ALB ROȘU</item>
+        <item>175:Forward Flow VERDE ALB VERDE</item>
+        <item>176:Backward Flow VERDE ALB VERDE</item>
+        <item>177:Forward Flow ALBASTRU ALB ALBASTRU</item>
+        <item>178:Backward Flow ALBASTRU ALB ALBASTRU</item>
+        <item>179:Forward Flow GALBEN ALB GALBEN</item>
+        <item>180:Backward Flow GALBEN ALB GALBEN</item>
+        <item>181:Forward Flow CYAN WHITE CYAN</item>
+        <item>182:Backward Flow CYAN WHITE CYAN</item>
+        <item>183:Forward Flow PURPLE WHITE PURPLE</item>
+        <item>184:Backward Flow PURPLE WHITE PURPLE</item>
+        <item>185:Forward Run VERDE PE ALBASTRU</item>
+        <item>186:Alergare înapoi VERDE PE ALBASTRU</item>
+        <item>187:Forward Run VERDE PE ROȘU</item>
+        <item>188:Răspuns înapoi VERDE PE ROȘU</item>
+        <item>189:Forward Run ROȘU PE ALBASTRU</item>
+        <item>190Răspuns înapoi ROȘU PE ALBASTRU</item>
+        <item>191Forward Run CYAN PE GALBEN</item>
+        <item>192:Backward Run CYAN PE GALBEN</item>
+        <item>193:Forward Run GALBEN PE MOV</item>
+        <item>194:Backward Run GALBEN PE MOV</item>
+        <item>195:Forward Run ALB PE GALBEN</item>
+        <item>196:Backward Run ALB PE GALBEN</item>
+        <item>197:Forward Run GALBEN PE ALB</item>
+        <item>198:Backward Run GALBEN PE ALB</item>
+        <item>199: Tampon înainte 7 CULORI</item>
+        <item>200:Backward Swab 7 CULORI</item>
+        <item>201:Tampon înainte ROȘU VERDE ALBASTRU</item>
+        <item>202:Tampon înapoi ROȘU VERDE ALBASTRU</item>
+        <item>203:Tampon înainte GALBEN CYAN MOV</item>
+        <item>204:Backward Swab GALBEN CYAN MOV</item>
+        <item>205:Tampoane pentru perdele deschise 7 CULORI</item>
+        <item>206:Tampoane închideți cortina 7 CULORI</item>
+        <item>207Tampoane pentru cortină deschisă R G B</item>
+        <item>208:Tampoane închideți cortina R G B</item>
+        <item>209:Tampon de cortină deschisă Y C P</item>
+        <item>210:Închideți tamponul cortină Y C P</item>
+    </array>
+    <array name="week">
+        <item>Luni</item>
+        <item>Mar</item>
+        <item>Miercuri</item>
+        <item>Joi</item>
+        <item>Vineri</item>
+        <item>Sat</item>
+        <item>Soare</item>
+    </array>
+    <array name="weekday">
+        <item>Luni</item>
+        <item>Marți</item>
+        <item>Miercuri</item>
+        <item>Joi</item>
+        <item>vineri</item>
+        <item>sâmbătă</item>
+        <item>duminică</item>
+    </array>
+    <string name="Advisory">Advi</string>
+    <string name="Auxiliary_function">Buton</string>
+    <string name="Bubble">Bubble</string>
+    <string name="ButtonEight">cal</string>
+    <string name="ButtonFive">Stiva</string>
+    <string name="ButtonSeven">flux</string>
+    <string name="ButtonSix">trageți ecranul</string>
+    <string name="Closetiming">Timpul de închidere</string>
+    <string name="Code">Cod</string>
+    <string name="Connect">Conectează</string>
+    <string name="Crash_Tip">*Recent n-am întâlnit o problemă de blocare\nVă rugăm să dezinstalați mai întâi aplicația, \n apoi descărcați din nou</string>
+    <string name="Experience_Now">Experiență acum</string>
+    <string name="FD">FD</string>
+    <string name="FS">FS</string>
+    <string name="FW">FW</string>
+    <string name="Forward">Înainte</string>
+    <string name="Hot">Fierbinte</string>
+    <string name="Language">Limba</string>
+    <string name="No_Equipment">Fără echipament, trageți în jos pentru a reîmprospăta</string>
+    <string name="Other">Altele</string>
+    <string name="Pull_down_to_refresh_device">Trageți în jos pentru a reîmprospăta dispozitivul</string>
+    <string name="RandomPlay">RandomPlay</string>
+    <string name="Reverse">Reverse</string>
+    <string name="Sendtiming">Timpul de trimitere</string>
+    <string name="SequentialPlay">SequentialPlay</string>
+    <string name="SinglePlay">SinglePlay</string>
+    <string name="Suggest">Suger</string>
+    <string name="Tutorial">Tutorial</string>
+    <string name="Values_can_be_the_same">Valorile nu pot fi aceleași</string>
+    <string name="Voicecontrol">Voce</string>
+    <string name="abc_action_bar_home_description">Navigați la ecranul de pornire</string>
+    <string name="abc_action_bar_up_description">Navigați în sus</string>
+    <string name="abc_action_menu_overflow_description">Mai multe opțiuni</string>
+    <string name="abc_action_mode_done">Gata</string>
+    <string name="abc_activity_chooser_view_see_all">Afișați tot</string>
+    <string name="abc_activitychooserview_choose_application">Alegeți o aplicație</string>
+    <string name="abc_capital_off">DEZACTIVAT</string>
+    <string name="abc_capital_on">ACTIVAT</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Meniu+</string>
+    <string name="abc_search_hint">Căutați…</string>
+    <string name="abc_searchview_description_clear">Ștergeți interogarea</string>
+    <string name="abc_searchview_description_query">Termen de căutare</string>
+    <string name="abc_searchview_description_search">Căutați</string>
+    <string name="abc_searchview_description_submit">Trimiteți interogarea</string>
+    <string name="abc_searchview_description_voice">Căutare vocală</string>
+    <string name="abc_shareactionprovider_share_with">Trimiteți la</string>
+    <string name="abc_shareactionprovider_share_with_application">Trimiteți folosind %s</string>
+    <string name="abc_toolbar_collapse_description">Restrângeți</string>
+    <string name="ablum_title">numele muzicii:%1$s de la artist:%2$s Album: %3$s</string>
+    <string name="about_us_and_help">Despre noi</string>
+    <string name="access_request">Solicitare de acces</string>
+    <string name="access_request_description">De la Android 6.0, pentru a scana dispozitive Bluetooth cu consum redus, aplicațiile trebuie să aibă acces la locația dispozitivului. Acest lucru se datorează faptului că balizele Bluetooth pot fi folosite pentru a determina locația telefoanelor mobile și a utilizatorilor. Cu toate acestea, această aplicație nu folosește informațiile despre locație. Această permisiune este numai pentru scanarea dispozitivelor Bluetooth. [Faceți clic pentru a vedea documentația oficială Google]</string>
+    <string name="access_request_description1">De la Android 6.0, pentru a scana dispozitive Bluetooth cu consum redus, aplicațiile trebuie să aibă acces la locația dispozitivului. Acest lucru se datorează faptului că balizele Bluetooth pot fi folosite pentru a determina locația telefoanelor mobile și a utilizatorilor. Cu toate acestea, această aplicație nu folosește informațiile despre locație. Această permisiune este numai pentru scanarea dispozitivelor Bluetooth.</string>
+    <string name="access_request_description2">[Faceți clic pentru a vedea documentația oficială Google]</string>
+    <string name="account_format_error">Metoda de autentificare este formatată incorect</string>
+    <string name="accumulation">AC</string>
+    <string name="action_settings">Setări</string>
+    <string name="add2lib">Confirmați selectarea</string>
+    <string name="add2lib_all">Selectați tot</string>
+    <string name="addTimer">Adăugați temporizator</string>
+    <string name="add_device">Adăugați un dispozitiv</string>
+    <string name="add_device_successfully">adăugați dispozitivul cu succes</string>
+    <string name="add_group">adăugați un grup nou</string>
+    <string name="adding_device">adaugă echipament</string>
+    <string name="agree">Sunt de acord</string>
+    <string name="aisle_a">Coridorul A</string>
+    <string name="aisle_b">Coridorul B</string>
+    <string name="aisle_c">Coridorul C</string>
+    <string name="all_off">tot dezactivat</string>
+    <string name="all_on">toate activate</string>
+    <string name="allcomment">Toate comentariile</string>
+    <string name="app_name">LAMPĂ LED</string>
+    <string name="aquatic_mode">Modul acvatic</string>
+    <string name="authorization_alert">Această funcție necesită autorizarea dvs., În caz contrar, APP nu va fi utilizată corect.</string>
+    <string name="authorization_title">Sfaturi:</string>
+    <string name="b">B</string>
+    <string name="back">ÎNAPOI</string>
+    <string name="base_setting">Setare</string>
+    <string name="battery">Baterie</string>
+    <string name="bind_end">CONFIRMĂ</string>
+    <string name="ble_connect">Bluetooth</string>
+    <string name="ble_not_supported">Dispozitiv nu este compatibil</string>
+    <string name="blue">%1$s</string>
+    <string name="breathe">Respira</string>
+    <string name="brightness">Luminozitate</string>
+    <string name="brightness_set">Luminozitate: %1$s</string>
+    <string name="btn_pix_number">număr</string>
+    <string name="btn_set_pix_number">set_pix_number(0-1024)</string>
+    <string name="btquery">Interogare despre temperatura bateriei</string>
+    <string name="busy_wait">Sunt ocupat, așteptați</string>
+    <string name="c">C</string>
+    <string name="camera_permissions_disabled">Permisiunile camerei sunt dezactivate, asigurați-vă că activați permisiunile camerei!</string>
+    <string name="can_not_connect">Poate fi greșit WIFI-ul, Reconectați-vă 3 secunde mai târziu sau reselegeți alt WIFI!</string>
+    <string name="cancel">anulat</string>
+    <string name="cancell">Anulează</string>
+    <string name="cancell_dialog">ANULARE</string>
+    <string name="change_color">Schimbați culoarea</string>
+    <string name="change_skin">Schimbați aspectul</string>
+    <string name="channelset">Set de canale de culoare</string>
+    <string name="charts">Forumul grafic</string>
+    <string name="check_network_connection">Vă rugăm să verificați conexiunea la rețea!!!</string>
+    <string name="chiptypevaluetip">Vă rugăm să selectați o valoare pentru Tipul de cip!</string>
+    <string name="choose">Alege săptămâna</string>
+    <string name="choosemode">Alegeți modul</string>
+    <string name="chose">Vă rugăm să selectați videoclipul scurt</string>
+    <string name="chose_list">vă rugăm să selectați lista de redare din lib. muzica</string>
+    <string name="chose_picthor">Poate selecta o singură imagine</string>
+    <string name="chose_video">Poate selecta doar un videoclip</string>
+    <string name="circulation">buclă</string>
+    <string name="clear">Șterge</string>
+    <string name="close">close</string>
+    <string name="colorful_mode">Modul colorat</string>
+    <string name="colour">Culoare</string>
+    <string name="comment">comentariu</string>
+    <string name="comment_content">corp</string>
+    <string name="comment_detail">detalii comentarii</string>
+    <string name="comment_publish">publicat</string>
+    <string name="comment_publish_success">publicat cu succes</string>
+    <string name="comment_title">titlu</string>
+    <string name="common_words">Cuvinte comune</string>
+    <string name="conenct_device">%1$s Dispozitive disponibile; %2$s conectat.</string>
+    <string name="confirm">CONFIRMĂ</string>
+    <string name="confirm_light_flash_slowly">confirmați că lumina clipește încet</string>
+    <string name="confirm_the_light_flash">confirmați starea luminii intermitente</string>
+    <string name="confirmation_light_flash_ble">3 > Lumina de confirmare clipește rapid (lumină albă)</string>
+    <string name="confirmation_light_flash_hotspot">3 Lumina de confirmare clipește lent (lumină roșie)</string>
+    <string name="confirmation_light_flash_wifi">3 > Lumina de confirmare clipește rapid (lumină albastră)</string>
+    <string name="connect_count">dispozitiv %1$s</string>
+    <string name="connect_success">Conectați-vă cu succes!</string>
+    <string name="connected_to_the_hotspot_shown">1. Vă rugăm să conectați telefonul la hotspot-ul prezentat în figura de mai jos</string>
+    <string name="connecting">Se conectează...</string>
+    <string name="control">Control</string>
+    <string name="cool_warm">Rece: %1$s Cald: %2$s</string>
+    <string name="copy">Copiați</string>
+    <string name="coral_artistic_conception">Concepție artistică coral</string>
+    <string name="current_mode">Modul curent</string>
+    <string name="current_mode_format">%1$s</string>
+    <string name="current_rgb_format">Sortificare RGB actuală: %1$s</string>
+    <string name="current_version">Versiunea actuală</string>
+    <string name="currentquery">Interogare statică</string>
+    <string name="custom">PERSONALIZAT</string>
+    <string name="cycle">Ciclul</string>
+    <string name="database_error">Eroare la baza de date</string>
+    <string name="deep_sea_mode">Modul Marea Adâncă</string>
+    <string name="define_system">definire de utilizator</string>
+    <string name="delete">Del</string>
+    <string name="delete_group">șterge grupul %1$s</string>
+    <string name="deletthis">Trageți aici pentru a Șterge</string>
+    <string name="device_has_restarted">1. Confirmați că dispozitivul a repornit și că lumina clipește rapid</string>
+    <string name="device_list">lista de dispozitive</string>
+    <string name="devices_all">TOATE DISPOZITIVELE</string>
+    <string name="disconnect">Deconectați Bluetooth...</string>
+    <string name="disconnect_bluetooth">Sunteți sigur că doriți să deconectați Bluetooth?</string>
+    <string name="download_center">Centrul de descărcare</string>
+    <string name="editTimer">Editare cronometru</string>
+    <string name="edit_group_please">Vă rugăm să editați mai întâi dispozitivele de grup</string>
+    <string name="enter">Vă rugăm să introduceți săptămâna modului</string>
+    <string name="fan_rotational_temperature">Setata temperatura de rotatie a ventilatorului</string>
+    <string name="file_size_exceeds_limit">Dimensiunea fișierului depășește limita</string>
+    <string name="filesize">Fișierul video nu poate fi mai mare de 20 MB</string>
+    <string name="firstlogin">Vă rugăm să vă conectați mai întâi</string>
+    <string name="five">Vineri</string>
+    <string name="flash">Flash</string>
+    <string name="floor">clădire</string>
+    <string name="floor_host">proprietar</string>
+    <string name="flow">WxWflow</string>
+    <string name="forget_password">Ați uitat parola?</string>
+    <string name="forum">Forum</string>
+    <string name="four">Joi</string>
+    <string name="g">G</string>
+    <string name="get_checkcode">Obțineți codul de verificare</string>
+    <string name="goodbye">La revedere</string>
+    <string name="gpsNotifyMsg">Aplicația actuală trebuie să deschidă funcția de locație.\nVă rugăm să dați clic pe\"Setări\"-\"Serviciul de localizare\"-Deschideți funcția de locație.</string>
+    <string name="gradient">Gradient</string>
+    <string name="green">%1$s</string>
+    <string name="group_ble_device">Grupuri</string>
+    <string name="groupname_cannot_same">Numele grupurilor nu pot fi aceleași!</string>
+    <string name="have_time_to_talk">Aveți timp să vorbiți?</string>
+    <string name="hello_blank_fragment">Salut fragment gol</string>
+    <string name="hello_there">Bună ziua</string>
+    <string name="help">Ajutor</string>
+    <string name="home">Acasă</string>
+    <string name="home_page">Acasă</string>
+    <string name="hotspot_connect">Hotspot</string>
+    <string name="hour">ORA</string>
+    <string name="input_account">Vă rugăm să introduceți numărul de cont</string>
+    <string name="input_content">Introduceți conținut... (numai text)</string>
+    <string name="input_length_error">eroare de lungime de intrare</string>
+    <string name="input_not_null">intrarea nu poate fi goală</string>
+    <string name="input_password">Vă rugăm să introduceți parola dvs.</string>
+    <string name="invalid_verification_code">Cod de verificare nevalid</string>
+    <string name="is_it_2_4">2. Verificați dacă Wi-Fi este de 2,4 GHz</string>
+    <string name="is_the_password_correct">3. Verificați dacă parola Wi-Fi este corectă</string>
+    <string name="jump">Săriți</string>
+    <string name="jump_over">Sări peste</string>
+    <string name="keyStr">1234567890abcdef</string>
+    <string name="key_in_numbers">Tastați numerele!</string>
+    <string name="led_like">LED LIKE</string>
+    <string name="light_code">Codul de adresă</string>
+    <string name="lightning_mode">Mod fulger</string>
+    <string name="loading">se încarcă...</string>
+    <string name="login">autentificare</string>
+    <string name="loginapp">Vă rugăm să vă conectați mai întâi la forum</string>
+    <string name="logon_agree_policy1">Conectați-vă pentru a citi și a fi de acord cu</string>
+    <string name="logon_agree_policy2">acord de servicii</string>
+    <string name="logout">ieșiți din autentificare</string>
+    <string name="long_press_the_controller_colorbtn">2> Apăsați lung tasta de culoare a controlerului timp de 5 secunde</string>
+    <string name="long_press_the_controller_muscibtn">2> Apăsați lung tasta muzicală a controlerului timp de 5 secunde</string>
+    <string name="long_press_the_controller_onoffbtn">2> Apăsați lung tasta comutatorului controlerului timp de 5 secunde</string>
+    <string name="look">Vizualizați acest comentariu</string>
+    <string name="looking">Previzualizare...</string>
+    <string name="main_tab_text_service">LAMPĂ LED</string>
+    <string name="marine_mode">Modul marin</string>
+    <string name="micro_authorized">Microfonul este autorizat.</string>
+    <string name="minute">MINUT</string>
+    <string name="mode">Mod</string>
+    <string name="mode_select">Comutator de mod</string>
+    <string name="mode_set">Mod: %1$s</string>
+    <string name="model">MOD</string>
+    <string name="msg_no_add_scene">Nu este alegerea conținutului, operația este invalidă</string>
+    <string name="msg_not_empty">Datele nu au fost salvate, sigur că doriți să ieșiți</string>
+    <string name="msg_sending_online">Se scanează...</string>
+    <string name="multipoint_fast_running">MR</string>
+    <string name="music_lib">muzică bibliotecă</string>
+    <string name="music_style_pop">Pop</string>
+    <string name="music_style_rock">Rock</string>
+    <string name="music_style_soft">Moale</string>
+    <string name="my_personal">Al meu</string>
+    <string name="natural_light">Natural</string>
+    <string name="nei_mai">I M</string>
+    <string name="network_timeout">expirare la rețea pentru conexiunea dispozitivului</string>
+    <string name="new_password">parolă nouă:</string>
+    <string name="next_step">Următorul pas</string>
+    <string name="no_account">nu există un număr de cont?</string>
+    <string name="no_data">Fără date</string>
+    <string name="no_device_found">NICIUN DISPOZITIV GĂSIT!</string>
+    <string name="no_more_data">Nu mai sunt date</string>
+    <string name="normal">按住 说话</string>
+    <string name="not_used">Neutilizat</string>
+    <string name="nothing">Fără date</string>
+    <string name="ok">OK</string>
+    <string name="old_password">veche parolă:</string>
+    <string name="one">Luni</string>
+    <string name="online_service">Serviciul online</string>
+    <string name="open">Deschide</string>
+    <string name="open_album">Deschide albumul</string>
+    <string name="open_close">O/C</string>
+    <string name="openapp">Faceți clic pe colțul din dreapta sus ⊕ pentru a adăuga software. Pentru prima dată, faceți clic pe butonul de ajutor din colțul din dreapta jos pentru a vizualiza ghidul de operare</string>
+    <string name="p">P</string>
+    <string name="p_explain">Explicație grafică</string>
+    <string name="pair_code">Cod de pereche</string>
+    <string name="pair_code_set">Cod curent: %1$s</string>
+    <string name="parameter_error">Eroare de parametru</string>
+    <string name="pecent_photos">Fotografii recente</string>
+    <string name="phone_connected_to_hotspot">conectați telefonul mobil WiFi la hotspot-ul dispozitivului</string>
+    <string name="phone_or_email">număr de telefon mobil sau adresă de e-mail</string>
+    <string name="picture">Imaginea nu poate fi mai mare de 1 MB, vă rugăm să reselectați</string>
+    <string name="playvideo">Redați</string>
+    <string name="please_describe_your_problem">Bună ziua, vă rugăm să descrieți problema dvs., vă voi ajuta să o rezolvați cât mai curând posibil.</string>
+    <string name="please_enter_again">Vă rugăm să introduceți din nou!</string>
+    <string name="please_input">Nume de grup nou</string>
+    <string name="please_use_the_verification_code_sent">Vă rugăm să utilizați codul de verificare trimis</string>
+    <string name="position_closed">Poziție închisă</string>
+    <string name="position_service">Serviciul de poziție</string>
+    <string name="position_service_info">Este posibil ca telefonul dvs. să fie necesar să activeze serviciile de localizare pentru a găsi dispozitive Bluetooth. Dacă sunteți sigur că aveți un dispozitiv Bluetooth în apropiere, dar nu îl găsiți, activați serviciile de localizare.</string>
+    <string name="power_on">1 > Conectați sursa de alimentare</string>
+    <string name="preview">previzualizare</string>
+    <string name="privacy_policy">Acord de servicii și Politică de confidențialitate</string>
+    <string name="privacy_policy_content">Asigurați-vă că citiți cu atenție și înțelegeți pe deplin termenii „Acordului de servicii” și „Politica de confidențialitate”, inclusiv, dar fără a se limita la: informațiile de autoritate pe care trebuie să le obțineți pentru a vă oferi date, partajare și alte servicii. Puteți citi Acordul de servicii și Politica de confidențialitate pentru detalii. Dacă sunteți de acord, faceți clic pe „De acord” pentru a începe să acceptați serviciul nostru.</string>
+    <string name="privacy_policy_content1">Asigurați-vă că citiți cu atenție și înțelegeți pe deplin termenii „Acordului privind serviciile” și „Politica de confidențialitate”, inclusiv, dar fără a se limita la: informațiile de autoritate pe care trebuie să le obțineți pentru a vă oferi date, partajare și alte servicii. Puteți citi</string>
+    <string name="privacy_policy_content2">Acord de servicii</string>
+    <string name="privacy_policy_content3">și</string>
+    <string name="privacy_policy_content4">Politica de confidențialitate</string>
+    <string name="publish_comment">postat</string>
+    <string name="query">Interogare</string>
+    <string name="r">R</string>
+    <string name="r_g_b">R:%1$s G:%2$s B:%3$s</string>
+    <string name="rationale_ask_again">Este posibil ca această aplicație să nu funcționeze corect fără permisiunile solicitate. Deschideți interfața cu setările aplicației pentru a modifica permisiunile aplicației.</string>
+    <string name="reason">Motivul</string>
+    <string name="recording">松开 结束</string>
+    <string name="red">%1$s</string>
+    <string name="regist_agree_policy">Prin înscriere, citiți și sunteți de acord cu acordul de servicii și cu politica de confidențialitate</string>
+    <string name="regist_agree_policy1">Prin înscriere, citiți și sunteți de acord cu</string>
+    <string name="regist_agree_policy2">acord de servicii</string>
+    <string name="regist_agree_policy3">și</string>
+    <string name="regist_agree_policy4">politica de confidențialitate</string>
+    <string name="register">înregistrat</string>
+    <string name="register_account">număr de cont:</string>
+    <string name="register_checkcode">cod de verificare:</string>
+    <string name="register_email">metoda de autentificare:</string>
+    <string name="register_password">Parolă:</string>
+    <string name="register_success">înregistrare reușită</string>
+    <string name="replacement">Resetați</string>
+    <string name="reply">răspuns</string>
+    <string name="request_failed">solicitarea a eșuat, vă rugăm să încercați din nou mai târziu</string>
+    <string name="reset_device">Resetați mai întâi dispozitivul</string>
+    <string name="reset_message">Datele vor fi șterse după resetare. Sigur doriți să resetați?</string>
+    <string name="reset_password">Resetați parola</string>
+    <string name="reset_password_success">Resetarea parolei a avut succes, vă rugăm să vă conectați din nou!</string>
+    <string name="retrieve">Preluare</string>
+    <string name="retrieve_password">Preluați parola</string>
+    <string name="return_to_this_app_to_continue_adding_device">2. Reveniți la această aplicație și continuați să adăugați echipament</string>
+    <string name="rgb_sort">Sortare RGB</string>
+    <string name="rgb_sort_set">Sortificare curentă: %1$s</string>
+    <string name="ring">RING</string>
+    <string name="run">RUN</string>
+    <string name="save">Salvați</string>
+    <string name="saveSuccessfully">Salvare reușită</string>
+    <string name="savefailed">Salvare eșuată</string>
+    <string name="scan_dev_info">Scanați pe dispozitivul %1$s，Vă rugăm să reveniți la pagina de pornire pentru a deschide aplicația %2$s</string>
+    <string name="scan_dev_info_wifi">Au fost scanate %1$s dispozitive, %2$s dispozitive au fost adăugate cu succes</string>
+    <string name="scan_failed_with_missing_permissions">Scanarea a eșuat cu permisiunile lipsă</string>
+    <string name="scan_to">Scanare către</string>
+    <string name="sdded_successfully">adăugat cu succes</string>
+    <string name="search_menu_title">Căutați</string>
+    <string name="second">Al doilea</string>
+    <string name="select_all">Selectați tot</string>
+    <string name="select_chip">Selectați cip</string>
+    <string name="send">Trimite</string>
+    <string name="sendSccess">Trimis cu succes, setarea de sincronizare este invalidă după oprire</string>
+    <string name="send_checkcode">a fost trimis codul de verificare</string>
+    <string name="sendcharts">Trimiteți text</string>
+    <string name="sendtie">Se trimite...</string>
+    <string name="sendvideo">Trimite videoclipul</string>
+    <string name="sensitivity">Sensibilitate</string>
+    <string name="sensitivity_set">sensibilitate: %1$s</string>
+    <string name="sent_success">Trimis cu succes</string>
+    <string name="set_focus">Setați focalizarea</string>
+    <string name="set_pix_number">Setați codul adresei (0-512)</string>
+    <string name="setting">Conexiune Wifi -></string>
+    <string name="seven">Soare</string>
+    <string name="shake">Agitați</string>
+    <string name="shouzhishanghua">手指上滑，取消发送</string>
+    <string name="single_click_select_color">Cu un singur clic alege culoarea, clic lung șterge culoare</string>
+    <string name="single_lamp_jump">SJ</string>
+    <string name="single_lamp_strobe">SS</string>
+    <string name="single_light_gradient">SG</string>
+    <string name="singlepoint_fast_running">SR</string>
+    <string name="six">Sta</string>
+    <string name="six_eighteen_length">6~18 alfabet numeric</string>
+    <string name="six_number">6 cifre</string>
+    <string name="skin_restoration">Refacerea pielii</string>
+    <string name="skip_reset_step_ble">Dacă lumina clipește rapid alb, săriți peste pasul de resetare</string>
+    <string name="skip_reset_step_hotspot">Dacă lumina clipește roșu încet, vă rugăm să omiteți pasul de resetare</string>
+    <string name="skip_reset_step_wifi">Dacă lumina luminează albastră intermitent rapid, sări peste pasul de resetare</string>
+    <string name="sleep_mode">Mod inactiv</string>
+    <string name="spacercode">Cod distanțier</string>
+    <string name="spacercodevaluetip">Vă rugăm să introduceți o valoare pentru Spacer Code!</string>
+    <string name="speed">Viteză</string>
+    <string name="speed_set">Viteză: %1$s</string>
+    <string name="startcode">Codul de pornire</string>
+    <string name="startcodevaluetip">Vă rugăm să introduceți o valoare a Codului de pornire!</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="step_1">Pasul 1 \n Faceți clic pe pictograma de navigare de jos\nvideo</string>
+    <string name="step_2">În caz de blocare a aplicației\n\nVă rugăm să dezinstalați aplicația\n\nDescărcați din nou</string>
+    <string name="step_3">Pasul 3 \n Faceți clic pe tutorialul video</string>
+    <string name="strobe">Strobe</string>
+    <string name="sun_a">Citește</string>
+    <string name="sun_b">Învățați</string>
+    <string name="sun_c">Împreună</string>
+    <string name="sun_d">Agrement</string>
+    <string name="sun_e">Romantic</string>
+    <string name="sun_f">Moale</string>
+    <string name="sun_g">Somn</string>
+    <string name="sun_h">Natural</string>
+    <string name="sun_i">stroboscop cald</string>
+    <string name="sun_sei">cold:100 warm:0</string>
+    <string name="sunrise_mode">Modul Răsărit</string>
+    <string name="sunset_mode">Modul apus</string>
+    <string name="sunshine_mode">Modul Sunshine</string>
+    <string name="supported">Ne pare rău, sunt acceptate până la 16 ori</string>
+    <string name="supportedlight">Ne pare rău, sunt acceptate până la 10 ori</string>
+    <string name="sure">Sigur</string>
+    <string name="switch_distribution_mode">Vă rugăm să încercați să schimbați modul de distribuție a rețelei</string>
+    <string name="switch_to_the_distribution_network">comutați la modul rețea de distribuție</string>
+    <string name="system_device">sistem</string>
+    <string name="system_error">Eroare de sistem</string>
+    <string name="tab_aisle">Aiul</string>
+    <string name="tab_brightness">Luminozitate</string>
+    <string name="tab_ct">CT</string>
+    <string name="tab_custom">Personalizat</string>
+    <string name="tab_dm">WHT DIM</string>
+    <string name="tab_mode">Mod</string>
+    <string name="tab_music">Muzică</string>
+    <string name="tab_record">Înregistrare</string>
+    <string name="tab_reg">RGB</string>
+    <string name="tab_scene">Scena</string>
+    <string name="tab_timer">Temporizator</string>
+    <string name="table1">Tabelul 1</string>
+    <string name="table2">Tabelul 2</string>
+    <string name="take_video">Videoclip recent</string>
+    <string name="temperature">Temperatura</string>
+    <string name="text">Vă rugăm să introduceți corpul</string>
+    <string name="text_addname">Adăugați (Actualizare) Nume</string>
+    <string name="text_addscene_new">Adăugați un serviciu nou</string>
+    <string name="text_cancel">ANULARE</string>
+    <string name="text_custom">Definit de utilizator</string>
+    <string name="text_edit">Editare</string>
+    <string name="text_empty_name">Numele nu poate fi gol</string>
+    <string name="text_empty_service">Serviciul nu poate fi gol</string>
+    <string name="text_exit">Din nou, în funcție de ieșirea LED LAMP</string>
+    <string name="text_input_name">1 până la 16 litere, numere sau litere de subliniere</string>
+    <string name="text_ledble">LED BLE</string>
+    <string name="text_leddmx">LED DMX</string>
+    <string name="text_ledlight">LUMINĂ LED</string>
+    <string name="text_ledline">LINIA LED</string>
+    <string name="text_ledsmart">LED SMART</string>
+    <string name="text_ledspi">LED SPI</string>
+    <string name="text_ledstage">STAGE LED</string>
+    <string name="text_ledstrip">STRIP LED</string>
+    <string name="text_ledsun">LED SUN</string>
+    <string name="text_ledwifi">LED WiFi</string>
+    <string name="text_ok">OK</string>
+    <string name="text_over">Finalizare</string>
+    <string name="text_pic">Imagine</string>
+    <string name="text_pick_camera">Fă poze</string>
+    <string name="text_pick_local">Galerie</string>
+    <string name="text_relaxation">Relaxare</string>
+    <string name="text_romance">Romantic</string>
+    <string name="text_selectdevice">Selectați dispozitivul</string>
+    <string name="text_sport">Sport</string>
+    <string name="text_storage">Salvați</string>
+    <string name="text_str">Nume</string>
+    <string name="text_system">Sistem</string>
+    <string name="text_warm_content">Sigur doriți să ștergeți acest scenariu?</string>
+    <string name="text_warm_content1">Vă rugăm să introduceți în caseta de introducere de mai jos:</string>
+    <string name="text_warming">Solicitare caldă</string>
+    <string name="the_parameter_is_empty">Parametrul este gol</string>
+    <string name="the_verification_code_is_sent_abnormally_please_try_again">Codul de verificare este trimis anormal, vă rugăm să încercați din nou</string>
+    <string name="three">Miercuri</string>
+    <string name="thunderstorm_mode">Mod furtună</string>
+    <string name="tiele">Vă rugăm să introduceți titlul</string>
+    <string name="time">ora</string>
+    <string name="timeSize">Numărul maxim de temporizatoare este de 24</string>
+    <string name="time_set">Corectare sincronizare</string>
+    <string name="timeday">ora cronometrului nu poate fi aceeași</string>
+    <string name="timelow">Bateria este prea scăzută, poate afecta utilizarea normală a aplicației</string>
+    <string name="timer">Sunteți sigur că doriți să ștergeți acest cronometru?</string>
+    <string name="timingquery">Interogare de sincronizare</string>
+    <string name="tip_istribution_network">Notă: după resetarea dispozitivului, finalizați operațiunea de configurare a rețelei în trei minute</string>
+    <string name="tips">Sfaturi</string>
+    <string name="title_settings_dialog">Cerințe de permisiune</string>
+    <string name="to_connect">pentru a se conecta</string>
+    <string name="toast_scene_exist">Serviciul există</string>
+    <string name="token_error">Eroare de simbol</string>
+    <string name="toolong">录音时间过长</string>
+    <string name="tooshort">录音时间过短</string>
+    <string name="turn_on_the_camera">Porniți camera</string>
+    <string name="tv_chip_set">Setări cip</string>
+    <string name="two">Mar</string>
+    <string name="un_known_artist">un_known_artist</string>
+    <string name="update">modificat</string>
+    <string name="update_password">modificați parola</string>
+    <string name="update_password_success">parola modificată cu succes</string>
+    <string name="username_already_exists">Numele de utilizator există deja</string>
+    <string name="valuetip">Vă rugăm să introduceți o valoare mai mare decât 0 !</string>
+    <string name="video">Video</string>
+    <string name="video_explain">Explicație video</string>
+    <string name="video_operation_tutorial">Tutorial de operare video</string>
+    <string name="w">W</string>
+    <string name="wai_mai">E M</string>
+    <string name="want_to_cancle">松开手指，取消发送</string>
+    <string name="warm_light">cald</string>
+    <string name="what_the_matter">Ce se întâmplă?</string>
+    <string name="white_light">Cool</string>
+    <string name="wifi_connect">WiFi</string>
+    <string name="wifi_network">în prezent în rețeaua Wi-Fi de 2,4 GHz și introduceți parola</string>
+    <string name="wifi_network_not_2_4">Dacă rețeaua Wi-Fi este de 5 GHz, setați-l mai întâi la 2,4 GHz</string>
+    <string name="wifi_signal_is_good">pentru a asigura un semnal Wi-Fi bun</string>
+    <string name="write">Avem nevoie de acces la fotografiile, conținutul media și fișierele dvs. pentru a le afișa.</string>
+    <string name="wrong_old_password">Parolă veche greșită</string>
+    <string name="wrong_user_name_or_password">Nume de utilizator sau parolă greșită</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/background_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/user_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.video.CircleImageView android:id="@+id/ivUserPic" android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/user_pic"/>
+        <TextView android:textSize="14sp" android:textColor="@color/white" android:id="@+id/tvUserName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/register_account"/>
+        <TextView android:textSize="14sp" android:textColor="@color/white" android:id="@+id/tvEmail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/register_email"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_my" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_50" android:layout_marginTop="@dimen/dp_50" android:layout_marginRight="@dimen/dp_50">
+        <Button android:textColor="@color/white" android:id="@+id/btnUpdate" android:background="@drawable/bottom_border" android:layout_width="match_parent" android:layout_height="@dimen/dp_50" android:text="@string/update_password"/>
+        <Button android:textColor="@color/white" android:id="@+id/btnLogout" android:background="@drawable/bottom_border" android:layout_width="match_parent" android:layout_height="@dimen/dp_50" android:layout_marginTop="@dimen/dp_30" android:text="@string/logout"/>
+    </LinearLayout>
+    <Button android:textColor="@color/white" android:id="@+id/regist" android:background="@drawable/bottom_border" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dp_50" android:layout_marginLeft="@dimen/dp_50" android:layout_marginTop="@dimen/dp_100" android:layout_marginRight="@dimen/dp_50" android:text="@string/login"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.viewpager.widget.ViewPager android:id="@+id/vp" android:background="#1c86ee" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="60dp">
+            <TextView android:textSize="@dimen/dp_16" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/tv_ok" android:background="@drawable/bg_shake_blue" android:visibility="gone" android:layout_width="@dimen/dp_100" android:layout_height="@dimen/dp_40" android:text="@string/Experience_Now"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ll_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+                <View android:id="@+id/dot_0" android:background="@drawable/dot_focused" android:layout_width="5dp" android:layout_height="5dp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp"/>
+                <View android:id="@+id/dot_1" android:background="@drawable/dot_normal" android:layout_width="5dp" android:layout_height="5dp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp"/>
+                <View android:id="@+id/dot_2" android:background="@drawable/dot_normal" android:visibility="gone" android:layout_width="5dp" android:layout_height="5dp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp"/>
+                <View android:id="@+id/dot_3" android:background="@drawable/dot_normal" android:visibility="gone" android:layout_width="5dp" android:layout_height="5dp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp"/>
+                <View android:id="@+id/dot_4" android:background="@drawable/dot_normal" android:visibility="gone" android:layout_width="5dp" android:layout_height="5dp" android:layout_marginLeft="2dp" android:layout_marginRight="2dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

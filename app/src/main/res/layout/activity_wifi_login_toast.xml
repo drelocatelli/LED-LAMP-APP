@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/shape_corner" android:paddingTop="@dimen/dp_80" android:paddingBottom="@dimen/dp_40" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20" android:layout_marginTop="@dimen/dp_100" android:layout_marginRight="@dimen/dp_20">
+        <TextView android:textSize="18sp" android:textColor="@color/white" android:gravity="center" android:id="@+id/tv_login" android:background="@drawable/wifi_bottom_border" android:paddingLeft="@dimen/dp_5" android:paddingRight="@dimen/dp_5" android:layout_width="@dimen/dp_200" android:layout_height="@dimen/dp_50" android:text="登录"/>
+        <TextView android:textSize="20sp" android:textColor="@color/black" android:gravity="center" android:id="@+id/tv_experience_now" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="立即体验"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/transparent" android:paddingLeft="@dimen/dp_30" android:paddingRight="@dimen/dp_30" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_30">
+        <TextView android:textSize="30sp" android:textColor="#131313" android:id="@+id/tv_close" android:background="@drawable/wifi_close" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

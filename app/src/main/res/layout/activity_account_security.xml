@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="center_vertical" android:background="@color/blue" android:layout_width="match_parent" android:layout_height="@dimen/tab_hight">
+        <TextView android:textSize="@dimen/textsize_nav_bar" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/textViewNavCenter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Account_security" android:layout_centerInParent="true"/>
+        <TextView android:textSize="@dimen/textsize_nav_bar" android:id="@+id/textViewNavLeft" android:background="@drawable/back_nomal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/navbar_marginLeft" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <ImageButton android:gravity="center" android:id="@+id/imageViewNavRight" android:background="@drawable/refresh_icon_black" android:visibility="gone" android:layout_width="@dimen/nav_img_size" android:layout_height="@dimen/nav_img_size" android:layout_marginRight="@dimen/navbar_marginRight" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <View android:visibility="visible" android:layout_marginTop="@dimen/marginTop" style="@style/parting_line_long"/>
+    <RelativeLayout android:id="@+id/rlDeleteAccount" android:visibility="visible" android:clickable="true" android:layout_width="match_parent" android:layout_height="50dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/marginTop">
+            <TextView android:textSize="@dimen/text_size4" android:textColor="@color/black" android:id="@+id/tvDeleteAccount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="@string/Delete_this_account" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+            <ImageView android:gravity="center" android:layout_gravity="center" android:background="@drawable/bg_arrow2_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/marginRight" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <TextView android:textSize="16dp" android:id="@+id/tv_followsystem" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/Delete_this_account" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/iv_followsystem" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="20dp" android:src="@drawable/language_select" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <View android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="1px"/>
+    <View android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="1px"/>
+</LinearLayout>

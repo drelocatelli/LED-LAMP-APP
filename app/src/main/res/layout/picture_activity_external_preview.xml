@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/picture_color_black" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="18sp" android:textColor="?attr/res_0x7f0401e5_ac_preview_title_textcolor" android:ellipsize="end" android:gravity="center" android:id="@+id/picture_title" android:background="?attr/res_0x7f0401e4_ac_preview_title_bg" android:layout_width="match_parent" android:layout_height="48dp" android:maxEms="11" android:layout_alignTop="@+id/left_back" android:layout_alignBottom="@+id/left_back" android:layout_centerHorizontal="true"/>
+    <ImageButton android:id="@+id/left_back" android:background="@color/picture_color_transparent" android:layout_width="48dp" android:layout_height="48dp" android:src="?attr/res_0x7f0401f1_preview_leftback_icon" android:scaleType="centerInside"/>
+    <ImageButton android:id="@+id/ib_delete" android:background="@color/picture_color_transparent" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/picture_icon_delete" android:scaleType="centerInside" android:layout_alignParentRight="true"/>
+    <com.luck.picture.lib.widget.PreviewViewPager android:id="@+id/preview_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/picture_title"/>
+</RelativeLayout>

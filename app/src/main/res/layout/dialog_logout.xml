@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/shape_solid_white_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/imageView" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="10dp" android:src="@drawable/ic_prompt_alert_warn"/>
+    <TextView android:textSize="15sp" android:textColor="@color/T_99" android:gravity="center" android:id="@+id/tv_upgrade_content" android:paddingLeft="33dp" android:paddingRight="33dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/disconnect_bluetooth" android:layout_below="@+id/imageView"/>
+    <View android:id="@+id/line" android:background="@color/T_F2" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="18dp" android:layout_below="@+id/tv_upgrade_content"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="45dp" android:layout_below="@+id/line">
+        <TextView android:textSize="17sp" android:textColor="@color/T_4D" android:gravity="center" android:id="@+id/tv_cancel" android:layout_width="0dp" android:layout_height="45dp" android:text="@string/cancell" android:layout_weight="1"/>
+        <View android:id="@+id/line1" android:background="@color/T_F2" android:layout_width="1dp" android:layout_height="match_parent"/>
+        <TextView android:textSize="17sp" android:textColor="@color/orange" android:gravity="center" android:id="@+id/tv_confirm" android:layout_width="0dp" android:layout_height="45dp" android:text="@string/confirm" android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

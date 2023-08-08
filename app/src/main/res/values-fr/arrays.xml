@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ble_mode">
+        <item>saut de trois couleurs, 135</item>
+        <item>saut en sept couleurs, 136</item>
+        <item>dégradé de trois couleurs, 137</item>
+        <item>dégradé en sept couleurs, 138</item>
+        <item>dégradé rouge, 139</item>
+        <item>dégradé vert, 140</item>
+        <item>dégradé bleu, 141</item>
+        <item>dégradé jaune, 142</item>
+        <item>dégradé cyan, 143</item>
+        <item>dégradé violet, 144</item>
+        <item>dégradé de blanc, 145</item>
+        <item>dégradé rouge et vert, 146</item>
+        <item>dégradé rouge et bleu, 147</item>
+        <item>dégradé vert et bleu, 148</item>
+        <item>Strobe à sept couleurs, 149</item>
+        <item>stroboscope rouge, 150</item>
+        <item>stroboscope vert, 151</item>
+        <item>stroboscope bleu, 152</item>
+        <item>stroboscopique jaune, 153</item>
+        <item>stroboscopique cyan, 154</item>
+        <item>stroboscopique violet, 155</item>
+        <item>stroboscope blanc, 156</item>
+        <item>statique rouge, 128</item>
+        <item>bleu statique, 129</item>
+        <item>vert statique, 130</item>
+        <item>cyan statique, 131</item>
+        <item>jaune statique, 132</item>
+        <item>violet statique, 133</item>
+        <item>blanc statique, 134</item>
+    </array>
+    <array name="chip_model">
+        <item>UCS512C,2</item>
+        <item>UCS512A,1</item>
+    </array>
+    <array name="ct_mode">
+        <item>chaud 0% froid 100%, 128</item>
+        <item>chaud 10% froid 90%, 129</item>
+        <item>chaud 20% froid 80%, 130</item>
+        <item>chaud 30% froid 70%, 131</item>
+        <item>chaud 40% froid 60%, 132</item>
+        <item>chaud 50% froid 50%, 133</item>
+        <item>chaud 60% froid 40%, 134</item>
+        <item>chaud 70% froid 30%, 135</item>
+        <item>chaud 80% froid 20%, 136</item>
+        <item>chaud 90% froid 10%, 137</item>
+        <item>chaud 100% froid 0%, 138</item>
+    </array>
+    <array name="custom_model">
+        <item>1:Dégradé,0</item>
+        <item>2:Trailing,1</item>
+        <item>3:L&apos;eau courante,2</item>
+        <item>4:Suivre la lumière,3</item>
+        <item>5:Empilés,4</item>
+        <item>6:Flux blanc x blanc,5</item>
+        <item>7:Cheval à un seul point,6</item>
+        <item>8:Plus de courses de chevaux,7</item>
+        <item>9:Tirer / fermer,8</item>
+        <item>10:Gradient de lumière unique,9</item>
+        <item>11:Saut de lampe unique,10</item>
+        <item>12:Strobe à une lampe,11</item>
+    </array>
+    <array name="dm_mode">
+        <item>0%,128</item>
+        <item>10%,129</item>
+        <item>20%,130</item>
+        <item>30%,131</item>
+        <item>40%,132</item>
+        <item>50%,133</item>
+        <item>60%,134</item>
+        <item>70%,135</item>
+        <item>80%,136</item>
+        <item>90%,137</item>
+        <item>100%,138</item>
+    </array>
+    <array name="dmx_model">
+        <item>boucle automatique, 255</item>
+        <item>1: Forward Symphony, 1</item>
+        <item>2: Reverse Symphony, 2</item>
+        <item>3: Transition avant / arrière à sept couleurs claires, 3</item>
+        <item>4: transition inversée de sept couleurs claires et sombres, 4</item>
+        <item>5: Transition positive rouge, verte et bleue, 5</item>
+        <item>6: inverser les transitions de lumière et d&apos;obscurité rouge, vert et bleu, 6</item>
+        <item>7: Transition positive jaune-bleu-violet, 7</item>
+        <item>8: transition inverse jaune-bleu-violet, 8</item>
+        <item>9: Transition avant à six couleurs rouge, 9</item>
+        <item>10: rouge inversé en six couleurs, 10</item>
+        <item>11: Vert de transition à six couleurs, 11</item>
+        <item>12: vert de transition inversé en six couleurs, 12</item>
+        <item>13: Bleu de transition vers six couleurs, 13</item>
+        <item>14: bleu inversé en six couleurs, 14</item>
+        <item>15: Cyan en transition à six couleurs, 15</item>
+        <item>16: cyan en transition six couleurs inversée, 16</item>
+        <item>17: Jaune de transition six couleurs avant, 17</item>
+        <item>18: jaune en transition six couleurs inversée, 18</item>
+        <item>19: Transition avant à six couleurs mauve, 19</item>
+        <item>20: transition inversée à six couleurs, violet, 20</item>
+        <item>21: Blanc de transition six couleurs vers l&apos;avant, 21</item>
+        <item>22: blanc de transition inversé à six couleurs, 22</item>
+        <item>23: queue colorée avant, 23</item>
+        <item>24: queue colorée inversée, 24</item>
+        <item>25: Fin de liste rouge, 25</item>
+        <item>26: tirant arrière rouge, 26</item>
+        <item>27: Dernier point vert, 27</item>
+        <item>28: traînée verte inverse, 28</item>
+        <item>29: queue bleue avant, 29</item>
+        <item>30: suivi bleu inverse, 30</item>
+        <item>31: Avant jaune de fuite, 31</item>
+        <item>32: tirant arrière jaune, 32</item>
+        <item>33: queue cyan positive, 33</item>
+        <item>34: queue cyan inversée, 34</item>
+        <item>35: fuite violette positive, 35</item>
+        <item>36: Quoi qu&apos;il en soit, violet, 36</item>
+        <item>37: Fin de blanc avant, 37</item>
+        <item>38: traînée blanche inverse, 38</item>
+        <item>39: Eau colorée positive, 39</item>
+        <item>40: Eau colorée à l&apos;envers, 40</item>
+        <item>41: Eau positive rouge, verte et bleue, 41</item>
+        <item>42: eau inversée rouge, verte et bleue, 42</item>
+        <item>43: Eau jaune-bleue positive, 43</item>
+        <item>44: eau jaune et bleue inversée, 44</item>
+        <item>45: Eau rouge et verte positives, 45</item>
+        <item>46: inverser les eaux rouge et verte, 46</item>
+        <item>47: Eau verte et bleue vers l&apos;avant, 47</item>
+        <item>48: inverser les eaux verte et bleue, 48</item>
+        <item>49: Eau jaune et bleue positives, 49</item>
+        <item>50: eau jaune et bleue inversée, 50</item>
+        <item>51: Eau jaune positive, 51</item>
+        <item>52: eau jaune et bleue inversée, 52</item>
+        <item>53: Eau bleue positive, 53</item>
+        <item>54: eau cyan inverse, 54</item>
+        <item>55: Avant noir et blanc, 55</item>
+        <item>56: eaux noires et blanches inversées, 56</item>
+        <item>57: écran coloré, 57</item>
+        <item>58: Fermeture colorée, 58</item>
+        <item>59: écrans rouge, vert et bleu, 59</item>
+        <item>60: Fermeture rouge, verte et bleue, 60</item>
+        <item>61: Rideau de Jaune bleu violet, 61</item>
+        <item>62: Jaune bleu violet fermé, 62</item>
+        <item>63: En avant à la poursuite colorée, 63</item>
+        <item>64: poursuite colorée inversée, 64</item>
+        <item>65: En avant rouge, vert et bleu, 65</item>
+        <item>66: feu de position inversé rouge, vert et bleu, 66</item>
+        <item>67: Lumière de poursuite jaune et violet, 67</item>
+        <item>68: lumière de poursuite inversée jaune, bleue et violette, 68</item>
+        <item>69: En avant vers le coloré, 69</item>
+        <item>70: flottement coloré inverse, 70</item>
+        <item>71: En avant rouge, vert et bleu, 71</item>
+        <item>72: fluttering rouge, vert et bleu inversé, 72</item>
+        <item>73: Flottement positif jaune et bleu, 73</item>
+        <item>74: Jaune bleu et violet inversé, 74</item>
+        <item>75: saut en sept couleurs, 75</item>
+        <item>76: saut rouge, vert et bleu, 76</item>
+        <item>77: Jaune bleu violet saute, 77</item>
+        <item>78: stroboscope à sept couleurs, 78</item>
+        <item>79: flash stroboscopique rouge, vert et bleu, 79</item>
+        <item>80: stroboscope jaune et bleu, 80</item>
+        <item>81: dégradé en sept couleurs, 81</item>
+        <item>82: dégradés rouge et jaune, 82</item>
+        <item>83: dégradé rouge et violet, 83</item>
+        <item>84: dégradé vert vert, 84</item>
+        <item>85: dégradés vert et jaune, 85</item>
+        <item>86: dégradé bleu-violet, 86</item>
+        <item>87: fermeture rouge, 87</item>
+        <item>88: fermeture verte, 88</item>
+        <item>89: Fermeture bleue, 89</item>
+        <item>90: fermeture jaune, 90</item>
+        <item>91: fermeture du cyan, 91</item>
+        <item>92: fermeture violette, 92</item>
+        <item>93: Fermeture blanche, 93</item>
+        <item>94: écran rouge, 94</item>
+        <item>95: écran vert, 95</item>
+        <item>96: écran bleu, 96</item>
+        <item>97: écran jaune, 97</item>
+        <item>98: Écran de tirage cyan, 98</item>
+        <item>99: rideau violet, 99</item>
+        <item>100: écran blanc, 100</item>
+        <item>101: Cheval rouge, 101</item>
+        <item>102: Cheval vert, 102</item>
+        <item>103: Course de chevaux bleus, 103</item>
+        <item>104: Cheval jaune, 104</item>
+        <item>105: Course de chevaux cyan, 105</item>
+        <item>106: Course de chevaux violets, 106</item>
+        <item>107: Cheval blanc, 107</item>
+        <item>108: Forward red, 108</item>
+        <item>109: marche en marche arrière rouge, 109</item>
+        <item>110: vert courant, 110</item>
+        <item>111: marche en vert inversé, 111</item>
+        <item>112: Avant bleu en cours d&apos;exécution, 112</item>
+        <item>113: Marche bleue en marche arrière, 113</item>
+        <item>114: jaune en avant, 114</item>
+        <item>115: marche arrière en jaune, 115</item>
+        <item>116: Cyan en avant, 116</item>
+        <item>117: Cyan inversé, 117</item>
+        <item>118: courir en violet, 118</item>
+        <item>119: course pourpre inversée, 119</item>
+        <item>120: blanc en marche avant, 120</item>
+        <item>121: marche arrière blanche, 121</item>
+        <item>122: sous sept couleurs, 122</item>
+        <item>123: exécution inversée en sept couleurs, 123</item>
+        <item>124: En avant rouge, vert et bleu, 124</item>
+        <item>125: marche arrière en rouge, vert et bleu, 125</item>
+        <item>126: en cours d&apos;exécution jaune et violet, 126</item>
+        <item>127: En marche arrière jaune et bleue, 127</item>
+        <item>128: défilement vers l&apos;avant en bleu, jaune et violet, 128</item>
+        <item>129: Avant vert, bleu et jaune, 129</item>
+        <item>130: marche arrière bleu jaune, 130</item>
+        <item>131: Point rouge en avant sur blanc, 131</item>
+        <item>132: point rouge blanc inverse en marche, 132</item>
+        <item>133: En avant vers le point rouge doté d&apos;un point rouge, 133</item>
+        <item>134: point rouge inversé, point vert en cours d&apos;exécution, 134</item>
+        <item>135: Transmettre au point bleu inférieur vert, 135</item>
+        <item>136: Point bleu inversé vert en bas, 136</item>
+        <item>137: Point bleu en avant, point jaune en cours d&apos;exécution, 137</item>
+        <item>138: le point jaune en marche arrière sur fond bleu inversé, 138</item>
+        <item>139: vers le bas jaune, 139</item>
+        <item>140: Fond jaune inverse en marche, 140</item>
+        <item>141: En avant au bas du point violet, 141</item>
+        <item>142: course inversée bleu violet, 142</item>
+        <item>143: Point blanc violet suivant, 143</item>
+        <item>144: Point violet inversé, point blanc en cours d&apos;exécution, 144</item>
+        <item>145: Point blanc du point rouge en avant, 145</item>
+        <item>146: point blanc inversé avec un point rouge, 146</item>
+        <item>147: En sept couleurs sur fond rouge, 147</item>
+        <item>148: course sept couleurs rouge inverse, 148</item>
+        <item>149: En avant vers les sept couleurs vertes, 149</item>
+        <item>150: sept couleurs inversées vertes, 150</item>
+        <item>151: faire suivre le fond bleu, 151</item>
+        <item>152: sept couleurs bleues inversées, 152</item>
+        <item>153: En sept couleurs sur fond jaune, 153</item>
+        <item>154: sept couleurs inversées dans le bas, en jaune, 154</item>
+        <item>155: jusqu&apos;au bas des sept couleurs, 155</item>
+        <item>156: sept couleurs inversées vertes, 156</item>
+        <item>157: En avant au bas du violet, 157</item>
+        <item>158: sept couleurs inversées en bas pourpre, 158</item>
+        <item>159: Exécution en sept couleurs sur fond blanc, 159</item>
+        <item>160: blanc inversé, sept couleurs, 160</item>
+        <item>161: Débit positif blanc rouge et blanc, 161</item>
+        <item>162: flux inversé blanc, rouge et blanc, 162</item>
+        <item>163: Flux blanc-vert et blanc positif, 163</item>
+        <item>164: flux blanc-vert inversé, 164</item>
+        <item>165: Débit positif blanc, bleu et blanc, 165</item>
+        <item>166: flux inversé blanc, bleu et blanc, 166</item>
+        <item>167: Flux blanc, jaune et blanc positifs, 167</item>
+        <item>168: flux blanc, jaune et blanc inversés, 168</item>
+        <item>169: Débit positif blanc bleu et blanc, 169</item>
+        <item>170: flux inversé blanc, bleu et blanc, 170</item>
+        <item>171: Flux blanc, violet et blanc positifs, 171</item>
+        <item>172: flux inversé blanc violet blanc, 172</item>
+        <item>173: En avant rouge, blanc et rouge, 173</item>
+        <item>174: flux inversé rouge, blanc et rouge, 174</item>
+        <item>175: Avant vert, vert et vert, 175</item>
+        <item>176: flux inversé vert-vert-vert, 176</item>
+        <item>177: En avant bleu, blanc et bleu, 177</item>
+        <item>178: flux inversé bleu, blanc et bleu, 178</item>
+        <item>179: Débit vers l&apos;avant jaune, jaune et jaune, 179</item>
+        <item>180: flux inversé jaune, blanc et jaune, 180</item>
+        <item>181: Flux blanc vert positif, 181</item>
+        <item>182: flux inversé bleu-vert, 182</item>
+        <item>183: flux positif violet blanc violet, 183</item>
+        <item>184: écoulement violet et blanc violet inversé, 184</item>
+        <item>185: Point bleu-vert en avant, 185</item>
+        <item>186: Cheval à pois verts, fond bleu inversé, 186</item>
+        <item>187: Point rouge en avant, point vert, 187</item>
+        <item>188: Cheval avec un point vert inversé, un point rouge, 188</item>
+        <item>189: Cheval red dot rouge, 189</item>
+        <item>190: Cheval à points rouges et bleus inversés, 190</item>
+        <item>191: Vers le bas jaune, 191</item>
+        <item>192: cheval vert inversé à fond jaune, 192</item>
+        <item>193: Course de chevaux de pointe, point violet, violet, 193</item>
+        <item>194: course de chevaux avec points jaunes et violets inversés, 194</item>
+        <item>195: En avant au point jaune et blanc, 195</item>
+        <item>196: cheval blanc inversé blanc-jaune, 196</item>
+        <item>197: Cheval jaune à pois blancs vers l&apos;avant, 197</item>
+        <item>198: Course de chevaux avec un point blanc et un point blanc inversé, 198</item>
+        <item>199: Sept couleurs positives, 199</item>
+        <item>200: pinceau à sept couleurs inversé, 200</item>
+        <item>201: Pinceau positif rouge, vert et bleu, 201</item>
+        <item>202: couleur de pinceau inversée rouge, verte et bleue, 202</item>
+        <item>203: Couleur de pinceau jaune et bleue positive, 203</item>
+        <item>204: couleur de pinceau cyan jaune inverse, 204</item>
+        <item>205: écran couleur à brosses à sept couleurs, 205</item>
+        <item>206: Couleur de pinceau à sept couleurs, 206</item>
+        <item>207: écran brossé rouge, vert et bleu, 207</item>
+        <item>208: fermeture des couleurs de pinceau rouge, verte et bleue, 208</item>
+        <item>209: écran couleur brossé jaune et bleu, 209</item>
+        <item>210: Couleur de pinceau jaune et violet se fermant, 210</item>
+    </array>
+    <array name="light_banner">
+        <item>LPD6803,1</item>
+        <item>TM1803,2</item>
+        <item>UCS1903,3</item>
+        <item>WS2811,4</item>
+        <item>TM1812,5</item>
+        <item>TM1809,6</item>
+        <item>WS2801,7</item>
+        <item>TLS3001,8</item>
+        <item>TLS3008,9</item>
+        <item>P9813,10</item>
+        <item>UCS8806,11</item>
+        <item>TM1829,12</item>
+        <item>TM1909,13</item>
+    </array>
+    <array name="light_mode">
+        <item>Éteindre la lumière</item>
+        <item>statique rouge</item>
+        <item>bleu statique</item>
+        <item>vert statique</item>
+        <item>cyan statique</item>
+        <item>jaune statique</item>
+        <item>violet statique</item>
+        <item>blanc statique</item>
+        <item>saut de trois couleurs</item>
+        <item>saut en sept couleurs</item>
+        <item>dégradé de trois couleurs</item>
+        <item>dégradé en sept couleurs</item>
+        <item>dégradé rouge</item>
+        <item>dégradé vert</item>
+        <item>dégradé bleu</item>
+        <item>dégradé jaune</item>
+        <item>dégradé cyan</item>
+        <item>dégradé violet</item>
+        <item>dégradé de blanc</item>
+        <item>dégradé rouge et vert</item>
+        <item>dégradé rouge et bleu</item>
+        <item>dégradé vert et bleu</item>
+        <item>Strobe à sept couleurs</item>
+        <item>stroboscope rouge</item>
+        <item>stroboscope vert</item>
+        <item>stroboscope bleu</item>
+        <item>stroboscopique jaune</item>
+        <item>stroboscopique cyan</item>
+        <item>stroboscopique violet</item>
+        <item>stroboscope blanc</item>
+        <item>MODE30</item>
+        <item>MODE31</item>
+        <item>MODE32</item>
+        <item>MODE33</item>
+        <item>MODE34</item>
+        <item>MODE35</item>
+        <item>MODE36</item>
+        <item>MODE37</item>
+        <item>MODE38</item>
+        <item>MODE39</item>
+        <item>MODE40</item>
+        <item>MODE41</item>
+        <item>MODE42</item>
+        <item>MODE43</item>
+        <item>MODE44</item>
+        <item>MODE45</item>
+        <item>MODE46</item>
+        <item>MODE47</item>
+        <item>MODE48</item>
+        <item>MODE49</item>
+        <item>MODE50</item>
+        <item>MODE51</item>
+        <item>MODE52</item>
+        <item>MODE53</item>
+        <item>MODE54</item>
+        <item>MODE55</item>
+        <item>MODE56</item>
+        <item>MODE57</item>
+        <item>MODE58</item>
+        <item>MODE59</item>
+        <item>MODE60</item>
+        <item>MODE61</item>
+        <item>MODE62</item>
+        <item>MODE63</item>
+        <item>MODE64</item>
+        <item>MODE65</item>
+        <item>MODE66</item>
+        <item>MODE67</item>
+        <item>MODE68</item>
+        <item>MODE69</item>
+        <item>MODE70</item>
+        <item>MODE71</item>
+        <item>MODE72</item>
+        <item>MODE73</item>
+        <item>MODE74</item>
+        <item>MODE75</item>
+        <item>MODE76</item>
+        <item>MODE77</item>
+        <item>MODE78</item>
+        <item>MODE79</item>
+        <item>MODE80</item>
+        <item>MODE81</item>
+        <item>MODE82</item>
+        <item>MODE83</item>
+        <item>MODE84</item>
+        <item>MODE85</item>
+        <item>MODE86</item>
+        <item>MODE87</item>
+        <item>MODE88</item>
+        <item>MODE89</item>
+        <item>MODE90</item>
+        <item>MODE91</item>
+        <item>MODE92</item>
+        <item>MODE93</item>
+        <item>MODE94</item>
+        <item>MODE95</item>
+        <item>MODE96</item>
+        <item>MODE97</item>
+        <item>MODE98</item>
+        <item>MODE99</item>
+        <item>MODE100</item>
+        <item>MODE101</item>
+        <item>MODE102</item>
+        <item>MODE103</item>
+        <item>MODE104</item>
+        <item>MODE105</item>
+        <item>MODE106</item>
+        <item>MODE107</item>
+        <item>MODE108</item>
+        <item>MODE109</item>
+        <item>MODE110</item>
+        <item>MODE111</item>
+        <item>MODE112</item>
+        <item>MODE113</item>
+        <item>MODE114</item>
+        <item>MODE115</item>
+        <item>MODE116</item>
+        <item>MODE117</item>
+        <item>MODE118</item>
+        <item>MODE119</item>
+        <item>MODE120</item>
+        <item>MODE121</item>
+        <item>MODE122</item>
+        <item>MODE123</item>
+        <item>MODE124</item>
+        <item>MODE125</item>
+        <item>MODE126</item>
+        <item>MODE127</item>
+        <item>MODE128</item>
+        <item>MODE129</item>
+        <item>MODE130</item>
+        <item>MODE131</item>
+        <item>MODE132</item>
+        <item>MODE133</item>
+        <item>MODE134</item>
+        <item>MODE135</item>
+        <item>MODE136</item>
+        <item>MODE137</item>
+        <item>MODE138</item>
+        <item>MODE139</item>
+        <item>MODE140</item>
+        <item>MODE141</item>
+        <item>MODE142</item>
+        <item>MODE143</item>
+        <item>MODE144</item>
+        <item>MODE145</item>
+        <item>MODE146</item>
+        <item>MODE147</item>
+        <item>MODE148</item>
+        <item>MODE149</item>
+        <item>MODE150</item>
+        <item>MODE151</item>
+        <item>MODE152</item>
+        <item>MODE153</item>
+        <item>MODE154</item>
+        <item>MODE155</item>
+        <item>MODE156</item>
+        <item>MODE157</item>
+        <item>MODE158</item>
+        <item>MODE159</item>
+        <item>MODE160</item>
+        <item>MODE161</item>
+        <item>MODE162</item>
+        <item>MODE163</item>
+        <item>MODE164</item>
+        <item>MODE165</item>
+        <item>MODE166</item>
+        <item>MODE167</item>
+        <item>MODE168</item>
+        <item>MODE169</item>
+        <item>MODE170</item>
+        <item>MODE171</item>
+        <item>MODE172</item>
+        <item>MODE173</item>
+        <item>MODE174</item>
+        <item>MODE175</item>
+        <item>MODE176</item>
+        <item>MODE177</item>
+        <item>MODE178</item>
+        <item>MODE179</item>
+        <item>MODE180</item>
+        <item>MODE181</item>
+        <item>MODE182</item>
+        <item>MODE183</item>
+        <item>MODE184</item>
+        <item>MODE185</item>
+        <item>MODE186</item>
+        <item>MODE187</item>
+        <item>MODE188</item>
+        <item>MODE189</item>
+        <item>MODE190</item>
+        <item>MODE191</item>
+        <item>MODE192</item>
+        <item>MODE193</item>
+        <item>MODE194</item>
+        <item>MODE195</item>
+        <item>MODE196</item>
+        <item>MODE197</item>
+        <item>MODE198</item>
+        <item>MODE199</item>
+        <item>MODE200</item>
+        <item>MODE201</item>
+        <item>MODE202</item>
+        <item>MODE203</item>
+        <item>MODE204</item>
+        <item>MODE205</item>
+        <item>MODE206</item>
+        <item>MODE207</item>
+        <item>MODE208</item>
+        <item>MODE209</item>
+        <item>MODE210</item>
+        <item>MODE211</item>
+    </array>
+    <array name="modelble">
+        <item>Éteindre la lumière</item>
+        <item>Allume la lumière</item>
+        <item>statique rouge</item>
+        <item>bleu statique</item>
+        <item>vert statique</item>
+        <item>cyan statique</item>
+        <item>jaune statique</item>
+        <item>violet statique</item>
+        <item>blanc statique</item>
+        <item>saut de trois couleurs</item>
+        <item>saut en sept couleurs</item>
+        <item>dégradé de trois couleurs</item>
+        <item>dégradé en sept couleurs</item>
+        <item>Blanc froid</item>
+        <item>Blanc chaud</item>
+        <item>Monochrome</item>
+    </array>
+    <array name="modelsun">
+        <item>Éteignez les lumières</item>
+        <item>Allumez la lumière</item>
+        <item>Couleur cool</item>
+        <item>Couleur chaude</item>
+        <item>Couleur naturelle</item>
+        <item>Changement de saut blanc chaud</item>
+        <item>Dégradé blanc</item>
+        <item>Dégradé de couleurs chaudes</item>
+        <item>Dégradé de couleurs naturelles</item>
+        <item>Dégradé blanc chaud</item>
+        <item>Stroboscope blanc chaud</item>
+        <item>Stroboscope blanc</item>
+        <item>Stroboscope de couleur chaude</item>
+        <item>Stroboscope de couleur naturelle</item>
+    </array>
+    <array name="rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+        <item>RGBW,7</item>
+        <item>RBGW,8</item>
+        <item>GRBW,9</item>
+        <item>GBRW,10</item>
+        <item>BRGW,11</item>
+        <item>BGRW,12</item>
+    </array>
+    <array name="timer_model_dmx">
+        <item>Éteindre la lumière</item>
+        <item>Allume la lumière</item>
+        <item>boucle automatique</item>
+        <item>1: Forward Symphony</item>
+        <item>2: Reverse Symphony</item>
+        <item>3: Transition avant / arrière à sept couleurs claires</item>
+        <item>4: transition inversée de sept couleurs claires et sombres</item>
+        <item>5: Transition positive rouge, verte et bleue</item>
+        <item>6: inverser les transitions de lumière et d&apos;obscurité rouge, vert et bleu</item>
+        <item>7: Transition positive jaune-bleu-violet</item>
+        <item>8: transition inverse jaune-bleu-violet</item>
+        <item>9: Transition avant à six couleurs rouge</item>
+        <item>10: rouge inversé en six couleurs</item>
+        <item>11: Vert de transition à six couleurs</item>
+        <item>12: vert de transition inversé en six couleurs</item>
+        <item>13: Bleu de transition vers six couleurs</item>
+        <item>14: bleu inversé en six couleurs</item>
+        <item>15: Cyan en transition à six couleurs</item>
+        <item>16: cyan en transition six couleurs inversée</item>
+        <item>17: Jaune de transition six couleurs avant</item>
+        <item>18: jaune en transition six couleurs inversée</item>
+        <item>19: Transition avant à six couleurs mauve</item>
+        <item>20: transition inversée à six couleurs, violet</item>
+        <item>21: Blanc de transition six couleurs vers l&apos;avant</item>
+        <item>22: blanc de transition inversé à six couleurs</item>
+        <item>23: queue colorée avant</item>
+        <item>24: queue colorée inversée</item>
+        <item>25: Fin de liste rouge</item>
+        <item>26: tirant arrière rouge</item>
+        <item>27: Dernier point vert</item>
+        <item>28: traînée verte inverse</item>
+        <item>29: queue bleue avant</item>
+        <item>30: suivi bleu inverse</item>
+        <item>31: Avant jaune de fuite</item>
+        <item>32: tirant arrière jaune</item>
+        <item>33: queue cyan positive</item>
+        <item>34: queue cyan inversée</item>
+        <item>35: fuite violette positive</item>
+        <item>36: Quoi qu&apos;il en soit, violet</item>
+        <item>37: Fin de blanc avant</item>
+        <item>38: traînée blanche inverse</item>
+        <item>39: Eau colorée positive</item>
+        <item>40: Eau colorée à l&apos;envers</item>
+        <item>41: Eau positive rouge, verte et bleue</item>
+        <item>42: eau inversée rouge, verte et bleue</item>
+        <item>43: Eau jaune-bleue positive</item>
+        <item>44: eau jaune et bleue inversée</item>
+        <item>45: Eau rouge et verte positives</item>
+        <item>46: inverser les eaux rouge et verte</item>
+        <item>47: Eau verte et bleue vers l&apos;avant</item>
+        <item>48: inverser les eaux verte et bleue</item>
+        <item>49: Eau jaune et bleue positives</item>
+        <item>50: eau jaune et bleue inversée</item>
+        <item>51: Eau jaune positive</item>
+        <item>52: eau jaune et bleue inversée</item>
+        <item>53: Eau bleue positive</item>
+        <item>54: eau cyan inverse</item>
+        <item>55: Avant noir et blanc</item>
+        <item>56: eaux noires et blanches inversées</item>
+        <item>57: écran coloré</item>
+        <item>58: Fermeture colorée</item>
+        <item>59: écrans rouge, vert et bleu</item>
+        <item>60: Fermeture rouge, verte et bleue</item>
+        <item>61: Rideau de Jaune bleu violet</item>
+        <item>62: Jaune bleu violet fermé</item>
+        <item>63: En avant à la poursuite colorée</item>
+        <item>64: poursuite colorée inversée</item>
+        <item>65: En avant rouge, vert et bleu</item>
+        <item>66: feu de position inversé rouge, vert et bleu</item>
+        <item>67: Lumière de poursuite jaune et violet</item>
+        <item>68: lumière de poursuite inversée jaune, bleue et violette</item>
+        <item>69: En avant vers le coloré</item>
+        <item>70: flottement coloré inverse</item>
+        <item>71: En avant rouge, vert et bleu</item>
+        <item>72: fluttering rouge, vert et bleu inversé</item>
+        <item>73: Flottement positif jaune et bleu</item>
+        <item>74: Jaune bleu et violet inversé</item>
+        <item>75: saut en sept couleurs</item>
+        <item>76: saut rouge, vert et bleu</item>
+        <item>77: Jaune bleu violet saute</item>
+        <item>78: stroboscope à sept couleurs</item>
+        <item>79: flash stroboscopique rouge, vert et bleu</item>
+        <item>80: stroboscope jaune et bleu</item>
+        <item>81: dégradé en sept couleurs</item>
+        <item>82: dégradés rouge et jaune</item>
+        <item>83: dégradé rouge et violet</item>
+        <item>84: dégradé vert vert</item>
+        <item>85: dégradés vert et jaune</item>
+        <item>86: dégradé bleu-violet</item>
+        <item>87: fermeture rouge</item>
+        <item>88: fermeture verte</item>
+        <item>89: Fermeture bleue</item>
+        <item>90: fermeture jaune</item>
+        <item>91: fermeture du cyan</item>
+        <item>92: fermeture violette</item>
+        <item>93: Fermeture blanche</item>
+        <item>94: écran rouge</item>
+        <item>95: écran vert</item>
+        <item>96: écran bleu</item>
+        <item>97: écran jaune</item>
+        <item>98: Écran de tirage cyan</item>
+        <item>99: rideau violet</item>
+        <item>100: écran blanc</item>
+        <item>101: Cheval rouge</item>
+        <item>102: Cheval vert</item>
+        <item>103: Course de chevaux bleus</item>
+        <item>104: Cheval jaune</item>
+        <item>105: Course de chevaux cyan</item>
+        <item>106: Course de chevaux violets</item>
+        <item>107: Cheval blanc</item>
+        <item>108: Forward red</item>
+        <item>109: marche en marche arrière rouge</item>
+        <item>110: vert courant</item>
+        <item>111: marche en vert inversé</item>
+        <item>112: Avant bleu en cours d&apos;exécution</item>
+        <item>113: Marche bleue en marche arrière</item>
+        <item>114: jaune en avant</item>
+        <item>115: marche arrière en jaune</item>
+        <item>116: Cyan en avant</item>
+        <item>117: Cyan inversé</item>
+        <item>118: courir en violet</item>
+        <item>119: course pourpre inversée</item>
+        <item>120: blanc en marche avant</item>
+        <item>121: marche arrière blanche</item>
+        <item>122: sous sept couleurs</item>
+        <item>123: exécution inversée en sept couleurs</item>
+        <item>124: En avant rouge, vert et bleu</item>
+        <item>125: marche arrière en rouge, vert et bleu</item>
+        <item>126: en cours d&apos;exécution jaune et violet</item>
+        <item>127: En marche arrière jaune et bleue</item>
+        <item>128: défilement vers l&apos;avant en bleu, jaune et violet</item>
+        <item>129: Avant vert, bleu et jaune</item>
+        <item>130: marche arrière bleu jaune</item>
+        <item>131: Point rouge en avant sur blanc</item>
+        <item>132: point rouge blanc inverse en marche</item>
+        <item>133: En avant vers le point rouge doté d&apos;un point rouge</item>
+        <item>134: point rouge inversé, point vert en cours d&apos;exécution</item>
+        <item>135: Transmettre au point bleu inférieur vert</item>
+        <item>136: Point bleu inversé vert en bas</item>
+        <item>137: Point bleu en avant, point jaune en cours d&apos;exécution</item>
+        <item>138: le point jaune en marche arrière sur fond bleu inversé</item>
+        <item>139: vers le bas jaune</item>
+        <item>140: Fond jaune inverse en marche</item>
+        <item>141: En avant au bas du point violet</item>
+        <item>142: course inversée bleu violet</item>
+        <item>143: Point blanc violet suivant</item>
+        <item>144: Point violet inversé, point blanc en cours d&apos;exécution</item>
+        <item>145: Point blanc du point rouge en avant</item>
+        <item>146: point blanc inversé avec un point rouge</item>
+        <item>147: En sept couleurs sur fond rouge</item>
+        <item>148: course sept couleurs rouge inverse</item>
+        <item>149: En avant vers les sept couleurs vertes</item>
+        <item>150: sept couleurs inversées vertes</item>
+        <item>151: faire suivre le fond bleu</item>
+        <item>152: sept couleurs bleues inversées</item>
+        <item>153: En sept couleurs sur fond jaune</item>
+        <item>154: sept couleurs inversées dans le bas, en jaune</item>
+        <item>155: jusqu&apos;au bas des sept couleurs</item>
+        <item>156: sept couleurs inversées vertes</item>
+        <item>157: En avant au bas du violet</item>
+        <item>158: sept couleurs inversées en bas pourpre</item>
+        <item>159: Exécution en sept couleurs sur fond blanc</item>
+        <item>160: blanc inversé, sept couleurs</item>
+        <item>161: Débit positif blanc rouge et blanc</item>
+        <item>162: flux inversé blanc, rouge et blanc</item>
+        <item>163: Flux blanc-vert et blanc positif</item>
+        <item>164: flux blanc-vert inversé</item>
+        <item>165: Débit positif blanc, bleu et blanc</item>
+        <item>166: flux inversé blanc, bleu et blanc</item>
+        <item>167: Flux blanc, jaune et blanc positifs</item>
+        <item>168: flux blanc, jaune et blanc inversés</item>
+        <item>169: Débit positif blanc bleu et blanc</item>
+        <item>170: flux inversé blanc, bleu et blanc</item>
+        <item>171: Flux blanc, violet et blanc positifs</item>
+        <item>172: flux inversé blanc violet blanc</item>
+        <item>173: En avant rouge, blanc et rouge</item>
+        <item>174: flux inversé rouge, blanc et rouge</item>
+        <item>175: Avant vert, vert et vert</item>
+        <item>176: flux inversé vert-vert-vert</item>
+        <item>177: En avant bleu, blanc et bleu</item>
+        <item>178: flux inversé bleu, blanc et bleu</item>
+        <item>179: Débit vers l&apos;avant jaune, jaune et jaune</item>
+        <item>180: flux inversé jaune, blanc et jaune</item>
+        <item>181: Flux blanc vert positif</item>
+        <item>182: flux inversé bleu-vert</item>
+        <item>183: flux positif violet blanc violet</item>
+        <item>184: écoulement violet et blanc violet inversé</item>
+        <item>185: Point bleu-vert en avant</item>
+        <item>186: Cheval à pois verts, fond bleu inversé</item>
+        <item>187: Point rouge en avant, point vert</item>
+        <item>188: Cheval avec un point vert inversé, un point rouge</item>
+        <item>189: Cheval red dot rouge</item>
+        <item>190: Cheval à points rouges et bleus inversés</item>
+        <item>191: Vers le bas jaune</item>
+        <item>192: cheval vert inversé à fond jaune</item>
+        <item>193: Course de chevaux de pointe, point violet, violet</item>
+        <item>194: course de chevaux avec points jaunes et violets inversés</item>
+        <item>195: En avant au point jaune et blanc</item>
+        <item>196: cheval blanc inversé blanc-jaune</item>
+        <item>197: Cheval jaune à pois blancs vers l&apos;avant</item>
+        <item>198: Course de chevaux avec un point blanc et un point blanc inversé</item>
+        <item>199: Sept couleurs positives</item>
+        <item>200: pinceau à sept couleurs inversé</item>
+        <item>201: Pinceau positif rouge, vert et bleu</item>
+        <item>202: couleur de pinceau inversée rouge, verte et bleue</item>
+        <item>203: Couleur de pinceau jaune et bleue positive</item>
+        <item>204: couleur de pinceau cyan jaune inverse</item>
+        <item>205: écran couleur à brosses à sept couleurs</item>
+        <item>206: Couleur de pinceau à sept couleurs</item>
+        <item>207: écran brossé rouge, vert et bleu</item>
+        <item>208: fermeture des couleurs de pinceau rouge, verte et bleue</item>
+        <item>209: écran couleur brossé jaune et bleu</item>
+        <item>210: Couleur de pinceau jaune et violet se fermant</item>
+    </array>
+    <array name="week">
+        <item>un</item>
+        <item>deux</item>
+        <item>trois</item>
+        <item>quatr</item>
+        <item>cinq</item>
+        <item>six</item>
+        <item>jour</item>
+    </array>
+    <array name="weekday">
+        <item>Le lundi</item>
+        <item>Mardi</item>
+        <item>Le mercredi</item>
+        <item>Jeudi</item>
+        <item>Vendredi</item>
+        <item>Samedi</item>
+        <item>Le dimanche</item>
+    </array>
+</resources>

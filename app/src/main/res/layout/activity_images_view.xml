@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.viewpager.widget.ViewPager android:id="@+id/images_vp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <RelativeLayout android:background="@color/zz_half_transparent" android:layout_width="match_parent" android:layout_height="wrap_content"> B 
+        <ImageView android:id="@+id/ivBack" android:layout_width="48dp" android:layout_height="wrap_content" android:src="@drawable/back_nomal" android:scaleType="centerInside"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/imageView_title_ll" android:background="@color/zz_half_transparent" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="18sp" android:textColor="@color/white" android:id="@+id/imageView_current_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1"/>
+            <TextView android:textSize="18sp" android:textColor="@color/white" android:id="@+id/imageView_total_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/8"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

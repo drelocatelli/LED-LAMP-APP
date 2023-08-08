@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="392" android:versionName="3.6.24" android:compileSdkVersion="31" android:compileSdkVersionCodename="12" package="com.ledlamp" platformBuildVersionCode="31" platformBuildVersionName="12">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="31"/>
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" android:maxSdkVersion="30"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" android:maxSdkVersion="30"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:name="com.home.base.LedBleApplication" android:usesCleartextTraffic="true" android:appComponentFactory="``" android:requestLegacyExternalStorage="true">
+        <activity android:label="@string/app_name" android:name="com.FirstActivity" android:exported="true" android:screenOrientation="portrait" android:configChanges="screenSize|orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="com.netease.push.action.client.MESSAGE"/>
+                <action android:name="com.netease.push.action.client.NEWID"/>
+                <action android:name="com.netease.push.action.client.METHOD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <service android:name="com.home.service.BluetoothLeServiceSingle" android:enabled="true" android:exported="true"/>
+        <activity android:name="com.home.activity.other.HelpActivity" android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity android:name="com.forum.login.LogInActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.forum.login.RegisterActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.forum.login.RetrieveActivity"/>
+        <activity android:name="com.home.activity.service.AddSceneActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.service.SelectSceneActivity"/>
+        <activity android:name="com.home.activity.other.AdvertActivity"/>
+        <activity android:name="com.home.activity.main.MainActivity_BLE" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.main.MainActivity_LIKE" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.main.MainActivity_DMX02" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.main.MainActivity_DMX03" android:screenOrientation="portrait"/>
+        <activity android:name="com.me.UpdatePasswordActivity"/>
+        <activity android:name="com.me.SettingActivity"/>
+        <activity android:name="com.me.WebViewActivity"/>
+        <activity android:name="com.me.AboutusActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.me.AccountSecurityActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.me.PasswordActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.me.SetLanguageActivity"/>
+        <activity android:name="com.forum.im.ui.ListViewChatActivity"/>
+        <activity android:name="com.forum.im.ui.ImageViewActivity"/>
+        <activity android:name="com.home.activity.other.DeviceListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.other.MusicLibActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.other.Dmx02MusicLibActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.other.EditColorActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.other.Dmx02EditColorActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.other.MaterialLibraryActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.set.DynamicColorActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.set.RgbSortActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.set.ChipSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.set.Dmx02ChipSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.set.CodeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.set.PairCodeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.set.VoiceCtlActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.set.AuxiliaryActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.set.OprationManualActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.set.ChannelSetActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.set.smart.OtherSettingActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.set.smart.TimingQueryActivity"/>
+        <activity android:name="com.home.activity.set.smart.CurrentQueryActivity"/>
+        <activity android:name="com.home.activity.set.smart.ModeSelectActivity"/>
+        <activity android:name="com.home.activity.set.smart.TimerSettingActivity_Smart"/>
+        <activity android:name="com.home.activity.like.music.LikeMusicActivity"/>
+        <activity android:name="com.home.activity.like.timer.LikeTimerActivity"/>
+        <activity android:name="com.home.activity.other.PrivacyPolicyActivity"/>
+        <activity android:name="com.forum.adapter.ReviewActivity"/>
+        <activity android:name="com.forum.ReplyActivity"/>
+        <activity android:name="com.forum.ReleseCharacterActivity"/>
+        <activity android:name="com.video.ReleseVideoActivity"/>
+        <activity android:name="com.video.ReviewActivity"/>
+        <activity android:name="com.common.pictureselector.PhotoActivity"/>
+        <activity android:name="com.video.VideoReplyActivity" android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity android:name="com.video.VideoDetailActivity" android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity android:name="com.video.PlayVideoActivity" android:configChanges="screenSize|orientation|keyboardHidden" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:name="com.home.activity.set.timer.TimeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.set.timer.ChioceTimeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.set.timer.DMX03ChioceTimeActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.home.activity.set.timer.ChioceTimeActivityLIKE" android:screenOrientation="portrait"/>
+        <provider android:name="com.luck.picture.lib.PictureFileProvider" android:exported="false" android:authorities="com.ledlamp.provider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <activity android:name="com.luck.picture.lib.PictureSelectorActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:theme="@style/Picture.Theme.Translucent" android:name="com.luck.picture.lib.PictureSelectorCameraEmptyActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.luck.picture.lib.PicturePreviewActivity"/>
+        <activity android:name="com.luck.picture.lib.PictureVideoPlayActivity" android:screenOrientation="sensor" android:configChanges="screenSize|orientation|keyboardHidden"/>
+        <activity android:name="com.luck.picture.lib.PictureExternalPreviewActivity"/>
+        <activity android:theme="@style/Base.Theme.NoActionBar" android:name="com.yalantis.ucrop.UCropActivity"/>
+        <activity android:theme="@style/Base.Theme.NoActionBar" android:name="com.yalantis.ucrop.PictureMultiCuttingActivity"/>
+        <activity android:name="com.luck.picture.lib.PicturePlayAudioActivity"/>
+        <activity android:theme="@style/BGAPPTheme" android:name="com.ccr.achenglibrary.photopicker.activity.CCRPhotoPreviewActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:theme="@style/BGAPPTheme" android:name="com.ccr.achenglibrary.photopicker.activity.CCRPhotoPickerActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:theme="@style/BGAPPTheme" android:name="com.ccr.achenglibrary.photopicker.activity.CCRPhotoPickerPreviewActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <provider android:name="com.squareup.picasso.PicassoProvider" android:exported="false" android:authorities="com.ledlamp.com.squareup.picasso"/>
+    </application>
+</manifest>

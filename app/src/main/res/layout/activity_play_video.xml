@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/background_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include android:id="@+id/commit" android:visibility="gone" layout="@layout/dialog_type4"/>
+    <RelativeLayout android:id="@+id/rl_bottom" android:background="@color/red" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <EditText android:textSize="14sp" android:textColor="#ff151515" android:gravity="center_vertical" android:id="@+id/et_context" android:background="@drawable/shape_gray" android:paddingLeft="10dp" android:paddingRight="20dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="35dp" android:layout_margin="15dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:hint="@string/comment" android:layout_toLeftOf="@+id/tv_send"/>
+        <ImageView android:visibility="gone" android:clickable="true" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginTop="23dp" android:layout_marginRight="25dp" android:src="@drawable/face" android:layout_toLeftOf="@+id/tv_send"/>
+        <TextView android:textSize="14dp" android:textColor="@color/white" android:gravity="center" android:id="@+id/tv_send" android:background="@color/blue" android:clickable="true" android:layout_width="50dp" android:layout_height="35dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="5dp" android:text="@string/comment_publish" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/player_container" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="200dp">
+        <com.yc.video.ui.view.CustomPrepareView android:id="@+id/prepare_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <TextView android:gravity="center_vertical" android:id="@+id/tv_title" android:padding="10dp" android:layout_width="match_parent" android:layout_height="40dp"/>
+</LinearLayout>

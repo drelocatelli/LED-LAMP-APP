@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@color/blue" android:layout_width="match_parent" android:layout_height="@dimen/dp_48">
+        <ImageView android:id="@+id/ivBack7" android:layout_width="48dp" android:layout_height="match_parent" android:src="@drawable/back" android:scaleType="centerInside"/>
+        <TextView android:textSize="18sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="评论详情" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@+id/srl_Comment7" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/dp_48" android:layout_above="@+id/btnReply7">
+        <ListView android:id="@+id/lv_Reply7" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null" android:layout_above="@+id/btnReply" android:overScrollMode="never"/>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <Button android:id="@+id/btnReply7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" android:text="@string/comment" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

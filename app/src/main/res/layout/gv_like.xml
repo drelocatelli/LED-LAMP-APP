@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#ececec" android:layout_width="match_parent" android:layout_height="150dp">
+    <RelativeLayout android:background="@drawable/like_shape_corner_white" android:layout_width="match_parent" android:layout_height="130dp" android:layout_marginLeft="20dp" android:layout_marginTop="@dimen/dp_20" android:layout_marginRight="20dp">
+        <RelativeLayout android:id="@+id/rlImageViewAdd" android:background="@color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_centerInParent="true">
+            <ImageView android:id="@+id/imageViewAdd" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/like_timer_add" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@+id/rlTimerAll" android:layout_width="match_parent" android:layout_height="110dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="110dp">
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="70dp">
+                    <TextView android:textSize="60sp" android:textColor="@color/black" android:id="@+id/ttv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+                <TextView android:textSize="16sp" android:textColor="@color/black" android:id="@+id/mtv" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_centerVertical="true"/>
+                <TextView android:textSize="16sp" android:textColor="@color/black" android:id="@+id/wtv" android:layout_width="wrap_content" android:layout_height="@dimen/dp_20" android:layout_centerVertical="true"/>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="@dimen/dp_70" android:layout_height="match_parent" android:layout_marginTop="@dimen/dp_20" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+                <ImageView android:id="@+id/image" android:layout_width="@dimen/dp_70" android:layout_height="@dimen/dp_40" android:src="@drawable/butn_open" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:background="#ececec" android:layout_width="match_parent" android:layout_height="@dimen/dp_20" android:layout_marginTop="-20dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

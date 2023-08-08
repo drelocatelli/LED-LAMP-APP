@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="top|center_horizontal" android:orientation="vertical" android:id="@+id/relativeTab2" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/linearLayoutDefineGroups" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:tag="on" android:background="@color/transparent" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="120dp" android:layout_marginLeft="@dimen/margin_content" android:layout_marginRight="@dimen/margin_content">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_SceneSunrise" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <ImageView android:textColor="@color/transparent" android:id="@+id/imageViewSceneSunrise" android:background="@drawable/sunrise_mode" android:layout_width="60dp" android:layout_height="60dp"/>
+                        <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="30dp" android:text="@string/sunrise_mode" android:singleLine="true"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_SceneSunset" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <ImageView android:textColor="@color/transparent" android:gravity="center" android:id="@+id/imageViewSceneSunset" android:background="@drawable/sunset_mode" android:layout_width="60dp" android:layout_height="60dp"/>
+                        <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="30dp" android:text="@string/sunset_mode" android:singleLine="true"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_SceneColorful" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <ImageView android:textColor="@color/transparent" android:gravity="center" android:id="@+id/imageViewSceneColorful" android:background="@drawable/lightning_mode" android:layout_width="60dp" android:layout_height="60dp"/>
+                        <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="30dp" android:text="@string/lightning_mode" android:singleLine="true"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:tag="on" android:background="@color/transparent" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="120dp" android:layout_marginLeft="@dimen/margin_content" android:layout_marginRight="@dimen/margin_content">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_SceneAfternoontea" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <ImageView android:textColor="@color/transparent" android:id="@+id/imageViewSceneAfternoontea" android:background="@drawable/thunderstorm_mode" android:layout_width="60dp" android:layout_height="60dp"/>
+                        <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="40dp" android:text="@string/thunderstorm_mode" android:singleLine="true"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_SceneDrivemidge" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <ImageView android:textColor="@color/transparent" android:id="@+id/imageViewSceneDrivemidge" android:background="@drawable/sunshine_mode" android:layout_width="60dp" android:layout_height="60dp"/>
+                        <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="40dp" android:text="@string/sunshine_mode" android:singleLine="true"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_SceneYoga" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <ImageView android:textColor="@color/transparent" android:id="@+id/imageViewSceneYoga" android:background="@drawable/marine_mode" android:layout_width="60dp" android:layout_height="60dp"/>
+                        <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="40dp" android:text="@string/marine_mode" android:singleLine="true"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:tag="on" android:background="@color/transparent" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="120dp" android:layout_marginLeft="@dimen/margin_content" android:layout_marginRight="@dimen/margin_content">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_SceneParty" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <ImageView android:textColor="@color/transparent" android:id="@+id/imageViewSceneParty" android:background="@drawable/coral_artistic_conception" android:layout_width="60dp" android:layout_height="60dp"/>
+                        <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="30dp" android:text="@string/coral_artistic_conception" android:singleLine="true"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_SceneTropical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <ImageView android:textColor="@color/transparent" android:id="@+id/imageViewSceneTropical" android:background="@drawable/aquatic_mode" android:layout_width="60dp" android:layout_height="60dp"/>
+                        <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="30dp" android:text="@string/aquatic_mode" android:singleLine="true"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_SceneSea" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <ImageView android:textColor="@color/transparent" android:id="@+id/imageViewSceneSea" android:background="@drawable/sleep_mode" android:layout_width="60dp" android:layout_height="60dp"/>
+                        <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="30dp" android:text="@string/sleep_mode" android:singleLine="true"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:tag="on" android:background="@color/transparent" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="120dp" android:layout_marginLeft="@dimen/margin_content" android:layout_marginRight="@dimen/margin_content">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_SceneReading" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <ImageView android:textColor="@color/transparent" android:id="@+id/imageViewSceneReading" android:background="@drawable/deep_sea_mode" android:layout_width="60dp" android:layout_height="60dp"/>
+                        <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="30dp" android:text="@string/deep_sea_mode" android:singleLine="true"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_SceneCandlelightdinner" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <ImageView android:textColor="@color/transparent" android:id="@+id/imageViewSceneCandlelightdinner" android:background="@drawable/colorful_mode" android:layout_width="60dp" android:layout_height="60dp"/>
+                        <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="30dp" android:text="@string/colorful_mode" android:singleLine="true"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <ToggleButton android:textColor="@color/transparent" android:background="@drawable/colorful_mode" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/relativeTab3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/margin_content" android:layout_marginRight="@dimen/margin_content">
+        <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <TextView android:textSize="@dimen/text_size2" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/single_click_select_color"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/linearLayoutViewBlocks" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="3">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <com.home.view.ColorTextView android:textColor="#ffffff" android:gravity="center" android:tag="labelColor1" android:background="@drawable/block_shap_color" android:layout_width="@dimen/rect_dimen" android:layout_height="@dimen/rect_dimen" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="+"/>
+                <com.home.view.ColorTextView android:textColor="#ffffff" android:gravity="center" android:tag="labelColor2" android:background="@drawable/block_shap_color" android:layout_width="@dimen/rect_dimen" android:layout_height="@dimen/rect_dimen" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="+"/>
+                <com.home.view.ColorTextView android:textColor="#ffffff" android:gravity="center" android:tag="labelColor3" android:background="@drawable/block_shap_color" android:layout_width="@dimen/rect_dimen" android:layout_height="@dimen/rect_dimen" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="+"/>
+                <com.home.view.ColorTextView android:textColor="#ffffff" android:gravity="center" android:tag="labelColor4" android:background="@drawable/block_shap_color" android:layout_width="@dimen/rect_dimen" android:layout_height="@dimen/rect_dimen" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="+"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <com.home.view.ColorTextView android:textColor="#ffffff" android:gravity="center" android:tag="labelColor5" android:background="@drawable/block_shap_color" android:layout_width="@dimen/rect_dimen" android:layout_height="@dimen/rect_dimen" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="+"/>
+                <com.home.view.ColorTextView android:textColor="#ffffff" android:gravity="center" android:tag="labelColor6" android:background="@drawable/block_shap_color" android:layout_width="@dimen/rect_dimen" android:layout_height="@dimen/rect_dimen" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="+"/>
+                <com.home.view.ColorTextView android:textColor="#ffffff" android:gravity="center" android:tag="labelColor7" android:background="@drawable/block_shap_color" android:layout_width="@dimen/rect_dimen" android:layout_height="@dimen/rect_dimen" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="+"/>
+                <com.home.view.ColorTextView android:textColor="#ffffff" android:gravity="center" android:tag="labelColor8" android:background="@drawable/block_shap_color" android:layout_width="@dimen/rect_dimen" android:layout_height="@dimen/rect_dimen" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="+"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <com.home.view.ColorTextView android:textColor="#ffffff" android:gravity="center" android:tag="labelColor9" android:background="@drawable/block_shap_color" android:layout_width="@dimen/rect_dimen" android:layout_height="@dimen/rect_dimen" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="+"/>
+                <com.home.view.ColorTextView android:textColor="#ffffff" android:gravity="center" android:tag="labelColor10" android:background="@drawable/block_shap_color" android:layout_width="@dimen/rect_dimen" android:layout_height="@dimen/rect_dimen" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="+"/>
+                <com.home.view.ColorTextView android:textColor="#ffffff" android:gravity="center" android:tag="labelColor11" android:background="@drawable/block_shap_color" android:layout_width="@dimen/rect_dimen" android:layout_height="@dimen/rect_dimen" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="+"/>
+                <com.home.view.ColorTextView android:textColor="#ffffff" android:gravity="center" android:tag="labelColor12" android:background="@drawable/block_shap_color" android:layout_width="@dimen/rect_dimen" android:layout_height="@dimen/rect_dimen" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="+"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <com.home.view.ColorTextView android:textColor="#ffffff" android:gravity="center" android:tag="labelColor13" android:background="@drawable/block_shap_color" android:layout_width="@dimen/rect_dimen" android:layout_height="@dimen/rect_dimen" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="+"/>
+                <com.home.view.ColorTextView android:textColor="#ffffff" android:gravity="center" android:tag="labelColor14" android:background="@drawable/block_shap_color" android:layout_width="@dimen/rect_dimen" android:layout_height="@dimen/rect_dimen" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="+"/>
+                <com.home.view.ColorTextView android:textColor="#ffffff" android:gravity="center" android:tag="labelColor15" android:background="@drawable/block_shap_color" android:layout_width="@dimen/rect_dimen" android:layout_height="@dimen/rect_dimen" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="+"/>
+                <com.home.view.ColorTextView android:textColor="#ffffff" android:gravity="center" android:tag="labelColor16" android:background="@drawable/block_shap_color" android:layout_width="@dimen/rect_dimen" android:layout_height="@dimen/rect_dimen" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="+"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2">
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <RelativeLayout android:gravity="center" android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="5">
+                    <com.common.view.SegmentedRadioGroup android:gravity="top|center_horizontal" android:orientation="horizontal" android:id="@+id/changeButton" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/margin_mid" android:checkedButton="@+id/button_one">
+                        <RadioButton android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="center" android:id="@+id/changeButtonOne" android:layout_height="match_parent" android:button="@null" android:minWidth="40dp" android:text="@string/jump"/>
+                        <RadioButton android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="center" android:id="@+id/changeButtonTwo" android:layout_height="match_parent" android:button="@null" android:minWidth="40dp" android:text="@string/breathe"/>
+                        <RadioButton android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="center" android:id="@+id/changeButtonThree" android:layout_height="match_parent" android:button="@null" android:minWidth="40dp" android:text="@string/flash"/>
+                        <RadioButton android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="center" android:id="@+id/changeButtonFour" android:layout_height="match_parent" android:button="@null" android:minWidth="40dp" android:text="@string/gradient"/>
+                    </com.common.view.SegmentedRadioGroup>
+                </RelativeLayout>
+                <LinearLayout android:gravity="center" android:layout_width="0dp" android:layout_height="50dp" android:layout_weight="1">
+                    <Button android:id="@+id/button1" android:background="@color/red" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/run"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="20dp" android:layout_weight="1">
+                <SeekBar android:id="@+id/seekBarSpeed2" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:progress="50" android:thumb="@drawable/slider_thumb"/>
+                <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:id="@+id/textViewSpeed2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/speed"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <SeekBar android:id="@+id/seekBarBrightNess2" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:progress="50" android:thumb="@drawable/slider_thumb"/>
+                <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:id="@+id/textViewBrightNess2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/brightness"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

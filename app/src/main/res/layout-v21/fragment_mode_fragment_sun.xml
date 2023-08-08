@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/linearLayoutTab1" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:tag="on" android:background="@color/transparent" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/margin_content" android:layout_marginRight="@dimen/margin_content" android:layout_weight="1">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_rread" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:textColor="@color/transparent" android:id="@+id/imageViewSceneSunrise_sun" android:background="@drawable/mode_read" android:layout_width="60dp" android:layout_height="60dp"/>
+                <TextView android:textSize="@dimen/text_size4" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/dp_40" android:text="@string/sun_a"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_learn" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:textColor="@color/transparent" android:gravity="center" android:id="@+id/imageViewSceneSunset_sun" android:background="@drawable/mode_learn" android:layout_width="60dp" android:layout_height="60dp"/>
+                <TextView android:textSize="@dimen/text_size4" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/dp_40" android:text="@string/sun_b"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_together" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:textColor="@color/transparent" android:gravity="center" android:id="@+id/imageViewSceneColorful_sun" android:background="@drawable/mode_together" android:layout_width="60dp" android:layout_height="60dp"/>
+                <TextView android:textSize="@dimen/text_size4" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/dp_40" android:text="@string/sun_c"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="on" android:background="@color/transparent" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/margin_content" android:layout_marginRight="@dimen/margin_content" android:layout_weight="1">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_leisure" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:textColor="@color/transparent" android:id="@+id/imageViewSceneAfternoontea_sun" android:background="@drawable/mode_leisure" android:layout_width="60dp" android:layout_height="60dp"/>
+                <TextView android:textSize="@dimen/text_size4" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/dp_40" android:text="@string/sun_d"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_romantic" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:textColor="@color/transparent" android:id="@+id/imageViewSceneDrivemidge_sun" android:background="@drawable/mode_romantic" android:layout_width="60dp" android:layout_height="60dp"/>
+                <TextView android:textSize="@dimen/text_size4" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/dp_40" android:text="@string/sun_e"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_soft" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:textColor="@color/transparent" android:id="@+id/imageViewSceneYoga_sun" android:background="@drawable/mode_soft" android:layout_width="60dp" android:layout_height="60dp"/>
+                <TextView android:textSize="@dimen/text_size4" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/dp_40" android:text="@string/sun_f"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="on" android:background="@color/transparent" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/margin_content" android:layout_marginRight="@dimen/margin_content" android:layout_weight="1">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_sleep" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:textColor="@color/transparent" android:id="@+id/imageViewSceneParty_sun" android:background="@drawable/mode_sleep" android:layout_width="60dp" android:layout_height="60dp"/>
+                <TextView android:textSize="@dimen/text_size4" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/dp_40" android:text="@string/sun_g"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_natural" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:textColor="@color/transparent" android:id="@+id/imageViewSceneTropical_sun" android:background="@drawable/mode_natural" android:layout_width="60dp" android:layout_height="60dp"/>
+                <TextView android:textSize="@dimen/text_size4" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/dp_40" android:text="@string/sun_h"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:textColor="@color/transparent" android:id="@+id/imageViewScene_sun" android:background="@drawable/mode_read" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp"/>
+                <TextView android:textSize="@dimen/text_size4" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="30dp" android:text="@string/sun_i"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/one" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dp_35" android:layout_marginRight="@dimen/dp_35" android:layout_weight="0.5">
+            <View android:tag="viewColor1" android:background="@drawable/icon_slow" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginLeft="@dimen/dp_30" android:layout_marginRight="0dp"/>
+            <SeekBar android:id="@+id/seekBarSpeed_sun" android:paddingLeft="@dimen/dp_18" android:paddingRight="@dimen/dp_18" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/dp_5" android:max="100" android:progressDrawable="@drawable/seekbar_normal" android:minHeight="@dimen/dp_5" android:thumb="@drawable/slider_thumb" android:splitTrack="false"/>
+            <View android:tag="viewColor1" android:background="@drawable/icon_fast" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginRight="@dimen/dp_30"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size4" android:textColor="@color/white" android:gravity="center" android:id="@+id/textViewSpeed_sun" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-10dp" android:text="@string/speed"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dp_35" android:layout_marginRight="@dimen/dp_35" android:layout_weight="0.5">
+            <View android:tag="viewColor1" android:background="@drawable/icon_dark" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginLeft="@dimen/dp_30" android:layout_marginRight="0dp"/>
+            <SeekBar android:id="@+id/seekBarBrightNess_sun" android:paddingLeft="@dimen/dp_18" android:paddingRight="@dimen/dp_18" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/dp_5" android:max="100" android:progressDrawable="@drawable/seekbar_normal" android:minHeight="@dimen/dp_5" android:thumb="@drawable/slider_thumb" android:splitTrack="false"/>
+            <View android:tag="viewColor1" android:background="@drawable/icon_bright" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginRight="@dimen/dp_30"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size4" android:textColor="@color/white" android:gravity="center" android:id="@+id/textViewBrightNess_sun" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-10dp" android:text="@string/brightness"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dp_35" android:layout_marginRight="@dimen/dp_35" android:layout_weight="0.2"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/linearLayoutTab2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:tag="on" android:background="@color/transparent" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/margin_content" android:layout_marginRight="@dimen/margin_content" android:layout_weight="1">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_jump" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:textColor="@color/transparent" android:id="@+id/iv_jump_sun" android:background="@drawable/ledsun_jump" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:textSize="@dimen/text_size4" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5" android:text="@string/jump"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="on" android:background="@color/transparent" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/margin_content" android:layout_marginRight="@dimen/margin_content" android:layout_weight="1">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_flash" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:textColor="@color/transparent" android:id="@+id/iv_flash_sun" android:background="@drawable/ledsun_flash" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:textSize="@dimen/text_size4" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5" android:text="@string/flash"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="on" android:background="@color/transparent" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/margin_content" android:layout_marginRight="@dimen/margin_content" android:layout_weight="1">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_breath" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:textColor="@color/transparent" android:id="@+id/iv_breath_sun" android:background="@drawable/ledsun_breath" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:textSize="@dimen/text_size4" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5" android:text="@string/breathe"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ll_sensitivity" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dp_35" android:layout_marginRight="@dimen/dp_35" android:layout_weight="0.5">
+            <View android:tag="viewColor1" android:background="@drawable/icon_slow" android:visibility="gone" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginLeft="@dimen/dp_30" android:layout_marginRight="0dp"/>
+            <SeekBar android:id="@+id/seekBarSensitivity_sun" android:paddingLeft="@dimen/dp_18" android:paddingRight="@dimen/dp_18" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="10dp" android:max="100" android:progress="50" android:progressDrawable="@drawable/seekbar_speed" android:minHeight="10dp" android:thumb="@drawable/painttwo" android:splitTrack="false"/>
+            <View android:tag="viewColor1" android:background="@drawable/icon_fast" android:visibility="gone" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginRight="@dimen/dp_30"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size4" android:textColor="@color/white" android:gravity="center" android:id="@+id/textViewSensitivity_sun" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-10dp" android:text="@string/sensitivity"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dp_35" android:layout_marginRight="@dimen/dp_35" android:layout_weight="0.2"/>
+    </LinearLayout>
+</LinearLayout>

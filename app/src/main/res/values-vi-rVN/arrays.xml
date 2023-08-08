@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="Dmx02TextColorArray">
+        <item>Màu đỏ</item>
+        <item>màu xanh lá cây</item>
+        <item>Màu xanh lam</item>
+        <item>màu trắng</item>
+        <item>Màu vàng</item>
+        <item>Màu tím</item>
+    </array>
+    <array name="app_service">
+        <item>Nhiều màu sắc</item>
+        <item>Symphony</item>
+        <item>Xe hơi</item>
+        <item>Thủy cung</item>
+        <item>Stage</item>
+        <item>Nhiệt độ màu</item>
+        <item>Đơn sắc</item>
+        <item>Phát sóng</item>
+        <item>WIFI</item>
+    </array>
+    <array name="ble_mode">
+        <item>Bước nhảy ba màu, 135</item>
+        <item>Bước nhảy bảy màu, 136</item>
+        <item>Gradient ba màu, 137</item>
+        <item>Gradient bảy màu, 138</item>
+        <item>Gradient màu đỏ, 139</item>
+        <item>Gradient màu xanh lá cây, 140</item>
+        <item>Màu xanh lam, 141</item>
+        <item>Gradient màu vàng, 142</item>
+        <item>Gradient màu lục lam, 143</item>
+        <item>Gradient màu tím, 144</item>
+        <item>Gradient màu trắng, 145</item>
+        <item>Gradient màu đỏ và xanh lục, 146</item>
+        <item>Gradient màu đỏ và xanh lam, 147</item>
+        <item>Màu xanh lá cây và màu xanh lam, 148</item>
+        <item>Đèn nhấp nháy bảy màu, 149</item>
+        <item>Màu đỏ nhấp nháy, 150</item>
+        <item>Màu xanh lá cây nhấp nháy, 151</item>
+        <item>Màu xanh lam Strobe, 152</item>
+        <item>Đèn nhấp nháy màu vàng, 153</item>
+        <item>nhấp nháy màu lục lam, 154</item>
+        <item>Màu tím nhấp nháy, 155</item>
+        <item>Màu trắng nhấp nháy, 156</item>
+        <item>Màu đỏ tĩnh, 128</item>
+        <item>Màu xanh lam tĩnh, 129</item>
+        <item>Màu xanh lá cây tĩnh, 130</item>
+        <item>Màu lục lam tĩnh, 131</item>
+        <item>Màu vàng tĩnh, 132</item>
+        <item>Màu tím tĩnh, 133</item>
+        <item>Màu trắng tĩnh, 134</item>
+    </array>
+    <array name="car_mode">
+        <item>Bước nhảy ba màu, 135</item>
+        <item>Bước nhảy bảy màu, 136</item>
+        <item>Gradient ba màu, 137</item>
+        <item>Gradient bảy màu, 138</item>
+        <item>Gradient màu đỏ, 139</item>
+        <item>Gradient màu xanh lá cây, 140</item>
+        <item>Màu xanh lam, 141</item>
+        <item>Gradient màu vàng, 142</item>
+        <item>Gradient màu lục lam, 143</item>
+        <item>Gradient màu tím, 144</item>
+        <item>Gradient màu trắng, 145</item>
+        <item>Gradient màu đỏ và xanh lục, 146</item>
+        <item>Gradient màu đỏ và xanh lam, 147</item>
+        <item>Màu xanh lá cây và màu xanh lam, 148</item>
+        <item>Ánh sáng nhấp nháy bảy màu, 149</item>
+        <item>Màu đỏ nhấp nháy, 150</item>
+        <item>Đèn nhấp nháy màu xanh lá cây, 151</item>
+        <item>Màu xanh lam Strobe, 152</item>
+        <item>Đèn nhấp nháy màu vàng, 153</item>
+        <item>Strobe màu lục lam, 154</item>
+        <item>Màu tím nhấp nháy, 155</item>
+        <item>Đèn nhấp nháy màu trắng, 156</item>
+        <item>Hơi thở bảy màu, 157</item>
+    </array>
+    <array name="chip_model">
+        <item>SM16512,1</item>
+        <item>UCS512C,2</item>
+    </array>
+    <array name="ct_mode">
+        <item>ấm 0% lạnh 100%, 128</item>
+        <item>ấm 10% lạnh 90%, 129</item>
+        <item>Ấm 20% Lạnh 80%, 130</item>
+        <item>ấm 30% lạnh 70%, 131</item>
+        <item>ấm 40% lạnh 60%, 132</item>
+        <item>ấm 50% lạnh 50%, 133</item>
+        <item>ấm 60% lạnh 40%, 134</item>
+        <item>Ấm 70% Lạnh 30%, 135</item>
+        <item>Ấm 80% Lạnh 20%, 136</item>
+        <item>ấm 90% lạnh 10%, 137</item>
+        <item>ấm 100% lạnh 0%, 138</item>
+    </array>
+    <array name="custom_model">
+        <item>1: gradient, 0</item>
+        <item>2: Đuôi, 1</item>
+        <item>3: nước chảy, 2</item>
+        <item>4: Đèn đuổi bắt, 3</item>
+        <item>5: ngăn xếp, 4</item>
+        <item>6: trắng x trắng chảy, 5</item>
+        <item>7: Đua ngựa một điểm, 6</item>
+        <item>8: Đua ngựa đa điểm, 7</item>
+        <item>9: Kéo / Đóng, 8</item>
+        <item>10: Gradient ánh sáng đơn, 9</item>
+        <item>11: Nhảy một lần nhẹ, 10</item>
+        <item>12: Đèn nhấp nháy đơn, 11</item>
+    </array>
+    <array name="dm_mode">
+        <item>0%,128</item>
+        <item>10%,129</item>
+        <item>20%,130</item>
+        <item>30%,131</item>
+        <item>40%,132</item>
+        <item>50%,133</item>
+        <item>60%,134</item>
+        <item>70%,135</item>
+        <item>80%,136</item>
+        <item>90%,137</item>
+        <item>100%,138</item>
+    </array>
+    <array name="dmx02_rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+    </array>
+    <array name="dmx_model">
+        <item>Vòng lặp tự động, 255</item>
+        <item>1: Giao hưởng tích cực, 1</item>
+        <item>2: Reverse Symphony, 2</item>
+        <item>3: Chuyển đổi ánh sáng và bóng tối bảy màu tích cực, 3</item>
+        <item>4: chuyển đổi ánh sáng và bóng tối bảy màu đảo ngược, 4</item>
+        <item>5: Sự chuyển đổi tích cực của ánh sáng đỏ, xanh lá cây và xanh lam và tối, 5</item>
+        <item>6: Đảo ngược ánh sáng đỏ, xanh lá cây và xanh lam và chuyển tiếp sáng tối, 6</item>
+        <item>7: Nó đang chuyển sang ánh sáng và tối màu vàng, xanh lam và tím, 7</item>
+        <item>8: chuyển đổi ngược sáng-tối màu vàng-lục lam-tím, 8</item>
+        <item>9: Chuyển đổi sáu màu tích cực sang màu đỏ, 9</item>
+        <item>10: màu đỏ chuyển tiếp sáu màu đảo ngược, 10</item>
+        <item>11: Chuyển đổi sáu màu tích cực sang màu xanh lục, 11</item>
+        <item>12: xanh lục chuyển tiếp sáu màu đảo ngược, 12</item>
+        <item>13: Chuyển đổi sáu màu tích cực sang màu xanh lam, 13</item>
+        <item>14: màu xanh chuyển tiếp sáu màu đảo ngược, 14</item>
+        <item>15: Tích cực chuyển đổi sang lục lam sáu màu, 15</item>
+        <item>16: lục lam chuyển tiếp sáu màu đảo ngược, 16</item>
+        <item>17: Chuyển đổi sáu màu tích cực sang màu vàng, 17</item>
+        <item>18: màu vàng chuyển tiếp sáu màu đảo ngược, 18</item>
+        <item>19: Sự chuyển đổi sáu màu sang màu tím, 19</item>
+        <item>20: màu tím chuyển tiếp sáu màu đảo ngược, 20</item>
+        <item>21: Chuyển đổi sáu màu tích cực sang màu trắng, 21</item>
+        <item>22: màu trắng chuyển tiếp sáu màu đảo ngược, 22</item>
+        <item>23: Dấu vết đầy màu sắc tích cực, 23</item>
+        <item>24: Dấu gạch ngang đầy màu sắc đảo ngược, 24</item>
+        <item>25: đuôi màu đỏ, 25</item>
+        <item>26: Dấu gạch ngang màu đỏ ngược, 26</item>
+        <item>27: Dấu vết màu xanh lá cây, 27</item>
+        <item>28: đường mòn màu xanh lá cây ngược lại, 28</item>
+        <item>29: Đuôi về phía màu xanh lam, 29</item>
+        <item>30: Vệt màu xanh ngược, 30</item>
+        <item>31: Dấu gạch ngang màu vàng, 31</item>
+        <item>32: Dấu gạch ngang màu vàng ngược, 32</item>
+        <item>33: Đuôi theo hướng lục lam, 33</item>
+        <item>34: dấu vết màu lục lam ngược, 34</item>
+        <item>35: Dấu vết màu tím tích cực, 35</item>
+        <item>36: dấu vết màu tím ngược, 36</item>
+        <item>37: Dấu gạch ngang màu trắng, 37</item>
+        <item>38: Dấu gạch ngang màu trắng đảo ngược, 38</item>
+        <item>39: Nước chảy đầy màu sắc tích cực, 39</item>
+        <item>40: Dòng nước chảy đầy màu sắc ngược, 40</item>
+        <item>41: Nước màu đỏ, xanh lục và xanh dương tích cực, 41</item>
+        <item>42: Nước màu đỏ, xanh lục và xanh lam ngược, 42</item>
+        <item>43: Nước chảy màu vàng, xanh lam và tím dương, 43</item>
+        <item>44: Nước chảy ngược màu vàng, xanh lam và tím, 44</item>
+        <item>45: Chuyển tiếp nước màu đỏ và xanh lục, 45</item>
+        <item>46: Nước chảy ngược màu đỏ và xanh lục, 46</item>
+        <item>47: Màu xanh lục và nước trong xanh dương, 47</item>
+        <item>48: màu xanh lục ngược và nước trong xanh, 48</item>
+        <item>49: Nước màu vàng và xanh dương, 49</item>
+        <item>50: Nước màu vàng và xanh lam ngược, 50</item>
+        <item>51: Nước màu vàng và màu xanh lá cây tích cực, 51</item>
+        <item>52: Nước chảy ngược màu vàng xanh, 52</item>
+        <item>53: Nước chảy màu xanh lam và tím tích cực, 53</item>
+        <item>54: Nước màu xanh lam và màu tím ngược, 54</item>
+        <item>55: Nước chảy màu đen và trắng tích cực, 55</item>
+        <item>56: Nước chảy ngược màu đen và trắng, 56</item>
+        <item>57: Rèm đầy màu sắc, 57</item>
+        <item>58: Đóng cửa đầy màu sắc, 58</item>
+        <item>59: Rèm màu đỏ, xanh lá cây và xanh lam, 59</item>
+        <item>60: Đóng cửa màu đỏ, xanh lá cây và xanh lam, 60</item>
+        <item>61: Rèm màu xanh lam và tím màu vàng, 61</item>
+        <item>62: Sự đóng cửa của màu vàng xanh tím, 62</item>
+        <item>63: Đuổi theo ánh sáng với nhiều màu sắc sặc sỡ, 63</item>
+        <item>64: Ánh sáng đuổi theo nhiều màu sắc đảo ngược, 64</item>
+        <item>65: Chuyển tiếp ánh sáng đuổi theo màu đỏ, xanh lục và xanh lam, 65</item>
+        <item>66: Đèn đuổi theo màu đỏ, xanh lục và xanh lam ngược, 66</item>
+        <item>67: Đuổi ánh sáng theo hướng vàng, xanh lam và tím, 67</item>
+        <item>68: Ánh sáng đuổi theo màu vàng, xanh lam và tím ngược, 68</item>
+        <item>69: Bay đầy màu sắc, 69</item>
+        <item>70: Lấp lánh đầy màu sắc đảo ngược, 70</item>
+        <item>71: có màu đỏ, xanh lục và xanh lam, 71</item>
+        <item>72: Đảo ngược màu đỏ, xanh lá cây và xanh lam rung chuyển, 72</item>
+        <item>73: rung chuyển về phía màu vàng, xanh lam và tím, 73</item>
+        <item>74: Màu vàng đảo ngược, màu xanh lam và màu tím rung động, 74</item>
+        <item>75: Bước nhảy bảy màu, 75</item>
+        <item>76: bước nhảy màu đỏ, xanh lục và xanh lam, 76</item>
+        <item>77: Bước nhảy màu vàng xanh và tím, 77</item>
+        <item>78: Nhấp nháy bảy màu, 78</item>
+        <item>79: nhấp nháy màu đỏ, xanh lục và xanh lam, 79</item>
+        <item>80: nhấp nháy màu vàng, xanh lam và tím, 80</item>
+        <item>81: Độ dốc bảy màu, 81</item>
+        <item>82: Màu đỏ và màu vàng, 82</item>
+        <item>83: Gradient màu đỏ và tím, 83</item>
+        <item>84: màu xanh lục-xanh lục, 84</item>
+        <item>85: gradient xanh lục-vàng, 85</item>
+        <item>86: Màu xanh lam-tím, 86</item>
+        <item>87: Đóng cửa màu đỏ, 87</item>
+        <item>88: Màu xanh lá cây đóng cửa, 88</item>
+        <item>89: Kết thúc màu xanh lam, 89</item>
+        <item>90: đóng cửa màu vàng, 90</item>
+        <item>91: Đóng cửa màu lục lam, 91</item>
+        <item>92: Kết thúc màu tím, 92</item>
+        <item>93: đóng cửa màu trắng, 93</item>
+        <item>94: Màn đỏ, 94</item>
+        <item>95: Rèm màu xanh lá cây, 95</item>
+        <item>96: Bức màn màu xanh lam, 96</item>
+        <item>97: Rèm màu vàng, 97</item>
+        <item>98: Rèm màu lục lam, 98</item>
+        <item>99: Rèm màu tím, 99</item>
+        <item>100: Màn trắng, 100</item>
+        <item>101: ngăn xếp màu đỏ, 101</item>
+        <item>102: Ngăn xếp màu xanh lá cây, 102</item>
+        <item>103: Ngăn xếp màu xanh lam, 103</item>
+        <item>104: Xếp chồng màu vàng, 104</item>
+        <item>105: ngăn xếp màu lục lam, 105</item>
+        <item>106: Xếp chồng màu tím, 106</item>
+        <item>107: ngăn xếp màu trắng, 107</item>
+        <item>108: Chạy về phía màu đỏ, 108</item>
+        <item>109: Chạy ngược màu đỏ, 109</item>
+        <item>110: Chạy về phía màu xanh lá cây, 110</item>
+        <item>111: Chạy ngược màu xanh lá cây, 111</item>
+        <item>112: Chạy về phía màu xanh lam, 112</item>
+        <item>113: Chạy ngược màu xanh lam, 113</item>
+        <item>114: Chạy về phía màu vàng, 114</item>
+        <item>115: Chạy ngược màu vàng, 115</item>
+        <item>116: Chạy về phía lục lam, 116</item>
+        <item>117: chạy màu lục lam ngược, 117</item>
+        <item>118: Chạy về phía màu tím, 118</item>
+        <item>119: Chạy ngược màu tím, 119</item>
+        <item>120: Chạy về phía màu trắng, 120</item>
+        <item>121: Chạy ngược màu trắng, 121</item>
+        <item>122: Chạy trong bảy màu, 122</item>
+        <item>123: Chạy ngược bảy màu, 123</item>
+        <item>124: Chạy về phía đỏ, xanh lá cây và xanh lam, 124</item>
+        <item>125: Chạy ngược màu đỏ, xanh lục và xanh lam, 125</item>
+        <item>126: Chạy về phía màu vàng, xanh lam và tím, 126</item>
+        <item>127: Chạy ngược màu vàng và xanh lam, 127</item>
+        <item>128: Chạy về phía xanh lam, vàng và tím, 128</item>
+        <item>129: Chạy về phía xanh lục, xanh lam và vàng, 129</item>
+        <item>130: Chạy ngược màu xanh lam-vàng-xanh lục, 130</item>
+        <item>131: Chạy về phía chấm đỏ trên nền trắng, 131</item>
+        <item>132: Chạy ngược lại với các chấm đỏ trên nền trắng, 132</item>
+        <item>133: Chạy về phía chấm màu xanh lục trên nền đỏ, 133</item>
+        <item>134: Chấm màu đỏ và xanh lá cây đảo ngược chạy, 134</item>
+        <item>135: Chạy về phía chấm màu xanh lam trên nền xanh lục, 135</item>
+        <item>136: Chấm màu xanh lam nền xanh lá cây đảo ngược đang chạy, 136</item>
+        <item>137: Chạy về phía chấm màu vàng trên nền màu xanh lam, 137</item>
+        <item>138: Chạy chấm tròn màu xanh lam và màu vàng đảo ngược, 138</item>
+        <item>139: Chạy về phía chấm màu xanh lam trên nền màu vàng, 139</item>
+        <item>140: Chạy ngược với các chấm màu xanh lam trên nền màu vàng, 140</item>
+        <item>141: Chạy về phía điểm dưới cùng màu lục lam, 141</item>
+        <item>142: Chạy ngược màu lục lam ở đáy, 142</item>
+        <item>143: Chạy về phía chấm trắng trên nền tím, 143</item>
+        <item>144: Chạy với các chấm trắng trên nền màu tím ngược, 144</item>
+        <item>145: Chạy về phía chấm trắng trên nền đỏ, 145</item>
+        <item>146: Chạy với các chấm trắng trên nền đỏ, 146</item>
+        <item>147: Chạy với bảy màu trên nền đỏ, 147</item>
+        <item>148: Đảo ngược bảy màu chạy trên nền đỏ, 148</item>
+        <item>149: Chạy với bảy màu trên nền xanh lục, 149</item>
+        <item>150: Nền màu xanh lá cây đảo ngược bảy màu đang chạy, 150</item>
+        <item>151: Chạy với bảy màu trên nền xanh lam, 151</item>
+        <item>152: Chạy bảy màu trên nền xanh lam ngược, 152</item>
+        <item>153: Chạy về phía trước với bảy màu trên nền vàng, 153</item>
+        <item>154: Chạy bảy màu trên nền màu vàng ngược, 154</item>
+        <item>155: Chạy với bảy màu trên nền xanh lam, 155</item>
+        <item>156: Chạy bảy màu trên nền xanh lam ngược, 156</item>
+        <item>157: Chạy với bảy màu trên nền tím, 157</item>
+        <item>158: Chạy bảy màu trên nền màu tím ngược, 158</item>
+        <item>159: Chạy với bảy màu trên nền trắng, 159</item>
+        <item>160: Bảy màu chạy ngược lại trên nền trắng, 160</item>
+        <item>161: Luồng trắng, đỏ và trắng tích cực, 161</item>
+        <item>162: Dòng chảy ngược trắng, đỏ và trắng, 162</item>
+        <item>163: Dòng chảy tích cực màu trắng, xanh lá cây và trắng, 163</item>
+        <item>164: Dòng chảy ngược màu trắng, xanh lục và trắng, 164</item>
+        <item>165: Dòng chảy tích cực màu trắng, xanh lam và trắng, 165</item>
+        <item>166: Dòng chảy ngược màu trắng, xanh lam và trắng, 166</item>
+        <item>167: Chảy về phía trắng, vàng và trắng, 167</item>
+        <item>168: Dòng chảy ngược trắng-vàng-trắng, 168</item>
+        <item>169: Chảy về phía trắng, xanh lam và trắng, 169</item>
+        <item>170: Dòng chảy ngược trắng-xanh-trắng, 170</item>
+        <item>171: Chảy về phía trắng, tím và trắng, 171</item>
+        <item>172: dòng chảy ngược trắng-tím-trắng, 172</item>
+        <item>173: Luồng đỏ, trắng và đỏ tích cực, 173</item>
+        <item>174: Luồng màu đỏ, trắng và đỏ ngược, 174</item>
+        <item>175: Luồng xanh lục-trắng-xanh lục tích cực, 175</item>
+        <item>176: dòng chảy ngược xanh lục-trắng-xanh lục, 176</item>
+        <item>177: Chảy về phía xanh lam, trắng và xanh lam, 177</item>
+        <item>178: Luồng ngược màu xanh lam-trắng-xanh lam, 178</item>
+        <item>179: Chảy về phía màu vàng, trắng và vàng, 179</item>
+        <item>180: Luồng ngược màu vàng-trắng-vàng, 180</item>
+        <item>181: Nó đang chảy về phía xanh lam, trắng và xanh lục, 181</item>
+        <item>182: Luồng màu xanh lam-trắng-xanh lục ngược, 182</item>
+        <item>183: Chảy sang màu tím, trắng và tím, 183</item>
+        <item>184: dòng chảy ngược màu tím-trắng-tím, 184</item>
+        <item>185: Chạy về phía một chấm màu xanh lục trên nền xanh lam, 185</item>
+        <item>186: Nền màu xanh lam đảo ngược với các chấm màu xanh lá cây, 186</item>
+        <item>187: Cưỡi với các chấm xanh trên nền đỏ, 187</item>
+        <item>188: Nền màu đỏ đảo ngược với các chấm màu xanh lá cây, 188</item>
+        <item>189: Đua một chấm đỏ trên nền xanh lam, 189</item>
+        <item>190: Đua xe chấm màu xanh và đỏ đảo ngược, 190</item>
+        <item>191: Con ngựa đang chạy với một chấm màu xanh lam trên nền màu vàng, 191</item>
+        <item>192: Đua ngựa chấm màu vàng và xanh lam ngược, 192</item>
+        <item>193: Đua ngựa với các chấm vàng trên nền tím, 193</item>
+        <item>194: Nền màu tím đảo ngược với các chấm màu vàng, 194</item>
+        <item>195: Ngựa chạy với các chấm trắng trên nền vàng, 195</item>
+        <item>196: Nền màu vàng đảo ngược với các chấm trắng, 196</item>
+        <item>197: Đua ngựa với các chấm vàng trên nền trắng, 197</item>
+        <item>198: Nền trắng đảo ngược với các chấm màu vàng, 198</item>
+        <item>199: Bàn chải bảy màu tích cực, 199</item>
+        <item>200: Bàn chải bảy màu đảo ngược, 200</item>
+        <item>201: Màu bàn chải đỏ, xanh lá cây và xanh dương tích cực, 201</item>
+        <item>202: Màu bàn chải ngược đỏ, xanh lá cây và xanh lam, 202</item>
+        <item>203: Màu bàn chải tích cực màu vàng, xanh lam và tím, 203</item>
+        <item>204: Màu bàn chải màu vàng lục lam-tím đảo ngược, 204</item>
+        <item>205: Rèm màu cọ bảy màu, 205</item>
+        <item>206: Màu bàn chải bảy màu đóng lại, 206</item>
+        <item>207: Rèm màu đỏ, xanh lá cây và xanh lam, 207</item>
+        <item>208: Đóng màu đỏ, xanh lục và xanh lam, 208</item>
+        <item>209: Tấm phủ salad bàn chải màu xanh lam tím vàng, 209</item>
+        <item>210: Đóng màu bàn chải vàng, xanh lam và tím, 210</item>
+    </array>
+    <array name="forum_tab_titles">
+        <item>Khác</item>
+        <item>kết nối</item>
+        <item>Lời khuyên</item>
+        <item>Gợi ý</item>
+        <item>Điểm nổi bật</item>
+    </array>
+    <array name="light_banner">
+        <item>LPD6803,1</item>
+        <item>TM1803,2</item>
+        <item>UCS1903,3</item>
+        <item>WS2811,4</item>
+        <item>TM1812,5</item>
+        <item>TM1809,6</item>
+        <item>WS2801,7</item>
+        <item>TLS3001,8</item>
+        <item>TLS3008,9</item>
+        <item>P9813,10</item>
+        <item>UCS8806,11</item>
+        <item>TM1829,12</item>
+        <item>TM1909,13</item>
+    </array>
+    <array name="light_mode">
+        <item>Tắt đèn</item>
+        <item>Màu đỏ tĩnh</item>
+        <item>Màu xanh lam tĩnh</item>
+        <item>Màu xanh lá cây tĩnh</item>
+        <item>Màu lục lam tĩnh</item>
+        <item>màu vàng tĩnh</item>
+        <item>Màu tím tĩnh</item>
+        <item>Màu trắng tĩnh</item>
+        <item>Bước nhảy ba màu</item>
+        <item>Bước nhảy bảy màu</item>
+        <item>Gradient ba màu</item>
+        <item>Gradient bảy màu</item>
+        <item>Gradient màu đỏ</item>
+        <item>Gradient màu xanh lá cây</item>
+        <item>Gradient màu xanh lam</item>
+        <item>Gradient màu vàng</item>
+        <item>Gradient màu lục lam</item>
+        <item>Gradient màu tím</item>
+        <item>Gradient màu trắng</item>
+        <item>Gradient màu đỏ và xanh lá cây</item>
+        <item>Gradient màu đỏ và xanh lam</item>
+        <item>Màu xanh lá cây và màu xanh lam</item>
+        <item>Ánh sáng nhấp nháy bảy màu</item>
+        <item>Đèn nhấp nháy màu đỏ</item>
+        <item>Đèn nhấp nháy màu xanh lá cây</item>
+        <item>Đèn nhấp nháy màu xanh lam</item>
+        <item>Đèn nhấp nháy màu vàng</item>
+        <item>nhấp nháy màu lục lam</item>
+        <item>Màu tím nhấp nháy</item>
+        <item>Đèn nhấp nháy màu trắng</item>
+        <item>MODE30</item>
+        <item>MODE31</item>
+        <item>MODE32</item>
+        <item>MODE33</item>
+        <item>MODE34</item>
+        <item>MODE35</item>
+        <item>MODE36</item>
+        <item>MODE37</item>
+        <item>MODE38</item>
+        <item>MODE39</item>
+        <item>MODE40</item>
+        <item>MODE41</item>
+        <item>MODE42</item>
+        <item>MODE43</item>
+        <item>MODE44</item>
+        <item>MODE45</item>
+        <item>MODE46</item>
+        <item>MODE47</item>
+        <item>MODE48</item>
+        <item>MODE49</item>
+        <item>MODE50</item>
+        <item>MODE51</item>
+        <item>MODE52</item>
+        <item>MODE53</item>
+        <item>MODE54</item>
+        <item>MODE55</item>
+        <item>MODE56</item>
+        <item>MODE57</item>
+        <item>MODE58</item>
+        <item>MODE59</item>
+        <item>MODE60</item>
+        <item>MODE61</item>
+        <item>MODE62</item>
+        <item>MODE63</item>
+        <item>MODE64</item>
+        <item>MODE65</item>
+        <item>MODE66</item>
+        <item>MODE67</item>
+        <item>MODE68</item>
+        <item>MODE69</item>
+        <item>MODE70</item>
+        <item>MODE71</item>
+        <item>MODE72</item>
+        <item>MODE73</item>
+        <item>MODE74</item>
+        <item>MODE75</item>
+        <item>MODE76</item>
+        <item>MODE77</item>
+        <item>MODE78</item>
+        <item>MODE79</item>
+        <item>MODE80</item>
+        <item>MODE81</item>
+        <item>MODE82</item>
+        <item>MODE83</item>
+        <item>MODE84</item>
+        <item>MODE85</item>
+        <item>MODE86</item>
+        <item>MODE87</item>
+        <item>MODE88</item>
+        <item>MODE89</item>
+        <item>MODE90</item>
+        <item>MODE91</item>
+        <item>MODE92</item>
+        <item>MODE93</item>
+        <item>MODE94</item>
+        <item>MODE95</item>
+        <item>MODE96</item>
+        <item>MODE97</item>
+        <item>MODE98</item>
+        <item>MODE99</item>
+        <item>MODE100</item>
+        <item>MODE101</item>
+        <item>MODE102</item>
+        <item>MODE103</item>
+        <item>MODE104</item>
+        <item>MODE105</item>
+        <item>MODE106</item>
+        <item>MODE107</item>
+        <item>MODE108</item>
+        <item>MODE109</item>
+        <item>MODE110</item>
+        <item>MODE111</item>
+        <item>MODE112</item>
+        <item>MODE113</item>
+        <item>MODE114</item>
+        <item>MODE115</item>
+        <item>MODE116</item>
+        <item>MODE117</item>
+        <item>MODE118</item>
+        <item>MODE119</item>
+        <item>MODE120</item>
+        <item>MODE121</item>
+        <item>MODE122</item>
+        <item>MODE123</item>
+        <item>MODE124</item>
+        <item>MODE125</item>
+        <item>MODE126</item>
+        <item>MODE127</item>
+        <item>MODE128</item>
+        <item>MODE129</item>
+        <item>MODE130</item>
+        <item>MODE131</item>
+        <item>MODE132</item>
+        <item>MODE133</item>
+        <item>MODE134</item>
+        <item>MODE135</item>
+        <item>MODE136</item>
+        <item>MODE137</item>
+        <item>MODE138</item>
+        <item>MODE139</item>
+        <item>MODE140</item>
+        <item>MODE141</item>
+        <item>MODE142</item>
+        <item>MODE143</item>
+        <item>MODE144</item>
+        <item>MODE145</item>
+        <item>MODE146</item>
+        <item>MODE147</item>
+        <item>MODE148</item>
+        <item>MODE149</item>
+        <item>MODE150</item>
+        <item>MODE151</item>
+        <item>MODE152</item>
+        <item>MODE153</item>
+        <item>MODE154</item>
+        <item>MODE155</item>
+        <item>MODE156</item>
+        <item>MODE157</item>
+        <item>MODE158</item>
+        <item>MODE159</item>
+        <item>MODE160</item>
+        <item>MODE161</item>
+        <item>MODE162</item>
+        <item>MODE163</item>
+        <item>MODE164</item>
+        <item>MODE165</item>
+        <item>MODE166</item>
+        <item>MODE167</item>
+        <item>MODE168</item>
+        <item>MODE169</item>
+        <item>MODE170</item>
+        <item>MODE171</item>
+        <item>MODE172</item>
+        <item>MODE173</item>
+        <item>MODE174</item>
+        <item>MODE175</item>
+        <item>MODE176</item>
+        <item>MODE177</item>
+        <item>MODE178</item>
+        <item>MODE179</item>
+        <item>MODE180</item>
+        <item>MODE181</item>
+        <item>MODE182</item>
+        <item>MODE183</item>
+        <item>MODE184</item>
+        <item>MODE185</item>
+        <item>MODE186</item>
+        <item>MODE187</item>
+        <item>MODE188</item>
+        <item>MODE189</item>
+        <item>MODE190</item>
+        <item>MODE191</item>
+        <item>MODE192</item>
+        <item>MODE193</item>
+        <item>MODE194</item>
+        <item>MODE195</item>
+        <item>MODE196</item>
+        <item>MODE197</item>
+        <item>MODE198</item>
+        <item>MODE199</item>
+        <item>MODE200</item>
+        <item>MODE201</item>
+        <item>MODE202</item>
+        <item>MODE203</item>
+        <item>MODE204</item>
+        <item>MODE205</item>
+        <item>MODE206</item>
+        <item>MODE207</item>
+        <item>MODE208</item>
+        <item>MODE209</item>
+        <item>MODE210</item>
+        <item>MODE211</item>
+    </array>
+    <array name="modelble">
+        <item>Tắt đèn</item>
+        <item>Bật đèn</item>
+        <item>Màu đỏ tĩnh</item>
+        <item>Màu xanh lá cây tĩnh</item>
+        <item>Màu xanh lam tĩnh</item>
+        <item>màu vàng tĩnh</item>
+        <item>Màu tím tĩnh</item>
+        <item>Màu lục lam tĩnh</item>
+        <item>Màu trắng tĩnh</item>
+        <item>Bước nhảy ba màu</item>
+        <item>Bước nhảy bảy màu</item>
+        <item>Gradient ba màu</item>
+        <item>Gradient bảy màu</item>
+        <item>Màu trắng mát mẻ</item>
+        <item>Màu trắng ấm</item>
+        <item>Đơn sắc</item>
+    </array>
+    <array name="modelike">
+        <item>Tắt đèn</item>
+        <item>Bật đèn</item>
+        <item>đầy đủ sáng</item>
+        <item>Nửa sáng</item>
+        <item>Hơi sáng</item>
+        <item>Hít thở</item>
+        <item>Strobe</item>
+        <item>Flash</item>
+    </array>
+    <array name="modelsun">
+        <item>Tắt đèn</item>
+        <item>Bật đèn</item>
+        <item>Màu sắc mát mẻ</item>
+        <item>Màu ấm</item>
+        <item>Màu sắc tự nhiên</item>
+        <item>Cú nhảy ấm màu trắng</item>
+        <item>Gradient màu trắng</item>
+        <item>Gradient ấm áp</item>
+        <item>Gradient màu tự nhiên</item>
+        <item>Gradient ấm áp màu trắng</item>
+        <item>Đèn nhấp nháy màu trắng ấm</item>
+        <item>Đèn nhấp nháy màu trắng</item>
+        <item>Ánh sáng nhấp nháy ấm áp</item>
+        <item>Độ nhấp nháy màu tự nhiên</item>
+    </array>
+    <array name="rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+        <item>RGBW,7</item>
+        <item>RBGW,8</item>
+        <item>GRBW,9</item>
+        <item>GBRW,10</item>
+        <item>BRGW,11</item>
+        <item>BGRW,12</item>
+    </array>
+    <array name="rgb_sort_ble">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+    </array>
+    <array name="select_mode">
+        <item>W,0</item>
+        <item>BW,1</item>
+        <item>RGB,2</item>
+        <item>RGBW,3</item>
+        <item>RGBWCP,4</item>
+    </array>
+    <array name="timer_model_dmx">
+        <item>Tắt đèn</item>
+        <item>Bật đèn</item>
+        <item>Vòng lặp tự động</item>
+        <item>1: Forward Symphony</item>
+        <item>2: Màu ma thuật đảo ngược</item>
+        <item>3: Chuyển đổi ánh sáng và bóng tối bảy màu tích cực</item>
+        <item>4: Chuyển đổi ánh sáng và bóng tối bảy màu đảo ngược</item>
+        <item>5: Chuyển tiếp ánh sáng đỏ, xanh lá cây và xanh lam và chuyển tiếp bóng tối</item>
+        <item>6: Đảo ngược ánh sáng đỏ, xanh lá cây và xanh lam và chuyển tiếp tối</item>
+        <item>7: Sự chuyển đổi ánh sáng và tối sang màu vàng, xanh lam và tím</item>
+        <item>8: Đảo ngược chuyển đổi ánh sáng-tối màu vàng-lục lam-tím</item>
+        <item>9: Chuyển đổi sáu màu tích cực sang màu đỏ</item>
+        <item>10: Màu đỏ chuyển tiếp sáu màu đảo ngược</item>
+        <item>11: Chuyển đổi sáu màu tích cực sang màu xanh lá cây</item>
+        <item>12: màu xanh lục chuyển tiếp sáu màu đảo ngược</item>
+        <item>13: Chuyển đổi sáu màu tích cực sang màu xanh lam</item>
+        <item>14: màu xanh lam chuyển tiếp sáu màu đảo ngược</item>
+        <item>15: Chuyển đổi sáu màu tích cực sang màu lục lam</item>
+        <item>16: lục lam chuyển tiếp sáu màu đảo ngược</item>
+        <item>17: Chuyển đổi sáu màu tích cực sang màu vàng</item>
+        <item>18: màu vàng chuyển tiếp sáu màu đảo ngược</item>
+        <item>19: Chuyển đổi sáu màu tích cực sang màu tím</item>
+        <item>20: màu tím chuyển tiếp sáu màu đảo ngược</item>
+        <item>21: Chuyển đổi sáu màu tích cực sang màu trắng</item>
+        <item>22: Màu trắng chuyển tiếp sáu màu đảo ngược</item>
+        <item>23: Chuyển tiếp dấu chấm đầy màu sắc</item>
+        <item>24: Dấu gạch ngang đầy màu sắc đảo ngược</item>
+        <item>25: Dấu gạch ngang màu đỏ chuyển tiếp</item>
+        <item>26: Dấu gạch ngang màu đỏ đảo ngược</item>
+        <item>27: Dấu gạch ngang màu xanh lá cây chuyển tiếp</item>
+        <item>28: Dấu gạch ngang màu xanh lá cây đảo ngược</item>
+        <item>29: Dấu gạch ngang màu xanh chuyển tiếp</item>
+        <item>30: Dấu gạch ngang màu xanh lam ngược</item>
+        <item>31: Dấu gạch ngang màu vàng tích cực</item>
+        <item>32: Dấu gạch ngang màu vàng ngược</item>
+        <item>33: Chuyển tiếp dấu lục lam</item>
+        <item>34: Trailing Cyan Đảo ngược</item>
+        <item>35: Dấu vết màu tím tích cực</item>
+        <item>36: Dấu gạch ngang màu tím ngược</item>
+        <item>37: Dấu gạch ngang màu trắng chuyển tiếp</item>
+        <item>38: Dấu gạch ngang màu trắng đảo ngược</item>
+        <item>39: Nước chảy đầy màu sắc tích cực</item>
+        <item>40: Dòng nước chảy đầy màu sắc đảo ngược</item>
+        <item>41: Nước có màu đỏ, xanh lá cây và xanh dương tích cực</item>
+        <item>42: Nước màu đỏ, xanh lục và xanh lam đảo ngược</item>
+        <item>43: Nước chảy màu vàng, xanh lam và tím dương</item>
+        <item>44: Nước chảy ngược màu vàng, xanh lam và tím</item>
+        <item>45: Chuyển tiếp nước màu đỏ và xanh lá cây</item>
+        <item>46: Luồng màu đỏ và xanh lục ngược lại</item>
+        <item>47: Chuyển tiếp nước xanh lục và xanh lam</item>
+        <item>48: Màu xanh lá cây và màu xanh nước biển đảo ngược</item>
+        <item>49: Nước có màu vàng và xanh dương</item>
+        <item>50: Nước màu vàng và màu xanh lam đảo ngược</item>
+        <item>51: Nước chảy tích cực màu vàng xanh</item>
+        <item>52: Nước chảy ngược màu vàng xanh</item>
+        <item>53: Nước chảy màu xanh lam và màu tím tích cực</item>
+        <item>54: Nước màu lục lam đảo ngược</item>
+        <item>55: Nước chảy màu đen và trắng tích cực</item>
+        <item>56: Nước chảy ngược màu đen và trắng</item>
+        <item>57: Màn cửa đầy màu sắc</item>
+        <item>58: Đóng cửa đầy màu sắc</item>
+        <item>59: Rèm cửa màu đỏ, xanh lá cây và xanh lam</item>
+        <item>60: Màu đỏ Màu xanh lá cây Màu xanh Màu xanh Đóng cửa</item>
+        <item>61: Rèm kéo màu xanh lam và tím vàng</item>
+        <item>62: Đóng cửa màu vàng, xanh lam và tím</item>
+        <item>63: Đuổi theo ánh sáng với nhiều màu sắc sặc sỡ</item>
+        <item>64: Ánh sáng đuổi theo nhiều màu sắc đảo ngược</item>
+        <item>65: Chuyển tiếp ánh sáng đuổi theo màu đỏ, xanh lục và xanh lam</item>
+        <item>66: Đèn đuổi theo màu đỏ, xanh lục và xanh lam ngược lại</item>
+        <item>67: Đuổi ánh sáng về phía màu vàng, xanh lam và tím</item>
+        <item>68: Ánh sáng đuổi theo màu vàng, xanh lam và tím đảo ngược</item>
+        <item>69: Bay đầy màu sắc</item>
+        <item>70: Lấp lánh đầy màu sắc đảo ngược</item>
+        <item>71: Bay sang màu đỏ, xanh lục và xanh lam</item>
+        <item>72: Đảo ngược màu đỏ, xanh lá cây và xanh lam rung chuyển</item>
+        <item>73: Nó đang bay về phía màu vàng, xanh lam và tím</item>
+        <item>74: Đảo ngược màu vàng-lục lam-tím rung chuyển</item>
+        <item>75: Bước nhảy bảy màu</item>
+        <item>76: Các bước nhảy màu đỏ, xanh lá cây và xanh lam</item>
+        <item>77: Bước nhảy màu vàng xanh tím</item>
+        <item>78: Nhấp nháy bảy màu</item>
+        <item>79: Nhấp nháy màu đỏ, xanh lá cây và xanh lam</item>
+        <item>80: Màu xanh lam vàng và ánh sáng tím</item>
+        <item>81: Độ dốc bảy màu</item>
+        <item>82: Gradient màu đỏ và vàng</item>
+        <item>83: Gradient màu đỏ và tím</item>
+        <item>84: Màu xanh lục-xanh lá cây</item>
+        <item>85: Gradient xanh lục-vàng</item>
+        <item>86: Gradient xanh lam và tím</item>
+        <item>87: Đóng cửa màu đỏ</item>
+        <item>88: Màu xanh lá cây đóng cửa</item>
+        <item>89: Màu xanh lam đóng cửa</item>
+        <item>90: Màu vàng đóng cửa</item>
+        <item>91: Đóng cửa màu lục lam</item>
+        <item>92: Màu tím đóng cửa</item>
+        <item>93: Đóng cửa màu trắng</item>
+        <item>94: Bức màn màu đỏ</item>
+        <item>95: Bức màn màu xanh lá cây</item>
+        <item>96: Bức màn màu xanh lam</item>
+        <item>97: Bức màn màu vàng</item>
+        <item>98: Rèm màu lục lam</item>
+        <item>99: Bức màn màu tím</item>
+        <item>100: Rèm màu trắng</item>
+        <item>101: Ngựa màu đỏ</item>
+        <item>102: Ngựa màu xanh lá cây</item>
+        <item>103: Ngựa màu xanh lam</item>
+        <item>104: Ngựa vàng</item>
+        <item>105: Ngựa màu lục lam</item>
+        <item>106: Đua ngựa màu tím</item>
+        <item>107: Ngựa trắng</item>
+        <item>108: Chạy về phía màu đỏ</item>
+        <item>109: Chạy ngược lại màu đỏ</item>
+        <item>110: Chạy về phía màu xanh lá cây</item>
+        <item>111: Chạy ngược màu xanh lá cây</item>
+        <item>112: Chạy về phía màu xanh lam</item>
+        <item>113: Chạy ngược màu xanh lam</item>
+        <item>114: Chạy về phía màu vàng</item>
+        <item>115: Chạy ngược màu vàng</item>
+        <item>116: Chạy về phía màu lục lam</item>
+        <item>117: Chạy màu lục lam ngược</item>
+        <item>118: Chạy về phía màu tím</item>
+        <item>119: Chạy ngược màu tím</item>
+        <item>120: Chạy về phía màu trắng</item>
+        <item>121: Chạy ngược màu trắng</item>
+        <item>122: Chạy về phía trước với bảy màu sắc</item>
+        <item>123: Chạy bảy màu đảo ngược</item>
+        <item>124: Chạy về phía đỏ, xanh lá cây và xanh lam</item>
+        <item>125: Chạy ngược màu đỏ, xanh lục và xanh lam</item>
+        <item>126: Chạy về phía màu vàng, xanh lam và tím</item>
+        <item>127: Chạy ngược màu vàng và xanh lam</item>
+        <item>128: Chạy về phía xanh lam, vàng và tím</item>
+        <item>129: Chạy về phía màu xanh lá cây, xanh lam và vàng</item>
+        <item>130: Chạy ngược màu xanh lam-vàng-xanh lá cây</item>
+        <item>131: Chạy về phía chấm đỏ trên nền trắng</item>
+        <item>132: Chấm đỏ chạy ngược trên nền trắng màu đỏ đang chạy</item>
+        <item>133: Chạy về phía chấm màu xanh lá cây trên nền màu đỏ</item>
+        <item>134: Chấm màu đỏ và xanh lục đảo ngược đang chạy</item>
+        <item>135: Chạy về phía chấm màu xanh lam trên nền xanh lá cây</item>
+        <item>136: Nền màu xanh lá cây đảo ngược chấm màu xanh lam đang chạy</item>
+        <item>137: Chạy về phía chấm màu vàng trên nền màu xanh lam</item>
+        <item>138: Chấm màu xanh lam và màu vàng đảo ngược đang chạy</item>
+        <item>139: Chạy về phía chấm màu xanh lam trên nền màu vàng</item>
+        <item>140: Chấm màu vàng và xanh lam đảo ngược đang chạy</item>
+        <item>141: Chạy về phía điểm dưới cùng màu lục lam</item>
+        <item>142: Chạy dấu chấm màu lục lam-tím đảo ngược</item>
+        <item>143: Chạy về phía chấm trắng trên nền tím</item>
+        <item>144: Chấm màu trắng nền tím đảo ngược đang chạy</item>
+        <item>145: Chạy về phía một chấm trắng trên nền đỏ</item>
+        <item>146: Nền đỏ đảo ngược và chấm trắng đang chạy</item>
+        <item>147: Chạy với bảy màu trên nền đỏ</item>
+        <item>148: Chạy bảy màu nền đỏ đảo ngược</item>
+        <item>149: Chạy với bảy màu trên nền xanh lá cây</item>
+        <item>150: chạy bảy màu nền xanh lục ngược</item>
+        <item>151: Chạy với bảy màu trên nền xanh lam</item>
+        <item>152: Bảy màu chạy trên nền màu xanh lam ngược</item>
+        <item>153: Chạy về phía trước với bảy màu trên nền vàng</item>
+        <item>154: Chạy bảy màu trên nền màu vàng ngược</item>
+        <item>155: Chạy với bảy màu trên nền xanh lam</item>
+        <item>156: Chạy bảy màu trên nền màu xanh lam ngược</item>
+        <item>157: Chạy với bảy màu trên nền tím</item>
+        <item>158: Chạy bảy màu trên nền màu tím ngược</item>
+        <item>159: Chạy với bảy màu trên nền trắng</item>
+        <item>160: Bảy màu chạy trên nền trắng đảo ngược</item>
+        <item>161: Luồng màu trắng, đỏ và trắng tích cực</item>
+        <item>162: Dòng chảy ngược trắng, đỏ và trắng</item>
+        <item>163: Dòng chảy tích cực màu trắng, xanh lá cây và trắng</item>
+        <item>164: Dòng chảy ngược màu trắng, xanh lá cây và trắng</item>
+        <item>165: Dòng chảy tích cực màu trắng, xanh lam và trắng</item>
+        <item>166: Dòng chảy ngược màu trắng, xanh lam và trắng</item>
+        <item>167: Chảy về phía trắng, vàng và trắng</item>
+        <item>168: Dòng chảy ngược trắng-vàng-trắng</item>
+        <item>169: Chảy màu trắng, xanh lam và trắng</item>
+        <item>170: Dòng chảy ngược trắng-xanh-trắng</item>
+        <item>171: Chảy sang màu trắng, tím và trắng</item>
+        <item>172: Dòng chảy ngược trắng-tím-trắng</item>
+        <item>173: Luồng màu đỏ, trắng và đỏ tích cực</item>
+        <item>174: Luồng đỏ-trắng-đỏ ngược lại</item>
+        <item>175: Luồng màu xanh lá cây, trắng và xanh lá cây tích cực</item>
+        <item>176: Luồng màu xanh lá cây-trắng-xanh lá cây đảo ngược</item>
+        <item>177: Chảy về phía xanh lam, trắng và xanh lam</item>
+        <item>178: Luồng màu xanh lam-trắng-xanh dương ngược lại</item>
+        <item>179: Luồng tích cực màu vàng, trắng và vàng</item>
+        <item>180: Luồng màu vàng-trắng-vàng ngược lại</item>
+        <item>181: Chảy về phía xanh lam, trắng và xanh lá cây</item>
+        <item>182: Luồng màu xanh lam-trắng-xanh lục ngược lại</item>
+        <item>183: Luồng tích cực của màu tím, trắng và tím</item>
+        <item>184: Dòng chảy ngược màu tím-trắng-tím</item>
+        <item>185: Chạy về phía chấm màu xanh lá cây trên nền màu xanh lam</item>
+        <item>186: Đua xe chấm màu xanh lam và xanh lục ngược</item>
+        <item>187: Cưỡi với các chấm màu xanh lá cây trên nền màu đỏ</item>
+        <item>188: Đua xe chấm màu đỏ và xanh lá cây đảo ngược</item>
+        <item>189: Chạy về phía chấm đỏ trên nền xanh lam</item>
+        <item>190: Đua xe chấm màu xanh và đỏ đảo ngược</item>
+        <item>191: Ngựa chạy với các chấm màu xanh lam trên nền màu vàng</item>
+        <item>192: Cuộc đua chấm màu vàng và xanh lam ngược lại</item>
+        <item>193: Đua ngựa với các chấm vàng trên nền tím</item>
+        <item>194: Đua ngựa chấm màu tím và vàng ngược</item>
+        <item>195: Chạy với các chấm trắng trên nền vàng</item>
+        <item>196: Nền màu vàng đảo ngược và cuộc đua ngựa chấm trắng</item>
+        <item>197: Đua ngựa với các chấm vàng trên nền trắng</item>
+        <item>198: Nền trắng đảo ngược với các chấm màu vàng</item>
+        <item>199: Đánh răng bảy màu tích cực</item>
+        <item>200: Bàn chải bảy màu đảo ngược</item>
+        <item>201: Màu bàn chải đỏ, xanh lá cây và xanh dương tích cực</item>
+        <item>202: Màu bàn chải đảo ngược màu đỏ, xanh lá cây và xanh lam</item>
+        <item>203: Màu bàn chải tích cực màu vàng, xanh lam và tím</item>
+        <item>204: Màu bàn chải màu vàng lục lam-tím đảo ngược</item>
+        <item>205: Màn hình salad bàn chải bảy màu</item>
+        <item>206: Màu bàn chải bảy màu đóng lại</item>
+        <item>207: Rèm màu bàn chải đỏ, xanh lá cây và xanh lam</item>
+        <item>208: Màu bàn chải đỏ, xanh lá cây và xanh lam đóng lại</item>
+        <item>209: Tấm phủ salad bàn chải màu xanh lam tím vàng</item>
+        <item>210: Có các màu vàng, xanh lam và tím</item>
+    </array>
+    <array name="week">
+        <item>Ngày</item>
+        <item>một</item>
+        <item>hai</item>
+        <item>Ba</item>
+        <item>Bốn</item>
+        <item>Năm</item>
+        <item>Sáu</item>
+    </array>
+    <array name="weekday">
+        <item>Thứ Hai</item>
+        <item>Thứ Ba</item>
+        <item>Thứ Tư</item>
+        <item>Thứ Năm</item>
+        <item>Thứ Sáu</item>
+        <item>Thứ Bảy</item>
+        <item>Chủ nhật</item>
+    </array>
+</resources>

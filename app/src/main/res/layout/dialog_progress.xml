@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:gravity="center" android:id="@+id/progressBarMore" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/back_left_margin" android:indeterminate="@anim/pbar_animation_dawable"/>
+        <TextView android:textSize="@dimen/title_text_size" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/tvMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/back_left_margin"/>
+    </LinearLayout>
+</RelativeLayout>

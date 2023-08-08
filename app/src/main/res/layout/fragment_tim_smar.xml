@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ll11" android:layout_width="match_parent" android:layout_height="@dimen/dp_40">
+        <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="0dp" android:layout_height="40dp" android:text="ID" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="0dp" android:layout_height="40dp" android:text="@string/time" android:layout_weight="1"/>
+        <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <View android:tag="viewColor1" android:background="@drawable/color_block_bright_red" android:layout_width="20dp" android:layout_height="20dp" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <View android:tag="viewColor2" android:background="@drawable/color_block_bright_green" android:layout_width="20dp" android:layout_height="20dp" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <View android:tag="viewColor3" android:background="@drawable/color_block_bright_lightblue" android:layout_width="20dp" android:layout_height="20dp" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/rl_4" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <View android:tag="viewColor4" android:background="@drawable/color_block_bright_white" android:layout_width="20dp" android:layout_height="20dp" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/rl_5" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <View android:tag="viewColor5" android:background="@drawable/color_block_bright_crystal" android:layout_width="20dp" android:layout_height="20dp" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/rl_6" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <View android:tag="viewColor6" android:background="@drawable/color_block_bright_pink" android:layout_width="20dp" android:layout_height="20dp" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <ListView android:id="@+id/list_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/linearLayoutTimerLine" android:layout_below="@+id/ll11"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/linearLayoutTimerLine" android:tag="linearLayoutTimerLine" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_20" android:layout_alignParentBottom="true">
+        <RelativeLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="40dp" android:layout_marginLeft="@dimen/margin_content" android:layout_marginRight="@dimen/margin_content">
+            <com.common.view.SegmentedRadioGroup android:gravity="top|center_horizontal" android:orientation="horizontal" android:id="@+id/changeButton333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_mid" android:checkedButton="@+id/button_one">
+                <RadioButton android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="center" android:id="@+id/changeButton111" android:layout_height="match_parent" android:button="@null" android:minWidth="40dp" android:text="@string/gradient"/>
+                <RadioButton android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="center" android:id="@+id/changeButton222" android:layout_height="match_parent" android:button="@null" android:minWidth="40dp" android:text="@string/jump"/>
+            </com.common.view.SegmentedRadioGroup>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:layout_width="60dp" android:layout_height="30dp" android:layout_marginLeft="@dimen/margin_content" android:layout_marginRight="@dimen/margin_content">
+            <TextView android:gravity="center" android:id="@+id/timesure" android:background="@drawable/color_block_bright_red" android:layout_width="60dp" android:layout_height="30dp" android:text="@string/run"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

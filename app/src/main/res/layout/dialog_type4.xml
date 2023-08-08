@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="bottom" android:layout_gravity="bottom|center_horizontal" android:background="@color/white" android:layout_width="match_parent" android:layout_height="490dp" android:layout_alignParentBottom="true">
+    <RelativeLayout android:background="@drawable/shape_white1" android:layout_width="match_parent" android:layout_height="490dp" android:layout_alignParentBottom="true">
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/rl_title" android:layout_width="match_parent" android:layout_height="50dp">
+            <LinearLayout android:gravity="center" android:id="@+id/ll_cancel" android:layout_width="50dp" android:layout_height="match_parent">
+                <ImageView android:layout_width="16dp" android:layout_height="9dp" android:src="@drawable/back_down" android:layout_centerVertical="true"/>
+            </LinearLayout>
+            <TextView android:textSize="20sp" android:textColor="#ff333333" android:id="@+id/video_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/allcomment" android:layout_centerInParent="true"/>
+            <TextView android:textSize="16sp" android:id="@+id/contentlenth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_20" android:text="@string/comment" android:layout_alignParentRight="true" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@+id/srl_Comment789" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/rl_bottom" android:layout_below="@+id/rl_title">
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerViewCommit" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <RelativeLayout android:id="@+id/rl_bottom" android:background="#ffffff" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <EditText android:textSize="14sp" android:textColor="#ff151515" android:gravity="center_vertical" android:id="@+id/et_context" android:background="@drawable/shape_gray" android:paddingLeft="10dp" android:paddingRight="20dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="35dp" android:layout_margin="15dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:hint="@string/comment" android:layout_toLeftOf="@+id/tv_send"/>
+            <ImageView android:visibility="gone" android:clickable="true" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginTop="23dp" android:layout_marginRight="25dp" android:src="@drawable/face" android:layout_toLeftOf="@+id/tv_send"/>
+            <TextView android:textSize="14dp" android:textColor="@color/white" android:gravity="center" android:id="@+id/tv_send" android:background="@color/blue" android:clickable="true" android:layout_width="50dp" android:layout_height="35dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="5dp" android:text="@string/comment_publish" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

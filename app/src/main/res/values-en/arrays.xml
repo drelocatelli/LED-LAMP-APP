@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="app_service">
+        <item>RGB</item>
+        <item>DMX</item>
+        <item>CAR</item>
+        <item>Aquarium</item>
+        <item>Stage</item>
+        <item>CT</item>
+        <item>WHI DIM</item>
+        <item>Broadcast</item>
+        <item>WIFI</item>
+    </array>
+    <array name="ble_mode">
+        <item>Tricolor jump,135</item>
+        <item>Seven-color jump,136</item>
+        <item>Tricolor gradient,137</item>
+        <item>even-color gradient,138</item>
+        <item>Red gradient,139</item>
+        <item>Green gradient,140</item>
+        <item>Blue gradient,141</item>
+        <item>Yellow gradient,142</item>
+        <item>Cyan gradient,143</item>
+        <item>Purple gradient,144</item>
+        <item>White gradient,145</item>
+        <item>Red-Green gradient,146</item>
+        <item>Red-Blue gradient,147</item>
+        <item>Green-Blue gradient,148</item>
+        <item>Seven-color flash,149</item>
+        <item>Red flash,150</item>
+        <item>Green flash,151</item>
+        <item>Blue flash,152</item>
+        <item>Yellow flash,153</item>
+        <item>Cyan flash,154</item>
+        <item>Purple flash,155</item>
+        <item>White flash,156</item>
+        <item>Seven-color breathe,157</item>
+    </array>
+    <array name="channel_set_model">
+        <item>NC,255</item>
+        <item>1,1</item>
+        <item>2,2</item>
+        <item>3,3</item>
+        <item>4,4</item>
+        <item>5,5</item>
+        <item>6,6</item>
+        <item>7,7</item>
+        <item>8,8</item>
+        <item>9,9</item>
+        <item>10,10</item>
+        <item>11,11</item>
+        <item>12,12</item>
+        <item>13,13</item>
+        <item>14,14</item>
+        <item>15,15</item>
+        <item>16,16</item>
+        <item>17,17</item>
+        <item>18,18</item>
+        <item>19,19</item>
+        <item>20,20</item>
+        <item>21,21</item>
+        <item>22,22</item>
+        <item>23,23</item>
+        <item>24,24</item>
+        <item>25,25</item>
+        <item>26,26</item>
+        <item>27,27</item>
+        <item>28,28</item>
+        <item>29,29</item>
+        <item>30,30</item>
+    </array>
+    <array name="chip_model">
+        <item>UCS512A,1</item>
+        <item>UCS512C,2</item>
+    </array>
+    <array name="ct_mode">
+        <item>Warm 0% Cool 100%,128</item>
+        <item>Warm 10% Cool 90%,129</item>
+        <item>Warm 20% Cool 80%,130</item>
+        <item>Warm 30% Cool 70%,131</item>
+        <item>Warm 40% Cool 60%,132</item>
+        <item>Warm 50% Cool 50%,133</item>
+        <item>Warm 60% Cool 40%,134</item>
+        <item>Warm 70% Cool 30%,135</item>
+        <item>Warm 80% Cool 20%,136</item>
+        <item>Warm 90% Cool 10%,137</item>
+        <item>Warm 100% Cool 0%,138</item>
+    </array>
+    <array name="custom_model">
+        <item>1:Gradual Change,0</item>
+        <item>2:Trailing,1</item>
+        <item>3:Flowing water,2</item>
+        <item>4:Chasing,3</item>
+        <item>5:Accumulation,4</item>
+        <item>6:White x white flow,6</item>
+        <item>7:Single Point Fast Running,7</item>
+        <item>8:Multipoint Fast Running,8</item>
+        <item>9:Brushing And Closing,9</item>
+        <item>10:Single Lamp Gradient,10</item>
+        <item>11:Single Lamp Jump,11</item>
+        <item>12:Single Lamp Strobe,12</item>
+    </array>
+    <array name="dm_mode">
+        <item>0%,128</item>
+        <item>10%,129</item>
+        <item>20%,130</item>
+        <item>30%,131</item>
+        <item>40%,132</item>
+        <item>50%,133</item>
+        <item>60%,134</item>
+        <item>70%,135</item>
+        <item>80%,136</item>
+        <item>90%,137</item>
+        <item>100%,138</item>
+    </array>
+    <array name="dmx02_rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+    </array>
+    <array name="dmx_model">
+        <item>AUTO,255</item>
+        <item>1:Forward Dreaming,1</item>
+        <item>2:Backward Dreaming,2</item>
+        <item>3:Forward 7 Colors,3</item>
+        <item>4:Backward 7 Colors,4</item>
+        <item>5:Forward RD/GN/BU,5</item>
+        <item>6:Backward RD/GN/BU,6</item>
+        <item>7:Forward YE/CN/VT,7</item>
+        <item>8:Backward YE/CN/VT,8</item>
+        <item>9:Forward 6 Colors RD,9</item>
+        <item>10:Backward 6 Colors RD,10</item>
+        <item>11:Forward 6 Colors GN,11</item>
+        <item>12:Backward 6 Colors GN,12</item>
+        <item>13:Forward 6 Colors BU,13</item>
+        <item>14:Backward 6 Colors BU,14</item>
+        <item>15:Forward 6 Colors CN,15</item>
+        <item>16:Backward 6 Colors CN,16</item>
+        <item>17:Forward 6 Colors YE,17</item>
+        <item>18:Backward 6 Colors YE,18</item>
+        <item>19:Forward 6 Colors VT,19</item>
+        <item>20:Backward 6 Colors VT,20</item>
+        <item>21:Forward 6 Colors WH,21</item>
+        <item>22:Backward 6 Colors WH,22</item>
+        <item>23:Forward Trailing 7 Colors,23</item>
+        <item>24:Backward Trailing 7 Colors,24</item>
+        <item>25:Forward Trailing RD,25</item>
+        <item>26:Backward Trailing RD,26</item>
+        <item>27:Forward Trailing GN,27</item>
+        <item>28:Backward Trailing GN,28</item>
+        <item>29:Forward Trailing BU,29</item>
+        <item>30:Backward Trailing BU,30</item>
+        <item>31:Forward Trailing YE,31</item>
+        <item>32:Backward Trailing YE,32</item>
+        <item>33:Forward Trailing CN,33</item>
+        <item>34:Backward Trailing CN,34</item>
+        <item>35:Forward Trailing VT,35</item>
+        <item>36:Backward Trailing VT,36</item>
+        <item>37:Forward Trailing WH,37</item>
+        <item>38:Backward Trailing WH,38</item>
+        <item>39:Forward Streaming 7 Colors,39</item>
+        <item>40:Backward Streaming 7 Colors,40</item>
+        <item>41:Forward Streaming RD/GN/BU,41</item>
+        <item>42:Backward Streaming RD/GN/BU,42</item>
+        <item>43:Forward Streaming YE/CN/VT,43</item>
+        <item>44:Backward Streaming YE/CN/VT,44</item>
+        <item>45:Forward Streaming RD/GN,45</item>
+        <item>46:Backward Streaming RD/GN,46</item>
+        <item>47:Forward Streaming GN/BU,47</item>
+        <item>48:Backward Streaming GN/BU,48</item>
+        <item>49:Forward Streaming YE/BU,49</item>
+        <item>50:Backward Streaming YE/BU,50</item>
+        <item>51:Forward Streaming YE/CN,51</item>
+        <item>52:Backward Streaming YE/CN,52</item>
+        <item>53:Forward Streaming CN/VT,53</item>
+        <item>54:Backward Streaming CN/VT,54</item>
+        <item>55:Forward Streaming BK/WH,55</item>
+        <item>56:Backward Streaming BK/WH,56</item>
+        <item>57:Open Curtain 7 Colors,57</item>
+        <item>58:Close Curtain 7 Colors,58</item>
+        <item>59:Open Curtain RD/GN/BU,59</item>
+        <item>60:Close Curtain RD/GN/BU,60</item>
+        <item>61:Open Curtain YE/CN/VT,61</item>
+        <item>62:Close Curtain YE/CN/VT,62</item>
+        <item>63:Forward Follow Spot 7 Colors,63</item>
+        <item>64:Backward Follow Spot 7 Colors,64</item>
+        <item>65:Forward Follow Spot RD/GN/BU,65</item>
+        <item>66:Backward Follow Spot RD/GN/BU,66</item>
+        <item>67:Forward Follow Spot YE/CN/VT,67</item>
+        <item>68:Backward Follow Spot YE/CN/VT,68</item>
+        <item>69:Forward Flutter 7 Colors,69</item>
+        <item>70:Backward Flutter 7 Colors,70</item>
+        <item>71:Forward Flutter RD/GN/BU,71</item>
+        <item>72:Backward Flutter RD/GN/BU,72</item>
+        <item>73:Forward Flutter YE/CN/VT,73</item>
+        <item>74:Backward Flutter YE/CN/VT,74</item>
+        <item>75:Hop 7 Colors,75</item>
+        <item>76:Hop RD/GN/BU,76</item>
+        <item>77:Hop RD/GN/BU,77</item>
+        <item>78:Strobe 7 Colors,78</item>
+        <item>79:Strobe RD/GN/BU,79</item>
+        <item>80:Strobe YE/CN/VT,80</item>
+        <item>81:Gradual 7 Colors,81</item>
+        <item>82:Gradual RD/E,82</item>
+        <item>83:Gradual RD/VT,83</item>
+        <item>84:Gradual GN/CN,84</item>
+        <item>85:Gradual GN/YE,85</item>
+        <item>86:Gradual BU/VT,86</item>
+        <item>87:Close Curtain RD,87</item>
+        <item>88:Close Curtain GN,88</item>
+        <item>89:Close Curtain BU,89</item>
+        <item>90:Close Curtain YE ,90</item>
+        <item>91:Close Curtain CN,91</item>
+        <item>92:Close Curtain VT,92</item>
+        <item>93:Close Curtain WH,93</item>
+        <item>94:Open Curtain RD,94</item>
+        <item>95:Open Curtain GN,95</item>
+        <item>96:Open Curtain BU,96</item>
+        <item>97:Open Curtain YE,97</item>
+        <item>98:Open Curtain CN,98</item>
+        <item>99:Open Curtain VT,99</item>
+        <item>100:Open Curtain WH,100</item>
+        <item>101:Horse Race RD,101</item>
+        <item>102:Horse Race GN,102</item>
+        <item>103:Horse Race BU,103</item>
+        <item>104:Horse Race YE,104</item>
+        <item>105:Horse Race CN,105</item>
+        <item>106:Horse Race VT,106</item>
+        <item>107:Horse Race WH,107</item>
+        <item>108:Forward Run RD,108</item>
+        <item>109:Backward Run RD,109</item>
+        <item>110:Forward Run GN,110</item>
+        <item>111:Backward Run GN,111</item>
+        <item>112:Forward Run BU,112</item>
+        <item>113:Backward Run BU,113</item>
+        <item>114:Forward Run YE,114</item>
+        <item>115:Backward Run YE,115</item>
+        <item>116:Forward Run CN,116</item>
+        <item>117:Backward Run CN,117</item>
+        <item>118:Forward Run VT,118</item>
+        <item>119:Backward Run VT,119</item>
+        <item>120:Forward Run WH,120</item>
+        <item>121:Backward Run WH,121</item>
+        <item>122:Forward Run 7 Colors,122</item>
+        <item>123:Backward Run 7 Colors,123</item>
+        <item>124:Forward Run RD/GN/BU,124</item>
+        <item>125:Backward Run RD/GN/BU,125</item>
+        <item>126:Forward Run YE/CN/VT,126</item>
+        <item>127:Backward Run YE/CN/VT,127</item>
+        <item>128:Forward Run BU/YE/VT,128</item>
+        <item>129:Forward Run GN/BU/YE,129</item>
+        <item>130:Backward Run BU/YE/VT,130</item>
+        <item>131:Forward Run RD/ON/WH,131</item>
+        <item>132:Backward Run RD/ON/WH,132</item>
+        <item>133:Forward Run GN ON RD,133</item>
+        <item>134:Backward Run GN ON RD,134</item>
+        <item>135:Forward Run BU ON GN,135</item>
+        <item>136:Backward Run BU ON GN,136</item>
+        <item>137:Forward Run YE ON BU,137</item>
+        <item>138:Backward Run YE ON BU,138</item>
+        <item>139:Forward Run CN ON YE,139</item>
+        <item>140:Backward Run CN ON YE,140</item>
+        <item>141:Forward Run VT ON CN,141</item>
+        <item>142:Backward Run VT ON CN,142</item>
+        <item>143:Forward Run WH ON VT,143</item>
+        <item>144:Backward Run WH ON VT,144</item>
+        <item>145:Forward Run WH ON RD,145</item>
+        <item>146:Backward Run WH ON RD,146</item>
+        <item>147:Forward Run 7 COLOR ON RD,147</item>
+        <item>148:Backward Run 7 COLOR ON RD,148</item>
+        <item>149:Forward Run 7 COLOR ON GN,149</item>
+        <item>150:Backward Run 7 COLOR ON GN,150</item>
+        <item>151:Forward Run 7 COLOR ON BU,151</item>
+        <item>152:Backward Run 7 COLOR ON BU,152</item>
+        <item>153:Forward Run 7 COLOR ON YE,153</item>
+        <item>154:Backward Run 7 COLOR ON YE,154</item>
+        <item>155:Forward Run 7 COLOR ON CN,155</item>
+        <item>156:Backward Run 7 COLOR ON CN,156</item>
+        <item>157:Forward Run 7 COLOR ON VT,157</item>
+        <item>158:Backward Run 7 COLOR ON VT,158</item>
+        <item>159:Forward Run 7 COLOR ON WH,159</item>
+        <item>160:Backward Run 7 COLOR ON WH,160</item>
+        <item>161:Forward Flow WH RD WH,161</item>
+        <item>162:Backward Flow WH RD WH,162</item>
+        <item>163:Forward Flow WH GN WH,163</item>
+        <item>164:Backward Flow WH GN WH,164</item>
+        <item>165:Forward Flow WH BU WH,165</item>
+        <item>166:Backward Flow WH BU WH,166</item>
+        <item>167:Forward Flow WH YE WH,167</item>
+        <item>168:Backward Flow WH YE WH,168</item>
+        <item>169:Forward Flow WH CN WH,169</item>
+        <item>170:Backward Flow WH CN WH,170</item>
+        <item>171:Forward Flow WH VT WH,171</item>
+        <item>172:Backward Flow WH VT WH,172</item>
+        <item>173:Forward Flow RD WH RD,173</item>
+        <item>174:Backward Flow RD WH RD,174</item>
+        <item>175:Forward Flow GN WH GN,175</item>
+        <item>176:Backward Flow GN WH GN,176</item>
+        <item>177:Forward Flow BU WH BU,177</item>
+        <item>178:Backward Flow BU WH BU,178</item>
+        <item>179:Forward Flow YE WH YE,179</item>
+        <item>180:Backward Flow YE WH YE,180</item>
+        <item>181:Forward Flow CN WH CN,181</item>
+        <item>182:Backward Flow CN WH CN,182</item>
+        <item>183:Forward Flow VT WH VT,183</item>
+        <item>184:Backward Flow VT WH VT,184</item>
+        <item>185:Forward Run GN ON BU,185</item>
+        <item>186:Backward Run GN ON BU,186</item>
+        <item>187:Forward Run GN ON RD,187</item>
+        <item>188:Backward Run GN ON RD,188</item>
+        <item>189:Forward Run RD ON BU,189</item>
+        <item>190Backward Run RD ON BU,190</item>
+        <item>191Forward Run CN ON YE,191</item>
+        <item>192:Backward Run CN ON YE,192</item>
+        <item>193:Forward Run YE ON VT,193</item>
+        <item>194:Backward Run YE ON VT,194</item>
+        <item>195:Forward Run WH ON YE,195</item>
+        <item>196:Backward Run WH ON YE,196</item>
+        <item>197:Forward Run YE ON WH,197</item>
+        <item>198:Backward Run YE ON WH,198</item>
+        <item>199:Forward Swab 7 COLORS,199</item>
+        <item>200:Backward Swab 7 COLORS,200</item>
+        <item>201:Forward Swab RD GN BU,201</item>
+        <item>202:Backward Swab RD GN BU,202</item>
+        <item>203:Forward Swab YE CN VT,203</item>
+        <item>204:Backward Swab YE CN VT,204</item>
+        <item>205:Open Curtain Swab 7 COLORS,205</item>
+        <item>206:Close Curtain Swab 7 COLORS,206</item>
+        <item>207Open Curtain Swab R G B ,207</item>
+        <item>208:Close Curtain Swab R G B ,208</item>
+        <item>209:Open Curtain Swab Y C P,209</item>
+        <item>210:Close Curtain Swab Y C P,210</item>
+    </array>
+    <array name="forum_tab_titles">
+        <item>Other</item>
+        <item>Conn</item>
+        <item>Advisory</item>
+        <item>Suggest</item>
+        <item>Hot</item>
+    </array>
+    <array name="light_banner">
+        <item>LPD6803,1</item>
+        <item>TM1803,2</item>
+        <item>UCS1903,3</item>
+        <item>WS2811,4</item>
+        <item>TM1812,5</item>
+        <item>TM1809,6</item>
+        <item>WS2801,7</item>
+        <item>TLS3001,8</item>
+        <item>TLS3008,9</item>
+        <item>P9813,10</item>
+        <item>UCS8806,11</item>
+        <item>TM1829,12</item>
+        <item>TM1909,13</item>
+    </array>
+    <array name="light_mode">
+        <item>Turn off the light</item>
+        <item>Static red</item>
+        <item>Static blue</item>
+        <item>Static green</item>
+        <item>Static cyan</item>
+        <item>Static yellow</item>
+        <item>Static purple</item>
+        <item>Static white</item>
+        <item>Tricolor jump</item>
+        <item>Seven-color jump</item>
+        <item>Tricolor gradient</item>
+        <item>Seven-color gradient</item>
+        <item>Red gradient</item>
+        <item>Green gradient</item>
+        <item>Blue gradient</item>
+        <item>Yellow gradient</item>
+        <item>Cyan gradient</item>
+        <item>Purple gradient</item>
+        <item>White gradient</item>
+        <item>Red-Green gradient</item>
+        <item>Red-Blue gradient</item>
+        <item>Green-Blue gradient</item>
+        <item>Seven-color flash</item>
+        <item>Red flash</item>
+        <item>Green flash</item>
+        <item>Blue flash</item>
+        <item>Yellow flash</item>
+        <item>Cyan flash</item>
+        <item>Purple flash</item>
+        <item>White flash</item>
+        <item>MODE30</item>
+        <item>MODE31</item>
+        <item>MODE32</item>
+        <item>MODE33</item>
+        <item>MODE34</item>
+        <item>MODE35</item>
+        <item>MODE36</item>
+        <item>MODE37</item>
+        <item>MODE38</item>
+        <item>MODE39</item>
+        <item>MODE40</item>
+        <item>MODE41</item>
+        <item>MODE42</item>
+        <item>MODE43</item>
+        <item>MODE44</item>
+        <item>MODE45</item>
+        <item>MODE46</item>
+        <item>MODE47</item>
+        <item>MODE48</item>
+        <item>MODE49</item>
+        <item>MODE50</item>
+        <item>MODE51</item>
+        <item>MODE52</item>
+        <item>MODE53</item>
+        <item>MODE54</item>
+        <item>MODE55</item>
+        <item>MODE56</item>
+        <item>MODE57</item>
+        <item>MODE58</item>
+        <item>MODE59</item>
+        <item>MODE60</item>
+        <item>MODE61</item>
+        <item>MODE62</item>
+        <item>MODE63</item>
+        <item>MODE64</item>
+        <item>MODE65</item>
+        <item>MODE66</item>
+        <item>MODE67</item>
+        <item>MODE68</item>
+        <item>MODE69</item>
+        <item>MODE70</item>
+        <item>MODE71</item>
+        <item>MODE72</item>
+        <item>MODE73</item>
+        <item>MODE74</item>
+        <item>MODE75</item>
+        <item>MODE76</item>
+        <item>MODE77</item>
+        <item>MODE78</item>
+        <item>MODE79</item>
+        <item>MODE80</item>
+        <item>MODE81</item>
+        <item>MODE82</item>
+        <item>MODE83</item>
+        <item>MODE84</item>
+        <item>MODE85</item>
+        <item>MODE86</item>
+        <item>MODE87</item>
+        <item>MODE88</item>
+        <item>MODE89</item>
+        <item>MODE90</item>
+        <item>MODE91</item>
+        <item>MODE92</item>
+        <item>MODE93</item>
+        <item>MODE94</item>
+        <item>MODE95</item>
+        <item>MODE96</item>
+        <item>MODE97</item>
+        <item>MODE98</item>
+        <item>MODE99</item>
+        <item>MODE100</item>
+        <item>MODE101</item>
+        <item>MODE102</item>
+        <item>MODE103</item>
+        <item>MODE104</item>
+        <item>MODE105</item>
+        <item>MODE106</item>
+        <item>MODE107</item>
+        <item>MODE108</item>
+        <item>MODE109</item>
+        <item>MODE110</item>
+        <item>MODE111</item>
+        <item>MODE112</item>
+        <item>MODE113</item>
+        <item>MODE114</item>
+        <item>MODE115</item>
+        <item>MODE116</item>
+        <item>MODE117</item>
+        <item>MODE118</item>
+        <item>MODE119</item>
+        <item>MODE120</item>
+        <item>MODE121</item>
+        <item>MODE122</item>
+        <item>MODE123</item>
+        <item>MODE124</item>
+        <item>MODE125</item>
+        <item>MODE126</item>
+        <item>MODE127</item>
+        <item>MODE128</item>
+        <item>MODE129</item>
+        <item>MODE130</item>
+        <item>MODE131</item>
+        <item>MODE132</item>
+        <item>MODE133</item>
+        <item>MODE134</item>
+        <item>MODE135</item>
+        <item>MODE136</item>
+        <item>MODE137</item>
+        <item>MODE138</item>
+        <item>MODE139</item>
+        <item>MODE140</item>
+        <item>MODE141</item>
+        <item>MODE142</item>
+        <item>MODE143</item>
+        <item>MODE144</item>
+        <item>MODE145</item>
+        <item>MODE146</item>
+        <item>MODE147</item>
+        <item>MODE148</item>
+        <item>MODE149</item>
+        <item>MODE150</item>
+        <item>MODE151</item>
+        <item>MODE152</item>
+        <item>MODE153</item>
+        <item>MODE154</item>
+        <item>MODE155</item>
+        <item>MODE156</item>
+        <item>MODE157</item>
+        <item>MODE158</item>
+        <item>MODE159</item>
+        <item>MODE160</item>
+        <item>MODE161</item>
+        <item>MODE162</item>
+        <item>MODE163</item>
+        <item>MODE164</item>
+        <item>MODE165</item>
+        <item>MODE166</item>
+        <item>MODE167</item>
+        <item>MODE168</item>
+        <item>MODE169</item>
+        <item>MODE170</item>
+        <item>MODE171</item>
+        <item>MODE172</item>
+        <item>MODE173</item>
+        <item>MODE174</item>
+        <item>MODE175</item>
+        <item>MODE176</item>
+        <item>MODE177</item>
+        <item>MODE178</item>
+        <item>MODE179</item>
+        <item>MODE180</item>
+        <item>MODE181</item>
+        <item>MODE182</item>
+        <item>MODE183</item>
+        <item>MODE184</item>
+        <item>MODE185</item>
+        <item>MODE186</item>
+        <item>MODE187</item>
+        <item>MODE188</item>
+        <item>MODE189</item>
+        <item>MODE190</item>
+        <item>MODE191</item>
+        <item>MODE192</item>
+        <item>MODE193</item>
+        <item>MODE194</item>
+        <item>MODE195</item>
+        <item>MODE196</item>
+        <item>MODE197</item>
+        <item>MODE198</item>
+        <item>MODE199</item>
+        <item>MODE200</item>
+        <item>MODE201</item>
+        <item>MODE202</item>
+        <item>MODE203</item>
+        <item>MODE204</item>
+        <item>MODE205</item>
+        <item>MODE206</item>
+        <item>MODE207</item>
+        <item>MODE208</item>
+        <item>MODE209</item>
+        <item>MODE210</item>
+        <item>MODE211</item>
+    </array>
+    <array name="modelble">
+        <item>Turn off the light</item>
+        <item>Turn on the light</item>
+        <item>Static red</item>
+        <item>Static blue</item>
+        <item>Static green</item>
+        <item>Static cyan</item>
+        <item>Static yellow</item>
+        <item>Static purple</item>
+        <item>Static white</item>
+        <item>Tricolor jump</item>
+        <item>Seven-color jump</item>
+        <item>Tricolor gradient</item>
+        <item>Seven-color gradient</item>
+        <item>Cold white</item>
+        <item>Warm White</item>
+        <item>Monochrome</item>
+    </array>
+    <array name="modelike">
+        <item>Turn off</item>
+        <item>Turn on</item>
+        <item>All bright</item>
+        <item>Half bright</item>
+        <item>Slightly bright</item>
+        <item>breathing</item>
+        <item>Strobe</item>
+        <item>Flashing</item>
+    </array>
+    <array name="modelsun">
+        <item>Turn off the lights</item>
+        <item>Turn on the light</item>
+        <item>Cool color</item>
+        <item>Warm color</item>
+        <item>Natural color</item>
+        <item>White warm jump change</item>
+        <item>White gradient</item>
+        <item>Warm color gradient</item>
+        <item>Natural color gradient</item>
+        <item>White warm gradient</item>
+        <item>White warm strobe</item>
+        <item>White strobe</item>
+        <item>Warm color strobe</item>
+        <item>Natural color strobe</item>
+    </array>
+    <array name="rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+        <item>RGBW,7</item>
+        <item>RBGW,8</item>
+        <item>GRBW,9</item>
+        <item>GBRW,10</item>
+        <item>BRGW,11</item>
+        <item>BGRW,12</item>
+    </array>
+    <array name="rgb_sort_ble">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+    </array>
+    <array name="select_mode">
+        <item>W,0</item>
+        <item>BW,1</item>
+        <item>RGB,2</item>
+        <item>RGBW,3</item>
+        <item>RGBWCP,4</item>
+    </array>
+    <array name="timer_model_dmx">
+        <item>Turn Off</item>
+        <item>Turn On</item>
+        <item>AUTO,255</item>
+        <item>1:Forward Dreaming</item>
+        <item>2:Backward Dreaming</item>
+        <item>3:Forward 7 Colors</item>
+        <item>4:Backward 7 Colors</item>
+        <item>5:Forward RED GREEN BLUE</item>
+        <item>6:Backward RED GREEN BLUE</item>
+        <item>7:Forward YELLOW CYAN PURPLE</item>
+        <item>8:Backward YELLOW CYAN PURPLE</item>
+        <item>9:Forward 6 Colors plus RED</item>
+        <item>10:Backward 6 Colors plus RED</item>
+        <item>11:Forward 6 Colors plus GREEN</item>
+        <item>12:Backward 6 Colors plus GREEN</item>
+        <item>13:Forward 6 Colors plus BLUE</item>
+        <item>14:Backward 6 Colors plus BLUE</item>
+        <item>15:Forward 6 Colors plus CYAN</item>
+        <item>16:Backward 6 Colors plus CYAN</item>
+        <item>17:Forward 6 Colors plus YELLOW</item>
+        <item>18:Backward 6 Colors plus YELLOW</item>
+        <item>19:Forward 6 Colors plus PURPLE</item>
+        <item>20:Backward 6 Colors plus PURPLE</item>
+        <item>21:Forward 6 Colors plus WHITE</item>
+        <item>22:Backward 6 Colors plus WHITE</item>
+        <item>23:Forward Trailing 7 Colors</item>
+        <item>24:Backward Trailing 7 Colors</item>
+        <item>25:Forward Trailing RED</item>
+        <item>26:Backward Trailing RED</item>
+        <item>27Forward Trailing GREEN</item>
+        <item>28:Backward Trailing GREEN</item>
+        <item>29:Forward Trailing BLUE</item>
+        <item>30:Backward Trailing BLUE</item>
+        <item>31:Forward Trailing YELLOW</item>
+        <item>32:Backward Trailing YELLOW</item>
+        <item>33:Forward Trailing CYAN</item>
+        <item>34:Backward Trailing CYAN</item>
+        <item>35:Forward Trailing PURPLE</item>
+        <item>36:Backward Trailing PURPLE</item>
+        <item>37:Forward Trailing WHITE</item>
+        <item>38:Backward Trailing WHITE</item>
+        <item>39:Forward Streaming 7 Colors</item>
+        <item>40:Backward Streaming 7 Colors</item>
+        <item>41:Forward Streaming RED GREEN BLUE</item>
+        <item>42:Backward Streaming RED GREEN BLUE</item>
+        <item>43:Forward Streaming YELLOW CYAN PURPLE</item>
+        <item>44:Backward Streaming YELLOW CYAN PURPLE</item>
+        <item>45:Forward Streaming RED GREEN</item>
+        <item>46:Backward Streaming RED GREEN</item>
+        <item>47:Forward Streaming GREEN BLUE</item>
+        <item>48:Backward Streaming GREEN BLUE</item>
+        <item>49:Forward Streaming YELLOW BLUE</item>
+        <item>50:Backward Streaming YELLOW BLUE</item>
+        <item>51:Forward Streaming YELLOW CYAN</item>
+        <item>52:Backward Streaming YELLOW CYAN</item>
+        <item>53:Forward Streaming CYAN PURPLE</item>
+        <item>54:Backward Streaming CYAN PURPLE</item>
+        <item>55:Forward Streaming BLACK WHITE</item>
+        <item>56:Backward Streaming BLACK WHITE</item>
+        <item>57:Open Curtain 7 Colors</item>
+        <item>58:Close Curtain 7 Colors</item>
+        <item>59:Open Curtain RED GREEN BLUE</item>
+        <item>60:Close Curtain RED GREEN BLUE</item>
+        <item>61:Open Curtain YELLOW CYAN PURPLE</item>
+        <item>62:Close Curtain YELLOW CYAN PURPLE</item>
+        <item>63:Forward Follow Spot 7 Colors</item>
+        <item>64:Backward Follow Spot 7 Colors</item>
+        <item>65:Forward Follow Spot RED GREEN BLUE</item>
+        <item>66:Backward Follow Spot RED GREEN BLUE</item>
+        <item>67:Forward Follow Spot YELLOW CYAN PURPLE</item>
+        <item>68:Backward Follow Spot YELLOW CYAN PURPLE</item>
+        <item>69:Forward Flutter 7 Colors</item>
+        <item>70:Backward Flutter 7 Colors</item>
+        <item>71:Forward Flutter RED GREEN BLUE</item>
+        <item>72:Backward Flutter RED GREEN BLUE</item>
+        <item>73:Forward Flutter YELLOW CYAN PURPLE</item>
+        <item>74:Backward Flutter YELLOW CYAN PURPLE</item>
+        <item>75:Hop 7 Colors</item>
+        <item>76:Hop RED GREEN BLUE</item>
+        <item>77:Hop RED GREEN BLUE</item>
+        <item>78:Strobe 7 Colors</item>
+        <item>79:Strobe RED GREEN BLUE</item>
+        <item>80:Strobe YELLOW CYAN PURPLE</item>
+        <item>81:Gradual 7 Colors</item>
+        <item>82:Gradual RED YELLOW</item>
+        <item>83:Gradual RED PURPLE</item>
+        <item>84:Gradual GREEN CYAN</item>
+        <item>85:Gradual GREEN YELLOW</item>
+        <item>86:Gradual BLUE PURPLE</item>
+        <item>87:Close Curtain RED</item>
+        <item>88:Close Curtain GREEN</item>
+        <item>89:Close Curtain BLUE</item>
+        <item>90:Close Curtain YELLOW</item>
+        <item>91:Close Curtain CYAN</item>
+        <item>92:Close Curtain PURPLE</item>
+        <item>93:Close Curtain WHITE</item>
+        <item>94:Open Curtain RED</item>
+        <item>95:Open Curtain GREEN</item>
+        <item>96:Open Curtain BLUE</item>
+        <item>97:Open Curtain YELLOW</item>
+        <item>98:Open Curtain CYAN</item>
+        <item>99:Open Curtain PURPLE</item>
+        <item>100:Open Curtain WHITE</item>
+        <item>101:Heap Up RED</item>
+        <item>102:Heap Up GREEN</item>
+        <item>103:Heap Up BLUE</item>
+        <item>104:Heap Up YELLOW</item>
+        <item>105:Heap Up CYAN</item>
+        <item>106:Heap Up PURPLE</item>
+        <item>107:Heap Up WHITE</item>
+        <item>108:Forward Run RED</item>
+        <item>109:Backward Run RED</item>
+        <item>110:Forward Run GREEN</item>
+        <item>111:Backward Run GREEN</item>
+        <item>112:Forward Run BLUE</item>
+        <item>113:Backward Run BLUE</item>
+        <item>114:Forward Run YELLOW</item>
+        <item>115:Backward Run YELLOW</item>
+        <item>116:Forward Run CYAN</item>
+        <item>117:Backward Run CYAN</item>
+        <item>118:Forward Run PURPLE</item>
+        <item>119:Backward Run PURPLE</item>
+        <item>120:Forward Run WHITE</item>
+        <item>121:Backward Run WHITE</item>
+        <item>122:Forward Run 7 Colors</item>
+        <item>123:Backward Run 7 Colors</item>
+        <item>124:Forward Run RED GREEN BLUE</item>
+        <item>125:Backward Run RED GREEN BLUE</item>
+        <item>126:Forward Run YELLOW CYAN PURPLE</item>
+        <item>127:Backward Run YELLOW CYAN PURPLE</item>
+        <item>128:Forward Run BLUE YELLOW PURPLE</item>
+        <item>129:Forward Run GREEN BLUE YELLOW</item>
+        <item>130:Backward Run BLUE YELLOW PURPLE</item>
+        <item>131:Forward Run RED ON WHITE</item>
+        <item>132:Backward Run RED ON WHITE</item>
+        <item>133:Forward Run GREEN ON RED</item>
+        <item>134:Backward Run GREEN ON RED</item>
+        <item>135:Forward Run BLUE ON GREEN</item>
+        <item>136:Backward Run BLUE ON GREEN</item>
+        <item>137:Forward Run YELLOW ON BLUE</item>
+        <item>138:Backward Run YELLOW ON BLUE</item>
+        <item>139:Forward Run CYAN ON YELLOW</item>
+        <item>140:Backward Run CYAN ON YELLOW</item>
+        <item>141:Forward Run PURPLE ON CYAN</item>
+        <item>142:Backward Run PURPLE ON CYAN</item>
+        <item>143:Forward Run WHITE ON PURPLE</item>
+        <item>144:Backward Run WHITE ON PURPLE</item>
+        <item>145:Forward Run WHITE ON RED</item>
+        <item>146:Backward Run WHITE ON RED</item>
+        <item>147:Forward Run 7 COLOR ON RED</item>
+        <item>148:Backward Run 7 COLOR ON RED</item>
+        <item>149:Forward Run 7 COLOR ON GREEN</item>
+        <item>150:Backward Run 7 COLOR ON GREEN</item>
+        <item>151:Forward Run 7 COLOR ON BLUE</item>
+        <item>152:Backward Run 7 COLOR ON BLUE</item>
+        <item>153:Forward Run 7 COLOR ON YELLOW</item>
+        <item>154:Backward Run 7 COLOR ON YELLOW</item>
+        <item>155:Forward Run 7 COLOR ON CYAN</item>
+        <item>156:Backward Run 7 COLOR ON CYAN</item>
+        <item>157:Forward Run 7 COLOR ON PURPLE</item>
+        <item>158:Backward Run 7 COLOR ON PURPLE</item>
+        <item>159:Forward Run 7 COLOR ON WHITE</item>
+        <item>160:Backward Run 7 COLOR ON WHITE</item>
+        <item>161:Forward Flow WHITE RED WHITE</item>
+        <item>162:Backward Flow WHITE RED WHITE</item>
+        <item>163:Forward Flow WHITE GREEN WHITE</item>
+        <item>164:Backward Flow WHITE GREEN WHITE</item>
+        <item>165:Forward Flow WHITE BLUE WHITE</item>
+        <item>166:Backward Flow WHITE BLUE WHITE</item>
+        <item>167:Forward Flow WHITE YELLOW WHITE</item>
+        <item>168:Backward Flow WHITE YELLOW WHITE</item>
+        <item>169:Forward Flow WHITE CYAN WHITE</item>
+        <item>170:Backward Flow WHITE CYAN WHITE</item>
+        <item>171:Forward Flow WHITE PURPLE WHITE</item>
+        <item>172:Backward Flow WHITE PURPLE WHITE</item>
+        <item>173:Forward Flow RED WHITE RED</item>
+        <item>174:Backward Flow RED WHITE RED</item>
+        <item>175:Forward Flow GREEN WHITE GREEN</item>
+        <item>176:Backward Flow GREEN WHITE GREEN</item>
+        <item>177:Forward Flow BLUE WHITE BLUE</item>
+        <item>178:Backward Flow BLUE WHITE BLUE</item>
+        <item>179:Forward Flow YELLOW WHITE YELLOW</item>
+        <item>180:Backward Flow YELLOW WHITE YELLOW</item>
+        <item>181:Forward Flow CYAN WHITE CYAN</item>
+        <item>182:Backward Flow CYAN WHITE CYAN</item>
+        <item>183:Forward Flow PURPLE WHITE PURPLE</item>
+        <item>184:Backward Flow PURPLE WHITE PURPLE</item>
+        <item>185:Forward Run GREEN ON BLUE</item>
+        <item>186:Backward Run GREEN ON BLUE</item>
+        <item>187:Forward Run GREEN ON RED</item>
+        <item>188:Backward Run GREEN ON RED</item>
+        <item>189:Forward Run RED ON BLUE</item>
+        <item>190Backward Run RED ON BLUE</item>
+        <item>191Forward Run CYAN ON YELLOW</item>
+        <item>192:Backward Run CYAN ON YELLOW</item>
+        <item>193:Forward Run YELLOW ON PURPLE</item>
+        <item>194:Backward Run YELLOW ON PURPLE</item>
+        <item>195:Forward Run WHITE ON YELLOW</item>
+        <item>196:Backward Run WHITE ON YELLOW</item>
+        <item>197:Forward Run YELLOW ON WHITE</item>
+        <item>198:Backward Run YELLOW ON WHITE</item>
+        <item>199:Forward Swab 7 COLORS</item>
+        <item>200:Backward Swab 7 COLORS</item>
+        <item>201:Forward Swab RED GREEN BLUE</item>
+        <item>202:Backward Swab RED GREEN BLUE</item>
+        <item>203:Forward Swab YELLOW CYAN PURPLE</item>
+        <item>204:Backward Swab YELLOW CYAN PURPLE</item>
+        <item>205:Open Curtain Swab 7 COLORS</item>
+        <item>206:Close Curtain Swab 7 COLORS</item>
+        <item>207Open Curtain Swab R G B</item>
+        <item>208:Close Curtain Swab R G B</item>
+        <item>209:Open Curtain Swab Y C P</item>
+        <item>210:Close Curtain Swab Y C P</item>
+    </array>
+    <array name="week">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </array>
+    <array name="weekday">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </array>
+</resources>

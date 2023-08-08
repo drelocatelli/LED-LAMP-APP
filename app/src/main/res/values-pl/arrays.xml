@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ble_mode">
+        <item>Trójkolorowy skok, 135</item>
+        <item>Siedem kolorowych skoków, 136</item>
+        <item>Gradient trójkolorowy, 137</item>
+        <item>Siedem kolorów, 138</item>
+        <item>Czerwony gradient, 139</item>
+        <item>Zielony gradient, 140</item>
+        <item>Niebieski gradient, 141</item>
+        <item>Żółty gradient, 142</item>
+        <item>Gradient cyjan, 143</item>
+        <item>Fioletowy gradient, 144</item>
+        <item>Biały gradient, 145</item>
+        <item>Gradient czerwono-zielony, 146</item>
+        <item>Gradient czerwono-niebieski, 147</item>
+        <item>Gradient zielono-niebieski, 148</item>
+        <item>Siedem kolorów stroboskopu, 149</item>
+        <item>Czerwony stroboskop, 150</item>
+        <item>Zielony stroboskop, 151</item>
+        <item>Niebieski stroboskop, 152</item>
+        <item>Żółty stroboskop, 153</item>
+        <item>Cyan stroboskop, 154</item>
+        <item>Purpurowy stroboskop, 155</item>
+        <item>Biały stroboskop, 156</item>
+        <item>Statyczny czerwony, 128</item>
+        <item>statyczny niebieski, 129</item>
+        <item>Statyczny zielony, 130</item>
+        <item>Static Cyan, 131</item>
+        <item>Statyczny żółty, 132</item>
+        <item>Statyczny fiolet, 133</item>
+        <item>statyczny biały, 134</item>
+    </array>
+    <array name="chip_model">
+        <item>SM16512,1</item>
+        <item>UCS512C, 2</item>
+    </array>
+    <array name="ct_mode">
+        <item>Ciepłe 0% Zimne 100%, 128</item>
+        <item>ciepły 10% zimny 90%, 129</item>
+        <item>ciepły 20% zimny 80%, 130</item>
+        <item>ciepły 30% zimny 70%, 131</item>
+        <item>ciepły 40% zimny 60%, 132</item>
+        <item>ciepły 50% zimny 50%, 133</item>
+        <item>ciepły 60% zimny 40%, 134</item>
+        <item>ciepły 70% zimny 30%, 135</item>
+        <item>ciepły 80% zimny 20%, 136</item>
+        <item>ciepły 90% zimny 10%, 137</item>
+        <item>ciepły 100% zimny 0%, 138</item>
+    </array>
+    <array name="custom_model">
+        <item>1: gradient, 0</item>
+        <item>2: końcowe, 1</item>
+        <item>3: bieżąca woda, 2</item>
+        <item>4: podążaj za światłem, 3</item>
+        <item>5: stack up, 4</item>
+        <item>6: biały x biały płynący, 5</item>
+        <item>7: jednopunktowe wyścigi konne, 6</item>
+        <item>8: więcej wyścigów konnych, 7</item>
+        <item>9: ciągnięcie / zamykanie, 8</item>
+        <item>10: pojedynczy lekki gradient, 9</item>
+        <item>11: Pojedynczy lekki skok, 10</item>
+        <item>12: pojedynczy stroboskop świetlny, 11</item>
+    </array>
+    <array name="dm_mode">
+        <item>0%, 128</item>
+        <item>10%, 129</item>
+        <item>20%, 130</item>
+        <item>30%, 131</item>
+        <item>40%, 132</item>
+        <item>50%, 133</item>
+        <item>60%, 134</item>
+        <item>70%, 135</item>
+        <item>80%, 136</item>
+        <item>90%, 137</item>
+        <item>100%, 138</item>
+    </array>
+    <array name="dmx_model">
+        <item>Auto loop, 255</item>
+        <item>1: Forward Symphony, 1</item>
+        <item>2: Reverse Symphony, 2</item>
+        <item>3: Przejście do przodu do siedmiokolorowego jasnego i ciemnego, 3</item>
+        <item>4: odwrócone siedmiokolorowe przejście jasne i ciemne, 4</item>
+        <item>5: przejście do przodu czerwony, zielony i niebieski jasny i ciemny, 5</item>
+        <item>6: Odwrócenie czerwonego, zielonego i niebieskiego przejścia jasnego i ciemnego, 6</item>
+        <item>7: Pozytywne przejście do koloru żółtego, niebieskiego i fioletowego jasnego i ciemnego, 7</item>
+        <item>8: Odwrócone przejście od żółto-cyjanowo-fioletowego jasno do ciemnego, 8</item>
+        <item>9: Sześciokolorowe przejście do przodu czerwony, 9</item>
+        <item>10: odwrócone sześciokolorowe przejście czerwone, 10</item>
+        <item>11: do przodu sześciokolorowe przejście zielone, 11</item>
+        <item>12: odwrócone sześciokolorowe przejście zielone, 12</item>
+        <item>13: sześciokolorowe przejście do przodu - niebieski, 13</item>
+        <item>14: odwrócone sześciokolorowe przejście na niebieski, 14</item>
+        <item>15: sześciokolorowe przejście do przodu cyjan, 15</item>
+        <item>16: odwrócone przejście sześciokolorowe cyjan, 16</item>
+        <item>17: do przodu sześciokolorowe przejście żółte, 17</item>
+        <item>18: odwrócone sześciokolorowe przejście żółte, 18</item>
+        <item>19: do przodu sześciokolorowe przejście fioletowe, 19</item>
+        <item>20: odwrócone sześciokolorowe przejście fioletowe, 20</item>
+        <item>21: do przodu sześciokolorowe przejście białe, 21</item>
+        <item>22: odwrócone sześciokolorowe przejście białe, 22</item>
+        <item>23: kolorowe końcowe zakończenie do przodu, 23</item>
+        <item>24: reverse colourful trailing, 24</item>
+        <item>25: Forward red trailing, 25</item>
+        <item>26: Reverse red trailing, 26</item>
+        <item>27: Forward green trailing, 27</item>
+        <item>28: reverse green trailing, 28</item>
+        <item>29: Forward blue tail, 29</item>
+        <item>30: reverse blue trailing, 30</item>
+        <item>31: Przedni żółty ogon, 31</item>
+        <item>32: odwrócone żółte zakończenie, 32</item>
+        <item>33: Forward trailing cyjan, 33</item>
+        <item>34: reverse cyjan tailing, 34</item>
+        <item>35: Fioletowy ogon do przodu, 35</item>
+        <item>36: i tak fioletowe ogony, 36</item>
+        <item>37: przednie białe zakończenie, 37</item>
+        <item>38: reverse white trailing, 38</item>
+        <item>39: pozytywna kolorowa woda płynąca, 39</item>
+        <item>40: odwrócenie kolorowej płynącej wody, 40</item>
+        <item>41: pozytywna czerwona, zielona i niebieska woda, 41</item>
+        <item>42: odwrócenie czerwonej, zielonej i niebieskiej wody, 42</item>
+        <item>43: pozytywna żółta, niebieska i fioletowa woda płynąca, 43</item>
+        <item>44: Odwrócenie bieżącej wody w kolorze żółto-cyjanowo-fioletowym, 44</item>
+        <item>45: pozytywna woda czerwona i zielona ​​, 45</item>
+        <item>46: odwrócenie czerwonej i zielonej wody, 46</item>
+        <item>47: pozytywna zielona i niebieska woda, 47</item>
+        <item>48: reverse green and blue water, 48</item>
+        <item>49: pozytywna żółta i niebieska woda, 49</item>
+        <item>50: odwrócenie żółtej i niebieskiej wody, 50</item>
+        <item>51: pozytywna żółto-zielona woda płynąca, 51</item>
+        <item>52: Odwróć żółtą i zieloną płynącą wodę, 52</item>
+        <item>53: pozytywna niebiesko-fioletowa woda płynąca, 53</item>
+        <item>54: Reverse niebiesko-fioletowa bieżąca woda, 54</item>
+        <item>55: do przodu czarno-biała płynąca woda, 55</item>
+        <item>56: odwrócona czarno-biała woda, 56</item>
+        <item>57: Kolorowa zasłona, 57</item>
+        <item>58: Colourful Closing, 58</item>
+        <item>59: czerwony, zielony i niebieski ekran, 59</item>
+        <item>60: czerwony, zielony i niebieski zamykający, 60</item>
+        <item>61: żółta, niebiesko-fioletowa kurtyna, 61</item>
+        <item>62: żółte, niebieskie i fioletowe zamknięcie, 62</item>
+        <item>63: Naprzód kolorowe goniące światło, 63</item>
+        <item>64: odwrócone kolorowe goniące światło, 64</item>
+        <item>65: czerwone, zielone i niebieskie światło do przodu, 65</item>
+        <item>66: odwrócenie czerwonego, zielonego i niebieskiego światła, 66</item>
+        <item>67: żółte, niebieskie i fioletowe światło do przodu, 67</item>
+        <item>68: Odwróć żółte, niebieskie i fioletowe światło, 68</item>
+        <item>69: kolorowe trzepotanie do przodu, 69</item>
+        <item>70: odwrócone kolorowe trzepotanie, 70</item>
+        <item>71: Płynące do przodu czerwony, zielony i niebieski, 71</item>
+        <item>72: odwrócone czerwone, zielone i niebieskie trzepotanie, 72</item>
+        <item>73: płynący do przodu do żółtego, niebieskiego i fioletowego, 73</item>
+        <item>74: odwrócone żółte i fioletowe trzepotanie, 74</item>
+        <item>75: siedmiokolorowy skok, 75</item>
+        <item>76: czerwony, zielony i niebieski skok, 76</item>
+        <item>77: żółty, niebieski i fioletowy skok, 77</item>
+        <item>78: siedmiokolorowy stroboskop, 78</item>
+        <item>79: czerwony, zielony i niebieski stroboskop, 79</item>
+        <item>80: żółty, niebieski i fioletowy stroboskop, 80</item>
+        <item>81: gradient siedmiokolorowy, 81</item>
+        <item>82: czerwony i żółty gradient, 82</item>
+        <item>83: czerwono-fioletowy gradient, 83</item>
+        <item>84: gradient zielono-cyjan, 84</item>
+        <item>85: zielono-żółty gradient, 85</item>
+        <item>86: niebiesko-fioletowy gradient, 86</item>
+        <item>87: czerwone zamknięcie, 87</item>
+        <item>88: zielone zamknięcie, 88</item>
+        <item>89: niebieskie zamknięcie, 89</item>
+        <item>90: żółte zamknięcie, 90</item>
+        <item>91: cyjan zamykanie, 91</item>
+        <item>92: fioletowe zamknięcie, 92</item>
+        <item>93: białe zamknięcie, 93</item>
+        <item>94: czerwona kurtyna, 94</item>
+        <item>95: zielona kurtyna, 95</item>
+        <item>96: niebieska kurtyna, 96</item>
+        <item>97: żółta kurtyna, 97</item>
+        <item>98: Cyan pull screen, 98</item>
+        <item>99: fioletowa kurtyna, 99</item>
+        <item>100: biała kurtyna, 100</item>
+        <item>101: Czerwone wyścigi konne, 101</item>
+        <item>102: zielone wyścigi konne, 102</item>
+        <item>103: niebieskie wyścigi konne, 103</item>
+        <item>104: żółte wyścigi konne, 104</item>
+        <item>105: Niebieskie wyścigi konne, 105</item>
+        <item>106: fioletowe wyścigi konne, 106</item>
+        <item>107: Wyścigi białych koni, 107</item>
+        <item>108: Bieg do przodu na czerwono, 108</item>
+        <item>109: Reverse red running, 109</item>
+        <item>110: biegnij do przodu zielony, 110</item>
+        <item>111: Reverse green running, 111</item>
+        <item>112: biegnąc naprzód niebieski, 112</item>
+        <item>113: Reverse blue running, 113</item>
+        <item>114: biec do przodu żółty, 114</item>
+        <item>115: odwrócony żółty bieg, 115</item>
+        <item>116: biegnące naprzód w kolorze błękitnym, 116</item>
+        <item>117: Reverse cyjan running, 117</item>
+        <item>118: Bieg do przodu w kolorze fioletowym, 118</item>
+        <item>119: Odwrócony fioletowy bieg, 119</item>
+        <item>120: bieg do przodu w kolorze białym, 120</item>
+        <item>121: bieg wsteczny biały, 121</item>
+        <item>122: bieg do przodu w siedmiu kolorach, 122</item>
+        <item>123: odwrócony bieg w siedmiu kolorach, 123</item>
+        <item>124: Bieg do przodu w kolorze czerwonym, zielonym i niebieskim, 124</item>
+        <item>125: Odwróć czerwony, zielony i niebieski bieg, 125</item>
+        <item>126: Bieganie do przodu do żółtego, niebieskiego i fioletowego, 126</item>
+        <item>127: Reverse żółte i fioletowe bieganie, 127</item>
+        <item>128: bieg do przodu w kolorze niebieskim, żółtym i fioletowym, 128</item>
+        <item>129: bieg do przodu zielony, niebieski i żółty, 129</item>
+        <item>130: Reverse blue, yellow and blue running, 130</item>
+        <item>131: bieg w kierunku czerwonej kropki na białym tle, 131</item>
+        <item>132: Odwrócone białe tło z czerwoną kropką, 132</item>
+        <item>133: biegnij naprzód do zielonej kropki na czerwonym tle, 133</item>
+        <item>134: Odwróć czerwone tło i zieloną kropkę, 134</item>
+        <item>135: biegnij naprzód do niebieskiej kropki na zielonym tle, 135</item>
+        <item>136: Odwróć zielone tło i biegną niebieską kropkę, 136</item>
+        <item>137: biegnij naprzód do żółtej kropki na niebieskim tle, 137</item>
+        <item>138: Odwróć niebieskie tło z żółtymi kropkami, 138</item>
+        <item>139: bieg w kierunku żółtego tła i niebieskich kropek, 139</item>
+        <item>140: Odwróć żółte tło i niebieską kropkę, 140</item>
+        <item>141: bieg do fioletowej kropki na niebieskim dnie, 141</item>
+        <item>142: Odwróć niebieskie dno i fioletową kropkę, 142</item>
+        <item>143: Running towards the white dot on the purple background, 143</item>
+        <item>144: Reverse running with white dots on purple background, 144</item>
+        <item>145: Running towards the white dot on the red background, 145</item>
+        <item>146: Reverse running with red background and white dots, 146</item>
+        <item>147: Running towards the red background with seven colors, 147</item>
+        <item>148: Reverse red background seven-color running, 148</item>
+        <item>149: Running towards the green background with seven colors, 149</item>
+        <item>150: reverse green seven-color running, 150</item>
+        <item>151: bieg do przodu w siedmiu kolorach z niebieskim tłem, 151</item>
+        <item>152: siedmiokolorowy bieg na odwróconym niebieskim tle, 152</item>
+        <item>153: Bieg do przodu w siedmiu kolorach z żółtym tłem, 153</item>
+        <item>154: Odwrócone żółte tło w siedmiu kolorach, 154</item>
+        <item>155: bieg do przodu w siedmiu kolorach z zielonym tłem, 155</item>
+        <item>156: odwrócone cyjanowe tło w siedmiu kolorach, 156</item>
+        <item>157: Bieg do przodu w siedmiu kolorach z fioletowym tłem, 157</item>
+        <item>158: odwrócone fioletowe tło siedmiokolorowe, 158</item>
+        <item>159: bieg do przodu w siedmiu kolorach na białym tle, 159</item>
+        <item>160: bieg z siedmiokolorowym odwróconym białym tłem, 160</item>
+        <item>161: dodatni przepływ bieli, czerwieni i bieli, 161</item>
+        <item>162: Odwrócenie przepływu bieli, czerwieni i bieli, 162</item>
+        <item>163: dodatni przepływ bieli, zieleni i bieli, 163</item>
+        <item>164: odwrócony biały, zielony i biały przepływ, 164</item>
+        <item>165: dodatni przepływ koloru białego, niebieskiego i białego, 165</item>
+        <item>166: odwrócony biały niebieski i biały przepływ, 166</item>
+        <item>167: dodatni przepływ bieli, żółci i bieli, 167</item>
+        <item>168: odwrócony biały żółty biały przepływ, 168</item>
+        <item>169: dodatni przepływ bieli, błękitu i bieli, 169</item>
+        <item>170: odwrócony biały, niebieski i biały przepływ, 170</item>
+        <item>171: dodatni przepływ bieli, fioletu i bieli, 171</item>
+        <item>172: Odwrócony przepływ bieli, fioletu i bieli, 172</item>
+        <item>173: dodatni przepływ czerwieni, bieli i czerwieni, 173</item>
+        <item>174: Odwrócony przepływ czerwono-biało-czerwony, 174</item>
+        <item>175: dodatni przepływ zieleni, bieli i zieleni, 175</item>
+        <item>176: odwrócony zielony biały zielony przepływ, 176</item>
+        <item>177: Przepływ do przodu niebieski, biały i niebieski, 177</item>
+        <item>178: Odwrócony przepływ niebieskiego, białego i niebieskiego, 178</item>
+        <item>179: Przepływ do przodu żółty, biały i żółty, 179</item>
+        <item>180: odwrócony żółty biały żółty przepływ, 180</item>
+        <item>181: Dodatni przepływ niebieskiego, białego i niebieskiego, 181</item>
+        <item>182: Reverse blue, white and blue flow, 182</item>
+        <item>183: Dodatni przepływ fioletu, bieli i fioletu, 183</item>
+        <item>184: odwrócony fioletowy biały fioletowy przepływ, 184</item>
+        <item>185: pozytywne niebieskie tło z zielonymi kropkami, 185</item>
+        <item>186: Odwróć niebieskie tło z zielonymi kropkami, 186</item>
+        <item>187: pozytywne czerwone tło z zielonymi kropkami, 187</item>
+        <item>188: Odwróć czerwone tło z zielonymi kropkami, 188</item>
+        <item>189: Niebieskie tło do przodu z czerwonymi kropkami, 189</item>
+        <item>190: Odwrócone niebieskie tło i wyścigi konne z czerwoną kropką, 190</item>
+        <item>191: Żółte tło i zielone kropki do przodu, 191</item>
+        <item>192: odwrócone żółte tło i wyścigi konne z niebieską kropką, 192</item>
+        <item>193: do przodu żółte kropki na fioletowym tle, 193</item>
+        <item>194: Odwrócenie fioletowych dolnych wyścigów konnych z żółtą kropką, 194</item>
+        <item>195: pozytywne żółte tło i białe kropki wyścigi konne, 195</item>
+        <item>196: Odwrócone żółte tło z białymi kropkami, 196</item>
+        <item>197: Prześlij żółte kropki na białym tle, 197</item>
+        <item>198: Odwrócone białe tło wyścigi konne z żółtą kropką, 198</item>
+        <item>199: Szczotkowanie siedmiokolorowe do przodu, 199</item>
+        <item>200: odwrócone szczotkowanie siedmiokolorowe, 200</item>
+        <item>201: Do przodu czerwony, zielony i niebieski kolor, 201</item>
+        <item>202: Odwróć czerwony, zielony i niebieski kolor pędzla, 202</item>
+        <item>203: do przodu żółty, cyjan, fioletowy, 203</item>
+        <item>204: Odwrócony kolor żółto-cyjan-fioletowy, 204</item>
+        <item>205: siedmiokolorowe szczotkowanie i ciągnięcie ekranu, 205</item>
+        <item>206: siedmiokolorowe zamknięcie koloru pędzla, 206</item>
+        <item>207: ekran ciągnięty w kolorze czerwonym, zielonym i niebieskim, 207</item>
+        <item>208: kolorystyka czerwona, zielona i niebieska jest zamknięta, 208</item>
+        <item>209: żółty, niebieski i fioletowy muskający ekran, 209</item>
+        <item>210: żółty, cyjan, fioletowy i zamykanie koloru, 210</item>
+    </array>
+    <array name="forum_tab_titles">
+        <item>Inne</item>
+        <item>Połącz</item>
+        <item>Doradztwo</item>
+        <item>Sugestie</item>
+        <item>hotspot</item>
+    </array>
+    <array name="light_banner">
+        <item>LPD6803,1</item>
+        <item>TM1803,2</item>
+        <item>UCS1903,3</item>
+        <item>WS2811,4</item>
+        <item>TM1812,5</item>
+        <item>TM1809,6</item>
+        <item>WS2801,7</item>
+        <item>TLS3001,8</item>
+        <item>TLS3008,9</item>
+        <item>P9813,10</item>
+        <item>UCS8806,11</item>
+        <item>TM1829,12</item>
+        <item>TM1909,13</item>
+    </array>
+    <array name="light_mode">
+        <item>Wyłącz światła</item>
+        <item>Statyczny czerwony</item>
+        <item>Statyczny niebieski</item>
+        <item>Statyczny zielony</item>
+        <item>Statyczny błękitny</item>
+        <item>Statyczny żółty</item>
+        <item>Statyczny fiolet</item>
+        <item>Statyczny biały</item>
+        <item>Trójkolorowy skok</item>
+        <item>Siedem kolorowych przeskoków</item>
+        <item>Trójkolorowy gradient</item>
+        <item>Siedmiokolorowy gradient</item>
+        <item>Czerwony gradient</item>
+        <item>Zielony gradient</item>
+        <item>Niebieski gradient</item>
+        <item>Żółty gradient</item>
+        <item>Cyjan gradient</item>
+        <item>Fioletowy gradient</item>
+        <item>Biały gradient</item>
+        <item>Czerwono-zielony gradient</item>
+        <item>Czerwony i niebieski gradient</item>
+        <item>Zielono-niebieski gradient</item>
+        <item>Siedmiokolorowy stroboskop</item>
+        <item>Czerwony stroboskop</item>
+        <item>Zielony stroboskop</item>
+        <item>Niebieski stroboskop</item>
+        <item>Żółty stroboskop</item>
+        <item>Cyan stroboskop</item>
+        <item>Fioletowy stroboskop</item>
+        <item>Biały stroboskop</item>
+        <item>MODE30</item>
+        <item>MODE31</item>
+        <item>MODE32</item>
+        <item>MODE33</item>
+        <item>MODE34</item>
+        <item>MODE35</item>
+        <item>MODE36</item>
+        <item>MODE37</item>
+        <item>MODE38</item>
+        <item>MODE39</item>
+        <item>MODE40</item>
+        <item>MODE41</item>
+        <item>MODE42</item>
+        <item>MODE43</item>
+        <item>MODE44</item>
+        <item>MODE45</item>
+        <item>MODE46</item>
+        <item>MODE47</item>
+        <item>MODE48</item>
+        <item>MODE49</item>
+        <item>MODE50</item>
+        <item>MODE51</item>
+        <item>MODE52</item>
+        <item>MODE53</item>
+        <item>MODE54</item>
+        <item>MODE55</item>
+        <item>MODE56</item>
+        <item>MODE57</item>
+        <item>MODE58</item>
+        <item>MODE59</item>
+        <item>MODE60</item>
+        <item>MODE61</item>
+        <item>MODE62</item>
+        <item>MODE63</item>
+        <item>MODE64</item>
+        <item>MODE65</item>
+        <item>MODE66</item>
+        <item>MODE67</item>
+        <item>MODE68</item>
+        <item>MODE69</item>
+        <item>MODE70</item>
+        <item>MODE71</item>
+        <item>MODE72</item>
+        <item>MODE73</item>
+        <item>MODE74</item>
+        <item>MODE75</item>
+        <item>MODE76</item>
+        <item>MODE77</item>
+        <item>MODE78</item>
+        <item>MODE79</item>
+        <item>MODE80</item>
+        <item>MODE81</item>
+        <item>MODE82</item>
+        <item>MODE83</item>
+        <item>MODE84</item>
+        <item>MODE85</item>
+        <item>MODE86</item>
+        <item>MODE87</item>
+        <item>MODE88</item>
+        <item>MODE89</item>
+        <item>MODE90</item>
+        <item>MODE91</item>
+        <item>MODE92</item>
+        <item>MODE93</item>
+        <item>MODE94</item>
+        <item>MODE95</item>
+        <item>MODE96</item>
+        <item>MODE97</item>
+        <item>MODE98</item>
+        <item>MODE99</item>
+        <item>MODE100</item>
+        <item>MODE101</item>
+        <item>MODE102</item>
+        <item>MODE103</item>
+        <item>MODE104</item>
+        <item>MODE105</item>
+        <item>MODE106</item>
+        <item>MODE107</item>
+        <item>MODE108</item>
+        <item>MODE109</item>
+        <item>MODE110</item>
+        <item>MODE111</item>
+        <item>MODE112</item>
+        <item>MODE113</item>
+        <item>MODE114</item>
+        <item>MODE115</item>
+        <item>MODE116</item>
+        <item>MODE117</item>
+        <item>MODE118</item>
+        <item>MODE119</item>
+        <item>MODE120</item>
+        <item>MODE121</item>
+        <item>MODE122</item>
+        <item>MODE123</item>
+        <item>MODE124</item>
+        <item>MODE125</item>
+        <item>MODE126</item>
+        <item>MODE127</item>
+        <item>MODE128</item>
+        <item>MODE129</item>
+        <item>MODE130</item>
+        <item>MODE131</item>
+        <item>MODE132</item>
+        <item>MODE133</item>
+        <item>MODE134</item>
+        <item>MODE135</item>
+        <item>MODE136</item>
+        <item>MODE137</item>
+        <item>MODE138</item>
+        <item>MODE139</item>
+        <item>MODE140</item>
+        <item>MODE141</item>
+        <item>MODE142</item>
+        <item>MODE143</item>
+        <item>MODE144</item>
+        <item>MODE145</item>
+        <item>MODE146</item>
+        <item>MODE147</item>
+        <item>MODE148</item>
+        <item>MODE149</item>
+        <item>MODE150</item>
+        <item>MODE151</item>
+        <item>MODE152</item>
+        <item>MODE153</item>
+        <item>MODE154</item>
+        <item>MODE155</item>
+        <item>MODE156</item>
+        <item>MODE157</item>
+        <item>MODE158</item>
+        <item>MODE159</item>
+        <item>MODE160</item>
+        <item>MODE161</item>
+        <item>MODE162</item>
+        <item>MODE163</item>
+        <item>MODE164</item>
+        <item>MODE165</item>
+        <item>MODE166</item>
+        <item>MODE167</item>
+        <item>MODE168</item>
+        <item>MODE169</item>
+        <item>MODE170</item>
+        <item>MODE171</item>
+        <item>MODE172</item>
+        <item>MODE173</item>
+        <item>MODE174</item>
+        <item>MODE175</item>
+        <item>MODE176</item>
+        <item>MODE177</item>
+        <item>MODE178</item>
+        <item>MODE179</item>
+        <item>MODE180</item>
+        <item>MODE181</item>
+        <item>MODE182</item>
+        <item>MODE183</item>
+        <item>MODE184</item>
+        <item>MODE185</item>
+        <item>MODE186</item>
+        <item>MODE187</item>
+        <item>MODE188</item>
+        <item>MODE189</item>
+        <item>MODE190</item>
+        <item>MODE191</item>
+        <item>MODE192</item>
+        <item>MODE193</item>
+        <item>MODE194</item>
+        <item>MODE195</item>
+        <item>MODE196</item>
+        <item>MODE197</item>
+        <item>MODE198</item>
+        <item>MODE199</item>
+        <item>MODE200</item>
+        <item>MODE201</item>
+        <item>MODE202</item>
+        <item>MODE203</item>
+        <item>MODE204</item>
+        <item>MODE205</item>
+        <item>MODE206</item>
+        <item>MODE207</item>
+        <item>MODE208</item>
+        <item>MODE209</item>
+        <item>MODE210</item>
+        <item>MODE211</item>
+    </array>
+    <array name="modelble">
+        <item>Wyłącz światła</item>
+        <item>Włącz światło</item>
+        <item>Statyczny czerwony</item>
+        <item>Statyczny zielony</item>
+        <item>Statyczny niebieski</item>
+        <item>Statyczny żółty</item>
+        <item>Statyczny fiolet</item>
+        <item>Statyczny błękitny</item>
+        <item>Statyczny biały</item>
+        <item>Trójkolorowa zmiana skoku</item>
+        <item>Siedem kolorowych przeskoków</item>
+        <item>Trójkolorowy gradient</item>
+        <item>Siedem kolorów gradientu</item>
+        <item>Zimna biel</item>
+        <item>Ciepła biel</item>
+        <item>Monochromatyczny</item>
+    </array>
+    <array name="modelike">
+        <item>Wyłącz światła</item>
+        <item>Włącz światło</item>
+        <item>Wszystko jasne</item>
+        <item>Pół jasne</item>
+        <item>Lekko jasne</item>
+        <item>oddychanie</item>
+        <item>Stroboskop</item>
+        <item>Miga</item>
+    </array>
+    <array name="modelsun">
+        <item>Wyłącz światła</item>
+        <item>Włącz światło</item>
+        <item>Fajny kolor</item>
+        <item>Ciepły kolor</item>
+        <item>Naturalny kolor</item>
+        <item>Biała ciepła zmiana skoku</item>
+        <item>Biały gradient</item>
+        <item>Ciepły gradient kolorów</item>
+        <item>Naturalny gradient kolorów</item>
+        <item>Biały ciepły gradient</item>
+        <item>Biały ciepły stroboskop</item>
+        <item>Biały stroboskop</item>
+        <item>Ciepły kolor stroboskopowy</item>
+        <item>Naturalny kolor stroboskopowy</item>
+    </array>
+    <array name="rgb_model">
+        <item>RGB, 1</item>
+        <item>RBG, 2</item>
+        <item>GRB, 3</item>
+        <item>GBR, 4</item>
+        <item>BRG, 5</item>
+        <item>BGR, 6</item>
+        <item>RGBW, 7</item>
+        <item>RBGW, 8</item>
+        <item>GRBW, 9</item>
+        <item>GBRW, 10</item>
+        <item>BRGW, 11</item>
+        <item>BGRW, 12</item>
+    </array>
+    <array name="rgb_sort_ble">
+        <item>RGB, 1</item>
+        <item>RBG, 2</item>
+        <item>GRB, 3</item>
+        <item>GBR, 4</item>
+        <item>BRG, 5</item>
+        <item>BGR, 6</item>
+    </array>
+    <array name="timer_model_dmx">
+        <item>Wyłącz światła</item>
+        <item>Włącz światło</item>
+        <item>Auto loop</item>
+        <item>1: Forward Symphony</item>
+        <item>2: Reverse Symphony</item>
+        <item>3: Siedmiokolorowe przejście jasne i ciemne do przodu</item>
+        <item>4: odwrócone siedmiokolorowe przejście jasne i ciemne</item>
+        <item>5: Przejście do przodu: czerwony, zielony i niebieski jasny i ciemny</item>
+        <item>6: Odwrócenie czerwonego, zielonego i niebieskiego przejścia między jasnymi i ciemnymi obszarami</item>
+        <item>7: Pozytywne przejście w żółte, niebieskie i fioletowe jasne i ciemne</item>
+        <item>8: Odwróć żółte, niebieskie, fioletowe jasne i ciemne przejścia</item>
+        <item>9: Sześciokolorowe przejście do przodu w kolorze czerwonym</item>
+        <item>10: odwrócenie sześciokolorowego przejścia czerwonego</item>
+        <item>11: Sześciokolorowe przejście do przodu w kolorze zielonym</item>
+        <item>12: odwrócone sześciokolorowe przejście zielone</item>
+        <item>13: Sześciokolorowy niebieski z przejściem do przodu</item>
+        <item>14: odwrócone sześciokolorowe przejście na niebieski</item>
+        <item>15: Sześciokolorowe przejście do przodu na cyjan</item>
+        <item>16: odwrócone sześciokolorowe przejście cyjan</item>
+        <item>17: do przodu sześciokolorowe przejście żółte</item>
+        <item>18: odwrócone sześciokolorowe przejście żółte</item>
+        <item>19: Sześciokolorowe przejście do przodu na fioletowe</item>
+        <item>20: odwrócone sześciokolorowe przejście fioletowe</item>
+        <item>21: Sześciokolorowe przejście do przodu w kolorze białym</item>
+        <item>22: odwrócone sześciokolorowe przejście białe</item>
+        <item>23: Do przodu kolorowe ogony</item>
+        <item>24: Odwróć kolorowe ogony</item>
+        <item>25: Forward red tailing</item>
+        <item>26: Odwróć czerwony ogon</item>
+        <item>27: Forward green trailing</item>
+        <item>28: Odwróć zielone zakończenie</item>
+        <item>29: Do przodu niebieskie końcowe</item>
+        <item>30: Odwróć niebieskie ogony</item>
+        <item>31: Przednie żółte ogony</item>
+        <item>32: Odwróć żółte ogony</item>
+        <item>33: Naprzód cyjanowy ogon</item>
+        <item>34: Odwrócony cyjan tailing</item>
+        <item>35: Przednie fioletowe ogony</item>
+        <item>36: Fioletowy i tak na końcu</item>
+        <item>37: Forward white tailing</item>
+        <item>38: Odwróć biały ogon</item>
+        <item>39: pozytywna kolorowa płynąca woda</item>
+        <item>40: Odwróć kolorową płynącą wodę</item>
+        <item>41: pozytywna czerwona, zielona i niebieska woda</item>
+        <item>42: Odwróć wodę czerwoną, zieloną i niebieską</item>
+        <item>43: pozytywna żółta, niebieska i fioletowa woda płynąca</item>
+        <item>44: Odwróć żółtą, niebieską i fioletową płynącą wodę</item>
+        <item>45: pozytywna czerwona i zielona woda płynąca</item>
+        <item>46: Odwróć czerwoną i zieloną płynącą wodę</item>
+        <item>47: pozytywna zielona i niebieska woda</item>
+        <item>48: odwróć zieloną i niebieską wodę</item>
+        <item>49: Naprzód żółta i niebieska woda</item>
+        <item>50: Odwróć żółtą i niebieską wodę</item>
+        <item>51: pozytywna żółta i zielona woda płynąca</item>
+        <item>52: Odwróć żółtą i zieloną płynącą wodę</item>
+        <item>53: pozytywna niebiesko-fioletowa woda płynąca</item>
+        <item>54: Odwróć niebiesko-fioletową bieżącą wodę</item>
+        <item>55: Prześlij czarno-białą wodę</item>
+        <item>56: Odwrócony przepływ czarnej i białej wody</item>
+        <item>57: Kolorowy ekran kurtynowy</item>
+        <item>58: Kolorowe zakończenie</item>
+        <item>59: czerwony, zielony i niebieski ekran</item>
+        <item>60: zamykanie w kolorze czerwonym, zielonym i niebieskim</item>
+        <item>61: żółta, fioletowa i niebieska kurtyna</item>
+        <item>62: zamykanie w kolorze żółtym, niebieskim i fioletowym</item>
+        <item>63: Naprzód kolorowe goniące światło</item>
+        <item>64: odwróć kolorowe goniące światło</item>
+        <item>65: czerwone, zielone i niebieskie podążanie za światłem do przodu</item>
+        <item>66: Odwróć światło czerwone, zielone i niebieskie</item>
+        <item>67: Żółty, niebieski i fioletowy w pogoni za światłem do przodu</item>
+        <item>68: Odwróć kolor żółty, niebieski i fioletowy za światłem</item>
+        <item>69: kolorowe trzepotanie do przodu</item>
+        <item>70: odwrócone kolorowe trzepotanie</item>
+        <item>71: Przednie czerwone, zielone i niebieskie trzepotanie</item>
+        <item>72: Odwróć czerwone, zielone i niebieskie trzepotanie</item>
+        <item>73: żółte, niebieskie i fioletowe migotanie do przodu</item>
+        <item>74: Odwróć żółte, niebieskie i fioletowe trzepotanie</item>
+        <item>75: siedmiokolorowa zmiana skoku</item>
+        <item>76: Czerwone, zielone i niebieskie skoki</item>
+        <item>77: żółte, niebieskie i fioletowe skoki</item>
+        <item>78: Siedmiokolorowy stroboskop</item>
+        <item>79: czerwony, zielony i niebieski stroboskop</item>
+        <item>80: żółty, niebieski i fioletowy stroboskop</item>
+        <item>81: gradient siedmiokolorowy</item>
+        <item>82: gradient czerwony i żółty</item>
+        <item>83: czerwono-fioletowy gradient</item>
+        <item>84: gradient zielono-niebieski</item>
+        <item>85: Zielono-żółty gradient</item>
+        <item>86: Niebiesko-fioletowy gradient</item>
+        <item>87: Czerwone zamknięcie</item>
+        <item>88: zielone zamknięcie</item>
+        <item>89: Blue Closing</item>
+        <item>90: żółte zamknięcie</item>
+        <item>91: Cyan Closing</item>
+        <item>92: Fioletowe zamknięcie</item>
+        <item>93: Białe zamknięcie</item>
+        <item>94: Czerwona kurtyna</item>
+        <item>95: zielona kurtyna</item>
+        <item>96: Niebieska kurtyna</item>
+        <item>97: Żółta kurtyna</item>
+        <item>98: Cyan pull screen</item>
+        <item>99: fioletowa kurtyna</item>
+        <item>100: biała kurtyna</item>
+        <item>101: Wyścigi czerwonych koni</item>
+        <item>102: Zielone wyścigi konne</item>
+        <item>103: niebieskie wyścigi konne</item>
+        <item>104: żółte wyścigi konne</item>
+        <item>105: Niebieskie wyścigi konne</item>
+        <item>106: fioletowe wyścigi konne</item>
+        <item>107: Wyścigi białych koni</item>
+        <item>108: Bieg do przodu na czerwono</item>
+        <item>109: Reverse red running</item>
+        <item>110: pozytywne zielone bieganie</item>
+        <item>111: Reverse green running</item>
+        <item>112: Bieg do przodu na niebiesko</item>
+        <item>113: Reverse blue running</item>
+        <item>114: Bieg do przodu na żółto</item>
+        <item>115: Odwróć żółty bieg</item>
+        <item>116: Bieg do przodu w kolorze błękitnym</item>
+        <item>117: Odwrócony cyjan bieganie</item>
+        <item>118: Bieg do przodu w kolorze fioletowym</item>
+        <item>119: Odwrócony fioletowy bieg</item>
+        <item>120: bieg do przodu w kolorze białym</item>
+        <item>121: Odwróć białe biegi</item>
+        <item>122: Bieg do przodu w siedmiu kolorach</item>
+        <item>123: odwrócony bieg w siedmiu kolorach</item>
+        <item>124: Bieg do przodu w kolorze czerwonym, zielonym i niebieskim</item>
+        <item>125: Odwróć czerwony, zielony i niebieski bieg</item>
+        <item>126: Bieg do żółtego, niebieskiego i fioletowego</item>
+        <item>127: Rewers żółty, niebieski i fioletowy bieganie</item>
+        <item>128: Bieg do przodu w kolorze niebieskim, żółtym i fioletowym</item>
+        <item>129: pozytywny zielony, niebieski i żółty bieg</item>
+        <item>130: Reverse blue, yellow and blue running</item>
+        <item>131: Bieg w kierunku czerwonej kropki na białym tle</item>
+        <item>132: Odwrócone białe tło z czerwoną kropką</item>
+        <item>133: Bieg w kierunku zielonej kropki na czerwonym tle</item>
+        <item>134: Odwróć czerwone tło i zieloną kropkę</item>
+        <item>135: biegnij naprzód do niebieskiej kropki na zielonym tle</item>
+        <item>136: Odwróć zielone tło i niebieską kropkę</item>
+        <item>137: Bieg do żółtej kropki na niebieskim tle</item>
+        <item>138: Odwróć niebieską żółtą kropkę w tle</item>
+        <item>139: Bieg w kierunku żółtego tła i niebieskich kropek</item>
+        <item>140: Odwróć żółte tło i niebieską kropkę</item>
+        <item>141: Bieg w kierunku fioletowych kropek na niebieskim dnie</item>
+        <item>142: Odwróć niebieski dół i fioletową kropkę</item>
+        <item>143: Bieg w kierunku białych kropek na fioletowym tle</item>
+        <item>144: Odwrócone fioletowe tło z białymi kropkami</item>
+        <item>145: Bieg w kierunku białych kropek na czerwonym tle</item>
+        <item>146: Odwróć czerwone tło i białe kropki</item>
+        <item>147: Bieg do przodu w siedmiu kolorach z czerwonym tłem</item>
+        <item>148: Odwrócone czerwone tło w siedmiu kolorach</item>
+        <item>149: Bieg do przodu w siedmiu kolorach z zielonym tłem</item>
+        <item>150: odwrócone zielone tło w siedmiu kolorach</item>
+        <item>151: Bieg do przodu w siedmiu kolorach z niebieskim tłem</item>
+        <item>152: siedmiokolorowy bieg na odwróconym niebieskim tle</item>
+        <item>153: Bieg do przodu w siedmiu kolorach z żółtym tłem</item>
+        <item>154: Odwrócone żółte tło w siedmiu kolorach</item>
+        <item>155: Bieg do przodu w siedmiu kolorach z zielonym tłem</item>
+        <item>156: Odwróć zielone tło w siedmiu kolorach</item>
+        <item>157: Bieg do przodu w siedmiu kolorach z fioletowym tłem</item>
+        <item>158: Odwrócone fioletowe tło siedmiokolorowe</item>
+        <item>159: bieg do przodu w siedmiu kolorach na białym tle</item>
+        <item>160: odwrócone białe tło w siedmiu kolorach</item>
+        <item>161: dodatni przepływ bieli, czerwieni i bieli</item>
+        <item>162: Odwrócenie przepływu bieli, czerwieni i bieli</item>
+        <item>163: dodatni przepływ bieli, zieleni i bieli</item>
+        <item>164: Odwrócenie przepływu bieli, zieleni i bieli</item>
+        <item>165: Przepływ bieli, błękitu i bieli do przodu</item>
+        <item>166: Odwrócenie białego, niebieskiego i białego przepływu</item>
+        <item>167: Przepływ do przodu biały, żółty i biały</item>
+        <item>168: Odwrócony biały, żółty, biały przepływ</item>
+        <item>169: dodatni przepływ bieli, błękitu i bieli</item>
+        <item>170: Odwrócenie białego, niebieskiego i białego przepływu</item>
+        <item>171: Dodatni biały, fioletowy i biały przepływ</item>
+        <item>172: Odwrócenie białego, fioletowego i białego przepływu</item>
+        <item>173: dodatni przepływ czerwieni, bieli i czerwieni</item>
+        <item>174: Odwrócony przepływ czerwony biały czerwony</item>
+        <item>175: dodatni zielony, biały i zielony przepływ</item>
+        <item>176: Odwrócenie przepływu zielono-biało-zielonego</item>
+        <item>177: Przepływ do przodu niebieski, biały i niebieski</item>
+        <item>178: Odwrócenie przepływu niebieskiego, białego i niebieskiego</item>
+        <item>179: Przepływ do przodu żółty, biały i żółty</item>
+        <item>180: odwrócony żółty biały żółty przepływ</item>
+        <item>181: Dodatni przepływ koloru niebieskiego, białego i niebieskiego</item>
+        <item>182: Odwrócenie przepływu niebieskiego, białego i niebieskiego</item>
+        <item>183: Dodatni przepływ fioletu, bieli i fioletu</item>
+        <item>184: Odwrócony fioletowo-biało-fioletowy przepływ</item>
+        <item>185: pozytywne niebieskie tło z wyścigowymi zielonymi kropkami</item>
+        <item>186: Odwrócone niebieskie tło z zielonymi kropkami wyścigi konne</item>
+        <item>187: pozytywne czerwone tło i wyścigi zielonych kropek</item>
+        <item>188: Odwrócone czerwone tło i zielone kropki wyścigi konne</item>
+        <item>189: Niebieskie tło z wyścigami do przodu z czerwonymi kropkami</item>
+        <item>190: Odwrócone niebieskie tło i wyścigi konne z czerwoną kropką</item>
+        <item>191: Żółte tło i niebieskie kropki do przodu</item>
+        <item>192: Odwróć żółte tło i wyścigi niebieskich kropek</item>
+        <item>193: Żółte kropki do przodu na fioletowym wyścigu dolnym</item>
+        <item>194: Odwróć fioletowe dolne wyścigi konne z żółtą kropką</item>
+        <item>195: Żółte tło do przodu z białymi wyścigami</item>
+        <item>196: Odwrócone żółte tło i białe kropki wyścigi konne</item>
+        <item>197: Prześlij żółte kropki na białym tle wyścigi konne</item>
+        <item>198: Odwrócone białe tło wyścigi konne z żółtą kropką</item>
+        <item>199: Pędzel siedmiokolorowy do przodu</item>
+        <item>200: odwrócone szczotkowanie siedmiokolorowe</item>
+        <item>201: Przewijanie do przodu w kolorze czerwonym, zielonym i niebieskim</item>
+        <item>202: Odwróć pędzel w kolorze czerwonym, zielonym i niebieskim</item>
+        <item>203: Żółty, niebieski i fioletowy pędzel do przodu</item>
+        <item>204: Odwrócone szczotkowanie w kolorze żółto-cyjan-fiolet</item>
+        <item>205: siedmiokolorowy ekran do szczotkowania sałatek</item>
+        <item>206: Zamknięcie siedmiokolorowego koloru pędzla</item>
+        <item>207: ekran w kolorze czerwonym, zielonym i niebieskim</item>
+        <item>208: zamykanie pędzlem koloru czerwonego, zielonego i niebieskiego</item>
+        <item>209: żółty, niebieski i fioletowy sitko do sałatek</item>
+        <item>210: Żółty, cyjan i fioletowy kolor zamykania pędzla</item>
+    </array>
+    <array name="week">
+        <item>poniedziałek</item>
+        <item>wtorek</item>
+        <item>środa</item>
+        <item>czwartek</item>
+        <item>piątek</item>
+        <item>sobota</item>
+        <item>niedziela</item>
+    </array>
+    <array name="weekday">
+        <item>poniedziałek</item>
+        <item>wtorek</item>
+        <item>środa</item>
+        <item>czwartek</item>
+        <item>piątek</item>
+        <item>sobota</item>
+        <item>niedziela</item>
+    </array>
+</resources>

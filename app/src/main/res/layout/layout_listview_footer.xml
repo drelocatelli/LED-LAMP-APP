@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/rlFooter" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/llLoading" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ProgressBar android:layout_width="24dp" android:layout_height="24dp" android:indeterminateDuration="1000" style="@style/progressbar_circle"/>
+        <TextView android:textColor="@color/grayDark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/loading"/>
+    </LinearLayout>
+    <TextView android:textColor="@color/grayDark" android:gravity="center" android:id="@+id/tvTips" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/no_more_data"/>
+</RelativeLayout>

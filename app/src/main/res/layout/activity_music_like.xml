@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/relativeLayoutHeader" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="@dimen/tab_height">
+        <ImageView android:id="@+id/buttonCancell" android:background="@drawable/arrow_left" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_30" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/text_size7" android:textColor="@color/white" android:gravity="center" android:id="@+id/textViewID" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/tab_music" android:layout_centerHorizontal="true"/>
+        <Button android:textSize="@dimen/text_size6" android:textColor="@color/white" android:id="@+id/buttonMusicLib" android:background="@drawable/abcd" android:visibility="gone" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:layout_marginRight="@dimen/margin_mid" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/margin_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:id="@+id/llBottom" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="3">
+                <LinearLayout android:gravity="center" android:background="@drawable/like_music_top_bg" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                    <ImageView android:id="@+id/imageViewPre" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_60" android:src="@drawable/like_music_prev"/>
+                    <ImageView android:id="@+id/imageViewPlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/like_music_play"/>
+                    <ImageView android:id="@+id/imageViewNext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_60" android:src="@drawable/like_music_next"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                    <ImageView android:id="@+id/imageViewPlayType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_content" android:src="@drawable/like_music_loopall"/>
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_weight="0.8">
+                        <TextView android:textColor="@color/black" android:id="@+id/tvCurrentTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_centerVertical="true"/>
+                        <TextView android:textColor="@color/black" android:id="@+id/tvTotalTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                        <SeekBar android:id="@+id/seekBarMusic" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dp_5" android:layout_marginRight="@dimen/dp_5" android:maxHeight="5dp" android:max="100" android:progressDrawable="@drawable/like_sb_bar_music" android:minHeight="5dp" android:thumb="@drawable/like_slider_thumb_music" android:layout_toLeftOf="@+id/tvTotalTime" android:layout_toRightOf="@+id/tvCurrentTime"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:background="@drawable/like_music_mode_bg" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2">
+                    <LinearLayout android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                            <Button android:textSize="@dimen/text_size4" android:id="@+id/buttonBreathe" android:background="@color/transparent" android:paddingTop="@dimen/dp_30" android:paddingBottom="@dimen/dp_30" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/breathe" android:drawableTop="@drawable/like_music_mode_breathe"/>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                            <Button android:textSize="@dimen/text_size4" android:id="@+id/buttonFlash" android:background="@color/transparent" android:paddingTop="@dimen/dp_30" android:paddingBottom="@dimen/dp_30" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/flash" android:drawableTop="@drawable/like_music_mode_flash"/>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                            <Button android:textSize="@dimen/text_size4" android:id="@+id/buttonStrobe" android:background="@color/transparent" android:paddingTop="@dimen/dp_30" android:paddingBottom="@dimen/dp_30" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/strobe" android:drawableTop="@drawable/like_music_mode_strobe"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <ListView android:id="@+id/listViewMuiscsList" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/List"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

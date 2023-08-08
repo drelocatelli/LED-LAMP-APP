@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ble_mode">
+        <item>salto de três cores, 135</item>
+        <item>salto de sete cores, 136</item>
+        <item>gradiente de três cores, 137</item>
+        <item>gradiente de sete cores, 138</item>
+        <item>gradiente vermelho, 139</item>
+        <item>gradiente verde, 140</item>
+        <item>gradiente azul, 141</item>
+        <item>gradiente amarelo, 142</item>
+        <item>gradiente ciano, 143</item>
+        <item>degradê roxo, 144</item>
+        <item>gradiente branco, 145</item>
+        <item>gradiente vermelho e verde, 146</item>
+        <item>gradiente vermelho e azul, 147</item>
+        <item>gradiente verde e azul, 148</item>
+        <item>estroboscópio de sete cores, 149</item>
+        <item>estroboscópio vermelho, 150</item>
+        <item>estroboscópio verde, 151</item>
+        <item>strobe azul, 152</item>
+        <item>estroboscópio amarelo, 153</item>
+        <item>estroboscópio ciano, 154</item>
+        <item>strobe roxo, 155</item>
+        <item>strobe branco, 156</item>
+        <item>vermelho estático, 128</item>
+        <item>azul estático, 129</item>
+        <item>verde estático, 130</item>
+        <item>ciano estático, 131</item>
+        <item>amarelo estático, 132</item>
+        <item>roxo estático, 133</item>
+        <item>branco estático, 134</item>
+    </array>
+    <array name="chip_model">
+        <item>UCS512C,2</item>
+        <item>UCS512A,1</item>
+    </array>
+    <array name="ct_mode">
+        <item>quente 0% frio 100%, 128</item>
+        <item>aquecer 10% a frio 90%, 129</item>
+        <item>aquecer 20% a frio 80%, 130</item>
+        <item>quente 30% frio 70%, 131</item>
+        <item>quente 40% frio 60%, 132</item>
+        <item>quente 50% frio 50%, 133</item>
+        <item>quente 60% frio 40%, 134</item>
+        <item>quente 70% frio 30%, 135</item>
+        <item>aquecer 80% a frio 20%, 136</item>
+        <item>quente 90% frio 10%, 137</item>
+        <item>quente 100% frio 0%, 138</item>
+    </array>
+    <array name="custom_model">
+        <item>1:Gradiente,0</item>
+        <item>2:Trailing,1</item>
+        <item>3:Água corrente,2</item>
+        <item>4:Siga a luz,3</item>
+        <item>5:Empilhado,4</item>
+        <item>6:Fluxo branco x branco,5</item>
+        <item>7:Cavalo único ponto,6</item>
+        <item>8:Mais corridas de cavalos,7</item>
+        <item>9:Puxar/fechar,8</item>
+        <item>10:Gradiente de luz única,9</item>
+        <item>11:Pulo da lâmpada única,10</item>
+        <item>12:Único estroboscópio da lâmpada,11</item>
+    </array>
+    <array name="dm_mode">
+        <item>0%,128</item>
+        <item>10%,129</item>
+        <item>20%,130</item>
+        <item>30%,131</item>
+        <item>40%,132</item>
+        <item>50%,133</item>
+        <item>60%,134</item>
+        <item>70%,135</item>
+        <item>80%,136</item>
+        <item>90%,137</item>
+        <item>100%,138</item>
+    </array>
+    <array name="dmx_model">
+        <item>, 255</item>
+        <item>1: encaminhar sinfonia, 1</item>
+        <item>2: Reverse Symphony, 2</item>
+        <item>3: Transição clara e escura de sete cores para a frente, 3</item>
+        <item>4: transição de luz e escuridão de sete cores reversas, 4</item>
+        <item>5: Transição positiva em vermelho, verde e azul, 5</item>
+        <item>6: transição entre luz e escuridão invertida em vermelho, verde e azul, 6</item>
+        <item>7: Transição amarelo-azul-violeta positiva, 7</item>
+        <item>8: transição reversa amarelo-azul-violeta, 8</item>
+        <item>9: Redirecionar seis cores vermelho de transição, 9</item>
+        <item>10: vermelho de transição reversa de seis cores, 10</item>
+        <item>11: Encaminhar seis cores transição verde, 11</item>
+        <item>12: verde de transição reversa de seis cores, 12</item>
+        <item>13: Encaminhar seis cores azul de transição, 13</item>
+        <item>14: inverter azul de transição de seis cores, 14</item>
+        <item>15: ciano de transição para seis cores, 15</item>
+        <item>16: ciano de transição reversa de seis cores, 16</item>
+        <item>17: Encaminhar seis cores amarelo de transição, 17</item>
+        <item>18: amarelo de transição reversa de seis cores, 18</item>
+        <item>19: Roxo de transição de seis cores para a frente, 19</item>
+        <item>20: roxa de transição reversa de seis cores, 20</item>
+        <item>21: Forward branco de transição de seis cores, 21</item>
+        <item>22: branco de transição reversa de seis cores, 22</item>
+        <item>23: Cauda colorida para a frente, 23</item>
+        <item>24: cauda colorida reversa, 24</item>
+        <item>25: rastro vermelho para frente, 25</item>
+        <item>26: rastro vermelho invertido, 26</item>
+        <item>27: Travamento verde para frente, 27</item>
+        <item>28: trailing verde reverso, 28</item>
+        <item>29: Cauda azul dianteira, 29</item>
+        <item>30: rastro azul reverso, 30</item>
+        <item>31: Travamento amarelo para frente, 31</item>
+        <item>32: marcha à ré amarela, 32</item>
+        <item>33: Cauda ciano positiva, 33</item>
+        <item>34: cauda de ciano reversa, 34</item>
+        <item>35: Arrasto roxo positivo, 35</item>
+        <item>36: De qualquer forma, roxo, 36</item>
+        <item>37: rastreio branco para frente, 37</item>
+        <item>38: rastreio branco reverso, 38</item>
+        <item>39: Água colorida positiva, 39</item>
+        <item>40: Água colorida invertida, 40</item>
+        <item>41: Água vermelha, verde e azul positiva, 41</item>
+        <item>42: água vermelha, verde e azul invertida, 42</item>
+        <item>43: Água amarelo-azulada positiva, 43</item>
+        <item>44: inverter a água amarela e azul, 44</item>
+        <item>45: água vermelha e verde positiva, 45</item>
+        <item>46: água vermelha e verde invertida, 46</item>
+        <item>47: Avançar água verde e azul, 47</item>
+        <item>48: inverter a água verde e azul, 48</item>
+        <item>49: Água amarela e azul positiva, 49</item>
+        <item>50: inverta a água amarela e azul, 50</item>
+        <item>51: Água amarela positiva, 51</item>
+        <item>52: inverter água amarela e azul, 52</item>
+        <item>53: Água azul positiva, 53</item>
+        <item>54: água ciano invertida, 54</item>
+        <item>55: Encaminhar preto e branco, 55</item>
+        <item>56: água preta e branca invertida, 56</item>
+        <item>57: Tela colorida, 57</item>
+        <item>58: fechamento colorido, 58</item>
+        <item>59: tela vermelha, verde e azul, 59</item>
+        <item>60: Fecho vermelho, verde e azul, 60</item>
+        <item>61: Cortina de Amarillo azul morado, 61</item>
+        <item>62: Amarillo azul morado fechado, 62</item>
+        <item>63: Encaminhar para a perseguição colorida, 63</item>
+        <item>64: perseguição colorida invertida, 64</item>
+        <item>65: Encaminhar vermelho, verde e azul, 65</item>
+        <item>66: luz de perseguição vermelha, verde e azul invertida, 66</item>
+        <item>67: Luz amarela e roxa positiva, 67</item>
+        <item>68: luz amarela azul e roxa reversa, 68</item>
+        <item>69: Encaminhar para o colorido, 69</item>
+        <item>70: flutter colorido reverso, 70</item>
+        <item>71: Redirecionar vermelho, verde e azul, 71</item>
+        <item>72: reverberação vermelha, verde e azul, 72</item>
+        <item>73: Agitação amarela e azul positiva, 73</item>
+        <item>74: Azul e roxo amarelo reverso, 74</item>
+        <item>75: salto de sete cores, 75</item>
+        <item>76: salto vermelho, verde e azul, 76</item>
+        <item>77: Saltos de Amarillo azul morado, 77</item>
+        <item>78: estrobo de sete cores, 78</item>
+        <item>79: estroboscópio vermelho, verde e azul, 79</item>
+        <item>80: estroboscópio amarelo e azul, 80</item>
+        <item>81: gradiente de sete cores, 81</item>
+        <item>82: gradiente vermelho e amarelo, 82</item>
+        <item>83: gradiente vermelho e roxo, 83</item>
+        <item>84: Gradiente Verde Verde, 84</item>
+        <item>85: gradiente verde e amarelo, 85</item>
+        <item>86: gradiente azul-violeta, 86</item>
+        <item>87: Encerramento vermelho, 87</item>
+        <item>88: fechamento verde, 88</item>
+        <item>89: fechamento azul, 89</item>
+        <item>90: fechamento amarelo, 90</item>
+        <item>91: fechamento de ciano, 91</item>
+        <item>92: Encerramento roxo, 92</item>
+        <item>93: fechamento de branco, 93</item>
+        <item>94: tela vermelha, 94</item>
+        <item>95: tela verde, 95</item>
+        <item>96: tela azul, 96</item>
+        <item>97: tela amarela, 97</item>
+        <item>98: tela de puxar ciano, 98</item>
+        <item>99: cortina roxa, 99</item>
+        <item>100: tela branca, 100</item>
+        <item>101: Cavalo vermelho, 101</item>
+        <item>102: Cavalo verde, 102</item>
+        <item>103: Corrida de Cavalos Azul, 103</item>
+        <item>104: Cavalo amarelo, 104</item>
+        <item>105: Corrida de Cavalos Ciana, 105</item>
+        <item>106: Corrida de Cavalos Roxa, 106</item>
+        <item>107: Cavalo branco, 107</item>
+        <item>108: Redirecionar vermelho, 108</item>
+        <item>109: execução reversa em vermelho, 109</item>
+        <item>110: Correndo verde, 110</item>
+        <item>111: execução verde reversa, 111</item>
+        <item>112: Corrida azul para frente, 112</item>
+        <item>113: Corrida azul reversa, 113</item>
+        <item>114: frente amarela, 114</item>
+        <item>115: execução reversa amarela, 115</item>
+        <item>116: ciano avançado, 116</item>
+        <item>117: execução de ciano reverso, 117</item>
+        <item>118: Correndo em roxo, 118</item>
+        <item>119: execução reversa em roxo, 119</item>
+        <item>120: Execução de branco para frente, 120</item>
+        <item>121: execução reversa branca, 121</item>
+        <item>122: Rodando em sete cores, 122</item>
+        <item>123: execução reversa em sete cores, 123</item>
+        <item>124: Redirecionar vermelho, verde e azul, 124</item>
+        <item>125: marcha à ré vermelha, verde e azul, 125</item>
+        <item>126: Correndo amarelo e roxo, 126</item>
+        <item>127: Corrida reversa em amarelo e azul, 127</item>
+        <item>128: Execução em azul, amarelo e roxo, 128</item>
+        <item>129: frente verde, azul e amarelo, 129</item>
+        <item>130: reverso azul amarelo em execução, 130</item>
+        <item>131: Encaminhar ponto vermelho em branco, 131</item>
+        <item>132: ponto vermelho branco invertido em execução, 132</item>
+        <item>133: Encaminhar para o ponto verde do ponto vermelho, 133</item>
+        <item>134: ponto verde do ponto vermelho reverso em execução, 134</item>
+        <item>135: Encaminhar para o ponto azul do fundo verde, 135</item>
+        <item>136: Ponto azul verde reverso em execução, 136</item>
+        <item>137: ponto amarelo em frente ponto amarelo em execução, 137</item>
+        <item>138: reverso do fundo azul ponto amarelo em execução, 138</item>
+        <item>139: Encaminhar para o fundo amarelo, 139</item>
+        <item>140: Corrida de fundo amarelo invertida, 140</item>
+        <item>141: Encaminhar para o fundo do ponto roxo, 141</item>
+        <item>142: Corrida azul roxa reversa, 142</item>
+        <item>143: Ponto branco do ponto roxo para frente correndo, 143</item>
+        <item>144: execução reversa em branco roxo, 144</item>
+        <item>145: ponto branco do ponto vermelho para a frente, 145</item>
+        <item>146: ponto branco de ponto vermelho reverso em execução, 146</item>
+        <item>147: Correndo em sete cores no fundo vermelho, 147</item>
+        <item>148: execução reversa em vermelho de sete cores, 148</item>
+        <item>149: Encaminhar para as sete cores verdes, 149</item>
+        <item>150: corrida reversa de sete cores verde, 150</item>
+        <item>151: Encaminhar para o plano de fundo azul, 151</item>
+        <item>152: execução reversa em azul de sete cores, 152</item>
+        <item>153: Correndo em sete cores no fundo amarelo, 153</item>
+        <item>154: inverta o fundo amarelo com sete cores em execução, 154</item>
+        <item>155: Correndo para o final das sete cores, 155</item>
+        <item>156: execução reversa em sete cores, 156</item>
+        <item>157: Encaminhar para o fundo do roxo, 157</item>
+        <item>158: inverta o fundo roxo com sete cores em execução, 158</item>
+        <item>159: Executando em sete cores em um fundo branco, 159</item>
+        <item>160: branco reverso, cor de sete cores, 160</item>
+        <item>161: Fluxo branco e vermelho branco positivo, 161</item>
+        <item>162: fluxo branco e vermelho reverso branco, 162</item>
+        <item>163: Fluxo branco e verde branco positivo, 163</item>
+        <item>164: fluxo verde branco e branco reverso, 164</item>
+        <item>165: Fluxo branco, azul e branco positivo, 165</item>
+        <item>166: fluxo reverso branco, azul e branco, 166</item>
+        <item>167: Fluxo branco e amarelo branco positivo, 167</item>
+        <item>168: fluxo amarelo e branco branco reverso, 168</item>
+        <item>169: Fluxo branco azul e branco positivo, 169</item>
+        <item>170: fluxo reverso em branco e azul, 170</item>
+        <item>171: Fluxo branco e roxo branco positivo, 171</item>
+        <item>172: fluxo branco roxo branco invertido, 172</item>
+        <item>173: Redirecionar vermelho, branco e vermelho, 173</item>
+        <item>174: fluxo reverso vermelho, branco e vermelho, 174</item>
+        <item>175: Avançar verde, verde e verde, 175</item>
+        <item>176: fluxo verde branco verde invertido, 176</item>
+        <item>177: Encaminhar azul, branco e azul, 177</item>
+        <item>178: fluxo reverso em azul, branco e azul, 178</item>
+        <item>179: Encaminhar fluxo amarelo, amarelo e amarelo, 179</item>
+        <item>180: fluxo reverso amarelo, branco e amarelo, 180</item>
+        <item>181: Fluxo branco verde positivo, 181</item>
+        <item>182: fluxo azul-verde reverso, 182</item>
+        <item>183: fluxo roxo roxo branco positivo, 183</item>
+        <item>184: fluxo roxo roxo e branco invertido, 184</item>
+        <item>185: ponto azul-verde avançado, 185</item>
+        <item>186: Cavalo de ponto verde de fundo azul reverso, 186</item>
+        <item>187: ponto verde do ponto vermelho para a frente, 187</item>
+        <item>188: Cavalo de ponto verde reverso com ponto vermelho, 188</item>
+        <item>189: Cavalo vermelho com ponto vermelho à frente, 189</item>
+        <item>190: Cavalo reverso azul vermelho, 190</item>
+        <item>191: Encaminhar para o fundo amarelo, 191</item>
+        <item>192: cavalo verde amarelo invertido, 192</item>
+        <item>193: Corrida de cavalos em ponto amarelo, ponto amarelo, 193</item>
+        <item>194: Corrida de cavalos com pontos amarelos roxos invertidos, 194</item>
+        <item>195: Encaminhar para o ponto amarelo e branco, 195</item>
+        <item>196: cavalo branco amarelo-branco reverso, 196</item>
+        <item>197: Cavalo branco com ponto branco à frente, 197</item>
+        <item>198: corrida de cavalos com pontos amarelos invertidos, 198</item>
+        <item>199: Sete cores positivas, 199</item>
+        <item>200: inverta o pincel de sete cores, 200</item>
+        <item>201: Escova positiva vermelha, verde e azul, 201</item>
+        <item>202: cor do pincel vermelho, verde e azul invertido, 202</item>
+        <item>203: Cor amarela e azul positiva para pincel, 203</item>
+        <item>204: cor do pincel ciano amarelo invertido, 204</item>
+        <item>205: tela colorida com pincel de sete cores, 205</item>
+        <item>206: fechamento de cor de pincel de sete cores, 206</item>
+        <item>207: tela vermelha, verde e azul, 207</item>
+        <item>208: fechamento de cor de pincel vermelho, verde e azul, 208</item>
+        <item>209: tela colorida em amarelo e azul, 209</item>
+        <item>210: Fechamento de cor de pincel amarelo e roxo, 210</item>
+    </array>
+    <array name="light_banner">
+        <item>LPD6803,1</item>
+        <item>TM1803,2</item>
+        <item>UCS1903,3</item>
+        <item>WS2811,4</item>
+        <item>TM1812,5</item>
+        <item>TM1809,6</item>
+        <item>WS2801,7</item>
+        <item>TLS3001,8</item>
+        <item>TLS3008,9</item>
+        <item>P9813,10</item>
+        <item>UCS8806,11</item>
+        <item>TM1829,12</item>
+        <item>TM1909,13</item>
+    </array>
+    <array name="light_mode">
+        <item>Desligue a luz</item>
+        <item>vermelho estático</item>
+        <item>azul estático</item>
+        <item>verde estático</item>
+        <item>ciano estático</item>
+        <item>amarelo estático</item>
+        <item>roxo estático</item>
+        <item>branco estático</item>
+        <item>salto de três cores</item>
+        <item>salto de sete cores</item>
+        <item>gradiente de três cores</item>
+        <item>gradiente de sete cores</item>
+        <item>gradiente vermelho</item>
+        <item>gradiente verde</item>
+        <item>gradiente azul</item>
+        <item>gradiente amarelo</item>
+        <item>gradiente ciano</item>
+        <item>degradê roxo</item>
+        <item>gradiente branco</item>
+        <item>gradiente vermelho e verde</item>
+        <item>gradiente vermelho e azul</item>
+        <item>gradiente verde e azul</item>
+        <item>estroboscópio de sete cores</item>
+        <item>estroboscópio vermelho</item>
+        <item>estroboscópio verde</item>
+        <item>strobe azul</item>
+        <item>estroboscópio amarelo</item>
+        <item>estroboscópio ciano</item>
+        <item>strobe roxo</item>
+        <item>strobe branco</item>
+        <item>MODE30</item>
+        <item>MODE31</item>
+        <item>MODE32</item>
+        <item>MODE33</item>
+        <item>MODE34</item>
+        <item>MODE35</item>
+        <item>MODE36</item>
+        <item>MODE37</item>
+        <item>MODE38</item>
+        <item>MODE39</item>
+        <item>MODE40</item>
+        <item>MODE41</item>
+        <item>MODE42</item>
+        <item>MODE43</item>
+        <item>MODE44</item>
+        <item>MODE45</item>
+        <item>MODE46</item>
+        <item>MODE47</item>
+        <item>MODE48</item>
+        <item>MODE49</item>
+        <item>MODE50</item>
+        <item>MODE51</item>
+        <item>MODE52</item>
+        <item>MODE53</item>
+        <item>MODE54</item>
+        <item>MODE55</item>
+        <item>MODE56</item>
+        <item>MODE57</item>
+        <item>MODE58</item>
+        <item>MODE59</item>
+        <item>MODE60</item>
+        <item>MODE61</item>
+        <item>MODE62</item>
+        <item>MODE63</item>
+        <item>MODE64</item>
+        <item>MODE65</item>
+        <item>MODE66</item>
+        <item>MODE67</item>
+        <item>MODE68</item>
+        <item>MODE69</item>
+        <item>MODE70</item>
+        <item>MODE71</item>
+        <item>MODE72</item>
+        <item>MODE73</item>
+        <item>MODE74</item>
+        <item>MODE75</item>
+        <item>MODE76</item>
+        <item>MODE77</item>
+        <item>MODE78</item>
+        <item>MODE79</item>
+        <item>MODE80</item>
+        <item>MODE81</item>
+        <item>MODE82</item>
+        <item>MODE83</item>
+        <item>MODE84</item>
+        <item>MODE85</item>
+        <item>MODE86</item>
+        <item>MODE87</item>
+        <item>MODE88</item>
+        <item>MODE89</item>
+        <item>MODE90</item>
+        <item>MODE91</item>
+        <item>MODE92</item>
+        <item>MODE93</item>
+        <item>MODE94</item>
+        <item>MODE95</item>
+        <item>MODE96</item>
+        <item>MODE97</item>
+        <item>MODE98</item>
+        <item>MODE99</item>
+        <item>MODE100</item>
+        <item>MODE101</item>
+        <item>MODE102</item>
+        <item>MODE103</item>
+        <item>MODE104</item>
+        <item>MODE105</item>
+        <item>MODE106</item>
+        <item>MODE107</item>
+        <item>MODE108</item>
+        <item>MODE109</item>
+        <item>MODE110</item>
+        <item>MODE111</item>
+        <item>MODE112</item>
+        <item>MODE113</item>
+        <item>MODE114</item>
+        <item>MODE115</item>
+        <item>MODE116</item>
+        <item>MODE117</item>
+        <item>MODE118</item>
+        <item>MODE119</item>
+        <item>MODE120</item>
+        <item>MODE121</item>
+        <item>MODE122</item>
+        <item>MODE123</item>
+        <item>MODE124</item>
+        <item>MODE125</item>
+        <item>MODE126</item>
+        <item>MODE127</item>
+        <item>MODE128</item>
+        <item>MODE129</item>
+        <item>MODE130</item>
+        <item>MODE131</item>
+        <item>MODE132</item>
+        <item>MODE133</item>
+        <item>MODE134</item>
+        <item>MODE135</item>
+        <item>MODE136</item>
+        <item>MODE137</item>
+        <item>MODE138</item>
+        <item>MODE139</item>
+        <item>MODE140</item>
+        <item>MODE141</item>
+        <item>MODE142</item>
+        <item>MODE143</item>
+        <item>MODE144</item>
+        <item>MODE145</item>
+        <item>MODE146</item>
+        <item>MODE147</item>
+        <item>MODE148</item>
+        <item>MODE149</item>
+        <item>MODE150</item>
+        <item>MODE151</item>
+        <item>MODE152</item>
+        <item>MODE153</item>
+        <item>MODE154</item>
+        <item>MODE155</item>
+        <item>MODE156</item>
+        <item>MODE157</item>
+        <item>MODE158</item>
+        <item>MODE159</item>
+        <item>MODE160</item>
+        <item>MODE161</item>
+        <item>MODE162</item>
+        <item>MODE163</item>
+        <item>MODE164</item>
+        <item>MODE165</item>
+        <item>MODE166</item>
+        <item>MODE167</item>
+        <item>MODE168</item>
+        <item>MODE169</item>
+        <item>MODE170</item>
+        <item>MODE171</item>
+        <item>MODE172</item>
+        <item>MODE173</item>
+        <item>MODE174</item>
+        <item>MODE175</item>
+        <item>MODE176</item>
+        <item>MODE177</item>
+        <item>MODE178</item>
+        <item>MODE179</item>
+        <item>MODE180</item>
+        <item>MODE181</item>
+        <item>MODE182</item>
+        <item>MODE183</item>
+        <item>MODE184</item>
+        <item>MODE185</item>
+        <item>MODE186</item>
+        <item>MODE187</item>
+        <item>MODE188</item>
+        <item>MODE189</item>
+        <item>MODE190</item>
+        <item>MODE191</item>
+        <item>MODE192</item>
+        <item>MODE193</item>
+        <item>MODE194</item>
+        <item>MODE195</item>
+        <item>MODE196</item>
+        <item>MODE197</item>
+        <item>MODE198</item>
+        <item>MODE199</item>
+        <item>MODE200</item>
+        <item>MODE201</item>
+        <item>MODE202</item>
+        <item>MODE203</item>
+        <item>MODE204</item>
+        <item>MODE205</item>
+        <item>MODE206</item>
+        <item>MODE207</item>
+        <item>MODE208</item>
+        <item>MODE209</item>
+        <item>MODE210</item>
+        <item>MODE211</item>
+    </array>
+    <array name="modelble">
+        <item>Desligue a luz</item>
+        <item>Acenda a luz</item>
+        <item>vermelho estático</item>
+        <item>azul estático</item>
+        <item>verde estático</item>
+        <item>ciano estático</item>
+        <item>amarelo estático</item>
+        <item>roxo estático</item>
+        <item>branco estático</item>
+        <item>salto de três cores</item>
+        <item>salto de sete cores</item>
+        <item>gradiente de três cores</item>
+        <item>gradiente de sete cores</item>
+        <item>Branco fresco</item>
+        <item>Branco quente</item>
+        <item>Monocromático</item>
+    </array>
+    <array name="modelsun">
+        <item>Desligue as luzes</item>
+        <item>Ligue a luz</item>
+        <item>Cor legal</item>
+        <item>Cor quente</item>
+        <item>Cor natural</item>
+        <item>Mudança de salto branco quente</item>
+        <item>Gradiente branco</item>
+        <item>Gradiente de cores quentes</item>
+        <item>Gradiente de cor natural</item>
+        <item>Gradiente branco quente</item>
+        <item>Estroboscópio branco quente</item>
+        <item>Estroboscópio branco</item>
+        <item>Estroboscópio de cor quente</item>
+        <item>Estroboscópio de cor natural</item>
+    </array>
+    <array name="rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+        <item>RGBW,7</item>
+        <item>RBGW,8</item>
+        <item>GRBW,9</item>
+        <item>GBRW,10</item>
+        <item>BRGW,11</item>
+        <item>BGRW,12</item>
+    </array>
+    <array name="timer_model_dmx">
+        <item>Desligue a luz</item>
+        <item>Acenda a luz</item>
+        <item>loop automático</item>
+        <item>1: encaminhar sinfonia</item>
+        <item>2: Reverse Symphony</item>
+        <item>3: Transição clara e escura de sete cores para frente</item>
+        <item>4: transição clara e escura de sete cores reversa</item>
+        <item>5: transição positiva para vermelho, verde, azul e escuro</item>
+        <item>6: reverte a transição entre claro e escuro, vermelho, verde e azul</item>
+        <item>7: Transição escura amarela-azul-violeta positiva</item>
+        <item>8: transição escura amarela-azul-violeta reversa</item>
+        <item>9: Transição de seis cores para frente</item>
+        <item>10: vermelho de transição de seis cores invertido</item>
+        <item>11: Transição de seis cores para frente em verde</item>
+        <item>12: inverter a transição de seis cores em verde</item>
+        <item>13: Transição de seis cores para frente</item>
+        <item>14: azul de transição reversa de seis cores</item>
+        <item>15: Ciano de transição de seis cores para frente</item>
+        <item>16: ciano de transição reversa de seis cores</item>
+        <item>17: Transição de seis cores para frente amarela</item>
+        <item>18: amarelo de transição reversa de seis cores</item>
+        <item>19: Transição de seis cores para frente</item>
+        <item>20: roxa de transição reversa de seis cores</item>
+        <item>21: branco de transição de seis cores para frente</item>
+        <item>22: branco de transição reversa de seis cores</item>
+        <item>23: Traçado colorido para frente</item>
+        <item>24: rastreio colorido inverso</item>
+        <item>25: trailing vermelho positivo</item>
+        <item>26: Travamento em vermelho reverso</item>
+        <item>27: Travamento verde para frente</item>
+        <item>28: Travamento verde reverso</item>
+        <item>29: Traçado azul para frente</item>
+        <item>30: Rastejamento azul reverso</item>
+        <item>31: Travamento amarelo para frente</item>
+        <item>32: marcha à ré amarela</item>
+        <item>33: rastro de ciano positivo</item>
+        <item>34: rastreio ciano reverso</item>
+        <item>35: Travessia roxa positiva</item>
+        <item>36: Roxo à direita</item>
+        <item>37: Traçado de avanço branco</item>
+        <item>38: Travamento branco reverso</item>
+        <item>39: Água colorida positiva</item>
+        <item>40: Água colorida invertida</item>
+        <item>41: Água positiva vermelha, verde e azul</item>
+        <item>42: Água vermelha, verde e azul invertida</item>
+        <item>43: Água amarela e roxa positiva</item>
+        <item>44: Inverta a água amarela e azul</item>
+        <item>45: Água vermelha e verde positiva</item>
+        <item>46: inverter a água vermelha e verde</item>
+        <item>47: Água verde e azul positiva</item>
+        <item>48: inverter a água verde e azul</item>
+        <item>49: Água amarela e azul positiva</item>
+        <item>50: inverter a água amarela e azul</item>
+        <item>51: Fluxo de Água Amarelo Positivo</item>
+        <item>52: inverter a água amarela e azul</item>
+        <item>53: Água que flui positivamente</item>
+        <item>54: água ciano invertida</item>
+        <item>55: Encaminhar água em preto e branco</item>
+        <item>56: Fluxo reverso em preto e branco</item>
+        <item>57: tela colorida</item>
+        <item>58: Encerramento colorido</item>
+        <item>59: cortina vermelha, verde e azul</item>
+        <item>60: Encerramento vermelho, verde e azul</item>
+        <item>61: Cortina de Huang Qingzi</item>
+        <item>62: fechamento de Huang Qingzi</item>
+        <item>63: Luz de perseguição de cor positiva</item>
+        <item>64: Luz de perseguição colorida invertida</item>
+        <item>65: Luz de perseguição positiva em vermelho, verde e azul</item>
+        <item>66: Luz vermelha, verde e azul invertida</item>
+        <item>67: Luz de perseguição amarela e roxa positiva</item>
+        <item>68: Luz de busca azul e roxa amarela reversa</item>
+        <item>69: Encaminhar para o colorido</item>
+        <item>70: Flare Colorido Reverso</item>
+        <item>71: Encaminhar vermelho, verde e azul</item>
+        <item>72: Flutuação reversa em vermelho, verde e azul</item>
+        <item>73: Agitação amarela e azul positiva</item>
+        <item>74: Amarelo azul e roxo reverso esvoaçante</item>
+        <item>75: salto de sete cores</item>
+        <item>76: Salto Vermelho, Verde e Azul</item>
+        <item>77: Saltando de Huang Qingzi</item>
+        <item>78: estrobo de sete cores</item>
+        <item>79: estroboscópio vermelho, verde e azul</item>
+        <item>80: estroboscópio amarelo e azul</item>
+        <item>81: gradiente de sete cores</item>
+        <item>82: gradiente vermelho e amarelo</item>
+        <item>83: gradiente vermelho e roxo</item>
+        <item>84: Gradiente Verde Verde</item>
+        <item>85: gradiente verde e amarelo</item>
+        <item>86: gradiente azul-violeta</item>
+        <item>87: Encerramento vermelho</item>
+        <item>88: Encerramento verde</item>
+        <item>89: Encerramento azul</item>
+        <item>90: Encerramento amarelo</item>
+        <item>91: fechamento de ciano</item>
+        <item>92: Encerramento roxo</item>
+        <item>93: Encerramento em branco</item>
+        <item>94: cortina vermelha</item>
+        <item>95: Tela verde</item>
+        <item>96: Tela azul</item>
+        <item>97: cortina amarela</item>
+        <item>98: tela de puxar ciano</item>
+        <item>99: cortina roxa</item>
+        <item>100: cortina branca</item>
+        <item>101: Corrida de cavalos vermelha</item>
+        <item>102: Corrida de Cavalos Verdes</item>
+        <item>103: Corrida de Cavalos Azul</item>
+        <item>104: Corrida de cavalos amarela</item>
+        <item>105: Corrida de Cavalos Ciana</item>
+        <item>106: Corrida de Cavalos Roxa</item>
+        <item>107: Corrida de cavalos brancos</item>
+        <item>108: Correndo em vermelho</item>
+        <item>109: Corrida em vermelho invertida</item>
+        <item>110: Correndo em verde</item>
+        <item>111: Corrida Verde Inversa</item>
+        <item>112: avanço para frente em azul</item>
+        <item>113: Corrida azul reversa</item>
+        <item>114: Corrida amarela para frente</item>
+        <item>115: execução reversa amarela</item>
+        <item>116: Correndo em ciano</item>
+        <item>117: Execução em ciano reverso</item>
+        <item>118: Correndo em roxo</item>
+        <item>119: Corrida roxa reversa</item>
+        <item>120: Correndo em branco</item>
+        <item>121: Corrida branca reversa</item>
+        <item>122: Correndo em sete cores</item>
+        <item>123: Corrida reversa em sete cores</item>
+        <item>124: Redirecionar vermelho, verde e azul</item>
+        <item>125: Corrida reversa em vermelho, verde e azul</item>
+        <item>126: Correndo amarelo e roxo</item>
+        <item>127: Corrida reversa em amarelo e azul</item>
+        <item>128: Corrida azul, amarela e roxa para a frente</item>
+        <item>129: frente verde, azul e amarelo</item>
+        <item>130: Corrida reversa em azul, amarelo e verde</item>
+        <item>131: Encaminhar ponto vermelho no branco</item>
+        <item>132: Ponto vermelho reverso sendo executado em fundo branco</item>
+        <item>133: Correndo em direção ao ponto vermelho do ponto verde</item>
+        <item>134: Ponto verde do ponto vermelho invertido</item>
+        <item>135: Encaminhar para o ponto azul verde</item>
+        <item>136: Ponto azul invertido em verde correndo</item>
+        <item>137: ponto amarelo do ponto azul para a frente</item>
+        <item>138: Ponto amarelo reverso em ponto amarelo</item>
+        <item>139: Encaminhar para o fundo amarelo,</item>
+        <item>140: Ponto reverso do fundo amarelo</item>
+        <item>141: Correndo em direção ao fundo do ponto roxo</item>
+        <item>142: Corrida azul roxa reversa</item>
+        <item>143: ponto branco do ponto roxo anterior</item>
+        <item>144: ponto branco do ponto roxo invertido</item>
+        <item>145: Correndo em direção ao ponto vermelho, ponto branco</item>
+        <item>146: Ponto de execução reverso vermelho-branco</item>
+        <item>147: Correndo em sete cores na parte inferior do vermelho</item>
+        <item>148: Corrida reversa em vermelho de sete cores</item>
+        <item>149: Encaminhar para as sete cores verdes</item>
+        <item>150: Corrida reversa em sete cores verde</item>
+        <item>151: Correndo em sete tons de fundo azul</item>
+        <item>152: Reverse azul e sete cores em execução</item>
+        <item>153: Correndo em sete cores na parte de baixo do amarelo</item>
+        <item>154: Inverta o fundo amarelo com sete cores em andamento</item>
+        <item>155: Correndo para o final das sete cores</item>
+        <item>156: Execuções Sete Verdes Invertidas</item>
+        <item>157: Encaminhar para o fundo da cor roxa</item>
+        <item>158: Fundo roxo reverso de sete cores em execução</item>
+        <item>159: Executando sete cores em branco</item>
+        <item>160: Corrida reversa branca de sete cores</item>
+        <item>161: Fluxo branco e branco para frente</item>
+        <item>162: fluxo branco e vermelho reverso branco</item>
+        <item>163: Fluxo branco e verde branco positivo</item>
+        <item>164: Fluxo branco e verde branco reverso</item>
+        <item>165: Fluxo branco azul e branco positivo</item>
+        <item>166: fluxo reverso branco, azul e branco</item>
+        <item>167: fluxo branco e amarelo branco positivo</item>
+        <item>168: fluxo branco amarelo e branco reverso</item>
+        <item>169: Fluxo branco e branco positivo</item>
+        <item>170: fluxo branco azul e branco invertido</item>
+        <item>171: Fluxo branco roxo branco positivo</item>
+        <item>172: fluxo branco roxo branco invertido</item>
+        <item>173: fluxo para frente vermelho, branco e vermelho</item>
+        <item>174: fluxo reverso vermelho, branco e vermelho</item>
+        <item>175: Fluxo verde, verde e verde para a frente</item>
+        <item>176: Fluxo verde, branco e verde reverso</item>
+        <item>177: fluxo azul, branco e azul para a frente</item>
+        <item>178: Fluxo reverso em azul, branco e azul</item>
+        <item>179: Encaminhar fluxo amarelo, amarelo e amarelo</item>
+        <item>180: Fluxo reverso amarelo, branco e amarelo</item>
+        <item>181: Fluxo branco verde positivo</item>
+        <item>182: Fluxo reverso em azul e branco</item>
+        <item>183: Fluxo roxo e branco roxo positivo</item>
+        <item>184: fluxo reverso roxo-violeta</item>
+        <item>185: Corrida de cavalos ponto a ponto azul e verde</item>
+        <item>186: Corrida de cavalos com pontos azuis e verdes reversos</item>
+        <item>187: Corrida de cavalos ponto a ponto verde ponto a ponto</item>
+        <item>188: Corrida de cavalos ponto verde reversa com ponto vermelho</item>
+        <item>189: Cavalo vermelho com ponto vermelho à frente</item>
+        <item>190: Corrida de cavalos com ponto vermelho azul invertido</item>
+        <item>191: Encaminhar para o fundo amarelo do cavalo verde</item>
+        <item>192: Corrida de cavalos azul invertida com fundo amarelo</item>
+        <item>193: Corrida de cavalos do ponto amarelo do ponto roxo para a frente</item>
+        <item>194: Corrida de cavalos com ponto amarelo roxo reverso</item>
+        <item>195: Corrida de cavalos amarela e branca para a frente</item>
+        <item>196: Corrida de cavalos com pontos amarelos e brancos reversos</item>
+        <item>197: Corrida de cavalos amarela para frente com ponto branco</item>
+        <item>198: corrida de cavalos com pontos amarelos invertidos</item>
+        <item>199: Pincel de sete cores positivo</item>
+        <item>200: cor de pincel de sete cores inversa</item>
+        <item>201: Cor vermelha, verde e azul positiva</item>
+        <item>202: Cor de pincel vermelho, verde e azul invertida</item>
+        <item>203: Cor amarela e azul positiva do pincel</item>
+        <item>204: Cor do pincel ciano amarelo invertido</item>
+        <item>205: tela colorida de pincel de sete cores</item>
+        <item>206: fechamento de cor de pincel de sete cores</item>
+        <item>207: tela escovada vermelha, verde e azul</item>
+        <item>208: Fechamento da cor do pincel vermelho, verde e azul</item>
+        <item>209: Tela colorida com pincel amarelo e azul</item>
+        <item>210: Fechamento da cor do pincel amarelo e azul</item>
+    </array>
+    <array name="week">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </array>
+    <array name="weekday">
+        <item>Segunda-feira</item>
+        <item>Terça</item>
+        <item>Quarta-feira</item>
+        <item>Quinta-feira</item>
+        <item>Sexta-feira</item>
+        <item>Sabado</item>
+        <item>Domingo</item>
+    </array>
+    <string name="Auxiliary_function">Botão</string>
+    <string name="Bubble">Bubbles</string>
+    <string name="ButtonEight">cavalo</string>
+    <string name="ButtonFive">Pilha</string>
+    <string name="ButtonSeven">fluxo</string>
+    <string name="ButtonSix">puxe a tela</string>
+    <string name="Closetiming">fechamento do tempo</string>
+    <string name="Code">codificação</string>
+    <string name="FD">tailing</string>
+    <string name="FS">perseguindo luz</string>
+    <string name="FW">água corrente</string>
+    <string name="Forward">Positivo</string>
+    <string name="Language">Linguagem</string>
+    <string name="RandomPlay">reprodução aleatória</string>
+    <string name="Reverse">Reversa</string>
+    <string name="Sendtiming">envio de tempo</string>
+    <string name="SequentialPlay">reprodução sequencial</string>
+    <string name="SinglePlay">loop único</string>
+    <string name="Values_can_be_the_same">Values cannot be the same</string>
+    <string name="Voicecontrol">controle de voz</string>
+    <string name="abc_action_bar_home_description">Navegar para a página inicial</string>
+    <string name="abc_action_bar_up_description">Navegar para cima</string>
+    <string name="abc_action_menu_overflow_description">Mais opções</string>
+    <string name="abc_action_mode_done">Concluído</string>
+    <string name="abc_activity_chooser_view_see_all">Ver tudo</string>
+    <string name="abc_activitychooserview_choose_application">Selecionar um app</string>
+    <string name="abc_capital_off">DESATIVADO</string>
+    <string name="abc_capital_on">ATIVADO</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">espaço</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Pesquisar…</string>
+    <string name="abc_searchview_description_clear">Limpar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de pesquisa</string>
+    <string name="abc_searchview_description_search">Pesquisar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Pesquisa por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartilhar com</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartilhar com %s</string>
+    <string name="abc_toolbar_collapse_description">Recolher</string>
+    <string name="ablum_title">título:%1$s Artista:%2$s Álbum:%3$s</string>
+    <string name="about_us_and_help">Sobre nós</string>
+    <string name="account_format_error">O método de autenticação não está formatado corretamente</string>
+    <string name="accumulation">AC</string>
+    <string name="action_settings">Configurações</string>
+    <string name="add2lib">determina a escolha</string>
+    <string name="add2lib_all">selecione todos</string>
+    <string name="addTimer">Adicionar tempo</string>
+    <string name="add_device">Adicionar dispositivo de controle</string>
+    <string name="add_device_successfully">adicionar o dispositivo com sucesso</string>
+    <string name="add_group">Adicionar um novo grupo</string>
+    <string name="adding_device">está adicionando equipamento</string>
+    <string name="agree">Agree</string>
+    <string name="all_off">completo</string>
+    <string name="all_on">totalmente aberto</string>
+    <string name="allcomment">Todos os comentários</string>
+    <string name="app_name">LED LAMP</string>
+    <string name="aquatic_mode">水草模式</string>
+    <string name="authorization_alert">a partir de Android 6.0, um aplicativo deve ser transformado [Serviços de Localização] para procurar dispositivos Bluetooth!</string>
+    <string name="authorization_title">Dica:</string>
+    <string name="b">B</string>
+    <string name="back">retornar</string>
+    <string name="base_setting">Configurações</string>
+    <string name="battery">Bateria</string>
+    <string name="bind_end">OK</string>
+    <string name="ble_not_supported">Este dispositivo não é suportado</string>
+    <string name="blue">%1$s</string>
+    <string name="breathe">Respirando</string>
+    <string name="brightness">brilho</string>
+    <string name="brightness_set">Brilho:%1$s</string>
+    <string name="btn_pix_number">pontos</string>
+    <string name="btn_set_pix_number">conjunto de pixels (0-1024)</string>
+    <string name="btquery">Inquérito da bateria da temperatura</string>
+    <string name="c">C</string>
+    <string name="camera_permissions_disabled">Camera permissions are disabled, please be sure to enable camera permissions!</string>
+    <string name="can_not_connect">O WIFI pode não estar correto, reconectar após 3 segundos ou selecionar novo Wifi para tentar novamente!</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cancell">cancele</string>
+    <string name="cancell_dialog">cancelar</string>
+    <string name="change_skin">Alterar capa</string>
+    <string name="channelset">Configuração do canal de cor</string>
+    <string name="charts">fórum gráfico</string>
+    <string name="chiptypevaluetip">chip select tipo de classe!</string>
+    <string name="choose">Escolha semana</string>
+    <string name="choosemode">Modo de seleção</string>
+    <string name="chose">Por favor, selecione um vídeo curto</string>
+    <string name="chose_list">Por favor, selecione o conteúdo de reprodução da lista de reprodução</string>
+    <string name="chose_picthor">só pode selecionar uma imagem</string>
+    <string name="chose_video">só pode selecionar um vídeo</string>
+    <string name="circulation">loop</string>
+    <string name="clear">clear</string>
+    <string name="click_to_restart">Clique para tentar novamente</string>
+    <string name="close">fechar</string>
+    <string name="colorful_mode">多彩模式</string>
+    <string name="colour">cor</string>
+    <string name="comment">comentário</string>
+    <string name="comment_content">corpo</string>
+    <string name="comment_detail">Detalhes do comentário</string>
+    <string name="comment_publish">Publicar</string>
+    <string name="comment_publish_success">Publicado com sucesso</string>
+    <string name="comment_title">título</string>
+    <string name="conenct_device">%1$s dispositivo conectado:%2$s</string>
+    <string name="confirm">confirme</string>
+    <string name="confirm_light_flash_slowly">confirme se a luz pisca lentamente</string>
+    <string name="confirm_the_light_flash">confirme o estado piscando da luz</string>
+    <string name="confirmation_light_flash_ble">3> A luz de confirmação pisca rapidamente (luz branca)</string>
+    <string name="confirmation_light_flash_hotspot">3> A luz de confirmação pisca lentamente (luz vermelha)</string>
+    <string name="confirmation_light_flash_wifi">3> A luz de confirmação pisca rapidamente (luz azul)</string>
+    <string name="connect_count">%1$s sdevice</string>
+    <string name="connect_success">A conexão é bem sucedida!</string>
+    <string name="connected_to_the_hotspot_shown">1. Conecte o telefone ao ponto de acesso mostrado na figura abaixo</string>
+    <string name="connecting">Conectar...</string>
+    <string name="control">Controle</string>
+    <string name="cool_warm">branco \n cor quente:%1$s cor legal:%2$s</string>
+    <string name="copy">Copiar</string>
+    <string name="coral_artistic_conception">珊瑚意境</string>
+    <string name="current_mode">modo atual</string>
+    <string name="current_mode_format">%1$s</string>
+    <string name="current_rgb_format">atual RGB Ordenar:%1$s</string>
+    <string name="current_version">Versão Atual</string>
+    <string name="currentquery">Consulta de dados atual</string>
+    <string name="custom">personalizado</string>
+    <string name="deep_sea_mode">深海意境</string>
+    <string name="define_system">definido pelo usuário</string>
+    <string name="delete">excluir</string>
+    <string name="delete_group">Excluir grupo%1$s</string>
+    <string name="deletthis">Arraste aqui para Excluir</string>
+    <string name="device_has_restarted">1. Confirme se o dispositivo foi reiniciado e a luz está piscando rapidamente</string>
+    <string name="device_list">lista de dispositivos</string>
+    <string name="devices_all">todos os dispositivos</string>
+    <string name="disconnect">Disconnect Bluetooth...</string>
+    <string name="disconnect_bluetooth">Bluetooth será desconectado ...</string>
+    <string name="download_center">Centro de Download</string>
+    <string name="editTimer">Editar tempo</string>
+    <string name="edit_group_please">Por favor, selecione o dispositivo no primeiro grupo</string>
+    <string name="enter">Por favor insira a semana de modo</string>
+    <string name="fan_rotational_temperature">Ajuste da temperatura de rotação do ventilador</string>
+    <string name="filesize">O arquivo de vídeo não pode ser maior que 20MB</string>
+    <string name="firstlogin">Por favor, faça o login primeiro</string>
+    <string name="five">Fri</string>
+    <string name="flash">Estroboscópico</string>
+    <string name="floor">andar</string>
+    <string name="floor_host">Terreno</string>
+    <string name="flow">WxWflow</string>
+    <string name="forum">fórum</string>
+    <string name="four">Thu</string>
+    <string name="g">G</string>
+    <string name="get_checkcode">Obtenha o código de verificação</string>
+    <string name="gpsNotifyMsg"> O aplicativo atual precisa ativar a localização.  nPor favor, clique em  Configurações \" -  Serviços de Localização \" - para abrir a função de localização. </string>
+    <string name="gradient">gradiente</string>
+    <string name="green">%1$s</string>
+    <string name="group_ble_device">grupo</string>
+    <string name="groupname_cannot_same">o mesmo nome do grupo não pode ser!</string>
+    <string name="help">Ajuda</string>
+    <string name="home">Casa</string>
+    <string name="home_page">página inicial</string>
+    <string name="hour">horas</string>
+    <string name="input_account">Por favor, digite uma conta</string>
+    <string name="input_length_error">Erro de comprimento de entrada</string>
+    <string name="input_not_null">entrada não pode estar vazia</string>
+    <string name="input_password">Por favor digite a senha</string>
+    <string name="is_it_2_4">2. Verifique se o Wi-Fi é 2,4 GHz</string>
+    <string name="is_the_password_correct">3. Verifique se a senha do Wi-Fi está correta</string>
+    <string name="jump">Pular</string>
+    <string name="jump_over">ignorar</string>
+    <string name="keyStr">1234567890abcdef</string>
+    <string name="key_in_numbers">Por favor insira um número!</string>
+    <string name="light_code">número de códigos de endereço</string>
+    <string name="lightning_mode">Relâmpago</string>
+    <string name="loading">Carregando ...</string>
+    <string name="login">login</string>
+    <string name="loginapp">Please login to the forum first</string>
+    <string name="logon_agree_policy1">Sign in to read and agree to the</string>
+    <string name="logon_agree_policy2">service agreement</string>
+    <string name="logout">Logout</string>
+    <string name="long_press_the_controller_colorbtn">2> Pressione longamente a tecla de cor do controlador por 5s</string>
+    <string name="long_press_the_controller_muscibtn">2> Pressione longamente a tecla de música do controlador por 5s</string>
+    <string name="long_press_the_controller_onoffbtn">2> Pressione longamente a tecla de troca do controlador por 5s</string>
+    <string name="look">Veja este comentário</string>
+    <string name="looking">Preview...</string>
+    <string name="main_tab_text_service">LED LAMP</string>
+    <string name="marine_mode">海洋模式</string>
+    <string name="micro_authorized">o microfone está autorizado</string>
+    <string name="minute">minutos</string>
+    <string name="mode">modo</string>
+    <string name="mode_select">Seleção de modo</string>
+    <string name="mode_set">modo:%1$s</string>
+    <string name="model">modo</string>
+    <string name="msg_no_add_scene">O conteúdo não está selecionado, esta operação é inválida</string>
+    <string name="msg_not_empty">os dados não são salvos, tem certeza de que deseja sair?</string>
+    <string name="msg_sending_online">Digitalizando ...</string>
+    <string name="multipoint_fast_running">MR</string>
+    <string name="music_lib">biblioteca de músicas</string>
+    <string name="music_style_pop">pop</string>
+    <string name="music_style_rock">rock</string>
+    <string name="music_style_soft">suave</string>
+    <string name="my_personal">Mina</string>
+    <string name="natural_light">cor natural</string>
+    <string name="network_timeout">tempo limite de rede de conexão do dispositivo</string>
+    <string name="new_password">nova senha:</string>
+    <string name="next_step">Próxima etapa</string>
+    <string name="no_account">Sem conta?</string>
+    <string name="no_device_found">​​Nenhum dispositivo Bluetooth foi encontrado!</string>
+    <string name="no_more_data">não há mais dados</string>
+    <string name="no_url">Sem vídeo</string>
+    <string name="not_used">Not Used</string>
+    <string name="nothing">sem dados</string>
+    <string name="ok">OK</string>
+    <string name="old_password">senha antiga:</string>
+    <string name="one">Mon</string>
+    <string name="open_album">Abrir álbum</string>
+    <string name="open_close">O/C</string>
+    <string name="openapp">Clique no canto superior direito para adicionar software. Pela primeira vez, clique no botão de ajuda no canto inferior direito para visualizar o guia de operação</string>
+    <string name="p">P</string>
+    <string name="p_explain">explicação gráfica</string>
+    <string name="pair_code">Par de código</string>
+    <string name="pair_code_set">Current Code: %1$s</string>
+    <string name="password">senha</string>
+    <string name="pecent_photos">Fotos recentes</string>
+    <string name="phone_connected_to_hotspot">conecte o WiFi do telefone celular ao ponto de acesso do dispositivo</string>
+    <string name="phone_or_email">número de celular ou email</string>
+    <string name="picture">A imagem não pode ser maior que 1MB, selecione novamente</string>
+    <string name="picture_all_audio">Todo o áudio</string>
+    <string name="picture_audio">O acesso à gravação do sistema foi negado</string>
+    <string name="picture_audio_empty">Você pode gravar áudio usando a gravação do sistema</string>
+    <string name="picture_audio_error">O áudio está corrompido</string>
+    <string name="picture_camera">Obter permissão da câmera do sistema negada</string>
+    <string name="picture_camera_roll">Rolo da câmera</string>
+    <string name="picture_camera_roll_num">%1$s (%2$d)</string>
+    <string name="picture_cancel">Cancelar</string>
+    <string name="picture_completed">Concluído</string>
+    <string name="picture_confirm">OK</string>
+    <string name="picture_done">Concluído</string>
+    <string name="picture_done_front_num">%1$d/%2$d concluída</string>
+    <string name="picture_empty">Você pode usar a câmera para tirar fotos ou vídeos</string>
+    <string name="picture_empty_audio_title">Nenhum arquivo de áudio \n</string>
+    <string name="picture_empty_title">Nenhum vídeo ou foto \n</string>
+    <string name="picture_error">A imagem está corrompida</string>
+    <string name="picture_gif_tag">Animação</string>
+    <string name="picture_jurisdiction">A permissão para ler o cartão de memória foi negada</string>
+    <string name="picture_long_chart">imagem longa</string>
+    <string name="picture_message_audio_max_num">Você pode selecionar até %1$s áudios</string>
+    <string name="picture_message_max_num">Você pode selecionar até %1$s fotos</string>
+    <string name="picture_message_video_max_num">Você pode selecionar até %1$s vídeos</string>
+    <string name="picture_min_img_num">A seleção mínima de fotos não deve ser inferior a%1$s folhas</string>
+    <string name="picture_min_video_num">A seleção mínima de vídeo não pode ser inferior a%1$s</string>
+    <string name="picture_pause_audio">Pausar</string>
+    <string name="picture_photograph">Fotografando</string>
+    <string name="picture_play_audio">Reproduzir</string>
+    <string name="picture_please">Aguarde ...</string>
+    <string name="picture_please_select">Por favor, selecione</string>
+    <string name="picture_preview">Visualizar</string>
+    <string name="picture_preview_image_num">%1$d /%2$d</string>
+    <string name="picture_prompt">Dicas</string>
+    <string name="picture_prompt_content">Deseja salvar imagens no seu telefone?</string>
+    <string name="picture_quit_audio">Saia de</string>
+    <string name="picture_record_video">Gravar vídeo</string>
+    <string name="picture_rule">Não é possível selecionar fotos ou vídeos ao mesmo tempo</string>
+    <string name="picture_save_error">Falha na imagem ao salvar</string>
+    <string name="picture_save_success">Imagem salva em</string>
+    <string name="picture_stop_audio">Pare</string>
+    <string name="picture_take_picture">filmar</string>
+    <string name="picture_tape">Gravando</string>
+    <string name="picture_video_error">O vídeo está corrompido</string>
+    <string name="picture_video_toast">O vídeo não pode ser visualizado</string>
+    <string name="picture_warning">Sem arquivos de mídia!</string>
+    <string name="playvideo">play</string>
+    <string name="please_enter_again">Digite novamente</string>
+    <string name="please_input">novo nome do grupo</string>
+    <string name="power_on">1 > Conecte a fonte de alimentação</string>
+    <string name="preview">pré-visualização</string>
+    <string name="privacy_policy">Service Agreement and Privacy Policy</string>
+    <string name="privacy_policy_content">Please be sure to carefully read and fully understand the terms of the Service Agreement and Privacy Policy, including but not limited to: the authority information you need to obtain in order to provide you with data, sharing and other services. You can read the Service Agreement and Privacy Policy for details. If you agree, please click Agree to start accepting our service.</string>
+    <string name="privacy_policy_content1">Please be sure to carefully read and fully understand the terms of the Service Agreement and Privacy Policy, including but not limited to: the authority information you need to obtain in order to provide you with data, sharing and other services. You can read the </string>
+    <string name="privacy_policy_content2">Service Agreement</string>
+    <string name="privacy_policy_content3">and</string>
+    <string name="privacy_policy_content4">Privacy Policy</string>
+    <string name="publish_comment">postagem</string>
+    <string name="query">Consulta</string>
+    <string name="r">R</string>
+    <string name="r_g_b">R:%1$s G:%2$s B:%3$s</string>
+    <string name="rationale_ask_again">Este aplicativo pode não funcionar corretamente sem as permissões solicitadas. Abra a interface de configurações do aplicativo para modificar as permissões do aplicativo.</string>
+    <string name="red">%1$s</string>
+    <string name="regist_agree_policy">By signing up, you read and agree to the service agreement and privacy policy</string>
+    <string name="regist_agree_policy1">By signing up, you read and agree to the</string>
+    <string name="regist_agree_policy2">service agreement</string>
+    <string name="regist_agree_policy3">and</string>
+    <string name="regist_agree_policy4">privacy policy</string>
+    <string name="register">registrar</string>
+    <string name="register_account">Conta:</string>
+    <string name="register_checkcode">código de verificação:</string>
+    <string name="register_email">Método de verificação:</string>
+    <string name="register_password">senha:</string>
+    <string name="register_success">sucesso do registro</string>
+    <string name="replacement">redefinir</string>
+    <string name="replay">Replay</string>
+    <string name="reply">resposta</string>
+    <string name="request_failed">Falha na solicitação, tente novamente mais tarde</string>
+    <string name="reset_device">Reinicialize o dispositivo primeiro</string>
+    <string name="reset_message">Os dados serão apagados após a redefinição. Tem certeza de que deseja redefinir?</string>
+    <string name="return_to_this_app_to_continue_adding_device">2. Retorne a este aplicativo e continue a adicionar equipamentos</string>
+    <string name="rgb_sort">Ordenação RGB</string>
+    <string name="rgb_sort_set">classificação atual:%1$s</string>
+    <string name="ring">anel colorido</string>
+    <string name="run">executar</string>
+    <string name="save">Salvar</string>
+    <string name="saveSuccessfully">Salvar com sucesso</string>
+    <string name="savefailed">Salvar com falha</string>
+    <string name="scan_dev_info">Digitalizados para o dispositivo %1$s, retorne à página inicial para abrir o aplicativo %2$s</string>
+    <string name="scan_dev_info_wifi">Dispositivos %1$s verificados, dispositivos %2$s adicionados com sucesso</string>
+    <string name="scan_to">Digitalize para</string>
+    <string name="sdded_successfully">adicionado com sucesso</string>
+    <string name="search_menu_title">Pesquisar</string>
+    <string name="second">Segundo</string>
+    <string name="select_all">Selecionar tudo</string>
+    <string name="select_chip">selecione o chip</string>
+    <string name="sendSccess">Enviado com êxito, a configuração de tempo é inválida após o desligamento</string>
+    <string name="send_checkcode">Código de verificação enviado</string>
+    <string name="sendcharts">enviar texto</string>
+    <string name="sendtie">Sending...</string>
+    <string name="sendvideo">enviar vídeo</string>
+    <string name="sensitivity">sensibilidade</string>
+    <string name="sensitivity_set">Sensibilidade:%1$s</string>
+    <string name="sent_success">Sent successfully</string>
+    <string name="set_focus">Centro de Configuração</string>
+    <string name="set_pix_number">Set the address code (0-512)</string>
+    <string name="setting">conexão Wifi</string>
+    <string name="seven">Sun</string>
+    <string name="shake">agitar</string>
+    <string name="single_click_select_color">Clique para selecionar a cor, pressione e segure para excluir a cor</string>
+    <string name="single_lamp_jump">SJ</string>
+    <string name="single_lamp_strobe">SS</string>
+    <string name="single_light_gradient">SG</string>
+    <string name="singlepoint_fast_running">SR</string>
+    <string name="six">Sta</string>
+    <string name="six_eighteen_length">6 ~ 18 dígitos</string>
+    <string name="six_number">6 dígitos</string>
+    <string name="skin_restoration">Restauração de pele</string>
+    <string name="skip_reset_step_ble">Se a luz piscar branca rapidamente, pule a etapa de redefinição</string>
+    <string name="skip_reset_step_hotspot">Se a luz piscar lentamente em vermelho, pule a etapa de redefinição</string>
+    <string name="skip_reset_step_wifi">Se a luz piscar com luz azul rapidamente, pule a etapa de redefinição</string>
+    <string name="sleep_mode">睡眠模式</string>
+    <string name="spacercode">código de intervalo</string>
+    <string name="spacercodevaluetip">Por favor, indique o intervalo de código!</string>
+    <string name="speed">velocidade</string>
+    <string name="speed_set">Velocidade:%1$s</string>
+    <string name="startcode">código inicial</string>
+    <string name="startcodevaluetip">Por favor, digite o código inicial!</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="sun_a">Mudança de frio e calor</string>
+    <string name="sun_b">Respiração legal</string>
+    <string name="sun_c">Hálito quente</string>
+    <string name="sun_d">respiração natural</string>
+    <string name="sun_e">respiração quente e fria</string>
+    <string name="sun_f">Estroboscópio frio e quente</string>
+    <string name="sun_g">strobe de cor fria</string>
+    <string name="sun_h">Estroboscópio de cor quente</string>
+    <string name="sun_sei">Cor fria: 100 Cor quente: 0</string>
+    <string name="sunrise_mode">Nascer do sol</string>
+    <string name="sunset_mode">Pôr do sol</string>
+    <string name="sunshine_mode">日阳高照</string>
+    <string name="supported">Sorry, up to 16 times are supported</string>
+    <string name="supportedlight">Sorry, up to 10 times are supported</string>
+    <string name="sure">Determinar</string>
+    <string name="switch_distribution_mode">Por favor, tente mudar o modo de distribuição de rede</string>
+    <string name="switch_to_the_distribution_network">mudar para o modo de rede de distribuição</string>
+    <string name="system_device">sistema</string>
+    <string name="tab_aisle">Aisle</string>
+    <string name="tab_brightness">brilho</string>
+    <string name="tab_ct">temperatura da cor</string>
+    <string name="tab_custom">personalizado</string>
+    <string name="tab_dm">monocromático</string>
+    <string name="tab_mode">modo</string>
+    <string name="tab_music">música</string>
+    <string name="tab_record">microfone</string>
+    <string name="tab_reg">cor</string>
+    <string name="tab_scene">Situação</string>
+    <string name="tab_timer">temporizador</string>
+    <string name="table1">Tabela 1</string>
+    <string name="table2">Tabela 2</string>
+    <string name="take_video">Vídeo recente</string>
+    <string name="temperature">Temperatura</string>
+    <string name="text">Por favor, digite o corpo</string>
+    <string name="text_addname">Adicionar (modificar) o nome</string>
+    <string name="text_addscene_new">adicionar uma nova cena</string>
+    <string name="text_cancel">Cancelar</string>
+    <string name="text_custom">definido pelo usuário</string>
+    <string name="text_edit">Editar</string>
+    <string name="text_empty_name">nome não pode estar vazio</string>
+    <string name="text_empty_service">Service cannot be empty</string>
+    <string name="text_exit">Clique novamente para sair do LED LAMP</string>
+    <string name="text_input_name">1 a 16 letras, números ou combinações de sublinhado</string>
+    <string name="text_ledble">LED BLE</string>
+    <string name="text_leddmx">LED DMX</string>
+    <string name="text_ledlight">LED LIGHT</string>
+    <string name="text_ledsmart">LED SMART</string>
+    <string name="text_ledspi">LED SPI</string>
+    <string name="text_ledstage">LED STAGE</string>
+    <string name="text_ledstrip">LED STRIP</string>
+    <string name="text_ledsun">LED SUN</string>
+    <string name="text_ok">OK</string>
+    <string name="text_over">completo</string>
+    <string name="text_pic">Imagem</string>
+    <string name="text_pick_camera">fotografia</string>
+    <string name="text_pick_local">galeria</string>
+    <string name="text_relaxation">lazer</string>
+    <string name="text_romance">Romance</string>
+    <string name="text_selectdevice">Selecionar dispositivo</string>
+    <string name="text_sport">movimento</string>
+    <string name="text_storage">armazenamento</string>
+    <string name="text_str">texto</string>
+    <string name="text_system">sistema</string>
+    <string name="text_warm_content">Tem certeza de que deseja excluir esta cena?</string>
+    <string name="text_warm_content1">Por favor, entre na caixa de entrada abaixo:</string>
+    <string name="text_warming">dicas quentes</string>
+    <string name="three">Wed</string>
+    <string name="thunderstorm_mode">Tempestade</string>
+    <string name="tiele">Por favor, digite o título</string>
+    <string name="time">Tempo</string>
+    <string name="timeSize">O número máximo de timers é 24</string>
+    <string name="time_set">Correção de tempo</string>
+    <string name="timeday">o tempo do temporizador não pode ser o mesmo</string>
+    <string name="timelow">A bateria está muito baixa, pode afetar o uso normal do aplicativo</string>
+    <string name="timer">Tem certeza de que deseja excluir este temporizador?</string>
+    <string name="timingquery">Consulta cronometrada</string>
+    <string name="tip_istribution_network">Observação: depois de redefinir o dispositivo, conclua a operação de configuração de rede em três minutos</string>
+    <string name="tips">dica</string>
+    <string name="tips_not_wifi">Você está usando a rede móvel, você deseja mesmo ver o vídeo?</string>
+    <string name="tips_not_wifi_cancel">Parar</string>
+    <string name="tips_not_wifi_confirm">Continuar</string>
+    <string name="title_settings_dialog">Requisitos de permissão</string>
+    <string name="to_connect">para conectar</string>
+    <string name="toast_scene_exist">este cenário já existe</string>
+    <string name="turn_on_the_camera">Ligue a câmera</string>
+    <string name="tv_chip_set">Configurações de chip</string>
+    <string name="two">Tue</string>
+    <string name="un_known_artist">artista desconhecido</string>
+    <string name="update">Modificar</string>
+    <string name="update_password">modificar senha</string>
+    <string name="update_password_success">Alterar senha com sucesso</string>
+    <string name="valuetip">Por favor insira um valor maior que 0!</string>
+    <string name="video">Vídeo</string>
+    <string name="video_explain">Explicação de vídeo</string>
+    <string name="video_loading_faild">O carregamento de vídeo falhou</string>
+    <string name="video_operation_tutorial">Tutorial de operação de vídeo</string>
+    <string name="w">W</string>
+    <string name="warm_light">cores quentes</string>
+    <string name="white_light">cor legal</string>
+    <string name="wifi_network">atualmente na rede Wi-Fi de 2,4 GHz e digite a senha</string>
+    <string name="wifi_network_not_2_4">Se o seu Wi-Fi for 5 GHz, defina primeiro para 2,4 GHz</string>
+    <string name="wifi_signal_is_good">para garantir um bom sinal de Wi-Fi</string>
+    <string name="write">Precisamos acessar suas fotos, conteúdo de mídia e arquivos para exibi-los.</string>
+</resources>

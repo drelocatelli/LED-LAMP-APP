@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/ll_photo_folder_root" android:paddingLeft="@dimen/bga_pp_size_level3" android:paddingRight="@dimen/bga_pp_size_level3" android:paddingBottom="150dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_photo_folder_content" android:background="@drawable/bga_pp_shape_photo_folder_pw_bg" android:paddingBottom="@dimen/bga_pp_size_level1" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never"/>
+</LinearLayout>

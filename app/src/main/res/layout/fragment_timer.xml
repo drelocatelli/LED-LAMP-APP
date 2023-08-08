@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ll_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:layout_alignParentBottom="true">
+        <Button android:textColor="@color/white" android:id="@+id/closeTime_sun" android:background="@drawable/bottom_border" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Closetiming"/>
+        <Button android:textColor="@color/white" android:id="@+id/sure_sun" android:background="@drawable/bottom_border" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_60" android:text="@string/Sendtiming"/>
+    </LinearLayout>
+    <GridView android:id="@+id/gv_sun" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/dp_5" android:layout_above="@+id/ll_button"/>
+</RelativeLayout>

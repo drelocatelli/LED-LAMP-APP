@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ble_mode">
+        <item>Driekleurige sprong, 135</item>
+        <item>Zeven kleuren sprong, 136</item>
+        <item>Driekleurig verloop, 137</item>
+        <item>Zeven kleuren verloop, 138</item>
+        <item>Rood verloop, 139</item>
+        <item>Groen verloop, 140</item>
+        <item>Blauw verloop, 141</item>
+        <item>Geel verloop, 142</item>
+        <item>Cyaanverloop, 143</item>
+        <item>Paars verloop, 144</item>
+        <item>Wit verloop, 145</item>
+        <item>Rood-groen verloop, 146</item>
+        <item>Rood-blauw verloop, 147</item>
+        <item>Groen-blauw verloop, 148</item>
+        <item>Zevenkleurenflits, 149</item>
+        <item>Rode flits, 150</item>
+        <item>Groene flits, 151</item>
+        <item>Blauwe flits, 152</item>
+        <item>Gele flits, 153</item>
+        <item>Cyaanflits, 154</item>
+        <item>Paarse flits, 155</item>
+        <item>Witte flits, 156</item>
+        <item>Statisch rood, 128</item>
+        <item>Statisch blauw, 129</item>
+        <item>Statisch groen, 130</item>
+        <item>Statisch cyaan, 131</item>
+        <item>Statisch geel, 132</item>
+        <item>Statisch paars, 133</item>
+        <item>Statisch wit, 134</item>
+    </array>
+    <array name="channel_set_model">
+        <item>NC,255</item>
+        <item>1,1</item>
+        <item>2,2</item>
+        <item>3,3</item>
+        <item>4,4</item>
+        <item>5,5</item>
+        <item>6,6</item>
+        <item>7,7</item>
+        <item>8,8</item>
+        <item>9,9</item>
+        <item>10,10</item>
+    </array>
+    <array name="chip_model">
+        <item>UCS512A,1</item>
+        <item>UCS512C,2</item>
+    </array>
+    <array name="ct_mode">
+        <item>Warm 0% Koel 100%, 128</item>
+        <item>Warm 10% Koel 90%, 129</item>
+        <item>Warm 20% Koel 80%, 130</item>
+        <item>Warm 30% Koel 70%, 131</item>
+        <item>Warm 40% Koel 60%, 132</item>
+        <item>Warm 50% Koel 50%, 133</item>
+        <item>Warm 60% Koel 40%, 134</item>
+        <item>Warm 70% Koel 30%, 135</item>
+        <item>Warm 80% Koel 20%, 136</item>
+        <item>Warm 90% Koel 10%, 137</item>
+        <item>Warm 100% Koel 0%, 138</item>
+    </array>
+    <array name="custom_model">
+        <item>1: Geleidelijke verandering, 0</item>
+        <item>2: Trailing, 1</item>
+        <item>3: Stromend water, 2</item>
+        <item>4: Het achtervolgen, 3</item>
+        <item>5: Ophoping, 4</item>
+        <item>6: Wit x witte stroom, 6</item>
+        <item>7: Single Point Fast Running, 7</item>
+        <item>8: Multipoint Snellopend, 8</item>
+        <item>9: Borstelen en sluiten, 9</item>
+        <item>10: Enkele lampgradiënt, 10</item>
+        <item>11: Enkele lampsprong, 11</item>
+        <item>12: Enkele lamp stroboscoop, 12</item>
+    </array>
+    <array name="dm_mode">
+        <item>0%,128</item>
+        <item>10%,129</item>
+        <item>20%,130</item>
+        <item>30%,131</item>
+        <item>40%,132</item>
+        <item>50%,133</item>
+        <item>60%,134</item>
+        <item>70%,135</item>
+        <item>80%,136</item>
+        <item>90%,137</item>
+        <item>100%,138</item>
+    </array>
+    <array name="dmx_model">
+        <item>AUTO,255</item>
+        <item>1:Forward Dreaming,1</item>
+        <item>2:Backward Dreaming,2</item>
+        <item>3:Forward 7 Colors,3</item>
+        <item>4:Backward 7 Colors,4</item>
+        <item>5:Forward RED GREEN BLUE,5</item>
+        <item>6:Backward RED GREEN BLUE,6</item>
+        <item>7:Forward YELLOW CYAN PURPLE,7</item>
+        <item>8:Backward YELLOW CYAN PURPLE,8</item>
+        <item>9:Forward 6 Colors plus RED,9</item>
+        <item>10:Backward 6 Colors plus RED,10</item>
+        <item>11:Forward 6 Colors plus GREEN,11</item>
+        <item>12:Backward 6 Colors plus GREEN,12</item>
+        <item>13:Forward 6 Colors plus BLUE,13</item>
+        <item>14:Backward 6 Colors plus BLUE,14</item>
+        <item>15:Forward 6 Colors plus CYAN,15</item>
+        <item>16:Backward 6 Colors plus CYAN,16</item>
+        <item>17:Forward 6 Colors plus YELLOW,17</item>
+        <item>18:Backward 6 Colors plus YELLOW,18</item>
+        <item>19:Forward 6 Colors plus PURPLE,19</item>
+        <item>20:Backward 6 Colors plus PURPLE,20</item>
+        <item>21:Forward 6 Colors plus WHITE,21</item>
+        <item>22:Backward 6 Colors plus WHITE,22</item>
+        <item>23:Forward Trailing 7 Colors,23</item>
+        <item>24:Backward Trailing 7 Colors,24</item>
+        <item>25:Forward Trailing RED,25</item>
+        <item>26:Backward Trailing RED,26</item>
+        <item>27:Forward Trailing GREEN,27</item>
+        <item>28:Backward Trailing GREEN,28</item>
+        <item>29:Forward Trailing BLUE,29</item>
+        <item>30:Backward Trailing BLUE,30</item>
+        <item>31:Forward Trailing YELLOW,31</item>
+        <item>32:Backward Trailing YELLOW,32</item>
+        <item>33:Forward Trailing CYAN,33</item>
+        <item>34:Backward Trailing CYAN,34</item>
+        <item>35:Forward Trailing PURPLE,35</item>
+        <item>36:Backward Trailing PURPLE,36</item>
+        <item>37:Forward Trailing WHITE,37</item>
+        <item>38:Backward Trailing WHITE,38</item>
+        <item>39:Forward Streaming 7 Colors,39</item>
+        <item>40:Backward Streaming 7 Colors,40</item>
+        <item>41:Forward Streaming RED GREEN BLUE,41</item>
+        <item>42:Backward Streaming RED GREEN BLUE,42</item>
+        <item>43:Forward Streaming YELLOW CYAN PURPLE,43</item>
+        <item>44:Backward Streaming YELLOW CYAN PURPLE,44</item>
+        <item>45:Forward Streaming RED GREEN,45</item>
+        <item>46:Backward Streaming RED GREEN,46</item>
+        <item>47:Forward Streaming GREEN BLUE,47</item>
+        <item>48:Backward Streaming GREEN BLUE,48</item>
+        <item>49:Forward Streaming YELLOW BLUE,49</item>
+        <item>50:Backward Streaming YELLOW BLUE,50</item>
+        <item>51:Forward Streaming YELLOW CYAN,51</item>
+        <item>52:Backward Streaming YELLOW CYAN,52</item>
+        <item>53:Forward Streaming CYAN PURPLE,53</item>
+        <item>54:Backward Streaming CYAN PURPLE,54</item>
+        <item>55:Forward Streaming BLACK WHITE,55</item>
+        <item>56:Backward Streaming BLACK WHITE,56</item>
+        <item>57:Open Curtain 7 Colors,57</item>
+        <item>58:Close Curtain 7 Colors,58</item>
+        <item>59:Open Curtain RED GREEN BLUE,59</item>
+        <item>60:Close Curtain RED GREEN BLUE,60</item>
+        <item>61:Open Curtain YELLOW CYAN PURPLE,61</item>
+        <item>62:Close Curtain YELLOW CYAN PURPLE,62</item>
+        <item>63:Forward Follow Spot 7 Colors,63</item>
+        <item>64:Backward Follow Spot 7 Colors,64</item>
+        <item>65:Forward Follow Spot RED GREEN BLUE,65</item>
+        <item>66:Backward Follow Spot RED GREEN BLUE,66</item>
+        <item>67:Forward Follow Spot YELLOW CYAN PURPLE,67</item>
+        <item>68:Backward Follow Spot YELLOW CYAN PURPLE,68</item>
+        <item>69:Forward Flutter 7 Colors,69</item>
+        <item>70:Backward Flutter 7 Colors,70</item>
+        <item>71:Forward Flutter RED GREEN BLUE,71</item>
+        <item>72:Backward Flutter RED GREEN BLUE,72</item>
+        <item>73:Forward Flutter YELLOW CYAN PURPLE,73</item>
+        <item>74:Backward Flutter YELLOW CYAN PURPLE,74</item>
+        <item>75:Hop 7 Colors,75</item>
+        <item>76:Hop RED GREEN BLUE,76</item>
+        <item>77:Hop RED GREEN BLUE,77</item>
+        <item>78:Strobe 7 Colors,78</item>
+        <item>79:Strobe RED GREEN BLUE,79</item>
+        <item>80:Strobe YELLOW CYAN PURPLE,80</item>
+        <item>81:Gradual 7 Colors,81</item>
+        <item>82:Gradual RED YELLOW,82</item>
+        <item>83:Gradual RED PURPLE,83</item>
+        <item>84:Gradual GREEN CYAN,84</item>
+        <item>85:Gradual GREEN YELLOW,85</item>
+        <item>86:Gradual BLUE PURPLE,86</item>
+        <item>87:Close Curtain RED,87</item>
+        <item>88:Close Curtain GREEN,88</item>
+        <item>89:Close Curtain BLUE,89</item>
+        <item>90:Close Curtain YELLOW ,90</item>
+        <item>91:Close Curtain CYAN,91</item>
+        <item>92:Close Curtain PURPLE,92</item>
+        <item>93:Close Curtain WHITE,93</item>
+        <item>94:Open Curtain RED,94</item>
+        <item>95:Open Curtain GREEN,95</item>
+        <item>96:Open Curtain BLUE,96</item>
+        <item>97:Open Curtain YELLOW,97</item>
+        <item>98:Open Curtain CYAN,98</item>
+        <item>99:Open Curtain PURPLE,99</item>
+        <item>100:Open Curtain WHITE,100</item>
+        <item>101:Horse Race RED,101</item>
+        <item>102:Horse Race GREEN,102</item>
+        <item>103:Horse Race BLUE,103</item>
+        <item>104:Horse Race YELLOW,104</item>
+        <item>105:Horse Race CYAN,105</item>
+        <item>106:Horse Race PURPLE,106</item>
+        <item>107:Horse Race WHITE,107</item>
+        <item>108:Forward Run RED,108</item>
+        <item>109:Backward Run RED,109</item>
+        <item>110:Forward Run GREEN,110</item>
+        <item>111:Backward Run GREEN,111</item>
+        <item>112:Forward Run BLUE,112</item>
+        <item>113:Backward Run BLUE,113</item>
+        <item>114:Forward Run YELLOW,114</item>
+        <item>115:Backward Run YELLOW,115</item>
+        <item>116:Forward Run CYAN,116</item>
+        <item>117:Backward Run CYAN,117</item>
+        <item>118:Forward Run PURPLE,118</item>
+        <item>119:Backward Run PURPLE,119</item>
+        <item>120:Forward Run WHITE,120</item>
+        <item>121:Backward Run WHITE,121</item>
+        <item>122:Forward Run 7 Colors,122</item>
+        <item>123:Backward Run 7 Colors,123</item>
+        <item>124:Forward Run RED GREEN BLUE,124</item>
+        <item>125:Backward Run RED GREEN BLUE,125</item>
+        <item>126:Forward Run YELLOW CYAN PURPLE,126</item>
+        <item>127:Backward Run YELLOW CYAN PURPLE,127</item>
+        <item>128:Forward Run BLUE YELLOW PURPLE,128</item>
+        <item>129:Forward Run GREEN BLUE YELLOW,129</item>
+        <item>130:Backward Run BLUE YELLOW PURPLE,130</item>
+        <item>131:Forward Run RED ON WHITE,131</item>
+        <item>132:Backward Run RED ON WHITE,132</item>
+        <item>133:Forward Run GREEN ON RED,133</item>
+        <item>134:Backward Run GREEN ON RED,134</item>
+        <item>135:Forward Run BLUE ON GREEN,135</item>
+        <item>136:Backward Run BLUE ON GREEN,136</item>
+        <item>137:Forward Run YELLOW ON BLUE,137</item>
+        <item>138:Backward Run YELLOW ON BLUE,138</item>
+        <item>139:Forward Run CYAN ON YELLOW,139</item>
+        <item>140:Backward Run CYAN ON YELLOW,140</item>
+        <item>141:Forward Run PURPLE ON CYAN,141</item>
+        <item>142:Backward Run PURPLE ON CYAN,142</item>
+        <item>143:Forward Run WHITE ON PURPLE,143</item>
+        <item>144:Backward Run WHITE ON PURPLE,144</item>
+        <item>145:Forward Run WHITE ON RED,145</item>
+        <item>146:Backward Run WHITE ON RED,146</item>
+        <item>147:Forward Run 7 COLOR ON RED,147</item>
+        <item>148:Backward Run 7 COLOR ON RED,148</item>
+        <item>149:Forward Run 7 COLOR ON GREEN,149</item>
+        <item>150:Backward Run 7 COLOR ON GREEN,150</item>
+        <item>151:Forward Run 7 COLOR ON BLUE,151</item>
+        <item>152:Backward Run 7 COLOR ON BLUE,152</item>
+        <item>153:Forward Run 7 COLOR ON YELLOW,153</item>
+        <item>154:Backward Run 7 COLOR ON YELLOW,154</item>
+        <item>155:Forward Run 7 COLOR ON CYAN,155</item>
+        <item>156:Backward Run 7 COLOR ON CYAN,156</item>
+        <item>157:Forward Run 7 COLOR ON PURPLE,157</item>
+        <item>158:Backward Run 7 COLOR ON PURPLE,158</item>
+        <item>159:Forward Run 7 COLOR ON WHITE,159</item>
+        <item>160:Backward Run 7 COLOR ON WHITE,160</item>
+        <item>161:Forward Flow WHITE RED WHITE,161</item>
+        <item>162:Backward Flow WHITE RED WHITE,162</item>
+        <item>163:Forward Flow WHITE GREEN WHITE,163</item>
+        <item>164:Backward Flow WHITE GREEN WHITE,164</item>
+        <item>165:Forward Flow WHITE BLUE WHITE,165</item>
+        <item>166:Backward Flow WHITE BLUE WHITE,166</item>
+        <item>167:Forward Flow WHITE YELLOW WHITE,167</item>
+        <item>168:Backward Flow WHITE YELLOW WHITE,168</item>
+        <item>169:Forward Flow WHITE CYAN WHITE,169</item>
+        <item>170:Backward Flow WHITE CYAN WHITE,170</item>
+        <item>171:Forward Flow WHITE PURPLE WHITE,171</item>
+        <item>172:Backward Flow WHITE PURPLE WHITE,172</item>
+        <item>173:Forward Flow RED WHITE RED,173</item>
+        <item>174:Backward Flow RED WHITE RED,174</item>
+        <item>175:Forward Flow GREEN WHITE GREEN,175</item>
+        <item>176:Backward Flow GREEN WHITE GREEN,176</item>
+        <item>177:Forward Flow BLUE WHITE BLUE,177</item>
+        <item>178:Backward Flow BLUE WHITE BLUE,178</item>
+        <item>179:Forward Flow YELLOW WHITE YELLOW,179</item>
+        <item>180:Backward Flow YELLOW WHITE YELLOW,180</item>
+        <item>181:Forward Flow CYAN WHITE CYAN,181</item>
+        <item>182:Backward Flow CYAN WHITE CYAN,182</item>
+        <item>183:Forward Flow PURPLE WHITE PURPLE,183</item>
+        <item>184:Backward Flow PURPLE WHITE PURPLE,184</item>
+        <item>185:Forward Run GREEN ON BLUE,185</item>
+        <item>186:Backward Run GREEN ON BLUE,186</item>
+        <item>187:Forward Run GREEN ON RED,187</item>
+        <item>188:Backward Run GREEN ON RED,188</item>
+        <item>189:Forward Run RED ON BLUE,189</item>
+        <item>190Backward Run RED ON BLUE,190</item>
+        <item>191Forward Run CYAN ON YELLOW,191</item>
+        <item>192:Backward Run CYAN ON YELLOW,192</item>
+        <item>193:Forward Run YELLOW ON PURPLE,193</item>
+        <item>194:Backward Run YELLOW ON PURPLE,194</item>
+        <item>195:Forward Run WHITE ON YELLOW,195</item>
+        <item>196:Backward Run WHITE ON YELLOW,196</item>
+        <item>197:Forward Run YELLOW ON WHITE,197</item>
+        <item>198:Backward Run YELLOW ON WHITE,198</item>
+        <item>199:Forward Swab 7 COLORS,199</item>
+        <item>200:Backward Swab 7 COLORS,200</item>
+        <item>201:Forward Swab RED GREEN BLUE,201</item>
+        <item>202:Backward Swab RED GREEN BLUE,202</item>
+        <item>203:Forward Swab YELLOW CYAN PURPLE,203</item>
+        <item>204:Backward Swab YELLOW CYAN PURPLE,204</item>
+        <item>205:Open Curtain Swab 7 COLORS,205</item>
+        <item>206:Close Curtain Swab 7 COLORS,206</item>
+        <item>207Open Curtain Swab R G B ,207</item>
+        <item>208:Close Curtain Swab R G B ,208</item>
+        <item>209:Open Curtain Swab Y C P,209</item>
+        <item>210:Close Curtain Swab Y C P,210</item>
+    </array>
+    <array name="light_banner">
+        <item>LPD6803,1</item>
+        <item>TM1803,2</item>
+        <item>UCS1903,3</item>
+        <item>WS2811,4</item>
+        <item>TM1812,5</item>
+        <item>TM1809,6</item>
+        <item>WS2801,7</item>
+        <item>TLS3001,8</item>
+        <item>TLS3008,9</item>
+        <item>P9813,10</item>
+        <item>UCS8806,11</item>
+        <item>TM1829,12</item>
+        <item>TM1909,13</item>
+    </array>
+    <array name="light_mode">
+        <item>Doe het licht uit</item>
+        <item>Statisch rood</item>
+        <item>Statisch blauw</item>
+        <item>Statisch groen</item>
+        <item>Statisch cyaan</item>
+        <item>Statisch geel</item>
+        <item>Statisch paars</item>
+        <item>Statisch wit</item>
+        <item>Driekleurige sprong</item>
+        <item>Zeven kleuren sprong</item>
+        <item>Driekleurig verloop</item>
+        <item>Zeven kleuren verloop</item>
+        <item>Rood verloop</item>
+        <item>Groen verloop</item>
+        <item>Blauw verloop</item>
+        <item>Geel verloop</item>
+        <item>Cyaanverloop</item>
+        <item>Paars verloop</item>
+        <item>Wit verloop</item>
+        <item>Rood-groen verloop</item>
+        <item>Rood-blauw verloop</item>
+        <item>Groen-blauw verloop</item>
+        <item>Zeven kleuren flits</item>
+        <item>Rode flits</item>
+        <item>Groene flits</item>
+        <item>Blauwe flits</item>
+        <item>Gele flits</item>
+        <item>Cyaanflits</item>
+        <item>Paarse flits</item>
+        <item>Witte flits</item>
+        <item>MODE30</item>
+        <item>MODE31</item>
+        <item>MODE32</item>
+        <item>MODE33</item>
+        <item>MODE34</item>
+        <item>MODE35</item>
+        <item>MODE36</item>
+        <item>MODE37</item>
+        <item>MODE38</item>
+        <item>MODE39</item>
+        <item>MODE40</item>
+        <item>MODE41</item>
+        <item>MODE42</item>
+        <item>MODE43</item>
+        <item>MODE44</item>
+        <item>MODE45</item>
+        <item>MODE46</item>
+        <item>MODE47</item>
+        <item>MODE48</item>
+        <item>MODE49</item>
+        <item>MODE50</item>
+        <item>MODE51</item>
+        <item>MODE52</item>
+        <item>MODE53</item>
+        <item>MODE54</item>
+        <item>MODE55</item>
+        <item>MODE56</item>
+        <item>MODE57</item>
+        <item>MODE58</item>
+        <item>MODE59</item>
+        <item>MODE60</item>
+        <item>MODE61</item>
+        <item>MODE62</item>
+        <item>MODE63</item>
+        <item>MODE64</item>
+        <item>MODE65</item>
+        <item>MODE66</item>
+        <item>MODE67</item>
+        <item>MODE68</item>
+        <item>MODE69</item>
+        <item>MODE70</item>
+        <item>MODE71</item>
+        <item>MODE72</item>
+        <item>MODE73</item>
+        <item>MODE74</item>
+        <item>MODE75</item>
+        <item>MODE76</item>
+        <item>MODE77</item>
+        <item>MODE78</item>
+        <item>MODE79</item>
+        <item>MODE80</item>
+        <item>MODE81</item>
+        <item>MODE82</item>
+        <item>MODE83</item>
+        <item>MODE84</item>
+        <item>MODE85</item>
+        <item>MODE86</item>
+        <item>MODE87</item>
+        <item>MODE88</item>
+        <item>MODE89</item>
+        <item>MODE90</item>
+        <item>MODE91</item>
+        <item>MODE92</item>
+        <item>MODE93</item>
+        <item>MODE94</item>
+        <item>MODE95</item>
+        <item>MODE96</item>
+        <item>MODE97</item>
+        <item>MODE98</item>
+        <item>MODE99</item>
+        <item>MODE100</item>
+        <item>MODE101</item>
+        <item>MODE102</item>
+        <item>MODE103</item>
+        <item>MODE104</item>
+        <item>MODE105</item>
+        <item>MODE106</item>
+        <item>MODE107</item>
+        <item>MODE108</item>
+        <item>MODE109</item>
+        <item>MODE110</item>
+        <item>MODE111</item>
+        <item>MODE112</item>
+        <item>MODE113</item>
+        <item>MODE114</item>
+        <item>MODE115</item>
+        <item>MODE116</item>
+        <item>MODE117</item>
+        <item>MODE118</item>
+        <item>MODE119</item>
+        <item>MODE120</item>
+        <item>MODE121</item>
+        <item>MODE122</item>
+        <item>MODE123</item>
+        <item>MODE124</item>
+        <item>MODE125</item>
+        <item>MODE126</item>
+        <item>MODE127</item>
+        <item>MODE128</item>
+        <item>MODE129</item>
+        <item>MODE130</item>
+        <item>MODE131</item>
+        <item>MODE132</item>
+        <item>MODE133</item>
+        <item>MODE134</item>
+        <item>MODE135</item>
+        <item>MODE136</item>
+        <item>MODE137</item>
+        <item>MODE138</item>
+        <item>MODE139</item>
+        <item>MODE140</item>
+        <item>MODE141</item>
+        <item>MODE142</item>
+        <item>MODE143</item>
+        <item>MODE144</item>
+        <item>MODE145</item>
+        <item>MODE146</item>
+        <item>MODE147</item>
+        <item>MODE148</item>
+        <item>MODE149</item>
+        <item>MODE150</item>
+        <item>MODE151</item>
+        <item>MODE152</item>
+        <item>MODE153</item>
+        <item>MODE154</item>
+        <item>MODE155</item>
+        <item>MODE156</item>
+        <item>MODE157</item>
+        <item>MODE158</item>
+        <item>MODE159</item>
+        <item>MODE160</item>
+        <item>MODE161</item>
+        <item>MODE162</item>
+        <item>MODE163</item>
+        <item>MODE164</item>
+        <item>MODE165</item>
+        <item>MODE166</item>
+        <item>MODE167</item>
+        <item>MODE168</item>
+        <item>MODE169</item>
+        <item>MODE170</item>
+        <item>MODE171</item>
+        <item>MODE172</item>
+        <item>MODE173</item>
+        <item>MODE174</item>
+        <item>MODE175</item>
+        <item>MODE176</item>
+        <item>MODE177</item>
+        <item>MODE178</item>
+        <item>MODE179</item>
+        <item>MODE180</item>
+        <item>MODE181</item>
+        <item>MODE182</item>
+        <item>MODE183</item>
+        <item>MODE184</item>
+        <item>MODE185</item>
+        <item>MODE186</item>
+        <item>MODE187</item>
+        <item>MODE188</item>
+        <item>MODE189</item>
+        <item>MODE190</item>
+        <item>MODE191</item>
+        <item>MODE192</item>
+        <item>MODE193</item>
+        <item>MODE194</item>
+        <item>MODE195</item>
+        <item>MODE196</item>
+        <item>MODE197</item>
+        <item>MODE198</item>
+        <item>MODE199</item>
+        <item>MODE200</item>
+        <item>MODE201</item>
+        <item>MODE202</item>
+        <item>MODE203</item>
+        <item>MODE204</item>
+        <item>MODE205</item>
+        <item>MODE206</item>
+        <item>MODE207</item>
+        <item>MODE208</item>
+        <item>MODE209</item>
+        <item>MODE210</item>
+        <item>MODE211</item>
+    </array>
+    <array name="modelble">
+        <item>Doe het licht uit</item>
+        <item>Doe het licht aan</item>
+        <item>Statisch rood</item>
+        <item>Statisch blauw</item>
+        <item>Statisch groen</item>
+        <item>Statisch cyaan</item>
+        <item>Statisch geel</item>
+        <item>Statisch paars</item>
+        <item>Statisch wit</item>
+        <item>Driekleurige sprong</item>
+        <item>Zeven kleuren sprong</item>
+        <item>Driekleurig verloop</item>
+        <item>Zeven kleuren verloop</item>
+        <item>Koud wit</item>
+        <item>Warm Wit</item>
+        <item>Monochrome</item>
+    </array>
+    <array name="modelsun">
+        <item>Doe de lichten uit</item>
+        <item>Doe het licht aan</item>
+        <item>Koele kleur</item>
+        <item>Warme kleur</item>
+        <item>Natuurlijke kleur</item>
+        <item>Witte warme sprongwissel</item>
+        <item>Wit verloop</item>
+        <item>Warm kleurverloop</item>
+        <item>Natuurlijk kleurverloop</item>
+        <item>Wit warm verloop</item>
+        <item>Witte warme stroboscoop</item>
+        <item>Witte stroboscoop</item>
+        <item>Warme kleurenstroboscoop</item>
+        <item>Stroboscoop in natuurlijke kleuren</item>
+    </array>
+    <array name="rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+        <item>RGBW,7</item>
+        <item>RBGW,8</item>
+        <item>GRBW,9</item>
+        <item>GBRW,10</item>
+        <item>BRGW,11</item>
+        <item>BGRW,12</item>
+    </array>
+    <array name="rgb_sort_ble">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+    </array>
+    <array name="select_mode">
+        <item>RGB,1</item>
+        <item>RGBW,2</item>
+        <item>RGBWCP,3</item>
+    </array>
+    <array name="timer_model_dmx">
+        <item>Turn off the light</item>
+        <item>Turn on the light</item>
+        <item>AUTO,255</item>
+        <item>1:Forward Dreaming</item>
+        <item>2:Backward Dreaming</item>
+        <item>3:Forward 7 Colors</item>
+        <item>4:Backward 7 Colors</item>
+        <item>5:Forward RED GREEN BLUE</item>
+        <item>6:Backward RED GREEN BLUE</item>
+        <item>7:Forward YELLOW CYAN PURPLE</item>
+        <item>8:Backward YELLOW CYAN PURPLE</item>
+        <item>9:Forward 6 Colors plus RED</item>
+        <item>10:Backward 6 Colors plus RED</item>
+        <item>11:Forward 6 Colors plus GREEN</item>
+        <item>12:Backward 6 Colors plus GREEN</item>
+        <item>13:Forward 6 Colors plus BLUE</item>
+        <item>14:Backward 6 Colors plus BLUE</item>
+        <item>15:Forward 6 Colors plus CYAN</item>
+        <item>16:Backward 6 Colors plus CYAN</item>
+        <item>17:Forward 6 Colors plus YELLOW</item>
+        <item>18:Backward 6 Colors plus YELLOW</item>
+        <item>19:Forward 6 Colors plus PURPLE</item>
+        <item>20:Backward 6 Colors plus PURPLE</item>
+        <item>21:Forward 6 Colors plus WHITE</item>
+        <item>22:Backward 6 Colors plus WHITE</item>
+        <item>23:Forward Trailing 7 Colors</item>
+        <item>24:Backward Trailing 7 Colors</item>
+        <item>25:Forward Trailing RED</item>
+        <item>26:Backward Trailing RED</item>
+        <item>27Forward Trailing GREEN</item>
+        <item>28:Backward Trailing GREEN</item>
+        <item>29:Forward Trailing BLUE</item>
+        <item>30:Backward Trailing BLUE</item>
+        <item>31:Forward Trailing YELLOW</item>
+        <item>32:Backward Trailing YELLOW</item>
+        <item>33:Forward Trailing CYAN</item>
+        <item>34:Backward Trailing CYAN</item>
+        <item>35:Forward Trailing PURPLE</item>
+        <item>36:Backward Trailing PURPLE</item>
+        <item>37:Forward Trailing WHITE</item>
+        <item>38:Backward Trailing WHITE</item>
+        <item>39:Forward Streaming 7 Colors</item>
+        <item>40:Backward Streaming 7 Colors</item>
+        <item>41:Forward Streaming RED GREEN BLUE</item>
+        <item>42:Backward Streaming RED GREEN BLUE</item>
+        <item>43:Forward Streaming YELLOW CYAN PURPLE</item>
+        <item>44:Backward Streaming YELLOW CYAN PURPLE</item>
+        <item>45:Forward Streaming RED GREEN</item>
+        <item>46:Backward Streaming RED GREEN</item>
+        <item>47:Forward Streaming GREEN BLUE</item>
+        <item>48:Backward Streaming GREEN BLUE</item>
+        <item>49:Forward Streaming YELLOW BLUE</item>
+        <item>50:Backward Streaming YELLOW BLUE</item>
+        <item>51:Forward Streaming YELLOW CYAN</item>
+        <item>52:Backward Streaming YELLOW CYAN</item>
+        <item>53:Forward Streaming CYAN PURPLE</item>
+        <item>54:Backward Streaming CYAN PURPLE</item>
+        <item>55:Forward Streaming BLACK WHITE</item>
+        <item>56:Backward Streaming BLACK WHITE</item>
+        <item>57:Open Curtain 7 Colors</item>
+        <item>58:Close Curtain 7 Colors</item>
+        <item>59:Open Curtain RED GREEN BLUE</item>
+        <item>60:Close Curtain RED GREEN BLUE</item>
+        <item>61:Open Curtain YELLOW CYAN PURPLE</item>
+        <item>62:Close Curtain YELLOW CYAN PURPLE</item>
+        <item>63:Forward Follow Spot 7 Colors</item>
+        <item>64:Backward Follow Spot 7 Colors</item>
+        <item>65:Forward Follow Spot RED GREEN BLUE</item>
+        <item>66:Backward Follow Spot RED GREEN BLUE</item>
+        <item>67:Forward Follow Spot YELLOW CYAN PURPLE</item>
+        <item>68:Backward Follow Spot YELLOW CYAN PURPLE</item>
+        <item>69:Forward Flutter 7 Colors</item>
+        <item>70:Backward Flutter 7 Colors</item>
+        <item>71:Forward Flutter RED GREEN BLUE</item>
+        <item>72:Backward Flutter RED GREEN BLUE</item>
+        <item>73:Forward Flutter YELLOW CYAN PURPLE</item>
+        <item>74:Backward Flutter YELLOW CYAN PURPLE</item>
+        <item>75:Hop 7 Colors</item>
+        <item>76:Hop RED GREEN BLUE</item>
+        <item>77:Hop RED GREEN BLUE</item>
+        <item>78:Strobe 7 Colors</item>
+        <item>79:Strobe RED GREEN BLUE</item>
+        <item>80:Strobe YELLOW CYAN PURPLE</item>
+        <item>81:Gradual 7 Colors</item>
+        <item>82:Gradual RED YELLOW</item>
+        <item>83:Gradual RED PURPLE</item>
+        <item>84:Gradual GREEN CYAN</item>
+        <item>85:Gradual GREEN YELLOW</item>
+        <item>86:Gradual BLUE PURPLE</item>
+        <item>87:Close Curtain RED</item>
+        <item>88:Close Curtain GREEN</item>
+        <item>89:Close Curtain BLUE</item>
+        <item>90:Close Curtain YELLOW</item>
+        <item>91:Close Curtain CYAN</item>
+        <item>92:Close Curtain PURPLE</item>
+        <item>93:Close Curtain WHITE</item>
+        <item>94:Open Curtain RED</item>
+        <item>95:Open Curtain GREEN</item>
+        <item>96:Open Curtain BLUE</item>
+        <item>97:Open Curtain YELLOW</item>
+        <item>98:Open Curtain CYAN</item>
+        <item>99:Open Curtain PURPLE</item>
+        <item>100:Open Curtain WHITE</item>
+        <item>101:Horse Race RED</item>
+        <item>102:Horse Race GREEN</item>
+        <item>103:Horse Race BLUE</item>
+        <item>104:Horse Race YELLOW</item>
+        <item>105:Horse Race CYAN</item>
+        <item>106:Horse Race PURPLE</item>
+        <item>107:Horse Race WHITE</item>
+        <item>108:Forward Run RED</item>
+        <item>109:Backward Run RED</item>
+        <item>110:Forward Run GREEN</item>
+        <item>111:Backward Run GREEN</item>
+        <item>112:Forward Run BLUE</item>
+        <item>113:Backward Run BLUE</item>
+        <item>114:Forward Run YELLOW</item>
+        <item>115:Backward Run YELLOW</item>
+        <item>116:Forward Run CYAN</item>
+        <item>117:Backward Run CYAN</item>
+        <item>118:Forward Run PURPLE</item>
+        <item>119:Backward Run PURPLE</item>
+        <item>120:Forward Run WHITE</item>
+        <item>121:Backward Run WHITE</item>
+        <item>122:Forward Run 7 Colors</item>
+        <item>123:Backward Run 7 Colors</item>
+        <item>124:Forward Run RED GREEN BLUE</item>
+        <item>125:Backward Run RED GREEN BLUE</item>
+        <item>126:Forward Run YELLOW CYAN PURPLE</item>
+        <item>127:Backward Run YELLOW CYAN PURPLE</item>
+        <item>128:Forward Run BLUE YELLOW PURPLE</item>
+        <item>129:Forward Run GREEN BLUE YELLOW</item>
+        <item>130:Backward Run BLUE YELLOW PURPLE</item>
+        <item>131:Forward Run RED ON WHITE</item>
+        <item>132:Backward Run RED ON WHITE</item>
+        <item>133:Forward Run GREEN ON RED</item>
+        <item>134:Backward Run GREEN ON RED</item>
+        <item>135:Forward Run BLUE ON GREEN</item>
+        <item>136:Backward Run BLUE ON GREEN</item>
+        <item>137:Forward Run YELLOW ON BLUE</item>
+        <item>138:Backward Run YELLOW ON BLUE</item>
+        <item>139:Forward Run CYAN ON YELLOW</item>
+        <item>140:Backward Run CYAN ON YELLOW</item>
+        <item>141:Forward Run PURPLE ON CYAN</item>
+        <item>142:Backward Run PURPLE ON CYAN</item>
+        <item>143:Forward Run WHITE ON PURPLE</item>
+        <item>144:Backward Run WHITE ON PURPLE</item>
+        <item>145:Forward Run WHITE ON RED</item>
+        <item>146:Backward Run WHITE ON RED</item>
+        <item>147:Forward Run 7 COLOR ON RED</item>
+        <item>148:Backward Run 7 COLOR ON RED</item>
+        <item>149:Forward Run 7 COLOR ON GREEN</item>
+        <item>150:Backward Run 7 COLOR ON GREEN</item>
+        <item>151:Forward Run 7 COLOR ON BLUE</item>
+        <item>152:Backward Run 7 COLOR ON BLUE</item>
+        <item>153:Forward Run 7 COLOR ON YELLOW</item>
+        <item>154:Backward Run 7 COLOR ON YELLOW</item>
+        <item>155:Forward Run 7 COLOR ON CYAN</item>
+        <item>156:Backward Run 7 COLOR ON CYAN</item>
+        <item>157:Forward Run 7 COLOR ON PURPLE</item>
+        <item>158:Backward Run 7 COLOR ON PURPLE</item>
+        <item>159:Forward Run 7 COLOR ON WHITE</item>
+        <item>160:Backward Run 7 COLOR ON WHITE</item>
+        <item>161:Forward Flow WHITE RED WHITE</item>
+        <item>162:Backward Flow WHITE RED WHITE</item>
+        <item>163:Forward Flow WHITE GREEN WHITE</item>
+        <item>164:Backward Flow WHITE GREEN WHITE</item>
+        <item>165:Forward Flow WHITE BLUE WHITE</item>
+        <item>166:Backward Flow WHITE BLUE WHITE</item>
+        <item>167:Forward Flow WHITE YELLOW WHITE</item>
+        <item>168:Backward Flow WHITE YELLOW WHITE</item>
+        <item>169:Forward Flow WHITE CYAN WHITE</item>
+        <item>170:Backward Flow WHITE CYAN WHITE</item>
+        <item>171:Forward Flow WHITE PURPLE WHITE</item>
+        <item>172:Backward Flow WHITE PURPLE WHITE</item>
+        <item>173:Forward Flow RED WHITE RED</item>
+        <item>174:Backward Flow RED WHITE RED</item>
+        <item>175:Forward Flow GREEN WHITE GREEN</item>
+        <item>176:Backward Flow GREEN WHITE GREEN</item>
+        <item>177:Forward Flow BLUE WHITE BLUE</item>
+        <item>178:Backward Flow BLUE WHITE BLUE</item>
+        <item>179:Forward Flow YELLOW WHITE YELLOW</item>
+        <item>180:Backward Flow YELLOW WHITE YELLOW</item>
+        <item>181:Forward Flow CYAN WHITE CYAN</item>
+        <item>182:Backward Flow CYAN WHITE CYAN</item>
+        <item>183:Forward Flow PURPLE WHITE PURPLE</item>
+        <item>184:Backward Flow PURPLE WHITE PURPLE</item>
+        <item>185:Forward Run GREEN ON BLUE</item>
+        <item>186:Backward Run GREEN ON BLUE</item>
+        <item>187:Forward Run GREEN ON RED</item>
+        <item>188:Backward Run GREEN ON RED</item>
+        <item>189:Forward Run RED ON BLUE</item>
+        <item>190Backward Run RED ON BLUE</item>
+        <item>191Forward Run CYAN ON YELLOW</item>
+        <item>192:Backward Run CYAN ON YELLOW</item>
+        <item>193:Forward Run YELLOW ON PURPLE</item>
+        <item>194:Backward Run YELLOW ON PURPLE</item>
+        <item>195:Forward Run WHITE ON YELLOW</item>
+        <item>196:Backward Run WHITE ON YELLOW</item>
+        <item>197:Forward Run YELLOW ON WHITE</item>
+        <item>198:Backward Run YELLOW ON WHITE</item>
+        <item>199:Forward Swab 7 COLORS</item>
+        <item>200:Backward Swab 7 COLORS</item>
+        <item>201:Forward Swab RED GREEN BLUE</item>
+        <item>202:Backward Swab RED GREEN BLUE</item>
+        <item>203:Forward Swab YELLOW CYAN PURPLE</item>
+        <item>204:Backward Swab YELLOW CYAN PURPLE</item>
+        <item>205:Open Curtain Swab 7 COLORS</item>
+        <item>206:Close Curtain Swab 7 COLORS</item>
+        <item>207Open Curtain Swab R G B</item>
+        <item>208:Close Curtain Swab R G B</item>
+        <item>209:Open Curtain Swab Y C P</item>
+        <item>210:Close Curtain Swab Y C P</item>
+    </array>
+    <array name="week">
+        <item>ma</item>
+        <item>Din</item>
+        <item>wo</item>
+        <item>Don</item>
+        <item>vr</item>
+        <item>za</item>
+        <item>Sun</item>
+    </array>
+    <array name="weekday">
+        <item>maandag</item>
+        <item>Dinsdag</item>
+        <item>Woensdag</item>
+        <item>Donderdag</item>
+        <item>Vrijdag</item>
+        <item>Zaterdag</item>
+        <item>zondag</item>
+    </array>
+    <string name="Auxiliary_function">Knop</string>
+    <string name="Bubble">Bubbels</string>
+    <string name="ButtonEight">paard</string>
+    <string name="ButtonFive">Stapel</string>
+    <string name="ButtonSeven">stroom</string>
+    <string name="ButtonSix">trek aan het scherm</string>
+    <string name="Closetiming">Timing sluiten</string>
+    <string name="Code">Code</string>
+    <string name="FD">FD</string>
+    <string name="FS">FS</string>
+    <string name="FW">FW</string>
+    <string name="Forward">Forward</string>
+    <string name="Language">Taal</string>
+    <string name="RandomPlay">RandomPlay</string>
+    <string name="Reverse">Reverse</string>
+    <string name="Sendtiming">Verzend timing</string>
+    <string name="SequentialPlay">SequentialPlay</string>
+    <string name="SinglePlay">SinglePlay</string>
+    <string name="Values_can_be_the_same">Waarden kunnen niet hetzelfde zijn</string>
+    <string name="Voicecontrol">Spraakbesturing</string>
+    <string name="abc_action_bar_home_description">Navigeren naar startpositie</string>
+    <string name="abc_action_bar_up_description">Omhoog navigeren</string>
+    <string name="abc_action_menu_overflow_description">Meer opties</string>
+    <string name="abc_action_mode_done">Gereed</string>
+    <string name="abc_activity_chooser_view_see_all">Alles weergeven</string>
+    <string name="abc_activitychooserview_choose_application">Een app selecteren</string>
+    <string name="abc_capital_off">UIT</string>
+    <string name="abc_capital_on">AAN</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Functie +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">spatie</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menu +</string>
+    <string name="abc_search_hint">Zoeken…</string>
+    <string name="abc_searchview_description_clear">Zoekopdracht wissen</string>
+    <string name="abc_searchview_description_query">Zoekopdracht</string>
+    <string name="abc_searchview_description_search">Zoeken</string>
+    <string name="abc_searchview_description_submit">Zoekopdracht verzenden</string>
+    <string name="abc_searchview_description_voice">Gesproken zoekopdracht</string>
+    <string name="abc_shareactionprovider_share_with">Delen met</string>
+    <string name="abc_shareactionprovider_share_with_application">Delen met %s</string>
+    <string name="abc_toolbar_collapse_description">Samenvouwen</string>
+    <string name="ablum_title">muzieknaam:%1$s van artiest:%2$s Album:%3$s</string>
+    <string name="about_us_and_help">Over ons</string>
+    <string name="account_format_error">De authenticatiemethode is onjuist opgemaakt</string>
+    <string name="accumulation">AC</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="add2lib">Bevestig selectie</string>
+    <string name="add2lib_all">Alles selecteren</string>
+    <string name="addTimer">Timer toevoegen</string>
+    <string name="add_device">Apparaat toevoegen</string>
+    <string name="add_device_successfully">voeg het apparaat succesvol toe</string>
+    <string name="add_group">nieuwe groep toevoegen</string>
+    <string name="adding_device">voegt apparatuur toe</string>
+    <string name="agree">Agree</string>
+    <string name="all_off">alles uit</string>
+    <string name="all_on">alles op</string>
+    <string name="allcomment">Alle reacties</string>
+    <string name="app_name">LED LAMP</string>
+    <string name="aquatic_mode">Aquatic Mode</string>
+    <string name="authorization_alert">Voor deze functie is autorisatie van u vereist, anders wordt APP niet correct gebruikt.</string>
+    <string name="authorization_title">Tips:</string>
+    <string name="b">B</string>
+    <string name="back">TERUG</string>
+    <string name="base_setting">omgeving</string>
+    <string name="battery">Batterij</string>
+    <string name="bind_end">CONFIRM</string>
+    <string name="ble_not_supported">Geen ondersteuning voor apparaat</string>
+    <string name="blue">%1$s</string>
+    <string name="breathe">Adem</string>
+    <string name="brightness">Helderheid</string>
+    <string name="brightness_set">Helderheid:%1$s</string>
+    <string name="btn_pix_number">nummer</string>
+    <string name="btn_set_pix_number">set_pix_number(0-1024)</string>
+    <string name="btquery">Aanvraag van batterij voor temperatuur</string>
+    <string name="c">C</string>
+    <string name="camera_permissions_disabled">Cameratoestemmingen zijn uitgeschakeld, zorg ervoor dat u cameratoestemmingen inschakelt!</string>
+    <string name="can_not_connect">Kan verkeerde WiFi zijn, maak 3 seconden later opnieuw verbinding of selecteer andere WIFI opnieuw!</string>
+    <string name="cancel">geannuleerd</string>
+    <string name="cancell">Cancell</string>
+    <string name="cancell_dialog">ANNULEREN</string>
+    <string name="change_skin">Huid wijzigen</string>
+    <string name="channelset">Set met kleurkanalen</string>
+    <string name="charts">Grafisch forum</string>
+    <string name="chiptypevaluetip">Selecteer een waarde van Chiptype!</string>
+    <string name="choose">Kies week</string>
+    <string name="choosemode">Kies modus</string>
+    <string name="chose">Selecteer een korte video</string>
+    <string name="chose_list">selecteer afspeellijst uit muzieklijst</string>
+    <string name="chose_picthor">Kan slechts één afbeelding selecteren</string>
+    <string name="chose_video">Kan slechts één video selecteren</string>
+    <string name="circulation">lus</string>
+    <string name="clear">Doorzichtig</string>
+    <string name="close">close</string>
+    <string name="colorful_mode">Kleurrijke modus</string>
+    <string name="colour">kleur</string>
+    <string name="comment">comment</string>
+    <string name="comment_content">body</string>
+    <string name="comment_detail">details van commentaar</string>
+    <string name="comment_publish">gepubliceerd</string>
+    <string name="comment_publish_success">succesvol gepubliceerd</string>
+    <string name="comment_title">headline</string>
+    <string name="conenct_device">%1$s Beschikbare apparaten; %2$s verbonden.</string>
+    <string name="confirm">BEVESTIGEN</string>
+    <string name="confirm_light_flash_slowly">bevestig dat het licht langzaam knippert</string>
+    <string name="confirm_the_light_flash">bevestig de knipperende status van het licht</string>
+    <string name="confirmation_light_flash_ble">3 > Bevestigingslampje knippert snel (wit licht)</string>
+    <string name="confirmation_light_flash_hotspot">3 > Bevestigingslampje knippert langzaam (rood lampje)</string>
+    <string name="confirmation_light_flash_wifi">3 > Bevestigingslampje knippert snel (blauw lampje)</string>
+    <string name="connect_count">%1$s apparaat</string>
+    <string name="connect_success">Succesvol verbinden!</string>
+    <string name="connected_to_the_hotspot_shown">1. Verbind de telefoon met de hotspot die wordt weergegeven in de onderstaande afbeelding</string>
+    <string name="connecting">Bezig met verbinden ...</string>
+    <string name="control">Controle</string>
+    <string name="cool_warm">Warm:%1$s Cool:%2$s</string>
+    <string name="copy">Kopieer</string>
+    <string name="coral_artistic_conception">Coral Artistic Conception</string>
+    <string name="current_mode">Huidige modus</string>
+    <string name="current_mode_format">%1$s</string>
+    <string name="current_rgb_format">Huidige RGB-sortering:%1$s</string>
+    <string name="current_version">Huidige versie</string>
+    <string name="currentquery">Huidige gegevensquery</string>
+    <string name="custom">AANGEPAST</string>
+    <string name="deep_sea_mode">Deep Sea Mode</string>
+    <string name="define_system">gebruiker definieer</string>
+    <string name="delete">verwijderen</string>
+    <string name="delete_group">verwijder groep %1$s</string>
+    <string name="deletthis">Sleep hierheen om te verwijderen</string>
+    <string name="device_has_restarted">1. Controleer of het apparaat opnieuw is opgestart en dat het lampje snel knippert</string>
+    <string name="device_list">apparaatlijst</string>
+    <string name="devices_all">ALLE APPARATEN</string>
+    <string name="disconnect">Verbreek Bluetooth ...</string>
+    <string name="disconnect_bluetooth">Weet u zeker dat u Bluetooth wilt loskoppelen?</string>
+    <string name="download_center">Downloadcentrum</string>
+    <string name="editTimer">Timer bewerken</string>
+    <string name="edit_group_please">Bewerk eerst groepsapparaten</string>
+    <string name="enter">Voer de modus week in</string>
+    <string name="fan_rotational_temperature">Rotatietemperatuur ventilator ingesteld</string>
+    <string name="filesize">Videobestand mag niet groter zijn dan 20 MB</string>
+    <string name="firstlogin">Eerst inloggen</string>
+    <string name="five">vr</string>
+    <string name="flash">Flash</string>
+    <string name="floor">gebouw</string>
+    <string name="floor_host">verhuurder</string>
+    <string name="flow">WxWflow</string>
+    <string name="forum">Forum</string>
+    <string name="four">Thu</string>
+    <string name="g">G</string>
+    <string name="get_checkcode">Download de verificatiecode</string>
+    <string name="gpsNotifyMsg"> Huidige toepassing moet locatiefunctie openen.  nKlik op  Instellingen \" -  Locatieservice \" - Locatiefunctie openen. </string>
+    <string name="gradient">Gradient</string>
+    <string name="green">%1$s</string>
+    <string name="group_ble_device">Groepen</string>
+    <string name="groupname_cannot_same">Groepsnamen kunnen niet hetzelfde zijn!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="help">Helpen</string>
+    <string name="home">Huis</string>
+    <string name="home_page">Home</string>
+    <string name="hour">UUR</string>
+    <string name="input_account">Voer uw accountnummer in</string>
+    <string name="input_length_error">fout bij invoerlengte</string>
+    <string name="input_not_null">invoer kan niet leeg zijn</string>
+    <string name="input_password">Voer uw wachtwoord in</string>
+    <string name="is_it_2_4">2. Controleer of wifi 2,4 GHz is</string>
+    <string name="is_the_password_correct">3. Controleer of het wifi-wachtwoord correct is</string>
+    <string name="jump">Springen</string>
+    <string name="jump_over">Jump Over</string>
+    <string name="keyStr">1234567890abcdef</string>
+    <string name="key_in_numbers">Voer cijfers in!</string>
+    <string name="light_code">aantal adrescodes</string>
+    <string name="lightning_mode">Bliksemmodus</string>
+    <string name="loading">loading ...</string>
+    <string name="login">login</string>
+    <string name="loginapp">Log eerst in op het forum</string>
+    <string name="logon_agree_policy1">Sign in to read and agree to the</string>
+    <string name="logon_agree_policy2">service agreement</string>
+    <string name="logout">exit login</string>
+    <string name="long_press_the_controller_colorbtn">2> Druk lang op de kleurtoets van de controller gedurende 5 seconden</string>
+    <string name="long_press_the_controller_muscibtn">2> Houd de muziektoets van de controller 5 seconden lang ingedrukt</string>
+    <string name="long_press_the_controller_onoffbtn">2> Druk lang op de controller-omschakeltoets gedurende 5 seconden</string>
+    <string name="look">Bekijk deze reactie</string>
+    <string name="looking">Voorbeeld ...</string>
+    <string name="main_tab_text_service">LED-LAMP</string>
+    <string name="marine_mode">Maritieme modus</string>
+    <string name="micro_authorized">Microfoon is geautoriseerd.</string>
+    <string name="minute">MINUUT</string>
+    <string name="mode">Mode</string>
+    <string name="mode_select">modusselectie</string>
+    <string name="mode_set">Mode:%1$s</string>
+    <string name="model">MODE</string>
+    <string name="msg_no_add_scene">Geen inhoudskeuze, de bewerking is ongeldig</string>
+    <string name="msg_not_empty">Gegevens niet opgeslagen, zeker dat u wilt afsluiten</string>
+    <string name="msg_sending_online">Scannen ...</string>
+    <string name="multipoint_fast_running">MR</string>
+    <string name="music_lib">music lib</string>
+    <string name="music_style_pop">Pop</string>
+    <string name="music_style_rock">Rock</string>
+    <string name="music_style_soft">Zacht</string>
+    <string name="my_personal">Mijne</string>
+    <string name="natural_light">natuurlijke kleur</string>
+    <string name="network_timeout">netwerk-time-out apparaatverbinding</string>
+    <string name="new_password">nieuw wachtwoord:</string>
+    <string name="next_step">Volgende stap</string>
+    <string name="no_account">geen accountnummer?</string>
+    <string name="no_device_found">​​GEEN APPARAAT GEVONDEN!</string>
+    <string name="no_more_data">Geen gegevens meer</string>
+    <string name="not_used">Not Used</string>
+    <string name="nothing">Geen gegevens</string>
+    <string name="ok">OK</string>
+    <string name="old_password">oud wachtwoord:</string>
+    <string name="one">Mon</string>
+    <string name="open_album">Album openen</string>
+    <string name="open_close">O / C</string>
+    <string name="openapp">Klik op de rechterbovenhoek ⊕ om software toe te voegen. Klik voor het eerst op de Help-knop in de rechteronderhoek om de bedieningshandleiding te bekijken</string>
+    <string name="p">P</string>
+    <string name="p_explain">Grafische uitleg</string>
+    <string name="pair_code">Paarcode</string>
+    <string name="pair_code_set">Huidige code:%1$s</string>
+    <string name="password">wachtwoord</string>
+    <string name="pecent_photos">Recente foto\'s</string>
+    <string name="phone_connected_to_hotspot">verbind de wifi van de mobiele telefoon met de hotspot van het apparaat</string>
+    <string name="phone_or_email">mobiel telefoonnummer of e-mailadres</string>
+    <string name="picture">De afbeelding mag niet groter zijn dan 1MB, selecteer opnieuw</string>
+    <string name="picture_all_audio">Alle audio</string>
+    <string name="picture_audio">Toegang tot systeemopname werd geweigerd</string>
+    <string name="picture_audio_empty">U kunt audio opnemen met systeemopname</string>
+    <string name="picture_audio_error">De audio is beschadigd</string>
+    <string name="picture_camera">Krijg toestemming van systeemcamera geweigerd</string>
+    <string name="picture_camera_roll">Camerarol</string>
+    <string name="picture_camera_roll_num">%1$s (%2$d)</string>
+    <string name="picture_cancel">Annuleren</string>
+    <string name="picture_completed">Voltooid</string>
+    <string name="picture_confirm">OK</string>
+    <string name="picture_done">Gereed</string>
+    <string name="picture_done_front_num">%1$d/%2$d voltooid</string>
+    <string name="picture_empty">U kunt de camera gebruiken om foto\'s of video\'s te maken</string>
+    <string name="picture_empty_audio_title">Geen audiobestand \n</string>
+    <string name="picture_empty_title">Geen video of foto \n</string>
+    <string name="picture_error">Afbeelding is beschadigd</string>
+    <string name="picture_gif_tag">Animatie</string>
+    <string name="picture_jurisdiction">Toestemming om geheugenkaart te lezen is geweigerd</string>
+    <string name="picture_long_chart">lange afbeelding</string>
+    <string name="picture_message_audio_max_num">U kunt maximaal %1$s audio\'s selecteren</string>
+    <string name="picture_message_max_num">U kunt maximaal %1$s foto\'s selecteren</string>
+    <string name="picture_message_video_max_num">U kunt maximaal %1$s video\'s selecteren</string>
+    <string name="picture_min_img_num">De minimale selectie afbeeldingen mag niet minder zijn dan %1$s sheets</string>
+    <string name="picture_min_video_num">De minimale videoselectie mag niet minder zijn da %1$s</string>
+    <string name="picture_pause_audio">Pauzeer</string>
+    <string name="picture_photograph">Fotograferen</string>
+    <string name="picture_play_audio">Speel</string>
+    <string name="picture_please">Een ogenblik geduld ...</string>
+    <string name="picture_please_select">Selecteer</string>
+    <string name="picture_preview">Voorbeeld</string>
+    <string name="picture_preview_image_num">%1$d /%2$d</string>
+    <string name="picture_prompt">Tips</string>
+    <string name="picture_prompt_content">Wilt u afbeeldingen op uw telefoon opslaan?</string>
+    <string name="picture_quit_audio">ophouden</string>
+    <string name="picture_record_video">Video opnemen</string>
+    <string name="picture_rule">Kan geen afbeeldingen of video\'s tegelijkertijd selecteren</string>
+    <string name="picture_save_error">Afbeelding kan</string>
+    <string name="picture_save_success">Afbeelding opgeslagen in</string>
+    <string name="picture_stop_audio">Hou op</string>
+    <string name="picture_take_picture">schiet</string>
+    <string name="picture_tape">Opname</string>
+    <string name="picture_video_error">De video is beschadigd</string>
+    <string name="picture_video_toast">Video is niet te bekijken</string>
+    <string name="picture_warning">Geen mediabestanden!</string>
+    <string name="playvideo">Spelen</string>
+    <string name="please_enter_again">Gelieve opnieuw in te voeren</string>
+    <string name="please_input">Nieuwe groepsnaam</string>
+    <string name="power_on">1 > Sluit de voeding aan</string>
+    <string name="preview">preview</string>
+    <string name="privacy_policy">Service Agreement and Privacy Policy</string>
+    <string name="privacy_policy_content">Please be sure to carefully read and fully understand the terms of the Service Agreement and Privacy Policy, including but not limited to: the authority information you need to obtain in order to provide you with data, sharing and other services. You can read the Service Agreement and Privacy Policy for details. If you agree, please click Agree to start accepting our service.</string>
+    <string name="privacy_policy_content1">Please be sure to carefully read and fully understand the terms of the Service Agreement and Privacy Policy, including but not limited to: the authority information you need to obtain in order to provide you with data, sharing and other services. You can read the </string>
+    <string name="privacy_policy_content2">Service Agreement</string>
+    <string name="privacy_policy_content3">and</string>
+    <string name="privacy_policy_content4">Privacy Policy</string>
+    <string name="publish_comment">geplaatst</string>
+    <string name="query">Query</string>
+    <string name="r">R</string>
+    <string name="r_g_b">R:%1$s G:%2$s B:%3$s</string>
+    <string name="rationale_ask_again">Deze toepassing werkt mogelijk niet correct zonder de gevraagde machtigingen. Open de applicatie-instellingeninterface om applicatierechten te wijzigen.</string>
+    <string name="red">%1$s</string>
+    <string name="regist_agree_policy">By signing up, you read and agree to the service agreement and privacy policy</string>
+    <string name="regist_agree_policy1">By signing up, you read and agree to the</string>
+    <string name="regist_agree_policy2">service agreement</string>
+    <string name="regist_agree_policy3">and</string>
+    <string name="regist_agree_policy4">privacy policy</string>
+    <string name="register">geregistreerd</string>
+    <string name="register_account">accountnummer:</string>
+    <string name="register_checkcode">verificatiecode:</string>
+    <string name="register_email">authenticatiemethode:</string>
+    <string name="register_password">Wachtwoord:</string>
+    <string name="register_success">succesvolle registratie</string>
+    <string name="replacement">Reset</string>
+    <string name="reply">reply</string>
+    <string name="request_failed">verzoek mislukt, probeer het later opnieuw</string>
+    <string name="reset_device">Reset eerst het apparaat</string>
+    <string name="reset_message">De gegevens worden na reset gewist. Weet je zeker dat je wilt resetten?</string>
+    <string name="return_to_this_app_to_continue_adding_device">2. Keer terug naar deze applicatie en ga door met het toevoegen van apparatuur</string>
+    <string name="rgb_sort">RGB-sortering</string>
+    <string name="rgb_sort_set">Huidige sortering:%1$s</string>
+    <string name="ring">RING</string>
+    <string name="run">RENNEN</string>
+    <string name="save">Opslaan</string>
+    <string name="saveSuccessfully">Opslaan Successed</string>
+    <string name="savefailed">Opslaan mislukt</string>
+    <string name="scan_dev_info">Gescand op het apparaat van %1$s. Ga terug naar de startpagina om de app %2$s te openen</string>
+    <string name="scan_dev_info_wifi">%1$s apparaten gescand,%2$s apparaten zijn succesvol toegevoegd</string>
+    <string name="scan_to">Scannen naar</string>
+    <string name="sdded_successfully">succesvol toegevoegd</string>
+    <string name="search_menu_title">Zoeken</string>
+    <string name="second">Tweede</string>
+    <string name="select_all">Selecteer alles</string>
+    <string name="select_chip">Selecteer chip</string>
+    <string name="sendSccess">Succesvol verzonden, de timinginstelling is ongeldig na uitschakelen</string>
+    <string name="send_checkcode">verificatiecode is verzonden</string>
+    <string name="sendcharts">Tekst verzenden</string>
+    <string name="sendtie">Verzenden ...</string>
+    <string name="sendvideo">Video verzenden</string>
+    <string name="sensitivity">Gevoeligheid</string>
+    <string name="sensitivity_set">gevoeligheid:%1$s</string>
+    <string name="sent_success">succesvol verzonden</string>
+    <string name="set_focus">Focus instellen</string>
+    <string name="set_pix_number">Stel de adrescode (0-512) in</string>
+    <string name="setting">Wifi-verbinding</string>
+    <string name="seven">Zon</string>
+    <string name="shake">Schudden</string>
+    <string name="single_click_select_color">Klik één keer op Kleur, klik lang op kleur verwijderen</string>
+    <string name="single_lamp_jump">SJ</string>
+    <string name="single_lamp_strobe">SS</string>
+    <string name="single_light_gradient">SG</string>
+    <string name="singlepoint_fast_running">SR</string>
+    <string name="six">Sta</string>
+    <string name="six_eighteen_length">6 ~ 18 numeriek alfabet</string>
+    <string name="six_number">6 cijfers</string>
+    <string name="skin_restoration">Huidherstel</string>
+    <string name="skip_reset_step_ble">Sla de reset-stap over als het lampje snel wit knippert.</string>
+    <string name="skip_reset_step_hotspot">Sla de reset-stap over als het lampje langzaam rood knippert.</string>
+    <string name="skip_reset_step_wifi">Sla de reset-stap over als het lampje snel blauw knippert.</string>
+    <string name="sleep_mode">Slaapmodus</string>
+    <string name="spacercode">Spacer Code</string>
+    <string name="spacercodevaluetip">Voer een waarde van Spacer Code in!</string>
+    <string name="speed">Snelheid ​​</string>
+    <string name="speed_set">Snelheid:%1$s</string>
+    <string name="startcode">Start code</string>
+    <string name="startcodevaluetip">Voer een waarde in van startcode!</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="sun_a">Verandering van koud en warm</string>
+    <string name="sun_b">Koele adem</string>
+    <string name="sun_c">Warme adem</string>
+    <string name="sun_d">natuurlijke ademhaling</string>
+    <string name="sun_e">warme en koude ademhaling</string>
+    <string name="sun_f">Koude en warme stroboscoop</string>
+    <string name="sun_g">koude kleurenstroboscoop</string>
+    <string name="sun_h">Warme kleurenstroboscoop</string>
+    <string name="sun_sei">Koele kleur: 100 Warme kleur: 0</string>
+    <string name="sunrise_mode">Sunrise-modus</string>
+    <string name="sunset_mode">Zonsondergangmodus</string>
+    <string name="sunshine_mode">Sunshine Mode</string>
+    <string name="supported">​​Sorry, tot 16 keer worden ondersteund</string>
+    <string name="supportedlight">Sorry, tot 10 keer ondersteund</string>
+    <string name="sure">Zeker</string>
+    <string name="switch_distribution_mode">Probeer de netwerkdistributiemodus te wijzigen</string>
+    <string name="switch_to_the_distribution_network">schakel over naar de distributienetwerkmodus</string>
+    <string name="system_device">systeem</string>
+    <string name="tab_aisle">Gangpad</string>
+    <string name="tab_brightness">Helderheid</string>
+    <string name="tab_ct">CT</string>
+    <string name="tab_custom">Aangepast</string>
+    <string name="tab_dm">WHT DIM</string>
+    <string name="tab_mode">Mode</string>
+    <string name="tab_music">Muziek</string>
+    <string name="tab_record">Record</string>
+    <string name="tab_reg">RGB</string>
+    <string name="tab_scene">Scène</string>
+    <string name="tab_timer">Timer</string>
+    <string name="table1">Tabel 1</string>
+    <string name="table2">Tabel 2</string>
+    <string name="take_video">Recente video</string>
+    <string name="temperature">Temperatuur</string>
+    <string name="text">Voer de body in</string>
+    <string name="text_addname">Naam toevoegen (bijwerken)</string>
+    <string name="text_addscene_new">Nieuwe service toevoegen</string>
+    <string name="text_cancel">ANNULEREN</string>
+    <string name="text_custom">Door de gebruiker gedefinieerd</string>
+    <string name="text_edit">Bewerken</string>
+    <string name="text_empty_name">Naam mag niet leeg zijn</string>
+    <string name="text_empty_service">Service mag niet leeg zijn</string>
+    <string name="text_exit">Opnieuw volgens de uitgang van LED LAMP</string>
+    <string name="text_input_name">1 tot 16 letters, cijfers of onderstrepingstekens</string>
+    <string name="text_ledble">LED BLE</string>
+    <string name="text_leddmx">LED DMX</string>
+    <string name="text_ledlight">LED-LICHT</string>
+    <string name="text_ledsmart">LED SMART</string>
+    <string name="text_ledspi">LED SPI</string>
+    <string name="text_ledstage">LED STAGE</string>
+    <string name="text_ledstrip">LED-STRIP</string>
+    <string name="text_ledsun">LED SUN</string>
+    <string name="text_ok">OK</string>
+    <string name="text_over">Voltooien</string>
+    <string name="text_pic">Afbeelding</string>
+    <string name="text_pick_camera">Foto\'s maken</string>
+    <string name="text_pick_local">Galerij</string>
+    <string name="text_relaxation">Ontspanning</string>
+    <string name="text_romance">Romantisch</string>
+    <string name="text_selectdevice">Selecteer apparaat</string>
+    <string name="text_sport">Sport</string>
+    <string name="text_storage">Opslaan</string>
+    <string name="text_str">Naam</string>
+    <string name="text_system">Systeem</string>
+    <string name="text_warm_content">Weet u zeker dat u dit scenario wilt verwijderen?</string>
+    <string name="text_warm_content1">Voer in het onderstaande invoerveld in:</string>
+    <string name="text_warming">Warme prompt</string>
+    <string name="three">wo</string>
+    <string name="thunderstorm_mode">Onweersbui-modus</string>
+    <string name="tiele">Voer de titel in</string>
+    <string name="time">time</string>
+    <string name="timeSize">Het maximale aantal timers is 24</string>
+    <string name="time_set">Timing correctie</string>
+    <string name="timeday">de timertijd kan niet hetzelfde zijn</string>
+    <string name="timelow">De batterij is te laag, dit kan het normale gebruik van de APP beïnvloeden</string>
+    <string name="timer">Weet u zeker dat u deze timer wilt verwijderen?</string>
+    <string name="timingquery">Timingquery</string>
+    <string name="tip_istribution_network">Opmerking: voltooi na het resetten van het apparaat de netwerkconfiguratie binnen drie minuten</string>
+    <string name="tips">Tips</string>
+    <string name="title_settings_dialog">Toestemmingsvereisten</string>
+    <string name="to_connect">om verbinding te maken</string>
+    <string name="toast_scene_exist">Service bestaat</string>
+    <string name="turn_on_the_camera">Zet de camera aan</string>
+    <string name="tv_chip_set">Chipinstellingen</string>
+    <string name="two">di</string>
+    <string name="un_known_artist">un_known_artist</string>
+    <string name="update">gewijzigd</string>
+    <string name="update_password">wachtwoord wijzigen</string>
+    <string name="update_password_success">gewijzigd wachtwoord succesvol</string>
+    <string name="valuetip">Voer een waarde groter dan 0 in!</string>
+    <string name="video">Video</string>
+    <string name="video_explain">Videotoelichting</string>
+    <string name="video_operation_tutorial">Handleiding voor videobewerking</string>
+    <string name="w">W</string>
+    <string name="warm_light">warme kleur</string>
+    <string name="white_light">coole kleur</string>
+    <string name="wifi_network">momenteel in het 2,4 GHz wifi-netwerk en voer het wachtwoord in</string>
+    <string name="wifi_network_not_2_4">Als je wifi 5 GHz is, stel deze dan eerst in op 2,4 GHz</string>
+    <string name="wifi_signal_is_good">om een ​​goed wifi-signaal te garanderen</string>
+    <string name="write">We hebben toegang nodig tot uw foto\'s, media-inhoud en bestanden om ze te kunnen weergeven.</string>
+</resources>

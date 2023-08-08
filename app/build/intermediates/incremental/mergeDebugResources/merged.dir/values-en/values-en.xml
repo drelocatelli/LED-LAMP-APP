@@ -1,0 +1,1422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="app_service">
+        <item>RGB</item>
+        <item>DMX</item>
+        <item>CAR</item>
+        <item>Aquarium</item>
+        <item>Stage</item>
+        <item>CT</item>
+        <item>WHI DIM</item>
+        <item>Broadcast</item>
+        <item>WIFI</item>
+    </array>
+    <array name="ble_mode">
+        <item>Tricolor jump,135</item>
+        <item>Seven-color jump,136</item>
+        <item>Tricolor gradient,137</item>
+        <item>even-color gradient,138</item>
+        <item>Red gradient,139</item>
+        <item>Green gradient,140</item>
+        <item>Blue gradient,141</item>
+        <item>Yellow gradient,142</item>
+        <item>Cyan gradient,143</item>
+        <item>Purple gradient,144</item>
+        <item>White gradient,145</item>
+        <item>Red-Green gradient,146</item>
+        <item>Red-Blue gradient,147</item>
+        <item>Green-Blue gradient,148</item>
+        <item>Seven-color flash,149</item>
+        <item>Red flash,150</item>
+        <item>Green flash,151</item>
+        <item>Blue flash,152</item>
+        <item>Yellow flash,153</item>
+        <item>Cyan flash,154</item>
+        <item>Purple flash,155</item>
+        <item>White flash,156</item>
+        <item>Seven-color breathe,157</item>
+    </array>
+    <array name="channel_set_model">
+        <item>NC,255</item>
+        <item>1,1</item>
+        <item>2,2</item>
+        <item>3,3</item>
+        <item>4,4</item>
+        <item>5,5</item>
+        <item>6,6</item>
+        <item>7,7</item>
+        <item>8,8</item>
+        <item>9,9</item>
+        <item>10,10</item>
+        <item>11,11</item>
+        <item>12,12</item>
+        <item>13,13</item>
+        <item>14,14</item>
+        <item>15,15</item>
+        <item>16,16</item>
+        <item>17,17</item>
+        <item>18,18</item>
+        <item>19,19</item>
+        <item>20,20</item>
+        <item>21,21</item>
+        <item>22,22</item>
+        <item>23,23</item>
+        <item>24,24</item>
+        <item>25,25</item>
+        <item>26,26</item>
+        <item>27,27</item>
+        <item>28,28</item>
+        <item>29,29</item>
+        <item>30,30</item>
+    </array>
+    <array name="chip_model">
+        <item>UCS512A,1</item>
+        <item>UCS512C,2</item>
+    </array>
+    <array name="ct_mode">
+        <item>Warm 0% Cool 100%,128</item>
+        <item>Warm 10% Cool 90%,129</item>
+        <item>Warm 20% Cool 80%,130</item>
+        <item>Warm 30% Cool 70%,131</item>
+        <item>Warm 40% Cool 60%,132</item>
+        <item>Warm 50% Cool 50%,133</item>
+        <item>Warm 60% Cool 40%,134</item>
+        <item>Warm 70% Cool 30%,135</item>
+        <item>Warm 80% Cool 20%,136</item>
+        <item>Warm 90% Cool 10%,137</item>
+        <item>Warm 100% Cool 0%,138</item>
+    </array>
+    <array name="custom_model">
+        <item>1:Gradual Change,0</item>
+        <item>2:Trailing,1</item>
+        <item>3:Flowing water,2</item>
+        <item>4:Chasing,3</item>
+        <item>5:Accumulation,4</item>
+        <item>6:White x white flow,6</item>
+        <item>7:Single Point Fast Running,7</item>
+        <item>8:Multipoint Fast Running,8</item>
+        <item>9:Brushing And Closing,9</item>
+        <item>10:Single Lamp Gradient,10</item>
+        <item>11:Single Lamp Jump,11</item>
+        <item>12:Single Lamp Strobe,12</item>
+    </array>
+    <array name="dm_mode">
+        <item>0%,128</item>
+        <item>10%,129</item>
+        <item>20%,130</item>
+        <item>30%,131</item>
+        <item>40%,132</item>
+        <item>50%,133</item>
+        <item>60%,134</item>
+        <item>70%,135</item>
+        <item>80%,136</item>
+        <item>90%,137</item>
+        <item>100%,138</item>
+    </array>
+    <array name="dmx02_rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+    </array>
+    <array name="dmx_model">
+        <item>AUTO,255</item>
+        <item>1:Forward Dreaming,1</item>
+        <item>2:Backward Dreaming,2</item>
+        <item>3:Forward 7 Colors,3</item>
+        <item>4:Backward 7 Colors,4</item>
+        <item>5:Forward RD/GN/BU,5</item>
+        <item>6:Backward RD/GN/BU,6</item>
+        <item>7:Forward YE/CN/VT,7</item>
+        <item>8:Backward YE/CN/VT,8</item>
+        <item>9:Forward 6 Colors RD,9</item>
+        <item>10:Backward 6 Colors RD,10</item>
+        <item>11:Forward 6 Colors GN,11</item>
+        <item>12:Backward 6 Colors GN,12</item>
+        <item>13:Forward 6 Colors BU,13</item>
+        <item>14:Backward 6 Colors BU,14</item>
+        <item>15:Forward 6 Colors CN,15</item>
+        <item>16:Backward 6 Colors CN,16</item>
+        <item>17:Forward 6 Colors YE,17</item>
+        <item>18:Backward 6 Colors YE,18</item>
+        <item>19:Forward 6 Colors VT,19</item>
+        <item>20:Backward 6 Colors VT,20</item>
+        <item>21:Forward 6 Colors WH,21</item>
+        <item>22:Backward 6 Colors WH,22</item>
+        <item>23:Forward Trailing 7 Colors,23</item>
+        <item>24:Backward Trailing 7 Colors,24</item>
+        <item>25:Forward Trailing RD,25</item>
+        <item>26:Backward Trailing RD,26</item>
+        <item>27:Forward Trailing GN,27</item>
+        <item>28:Backward Trailing GN,28</item>
+        <item>29:Forward Trailing BU,29</item>
+        <item>30:Backward Trailing BU,30</item>
+        <item>31:Forward Trailing YE,31</item>
+        <item>32:Backward Trailing YE,32</item>
+        <item>33:Forward Trailing CN,33</item>
+        <item>34:Backward Trailing CN,34</item>
+        <item>35:Forward Trailing VT,35</item>
+        <item>36:Backward Trailing VT,36</item>
+        <item>37:Forward Trailing WH,37</item>
+        <item>38:Backward Trailing WH,38</item>
+        <item>39:Forward Streaming 7 Colors,39</item>
+        <item>40:Backward Streaming 7 Colors,40</item>
+        <item>41:Forward Streaming RD/GN/BU,41</item>
+        <item>42:Backward Streaming RD/GN/BU,42</item>
+        <item>43:Forward Streaming YE/CN/VT,43</item>
+        <item>44:Backward Streaming YE/CN/VT,44</item>
+        <item>45:Forward Streaming RD/GN,45</item>
+        <item>46:Backward Streaming RD/GN,46</item>
+        <item>47:Forward Streaming GN/BU,47</item>
+        <item>48:Backward Streaming GN/BU,48</item>
+        <item>49:Forward Streaming YE/BU,49</item>
+        <item>50:Backward Streaming YE/BU,50</item>
+        <item>51:Forward Streaming YE/CN,51</item>
+        <item>52:Backward Streaming YE/CN,52</item>
+        <item>53:Forward Streaming CN/VT,53</item>
+        <item>54:Backward Streaming CN/VT,54</item>
+        <item>55:Forward Streaming BK/WH,55</item>
+        <item>56:Backward Streaming BK/WH,56</item>
+        <item>57:Open Curtain 7 Colors,57</item>
+        <item>58:Close Curtain 7 Colors,58</item>
+        <item>59:Open Curtain RD/GN/BU,59</item>
+        <item>60:Close Curtain RD/GN/BU,60</item>
+        <item>61:Open Curtain YE/CN/VT,61</item>
+        <item>62:Close Curtain YE/CN/VT,62</item>
+        <item>63:Forward Follow Spot 7 Colors,63</item>
+        <item>64:Backward Follow Spot 7 Colors,64</item>
+        <item>65:Forward Follow Spot RD/GN/BU,65</item>
+        <item>66:Backward Follow Spot RD/GN/BU,66</item>
+        <item>67:Forward Follow Spot YE/CN/VT,67</item>
+        <item>68:Backward Follow Spot YE/CN/VT,68</item>
+        <item>69:Forward Flutter 7 Colors,69</item>
+        <item>70:Backward Flutter 7 Colors,70</item>
+        <item>71:Forward Flutter RD/GN/BU,71</item>
+        <item>72:Backward Flutter RD/GN/BU,72</item>
+        <item>73:Forward Flutter YE/CN/VT,73</item>
+        <item>74:Backward Flutter YE/CN/VT,74</item>
+        <item>75:Hop 7 Colors,75</item>
+        <item>76:Hop RD/GN/BU,76</item>
+        <item>77:Hop RD/GN/BU,77</item>
+        <item>78:Strobe 7 Colors,78</item>
+        <item>79:Strobe RD/GN/BU,79</item>
+        <item>80:Strobe YE/CN/VT,80</item>
+        <item>81:Gradual 7 Colors,81</item>
+        <item>82:Gradual RD/E,82</item>
+        <item>83:Gradual RD/VT,83</item>
+        <item>84:Gradual GN/CN,84</item>
+        <item>85:Gradual GN/YE,85</item>
+        <item>86:Gradual BU/VT,86</item>
+        <item>87:Close Curtain RD,87</item>
+        <item>88:Close Curtain GN,88</item>
+        <item>89:Close Curtain BU,89</item>
+        <item>90:Close Curtain YE ,90</item>
+        <item>91:Close Curtain CN,91</item>
+        <item>92:Close Curtain VT,92</item>
+        <item>93:Close Curtain WH,93</item>
+        <item>94:Open Curtain RD,94</item>
+        <item>95:Open Curtain GN,95</item>
+        <item>96:Open Curtain BU,96</item>
+        <item>97:Open Curtain YE,97</item>
+        <item>98:Open Curtain CN,98</item>
+        <item>99:Open Curtain VT,99</item>
+        <item>100:Open Curtain WH,100</item>
+        <item>101:Horse Race RD,101</item>
+        <item>102:Horse Race GN,102</item>
+        <item>103:Horse Race BU,103</item>
+        <item>104:Horse Race YE,104</item>
+        <item>105:Horse Race CN,105</item>
+        <item>106:Horse Race VT,106</item>
+        <item>107:Horse Race WH,107</item>
+        <item>108:Forward Run RD,108</item>
+        <item>109:Backward Run RD,109</item>
+        <item>110:Forward Run GN,110</item>
+        <item>111:Backward Run GN,111</item>
+        <item>112:Forward Run BU,112</item>
+        <item>113:Backward Run BU,113</item>
+        <item>114:Forward Run YE,114</item>
+        <item>115:Backward Run YE,115</item>
+        <item>116:Forward Run CN,116</item>
+        <item>117:Backward Run CN,117</item>
+        <item>118:Forward Run VT,118</item>
+        <item>119:Backward Run VT,119</item>
+        <item>120:Forward Run WH,120</item>
+        <item>121:Backward Run WH,121</item>
+        <item>122:Forward Run 7 Colors,122</item>
+        <item>123:Backward Run 7 Colors,123</item>
+        <item>124:Forward Run RD/GN/BU,124</item>
+        <item>125:Backward Run RD/GN/BU,125</item>
+        <item>126:Forward Run YE/CN/VT,126</item>
+        <item>127:Backward Run YE/CN/VT,127</item>
+        <item>128:Forward Run BU/YE/VT,128</item>
+        <item>129:Forward Run GN/BU/YE,129</item>
+        <item>130:Backward Run BU/YE/VT,130</item>
+        <item>131:Forward Run RD/ON/WH,131</item>
+        <item>132:Backward Run RD/ON/WH,132</item>
+        <item>133:Forward Run GN ON RD,133</item>
+        <item>134:Backward Run GN ON RD,134</item>
+        <item>135:Forward Run BU ON GN,135</item>
+        <item>136:Backward Run BU ON GN,136</item>
+        <item>137:Forward Run YE ON BU,137</item>
+        <item>138:Backward Run YE ON BU,138</item>
+        <item>139:Forward Run CN ON YE,139</item>
+        <item>140:Backward Run CN ON YE,140</item>
+        <item>141:Forward Run VT ON CN,141</item>
+        <item>142:Backward Run VT ON CN,142</item>
+        <item>143:Forward Run WH ON VT,143</item>
+        <item>144:Backward Run WH ON VT,144</item>
+        <item>145:Forward Run WH ON RD,145</item>
+        <item>146:Backward Run WH ON RD,146</item>
+        <item>147:Forward Run 7 COLOR ON RD,147</item>
+        <item>148:Backward Run 7 COLOR ON RD,148</item>
+        <item>149:Forward Run 7 COLOR ON GN,149</item>
+        <item>150:Backward Run 7 COLOR ON GN,150</item>
+        <item>151:Forward Run 7 COLOR ON BU,151</item>
+        <item>152:Backward Run 7 COLOR ON BU,152</item>
+        <item>153:Forward Run 7 COLOR ON YE,153</item>
+        <item>154:Backward Run 7 COLOR ON YE,154</item>
+        <item>155:Forward Run 7 COLOR ON CN,155</item>
+        <item>156:Backward Run 7 COLOR ON CN,156</item>
+        <item>157:Forward Run 7 COLOR ON VT,157</item>
+        <item>158:Backward Run 7 COLOR ON VT,158</item>
+        <item>159:Forward Run 7 COLOR ON WH,159</item>
+        <item>160:Backward Run 7 COLOR ON WH,160</item>
+        <item>161:Forward Flow WH RD WH,161</item>
+        <item>162:Backward Flow WH RD WH,162</item>
+        <item>163:Forward Flow WH GN WH,163</item>
+        <item>164:Backward Flow WH GN WH,164</item>
+        <item>165:Forward Flow WH BU WH,165</item>
+        <item>166:Backward Flow WH BU WH,166</item>
+        <item>167:Forward Flow WH YE WH,167</item>
+        <item>168:Backward Flow WH YE WH,168</item>
+        <item>169:Forward Flow WH CN WH,169</item>
+        <item>170:Backward Flow WH CN WH,170</item>
+        <item>171:Forward Flow WH VT WH,171</item>
+        <item>172:Backward Flow WH VT WH,172</item>
+        <item>173:Forward Flow RD WH RD,173</item>
+        <item>174:Backward Flow RD WH RD,174</item>
+        <item>175:Forward Flow GN WH GN,175</item>
+        <item>176:Backward Flow GN WH GN,176</item>
+        <item>177:Forward Flow BU WH BU,177</item>
+        <item>178:Backward Flow BU WH BU,178</item>
+        <item>179:Forward Flow YE WH YE,179</item>
+        <item>180:Backward Flow YE WH YE,180</item>
+        <item>181:Forward Flow CN WH CN,181</item>
+        <item>182:Backward Flow CN WH CN,182</item>
+        <item>183:Forward Flow VT WH VT,183</item>
+        <item>184:Backward Flow VT WH VT,184</item>
+        <item>185:Forward Run GN ON BU,185</item>
+        <item>186:Backward Run GN ON BU,186</item>
+        <item>187:Forward Run GN ON RD,187</item>
+        <item>188:Backward Run GN ON RD,188</item>
+        <item>189:Forward Run RD ON BU,189</item>
+        <item>190Backward Run RD ON BU,190</item>
+        <item>191Forward Run CN ON YE,191</item>
+        <item>192:Backward Run CN ON YE,192</item>
+        <item>193:Forward Run YE ON VT,193</item>
+        <item>194:Backward Run YE ON VT,194</item>
+        <item>195:Forward Run WH ON YE,195</item>
+        <item>196:Backward Run WH ON YE,196</item>
+        <item>197:Forward Run YE ON WH,197</item>
+        <item>198:Backward Run YE ON WH,198</item>
+        <item>199:Forward Swab 7 COLORS,199</item>
+        <item>200:Backward Swab 7 COLORS,200</item>
+        <item>201:Forward Swab RD GN BU,201</item>
+        <item>202:Backward Swab RD GN BU,202</item>
+        <item>203:Forward Swab YE CN VT,203</item>
+        <item>204:Backward Swab YE CN VT,204</item>
+        <item>205:Open Curtain Swab 7 COLORS,205</item>
+        <item>206:Close Curtain Swab 7 COLORS,206</item>
+        <item>207Open Curtain Swab R G B ,207</item>
+        <item>208:Close Curtain Swab R G B ,208</item>
+        <item>209:Open Curtain Swab Y C P,209</item>
+        <item>210:Close Curtain Swab Y C P,210</item>
+    </array>
+    <array name="forum_tab_titles">
+        <item>Other</item>
+        <item>Conn</item>
+        <item>Advisory</item>
+        <item>Suggest</item>
+        <item>Hot</item>
+    </array>
+    <array name="light_banner">
+        <item>LPD6803,1</item>
+        <item>TM1803,2</item>
+        <item>UCS1903,3</item>
+        <item>WS2811,4</item>
+        <item>TM1812,5</item>
+        <item>TM1809,6</item>
+        <item>WS2801,7</item>
+        <item>TLS3001,8</item>
+        <item>TLS3008,9</item>
+        <item>P9813,10</item>
+        <item>UCS8806,11</item>
+        <item>TM1829,12</item>
+        <item>TM1909,13</item>
+    </array>
+    <array name="light_mode">
+        <item>Turn off the light</item>
+        <item>Static red</item>
+        <item>Static blue</item>
+        <item>Static green</item>
+        <item>Static cyan</item>
+        <item>Static yellow</item>
+        <item>Static purple</item>
+        <item>Static white</item>
+        <item>Tricolor jump</item>
+        <item>Seven-color jump</item>
+        <item>Tricolor gradient</item>
+        <item>Seven-color gradient</item>
+        <item>Red gradient</item>
+        <item>Green gradient</item>
+        <item>Blue gradient</item>
+        <item>Yellow gradient</item>
+        <item>Cyan gradient</item>
+        <item>Purple gradient</item>
+        <item>White gradient</item>
+        <item>Red-Green gradient</item>
+        <item>Red-Blue gradient</item>
+        <item>Green-Blue gradient</item>
+        <item>Seven-color flash</item>
+        <item>Red flash</item>
+        <item>Green flash</item>
+        <item>Blue flash</item>
+        <item>Yellow flash</item>
+        <item>Cyan flash</item>
+        <item>Purple flash</item>
+        <item>White flash</item>
+        <item>MODE30</item>
+        <item>MODE31</item>
+        <item>MODE32</item>
+        <item>MODE33</item>
+        <item>MODE34</item>
+        <item>MODE35</item>
+        <item>MODE36</item>
+        <item>MODE37</item>
+        <item>MODE38</item>
+        <item>MODE39</item>
+        <item>MODE40</item>
+        <item>MODE41</item>
+        <item>MODE42</item>
+        <item>MODE43</item>
+        <item>MODE44</item>
+        <item>MODE45</item>
+        <item>MODE46</item>
+        <item>MODE47</item>
+        <item>MODE48</item>
+        <item>MODE49</item>
+        <item>MODE50</item>
+        <item>MODE51</item>
+        <item>MODE52</item>
+        <item>MODE53</item>
+        <item>MODE54</item>
+        <item>MODE55</item>
+        <item>MODE56</item>
+        <item>MODE57</item>
+        <item>MODE58</item>
+        <item>MODE59</item>
+        <item>MODE60</item>
+        <item>MODE61</item>
+        <item>MODE62</item>
+        <item>MODE63</item>
+        <item>MODE64</item>
+        <item>MODE65</item>
+        <item>MODE66</item>
+        <item>MODE67</item>
+        <item>MODE68</item>
+        <item>MODE69</item>
+        <item>MODE70</item>
+        <item>MODE71</item>
+        <item>MODE72</item>
+        <item>MODE73</item>
+        <item>MODE74</item>
+        <item>MODE75</item>
+        <item>MODE76</item>
+        <item>MODE77</item>
+        <item>MODE78</item>
+        <item>MODE79</item>
+        <item>MODE80</item>
+        <item>MODE81</item>
+        <item>MODE82</item>
+        <item>MODE83</item>
+        <item>MODE84</item>
+        <item>MODE85</item>
+        <item>MODE86</item>
+        <item>MODE87</item>
+        <item>MODE88</item>
+        <item>MODE89</item>
+        <item>MODE90</item>
+        <item>MODE91</item>
+        <item>MODE92</item>
+        <item>MODE93</item>
+        <item>MODE94</item>
+        <item>MODE95</item>
+        <item>MODE96</item>
+        <item>MODE97</item>
+        <item>MODE98</item>
+        <item>MODE99</item>
+        <item>MODE100</item>
+        <item>MODE101</item>
+        <item>MODE102</item>
+        <item>MODE103</item>
+        <item>MODE104</item>
+        <item>MODE105</item>
+        <item>MODE106</item>
+        <item>MODE107</item>
+        <item>MODE108</item>
+        <item>MODE109</item>
+        <item>MODE110</item>
+        <item>MODE111</item>
+        <item>MODE112</item>
+        <item>MODE113</item>
+        <item>MODE114</item>
+        <item>MODE115</item>
+        <item>MODE116</item>
+        <item>MODE117</item>
+        <item>MODE118</item>
+        <item>MODE119</item>
+        <item>MODE120</item>
+        <item>MODE121</item>
+        <item>MODE122</item>
+        <item>MODE123</item>
+        <item>MODE124</item>
+        <item>MODE125</item>
+        <item>MODE126</item>
+        <item>MODE127</item>
+        <item>MODE128</item>
+        <item>MODE129</item>
+        <item>MODE130</item>
+        <item>MODE131</item>
+        <item>MODE132</item>
+        <item>MODE133</item>
+        <item>MODE134</item>
+        <item>MODE135</item>
+        <item>MODE136</item>
+        <item>MODE137</item>
+        <item>MODE138</item>
+        <item>MODE139</item>
+        <item>MODE140</item>
+        <item>MODE141</item>
+        <item>MODE142</item>
+        <item>MODE143</item>
+        <item>MODE144</item>
+        <item>MODE145</item>
+        <item>MODE146</item>
+        <item>MODE147</item>
+        <item>MODE148</item>
+        <item>MODE149</item>
+        <item>MODE150</item>
+        <item>MODE151</item>
+        <item>MODE152</item>
+        <item>MODE153</item>
+        <item>MODE154</item>
+        <item>MODE155</item>
+        <item>MODE156</item>
+        <item>MODE157</item>
+        <item>MODE158</item>
+        <item>MODE159</item>
+        <item>MODE160</item>
+        <item>MODE161</item>
+        <item>MODE162</item>
+        <item>MODE163</item>
+        <item>MODE164</item>
+        <item>MODE165</item>
+        <item>MODE166</item>
+        <item>MODE167</item>
+        <item>MODE168</item>
+        <item>MODE169</item>
+        <item>MODE170</item>
+        <item>MODE171</item>
+        <item>MODE172</item>
+        <item>MODE173</item>
+        <item>MODE174</item>
+        <item>MODE175</item>
+        <item>MODE176</item>
+        <item>MODE177</item>
+        <item>MODE178</item>
+        <item>MODE179</item>
+        <item>MODE180</item>
+        <item>MODE181</item>
+        <item>MODE182</item>
+        <item>MODE183</item>
+        <item>MODE184</item>
+        <item>MODE185</item>
+        <item>MODE186</item>
+        <item>MODE187</item>
+        <item>MODE188</item>
+        <item>MODE189</item>
+        <item>MODE190</item>
+        <item>MODE191</item>
+        <item>MODE192</item>
+        <item>MODE193</item>
+        <item>MODE194</item>
+        <item>MODE195</item>
+        <item>MODE196</item>
+        <item>MODE197</item>
+        <item>MODE198</item>
+        <item>MODE199</item>
+        <item>MODE200</item>
+        <item>MODE201</item>
+        <item>MODE202</item>
+        <item>MODE203</item>
+        <item>MODE204</item>
+        <item>MODE205</item>
+        <item>MODE206</item>
+        <item>MODE207</item>
+        <item>MODE208</item>
+        <item>MODE209</item>
+        <item>MODE210</item>
+        <item>MODE211</item>
+    </array>
+    <array name="modelble">
+        <item>Turn off the light</item>
+        <item>Turn on the light</item>
+        <item>Static red</item>
+        <item>Static blue</item>
+        <item>Static green</item>
+        <item>Static cyan</item>
+        <item>Static yellow</item>
+        <item>Static purple</item>
+        <item>Static white</item>
+        <item>Tricolor jump</item>
+        <item>Seven-color jump</item>
+        <item>Tricolor gradient</item>
+        <item>Seven-color gradient</item>
+        <item>Cold white</item>
+        <item>Warm White</item>
+        <item>Monochrome</item>
+    </array>
+    <array name="modelike">
+        <item>Turn off</item>
+        <item>Turn on</item>
+        <item>All bright</item>
+        <item>Half bright</item>
+        <item>Slightly bright</item>
+        <item>breathing</item>
+        <item>Strobe</item>
+        <item>Flashing</item>
+    </array>
+    <array name="modelsun">
+        <item>Turn off the lights</item>
+        <item>Turn on the light</item>
+        <item>Cool color</item>
+        <item>Warm color</item>
+        <item>Natural color</item>
+        <item>White warm jump change</item>
+        <item>White gradient</item>
+        <item>Warm color gradient</item>
+        <item>Natural color gradient</item>
+        <item>White warm gradient</item>
+        <item>White warm strobe</item>
+        <item>White strobe</item>
+        <item>Warm color strobe</item>
+        <item>Natural color strobe</item>
+    </array>
+    <array name="rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+        <item>RGBW,7</item>
+        <item>RBGW,8</item>
+        <item>GRBW,9</item>
+        <item>GBRW,10</item>
+        <item>BRGW,11</item>
+        <item>BGRW,12</item>
+    </array>
+    <array name="rgb_sort_ble">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+    </array>
+    <array name="select_mode">
+        <item>W,0</item>
+        <item>BW,1</item>
+        <item>RGB,2</item>
+        <item>RGBW,3</item>
+        <item>RGBWCP,4</item>
+    </array>
+    <array name="timer_model_dmx">
+        <item>Turn Off</item>
+        <item>Turn On</item>
+        <item>AUTO,255</item>
+        <item>1:Forward Dreaming</item>
+        <item>2:Backward Dreaming</item>
+        <item>3:Forward 7 Colors</item>
+        <item>4:Backward 7 Colors</item>
+        <item>5:Forward RED GREEN BLUE</item>
+        <item>6:Backward RED GREEN BLUE</item>
+        <item>7:Forward YELLOW CYAN PURPLE</item>
+        <item>8:Backward YELLOW CYAN PURPLE</item>
+        <item>9:Forward 6 Colors plus RED</item>
+        <item>10:Backward 6 Colors plus RED</item>
+        <item>11:Forward 6 Colors plus GREEN</item>
+        <item>12:Backward 6 Colors plus GREEN</item>
+        <item>13:Forward 6 Colors plus BLUE</item>
+        <item>14:Backward 6 Colors plus BLUE</item>
+        <item>15:Forward 6 Colors plus CYAN</item>
+        <item>16:Backward 6 Colors plus CYAN</item>
+        <item>17:Forward 6 Colors plus YELLOW</item>
+        <item>18:Backward 6 Colors plus YELLOW</item>
+        <item>19:Forward 6 Colors plus PURPLE</item>
+        <item>20:Backward 6 Colors plus PURPLE</item>
+        <item>21:Forward 6 Colors plus WHITE</item>
+        <item>22:Backward 6 Colors plus WHITE</item>
+        <item>23:Forward Trailing 7 Colors</item>
+        <item>24:Backward Trailing 7 Colors</item>
+        <item>25:Forward Trailing RED</item>
+        <item>26:Backward Trailing RED</item>
+        <item>27Forward Trailing GREEN</item>
+        <item>28:Backward Trailing GREEN</item>
+        <item>29:Forward Trailing BLUE</item>
+        <item>30:Backward Trailing BLUE</item>
+        <item>31:Forward Trailing YELLOW</item>
+        <item>32:Backward Trailing YELLOW</item>
+        <item>33:Forward Trailing CYAN</item>
+        <item>34:Backward Trailing CYAN</item>
+        <item>35:Forward Trailing PURPLE</item>
+        <item>36:Backward Trailing PURPLE</item>
+        <item>37:Forward Trailing WHITE</item>
+        <item>38:Backward Trailing WHITE</item>
+        <item>39:Forward Streaming 7 Colors</item>
+        <item>40:Backward Streaming 7 Colors</item>
+        <item>41:Forward Streaming RED GREEN BLUE</item>
+        <item>42:Backward Streaming RED GREEN BLUE</item>
+        <item>43:Forward Streaming YELLOW CYAN PURPLE</item>
+        <item>44:Backward Streaming YELLOW CYAN PURPLE</item>
+        <item>45:Forward Streaming RED GREEN</item>
+        <item>46:Backward Streaming RED GREEN</item>
+        <item>47:Forward Streaming GREEN BLUE</item>
+        <item>48:Backward Streaming GREEN BLUE</item>
+        <item>49:Forward Streaming YELLOW BLUE</item>
+        <item>50:Backward Streaming YELLOW BLUE</item>
+        <item>51:Forward Streaming YELLOW CYAN</item>
+        <item>52:Backward Streaming YELLOW CYAN</item>
+        <item>53:Forward Streaming CYAN PURPLE</item>
+        <item>54:Backward Streaming CYAN PURPLE</item>
+        <item>55:Forward Streaming BLACK WHITE</item>
+        <item>56:Backward Streaming BLACK WHITE</item>
+        <item>57:Open Curtain 7 Colors</item>
+        <item>58:Close Curtain 7 Colors</item>
+        <item>59:Open Curtain RED GREEN BLUE</item>
+        <item>60:Close Curtain RED GREEN BLUE</item>
+        <item>61:Open Curtain YELLOW CYAN PURPLE</item>
+        <item>62:Close Curtain YELLOW CYAN PURPLE</item>
+        <item>63:Forward Follow Spot 7 Colors</item>
+        <item>64:Backward Follow Spot 7 Colors</item>
+        <item>65:Forward Follow Spot RED GREEN BLUE</item>
+        <item>66:Backward Follow Spot RED GREEN BLUE</item>
+        <item>67:Forward Follow Spot YELLOW CYAN PURPLE</item>
+        <item>68:Backward Follow Spot YELLOW CYAN PURPLE</item>
+        <item>69:Forward Flutter 7 Colors</item>
+        <item>70:Backward Flutter 7 Colors</item>
+        <item>71:Forward Flutter RED GREEN BLUE</item>
+        <item>72:Backward Flutter RED GREEN BLUE</item>
+        <item>73:Forward Flutter YELLOW CYAN PURPLE</item>
+        <item>74:Backward Flutter YELLOW CYAN PURPLE</item>
+        <item>75:Hop 7 Colors</item>
+        <item>76:Hop RED GREEN BLUE</item>
+        <item>77:Hop RED GREEN BLUE</item>
+        <item>78:Strobe 7 Colors</item>
+        <item>79:Strobe RED GREEN BLUE</item>
+        <item>80:Strobe YELLOW CYAN PURPLE</item>
+        <item>81:Gradual 7 Colors</item>
+        <item>82:Gradual RED YELLOW</item>
+        <item>83:Gradual RED PURPLE</item>
+        <item>84:Gradual GREEN CYAN</item>
+        <item>85:Gradual GREEN YELLOW</item>
+        <item>86:Gradual BLUE PURPLE</item>
+        <item>87:Close Curtain RED</item>
+        <item>88:Close Curtain GREEN</item>
+        <item>89:Close Curtain BLUE</item>
+        <item>90:Close Curtain YELLOW</item>
+        <item>91:Close Curtain CYAN</item>
+        <item>92:Close Curtain PURPLE</item>
+        <item>93:Close Curtain WHITE</item>
+        <item>94:Open Curtain RED</item>
+        <item>95:Open Curtain GREEN</item>
+        <item>96:Open Curtain BLUE</item>
+        <item>97:Open Curtain YELLOW</item>
+        <item>98:Open Curtain CYAN</item>
+        <item>99:Open Curtain PURPLE</item>
+        <item>100:Open Curtain WHITE</item>
+        <item>101:Heap Up RED</item>
+        <item>102:Heap Up GREEN</item>
+        <item>103:Heap Up BLUE</item>
+        <item>104:Heap Up YELLOW</item>
+        <item>105:Heap Up CYAN</item>
+        <item>106:Heap Up PURPLE</item>
+        <item>107:Heap Up WHITE</item>
+        <item>108:Forward Run RED</item>
+        <item>109:Backward Run RED</item>
+        <item>110:Forward Run GREEN</item>
+        <item>111:Backward Run GREEN</item>
+        <item>112:Forward Run BLUE</item>
+        <item>113:Backward Run BLUE</item>
+        <item>114:Forward Run YELLOW</item>
+        <item>115:Backward Run YELLOW</item>
+        <item>116:Forward Run CYAN</item>
+        <item>117:Backward Run CYAN</item>
+        <item>118:Forward Run PURPLE</item>
+        <item>119:Backward Run PURPLE</item>
+        <item>120:Forward Run WHITE</item>
+        <item>121:Backward Run WHITE</item>
+        <item>122:Forward Run 7 Colors</item>
+        <item>123:Backward Run 7 Colors</item>
+        <item>124:Forward Run RED GREEN BLUE</item>
+        <item>125:Backward Run RED GREEN BLUE</item>
+        <item>126:Forward Run YELLOW CYAN PURPLE</item>
+        <item>127:Backward Run YELLOW CYAN PURPLE</item>
+        <item>128:Forward Run BLUE YELLOW PURPLE</item>
+        <item>129:Forward Run GREEN BLUE YELLOW</item>
+        <item>130:Backward Run BLUE YELLOW PURPLE</item>
+        <item>131:Forward Run RED ON WHITE</item>
+        <item>132:Backward Run RED ON WHITE</item>
+        <item>133:Forward Run GREEN ON RED</item>
+        <item>134:Backward Run GREEN ON RED</item>
+        <item>135:Forward Run BLUE ON GREEN</item>
+        <item>136:Backward Run BLUE ON GREEN</item>
+        <item>137:Forward Run YELLOW ON BLUE</item>
+        <item>138:Backward Run YELLOW ON BLUE</item>
+        <item>139:Forward Run CYAN ON YELLOW</item>
+        <item>140:Backward Run CYAN ON YELLOW</item>
+        <item>141:Forward Run PURPLE ON CYAN</item>
+        <item>142:Backward Run PURPLE ON CYAN</item>
+        <item>143:Forward Run WHITE ON PURPLE</item>
+        <item>144:Backward Run WHITE ON PURPLE</item>
+        <item>145:Forward Run WHITE ON RED</item>
+        <item>146:Backward Run WHITE ON RED</item>
+        <item>147:Forward Run 7 COLOR ON RED</item>
+        <item>148:Backward Run 7 COLOR ON RED</item>
+        <item>149:Forward Run 7 COLOR ON GREEN</item>
+        <item>150:Backward Run 7 COLOR ON GREEN</item>
+        <item>151:Forward Run 7 COLOR ON BLUE</item>
+        <item>152:Backward Run 7 COLOR ON BLUE</item>
+        <item>153:Forward Run 7 COLOR ON YELLOW</item>
+        <item>154:Backward Run 7 COLOR ON YELLOW</item>
+        <item>155:Forward Run 7 COLOR ON CYAN</item>
+        <item>156:Backward Run 7 COLOR ON CYAN</item>
+        <item>157:Forward Run 7 COLOR ON PURPLE</item>
+        <item>158:Backward Run 7 COLOR ON PURPLE</item>
+        <item>159:Forward Run 7 COLOR ON WHITE</item>
+        <item>160:Backward Run 7 COLOR ON WHITE</item>
+        <item>161:Forward Flow WHITE RED WHITE</item>
+        <item>162:Backward Flow WHITE RED WHITE</item>
+        <item>163:Forward Flow WHITE GREEN WHITE</item>
+        <item>164:Backward Flow WHITE GREEN WHITE</item>
+        <item>165:Forward Flow WHITE BLUE WHITE</item>
+        <item>166:Backward Flow WHITE BLUE WHITE</item>
+        <item>167:Forward Flow WHITE YELLOW WHITE</item>
+        <item>168:Backward Flow WHITE YELLOW WHITE</item>
+        <item>169:Forward Flow WHITE CYAN WHITE</item>
+        <item>170:Backward Flow WHITE CYAN WHITE</item>
+        <item>171:Forward Flow WHITE PURPLE WHITE</item>
+        <item>172:Backward Flow WHITE PURPLE WHITE</item>
+        <item>173:Forward Flow RED WHITE RED</item>
+        <item>174:Backward Flow RED WHITE RED</item>
+        <item>175:Forward Flow GREEN WHITE GREEN</item>
+        <item>176:Backward Flow GREEN WHITE GREEN</item>
+        <item>177:Forward Flow BLUE WHITE BLUE</item>
+        <item>178:Backward Flow BLUE WHITE BLUE</item>
+        <item>179:Forward Flow YELLOW WHITE YELLOW</item>
+        <item>180:Backward Flow YELLOW WHITE YELLOW</item>
+        <item>181:Forward Flow CYAN WHITE CYAN</item>
+        <item>182:Backward Flow CYAN WHITE CYAN</item>
+        <item>183:Forward Flow PURPLE WHITE PURPLE</item>
+        <item>184:Backward Flow PURPLE WHITE PURPLE</item>
+        <item>185:Forward Run GREEN ON BLUE</item>
+        <item>186:Backward Run GREEN ON BLUE</item>
+        <item>187:Forward Run GREEN ON RED</item>
+        <item>188:Backward Run GREEN ON RED</item>
+        <item>189:Forward Run RED ON BLUE</item>
+        <item>190Backward Run RED ON BLUE</item>
+        <item>191Forward Run CYAN ON YELLOW</item>
+        <item>192:Backward Run CYAN ON YELLOW</item>
+        <item>193:Forward Run YELLOW ON PURPLE</item>
+        <item>194:Backward Run YELLOW ON PURPLE</item>
+        <item>195:Forward Run WHITE ON YELLOW</item>
+        <item>196:Backward Run WHITE ON YELLOW</item>
+        <item>197:Forward Run YELLOW ON WHITE</item>
+        <item>198:Backward Run YELLOW ON WHITE</item>
+        <item>199:Forward Swab 7 COLORS</item>
+        <item>200:Backward Swab 7 COLORS</item>
+        <item>201:Forward Swab RED GREEN BLUE</item>
+        <item>202:Backward Swab RED GREEN BLUE</item>
+        <item>203:Forward Swab YELLOW CYAN PURPLE</item>
+        <item>204:Backward Swab YELLOW CYAN PURPLE</item>
+        <item>205:Open Curtain Swab 7 COLORS</item>
+        <item>206:Close Curtain Swab 7 COLORS</item>
+        <item>207Open Curtain Swab R G B</item>
+        <item>208:Close Curtain Swab R G B</item>
+        <item>209:Open Curtain Swab Y C P</item>
+        <item>210:Close Curtain Swab Y C P</item>
+    </array>
+    <array name="week">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </array>
+    <array name="weekday">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </array>
+    <string name="Account_security">Account security</string>
+    <string name="Add_Picture">Add Picture</string>
+    <string name="Advisory">Advi</string>
+    <string name="Alignment">Alignment</string>
+    <string name="Animation">Animation</string>
+    <string name="Are_you_sure_delete_this_account">Are you sure delete this account ?</string>
+    <string name="Auxiliary_function">Button</string>
+    <string name="Background">Background</string>
+    <string name="Bubble">Bubble</string>
+    <string name="ButtonEight">HO</string>
+    <string name="ButtonFive">AC</string>
+    <string name="ButtonSeven">FL</string>
+    <string name="ButtonSix">PU</string>
+    <string name="Closetiming">Close timing</string>
+    <string name="Code">Code</string>
+    <string name="Connect">Conn</string>
+    <string name="Crash_Tip">*Recently ncountered a crash problem\nPlease uninstall the app first, \nand then download again</string>
+    <string name="DMX">DMX</string>
+    <string name="Delete_account_succeeded">Delete account succeeded</string>
+    <string name="Delete_this_account">Delete this account</string>
+    <string name="Emoticons_are_not_supported">Emoticons are not supported</string>
+    <string name="Experience_Now">Experience Now</string>
+    <string name="FD">FD</string>
+    <string name="FS">FS</string>
+    <string name="FW">FW</string>
+    <string name="Font_Size">Font Size</string>
+    <string name="Forward">Forward</string>
+    <string name="GD">GD</string>
+    <string name="Get_GIF_From_Album">Get GIF From Album</string>
+    <string name="Get_Pictures_From_Album">Get Pictures From Album</string>
+    <string name="Graffiti">Graffiti</string>
+    <string name="Hot">Hot</string>
+    <string name="LED">LED</string>
+    <string name="Language">Language</string>
+    <string name="Material_Library">Material Library</string>
+    <string name="No_Equipment">No equipment, please pull down to refresh</string>
+    <string name="No_Style">No Style</string>
+    <string name="Other">Other</string>
+    <string name="Pixel">Pixel</string>
+    <string name="Pull_down_to_refresh_device">Pull down to refresh device</string>
+    <string name="RGB">RGB</string>
+    <string name="RandomPlay">RandomPlay</string>
+    <string name="Read_Write_Failed">Failed to apply for read and write permissions</string>
+    <string name="Read_Write_Required">Read and write permissions are required, please open the settings to enable the corresponding permissions</string>
+    <string name="Read_Write_Success">The application for read and write permissions is successful</string>
+    <string name="Repeat">Repeat</string>
+    <string name="Reverse">Reverse</string>
+    <string name="Send_Failed">Send Failed</string>
+    <string name="Sending">Sending</string>
+    <string name="Sendtiming">Send timing</string>
+    <string name="SequentialPlay">SequentialPlay</string>
+    <string name="SinglePlay">SinglePlay</string>
+    <string name="Style">Style</string>
+    <string name="Suggest">Sug</string>
+    <string name="Tab_Effect">Effect</string>
+    <string name="Text">Text</string>
+    <string name="Text_Color">Text Color</string>
+    <string name="The_password_cannot_be_the_ame_number_or_letter">The password cannot be the same number or letter</string>
+    <string name="The_system_is_not_in_breathing_mode_yet">The system is not in breathing mode yet</string>
+    <string name="Turn_Off">Turn Off</string>
+    <string name="Turn_On">Turn On</string>
+    <string name="Tutorial">Tutorial</string>
+    <string name="Values_can_be_the_same">Values cannot be the same</string>
+    <string name="Voicecontrol">Voice</string>
+    <string name="Wiring">Wiring</string>
+    <string name="ablum_title">music name:%1$s from artist:%2$s Album: %3$s</string>
+    <string name="about_us_and_help">About us</string>
+    <string name="access_request">Access Request</string>
+    <string name="access_request_description">Since Android 6.0, to scan low-power Bluetooth devices, applications need to have access to the device location. This is because Bluetooth beacons can be used to determine the location of mobile phones and users. However, this application does not use your location information. This permission is only for scanning Bluetooth devices. [Click to view the official Google documentation]</string>
+    <string name="access_request_description1">Since Android 6.0, to scan low-power Bluetooth devices, applications need to have access to the device location. This is because Bluetooth beacons can be used to determine the location of mobile phones and users. However, this application does not use your location information. This permission is only for scanning Bluetooth devices.</string>
+    <string name="access_request_description2">[Click to view the official Google documentation]</string>
+    <string name="account_format_error">The authentication method is not formatted correctly</string>
+    <string name="accumulation">AC</string>
+    <string name="action_settings">Settings</string>
+    <string name="add2lib">Confirm select</string>
+    <string name="add2lib_all">Select all</string>
+    <string name="addTimer">Add Timer</string>
+    <string name="add_device">Add Device</string>
+    <string name="add_device_successfully">add the device successfully</string>
+    <string name="add_group">add new group</string>
+    <string name="adding_device">is adding equipment</string>
+    <string name="agree">Agree</string>
+    <string name="aisle_a">Aisle A</string>
+    <string name="aisle_b">Aisle B</string>
+    <string name="aisle_c">Aisle C</string>
+    <string name="all_off">all off</string>
+    <string name="all_on">all on</string>
+    <string name="allcomment">All comments</string>
+    <string name="app_name">LED LAMP</string>
+    <string name="aquatic_mode">Aquatic Mode</string>
+    <string name="authorization_alert">This function requires authorization from you, Otherwise APP will not be used properly.</string>
+    <string name="authorization_title">Tips:</string>
+    <string name="b">B</string>
+    <string name="back">BACK</string>
+    <string name="base_setting">Setitng</string>
+    <string name="battery">Battery</string>
+    <string name="bind_end">Confirm</string>
+    <string name="ble_connect">Bluetooth</string>
+    <string name="ble_not_supported">Not support Device</string>
+    <string name="blue">%1$s</string>
+    <string name="breathe">Breathe</string>
+    <string name="brightness">Brightness</string>
+    <string name="brightness_set">Brightness: %1$s</string>
+    <string name="btn_pix_number">number</string>
+    <string name="btn_set_pix_number">setpix</string>
+    <string name="btquery">Temperature battery inquiry</string>
+    <string name="busy_wait">I\'m busy, wait</string>
+    <string name="c">C</string>
+    <string name="camera_permissions_disabled">Camera permissions are disabled, please be sure to enable camera permissions!</string>
+    <string name="can_not_connect">May be wrong WIFI, Reconnect 3 seconds later or reselect other WIFI!</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_welcome">Cancel Welcome</string>
+    <string name="cancell">Cancell</string>
+    <string name="cancell_dialog">CANCEL</string>
+    <string name="change_color">Change</string>
+    <string name="change_skin">Change skin</string>
+    <string name="channelset">Colour Channel Set</string>
+    <string name="charts">Graphic Forum</string>
+    <string name="check_network_connection">Please check network connection!!!</string>
+    <string name="chiptypevaluetip">Please select a value of Chip Type !</string>
+    <string name="choose">Choose Week</string>
+    <string name="choosemode">Choose Mode</string>
+    <string name="chose">Please select short video</string>
+    <string name="chose_list">please select play list from music lib</string>
+    <string name="chose_picthor">Can only select one picture</string>
+    <string name="chose_video">Can only select one video</string>
+    <string name="circulation">loop</string>
+    <string name="clear">Clear</string>
+    <string name="close">close</string>
+    <string name="colorful_mode">Colorful Mode</string>
+    <string name="colour">color</string>
+    <string name="comment">Comment</string>
+    <string name="comment_content">Body</string>
+    <string name="comment_detail">Comment details</string>
+    <string name="comment_publish">Publish</string>
+    <string name="comment_publish_success">Published successfully</string>
+    <string name="comment_title">Title</string>
+    <string name="common_words">Common Words</string>
+    <string name="conenct_device">%1$s Devices Available; %2$s Connected.</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirm_light_flash_slowly">confirm that the light flashes slowly</string>
+    <string name="confirm_the_light_flash">confirm the light flashing state</string>
+    <string name="confirmation_light_flash_ble">3 > Confirmation light flashes quickly (white light)</string>
+    <string name="confirmation_light_flash_hotspot">3 > Confirmation light flashes slowly (red light)</string>
+    <string name="confirmation_light_flash_wifi">3 > Confirmation light flashes quickly (blue light)</string>
+    <string name="connect_count">%1$s device</string>
+    <string name="connect_success">Connect successfully!</string>
+    <string name="connected_to_the_hotspot_shown">1. Please connect the phone to the hotspot shown in the figure below</string>
+    <string name="connecting">Connecting...</string>
+    <string name="control">Control</string>
+    <string name="cool_warm">Cold:%1$s Warm:%2$s</string>
+    <string name="copy">Copy</string>
+    <string name="coral_artistic_conception">Coral Artistic Conception</string>
+    <string name="current_mode">Current Mode</string>
+    <string name="current_mode_format">%1$s</string>
+    <string name="current_rgb_format">Current RGB Sort: %1$s</string>
+    <string name="current_version">Current version</string>
+    <string name="currentquery">Static Query</string>
+    <string name="custom">CUSTOM</string>
+    <string name="cycle">Cycle</string>
+    <string name="database_error">Database error</string>
+    <string name="deep_sea_mode">Deep Sea Mode</string>
+    <string name="define_system">user define</string>
+    <string name="delete">Del</string>
+    <string name="delete_group">delete group %1$s</string>
+    <string name="delete_message_success">Deleted message successfully</string>
+    <string name="deletthis">Drag here to Delete</string>
+    <string name="device_has_restarted">1. Confirm that the device has restarted, and the light is flashing quickly</string>
+    <string name="device_list">device list</string>
+    <string name="devices_all">ALL DEVICES</string>
+    <string name="disconnect">Disconnect Bluetooth...</string>
+    <string name="disconnect_bluetooth">Bluetooth will be disconnected...</string>
+    <string name="dmx02_r_g_b">R:%1$s\nG:%2$s\nB:%3$s</string>
+    <string name="download_center">Download Center</string>
+    <string name="editTimer">Edit Timer</string>
+    <string name="edit_group_please">Please edit group devices first</string>
+    <string name="enter">Please enter the mode week</string>
+    <string name="fan_rotational_temperature">Fan rotational temperature set</string>
+    <string name="file_size_exceeds_limit">File size exceeds limit</string>
+    <string name="filesize">Video file cannot be larger than 20MB</string>
+    <string name="firstlogin">Please login first</string>
+    <string name="five">Fri</string>
+    <string name="flash">Flash</string>
+    <string name="floor">Floor</string>
+    <string name="floor_host">Land</string>
+    <string name="flow">WxWflow</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="forum">Forum</string>
+    <string name="four">Thu</string>
+    <string name="g">G</string>
+    <string name="get_checkcode">Get the verification code</string>
+    <string name="goodbye">Goodbye</string>
+    <string name="gpsNotifyMsg">Current application needs to open location function.\nPlease click\"Settings\"-\"Location Service\"-Open Location Function.</string>
+    <string name="gradient">Gradient</string>
+    <string name="green">%1$s</string>
+    <string name="group_ble_device">Groups</string>
+    <string name="groupname_cannot_same">Group names cannot be the same !</string>
+    <string name="have_time_to_talk">Have time to talk?</string>
+    <string name="hello_there">Hello there</string>
+    <string name="help">Help</string>
+    <string name="home">Home</string>
+    <string name="home_page">Home Page</string>
+    <string name="hotspot_connect">Hotspot</string>
+    <string name="hour">HOUR</string>
+    <string name="input_account">Please enter an account</string>
+    <string name="input_content">Input Content...</string>
+    <string name="input_format_error">Input format error</string>
+    <string name="input_length_error">Input length error</string>
+    <string name="input_not_null">Input cannot be empty</string>
+    <string name="input_password">Please enter the password</string>
+    <string name="invalid_verification_code">Invalid verification code</string>
+    <string name="is_it_2_4">2. Check whether Wi-Fi is 2.4GHz</string>
+    <string name="is_the_password_correct">3. Check whether the Wi-Fi password is correct</string>
+    <string name="jump">Jump</string>
+    <string name="jump_over">Jump Over</string>
+    <string name="keyStr">1234567890abcdef</string>
+    <string name="key_in_numbers">Please key in numbers !</string>
+    <string name="led_like">LED LIKE</string>
+    <string name="left_front_door">Left Front</string>
+    <string name="left_rear_door">Left Rear</string>
+    <string name="light_code">number of address codes</string>
+    <string name="lightning_mode">Lightning Mode</string>
+    <string name="loading">Loading...</string>
+    <string name="login">Login</string>
+    <string name="loginapp">Please login to the forum first</string>
+    <string name="logon_agree_policy1">Sign in to read and agree to the</string>
+    <string name="logon_agree_policy2">service agreement</string>
+    <string name="logout">Logout</string>
+    <string name="long_press_the_controller_colorbtn">2 > Long press the controller color key for 5s</string>
+    <string name="long_press_the_controller_muscibtn">2 > Long press the controller music key for 5s</string>
+    <string name="long_press_the_controller_onoffbtn">2 > Long press the controller switch key for 5s</string>
+    <string name="look">View this comment</string>
+    <string name="looking">Preview...</string>
+    <string name="main_tab_text_service">LED LAMP</string>
+    <string name="marine_mode">Marine Mode</string>
+    <string name="micro_authorized">Microphone is authorized.</string>
+    <string name="minute">MINUTE</string>
+    <string name="mode">Mode</string>
+    <string name="mode_select">Mode Switch</string>
+    <string name="mode_set">Mode: %1$s</string>
+    <string name="model">MODE</string>
+    <string name="msg_no_add_scene">Not content choice, the operation is invalid</string>
+    <string name="msg_not_empty">Data not saved, sure you want to exit</string>
+    <string name="msg_sending_online">Scanning...</string>
+    <string name="multipoint_fast_running">MR</string>
+    <string name="music_lib">music lib</string>
+    <string name="music_style_pop">Pop</string>
+    <string name="music_style_rock">Rock</string>
+    <string name="music_style_soft">Soft</string>
+    <string name="my_personal">Mine</string>
+    <string name="natural_light">natural color</string>
+    <string name="nei_mai">I M</string>
+    <string name="network_timeout">device connection network timeout</string>
+    <string name="new_password">New password:</string>
+    <string name="next_step">Next step</string>
+    <string name="no_account">No account?</string>
+    <string name="no_data">No data</string>
+    <string name="no_device_found">NO DEVICE FOUND!</string>
+    <string name="no_more_data">No more data</string>
+    <string name="normal">按住 说话</string>
+    <string name="not_used">Not Used</string>
+    <string name="nothing">No data</string>
+    <string name="ok">OK</string>
+    <string name="old_password">Old password:</string>
+    <string name="one">Mon</string>
+    <string name="online_service">Online Service</string>
+    <string name="open">Open</string>
+    <string name="open_album">Open album</string>
+    <string name="open_close">O/C</string>
+    <string name="openapp">Please click on the upper right corner to add software. For the first time, please click the help button in the lower right corner to view the operation guide</string>
+    <string name="p">P</string>
+    <string name="p_explain">Graphic Explanation</string>
+    <string name="pair_code">Pair Code</string>
+    <string name="pair_code_set">Current Code: %1$s</string>
+    <string name="parameter_error">Parameter error</string>
+    <string name="password">Password</string>
+    <string name="password_edit">The password consists of 8 digits or letters (0~9,A~F)</string>
+    <string name="password_error">Password Error</string>
+    <string name="pecent_photos">Recent photos</string>
+    <string name="phone_connected_to_hotspot">connect the mobile phone WiFi to the device hotspot</string>
+    <string name="phone_or_email">Mobile number or Email</string>
+    <string name="picture">The picture cannot be larger than 1MB, please re-select</string>
+    <string name="picture_all_audio">All audio</string>
+    <string name="picture_audio">Access to system recording permission denied</string>
+    <string name="picture_audio_empty">You can use system recordings to record audio</string>
+    <string name="picture_audio_error">The audio is corrupted</string>
+    <string name="picture_camera">Get system camera permission denied</string>
+    <string name="picture_camera_roll">CameraRoll</string>
+    <string name="picture_camera_roll_num">%1$s (%2$d)</string>
+    <string name="picture_cancel">Cancel</string>
+    <string name="picture_completed">Completed</string>
+    <string name="picture_confirm">Confirm</string>
+    <string name="picture_done">Ok</string>
+    <string name="picture_done_front_num">%1$d/%2$d Ok</string>
+    <string name="picture_empty">you can use your camera to take photos or videos</string>
+    <string name="picture_empty_audio_title">No audio file\n</string>
+    <string name="picture_empty_title">No video or photos\n</string>
+    <string name="picture_error">The picture is corrupted</string>
+    <string name="picture_gif_tag">gif</string>
+    <string name="picture_jurisdiction">Read memory card access denied</string>
+    <string name="picture_long_chart">Long</string>
+    <string name="picture_message_audio_max_num">Select up to %1$s Audio</string>
+    <string name="picture_message_max_num">Select up to %1$s images</string>
+    <string name="picture_message_video_max_num">Select up to %1$s Video</string>
+    <string name="picture_min_img_num">Picture Selection Cannot%1$sNumber</string>
+    <string name="picture_min_video_num">Video Selection Cannot%1$sNumber</string>
+    <string name="picture_pause_audio">Pause</string>
+    <string name="picture_photograph">Photograph</string>
+    <string name="picture_play_audio">Play</string>
+    <string name="picture_please">Please later...</string>
+    <string name="picture_please_select">Please Select</string>
+    <string name="picture_preview">Preview</string>
+    <string name="picture_preview_image_num">%1$d / %2$d</string>
+    <string name="picture_prompt">Prompt</string>
+    <string name="picture_prompt_content">Do you want to save pictures to your phone?</string>
+    <string name="picture_quit_audio">Quit</string>
+    <string name="picture_record_video">Record Video</string>
+    <string name="picture_rule">not pictures or video</string>
+    <string name="picture_save_error">Picture save failed</string>
+    <string name="picture_save_success">Save picture successfully until</string>
+    <string name="picture_stop_audio">Stop</string>
+    <string name="picture_take_picture">Shot</string>
+    <string name="picture_tape">Tape</string>
+    <string name="picture_video_error">The video is corrupted</string>
+    <string name="picture_video_toast">Video not Preview</string>
+    <string name="picture_warning">No Media files!</string>
+    <string name="playvideo">Play</string>
+    <string name="please_describe_your_problem">Hello, please describe your problem, I will help you solve it as soon as possible.</string>
+    <string name="please_enter_again">Please enter again!</string>
+    <string name="please_input">New Group Name</string>
+    <string name="please_use_the_verification_code_sent">Please use the verification code sent</string>
+    <string name="position_closed">Position Closed</string>
+    <string name="position_service">Position Service</string>
+    <string name="position_service_info">Your phone may need to turn on location services to find Bluetooth devices. If you are sure that you have a Bluetooth device nearby but you cannot find it, turn on location services.</string>
+    <string name="power_on">1 > Connect the power supply</string>
+    <string name="preview">preview</string>
+    <string name="privacy_policy">Service Agreement and Privacy Policy</string>
+    <string name="privacy_policy_content">Please be sure to carefully read and fully understand the terms of the Service Agreement and Privacy Policy, including but not limited to: the authority information you need to obtain in order to provide you with data, sharing and other services. You can read the Service Agreement and Privacy Policy for details. If you agree, please click Agree to start accepting our service.</string>
+    <string name="privacy_policy_content1">Please be sure to carefully read and fully understand the terms of the Service Agreement and Privacy Policy, including but not limited to: the authority information you need to obtain in order to provide you with data, sharing and other services. You can read the </string>
+    <string name="privacy_policy_content2">Service Agreement</string>
+    <string name="privacy_policy_content3">and</string>
+    <string name="privacy_policy_content4">Privacy Policy</string>
+    <string name="publish_comment">Posting</string>
+    <string name="query">Query</string>
+    <string name="r">R</string>
+    <string name="r_g_b">R:%1$s G:%2$s B:%3$s</string>
+    <string name="rationale_ask_again">This application may not work properly without the requested permissions. Open the application settings interface to modify application permissions.</string>
+    <string name="reason">Reason</string>
+    <string name="recording">松开 结束</string>
+    <string name="red">%1$s</string>
+    <string name="regist_agree_policy">By signing up, you read and agree to the service agreement and privacy policy</string>
+    <string name="regist_agree_policy1">By signing up, you read and agree to the</string>
+    <string name="regist_agree_policy2">service agreement</string>
+    <string name="regist_agree_policy3">and</string>
+    <string name="regist_agree_policy4">privacy policy</string>
+    <string name="register">Register</string>
+    <string name="register_account">Account:</string>
+    <string name="register_checkcode">Verification code:</string>
+    <string name="register_email">Verification method:</string>
+    <string name="register_password">Password:</string>
+    <string name="register_success">Registration Success</string>
+    <string name="replacement">Reset</string>
+    <string name="reply">Reply</string>
+    <string name="request_failed">Request failed, please try again later</string>
+    <string name="reset_device">Reset the device first</string>
+    <string name="reset_message">The data will be cleared after reset. Are you sure you want to reset?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_success">Password reset is successful, please log in again!</string>
+    <string name="retrieve">Retrieve</string>
+    <string name="retrieve_password">Retrieve Password</string>
+    <string name="return_to_this_app_to_continue_adding_device">2. Return to this application and continue to add equipment</string>
+    <string name="rgb_sort">RGB Sort</string>
+    <string name="rgb_sort_set">Current Sort: %1$s</string>
+    <string name="right_front_door">Right Front</string>
+    <string name="right_rear_door">Right Rear</string>
+    <string name="ring">RING</string>
+    <string name="run">RUN</string>
+    <string name="save">Save</string>
+    <string name="saveSuccessfully">Save Successed</string>
+    <string name="saved_to_local_album">Saved to local album</string>
+    <string name="savefailed">Save Failed</string>
+    <string name="scan_dev_info">Scan to %1$s device，Please return to the homepage to open %2$s application</string>
+    <string name="scan_dev_info_wifi">Scanned %1$s devices, %2$s devices have been added successfully</string>
+    <string name="scan_failed_with_missing_permissions">Scan failed with missing permissions</string>
+    <string name="scan_to">Scan to</string>
+    <string name="sdded_successfully">added successfully</string>
+    <string name="second">Second</string>
+    <string name="select_all">Select all</string>
+    <string name="select_chip">Select Chip</string>
+    <string name="send">Send</string>
+    <string name="sendSccess">Successfully sent, the timing setting is invalid after power off</string>
+    <string name="send_checkcode">Verification code sent</string>
+    <string name="sendcharts">Send Text</string>
+    <string name="sendtie">Sending...</string>
+    <string name="sendvideo">Send Video</string>
+    <string name="sensitivity">Sensitivity</string>
+    <string name="sensitivity_set">ensitivity: %1$s</string>
+    <string name="sent_success">Sent successfully</string>
+    <string name="set_focus">Set Focus</string>
+    <string name="set_pix_number">Set the address code (0-512)</string>
+    <string name="setting">Wifi Connection -></string>
+    <string name="setting_language_auto">Follow System</string>
+    <string name="seven">Sun</string>
+    <string name="shake">Shake</string>
+    <string name="shouzhishanghua">手指上滑，取消发送</string>
+    <string name="single_click_select_color">Single click chose Color, Long click delete color</string>
+    <string name="single_lamp_jump">SJ</string>
+    <string name="single_lamp_strobe">SS</string>
+    <string name="single_light_gradient">SG</string>
+    <string name="singlepoint_fast_running">SR</string>
+    <string name="six">Sta</string>
+    <string name="six_eighteen_length">6~18 digits</string>
+    <string name="six_number">6 digits</string>
+    <string name="skin_restoration">Skin restoration</string>
+    <string name="skip_reset_step_ble">If the light flashes white quickly, please skip the reset step</string>
+    <string name="skip_reset_step_hotspot">If the light flashes red slowly, please skip the reset step</string>
+    <string name="skip_reset_step_wifi">If the light flashes blue light quickly, please skip the reset step</string>
+    <string name="sleep_mode">Sleep Mode</string>
+    <string name="spacercode">Spacer Code</string>
+    <string name="spacercodevaluetip">Please enter a value of Spacer Code !</string>
+    <string name="speed">Speed</string>
+    <string name="speed_set">Speed: %1$s</string>
+    <string name="startcode">Start Code</string>
+    <string name="startcodevaluetip">Please enter a value of Start Code !</string>
+    <string name="step_1">Step 1 \n Click on the bottom \n navigation video icon</string>
+    <string name="step_2">In Case Of App Crash\n\nPlease Uninstall The App\n\nDownload Again</string>
+    <string name="step_3">Step 3 \n Click on the video tutorial</string>
+    <string name="strobe">Strobe</string>
+    <string name="sun_a">Change of cold and warm</string>
+    <string name="sun_b">Cool breath</string>
+    <string name="sun_c">Warm breath</string>
+    <string name="sun_d">natural breathing</string>
+    <string name="sun_e">warm and cold breathing</string>
+    <string name="sun_f">Cold and warm strobe</string>
+    <string name="sun_g">cold color strobe</string>
+    <string name="sun_h">Warm color strobe</string>
+    <string name="sun_sei">Cool color: 100 Warm color: 0</string>
+    <string name="sunrise_mode">Sunrise Mode</string>
+    <string name="sunset_mode">Sunset Mode</string>
+    <string name="sunshine_mode">Sunshine Mode</string>
+    <string name="supported">Sorry, up to 16 times are supported</string>
+    <string name="supportedlight">Sorry, up to 10 times are supported</string>
+    <string name="sure">Sure</string>
+    <string name="switch_distribution_mode">Please try to switch the network distribution mode</string>
+    <string name="switch_to_the_distribution_network">switch to the distribution network mode</string>
+    <string name="system_device">system</string>
+    <string name="system_error">System error</string>
+    <string name="tab_aisle">Aisle</string>
+    <string name="tab_brightness">Brightness</string>
+    <string name="tab_ct">CT</string>
+    <string name="tab_custom">Custom</string>
+    <string name="tab_dm">WHT DIM</string>
+    <string name="tab_mode">Mode</string>
+    <string name="tab_music">Music</string>
+    <string name="tab_record">Record</string>
+    <string name="tab_reg">RGB</string>
+    <string name="tab_scene">Scene</string>
+    <string name="tab_timer">Timer</string>
+    <string name="table1">Table 1</string>
+    <string name="table2">Table 2</string>
+    <string name="take_video">Recent Video</string>
+    <string name="temperature">Temperature</string>
+    <string name="text">Please enter the body</string>
+    <string name="text_addname">Add(Update) Name</string>
+    <string name="text_addscene_new">Add new Service</string>
+    <string name="text_cancel">CANCEL</string>
+    <string name="text_custom">User defined</string>
+    <string name="text_edit">Edit</string>
+    <string name="text_empty_name">Name cannot be empty</string>
+    <string name="text_empty_service">Service cannot be empty</string>
+    <string name="text_exit">Again according to the exit of LED LAMP</string>
+    <string name="text_input_name">1 to 16 letters, Numbers, or underscores</string>
+    <string name="text_ledble">LED BLE</string>
+    <string name="text_leddmx">LED DMX</string>
+    <string name="text_ledlight">LED LIGHT</string>
+    <string name="text_ledline">LED LINE</string>
+    <string name="text_ledsmart">LED SMART</string>
+    <string name="text_ledspi">LED SPI</string>
+    <string name="text_ledstage">LED STAGE</string>
+    <string name="text_ledstrip">LED STRIP</string>
+    <string name="text_ledsun">LED SUN</string>
+    <string name="text_ledwifi">LED WiFi</string>
+    <string name="text_ok">OK</string>
+    <string name="text_over">Finish</string>
+    <string name="text_pic">Image</string>
+    <string name="text_pick_camera">Taking pictures</string>
+    <string name="text_pick_local">Gallery</string>
+    <string name="text_relaxation">Relaxation</string>
+    <string name="text_romance">Romantic</string>
+    <string name="text_selectdevice">Select Device</string>
+    <string name="text_sport">Sport</string>
+    <string name="text_storage">Save</string>
+    <string name="text_str">Name</string>
+    <string name="text_system">System</string>
+    <string name="text_warm_content">Sure you want to delete this scenario?</string>
+    <string name="text_warm_content1">Please input in the input box below:</string>
+    <string name="text_warming">Warm Prompt</string>
+    <string name="the_parameter_is_empty">The parameter is empty</string>
+    <string name="the_verification_code_is_sent_abnormally_please_try_again">The verification code is sent abnormally, please try again</string>
+    <string name="three">Wed</string>
+    <string name="thunderstorm_mode">Thunderstorm Mode</string>
+    <string name="tiele">Please enter the title</string>
+    <string name="time">time</string>
+    <string name="timeSize">The maximum number of timers is 24</string>
+    <string name="time_set">Timing correction</string>
+    <string name="timeday">the timer time cannot be the same</string>
+    <string name="timelow">The battery is too low, it may affect the normal use of the APP</string>
+    <string name="timer">Are you sure you want to delete this timer?</string>
+    <string name="timingquery">Timing query</string>
+    <string name="tip_istribution_network">Note: After resetting the device, please complete the network configuration operation within three minutes</string>
+    <string name="tips">Tips</string>
+    <string name="title_settings_dialog">Permission requirements</string>
+    <string name="to_connect">to connect</string>
+    <string name="toast_scene_exist">Service exist</string>
+    <string name="token_error">Token error</string>
+    <string name="toolong">录音时间过长</string>
+    <string name="tooshort">录音时间过短</string>
+    <string name="turn_on_the_camera">Turn on the camera</string>
+    <string name="tv_chip_set">Chip settings</string>
+    <string name="two">Tue</string>
+    <string name="un_known_artist">un_known_artist</string>
+    <string name="update">Modify</string>
+    <string name="update_password">Modify password</string>
+    <string name="update_password_success">Change password successfully</string>
+    <string name="username_already_exists">Username already exists</string>
+    <string name="valuetip">Please enter a value greater than 0 !</string>
+    <string name="video">Video</string>
+    <string name="video_explain">Video Explanation</string>
+    <string name="video_operation_tutorial">Video Operation Tutorial</string>
+    <string name="w">W</string>
+    <string name="wai_mai">E M</string>
+    <string name="want_to_cancle">松开手指，取消发送</string>
+    <string name="warm_light">warm color</string>
+    <string name="welcome_mode">Welcome</string>
+    <string name="what_the_matter">What\'s the matter?</string>
+    <string name="white_light">cool color</string>
+    <string name="wifi_connect">WiFi</string>
+    <string name="wifi_network">currently in the 2.4GHz Wi-Fi network and enter the password</string>
+    <string name="wifi_network_not_2_4">If your Wi-Fi is 5GHz, please set it to 2.4GHz first</string>
+    <string name="wifi_signal_is_good">to ensure a good Wi-Fi signal</string>
+    <string name="write">We need access to your photos, media content, and files to display them.</string>
+    <string name="wrong_old_password">Wrong old password</string>
+    <string name="wrong_user_name_or_password">Wrong user name or password</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/center_state_fl" android:background="#33000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:id="@+id/center_state_iv" android:layout_width="45dp" android:layout_height="45dp" android:src="@drawable/play_icon" android:scaleType="centerInside"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/bottom_control_ll" android:background="@drawable/player_controller_bottom_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="40dp">
+        <ImageView android:id="@+id/start_pause_iv" android:padding="10dp" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/pause_icon" android:scaleType="centerInside"/>
+        <TextView android:textSize="12sp" android:textColor="#fff" android:id="@+id/start_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00"/>
+        <SeekBar android:id="@+id/progress_seek_bar" android:paddingTop="14dp" android:paddingBottom="14dp" android:layout_width="0dp" android:layout_height="wrap_content" android:maxHeight="3dp" android:max="1000" android:progressDrawable="@drawable/player_seek_bar_bg" android:minHeight="3dp" android:thumb="@drawable/player_seek_bar_thumb" android:layout_weight="1"/>
+        <TextView android:textSize="12sp" android:textColor="#fff" android:id="@+id/end_time_tv" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00"/>
+        <ImageView android:id="@+id/full_screen_iv" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="30dp" android:layout_height="40dp" android:src="@drawable/full_screen_icon" android:scaleType="centerInside"/>
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/loading_pb" android:visibility="gone" android:layout_width="35dp" android:layout_height="35dp" android:indeterminate="true" android:indeterminateDrawable="@drawable/player_loading_rotate_bg" android:indeterminateDuration="3600"/>
+    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#fff" android:gravity="center" android:layout_gravity="center" android:id="@+id/center_time_tv" android:background="#66000000" android:paddingLeft="10dp" android:paddingRight="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36dp" android:minWidth="48dp"/>
+</FrameLayout>

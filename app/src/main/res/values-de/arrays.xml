@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="ble_mode">
+        <item>dreifarbiger Sprung, 135</item>
+        <item>Siebenfarbensprung, 136</item>
+        <item>dreifarbiger Farbverlauf, 137</item>
+        <item>Siebenfarbverlauf, 138</item>
+        <item>roter Farbverlauf, 139</item>
+        <item>grüner Farbverlauf, 140</item>
+        <item>blauer Farbverlauf, 141</item>
+        <item>gelber Farbverlauf, 142</item>
+        <item>Cyanfarbverlauf, 143</item>
+        <item>violetter Farbverlauf, 144</item>
+        <item>weißer Farbverlauf, 145</item>
+        <item>roter und grüner Farbverlauf, 146</item>
+        <item>roter und blauer Farbverlauf, 147</item>
+        <item>grüner und blauer Farbverlauf, 148</item>
+        <item>siebenfarbiger Blitz, 149</item>
+        <item>roter Blitz, 150</item>
+        <item>grüner Blitz, 151</item>
+        <item>blauer Blitz, 152</item>
+        <item>gelber Blitz, 153</item>
+        <item>Cyan-Blitz, 154</item>
+        <item>lila Strobe, 155</item>
+        <item>weißer Blitz, 156</item>
+        <item>statisch rot, 128</item>
+        <item>statisch blau, 129</item>
+        <item>statisch grün, 130</item>
+        <item>statisch Cyan, 131</item>
+        <item>statisch gelb, 132</item>
+        <item>statisch lila, 133</item>
+        <item>statisches Weiß, 134</item>
+    </array>
+    <array name="chip_model">
+        <item>UCS512C,2</item>
+        <item>UCS512A,1</item>
+    </array>
+    <array name="ct_mode">
+        <item>warm 0% kalt 100%, 128</item>
+        <item>warm 10% kalt 90%, 129</item>
+        <item>warm 20% kalt 80%, 130</item>
+        <item>warm 30% kalt 70%, 131</item>
+        <item>warm 40% kalt 60%, 132</item>
+        <item>warm 50% kalt 50%, 133</item>
+        <item>warm 60% kalt 40%, 134</item>
+        <item>warm 70% kalt 30%, 135</item>
+        <item>warm 80% kalt 20%, 136</item>
+        <item>warm 90% kalt 10%, 137</item>
+        <item>warm 100% kalt 0%, 138</item>
+    </array>
+    <array name="custom_model">
+        <item>1:Farbverlauf,0</item>
+        <item>2:Nachlaufen,1</item>
+        <item>3:Fließendes Wasser,2</item>
+        <item>4:Folge dem Licht,3</item>
+        <item>5:Gestapelt,4</item>
+        <item>6:Weiß x weißer Fluss,5</item>
+        <item>7:Einzelpferd,6</item>
+        <item>8:Mehr Pferderennen,7</item>
+        <item>9:Ziehen/schließen,8</item>
+        <item>10:Einzelnes Lichtgefälle,9</item>
+        <item>11:Einzellampensprung,10</item>
+        <item>12:Einzellampenblitz,11</item>
+    </array>
+    <array name="dm_mode">
+        <item>0%,128</item>
+        <item>10%,129</item>
+        <item>20%,130</item>
+        <item>30%,131</item>
+        <item>40%,132</item>
+        <item>50%,133</item>
+        <item>60%,134</item>
+        <item>70%,135</item>
+        <item>80%,136</item>
+        <item>90%,137</item>
+        <item>100%,138</item>
+    </array>
+    <array name="dmx_model">
+        <item>automatische Schleife, 255</item>
+        <item>1: Sinfonie weiterleiten, 1</item>
+        <item>2: Reverse Symphony, 2</item>
+        <item>3: Übergang von sieben Farben nach hell und dunkel, 3</item>
+        <item>4: heller und dunkler Übergang von sieben Farben umkehren, 4</item>
+        <item>5: Positiver Übergang von Rot, Grün und Blau, 5</item>
+        <item>6: Roter, grüner und blauer Licht- und Dunkelübergang umkehren, 6</item>
+        <item>7: Positiver Gelb-Blau-Violett-Übergang, 7</item>
+        <item>8: Umkehrung gelb-blau-violett, 8</item>
+        <item>9: Übergang von sechs Farben rot, 9</item>
+        <item>10: Sechsfarbiger Übergangswechsel rot, 10</item>
+        <item>11: Übergang von sechs Farben grün, 11</item>
+        <item>12: umgekehrter sechsfarbiger Übergang grün, 12</item>
+        <item>13: Übergang von sechs Farben zu Blau, 13</item>
+        <item>14: umgekehrter sechsfarbiger Übergang blau, 14</item>
+        <item>15: 6-Farben-Übergangsübergang Cyan, 15</item>
+        <item>16: sechsfarbiger Übergangs-Cyan, 16</item>
+        <item>17: Übergang von sechs Farben nach Gelb, 17</item>
+        <item>18: umgekehrter sechsfarbiger Übergang gelb, 18</item>
+        <item>19: Vorwärts sechsfarbiger Übergang lila, 19</item>
+        <item>20: Umgekehrter sechsfarbiger Übergangspurpur, 20</item>
+        <item>21: Übergang von sechs Farben nach Weiß, 21</item>
+        <item>22: umgekehrter sechsfarbiger Übergang weiß, 22</item>
+        <item>23: Vorwärts farbiger Schwanz, 23</item>
+        <item>24: rückseitiger bunter Schwanz, 24</item>
+        <item>25: Vorwärts roter Nachlauf, 25</item>
+        <item>26: umgekehrtes rotes Nachlaufen, 26</item>
+        <item>27: Vorwärts grünes Trailing, 27</item>
+        <item>28: grünes Rückwärtsfahren, 28</item>
+        <item>29: Vorwärts blauer Schwanz, 29</item>
+        <item>30: Rückwärtslauf blau, 30</item>
+        <item>31: gelbes nach vorne schieben, 31</item>
+        <item>32: umgekehrte gelbe Spur, 32</item>
+        <item>33: Positiver Cyan-Schwanz, 33</item>
+        <item>34: umgekehrter Cyan-Schwanz, 34</item>
+        <item>35: Positives lila Nachlaufen, 35</item>
+        <item>36: Wie auch immer, violett nachlaufend, 36</item>
+        <item>37: Vorwärts weißer Nachlauf, 37</item>
+        <item>38: umgekehrte weiße Hinterachse, 38</item>
+        <item>39: Positives buntes Wasser, 39</item>
+        <item>40: Buntes Wasser umkehren, 40</item>
+        <item>41: Positives rotes, grünes und blaues Wasser, 41</item>
+        <item>42: rotes, grünes und blaues Wasser umgekehrt, 42</item>
+        <item>43: Positives gelb-blaues Wasser, 43</item>
+        <item>44: gelbes und blaues Wasser umgekehrt, 44</item>
+        <item>45: positives rotes und grünes Wasser, 45</item>
+        <item>46: rotes und grünes Wasser umgekehrt, 46</item>
+        <item>47: Grünes und blaues Wasser vorwärtsleiten, 47</item>
+        <item>48: grünes und blaues Wasser umgekehrt, 48</item>
+        <item>49: Positives gelbes und blaues Wasser, 49</item>
+        <item>50: umgekehrtes gelbes und blaues Wasser, 50</item>
+        <item>51: Positives gelbes Wasser, 51</item>
+        <item>52: umgekehrtes gelbes und blaues Wasser, 52</item>
+        <item>53: Positives blaues Wasser, 53</item>
+        <item>54: umgekehrtes Cyanwasser, 54</item>
+        <item>55: Vorwärts Schwarzweiß, 55</item>
+        <item>56: umgekehrtes Schwarzweißwasser, 56</item>
+        <item>57: Bunter Bildschirm, 57</item>
+        <item>58: Bunte Schließung, 58</item>
+        <item>59: roter, grüner und blauer Bildschirm, 59</item>
+        <item>60: Rote, grüne und blaue Schließung, 60</item>
+        <item>61: Vorhang Gelb blau lila, 61</item>
+        <item>62: Gelb blau lila geschlossen, 62</item>
+        <item>63: Weiter zur farbenfrohen Verfolgung, 63</item>
+        <item>64: umgekehrte bunte Verfolgung, 64</item>
+        <item>65: Vorwärts rot, grün und blau, 65</item>
+        <item>66: rotes, grünes und blaues Verfolgungslicht umkehren, 66</item>
+        <item>67: Positives gelbes und violettes Verfolgungslicht, 67</item>
+        <item>68: rückwärts gelbes blaues und violettes Verfolgungslicht, 68</item>
+        <item>69: Weiterleiten an die farbenfrohen ,69</item>
+        <item>70: farbenfrohes Flattern, 70</item>
+        <item>71: Vorwärts rot, grün und blau, 71</item>
+        <item>72: Umgekehrt rotes grünes und blaues Flattern, 72</item>
+        <item>73: Positives Gelb und Blau flattern, 73</item>
+        <item>74: Gelb blau und violett umkehren, 74</item>
+        <item>75: Siebenfarbensprung, 75</item>
+        <item>76: roter, grüner und blauer Sprung, 76</item>
+        <item>77: Gelb blau lila springt, 77</item>
+        <item>78: siebenfarbiges Strobe, 78</item>
+        <item>79: rotes grünes und blaues Blitzlicht, 79</item>
+        <item>80: gelbes und blaues Blitzlicht, 80</item>
+        <item>81: Siebenfarbverlauf, 81</item>
+        <item>82: roter und gelber Farbverlauf, 82</item>
+        <item>83: roter und violetter Farbverlauf, 83</item>
+        <item>84: Grün-Grün-Verlauf, 84</item>
+        <item>85: Grüne und gelbe Steigung, 85</item>
+        <item>86: Blau-violetter Farbverlauf, 86</item>
+        <item>87: Rote Schließung, 87</item>
+        <item>88: Grünes Schließen, 88</item>
+        <item>89: Blaue Schließung, 89</item>
+        <item>90: Gelbe Schließung, 90</item>
+        <item>91: Schließung Cyan, 91</item>
+        <item>92: Lila Schließen, 92</item>
+        <item>93: Weiße Schließung, 93</item>
+        <item>94: roter Bildschirm, 94</item>
+        <item>95: grüner Bildschirm, 95</item>
+        <item>96: blauer Bildschirm, 96</item>
+        <item>97: gelber Bildschirm, 97</item>
+        <item>98: Cyan-Pull-Bildschirm, 98</item>
+        <item>99: violetter Vorhang, 99</item>
+        <item>100: weißer Bildschirm, 100</item>
+        <item>101: Rotes Pferd, 101</item>
+        <item>102: Grünes Pferd, 102</item>
+        <item>103: Blue Horse Race, 103</item>
+        <item>104: Gelbes Pferd, 104</item>
+        <item>105: Cyan-Pferderennen, 105</item>
+        <item>106: Purple Horse Race, 106</item>
+        <item>107: weißes Pferd, 107</item>
+        <item>108: Vorwärts rot, 108</item>
+        <item>109: Rückwärtslauf rot, 109</item>
+        <item>110: Grün ausgeführt, 110</item>
+        <item>111: grüne Rückwärtsfahrt, 111</item>
+        <item>112: Blau vorwärts laufen, 112</item>
+        <item>113: Rückwärtslauf blau, 113</item>
+        <item>114: Vorwärts gelb, 114</item>
+        <item>115: Rückwärtslauf gelb, 115</item>
+        <item>116: Forward Cyan, 116</item>
+        <item>117: umgekehrter Cyanlauf, 117</item>
+        <item>118: Läuft in lila, 118</item>
+        <item>119: umgekehrter violetter Lauf, 119</item>
+        <item>120: Vorwärtslauf weiß, 120</item>
+        <item>121: weiße Rückwärtsfahrt, 121</item>
+        <item>122: Läuft in sieben Farben, 122</item>
+        <item>123: Sieben Farben in umgekehrter Reihenfolge, 123</item>
+        <item>124: Vorwärts rot grün und blau, 124</item>
+        <item>125: Rot Grün und Blau laufen rückwärts, 125</item>
+        <item>126: Gelb und violett, 126</item>
+        <item>127: Gelbe und blaue Umkehrung rückgängig machen, 127</item>
+        <item>128: Blau gelb und violett vorwärts laufen, 128</item>
+        <item>129: Vorwärts grün blau und gelb, 129</item>
+        <item>130: Rückwärtslauf blau gelb, 130</item>
+        <item>131: Vorwärts roter Punkt auf Weiß, 131</item>
+        <item>132: umgekehrter weißer roter Punkt läuft, 132</item>
+        <item>133: Weiter zum roten Punkt, 133</item>
+        <item>134: umgekehrter roter Punkt grüner Punkt läuft, 134</item>
+        <item>135: Weiter zum grünen unteren blauen Punkt, 135</item>
+        <item>136: Grüner blauer unterer Punkt läuft zurück, 136</item>
+        <item>137: Blauer gelber Punkt vorwärts läuft, 137</item>
+        <item>138: Blauer Hintergrund mit gelbem Hintergrund läuft zurück, 138</item>
+        <item>139: Weiter zur gelben Unterseite, 139</item>
+        <item>140: Rückwärtslauf mit gelbem Boden, 140</item>
+        <item>141: Weiter zum unteren Punkt des violetten Punkts, 141</item>
+        <item>142: Blauer violetter Lauf rückwärts, 142</item>
+        <item>143: Vorlauf des weißen Punkts mit violettem Punkt, 143</item>
+        <item>144: Umgekehrtes violettes weißes Laufen,144</item>
+        <item>145: Vorwärts roter Punkt weißer Punkt, 145</item>
+        <item>146: umgekehrter roter Punkt weißer Punkt läuft, 146</item>
+        <item>147: Läuft in sieben Farben auf rotem Hintergrund, 147</item>
+        <item>148: umgekehrter roter Siebenfarbenlauf, 148</item>
+        <item>149: Weiterleiten an die grünen sieben Farben, 149</item>
+        <item>150: Sieben grüne Farbumkehrung, 150</item>
+        <item>151: Weiterleiten an den blauen Hintergrund, 151</item>
+        <item>152: umgekehrter blauer Siebenfarbenlauf, 152</item>
+        <item>153: In sieben Farben auf gelbem Hintergrund ausgeführt, 153</item>
+        <item>154: Die unteren sieben Farben der umgekehrten gelben Farbe laufen, 154</item>
+        <item>155: Läuft zu den sieben Farben, 155</item>
+        <item>156: Sieben grüne Farbumkehrung, 156</item>
+        <item>157: Weiter zum unteren Rand des Lila, 157</item>
+        <item>158: Die unteren sieben Farben werden in Lila ausgeführt, 158</item>
+        <item>159: Läuft in sieben Farben auf weißem Hintergrund, 159</item>
+        <item>160: umgekehrtes Weiß siebenfarbig, 160</item>
+        <item>161: Positiver weißer roter und weißer Fluss, 161</item>
+        <item>162: umgekehrter weißer roter und weißer Fluss, 162</item>
+        <item>163: Positiver weißgrüner und weißer Fluss, 163</item>
+        <item>164: umgekehrter weißer grüner und weißer Fluss, 164</item>
+        <item>165: Positiver weißer blauer und weißer Fluss, 165</item>
+        <item>166: umgekehrter weißer blauer und weißer Fluss, 166</item>
+        <item>167: Positiver weißgelber und weißer Fluss, 167</item>
+        <item>168: umgekehrter weißer gelber und weißer Fluss, 168</item>
+        <item>169: Positiver weißer, blauer und weißer Fluss, 169</item>
+        <item>170: umgekehrter weißer blauer und weißer Fluss, 170</item>
+        <item>171: Positiver weißer violetter und weißer Fluss, 171</item>
+        <item>172: umgekehrter weißer lila weißer Fluss, 172</item>
+        <item>173: Vorwärts rot weiß und rot, 173</item>
+        <item>174: umgekehrter roter weißer und roter Fluss, 174</item>
+        <item>175: Vorwärts grün grün und grün, 175</item>
+        <item>176: umgekehrter grünweißer grüner Fluss, 176</item>
+        <item>177: Vorwärts blau weiß und blau, 177</item>
+        <item>178: umgekehrter blauer weißer und blauer Fluss, 178</item>
+        <item>179: Vorwärtsgelber gelber und gelber Fluss, 179</item>
+        <item>180: umgekehrter gelber weißer und gelber Fluss, 180</item>
+        <item>181: Positiver grünweißer Fluss, 181</item>
+        <item>182: Blau-grüner Fluss umgekehrt, 182</item>
+        <item>183: Positiver purpurroter weißer violetter Fluss, 183</item>
+        <item>184: umgekehrter violetter und weißer violetter Fluss, 184</item>
+        <item>185: Blauer grüner Vorwärtspunkt, 185</item>
+        <item>186: Umgekehrter blauer Hintergrund mit grünem Punkt, 186</item>
+        <item>187: Vorwärts roter Punkt grüner Punkt, 187</item>
+        <item>188: Roter Punkt mit grünem Punkt umkehren, 188</item>
+        <item>189: Vorwärts roter Punkt rotes Pferd, 189</item>
+        <item>190: Rückwärts rotes rotes Punktpferd, 190</item>
+        <item>191: Weiter zur gelben Unterseite, 191</item>
+        <item>192: umgekehrtes gelbes unteres grünes Pferd, 192</item>
+        <item>193: Gelber Punkt vorwärts violetter Punkt Pferderennen, 193</item>
+        <item>194: Reverse Purple Yellow Dot Pferderennen, 194</item>
+        <item>195: Weiter zum gelb-weißen Punkt, 195</item>
+        <item>196: umgekehrtes gelb-weißes weißes Pferd, 196</item>
+        <item>197: Vorwärts weißes gelbes Pferd, 197</item>
+        <item>198: umgekehrter weißer Punkt gelber Punkt Pferderennen, 198</item>
+        <item>199: Positive sieben Farben, 199</item>
+        <item>200: Sieben Farbpinsel umkehren, 200</item>
+        <item>201: Positiver roter grüner und blauer Pinsel, 201</item>
+        <item>202: Rote, grüne und blaue Pinselfarbe umkehren, 202</item>
+        <item>203: Positive gelbe und blaue Pinselfarbe, 203</item>
+        <item>204: umgekehrte gelbe Cyan-Pinselfarbe, 204</item>
+        <item>205: Pinsel mit sieben Farben, 205</item>
+        <item>206: Sieben Farbpinsel schließen, 206</item>
+        <item>207: roter grüner und blauer gebürsteter Bildschirm, 207</item>
+        <item>208: Schließen der roten grünen und blauen Pinselfarbe, 208</item>
+        <item>209: gelbes und blaues gebürstetes Farbbildschirm, 209</item>
+        <item>210: Gelbe und violette Pinselfarbe schließt, 210</item>
+    </array>
+    <array name="light_banner">
+        <item>LPD6803,1</item>
+        <item>TM1803,2</item>
+        <item>UCS1903,3</item>
+        <item>WS2811,4</item>
+        <item>TM1812,5</item>
+        <item>TM1809,6</item>
+        <item>WS2801,7</item>
+        <item>TLS3001,8</item>
+        <item>TLS3008,9</item>
+        <item>P9813,10</item>
+        <item>UCS8806,11</item>
+        <item>TM1829,12</item>
+        <item>TM1909,13</item>
+    </array>
+    <array name="light_mode">
+        <item>Mach das Licht aus</item>
+        <item>statisch rot</item>
+        <item>statisch blau</item>
+        <item>statisch grün</item>
+        <item>statisch Cyan</item>
+        <item>statisch gelb</item>
+        <item>statisch lila</item>
+        <item>statisches Weiß</item>
+        <item>dreifarbiger Sprung</item>
+        <item>Siebenfarbensprung</item>
+        <item>dreifarbiger Farbverlauf</item>
+        <item>Siebenfarbverlauf</item>
+        <item>roter Farbverlauf</item>
+        <item>grüner Farbverlauf</item>
+        <item>blauer Farbverlauf</item>
+        <item>gelber Farbverlauf</item>
+        <item>Cyanfarbverlauf</item>
+        <item>violetter Farbverlauf</item>
+        <item>weißer Farbverlauf</item>
+        <item>roter und grüner Farbverlauf</item>
+        <item>roter und blauer Farbverlauf</item>
+        <item>grüner und blauer Farbverlauf</item>
+        <item>siebenfarbiger Blitz</item>
+        <item>roter Blitz</item>
+        <item>grüner Blitz</item>
+        <item>blauer Blitz</item>
+        <item>gelber Blitz</item>
+        <item>Cyan-Blitz</item>
+        <item>lila Strobe</item>
+        <item>weißer Blitz</item>
+        <item>MODE30</item>
+        <item>MODE31</item>
+        <item>MODE32</item>
+        <item>MODE33</item>
+        <item>MODE34</item>
+        <item>MODE35</item>
+        <item>MODE36</item>
+        <item>MODE37</item>
+        <item>MODE38</item>
+        <item>MODE39</item>
+        <item>MODE40</item>
+        <item>MODE41</item>
+        <item>MODE42</item>
+        <item>MODE43</item>
+        <item>MODE44</item>
+        <item>MODE45</item>
+        <item>MODE46</item>
+        <item>MODE47</item>
+        <item>MODE48</item>
+        <item>MODE49</item>
+        <item>MODE50</item>
+        <item>MODE51</item>
+        <item>MODE52</item>
+        <item>MODE53</item>
+        <item>MODE54</item>
+        <item>MODE55</item>
+        <item>MODE56</item>
+        <item>MODE57</item>
+        <item>MODE58</item>
+        <item>MODE59</item>
+        <item>MODE60</item>
+        <item>MODE61</item>
+        <item>MODE62</item>
+        <item>MODE63</item>
+        <item>MODE64</item>
+        <item>MODE65</item>
+        <item>MODE66</item>
+        <item>MODE67</item>
+        <item>MODE68</item>
+        <item>MODE69</item>
+        <item>MODE70</item>
+        <item>MODE71</item>
+        <item>MODE72</item>
+        <item>MODE73</item>
+        <item>MODE74</item>
+        <item>MODE75</item>
+        <item>MODE76</item>
+        <item>MODE77</item>
+        <item>MODE78</item>
+        <item>MODE79</item>
+        <item>MODE80</item>
+        <item>MODE81</item>
+        <item>MODE82</item>
+        <item>MODE83</item>
+        <item>MODE84</item>
+        <item>MODE85</item>
+        <item>MODE86</item>
+        <item>MODE87</item>
+        <item>MODE88</item>
+        <item>MODE89</item>
+        <item>MODE90</item>
+        <item>MODE91</item>
+        <item>MODE92</item>
+        <item>MODE93</item>
+        <item>MODE94</item>
+        <item>MODE95</item>
+        <item>MODE96</item>
+        <item>MODE97</item>
+        <item>MODE98</item>
+        <item>MODE99</item>
+        <item>MODE100</item>
+        <item>MODE101</item>
+        <item>MODE102</item>
+        <item>MODE103</item>
+        <item>MODE104</item>
+        <item>MODE105</item>
+        <item>MODE106</item>
+        <item>MODE107</item>
+        <item>MODE108</item>
+        <item>MODE109</item>
+        <item>MODE110</item>
+        <item>MODE111</item>
+        <item>MODE112</item>
+        <item>MODE113</item>
+        <item>MODE114</item>
+        <item>MODE115</item>
+        <item>MODE116</item>
+        <item>MODE117</item>
+        <item>MODE118</item>
+        <item>MODE119</item>
+        <item>MODE120</item>
+        <item>MODE121</item>
+        <item>MODE122</item>
+        <item>MODE123</item>
+        <item>MODE124</item>
+        <item>MODE125</item>
+        <item>MODE126</item>
+        <item>MODE127</item>
+        <item>MODE128</item>
+        <item>MODE129</item>
+        <item>MODE130</item>
+        <item>MODE131</item>
+        <item>MODE132</item>
+        <item>MODE133</item>
+        <item>MODE134</item>
+        <item>MODE135</item>
+        <item>MODE136</item>
+        <item>MODE137</item>
+        <item>MODE138</item>
+        <item>MODE139</item>
+        <item>MODE140</item>
+        <item>MODE141</item>
+        <item>MODE142</item>
+        <item>MODE143</item>
+        <item>MODE144</item>
+        <item>MODE145</item>
+        <item>MODE146</item>
+        <item>MODE147</item>
+        <item>MODE148</item>
+        <item>MODE149</item>
+        <item>MODE150</item>
+        <item>MODE151</item>
+        <item>MODE152</item>
+        <item>MODE153</item>
+        <item>MODE154</item>
+        <item>MODE155</item>
+        <item>MODE156</item>
+        <item>MODE157</item>
+        <item>MODE158</item>
+        <item>MODE159</item>
+        <item>MODE160</item>
+        <item>MODE161</item>
+        <item>MODE162</item>
+        <item>MODE163</item>
+        <item>MODE164</item>
+        <item>MODE165</item>
+        <item>MODE166</item>
+        <item>MODE167</item>
+        <item>MODE168</item>
+        <item>MODE169</item>
+        <item>MODE170</item>
+        <item>MODE171</item>
+        <item>MODE172</item>
+        <item>MODE173</item>
+        <item>MODE174</item>
+        <item>MODE175</item>
+        <item>MODE176</item>
+        <item>MODE177</item>
+        <item>MODE178</item>
+        <item>MODE179</item>
+        <item>MODE180</item>
+        <item>MODE181</item>
+        <item>MODE182</item>
+        <item>MODE183</item>
+        <item>MODE184</item>
+        <item>MODE185</item>
+        <item>MODE186</item>
+        <item>MODE187</item>
+        <item>MODE188</item>
+        <item>MODE189</item>
+        <item>MODE190</item>
+        <item>MODE191</item>
+        <item>MODE192</item>
+        <item>MODE193</item>
+        <item>MODE194</item>
+        <item>MODE195</item>
+        <item>MODE196</item>
+        <item>MODE197</item>
+        <item>MODE198</item>
+        <item>MODE199</item>
+        <item>MODE200</item>
+        <item>MODE201</item>
+        <item>MODE202</item>
+        <item>MODE203</item>
+        <item>MODE204</item>
+        <item>MODE205</item>
+        <item>MODE206</item>
+        <item>MODE207</item>
+        <item>MODE208</item>
+        <item>MODE209</item>
+        <item>MODE210</item>
+        <item>MODE211</item>
+    </array>
+    <array name="modelble">
+        <item>Mach das Licht aus</item>
+        <item>Mach das Licht an</item>
+        <item>statisch rot</item>
+        <item>statisch blau</item>
+        <item>statisch grün</item>
+        <item>statisch Cyan</item>
+        <item>statisch gelb</item>
+        <item>statisch lila</item>
+        <item>statisches Weiß</item>
+        <item>dreifarbiger Sprung</item>
+        <item>Siebenfarbensprung</item>
+        <item>dreifarbiger Farbverlauf</item>
+        <item>Siebenfarbverlauf, 138</item>
+        <item>Kühles Weiß</item>
+        <item>Warmes Weiß</item>
+        <item>Monochrom</item>
+    </array>
+    <array name="modelsun">
+        <item>Schalten Sie das Licht aus</item>
+        <item>Schalten Sie das Licht ein</item>
+        <item>Coole Farbe</item>
+        <item>Warme Farbe</item>
+        <item>Natürliche Farbe</item>
+        <item>Weißer Warmsprungwechsel</item>
+        <item>Weißer Farbverlauf</item>
+        <item>Warmer Farbverlauf</item>
+        <item>Natürlicher Farbverlauf</item>
+        <item>Weißer warmer Farbverlauf</item>
+        <item>Weißer warmer Blitz</item>
+        <item>Weißer Blitz</item>
+        <item>Warmer Farbstrob</item>
+        <item>Natürlicher Farbstrob</item>
+    </array>
+    <array name="rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+        <item>RGBW,7</item>
+        <item>RBGW,8</item>
+        <item>GRBW,9</item>
+        <item>GBRW,10</item>
+        <item>BRGW,11</item>
+        <item>BGRW,12</item>
+    </array>
+    <array name="timer_model_dmx">
+        <item>Mach das Licht aus</item>
+        <item>Mach das Licht an</item>
+        <item>automatische Schleife</item>
+        <item>1: Sinfonie weiterleiten</item>
+        <item>2: Reverse Symphony</item>
+        <item>3: Übergang von sieben Farben nach hell und dunkel</item>
+        <item>4: heller und dunkler Übergang von sieben Farben umkehren</item>
+        <item>5: Positiver Übergang von Rot, Grün und Blau</item>
+        <item>6: Roter, grüner und blauer Licht- und Dunkelübergang umkehren</item>
+        <item>7: Positiver Gelb-Blau-Violett-Übergang</item>
+        <item>8: Umkehrung gelb-blau-violett</item>
+        <item>9: Übergang von sechs Farben rot</item>
+        <item>10: Sechsfarbiger Übergangswechsel rot</item>
+        <item>11: Übergang von sechs Farben grün</item>
+        <item>12: umgekehrter sechsfarbiger Übergang grün</item>
+        <item>13: Übergang von sechs Farben zu Blau</item>
+        <item>14: umgekehrter sechsfarbiger Übergang blau</item>
+        <item>15: 6-Farben-Übergangsübergang Cyan</item>
+        <item>16: sechsfarbiger Übergangs-Cyan</item>
+        <item>17: Übergang von sechs Farben nach Gelb</item>
+        <item>18: umgekehrter sechsfarbiger Übergang gelb</item>
+        <item>19: Vorwärts sechsfarbiger Übergang lila</item>
+        <item>20: Umgekehrter sechsfarbiger Übergangspurpur</item>
+        <item>21: Übergang von sechs Farben nach Weiß</item>
+        <item>22: umgekehrter sechsfarbiger Übergang weiß</item>
+        <item>23: Vorwärts farbiger Schwanz</item>
+        <item>24: rückseitiger bunter Schwanz</item>
+        <item>25: Vorwärts roter Nachlauf</item>
+        <item>26: umgekehrtes rotes Nachlaufen</item>
+        <item>27: Vorwärts grünes Trailing</item>
+        <item>28: grünes Rückwärtsfahren</item>
+        <item>29: Vorwärts blauer Schwanz</item>
+        <item>30: Rückwärtslauf blau</item>
+        <item>31: gelbes nach vorne schieben</item>
+        <item>32: umgekehrte gelbe Spur</item>
+        <item>33: Positiver Cyan-Schwanz</item>
+        <item>34: umgekehrter Cyan-Schwanz</item>
+        <item>35: Positives lila Nachlaufen</item>
+        <item>36: Wie auch immer, violett nachlaufend</item>
+        <item>37: Vorwärts weißer Nachlauf</item>
+        <item>38: umgekehrte weiße Hinterachse</item>
+        <item>39: Positives buntes Wasser</item>
+        <item>40: Buntes Wasser umkehren</item>
+        <item>41: Positives rotes, grünes und blaues Wasser</item>
+        <item>42: rotes, grünes und blaues Wasser umgekehrt</item>
+        <item>43: Positives gelb-blaues Wasser</item>
+        <item>44: gelbes und blaues Wasser umgekehrt</item>
+        <item>45: positives rotes und grünes Wasser</item>
+        <item>46: rotes und grünes Wasser umgekehrt</item>
+        <item>47: Grünes und blaues Wasser vorwärtsleiten</item>
+        <item>48: grünes und blaues Wasser umgekehrt</item>
+        <item>49: Positives gelbes und blaues Wasser</item>
+        <item>50: umgekehrtes gelbes und blaues Wasser</item>
+        <item>51: Positives gelbes Wasser</item>
+        <item>52: umgekehrtes gelbes und blaues Wasser</item>
+        <item>53: Positives blaues Wasser</item>
+        <item>54: umgekehrtes Cyanwasser</item>
+        <item>55: Vorwärts Schwarzweiß</item>
+        <item>56: umgekehrtes Schwarzweißwasser</item>
+        <item>57: Bunter Bildschirm</item>
+        <item>58: Bunte Schließung</item>
+        <item>59: roter, grüner und blauer Bildschirm</item>
+        <item>60: Rote, grüne und blaue Schließung</item>
+        <item>61: Vorhang Gelb blau lila</item>
+        <item>62: Gelb blau lila geschlossen</item>
+        <item>63: Weiter zur farbenfrohen Verfolgung</item>
+        <item>64: umgekehrte bunte Verfolgung</item>
+        <item>65: Vorwärts rot, grün und blau</item>
+        <item>66: rotes, grünes und blaues Verfolgungslicht umkehren</item>
+        <item>67: Positives gelbes und violettes Verfolgungslicht</item>
+        <item>68: rückwärts gelbes blaues und violettes Verfolgungslicht</item>
+        <item>69: Weiterleiten an die farbenfrohen</item>
+        <item>70: farbenfrohes Flattern</item>
+        <item>71: Vorwärts rot, grün und blau</item>
+        <item>72: Umgekehrt rotes grünes und blaues Flattern</item>
+        <item>73: Positives Gelb und Blau flattern</item>
+        <item>74: Gelb blau und violett umkehren</item>
+        <item>75: Siebenfarbensprung</item>
+        <item>76: roter, grüner und blauer Sprung</item>
+        <item>77: Gelb blau lila springt</item>
+        <item>78: siebenfarbiges Strobe</item>
+        <item>79: rotes grünes und blaues Blitzlicht</item>
+        <item>80: gelbes und blaues Blitzlicht</item>
+        <item>81: Siebenfarbverlauf</item>
+        <item>82: roter und gelber Farbverlauf</item>
+        <item>83: roter und violetter Farbverlauf</item>
+        <item>84: Grün-Grün-Verlauf</item>
+        <item>85: Grüne und gelbe Steigung</item>
+        <item>86: Blau-violetter Farbverlauf</item>
+        <item>87: Rote Schließung</item>
+        <item>88: Grünes Schließen</item>
+        <item>89: Blaue Schließung</item>
+        <item>90: Gelbe Schließung</item>
+        <item>91: Schließung Cyan</item>
+        <item>92: Lila Schließen</item>
+        <item>93: Weiße Schließung</item>
+        <item>94: roter Bildschirm</item>
+        <item>95: grüner Bildschirm</item>
+        <item>96: blauer Bildschirm</item>
+        <item>97: gelber Bildschirm</item>
+        <item>98: Cyan-Pull-Bildschirm</item>
+        <item>99: violetter Vorhang</item>
+        <item>100: weißer Bildschirm</item>
+        <item>101: Rotes Pferd</item>
+        <item>102: Grünes Pferd</item>
+        <item>103: Blue Horse Race</item>
+        <item>104: Gelbes Pferd</item>
+        <item>105: Cyan-Pferderennen</item>
+        <item>106: Purple Horse Race</item>
+        <item>107: weißes Pferd</item>
+        <item>108: Vorwärts rot</item>
+        <item>109: Rückwärtslauf rot</item>
+        <item>110: Grün ausgeführt</item>
+        <item>111: grüne Rückwärtsfahrt</item>
+        <item>112: Blau vorwärts laufen</item>
+        <item>113: Rückwärtslauf blau</item>
+        <item>114: Vorwärts gelb</item>
+        <item>115: Rückwärtslauf gelb</item>
+        <item>116: Forward Cyan</item>
+        <item>117: umgekehrter Cyanlauf</item>
+        <item>118: Läuft in lila</item>
+        <item>119: umgekehrter violetter Lauf</item>
+        <item>120: Vorwärtslauf weiß</item>
+        <item>121: weiße Rückwärtsfahrt</item>
+        <item>122: Läuft in sieben Farben</item>
+        <item>123: Sieben Farben in umgekehrter Reihenfolge</item>
+        <item>124: Vorwärts rot grün und blau</item>
+        <item>125: Rot Grün und Blau laufen rückwärts</item>
+        <item>126: Gelb und violett</item>
+        <item>127: Gelbe und blaue Umkehrung rückgängig machen</item>
+        <item>128: Blau gelb und violett vorwärts laufen</item>
+        <item>129: Vorwärts grün blau und gelb</item>
+        <item>130: Rückwärtslauf blau gelb</item>
+        <item>131: Vorwärts roter Punkt auf Weiß</item>
+        <item>132: umgekehrter weißer roter Punkt läuft</item>
+        <item>133: Weiter zum roten Punkt</item>
+        <item>134: umgekehrter roter Punkt grüner Punkt läuft</item>
+        <item>135: Weiter zum grünen unteren blauen Punkt</item>
+        <item>136: Grüner blauer unterer Punkt läuft zurück</item>
+        <item>137: Blauer gelber Punkt vorwärts läuft</item>
+        <item>138: Blauer Hintergrund mit gelbem Hintergrund läuft zurück</item>
+        <item>139: Weiter zur gelben Unterseite</item>
+        <item>140: Rückwärtslauf mit gelbem Boden</item>
+        <item>141: Weiter zum unteren Punkt des violetten Punkts</item>
+        <item>142: Blauer violetter Lauf rückwärts</item>
+        <item>143: Vorlauf des weißen Punkts mit violettem Punkt</item>
+        <item>144: Umgekehrtes violettes weißes Laufen</item>
+        <item>145: Vorwärts roter Punkt weißer Punkt</item>
+        <item>146: umgekehrter roter Punkt weißer Punkt läuft</item>
+        <item>147: Läuft in sieben Farben auf rotem Hintergrund</item>
+        <item>148: umgekehrter roter Siebenfarbenlauf</item>
+        <item>149: Weiterleiten an die grünen sieben Farben</item>
+        <item>150: Sieben grüne Farbumkehrung</item>
+        <item>151: Weiterleiten an den blauen Hintergrund</item>
+        <item>152: umgekehrter blauer Siebenfarbenlauf</item>
+        <item>153: In sieben Farben auf gelbem Hintergrund ausgeführt</item>
+        <item>154: Die unteren sieben Farben der umgekehrten gelben Farbe laufen</item>
+        <item>155: Läuft zu den sieben Farben</item>
+        <item>156: Sieben grüne Farbumkehrung</item>
+        <item>157: Weiter zum unteren Rand des Lila</item>
+        <item>158: Die unteren sieben Farben werden in Lila ausgeführt</item>
+        <item>159: Läuft in sieben Farben auf weißem Hintergrund</item>
+        <item>160: umgekehrtes Weiß siebenfarbig</item>
+        <item>161: Positiver weißer roter und weißer Fluss</item>
+        <item>162: umgekehrter weißer roter und weißer Fluss</item>
+        <item>163: Positiver weißgrüner und weißer Fluss</item>
+        <item>164: umgekehrter weißer grüner und weißer Fluss</item>
+        <item>165: Positiver weißer blauer und weißer Fluss</item>
+        <item>166: umgekehrter weißer blauer und weißer Fluss</item>
+        <item>167: Positiver weißgelber und weißer Fluss</item>
+        <item>168: umgekehrter weißer gelber und weißer Fluss</item>
+        <item>169: Positiver weißer, blauer und weißer Fluss</item>
+        <item>170: umgekehrter weißer blauer und weißer Fluss</item>
+        <item>171: Positiver weißer violetter und weißer Fluss</item>
+        <item>172: umgekehrter weißer lila weißer Fluss</item>
+        <item>173: Vorwärts rot weiß und rot</item>
+        <item>174: umgekehrter roter weißer und roter Fluss</item>
+        <item>175: Vorwärts grün grün und grün</item>
+        <item>176: umgekehrter grünweißer grüner Fluss</item>
+        <item>177: Vorwärts blau weiß und blau</item>
+        <item>178: umgekehrter blauer weißer und blauer Fluss</item>
+        <item>179: Vorwärtsgelber gelber und gelber Fluss</item>
+        <item>180: umgekehrter gelber weißer und gelber Fluss</item>
+        <item>181: Positiver grünweißer Fluss</item>
+        <item>182: Blau-grüner Fluss umgekehrt</item>
+        <item>183: Positiver purpurroter weißer violetter Fluss</item>
+        <item>184: umgekehrter violetter und weißer violetter Fluss</item>
+        <item>185: Blauer grüner Vorwärtspunkt</item>
+        <item>186: Umgekehrter blauer Hintergrund mit grünem Punkt</item>
+        <item>187: Vorwärts roter Punkt grüner Punkt</item>
+        <item>188: Roter Punkt mit grünem Punkt umkehren</item>
+        <item>189: Vorwärts roter Punkt rotes Pferd</item>
+        <item>190: Rückwärts rotes rotes Punktpferd</item>
+        <item>191: Weiter zur gelben Unterseite</item>
+        <item>192: umgekehrtes gelbes unteres grünes Pferd</item>
+        <item>193: Gelber Punkt vorwärts violetter Punkt Pferderennen</item>
+        <item>194: Reverse Purple Yellow Dot Pferderennen</item>
+        <item>195: Weiter zum gelb-weißen Punkt</item>
+        <item>196: umgekehrtes gelb-weißes weißes Pferd</item>
+        <item>197: Vorwärts weißes gelbes Pferd</item>
+        <item>198: umgekehrter weißer Punkt gelber Punkt Pferderennen</item>
+        <item>199: Positive sieben Farben</item>
+        <item>200: Sieben Farbpinsel umkehren</item>
+        <item>201: Positiver roter grüner und blauer Pinsel</item>
+        <item>202: Rote, grüne und blaue Pinselfarbe umkehren</item>
+        <item>203: Positive gelbe und blaue Pinselfarbe</item>
+        <item>204: umgekehrte gelbe Cyan-Pinselfarbe</item>
+        <item>205: Pinsel mit sieben Farben</item>
+        <item>206: Sieben Farbpinsel schließen</item>
+        <item>207: roter grüner und blauer gebürsteter Bildschirm</item>
+        <item>208: Schließen der roten grünen und blauen Pinselfarbe</item>
+        <item>209: gelbes und blaues gebürstetes Farbbildschirm</item>
+        <item>210: Gelbe und violette Pinselfarbe schließt</item>
+    </array>
+    <array name="week">
+        <item>Eins</item>
+        <item>Zwei</item>
+        <item>Drei</item>
+        <item>Vier</item>
+        <item>Fünf</item>
+        <item>Sechs</item>
+        <item>Tag</item>
+    </array>
+    <array name="weekday">
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+        <item>Sonntag</item>
+    </array>
+</resources>

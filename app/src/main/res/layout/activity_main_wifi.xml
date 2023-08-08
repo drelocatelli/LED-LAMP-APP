@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/drawer_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/activity_main_bg"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/llMenu" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/dp_35">
+        <include layout="@layout/layout_main_title_wifi"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <FrameLayout android:id="@+id/flContent" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+        <RadioGroup android:orientation="horizontal" android:id="@+id/rgBottom" android:background="@color/transparent" android:paddingTop="0dp" android:paddingBottom="0dp" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:textSize="14sp" android:textColor="@drawable/radiobutton_text_color" android:gravity="center_horizontal" android:id="@+id/rbRGB" android:layout_width="0dp" android:layout_height="match_parent" android:button="@null" android:text="@string/tab_reg" android:drawableTop="@drawable/radiobutton_mode" android:layout_weight="1"/>
+            <RadioButton android:textSize="14sp" android:textColor="@drawable/radiobutton_text_color" android:gravity="center_horizontal" android:id="@+id/rbMode" android:layout_width="0dp" android:layout_height="match_parent" android:button="@null" android:text="@string/tab_mode" android:drawableTop="@drawable/radiobutton_mode" android:layout_weight="1"/>
+            <RadioButton android:textSize="14sp" android:textColor="@drawable/radiobutton_text_color" android:gravity="center_horizontal" android:id="@+id/rbCustom" android:layout_width="0dp" android:layout_height="match_parent" android:button="@null" android:text="@string/tab_custom" android:drawableTop="@drawable/radiobutton_custom" android:layout_weight="1"/>
+            <RadioButton android:textSize="14sp" android:textColor="@drawable/radiobutton_text_color" android:gravity="center_horizontal" android:id="@+id/rbAisle" android:layout_width="0dp" android:layout_height="match_parent" android:button="@null" android:text="@string/tab_aisle" android:drawableTop="@drawable/radiobutton_brightness" android:layout_weight="1"/>
+        </RadioGroup>
+    </LinearLayout>
+    <ScrollView android:layout_gravity="end" android:orientation="vertical" android:id="@+id/right_menu_frame" android:background="@color/translucence" android:clickable="true" android:layout_width="240dp" android:layout_height="match_parent">
+        <RelativeLayout android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_35">
+            <RelativeLayout android:id="@+id/base_setting" android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/dp_45">
+                <TextView android:textSize="20sp" android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/base_setting" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/base_setting">
+                <TextView android:background="@color/gray_line_bg" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                <TextView android:textSize="@dimen/dp_14" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/tv_channel_set" android:background="@color/translucence" android:paddingLeft="5dp" android:layout_width="match_parent" android:layout_height="45dp" android:layout_marginTop="0dp" android:text="@string/channelset" android:drawableRight="@drawable/right_arrow" android:drawablePadding="15dp"/>
+                <TextView android:background="@color/gray_line_bg" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                <TextView android:textSize="@dimen/dp_14" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/tv_code" android:background="@color/translucence" android:paddingLeft="5dp" android:layout_width="match_parent" android:layout_height="@dimen/dp_45" android:text="@string/Code" android:drawableRight="@drawable/right_arrow" android:drawablePadding="15dp"/>
+                <TextView android:background="@color/gray_line_bg" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                <TextView android:background="@color/gray_line_bg" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/dp_20"/>
+                <TextView android:textSize="@dimen/dp_14" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/tv_time" android:background="@color/translucence" android:paddingLeft="5dp" android:layout_width="match_parent" android:layout_height="45dp" android:layout_marginTop="0dp" android:text="@string/tab_timer" android:drawableRight="@drawable/right_arrow" android:drawablePadding="15dp"/>
+                <TextView android:background="@color/gray_line_bg" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                <TextView android:textSize="@dimen/dp_14" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/tv_tb_check" android:background="@color/translucence" android:paddingLeft="5dp" android:layout_width="match_parent" android:layout_height="45dp" android:text="@string/btquery" android:drawableRight="@drawable/right_arrow" android:drawablePadding="15dp"/>
+                <TextView android:background="#acaead" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                <TextView android:background="@color/gray_line_bg" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="20dp"/>
+                <TextView android:textSize="@dimen/dp_14" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/change_under_pic_tv" android:background="@color/translucence" android:paddingLeft="5dp" android:layout_width="match_parent" android:layout_height="45dp" android:text="@string/change_skin" android:drawableRight="@drawable/right_arrow" android:drawablePadding="15dp"/>
+                <TextView android:background="#acaead" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                <TextView android:textSize="@dimen/dp_14" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/reset_tv" android:background="@color/translucence" android:paddingLeft="5dp" android:layout_width="match_parent" android:layout_height="45dp" android:text="@string/skin_restoration" android:drawableRight="@drawable/right_arrow" android:drawablePadding="15dp"/>
+                <TextView android:background="#acaead" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+                <TextView android:background="#acaead" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="20dp"/>
+                <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/tvTuya" android:background="@color/translucence" android:paddingLeft="5dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="45dp" android:text="对接涂鸦" android:drawableRight="@drawable/right_arrow" android:drawablePadding="15dp"/>
+                <TextView android:background="#acaead" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</androidx.drawerlayout.widget.DrawerLayout>

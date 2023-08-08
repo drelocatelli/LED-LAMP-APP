@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/customRelLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/marginTop_5">
+        <com.home.view.custom.RoundImageView android:gravity="center" android:id="@+id/ivHead" android:layout_width="@dimen/roundimage_size" android:layout_height="@dimen/roundimage_size" android:layout_marginLeft="@dimen/marginLeft" android:src="@drawable/default_face" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/text_size7" android:textColor="@color/white" android:gravity="right" android:id="@+id/customTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <ImageView android:gravity="center" android:id="@+id/ivRomance" android:background="@drawable/check_alt" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@+id/separator" style="@style/parting_line"/>
+</LinearLayout>

@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="app_service">
+        <item>RGB</item>
+        <item>Blænd RGB</item>
+        <item>BIL</item>
+        <item>Akvarium</item>
+        <item>Stage</item>
+        <item>CT</item>
+        <item>WHI DIM</item>
+        <item>Udsendelse</item>
+        <item>WIFI</item>
+    </array>
+    <array name="ble_mode">
+        <item>Tricolor jump, 135</item>
+        <item>Syvfarvet spring, 136</item>
+        <item>Trefarvet gradient,137</item>
+        <item>Syvfarvet gradient,138</item>
+        <item>Rød gradient,139</item>
+        <item>Grøn gradient, 140</item>
+        <item>Blå gradient,141</item>
+        <item>Gul gradient,142</item>
+        <item>Cyan gradient,143</item>
+        <item>Lilla gradient,144</item>
+        <item>Hvid gradient,145</item>
+        <item>Rød-grøn gradient,146</item>
+        <item>Rød-blå gradient,147</item>
+        <item>Grøn-blå gradient,148</item>
+        <item>Syvfarvet flash, 149</item>
+        <item>Rød blink, 150</item>
+        <item>Grønt blink,151</item>
+        <item>Blå blink, 152</item>
+        <item>Gult blink,153</item>
+        <item>Cyan flash,154</item>
+        <item>Lilla blitz, 155</item>
+        <item>Hvid blitz, 156</item>
+        <item>Statisk rød,128</item>
+        <item>Statisk blå,129</item>
+        <item>Statisk grøn, 130</item>
+        <item>Statisk cyan,131</item>
+        <item>Statisk gul,132</item>
+        <item>Statisk lilla,133</item>
+        <item>Statisk hvid,134</item>
+    </array>
+    <array name="car_mode">
+        <item>Tricolor jump, 135</item>
+        <item>Syvfarvet spring, 136</item>
+        <item>Trefarvet gradient,137</item>
+        <item>Syvfarvet gradient,138</item>
+        <item>Rød gradient,139</item>
+        <item>Grøn gradient, 140</item>
+        <item>Blå gradient,141</item>
+        <item>Gul gradient,142</item>
+        <item>Cyan gradient,143</item>
+        <item>Lilla gradient,144</item>
+        <item>Hvid gradient,145</item>
+        <item>Rød-grøn gradient,146</item>
+        <item>Rød-blå gradient,147</item>
+        <item>Grøn-blå gradient,148</item>
+        <item>Syvfarvet flash, 149</item>
+        <item>Rød blink, 150</item>
+        <item>Grønt blink,151</item>
+        <item>Blå blink, 152</item>
+        <item>Gult blink,153</item>
+        <item>Cyan flash,154</item>
+        <item>Lilla blitz, 155</item>
+        <item>Hvid blitz, 156</item>
+        <item>Syv farvet ånde, 157</item>
+    </array>
+    <array name="channel_set_model">
+        <item>NC,255</item>
+        <item>1,1</item>
+        <item>2,2</item>
+        <item>3,3</item>
+        <item>4,4</item>
+        <item>5,5</item>
+        <item>6,6</item>
+        <item>7,7</item>
+        <item>8,8</item>
+        <item>9,9</item>
+        <item>10,10</item>
+        <item>11,11</item>
+        <item>12,12</item>
+        <item>13,13</item>
+        <item>14,14</item>
+        <item>15,15</item>
+        <item>16,16</item>
+        <item>17,17</item>
+        <item>18,18</item>
+        <item>19,19</item>
+        <item>20,20</item>
+        <item>21,21</item>
+        <item>22,22</item>
+        <item>23,23</item>
+        <item>24,24</item>
+        <item>25,25</item>
+        <item>26,26</item>
+        <item>27,27</item>
+        <item>28,28</item>
+        <item>29,29</item>
+        <item>30,30</item>
+    </array>
+    <array name="chip_model">
+        <item>UCS512A,1</item>
+        <item>UCS512C,2</item>
+    </array>
+    <array name="ct_mode">
+        <item>Varm 0% Cool 100%,128</item>
+        <item>Varm 10% Cool 90%,129</item>
+        <item>Varm 20% Cool 80%,130</item>
+        <item>Varm 30% Cool 70%,131</item>
+        <item>Varm 40% Cool 60%,132</item>
+        <item>Varm 50% Cool 50%,133</item>
+        <item>Varm 60% Cool 40%,134</item>
+        <item>Varm 70% Cool 30%,135</item>
+        <item>Varm 80% Cool 20%,136</item>
+        <item>Varm 90% Cool 10%,137</item>
+        <item>Varm 100 % Kølig 0 %,138</item>
+    </array>
+    <array name="custom_model">
+        <item>1:Gradvis ændring,0</item>
+        <item>2:Trailing,1</item>
+        <item>3:Flydende vand,2</item>
+        <item>4:Chasing,3</item>
+        <item>5:Akkumulation,4</item>
+        <item>6:Hvid x hvid flow,6</item>
+        <item>7: Enkeltpunkts hurtigløb,7</item>
+        <item>8:Multipoint Hurtigløb,8</item>
+        <item>9:Børstning og lukning,9</item>
+        <item>10:Single Lamp Gradient,10</item>
+        <item>11:Single Lamp Jump,11</item>
+        <item>12:Single Lamp Strobe,12</item>
+    </array>
+    <array name="dm_mode">
+        <item>0 %,128</item>
+        <item>10 %,129</item>
+        <item>20 %,130</item>
+        <item>30 %,131</item>
+        <item>40 %,132</item>
+        <item>50 %,133</item>
+        <item>60 %,134</item>
+        <item>70 %,135</item>
+        <item>80 %,136</item>
+        <item>90 %,137</item>
+        <item>100 %,138</item>
+    </array>
+    <array name="dmx_model">
+        <item>AUTO,255</item>
+        <item>1:Forward Dreaming,1</item>
+        <item>2:Backward Dreaming,2</item>
+        <item>3:Send 7 farver,3</item>
+        <item>4:Backward 7 Colors,4</item>
+        <item>5:Forward RD/GN/BU,5</item>
+        <item>6:Backward RD/GN/BU,6</item>
+        <item>7:Videresend YE/CN/VT,7</item>
+        <item>8:Backward YE/CN/VT,8</item>
+        <item>9:Send 6 farver RD,9</item>
+        <item>10:Backward 6 Colors RD,10</item>
+        <item>11:Fremad 6 farver GN,11</item>
+        <item>12:Backward 6 Colors GN,12</item>
+        <item>13: Fremad 6 farver BU,13</item>
+        <item>14:Backward 6 Colors BU,14</item>
+        <item>15:Send 6 farver CN,15</item>
+        <item>16:Backward 6 Colors CN,16</item>
+        <item>17: Frem 6 farver YE,17</item>
+        <item>18:Backward 6 Colors YE,18</item>
+        <item>19: Fremad 6 farver VT,19</item>
+        <item>20:Backward 6 Colors VT,20</item>
+        <item>21:Forward 6 Colors WH,21</item>
+        <item>22:Backward 6 Colors WH,22</item>
+        <item>23:Forward Trailing 7 Colors,23</item>
+        <item>24:Backward Trailing 7 Colors,24</item>
+        <item>25:Forward Trailing RD,25</item>
+        <item>26:Backward Trailing RD,26</item>
+        <item>27:Forward Trailing GN,27</item>
+        <item>28:Backward Trailing GN,28</item>
+        <item>29:Forward Trailing BU,29</item>
+        <item>30:Backward Trailing BU,30</item>
+        <item>31:Forward Trailing YE,31</item>
+        <item>32:Backward Trailing YE,32</item>
+        <item>33:Forward Trailing CN,33</item>
+        <item>34:Backward Trailing CN,34</item>
+        <item>35:Forward Trailing VT,35</item>
+        <item>36:Backward Trailing VT,36</item>
+        <item>37:Forward Trailing WH,37</item>
+        <item>38:Backward Trailing WH,38</item>
+        <item>39: Fremsend streaming 7 farver, 39</item>
+        <item>40:Backward Streaming 7 Colors,40</item>
+        <item>41:Forward Streaming RD/GN/BU,41</item>
+        <item>42:Backward Streaming RD/GN/BU,42</item>
+        <item>43:Send streaming YE/CN/VT,43</item>
+        <item>44:Backward Streaming YE/CN/VT,44</item>
+        <item>45:Forward Streaming RD/GN,45</item>
+        <item>46:Backward Streaming RD/GN,46</item>
+        <item>47:Forward Streaming GN/BU,47</item>
+        <item>48:Backward Streaming GN/BU,48</item>
+        <item>49:Send streaming YE/BU,49</item>
+        <item>50:Backward Streaming YE/BU,50</item>
+        <item>51:Videresend streaming YE/CN,51</item>
+        <item>52:Backward Streaming YE/CN,52</item>
+        <item>53:Forward Streaming CN/VT,53</item>
+        <item>54:Backward Streaming CN/VT,54</item>
+        <item>55:Forward Streaming BK/WH,55</item>
+        <item>56:Backward Streaming BK/WH,56</item>
+        <item>57:Åbent gardin 7 farver, 57</item>
+        <item>58:Close Curtain 7 Colors,58</item>
+        <item>59:Åbent gardin RD/GN/BU,59</item>
+        <item>60:Luk Gardin RD/GN/BU,60</item>
+        <item>61:Åbent gardin YE/CN/VT,61</item>
+        <item>62:Luk gardin YE/CN/VT,62</item>
+        <item>63:Forward Follow Spot 7 Colors,63</item>
+        <item>64:Backward Follow Spot 7 Colors,64</item>
+        <item>65:Videresend Følg Spot RD/GN/BU,65</item>
+        <item>66:Backward Følg Spot RD/GN/BU,66</item>
+        <item>67:Videresend Følg Spot YE/CN/VT,67</item>
+        <item>68:Backward Follow Spot YE/CN/VT,68</item>
+        <item>69:Forward Flutter 7 Colors,69</item>
+        <item>70:Backward Flutter 7 Colors,70</item>
+        <item>71:Forward Flutter RD/GN/BU,71</item>
+        <item>72:Backward Flutter RD/GN/BU,72</item>
+        <item>73:Forward Flutter YE/CN/VT,73</item>
+        <item>74:Backward Flutter YE/CN/VT,74</item>
+        <item>75:Hop 7 farver,75</item>
+        <item>76:Hop RD/GN/BU,76</item>
+        <item>77:Hop RD/GN/BU,77</item>
+        <item>78:Strobe 7 farver,78</item>
+        <item>79:Strobe RD/GN/BU,79</item>
+        <item>80:Strobe YE/CN/VT,80</item>
+        <item>81: Gradual 7 Colors,81</item>
+        <item>82:Gradvis RD/E,82</item>
+        <item>83:Gradvis RD/VT,83</item>
+        <item>84: Gradvis GN/CN,84</item>
+        <item>85: Gradvis GN/YE,85</item>
+        <item>86: Gradual BU/VT,86</item>
+        <item>87:Close Curtain RD,87</item>
+        <item>88:Luk Gardin GN,88</item>
+        <item>89:Close Curtain BU,89</item>
+        <item>90:Close Curtain YE ,90</item>
+        <item>91:Close Curtain CN,91</item>
+        <item>92:Close Curtain VT,92</item>
+        <item>93:Close Curtain WH,93</item>
+        <item>94:Open Curtain RD,94</item>
+        <item>95:Åbent gardin GN,95</item>
+        <item>96:Åbent Gardin BU,96</item>
+        <item>97:Åbent gardin YE,97</item>
+        <item>98:Åbent gardin CN,98</item>
+        <item>99:Open Curtain VT,99</item>
+        <item>100:Åbent gardin WH,100</item>
+        <item>101:Hestevæddeløb RD,101</item>
+        <item>102:Hestevæddeløb GN,102</item>
+        <item>103:Hesteløb BU,103</item>
+        <item>104:Hestevæddeløb YE,104</item>
+        <item>105:Hestevæddeløb CN,105</item>
+        <item>106:Hestevæddeløb VT,106</item>
+        <item>107:Hesteløb WH,107</item>
+        <item>108:Forward Run RD,108</item>
+        <item>109:Backward Run RD,109</item>
+        <item>110:Forward Run GN,110</item>
+        <item>111:Backward Run GN,111</item>
+        <item>112:Forward Run BU,112</item>
+        <item>113:Backward Run BU,113</item>
+        <item>114:Forward Run YE,114</item>
+        <item>115:Backward Run YE,115</item>
+        <item>116:Forward Run CN,116</item>
+        <item>117:Backward Run CN,117</item>
+        <item>118:Forward Run VT,118</item>
+        <item>119:Backward Run VT,119</item>
+        <item>120:Forward Run WH,120</item>
+        <item>121:Backward Run WH,121</item>
+        <item>122:Forward Run 7 Colors,122</item>
+        <item>123:Backward Run 7 Colors,123</item>
+        <item>124:Forward Run RD/GN/BU,124</item>
+        <item>125:Backward Run RD/GN/BU,125</item>
+        <item>126:Forward Run YE/CN/VT,126</item>
+        <item>127:Backward Run YE/CN/VT,127</item>
+        <item>128:Forward Run BU/YE/VT,128</item>
+        <item>129:Forward Run GN/BU/YE,129</item>
+        <item>130:Backward Run BU/YE/VT,130</item>
+        <item>131:Forward Run RD/ON/WH,131</item>
+        <item>132:Backward Run RD/ON/WH,132</item>
+        <item>133:Forward Run GN ON RD,133</item>
+        <item>134:Backward Run GN ON RD,134</item>
+        <item>135:Forward Run BU ON GN,135</item>
+        <item>136:Backward Run BU ON GN,136</item>
+        <item>137:Forward Run YE ON BU,137</item>
+        <item>138:Backward Run YE ON BU,138</item>
+        <item>139:Forward Run CN ON YE,139</item>
+        <item>140:Backward Run CN ON YE,140</item>
+        <item>141:Forward Run VT ON CN,141</item>
+        <item>142:Backward Run VT ON CN,142</item>
+        <item>143:Forward Run WH ON VT,143</item>
+        <item>144:Backward Run WH ON VT,144</item>
+        <item>145:Forward Run WH ON RD,145</item>
+        <item>146:Backward Run WH ON RD,146</item>
+        <item>147:Forward Run 7 COLOR ON RD,147</item>
+        <item>148:Backward Run 7 COLOR ON RD,148</item>
+        <item>149:Forward Run 7 COLOR ON GN,149</item>
+        <item>150:Backward Run 7 COLOR ON GN,150</item>
+        <item>151:Forward Run 7 COLOR ON BU,151</item>
+        <item>152:Backward Run 7 COLOR ON BU,152</item>
+        <item>153:Forward Run 7 COLOR ON YE,153</item>
+        <item>154:Backward Run 7 COLOR ON YE,154</item>
+        <item>155:Forward Run 7 COLOR ON CN,155</item>
+        <item>156:Backward Run 7 COLOR ON CN,156</item>
+        <item>157:Forward Run 7 COLOR ON VT,157</item>
+        <item>158:Backward Run 7 COLOR ON VT,158</item>
+        <item>159:Forward Run 7 COLOR ON WH,159</item>
+        <item>160:Backward Run 7 COLOR ON WH,160</item>
+        <item>161:Forward Flow WH RD WH,161</item>
+        <item>162:Backward Flow WH RD WH,162</item>
+        <item>163:Forward Flow WH GN WH,163</item>
+        <item>164:Backward Flow WH GN WH,164</item>
+        <item>165:Forward Flow WH BU WH,165</item>
+        <item>166:Backward Flow WH BU WH,166</item>
+        <item>167:Forward Flow WH YE WH,167</item>
+        <item>168:Backward Flow WH YE WH,168</item>
+        <item>169:Forward Flow WH CN WH,169</item>
+        <item>170:Backward Flow WH CN WH,170</item>
+        <item>171:Forward Flow WH VT WH,171</item>
+        <item>172:Backward Flow WH VT WH,172</item>
+        <item>173:Forward Flow RD WH RD,173</item>
+        <item>174:Backward Flow RD WH RD,174</item>
+        <item>175:Forward Flow GN WH GN,175</item>
+        <item>176:Backward Flow GN WH GN,176</item>
+        <item>177:Forward Flow BU WH BU,177</item>
+        <item>178:Backward Flow BU WH BU,178</item>
+        <item>179:Forward Flow YE WH YE,179</item>
+        <item>180:Backward Flow YE WH YE,180</item>
+        <item>181:Forward Flow CN WH CN,181</item>
+        <item>182:Backward Flow CN WH CN,182</item>
+        <item>183:Forward Flow VT WH VT,183</item>
+        <item>184:Backward Flow VT WH VT,184</item>
+        <item>185:Forward Run GN ON BU,185</item>
+        <item>186:Backward Run GN ON BU,186</item>
+        <item>187:Forward Run GN ON RD,187</item>
+        <item>188:Backward Run GN ON RD,188</item>
+        <item>189:Forward Run RD ON BU,189</item>
+        <item>190:Backward Run RD ON BU,190</item>
+        <item>191:Forward Run CN ON YE,191</item>
+        <item>192:Backward Run CN ON YE,192</item>
+        <item>193:Forward Run YE ON VT,193</item>
+        <item>194:Backward Run YE ON VT,194</item>
+        <item>195:Forward Run WH ON YE,195</item>
+        <item>196:Backward Run WH ON YE,196</item>
+        <item>197:Forward Run YE ON WH,197</item>
+        <item>198:Backward Run YE ON WH,198</item>
+        <item>199:Forward Swab 7 COLORS,199</item>
+        <item>200:Backward Swab 7 COLORS,200</item>
+        <item>201:Forward Swab RD GN BU,201</item>
+        <item>202:Backward Swab RD GN BU,202</item>
+        <item>203:Forward Swab YE CN VT,203</item>
+        <item>204:Backward Swab YE CN VT,204</item>
+        <item>205:Open Curtain Swab 7 COLORS,205</item>
+        <item>206:Close Curtain Swab 7 COLORS,206</item>
+        <item>207:Open Curtain Swab R G B ,207</item>
+        <item>208:Close Curtain Swab R G B ,208</item>
+        <item>209:Open Curtain Swab Y C P,209</item>
+        <item>210:Close Curtain Swab Y C P,210</item>
+    </array>
+    <array name="forum_tab_titles">
+        <item>Andet</item>
+        <item>Forbind</item>
+        <item>Rådgivning</item>
+        <item>Foreslå</item>
+        <item>Hot</item>
+    </array>
+    <array name="light_banner">
+        <item>LPD6803,1</item>
+        <item>TM1803,2</item>
+        <item>UCS1903,3</item>
+        <item>WS2811,4</item>
+        <item>TM1812,5</item>
+        <item>TM1809,6</item>
+        <item>WS2801,7</item>
+        <item>TLS3001,8</item>
+        <item>TLS3008,9</item>
+        <item>P9813,10</item>
+        <item>UCS8806,11</item>
+        <item>TM1829,12</item>
+        <item>TM1909,13</item>
+    </array>
+    <array name="light_mode">
+        <item>Sluk lyset</item>
+        <item>Statisk rød</item>
+        <item>Statisk blå</item>
+        <item>Statisk grøn</item>
+        <item>Statisk cyan</item>
+        <item>Statisk gul</item>
+        <item>Statisk lilla</item>
+        <item>Statisk hvid</item>
+        <item>Trefarvet spring</item>
+        <item>Syvfarvet spring</item>
+        <item>Trefarvet gradient</item>
+        <item>Syvfarvet gradient</item>
+        <item>Rød gradient</item>
+        <item>Grønt farveforløb</item>
+        <item>Blå gradient</item>
+        <item>Gul gradient</item>
+        <item>Cyan gradient</item>
+        <item>Lilla gradient</item>
+        <item>Hvid gradient</item>
+        <item>Rød-grøn gradient</item>
+        <item>Rød-blå gradient</item>
+        <item>Grøn-blå gradient</item>
+        <item>Syvfarvet flash</item>
+        <item>Rød blink</item>
+        <item>Grønt blink</item>
+        <item>Blå blink</item>
+        <item>Gult blink</item>
+        <item>Cyan flash</item>
+        <item>Lilla blitz</item>
+        <item>Hvidt blink</item>
+        <item>MODE30</item>
+        <item>MODE31</item>
+        <item>MODE32</item>
+        <item>MODE33</item>
+        <item>MODE34</item>
+        <item>MODE35</item>
+        <item>MODE36</item>
+        <item>MODE37</item>
+        <item>MODE38</item>
+        <item>MODE39</item>
+        <item>MODE40</item>
+        <item>MODE41</item>
+        <item>MODE42</item>
+        <item>MODE43</item>
+        <item>MODE44</item>
+        <item>MODE45</item>
+        <item>MODE46</item>
+        <item>MODE47</item>
+        <item>MODE48</item>
+        <item>MODE49</item>
+        <item>MODE50</item>
+        <item>MODE51</item>
+        <item>MODE52</item>
+        <item>MODE53</item>
+        <item>MODE54</item>
+        <item>MODE55</item>
+        <item>MODE56</item>
+        <item>MODE57</item>
+        <item>MODE58</item>
+        <item>MODE59</item>
+        <item>MODE60</item>
+        <item>MODE61</item>
+        <item>MODE62</item>
+        <item>MODE63</item>
+        <item>MODE64</item>
+        <item>MODE65</item>
+        <item>MODE66</item>
+        <item>MODE67</item>
+        <item>MODE68</item>
+        <item>MODE69</item>
+        <item>MODE70</item>
+        <item>MODE71</item>
+        <item>MODE72</item>
+        <item>MODE73</item>
+        <item>MODE74</item>
+        <item>MODE75</item>
+        <item>MODE76</item>
+        <item>MODE77</item>
+        <item>MODE78</item>
+        <item>MODE79</item>
+        <item>MODE80</item>
+        <item>MODE81</item>
+        <item>MODE82</item>
+        <item>MODE83</item>
+        <item>MODE84</item>
+        <item>MODE85</item>
+        <item>MODE86</item>
+        <item>MODE87</item>
+        <item>MODE88</item>
+        <item>MODE89</item>
+        <item>MODE90</item>
+        <item>MODE91</item>
+        <item>MODE92</item>
+        <item>MODE93</item>
+        <item>MODE94</item>
+        <item>MODE95</item>
+        <item>MODE96</item>
+        <item>MODE97</item>
+        <item>MODE98</item>
+        <item>MODE99</item>
+        <item>MODE100</item>
+        <item>MODE101</item>
+        <item>MODE102</item>
+        <item>MODE103</item>
+        <item>MODE104</item>
+        <item>MODE105</item>
+        <item>MODE106</item>
+        <item>MODE107</item>
+        <item>MODE108</item>
+        <item>MODE109</item>
+        <item>MODE110</item>
+        <item>MODE111</item>
+        <item>MODE112</item>
+        <item>MODE113</item>
+        <item>MODE114</item>
+        <item>MODE115</item>
+        <item>MODE116</item>
+        <item>MODE117</item>
+        <item>MODE118</item>
+        <item>MODE119</item>
+        <item>MODE120</item>
+        <item>MODE121</item>
+        <item>MODE122</item>
+        <item>MODE123</item>
+        <item>MODE124</item>
+        <item>MODE125</item>
+        <item>MODE126</item>
+        <item>MODE127</item>
+        <item>MODE128</item>
+        <item>MODE129</item>
+        <item>MODE130</item>
+        <item>MODE131</item>
+        <item>MODE132</item>
+        <item>MODE133</item>
+        <item>MODE134</item>
+        <item>MODE135</item>
+        <item>MODE136</item>
+        <item>MODE137</item>
+        <item>MODE138</item>
+        <item>MODE139</item>
+        <item>MODE140</item>
+        <item>MODE141</item>
+        <item>MODE142</item>
+        <item>MODE143</item>
+        <item>MODE144</item>
+        <item>MODE145</item>
+        <item>MODE146</item>
+        <item>MODE147</item>
+        <item>MODE148</item>
+        <item>MODE149</item>
+        <item>MODE150</item>
+        <item>MODE151</item>
+        <item>MODE152</item>
+        <item>MODE153</item>
+        <item>MODE154</item>
+        <item>MODE155</item>
+        <item>MODE156</item>
+        <item>MODE157</item>
+        <item>MODE158</item>
+        <item>MODE159</item>
+        <item>MODE160</item>
+        <item>MODE161</item>
+        <item>MODE162</item>
+        <item>MODE163</item>
+        <item>MODE164</item>
+        <item>MODE165</item>
+        <item>MODE166</item>
+        <item>MODE167</item>
+        <item>MODE168</item>
+        <item>MODE169</item>
+        <item>MODE170</item>
+        <item>MODE171</item>
+        <item>MODE172</item>
+        <item>MODE173</item>
+        <item>MODE174</item>
+        <item>MODE175</item>
+        <item>MODE176</item>
+        <item>MODE177</item>
+        <item>MODE178</item>
+        <item>MODE179</item>
+        <item>MODE180</item>
+        <item>MODE181</item>
+        <item>MODE182</item>
+        <item>MODE183</item>
+        <item>MODE184</item>
+        <item>MODE185</item>
+        <item>MODE186</item>
+        <item>MODE187</item>
+        <item>MODE188</item>
+        <item>MODE189</item>
+        <item>MODE190</item>
+        <item>MODE191</item>
+        <item>MODE192</item>
+        <item>MODE193</item>
+        <item>MODE194</item>
+        <item>MODE195</item>
+        <item>MODE196</item>
+        <item>MODE197</item>
+        <item>MODE198</item>
+        <item>MODE199</item>
+        <item>MODE200</item>
+        <item>MODE201</item>
+        <item>MODE202</item>
+        <item>MODE203</item>
+        <item>MODE204</item>
+        <item>MODE205</item>
+        <item>MODE206</item>
+        <item>MODE207</item>
+        <item>MODE208</item>
+        <item>MODE209</item>
+        <item>MODE210</item>
+        <item>MODE211</item>
+    </array>
+    <array name="modelble">
+        <item>Sluk lyset</item>
+        <item>Tænd lyset</item>
+        <item>Statisk rød</item>
+        <item>Statisk blå</item>
+        <item>Statisk grøn</item>
+        <item>Statisk cyan</item>
+        <item>Statisk gul</item>
+        <item>Statisk lilla</item>
+        <item>Statisk hvid</item>
+        <item>Trefarvet spring</item>
+        <item>Syvfarvet spring</item>
+        <item>Trefarvet gradient</item>
+        <item>Syvfarvet gradient</item>
+        <item>Kold hvid</item>
+        <item>Varm hvid</item>
+        <item>Monokrom</item>
+    </array>
+    <array name="modelike">
+        <item>Sluk</item>
+        <item>Tænd</item>
+        <item>Alle lyse</item>
+        <item>Halvlys</item>
+        <item>Lidt lyst</item>
+        <item>vejrtrækning</item>
+        <item>Strobe</item>
+        <item>Blinker</item>
+    </array>
+    <array name="modelsun">
+        <item>lys slukket</item>
+        <item>lys tændt</item>
+        <item>fed</item>
+        <item>varm</item>
+        <item>Naturlig</item>
+        <item>cool Warm Jump</item>
+        <item>cool gradient</item>
+        <item>varm gradient</item>
+        <item>Naturlig lysgradient</item>
+        <item>kold varm gradient</item>
+        <item>cool varm strobe</item>
+        <item>cool strobe</item>
+        <item>varm strobe</item>
+        <item>Naturligt lys strobe</item>
+    </array>
+    <array name="rgb_model">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+        <item>RGBW,7</item>
+        <item>RBGW,8</item>
+        <item>GRBW,9</item>
+        <item>GBRW,10</item>
+        <item>BRGW,11</item>
+        <item>BGRW,12</item>
+    </array>
+    <array name="rgb_sort_ble">
+        <item>RGB,1</item>
+        <item>RBG,2</item>
+        <item>GRB,3</item>
+        <item>GBR,4</item>
+        <item>BRG,5</item>
+        <item>BGR,6</item>
+    </array>
+    <array name="select_mode">
+        <item>W,0</item>
+        <item>BW,1</item>
+        <item>RGB,2</item>
+        <item>RGBW,3</item>
+        <item>RGBWCP,4</item>
+    </array>
+    <array name="timer_model_dmx">
+        <item>Sluk</item>
+        <item>Tænd</item>
+        <item>AUTO,255</item>
+        <item>1: Fremaddrøm</item>
+        <item>2:Backward Dreaming</item>
+        <item>3:Send 7 farver</item>
+        <item>4:Backward 7 Colors</item>
+        <item>5: Frem RØD GRØN BLÅ</item>
+        <item>6: Bagud RØD GRØN BLÅ</item>
+        <item>7:Send GUL CYAN LILLA</item>
+        <item>8: Bagud GUL CYAN LILLA</item>
+        <item>9: Frem 6 farver plus RØD</item>
+        <item>10: Baglæns 6 farver plus RØD</item>
+        <item>11: Frem 6 farver plus GRØN</item>
+        <item>12:Backward 6 Colors plus GREEN</item>
+        <item>13: Frem 6 farver plus BLÅ</item>
+        <item>14: Bagud 6 farver plus BLÅ</item>
+        <item>15:Send 6 farver plus CYAN</item>
+        <item>16:Backward 6 Colors plus CYAN</item>
+        <item>17:Send 6 farver plus GUL</item>
+        <item>18:Backward 6 Colors plus GUL</item>
+        <item>19: Frem 6 farver plus LILLA</item>
+        <item>20: Baglæns 6 farver plus LILLA</item>
+        <item>21:Send 6 farver plus HVID</item>
+        <item>22:Backward 6 Colors plus WHITE</item>
+        <item>23:Forward Trailing 7 Colors</item>
+        <item>24:Backward Trailing 7 Colors</item>
+        <item>25:Forward Trailing RED</item>
+        <item>26:Backward Trailing RED</item>
+        <item>27Forward Trailing GREEN</item>
+        <item>28:Backward Trailing GREEN</item>
+        <item>29:Forlæns efterfølgende BLÅ</item>
+        <item>30:Backward Trailing BLUE</item>
+        <item>31:Forward Trailing GUL</item>
+        <item>32:Backward Trailing GUL</item>
+        <item>33:Forward Trailing CYAN</item>
+        <item>34:Backward Trailing CYAN</item>
+        <item>35:Forward Trailing PURPLE</item>
+        <item>36:Backward Trailing PURPLE</item>
+        <item>37:Forward Trailing WHITE</item>
+        <item>38:Backward Trailing WHITE</item>
+        <item>39:Send streaming 7 farver</item>
+        <item>40:Backward Streaming 7 Colors</item>
+        <item>41: Streaming frem RØD GRØN BLÅ</item>
+        <item>42:Backward Streaming RØD GRØN BLÅ</item>
+        <item>43:Send streaming GUL CYAN LILLA</item>
+        <item>44:Backward Streaming GUL CYAN LILLA</item>
+        <item>45:Send Streaming RØD GRØN</item>
+        <item>46:Backward Streaming RØD GRØN</item>
+        <item>47:Send streaming GRØN BLÅ</item>
+        <item>48:Backward Streaming GREEN BLUE</item>
+        <item>49:Send streaming GUL BLÅ</item>
+        <item>50:Backward Streaming GUL BLÅ</item>
+        <item>51:Send streaming GUL CYAN</item>
+        <item>52:Backward Streaming YELLOW CYAN</item>
+        <item>53:Send streaming CYAN LILLA</item>
+        <item>54:Backward Streaming CYAN PURPLE</item>
+        <item>55: Fremsend streaming SORT HVID</item>
+        <item>56:Backward Streaming SORT HVID</item>
+        <item>57:Åbent gardin 7 farver</item>
+        <item>58:Close Curtain 7 Colors</item>
+        <item>59:Åbent gardin RØD GRØN BLÅ</item>
+        <item>60:Luk Gardin RØD GRØN BLÅ</item>
+        <item>61:Åbent gardin GUL CYAN LILLA</item>
+        <item>62:Luk Gardin GUL CYAN LILLA</item>
+        <item>63:Forward Follow Spot 7 Colors</item>
+        <item>64:Backward Follow Spot 7 Colors</item>
+        <item>65:Forward Følg Spot RØD GRØN BLÅ</item>
+        <item>66:Følg baglæns Spot RØD GRØN BLÅ</item>
+        <item>67:Videresend Følg Spot YELLOW CYAN PURPLE</item>
+        <item>68:Backward Follow Spot YELLOW CYAN PURPLE</item>
+        <item>69:Forward Flutter 7 Colors</item>
+        <item>70:Backward Flutter 7 Colors</item>
+        <item>71:Forward Flutter RØD GRØN BLÅ</item>
+        <item>72:Backward Fladder RØD GRØN BLÅ</item>
+        <item>73:Forward Flutter GUL CYAN LILLA</item>
+        <item>74:Baglæns fladder GUL CYAN LILLA</item>
+        <item>75:Hop 7 farver</item>
+        <item>76:Hop RØD GRØN BLÅ</item>
+        <item>77:Hop RØD GRØN BLÅ</item>
+        <item>78:Strobe 7 farver</item>
+        <item>79:Strobe RØD GRØN BLÅ</item>
+        <item>80:Strobe GUL CYAN LILLA</item>
+        <item>81: Gradual 7 Colors</item>
+        <item>82: Gradvis RØD GUL</item>
+        <item>83: Gradvis RØD LILLA</item>
+        <item>84: Gradvis GRØN CYAN</item>
+        <item>85: Gradvis GRØN GUL</item>
+        <item>86: Gradvis BLÅ LILLA</item>
+        <item>87:Luk Gardin RØD</item>
+        <item>88:Luk Gardin GRØN</item>
+        <item>89:Luk Gardin BLÅT</item>
+        <item>90:Luk gardin GUL</item>
+        <item>91:Close Curtain CYAN</item>
+        <item>92:Luk Gardin LILLA</item>
+        <item>93:Luk Gardin HVID</item>
+        <item>94:Åbent gardin RØD</item>
+        <item>95:Åbent gardin GRØN</item>
+        <item>96:Åbent gardin BLÅT</item>
+        <item>97:Åbent gardin GUL</item>
+        <item>98:Åbent gardin CYAN</item>
+        <item>99:Åbent gardin LILLA</item>
+        <item>100:Åbent gardin HVID</item>
+        <item>101:Hesteløb RØD</item>
+        <item>102:Hesteløb GRØN</item>
+        <item>103:Hesteløb BLÅ</item>
+        <item>104:Hestevæddeløb GUL</item>
+        <item>105:Hestevæddeløb CYAN</item>
+        <item>106:Hestevæddeløb LILLA</item>
+        <item>107:Hestevæddeløb HVID</item>
+        <item>108:Forward Run RED</item>
+        <item>109:Backward Run RED</item>
+        <item>110:Forward Run GREEN</item>
+        <item>111:Backward Run GREEN</item>
+        <item>112:Forward Run BLUE</item>
+        <item>113:Backward Run BLUE</item>
+        <item>114:Forward Run GUL</item>
+        <item>115:Backward Run GUL</item>
+        <item>116:Forward Run CYAN</item>
+        <item>117:Backward Run CYAN</item>
+        <item>118:Forward Run LILLA</item>
+        <item>119:Backward Run PURPLE</item>
+        <item>120:Forward Run WHITE</item>
+        <item>121:Backward Run WHITE</item>
+        <item>122:Forward Run 7 Colors</item>
+        <item>123:Backward Run 7 Colors</item>
+        <item>124:Løb frem RØD GRØN BLÅ</item>
+        <item>125:Backward Run RØD GRØN BLÅ</item>
+        <item>126:Forward Run YELLOW CYAN PURPLE</item>
+        <item>127:Backward Run GUL CYAN LILLA</item>
+        <item>128:Forward Run BLÅ GUL LILLA</item>
+        <item>129:Løb frem GRØN BLÅ GUL</item>
+        <item>130:Backward Run BLÅ GUL LILLA</item>
+        <item>131:Forward Run RED ON WHITE</item>
+        <item>132:Backward Run RED ON WHITE</item>
+        <item>133:Forward Run GREEN ON RED</item>
+        <item>134:Løb baglæns GRØN PÅ RØD</item>
+        <item>135:Løb fremad BLÅ PÅ GRØN</item>
+        <item>136:Backward Run BLUE ON GREEN</item>
+        <item>137:Forward Run GUL PÅ BLÅT</item>
+        <item>138:Løb baglæns GUL PÅ BLÅT</item>
+        <item>139:Forward Run CYAN PÅ GUL</item>
+        <item>140:Backward Run CYAN PÅ GUL</item>
+        <item>141:Forward Run LILLA PÅ CYAN</item>
+        <item>142:Backward Run LILLA PÅ CYAN</item>
+        <item>143:Forward Run WHITE ON PURPLE</item>
+        <item>144:Backward Run WHITE ON PURPLE</item>
+        <item>145:Forward Run WHITE ON RED</item>
+        <item>146:Backward Run WHITE ON RED</item>
+        <item>147:Forward Run 7 FARVE PÅ RØD</item>
+        <item>148:Backward Run 7 COLOR ON RED</item>
+        <item>149:Forward Run 7 FARVE PÅ GRØN</item>
+        <item>150:Backward Run 7 COLOR ON GREEN</item>
+        <item>151:Forward Run 7 FARVE PÅ BLÅT</item>
+        <item>152:Backward Run 7 COLOR ON BLUE</item>
+        <item>153:Forward Run 7 FARVE PÅ GUL</item>
+        <item>154:Backward Run 7 FARVE PÅ GUL</item>
+        <item>155:Forward Run 7 COLOR ON CYAN</item>
+        <item>156:Backward Run 7 COLOR ON CYAN</item>
+        <item>157:Forward Run 7 FARVE PÅ LILLA</item>
+        <item>158:Backward Run 7 COLOR ON PURPLE</item>
+        <item>159:Forward Run 7 COLOR ON WHITE</item>
+        <item>160:Backward Run 7 COLOR ON WHITE</item>
+        <item>161:Forward Flow HVID RØD HVID</item>
+        <item>162:Backward Flow WHITE RED WHITE</item>
+        <item>163:Forward Flow WHITE GREEN WHITE</item>
+        <item>164:Backward Flow WHITE GREEN WHITE</item>
+        <item>165:Forward Flow WHITE BLUE WHITE</item>
+        <item>166:Backward Flow WHITE BLUE WHITE</item>
+        <item>167:Forward Flow HVID GUL HVID</item>
+        <item>168:Backward Flow WHITE YELLOW WHITE</item>
+        <item>169:Forward Flow WHITE CYAN WHITE</item>
+        <item>170:Backward Flow WHITE CYAN WHITE</item>
+        <item>171:Forward Flow WHITE LILLA HVID</item>
+        <item>172:Backward Flow WHITE PURPLE WHITE</item>
+        <item>173:Forward Flow RØD HVID RØD</item>
+        <item>174:Backward Flow RØD HVID RØD</item>
+        <item>175:Forward Flow GRØN HVID GRØN</item>
+        <item>176:Backward Flow GRØN HVID GRØN</item>
+        <item>177:Forward Flow BLÅ HVID BLÅ</item>
+        <item>178:Backward Flow BLÅ HVID BLÅ</item>
+        <item>179:Forward Flow GUL HVID GUL</item>
+        <item>180:Backward Flow GUL HVID GUL</item>
+        <item>181:Forward Flow CYAN HVID CYAN</item>
+        <item>182:Backward Flow CYAN HVID CYAN</item>
+        <item>183:Forward Flow LILLA HVID LILLA</item>
+        <item>184:Backward Flow LILLA HVID LILLA</item>
+        <item>185:Forward Run GREEN ON BLUE</item>
+        <item>186:Backward Run GREEN ON BLUE</item>
+        <item>187:Forward Run GREEN ON RED</item>
+        <item>188:Backward Run GREEN ON RED</item>
+        <item>189:Forward Run RØD PÅ BLÅT</item>
+        <item>190Backward Run RØD PÅ BLÅT</item>
+        <item>191Forward Run CYAN PÅ GUL</item>
+        <item>192:Backward Run CYAN PÅ GUL</item>
+        <item>193:Forward Run GUL PÅ LILLA</item>
+        <item>194:Backward Run GUL PÅ LILLA</item>
+        <item>195:Forward Run WHITE ON GUL</item>
+        <item>196:Backward Run WHITE ON YELLOW</item>
+        <item>197:Forward Run GUL PÅ HVID</item>
+        <item>198:Backward Run GUL PÅ HVID</item>
+        <item>199:Forward Swab 7 FARVER</item>
+        <item>200:Backward Swab 7 FARVER</item>
+        <item>201:Forlæns podepind RØD GRØN BLÅ</item>
+        <item>202:Backward Swab RØD GRØN BLÅ</item>
+        <item>203:Forward podepind GUL CYAN LILLA</item>
+        <item>204:Backward Swab GUL CYAN LILLA</item>
+        <item>205:Open Curtain Swab 7 FARVER</item>
+        <item>206:Close Curtain Swab 7 FARVER</item>
+        <item>207 Åben gardinpodepind R G B</item>
+        <item>208:Close Curtain Swab R G B</item>
+        <item>209: Åben gardinpind Y C P</item>
+        <item>210:Luk gardinpind Y C P</item>
+    </array>
+    <array name="week">
+        <item>Søn</item>
+        <item>mandag</item>
+        <item>tirs</item>
+        <item>Ons</item>
+        <item>tors</item>
+        <item>fre</item>
+        <item>lør</item>
+    </array>
+    <array name="weekday">
+        <item>mandag</item>
+        <item>Tirsdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>fredag</item>
+        <item>Lørdag</item>
+        <item>søndag</item>
+    </array>
+    <string name="Advisory">Rådgivning</string>
+    <string name="Auxiliary_function">Knap</string>
+    <string name="Bubble">Bubble</string>
+    <string name="ButtonEight">hest</string>
+    <string name="ButtonFive">Stak</string>
+    <string name="ButtonSeven">flow</string>
+    <string name="ButtonSix">trække på skærmen</string>
+    <string name="Closetiming">Luk timing</string>
+    <string name="Code">Kode</string>
+    <string name="Connect">Forbind</string>
+    <string name="Crash_Tip">*Der opstod for nylig et nedbrudsproblem\nAfinstaller venligst appen først, \nog download derefter igen</string>
+    <string name="Experience_Now">Oplev nu</string>
+    <string name="FD">FD</string>
+    <string name="FS">FS</string>
+    <string name="FW">FW</string>
+    <string name="Forward">Videresend</string>
+    <string name="Hot">Hot</string>
+    <string name="Language">Sprog</string>
+    <string name="No_Equipment">Intet udstyr, træk venligst ned for at opdatere</string>
+    <string name="Other">Andet</string>
+    <string name="Pull_down_to_refresh_device">Træk ned for at opdatere enheden</string>
+    <string name="RandomPlay">RandomPlay</string>
+    <string name="Reverse">Omvendt</string>
+    <string name="Sendtiming">Send timing</string>
+    <string name="SequentialPlay">SequentialPlay</string>
+    <string name="SinglePlay">SinglePlay</string>
+    <string name="Suggest">Foreslå</string>
+    <string name="Tutorial">Selvstudie</string>
+    <string name="Values_can_be_the_same">Værdier kan ikke være de samme</string>
+    <string name="Voicecontrol">Stemme</string>
+    <string name="abc_action_bar_home_description">Find hjem</string>
+    <string name="abc_action_bar_up_description">Gå op</string>
+    <string name="abc_action_menu_overflow_description">Flere valgmuligheder</string>
+    <string name="abc_action_mode_done">Udfør</string>
+    <string name="abc_activity_chooser_view_see_all">Se alle</string>
+    <string name="abc_activitychooserview_choose_application">Vælg en app</string>
+    <string name="abc_capital_off">FRA</string>
+    <string name="abc_capital_on">TIL</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">slet</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Fn+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">mellemrum</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Søg…</string>
+    <string name="abc_searchview_description_clear">Ryd forespørgsel</string>
+    <string name="abc_searchview_description_query">Søgeforespørgsel</string>
+    <string name="abc_searchview_description_search">Søg</string>
+    <string name="abc_searchview_description_submit">Indsend forespørgsel</string>
+    <string name="abc_searchview_description_voice">Talesøgning</string>
+    <string name="abc_shareactionprovider_share_with">Del med</string>
+    <string name="abc_shareactionprovider_share_with_application">Del med %s</string>
+    <string name="abc_toolbar_collapse_description">Skjul</string>
+    <string name="ablum_title">musiknavn:%1$s fra kunstner:%2$s Album: %3$s</string>
+    <string name="about_us_and_help">Om os</string>
+    <string name="access_request">Adgangsanmodning</string>
+    <string name="access_request_description">Siden Android 6.0 skal applikationer have adgang til enhedens placering for at scanne Bluetooth-enheder med lavt strømforbrug. Dette skyldes, at Bluetooth-beacons kan bruges til at bestemme placeringen af ​​mobiltelefoner og brugere. Denne applikation bruger dog ikke dine placeringsoplysninger. Denne tilladelse er kun til scanning af Bluetooth-enheder. [Klik for at se den officielle Google-dokumentation]</string>
+    <string name="access_request_description1">Siden Android 6.0 skal applikationer have adgang til enhedens placering for at scanne Bluetooth-enheder med lavt strømforbrug. Dette skyldes, at Bluetooth-beacons kan bruges til at bestemme placeringen af ​​mobiltelefoner og brugere. Denne applikation bruger dog ikke dine placeringsoplysninger. Denne tilladelse er kun til scanning af Bluetooth-enheder.</string>
+    <string name="access_request_description2">[Klik for at se den officielle Google-dokumentation]</string>
+    <string name="account_format_error">Godkendelsesmetoden er forkert formateret</string>
+    <string name="accumulation">AC</string>
+    <string name="action_settings">Indstillinger</string>
+    <string name="add2lib">Bekræft valg</string>
+    <string name="add2lib_all">Vælg alle</string>
+    <string name="addTimer">Tilføj timer</string>
+    <string name="add_device">Tilføj enhed</string>
+    <string name="add_device_successfully">tilføjet enheden med succes</string>
+    <string name="add_group">tilføj ny gruppe</string>
+    <string name="adding_device">tilføjer udstyr</string>
+    <string name="agree">Enig</string>
+    <string name="aisle_a">Gang A</string>
+    <string name="aisle_b">Gang B</string>
+    <string name="aisle_c">Gang C</string>
+    <string name="all_off">alle fra</string>
+    <string name="all_on">all on</string>
+    <string name="allcomment">Alle kommentarer</string>
+    <string name="app_name">LED LAMPE</string>
+    <string name="aquatic_mode">Aquatic Mode</string>
+    <string name="authorization_alert">Denne funktion kræver autorisation fra dig, ellers vil APP ikke blive brugt korrekt.</string>
+    <string name="authorization_title">Tip:</string>
+    <string name="b">B</string>
+    <string name="back">Tilbage</string>
+    <string name="base_setting">Indstilling</string>
+    <string name="battery">Batteri</string>
+    <string name="bind_end">BEKRÆFT</string>
+    <string name="ble_connect">Bluetooth</string>
+    <string name="ble_not_supported">Understøtter ikke enhed</string>
+    <string name="blue">%1$s</string>
+    <string name="breathe">Træk vejret</string>
+    <string name="brightness">Lysstyrke</string>
+    <string name="brightness_set">Lysstyrke: %1$s</string>
+    <string name="btn_pix_number">nummer</string>
+    <string name="btn_set_pix_number">set_pix_number(0-1024)</string>
+    <string name="btquery">Forespørgsel om temperaturbatteri</string>
+    <string name="busy_wait">Jeg har travlt, vent</string>
+    <string name="c">C</string>
+    <string name="camera_permissions_disabled">Kameratilladelser er deaktiveret. Sørg for at aktivere kameratilladelser!</string>
+    <string name="can_not_connect">Kan være forkert WIFI. Tilslut igen 3 sekunder senere, eller vælg anden WIFI igen!</string>
+    <string name="cancel">annulleret</string>
+    <string name="cancell">Annuller</string>
+    <string name="cancell_dialog">ANNULLER</string>
+    <string name="change_color">Skift farve</string>
+    <string name="change_skin">Skift skin</string>
+    <string name="channelset">Farvekanalsæt</string>
+    <string name="charts">Grafisk forum</string>
+    <string name="check_network_connection">Kontroller venligst netværksforbindelse!!!</string>
+    <string name="chiptypevaluetip">Vælg venligst en værdi af Chip Type !</string>
+    <string name="choose">Vælg uge</string>
+    <string name="choosemode">Vælg tilstand</string>
+    <string name="chose">Vælg venligst kort video</string>
+    <string name="chose_list">vælg venligst afspilningsliste fra musikbibliotek</string>
+    <string name="chose_picthor">Kan kun vælge ét billede</string>
+    <string name="chose_video">Kan kun vælge én video</string>
+    <string name="circulation">løkke</string>
+    <string name="clear">Ryd</string>
+    <string name="close">luk</string>
+    <string name="colorful_mode">Farverig tilstand</string>
+    <string name="colour">Farve</string>
+    <string name="comment">kommentar</string>
+    <string name="comment_content">brødtekst</string>
+    <string name="comment_detail">kommentardetaljer</string>
+    <string name="comment_publish">udgivet</string>
+    <string name="comment_publish_success">udgivet med succes</string>
+    <string name="comment_title">overskrift</string>
+    <string name="common_words">Almindelige ord</string>
+    <string name="conenct_device">%1$s tilgængelige enheder; %2$s tilsluttet.</string>
+    <string name="confirm">BEKRÆFT</string>
+    <string name="confirm_light_flash_slowly">bekræft, at lyset blinker langsomt</string>
+    <string name="confirm_the_light_flash">bekræft lysets blinkende tilstand</string>
+    <string name="confirmation_light_flash_ble">3 > Bekræftelseslyset blinker hurtigt (hvidt lys)</string>
+    <string name="confirmation_light_flash_hotspot">3 Bekræftelseslampe blinker langsomt (rødt lys)</string>
+    <string name="confirmation_light_flash_wifi">3 > Bekræftelseslyset blinker hurtigt (blåt lys)</string>
+    <string name="connect_count">%1$s enhed</string>
+    <string name="connect_success">Forbind med succes!</string>
+    <string name="connected_to_the_hotspot_shown">1. Tilslut venligst telefonen til hotspottet vist i nedenstående figur</string>
+    <string name="connecting">Forbinder...</string>
+    <string name="control">Kontrol</string>
+    <string name="cool_warm">Kold: %1$s Varm: %2$s</string>
+    <string name="copy">Kopiér</string>
+    <string name="coral_artistic_conception">Koralkunstnerisk befrugtning</string>
+    <string name="current_mode">Aktuel tilstand</string>
+    <string name="current_mode_format">%1$s</string>
+    <string name="current_rgb_format">Aktuel RGB-sortering: %1$s</string>
+    <string name="current_version">Nuværende version</string>
+    <string name="currentquery">Statisk forespørgsel</string>
+    <string name="custom">BRUGERDEFINERET</string>
+    <string name="cycle">Cyklus</string>
+    <string name="database_error">Databasefejl</string>
+    <string name="deep_sea_mode">Deep Sea Mode</string>
+    <string name="define_system">brugerdefineret</string>
+    <string name="delete">Slet</string>
+    <string name="delete_group">slet gruppe %1$s</string>
+    <string name="deletthis">Træk her for at slette</string>
+    <string name="device_has_restarted">1. Bekræft, at enheden er genstartet, og at lyset blinker hurtigt</string>
+    <string name="device_list">enhedsliste</string>
+    <string name="devices_all">ALLE ENHEDER</string>
+    <string name="disconnect">Afbryd Bluetooth...</string>
+    <string name="disconnect_bluetooth">Er du sikker på, at du vil afbryde Bluetooth?</string>
+    <string name="download_center">Downloadcenter</string>
+    <string name="editTimer">Rediger timer</string>
+    <string name="edit_group_please">Rediger gruppeenheder først</string>
+    <string name="enter">Indtast venligst tilstandsugen</string>
+    <string name="fan_rotational_temperature">Blæserrotationstemperaturindstilling</string>
+    <string name="file_size_exceeds_limit">Filstørrelse overskrider grænsen</string>
+    <string name="filesize">Videofil må ikke være større end 20 MB</string>
+    <string name="firstlogin">Log venligst først</string>
+    <string name="five">fre</string>
+    <string name="flash">Flash</string>
+    <string name="floor">bygning</string>
+    <string name="floor_host">udlejer</string>
+    <string name="flow">BxWflow</string>
+    <string name="forget_password">Glemt adgangskode?</string>
+    <string name="forum">Forum</string>
+    <string name="four">tors</string>
+    <string name="g">G</string>
+    <string name="get_checkcode">Hent bekræftelseskoden</string>
+    <string name="goodbye">Farvel</string>
+    <string name="gpsNotifyMsg">Den aktuelle applikation skal åbne placeringsfunktionen.\nKlik venligst på\"Indstillinger\"-\"Placeringstjeneste\"-Åbn placeringsfunktionen.</string>
+    <string name="gradient">Gradient</string>
+    <string name="green">%1$s</string>
+    <string name="group_ble_device">Grupper</string>
+    <string name="groupname_cannot_same">Gruppenavne kan ikke være de samme !</string>
+    <string name="have_time_to_talk">Har du tid til at tale?</string>
+    <string name="hello_blank_fragment">Hej tomt fragment</string>
+    <string name="hello_there">Hej med dig</string>
+    <string name="help">Hjælp</string>
+    <string name="home">Hjem</string>
+    <string name="home_page">Hjem</string>
+    <string name="hotspot_connect">Hotspot</string>
+    <string name="hour">HOUR</string>
+    <string name="input_account">Indtast venligst dit kontonummer</string>
+    <string name="input_content">Indtast indhold...(kun tekst)</string>
+    <string name="input_length_error">inputlængdefejl</string>
+    <string name="input_not_null">input må ikke være tomt</string>
+    <string name="input_password">Indtast venligst din adgangskode</string>
+    <string name="invalid_verification_code">Ugyldig bekræftelseskode</string>
+    <string name="is_it_2_4">2. Tjek, om Wi-Fi er 2,4 GHz</string>
+    <string name="is_the_password_correct">3. Tjek, om Wi-Fi-adgangskoden er korrekt</string>
+    <string name="jump">Hop</string>
+    <string name="jump_over">Hop over</string>
+    <string name="keyStr">1234567890abcdef</string>
+    <string name="key_in_numbers">Indtast tal !</string>
+    <string name="led_like">LED LIKE</string>
+    <string name="light_code">Adressekode</string>
+    <string name="lightning_mode">Lyntilstand</string>
+    <string name="loading">indlæser ...</string>
+    <string name="login">login</string>
+    <string name="loginapp">Log venligst ind på forummet først</string>
+    <string name="logon_agree_policy1">Log ind for at læse og acceptere</string>
+    <string name="logon_agree_policy2">serviceaftale</string>
+    <string name="logout">afslut login</string>
+    <string name="long_press_the_controller_colorbtn">2> Tryk længe på controllerens farvetast i 5 sekunder</string>
+    <string name="long_press_the_controller_muscibtn">2> Tryk længe på controllerens musiktast i 5 sekunder</string>
+    <string name="long_press_the_controller_onoffbtn">2> Tryk længe på controllerens kontakttast i 5 sekunder</string>
+    <string name="look">Se denne kommentar</string>
+    <string name="looking">Forhåndsvisning...</string>
+    <string name="main_tab_text_service">LED LAMPE</string>
+    <string name="marine_mode">Marine tilstand</string>
+    <string name="micro_authorized">Mikrofonen er godkendt.</string>
+    <string name="minute">MINUT</string>
+    <string name="mode">Tilstand</string>
+    <string name="mode_select">Modeskift</string>
+    <string name="mode_set">Tilstand: %1$s</string>
+    <string name="model">TILSTAND</string>
+    <string name="msg_no_add_scene">Ikke indholdsvalg, handlingen er ugyldig</string>
+    <string name="msg_not_empty">Data ikke gemt, sikker på at du vil afslutte</string>
+    <string name="msg_sending_online">Scanner...</string>
+    <string name="multipoint_fast_running">MR</string>
+    <string name="music_lib">musiklib</string>
+    <string name="music_style_pop">Pop</string>
+    <string name="music_style_rock">Rock</string>
+    <string name="music_style_soft">Blødt</string>
+    <string name="my_personal">Mine</string>
+    <string name="natural_light">Naturlig</string>
+    <string name="nei_mai">I M</string>
+    <string name="network_timeout">timeout for netværksforbindelse til enhed</string>
+    <string name="new_password">ny adgangskode:</string>
+    <string name="next_step">Næste trin</string>
+    <string name="no_account">intet kontonummer?</string>
+    <string name="no_data">Ingen data</string>
+    <string name="no_device_found">INGEN ENHED FUNDET!</string>
+    <string name="no_more_data">Ikke flere data</string>
+    <string name="normal">按住 说话</string>
+    <string name="not_used">Ikke brugt</string>
+    <string name="nothing">Ingen data</string>
+    <string name="ok">OK</string>
+    <string name="old_password">gammel adgangskode:</string>
+    <string name="one">man</string>
+    <string name="online_service">Onlinetjeneste</string>
+    <string name="open">Åben</string>
+    <string name="open_album">Åben album</string>
+    <string name="open_close">O/C</string>
+    <string name="openapp">Klik venligst i øverste højre hjørne ⊕ for at tilføje software. For første gang skal du klikke på hjælpeknappen i nederste højre hjørne for at se betjeningsvejledningen</string>
+    <string name="p">P</string>
+    <string name="p_explain">Grafisk forklaring</string>
+    <string name="pair_code">Parkode</string>
+    <string name="pair_code_set">Aktuel kode: %1$s</string>
+    <string name="parameter_error">Parameterfejl</string>
+    <string name="password">adgangskode</string>
+    <string name="pecent_photos">Seneste billeder</string>
+    <string name="phone_connected_to_hotspot">tilslut mobiltelefonens WiFi til enhedens hotspot</string>
+    <string name="phone_or_email">mobiltelefonnummer eller e-mailadresse</string>
+    <string name="picture">Billedet må ikke være større end 1 MB, vælg venligst igen</string>
+    <string name="playvideo">Afspil</string>
+    <string name="please_describe_your_problem">Hej, beskriv venligst dit problem, jeg vil hjælpe dig med at løse det så hurtigt som muligt.</string>
+    <string name="please_enter_again">Angiv venligst igen!</string>
+    <string name="please_input">Nyt gruppenavn</string>
+    <string name="please_use_the_verification_code_sent">Brug venligst den sendte bekræftelseskode</string>
+    <string name="position_closed">Position lukket</string>
+    <string name="position_service">Positionsservice</string>
+    <string name="position_service_info">Din telefon skal muligvis aktivere placeringstjenester for at finde Bluetooth-enheder. Hvis du er sikker på, at du har en Bluetooth-enhed i nærheden, men du ikke kan finde den, skal du slå placeringstjenester til.</string>
+    <string name="power_on">1 > Tilslut strømforsyningen</string>
+    <string name="preview">forhåndsvisning</string>
+    <string name="privacy_policy">Serviceaftale og privatlivspolitik</string>
+    <string name="privacy_policy_content">Sørg venligst for omhyggeligt at læse og fuldt ud forstå vilkårene i Serviceaftalen og Privatlivspolitik, herunder men ikke begrænset til: de myndighedsoplysninger, du skal indhente for at kunne give dig data, deling og andre tjenester. Du kan læse serviceaftalen og privatlivspolitikken for detaljer. Hvis du accepterer, skal du klikke på Acceptér for at begynde at acceptere vores service.</string>
+    <string name="privacy_policy_content1">Sørg venligst for omhyggeligt at læse og fuldt ud forstå vilkårene i Serviceaftalen og Privatlivspolitik, inklusive men ikke begrænset til: de myndighedsoplysninger, du skal indhente for at kunne give dig data, deling og andre tjenester. Du kan læse </string>
+    <string name="privacy_policy_content2">Serviceaftale</string>
+    <string name="privacy_policy_content3">og</string>
+    <string name="privacy_policy_content4">Privatlivspolitik</string>
+    <string name="publish_comment">indsendt</string>
+    <string name="query">Forespørgsel</string>
+    <string name="r">R</string>
+    <string name="r_g_b">R:%1$s G:%2$s B:%3$s</string>
+    <string name="rationale_ask_again">Denne applikation fungerer muligvis ikke korrekt uden de anmodede tilladelser. Åbn grænsefladen til applikationsindstillinger for at ændre applikationstilladelser.</string>
+    <string name="reason">Årsag</string>
+    <string name="recording">松开 结束</string>
+    <string name="red">%1$s</string>
+    <string name="regist_agree_policy">Ved at tilmelde dig læser og accepterer du serviceaftalen og privatlivspolitikken</string>
+    <string name="regist_agree_policy1">Ved at tilmelde dig læser og accepterer du</string>
+    <string name="regist_agree_policy2">serviceaftale</string>
+    <string name="regist_agree_policy3">og</string>
+    <string name="regist_agree_policy4">privatlivspolitik</string>
+    <string name="register">registreret</string>
+    <string name="register_account">kontonummer:</string>
+    <string name="register_checkcode">bekræftelseskode:</string>
+    <string name="register_email">godkendelsesmetode:</string>
+    <string name="register_password">Adgangskode:</string>
+    <string name="register_success">vellykket registrering</string>
+    <string name="replacement">Nulstil</string>
+    <string name="reply">svar</string>
+    <string name="request_failed">anmodning mislykkedes, prøv venligst igen senere</string>
+    <string name="reset_device">Nulstil først enheden</string>
+    <string name="reset_message">Dataene vil blive ryddet efter nulstilling. Er du sikker på, at du vil nulstille?</string>
+    <string name="reset_password">Nulstil adgangskode</string>
+    <string name="reset_password_success">Nulstilling af adgangskode lykkedes, log venligst ind igen!</string>
+    <string name="retrieve">Hent</string>
+    <string name="retrieve_password">Hent adgangskode</string>
+    <string name="return_to_this_app_to_continue_adding_device">2. Vend tilbage til denne applikation og fortsæt med at tilføje udstyr</string>
+    <string name="rgb_sort">RGB-sortering</string>
+    <string name="rgb_sort_set">Aktuel sortering: %1$s</string>
+    <string name="ring">RING</string>
+    <string name="run">KØR</string>
+    <string name="save">Gem</string>
+    <string name="saveSuccessfully">Gem udført</string>
+    <string name="savefailed">Gem mislykkedes</string>
+    <string name="scan_dev_info">Scan til %1$s enhed，Vend venligst tilbage til startsiden for at åbne %2$s applikation</string>
+    <string name="scan_dev_info_wifi">Scannede %1$s enheder, %2$s enheder er blevet tilføjet</string>
+    <string name="scan_failed_with_missing_permissions">Scanning mislykkedes med manglende tilladelser</string>
+    <string name="scan_to">Scan til</string>
+    <string name="sdded_successfully">tilføjet med succes</string>
+    <string name="search_menu_title">Søg</string>
+    <string name="second">Anden</string>
+    <string name="select_all">Vælg alle</string>
+    <string name="select_chip">Vælg Chip</string>
+    <string name="send">Send</string>
+    <string name="sendSccess">Sendt med succes, tidsindstillingen er ugyldig efter strømmen er slukket</string>
+    <string name="send_checkcode">bekræftelseskode er blevet sendt</string>
+    <string name="sendcharts">Send tekst</string>
+    <string name="sendtie">Sender...</string>
+    <string name="sendvideo">Send video</string>
+    <string name="sensitivity">Følsomhed</string>
+    <string name="sensitivity_set">følsomhed: %1$s</string>
+    <string name="sent_success">Sendt med succes</string>
+    <string name="set_focus">Indstil fokus</string>
+    <string name="set_pix_number">Indstil adressekoden (0-512)</string>
+    <string name="setting">Wifi-forbindelse -></string>
+    <string name="seven">Søn</string>
+    <string name="shake">Ryst</string>
+    <string name="shouzhishanghua">手指上滑，取消发送</string>
+    <string name="single_click_select_color">Enkelt klik valgte farve, langt klik slet farve</string>
+    <string name="single_lamp_jump">SJ</string>
+    <string name="single_lamp_strobe">SS</string>
+    <string name="single_light_gradient">SG</string>
+    <string name="singlepoint_fast_running">SR</string>
+    <string name="six">Sta</string>
+    <string name="six_eighteen_length">6~18 numerisk alfabet</string>
+    <string name="six_number">6 cifre</string>
+    <string name="skin_restoration">Hudgendannelse</string>
+    <string name="skip_reset_step_ble">Hvis lyset blinker hvidt hurtigt, skal du springe nulstillingstrinnet over</string>
+    <string name="skip_reset_step_hotspot">Hvis lyset blinker rødt langsomt, skal du springe nulstillingstrinnet over</string>
+    <string name="skip_reset_step_wifi">Hvis lyset blinker blåt lys hurtigt, skal du springe nulstillingstrinnet over</string>
+    <string name="sleep_mode">Dvaletilstand</string>
+    <string name="spacercode">Spacer Code</string>
+    <string name="spacercodevaluetip">Indtast venligst værdien Spacer Code !</string>
+    <string name="speed">Hastighed</string>
+    <string name="speed_set">Hastighed: %1$s</string>
+    <string name="startcode">Startkode</string>
+    <string name="startcodevaluetip">Indtast venligst værdien Startkode !</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="step_1">Trin 1 \n Klik på det nederste navigationsikon\nvideo</string>
+    <string name="step_2">I tilfælde af appnedbrud\n\nAfinstaller venligst appen\n\nDownload igen</string>
+    <string name="step_3">Trin 3 \n Klik på videovejledningen</string>
+    <string name="strobe">Strobe</string>
+    <string name="sun_a">Læs</string>
+    <string name="sun_b">Lær</string>
+    <string name="sun_c">Sammen</string>
+    <string name="sun_d">Fritid</string>
+    <string name="sun_e">Romantisk</string>
+    <string name="sun_f">Blød</string>
+    <string name="sun_g">Søvn</string>
+    <string name="sun_h">Naturlig</string>
+    <string name="sun_i">varm strobe</string>
+    <string name="sun_sei">kold:100 varm:0</string>
+    <string name="sunrise_mode">Solopgangstilstand</string>
+    <string name="sunset_mode">Solnedgangstilstand</string>
+    <string name="sunshine_mode">Solskinstilstand</string>
+    <string name="supported">Beklager, op til 16 gange understøttes</string>
+    <string name="supportedlight">Beklager, op til 10 gange understøttes</string>
+    <string name="sure">Sikkert</string>
+    <string name="switch_distribution_mode">Prøv at skifte netværksdistributionstilstand</string>
+    <string name="switch_to_the_distribution_network">skift til distributionsnetværkstilstand</string>
+    <string name="system_device">system</string>
+    <string name="system_error">Systemfejl</string>
+    <string name="tab_aisle">Gang</string>
+    <string name="tab_brightness">Lysstyrke</string>
+    <string name="tab_ct">CT</string>
+    <string name="tab_custom">Tilpasset</string>
+    <string name="tab_dm">WHT DIM</string>
+    <string name="tab_mode">Tilstand</string>
+    <string name="tab_music">Musik</string>
+    <string name="tab_record">Optag</string>
+    <string name="tab_reg">RGB</string>
+    <string name="tab_scene">Scene</string>
+    <string name="tab_timer">Timer</string>
+    <string name="table1">Tabel 1</string>
+    <string name="table2">Tabel 2</string>
+    <string name="take_video">Seneste video</string>
+    <string name="temperature">Temperatur</string>
+    <string name="text">Indtast venligst brødteksten</string>
+    <string name="text_addname">Tilføj (Opdater) navn</string>
+    <string name="text_addscene_new">Tilføj ny tjeneste</string>
+    <string name="text_cancel">ANNULLER</string>
+    <string name="text_custom">Brugerdefineret</string>
+    <string name="text_edit">Rediger</string>
+    <string name="text_empty_name">Navnet må ikke være tomt</string>
+    <string name="text_empty_service">Tjenesten må ikke være tom</string>
+    <string name="text_exit">Igen i henhold til udgangen af ​​LED LAMP</string>
+    <string name="text_input_name">1 til 16 bogstaver, tal eller understregninger</string>
+    <string name="text_ledble">LED BLE</string>
+    <string name="text_leddmx">LED DMX</string>
+    <string name="text_ledlight">LED LYS</string>
+    <string name="text_ledline">LED LINE</string>
+    <string name="text_ledsmart">LED SMART</string>
+    <string name="text_ledspi">LED SPI</string>
+    <string name="text_ledstage">LED STAGE</string>
+    <string name="text_ledstrip">LED STRIP</string>
+    <string name="text_ledsun">LED SOL</string>
+    <string name="text_ledwifi">LED WiFi</string>
+    <string name="text_ok">OK</string>
+    <string name="text_over">Afslut</string>
+    <string name="text_pic">Billede</string>
+    <string name="text_pick_camera">Tag billeder</string>
+    <string name="text_pick_local">Galleri</string>
+    <string name="text_relaxation">Afslapning</string>
+    <string name="text_romance">Romantisk</string>
+    <string name="text_selectdevice">Vælg enhed</string>
+    <string name="text_sport">Sport</string>
+    <string name="text_storage">Gem</string>
+    <string name="text_str">Navn</string>
+    <string name="text_system">System</string>
+    <string name="text_warm_content">Sikker på, at du vil slette dette scenarie?</string>
+    <string name="text_warm_content1">Indtast venligst i indtastningsfeltet nedenfor:</string>
+    <string name="text_warming">Varm prompt</string>
+    <string name="the_parameter_is_empty">Parameteren er tom</string>
+    <string name="the_verification_code_is_sent_abnormally_please_try_again">Bekræftelseskoden er sendt unormalt, prøv venligst igen</string>
+    <string name="three">ons</string>
+    <string name="thunderstorm_mode">Tordenvejr</string>
+    <string name="tiele">Indtast venligst titlen</string>
+    <string name="time">tid</string>
+    <string name="timeSize">Det maksimale antal timere er 24</string>
+    <string name="time_set">Timingskorrektion</string>
+    <string name="timeday">timertiden kan ikke være den samme</string>
+    <string name="timelow">Batteriet er for lavt, det kan påvirke den normale brug af APP\'en</string>
+    <string name="timer">Er du sikker på, at du vil slette denne timer?</string>
+    <string name="timingquery">Timingsforespørgsel</string>
+    <string name="tip_istribution_network">Bemærk: Efter nulstilling af enheden skal du fuldføre netværkskonfigurationen inden for tre minutter</string>
+    <string name="tips">Tips</string>
+    <string name="title_settings_dialog">Tilladelseskrav</string>
+    <string name="to_connect">for at oprette forbindelse</string>
+    <string name="toast_scene_exist">Tjenesten findes</string>
+    <string name="token_error">Tokenfejl</string>
+    <string name="toolong">录音时间过长</string>
+    <string name="tooshort">录音时间过短</string>
+    <string name="turn_on_the_camera">Tænd kameraet</string>
+    <string name="tv_chip_set">Chipindstillinger</string>
+    <string name="two">tirs</string>
+    <string name="un_known_artist">un_known_artist</string>
+    <string name="update">ændret</string>
+    <string name="update_password">rediger adgangskode</string>
+    <string name="update_password_success">har ændret adgangskoden</string>
+    <string name="username_already_exists">Brugernavn findes allerede</string>
+    <string name="valuetip">Indtast venligst en værdi større end 0 !</string>
+    <string name="video">Video</string>
+    <string name="video_explain">Videoforklaring</string>
+    <string name="video_operation_tutorial">Videobetjeningsvejledning</string>
+    <string name="w">W</string>
+    <string name="wai_mai">E M</string>
+    <string name="want_to_cancle">松开手指，取消发送</string>
+    <string name="warm_light">Varm</string>
+    <string name="what_the_matter">Hvad er der i vejen?</string>
+    <string name="white_light">Cool</string>
+    <string name="wifi_connect">WiFi</string>
+    <string name="wifi_network">i øjeblikket på 2,4 GHz Wi-Fi-netværket, og indtast adgangskoden</string>
+    <string name="wifi_network_not_2_4">Hvis dit Wi-Fi er 5GHz, skal du først indstille det til 2,4GHz</string>
+    <string name="wifi_signal_is_good">for at sikre et godt Wi-Fi-signal</string>
+    <string name="wrong_old_password">Forkert gammel adgangskode</string>
+    <string name="wrong_user_name_or_password">Forkert brugernavn eller adgangskode</string>
+</resources>

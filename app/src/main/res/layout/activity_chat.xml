@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/layout_tongbao_rl" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/layout_title_back"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_top" android:layout_width="match_parent" android:layout_height="48dp"/>
+    <com.forum.im.widget.pulltorefresh.PullToRefreshLayout android:orientation="vertical" android:id="@+id/content_lv" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:layout_above="@+id/bottom_container_ll" android:layout_below="@+id/ll_top"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bottom_container_ll" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/tongbao_utils" android:background="@drawable/frame_bg" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="16sp" android:layout_gravity="center_vertical" android:id="@+id/mess_et" android:background="@drawable/shape_gray" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="@string/input_content" android:layout_weight="1" android:inputType="text" android:imeOptions="actionSend"/>
+            <Button android:textColor="@color/white" android:id="@+id/btnSend" android:background="@drawable/bottom_border" android:layout_width="70dp" android:layout_height="@dimen/dp_40" android:layout_marginLeft="@dimen/dp_10" android:text="@string/send"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/voice_iv" android:background="@drawable/voice_btn_normal" android:padding="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp"/>
+            <com.forum.im.widget.AudioRecordButton android:textColor="#727272" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/voice_btn" android:background="@drawable/button_recordnormal" android:padding="5dp" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="5dp" android:minHeight="0dp" android:text="@string/normal" android:layout_weight="1"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/emoji" android:background="@drawable/emoji" android:padding="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/mess_iv" android:background="@drawable/tb_more" android:padding="4dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/emoji_group" android:background="@color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <androidx.viewpager.widget.ViewPager android:id="@+id/vPager" android:background="@color/light_gray_2" android:layout_width="match_parent" android:layout_height="150dp" android:layout_marginTop="3dp"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:background="@color/light_gray_2" android:paddingLeft="5dp" android:paddingTop="5dp" android:paddingRight="5dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/emoji_icon" android:layout_alignParentLeft="true"/>
+                <TextView android:textSize="16sp" android:textColor="@color/white" android:id="@+id/send_emoji_icon" android:background="@drawable/frame_blue_to_thin_bg" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.forum.im.widget.ChatBottomView android:id="@+id/other_lv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="200dp"/>
+            <ListView android:id="@+id/mess_lv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

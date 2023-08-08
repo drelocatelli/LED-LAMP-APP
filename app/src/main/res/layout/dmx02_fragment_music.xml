@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingLeft="@dimen/dp_10" android:paddingRight="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:id="@+id/rlDMX02VoiceCtl" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/margin_content" android:layout_marginRight="@dimen/margin_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/llViewBlocks" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="@dimen/dp_10" android:layout_weight="7">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textColor="@color/transparent" android:gravity="center" android:tag="ivMicroMode1" android:background="@drawable/dmx03_micro_mode_1" android:layout_width="@dimen/dp_100" android:layout_height="@dimen/dp_100" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="1"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textColor="@color/transparent" android:gravity="center" android:tag="ivMicroMode2" android:background="@drawable/dmx03_micro_mode_2" android:layout_width="@dimen/dp_100" android:layout_height="@dimen/dp_100" android:text="2"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textColor="@color/transparent" android:gravity="center" android:tag="ivMicroMode3" android:background="@drawable/dmx03_micro_mode_3" android:layout_width="@dimen/dp_100" android:layout_height="@dimen/dp_100" android:layout_marginLeft="@dimen/margin_mid" android:layout_marginRight="@dimen/margin_mid" android:text="3"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                        <TextView android:textColor="@color/transparent" android:gravity="center" android:tag="ivMicroMode4" android:background="@drawable/dmx03_micro_mode_4" android:layout_width="@dimen/dp_100" android:layout_height="@dimen/dp_100" android:text="4"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dp_10" android:paddingRight="@dimen/dp_10" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="5">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                    <SeekBar android:id="@+id/seekBarSensitivityDMX02" android:paddingLeft="@dimen/dp_18" android:paddingRight="@dimen/dp_18" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="16dp" android:max="100" android:progress="50" android:progressDrawable="@drawable/seekbar_speed" android:minHeight="16dp" android:thumb="@drawable/painttwo"/>
+                    <TextView android:textSize="@dimen/text_size6" android:textColor="@color/white" android:gravity="center" android:id="@+id/textViewSensitivityDMX02" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/sensitivity"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/llMusic" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/margin_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="50dp" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                <Button android:id="@+id/ivEditColor" android:background="@drawable/imageedit" android:layout_width="@dimen/dp_50" android:layout_height="@dimen/dp_50" android:layout_below="@+id/ivRightMenu"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <TextView android:textColor="@android:color/white" android:id="@+id/tvRhythm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/speed"/>
+            <LinearLayout android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <SeekBar android:id="@+id/seekBarRhythm" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:progress="80" android:thumb="@drawable/pointth"/>
+            </LinearLayout>
+            <TextView android:textColor="@android:color/white" android:id="@+id/tvrhythmValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="80"/>
+            <ImageView android:id="@+id/imageViewEdit" android:visibility="gone" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:src="@drawable/imageedit"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center" android:id="@+id/imageViewRotate" android:background="@drawable/music_gradualchange" android:layout_width="@dimen/dp_250" android:layout_height="@dimen/dp_250"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/llBottom" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="3">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <com.common.view.ScrollForeverTextView android:textColor="@color/text_color_blue" android:ellipsize="marquee" android:gravity="center" android:id="@+id/textViewAutoAjust" android:background="@color/transparent" android:focusable="true" android:layout_width="match_parent" android:layout_height="30dp" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_weight="1">
+                <TextView android:textColor="@color/white" android:id="@+id/tvCurrentTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0:00" android:layout_centerVertical="true"/>
+                <SeekBar android:id="@+id/seekBarMusic" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dp_24" android:layout_marginRight="@dimen/dp_24" android:maxHeight="@dimen/dp_4" android:max="100" android:progressDrawable="@drawable/dmx02_seekbar_musicprogress" android:minHeight="@dimen/dp_2" android:thumb="@drawable/pointth" android:layout_centerVertical="true"/>
+                <TextView android:textColor="@color/white" android:id="@+id/tvTotalTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0:00" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2">
+                <ImageView android:id="@+id/imageViewPlayType" android:layout_width="30dp" android:layout_height="30dp" android:layout_margin="@dimen/margin_content" android:src="@drawable/playtype_loopall"/>
+                <ImageView android:id="@+id/imageViewPre" android:layout_width="30dp" android:layout_height="30dp" android:layout_margin="@dimen/margin_content" android:src="@drawable/bg_play_pre"/>
+                <ImageView android:id="@+id/imageViewPlay" android:layout_width="30dp" android:layout_height="30dp" android:layout_margin="@dimen/margin_content" android:src="@drawable/bg_play"/>
+                <ImageView android:id="@+id/imageViewNext" android:layout_width="30dp" android:layout_height="30dp" android:layout_margin="@dimen/margin_content" android:src="@drawable/bg_play_next"/>
+                <Button android:id="@+id/buttonMusicLib" android:background="@drawable/play_queue" android:layout_width="25dp" android:layout_height="25dp" android:layout_margin="@dimen/margin_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

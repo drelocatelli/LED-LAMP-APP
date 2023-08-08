@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/rl_all" android:background="#ffffff" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.video.CircleImageView android:id="@+id/iv_icon111" android:layout_width="35dp" android:layout_height="35dp" android:layout_marginLeft="15dp" android:src="@drawable/user_pic"/>
+    <TextView android:textSize="14sp" android:textColor="@color/blue" android:id="@+id/tv_name111" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:text="小可爱" android:layout_toRightOf="@+id/iv_icon111"/>
+    <TextView android:textSize="16sp" android:textColor="#ff333333" android:id="@+id/tv_context111" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="5dp" android:text="哈哈哈哈哈哈哈哈哈" android:layout_toRightOf="@+id/iv_icon111" android:layout_below="@+id/tv_time111"/>
+    <TextView android:textSize="13sp" android:textColor="#ff666666" android:id="@+id/tv_time111" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="3dp" android:text="2019-01-01" android:layout_toRightOf="@+id/iv_icon111" android:layout_below="@+id/tv_name111"/>
+    <TextView android:background="@color/grayLight" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="@dimen/dp_2" android:layout_below="@+id/tv_context111"/>
+    <TextView android:textSize="14sp" android:textColor="@color/blue" android:id="@+id/lou" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp" android:layout_alignParentRight="true"/>
+</RelativeLayout>

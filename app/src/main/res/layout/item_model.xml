@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/dp_20" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/textViewLabelId" android:layout_width="match_parent" android:layout_height="@dimen/dp_40" android:singleLine="true"/>
+</RelativeLayout>

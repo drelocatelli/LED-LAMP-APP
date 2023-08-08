@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="80dp">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/rlImageViewAdd" android:background="@color/white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_centerInParent="true">
+            <ImageView android:id="@+id/imageViewAdd" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/like_timer_add" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@+id/rlTimerAll" android:background="@drawable/wifi_connect_home_frame" android:layout_width="match_parent" android:layout_height="80dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+                <RelativeLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="60sp" android:textColor="@color/black" android:id="@+id/ttv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="25sp" android:textColor="@color/black" android:gravity="center" android:id="@+id/mtv" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="99999" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+                <TextView android:textSize="16sp" android:textColor="@color/black" android:id="@+id/wtv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/dp_20" android:layout_centerVertical="true"/>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_alignParentRight="true">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wifi_add_device" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

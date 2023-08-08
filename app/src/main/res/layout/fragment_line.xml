@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scrollView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/lin">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:layout_marginBottom="@dimen/dp_10">
+            <RelativeLayout android:id="@+id/rl_r" android:background="@drawable/red" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/r"/>
+                <SeekBar android:id="@+id/skr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_40" android:layout_marginRight="@dimen/dp_20" android:max="100" android:layout_centerVertical="true"/>
+                <TextView android:textColor="@color/white" android:id="@+id/tvr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rl_g" android:background="@drawable/grren" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g"/>
+                <SeekBar android:id="@+id/skg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_40" android:layout_marginRight="@dimen/dp_20" android:max="100" android:layout_centerVertical="true"/>
+                <TextView android:textColor="@color/white" android:id="@+id/tvg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rl_b" android:background="@drawable/blue" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b"/>
+                <SeekBar android:id="@+id/skb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_40" android:layout_marginRight="@dimen/dp_20" android:max="100" android:layout_centerVertical="true"/>
+                <TextView android:textColor="@color/white" android:id="@+id/tvb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rl_w" android:background="@drawable/write" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/w"/>
+                <SeekBar android:id="@+id/skw" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_40" android:layout_marginRight="@dimen/dp_20" android:max="100" android:layout_centerVertical="true"/>
+                <TextView android:textColor="@color/white" android:id="@+id/tvw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rl_cyan" android:background="@drawable/cyan" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c"/>
+                <SeekBar android:id="@+id/skcyan" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_40" android:layout_marginRight="@dimen/dp_20" android:max="100" android:layout_centerVertical="true"/>
+                <TextView android:textColor="@color/white" android:id="@+id/tvcycn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/rl_pink" android:background="@drawable/pink" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/p"/>
+                <SeekBar android:id="@+id/skpink" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_40" android:layout_marginRight="@dimen/dp_20" android:max="100" android:layout_centerVertical="true"/>
+                <TextView android:textColor="@color/white" android:id="@+id/tvpink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <com.example.linechartlibrary.LineChartView android:id="@+id/lineView" android:layout_width="match_parent" android:layout_height="220dp"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ll11" android:layout_width="match_parent" android:layout_height="@dimen/dp_40">
+                <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="0dp" android:layout_height="40dp" android:text="ID" android:layout_weight="1"/>
+                <TextView android:textSize="@dimen/text_size3" android:textColor="@color/white" android:gravity="center" android:background="@color/transparent" android:layout_width="0dp" android:layout_height="40dp" android:text="@string/time" android:layout_weight="1"/>
+                <RelativeLayout android:id="@+id/rl_1" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                    <View android:tag="viewColor1" android:background="@drawable/color_block_bright_red" android:layout_width="20dp" android:layout_height="20dp" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/rl_2" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                    <View android:tag="viewColor2" android:background="@drawable/color_block_bright_green" android:layout_width="20dp" android:layout_height="20dp" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/rl_3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                    <View android:tag="viewColor3" android:background="@drawable/color_block_bright_lightblue" android:layout_width="20dp" android:layout_height="20dp" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/rl_4" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                    <View android:tag="viewColor4" android:background="@drawable/color_block_bright_white" android:layout_width="20dp" android:layout_height="20dp" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/rl_5" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                    <View android:tag="viewColor5" android:background="@drawable/color_block_bright_crystal" android:layout_width="20dp" android:layout_height="20dp" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/rl_6" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                    <View android:tag="viewColor6" android:background="@drawable/color_block_bright_pink" android:layout_width="20dp" android:layout_height="20dp" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <ListView android:id="@+id/list_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_5"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/lin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:layout_marginBottom="@dimen/dp_10" android:layout_alignParentBottom="true">
+        <com.common.view.SegmentedRadioGroup android:gravity="top|center_horizontal" android:orientation="horizontal" android:id="@+id/rgGradientAndJump" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkedButton="@+id/button_one">
+            <RadioButton android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@drawable/checkbox_color" android:gravity="center" android:id="@+id/rbGradient" android:layout_height="match_parent" android:button="@null" android:minWidth="40dp" android:text="@string/gradient"/>
+            <RadioButton android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@drawable/checkbox_color" android:gravity="center" android:id="@+id/rbJump" android:layout_height="match_parent" android:button="@null" android:minWidth="40dp" android:text="@string/jump"/>
+        </com.common.view.SegmentedRadioGroup>
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/tvReset" android:background="@drawable/color_block_bright_white" android:layout_width="@dimen/dp_70" android:layout_height="wrap_content" android:text="@string/replacement" android:layout_marginStart="@dimen/dp_10"/>
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@+id/tvLook" android:background="@drawable/color_block_bright_white" android:layout_width="@dimen/dp_70" android:layout_height="wrap_content" android:text="@string/preview" android:layout_marginStart="@dimen/dp_10"/>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="32dp" android:layout_marginTop="@dimen/dp_5">
+            <ImageView android:id="@+id/addtime" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:src="@drawable/abcd" android:layout_marginStart="@dimen/dp_20"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

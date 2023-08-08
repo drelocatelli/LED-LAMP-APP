@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/picture_color_black" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/picture_preview_title_bar"/>
+    <com.luck.picture.lib.widget.PreviewViewPager android:id="@+id/preview_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/select_bar_layout" android:layout_below="@+id/picture_title"/>
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/select_bar_layout" android:background="?attr/res_0x7f0401e2_ac_preview_bottom_bg" android:layout_width="match_parent" android:layout_height="45dp" android:layout_alignParentBottom="true">
+        <TextView android:textSize="12sp" android:textColor="@color/picture_color_white" android:gravity="center" android:id="@+id/tv_img_num" android:background="?attr/res_0x7f0401f0_num_style" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:text="0" android:layout_toLeftOf="@+id/tv_ok" android:layout_centerVertical="true"/>
+        <TextView android:enabled="false" android:textSize="14sp" android:textColor="?attr/res_0x7f0401e3_ac_preview_complete_textcolor" android:gravity="center" android:id="@+id/tv_ok" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="请选择" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</RelativeLayout>

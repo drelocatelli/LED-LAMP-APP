@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="bottom" android:orientation="vertical" android:background="#00000000" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:textSize="16sp" android:id="@+id/btnLocalImage" android:background="@drawable/photo_gallery_selector" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/text_pick_local"/>
+    <TextView android:background="#dad9db" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <Button android:textSize="16sp" android:id="@+id/btnCameraImage" android:background="@drawable/photo_camera_selector" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/text_pick_camera"/>
+    <Button android:textSize="16sp" android:id="@+id/btnCancel" android:background="@drawable/photo_cancel_selector" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/text_cancel"/>
+</LinearLayout>

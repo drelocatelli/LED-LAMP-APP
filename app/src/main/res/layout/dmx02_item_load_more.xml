@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="@dimen/dp_26" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/ivRefreshArrow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_left" android:scaleType="matrix"/>
+    <TextView android:textSize="@dimen/dp_10" android:textColor="@color/red" android:id="@+id/tvMoreText" android:layout_width="@dimen/dp_12" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_6" android:text="最多5张图"/>
+</LinearLayout>

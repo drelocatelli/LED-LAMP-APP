@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/bg_all" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/relativeLayoutHeader" android:background="@drawable/tab_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/tab_height">
+        <Button android:textSize="@dimen/text_size6" android:textColor="@color/text_color_blue" android:id="@+id/buttonCancell" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_mid" android:text="@string/cancell_dialog" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <Button android:textSize="@dimen/text_size6" android:textColor="@color/text_color_blue" android:id="@+id/buttonSave" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_mid" android:text="@string/save" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <View android:layout_width="match_parent" android:layout_height="@dimen/tab_height"/>
+    <LinearLayout android:orientation="vertical" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="@dimen/tab_height">
+                <com.common.view.TextViewBorder android:textSize="@dimen/text_size6" android:textColor="@color/text_color_blue" android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/hour" android:layout_weight="1"/>
+                <com.common.view.TextViewBorder android:textSize="@dimen/text_size6" android:textColor="@color/text_color_blue" android:gravity="center" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/minute" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.home.view.wheel.WheelView android:id="@+id/listViewH" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+                <com.home.view.wheel.WheelView android:id="@+id/listViewM" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linearLayoutContainer" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <com.common.view.TextViewBorder android:textSize="@dimen/text_size6" android:textColor="@color/white" android:gravity="center" android:id="@+id/textViewModel" android:layout_width="match_parent" android:layout_height="@dimen/tab_height" android:text="@string/pair_code"/>
+            <com.home.view.wheel.WheelView android:id="@+id/listViewModel" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/tab_bg" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="@dimen/margin_content" android:layout_marginRight="@dimen/margin_content" android:layout_marginBottom="20dp" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/text_size6" android:textColor="@color/white" android:gravity="center" android:id="@+id/textViewOKButton" android:layout_width="match_parent" android:layout_height="match_parent" android:text="OK"/>
+    </LinearLayout>
+</RelativeLayout>
